@@ -1,7 +1,7 @@
 var fs = require("fs");
 var columnify = require('columnify');
 var path = require("path");
-var tctools = require("./timecodetools");
+var ffprobetools = require("./ffprobetools");
 var re = /^\./;
 
 function rename(folderPath) {
@@ -34,13 +34,20 @@ function rename(folderPath) {
           var newName = (dirBase + "_" + camFolder + "_" + counter + ext)
           i++;
           var oldPath = path.join(folderPath, camFolder, file);
-          // tctools.ffprobe(oldPath, probeArray);
+          // ffprobetools.ffprobe(oldPath, probeArray);
           console.log("about to do ffprobe on " + oldPath);
-          tctools.ffprobeSync(oldPath);
+          var video_metadata=ffprobetools.ffprobeSync(oldPath);
+          var videoMetaObject = JSON.parse(video_metadata);
           console.log("done ffprobe");
           var newPath = path.join(folderPath, newName);
-          var fileInfo = {"oldPath":oldPath, "newPath":newPath, "newName":newName, "ext":ext, "camera":camFolder, "shoot":dirBase};
+          var fileInfo = {"oldPath":oldPath, "newPath":newPath, "newName":newName, "ext":ext, "camera":camFolder, "shoot":dirBase, ffprobe:videoMetaObject};
+          // add to above ultimately
+          // , "ffprobe":video_metadata
+
           console.log("just a test---here is the new path accessed via fileInfo.newPath: " + fileInfo.newPath);
+          console.log("\n");
+          // console.log('and maybe this is the codec_long_name if ffprobeSync is working? \t' +  fileInfo.video_metadata.streams[0].codec_long_name);
+          console.log('trying just the stdout now ' + video_metadata);
           fileList.push(newPath);
           fileObjectList.push(fileInfo);
           var update = ("\ngoing to try to rename \t\t" + oldPath + "\t to \t" + newPath)
@@ -75,5 +82,24 @@ function testIt(string) {
   console.log("shootprocessor is working, and the string should be: " + string);
 }
 
+function dateFromId(shootId) {
+  console.log("working in dateFromId with " + shootId);
+  var regexTest = /^\d{8}/;
+  var dateRoot = shootId.slice(0,8);
+  if (regexTest.test(dateRoot)) {
+    var y = dateRoot.substr(0,4),
+        m = dateRoot.substr(4,2),
+        d = dateRoot.substr(6,2);
+    var D = new Date(y,m,d);
+    console.log("the date is " + D);
+    // return (D.getFullYear() == y && D.getMonth() == m && D.getDate() == d) ? D : 'invalid date';
+    return {dateString:dateRoot, date: D};
+  }
+  else {
+    console.log(shootId + "'s dateRoot " + dateRoot + " is not a valid date string");
+  }
+}
+
 module.exports.rename = rename;
 module.exports.echo = testIt;
+module.exports.dateFromId = dateFromId;
