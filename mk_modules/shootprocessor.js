@@ -2,9 +2,9 @@ var fs = require("fs");
 var columnify = require('columnify');
 var path = require("path");
 var ffprobetools = require("./ffprobetools");
-var re = /^\./;
 
 function rename(folderPath) {
+  var re = /^\./;
   var probeArray = [];
   var dirBase = path.basename(folderPath);
   var fileList = [];
@@ -62,8 +62,6 @@ function rename(folderPath) {
     }
   })
 
-
-
   console.log(fileList.join());
   var columns = columnify(fileObjectList);
   console.log(columns);
@@ -99,6 +97,7 @@ function dateFromId(shootId) {
     console.log(shootId + "'s dateRoot " + dateRoot + " is not a valid date string");
   }
 }
+
 
 
 
