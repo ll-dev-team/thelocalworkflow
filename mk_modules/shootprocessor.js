@@ -88,7 +88,7 @@ function dateFromId(shootId) {
   var dateRoot = shootId.slice(0,8);
   if (regexTest.test(dateRoot)) {
     var y = dateRoot.substr(0,4),
-        m = dateRoot.substr(4,2),
+        m = (dateRoot.substr(4,2) - 1),
         d = dateRoot.substr(6,2);
     var D = new Date(y,m,d);
     console.log("the date is " + D);
@@ -99,6 +99,8 @@ function dateFromId(shootId) {
     console.log(shootId + "'s dateRoot " + dateRoot + " is not a valid date string");
   }
 }
+
+
 
 module.exports.rename = rename;
 module.exports.echo = testIt;
