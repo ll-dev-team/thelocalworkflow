@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+<fcpxml version="1.5">
+    <resources>
+        <format id="r1" name="FFVideoFormat1080p2398" frameDuration="1001/24000s" width="1920" height="1080"/>
+        <asset id="r2" name="20170213_105_BTS_ZK_C300a_001" uid="089083749718BD8BB420C25B21FA4EF7" src="file:///Users/mk/Development/assets/video/20170213_105_BTS_ZK/C300a/20170213_105_BTS_ZK_C300a_001.mov" start="1474236764/24000s" duration="2906904/24000s" hasVideo="1" format="r1" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+        </asset>
+        <asset id="r3" name="20170213_105_BTS_ZK_C300b_001" uid="50ADE7349717F21F5DDE927A103CAA77" src="file:///Users/mk/Development/assets/video/20170213_105_BTS_ZK/C300b/20170213_105_BTS_ZK_C300b_001.mov" start="1473855383/24000s" duration="3327324/24000s" hasVideo="1" format="r1" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+
+        </asset>
+        <media id="r4" name="20170213_105_BTS_ZK_MC" uid="I9qfESSfRqG3KwWoXBoXdg">
+            <multicam format="r1" tcStart="1473855383/24000s" tcFormat="NDF">
+                <mc-angle name="C300a" angleID="0000C300a">
+                    <gap name="Gap" offset="0s" duration="381381/24000s" start="86400314/24000s"/>
+                    <clip name="20170213_105_BTS_ZK_C300a_001" offset="381381/24000s" duration="2906904/24000s" start="1474236764/24000s" tcFormat="NDF">
+                        <video offset="1474236764/24000s" ref="r2" duration="2906904/24000s" start="1474236764/24000s">
+                            <audio lane="-1" offset="44227102920/720000s" ref="r2" duration="87207120/720000s" start="44227102920/720000s" role="dialogue.dialogue-1" srcCh="1, 2"/>
+                        </video>
+                        <audio-source role="dialogue.dialogue-1" srcCh="1"/>
+                        <audio-source role="dialogue.dialogue-2" srcCh="2"/>
+                    </clip>
+                </mc-angle>
+                <mc-angle name="C300b" angleID="0000C300b">
+                    <clip name="20170213_105_BTS_ZK_C300b_001" offset="0s" duration="3327324/24000s" start="1473855383/24000s" tcFormat="NDF">
+                        <video offset="1473855383/24000s" ref="r3" duration="3327324/24000s" start="1473855383/24000s">
+                            <audio lane="-1" offset="44215661490/720000s" ref="r3" duration="99819720/720000s" start="44215661490/720000s" role="dialogue.dialogue-1" srcCh="1, 2"/>
+                        </video>
+                        <audio-source role="dialogue.dialogue-1" srcCh="1"/>
+                        <audio-source role="dialogue.dialogue-2" srcCh="2"/>
+                    </clip>
+                </mc-angle>
+            </multicam>
+        </media>
+        <media id="r5" name="20170213_105_BTS_ZK_MC_CC" uid="DsoK8pCDSnqEA0D8XSoDZw">
+            <sequence duration="3327324/24000s" format="r1" tcStart="1473855383/24000s" tcFormat="NDF">
+                <spine>
+                    <mc-clip name="20170213_105_BTS_ZK_MC" offset="1473855383/24000s" ref="r4" duration="3327324/24000s" start="1473855383/24000s">
+                        <mc-source angleID="0000C300a" srcEnable="all">
+                            <adjust-transform position="-44.2593 9.25926" scale="0.487 0.487"/>
+                        </mc-source>
+                        <mc-clip name="20170213_105_BTS_ZK_MC" lane="-2" offset="1473855383/24000s" ref="r4" duration="3327324/24000s" start="1473855383/24000s">
+                            <adjust-volume amount="-96dB"/>
+                            <mc-source angleID="0000C300a" srcEnable="audio"/>
+                            <mc-source angleID="0000GH4" srcEnable="video">
+                                <adjust-transform position="44.2593 -9.25926" scale="0.487 0.487"/>
+                            </mc-source>
+                        </mc-clip>
+                        <mc-clip name="20170213_105_BTS_ZK_MC" lane="-1" offset="1473855383/24000s" ref="r4" duration="3327324/24000s" start="1473855383/24000s">
+                            <adjust-volume amount="-96dB"/>
+                            <mc-source angleID="0000C300a" srcEnable="audio"/>
+                            <mc-source angleID="0000C300b" srcEnable="video">
+                                <adjust-transform position="23.1481 29.3056" scale="0.25 0.25"/>
+                            </mc-source>
+                        </mc-clip>
+                        <video name="Timecode" lane="1" offset="1473855383/24000s" ref="r6" duration="3327324/24000s" start="86486400/24000s">
+                            <param name="Size" key="9999/10128/10112/5/10115/3" value="80"/>
+                            <param name="Font" key="9999/10128/10112/5/10115/83" value="85 0"/>
+                            <param name="Center" key="9999/999664071/999664069/3/999664094/1" value="0.386987 0.595341"/>
+                            <param name="Mix" key="9999/999664071/999664069/3/999664094/10001" value="1"/>
+                            <param name="Publish OSC" key="9999/999664071/999664069/3/999664094/10005" value="1"/>
+                            <param name="Angle" key="9999/999664071/999664069/3/999664094/2" value="30"/>
+                            <param name="Crop" key="9999/999664071/999664069/3/999664094/4" value="1"/>
+                        </video>
+                        <title name="20170213_105_BTS_ZK shoot - Basic Title" lane="2" offset="1473855383/24000s" ref="r7" duration="3327324/24000s" start="86486400/24000s">
+                            <param name="Position" key="9999/999166631/999166633/1/100/101" value="-22.5781 -343.719"/>
+                            <param name="Flatten" key="9999/999166631/999166633/2/351" value="1"/>
+                            <param name="Alignment" key="9999/999166631/999166633/2/354/999169573/401" value="2 (Right)"/>
+                            <text>
+                                <text-style ref="ts1">20170213_105_BTS_ZK title example</text-style>
+                            </text>
+                            <text-style-def id="ts1">
+                                <text-style font="Avenir" fontSize="40" fontFace="Light" fontColor="1 0.999974 0.999991 1" alignment="right"/>
+                            </text-style-def>
+                        </title>
+                    </mc-clip>
+                </spine>
+            </sequence>
+        </media>
+        <effect id="r6" name="Timecode" uid=".../Generators.localized/Elements.localized/Timecode.localized/Timecode.motn"/>
+        <effect id="r7" name="Basic Title" uid=".../Titles.localized/Bumper:Opener.localized/Basic Title.localized/Basic Title.moti"/>
+        <media id="r8" name="try_3" uid="la5S1hqxQiKBQuT+THbdOg">
+            <multicam format="r1" tcStart="117621504000/1920000s" tcFormat="NDF">
+                <mc-angle name="CANON XF" angleID="UDXcoq0FT5e1RPevvnYOgA">
+                    <clip name="20170213_105_BTS_ZK_C300b_001" offset="0s" duration="3327324/24000s" start="1473855383/24000s" tcFormat="NDF">
+                        <video offset="1473855383/24000s" ref="r3" duration="3327324/24000s" start="1473855383/24000s">
+                            <audio lane="-1" offset="44215661490/720000s" ref="r3" duration="99819720/720000s" start="44215661490/720000s" role="dialogue.dialogue-1" srcCh="1, 2"/>
+                        </video>
+                    </clip>
+                </mc-angle>
+                <mc-angle name="Untitled Angle" angleID="Z516bvyeScq7ofOVLfnBTQ">
+                    <gap name="Gap" offset="0s" duration="380380/24000s" start="86400314/24000s"/>
+                    <clip name="20170213_105_BTS_ZK_C300a_001" offset="380380/24000s" duration="2906904/24000s" start="1474236764/24000s" tcFormat="NDF">
+                        <video offset="1474236764/24000s" ref="r2" duration="2906904/24000s" start="1474236764/24000s">
+                            <audio lane="-1" offset="44227102920/720000s" ref="r2" duration="87207120/720000s" start="44227102920/720000s" role="dialogue.dialogue-1" srcCh="1, 2"/>
+                        </video>
+                    </clip>
+                </mc-angle>
+            </multicam>
+        </media>
+    </resources>
+    <library location="file:///Users/mk/Development/temp/Untitled%202.fcpbundle/">
+        <event name="20170213_105_BTS_ZK" uid="72227832-773A-4B16-8599-3A1EF4A2669C">
+            <clip name="20170213_105_BTS_ZK_C300a_001" duration="2906904/24000s" start="1474236764/24000s" format="r1" tcFormat="NDF">
+                <video offset="1474236764/24000s" ref="r2" duration="2906904/24000s" start="1474236764/24000s">
+                    <audio lane="-1" offset="44227102920/720000s" ref="r2" duration="87207120/720000s" start="44227102920/720000s" role="dialogue.dialogue-1" srcCh="1, 2"/>
+                </video>
+            </clip>
+            <clip name="20170213_105_BTS_ZK_C300b_001" duration="3327324/24000s" start="1473855383/24000s" format="r1" tcFormat="NDF">
+                <video offset="1473855383/24000s" ref="r3" duration="3327324/24000s" start="1473855383/24000s">
+                    <audio lane="-1" offset="44215661490/720000s" ref="r3" duration="99819720/720000s" start="44215661490/720000s" role="dialogue.dialogue-1" srcCh="1, 2"/>
+                </video>
+            </clip>
+            <mc-clip name="20170213_105_BTS_ZK_MC" ref="r4" duration="3327324/24000s" start="1473855383/24000s">
+                <mc-source angleID="0000C300b" srcEnable="all"/>
+            </mc-clip>
+            <ref-clip name="20170213_105_BTS_ZK_MC_CC" ref="r5" duration="3327324/24000s" start="1473855383/24000s"/>
+            <project name="20170213_105_BTS_ZK_MC_CC_Ex" uid="443F494C-54B7-48E8-9D71-37D169AFA365">
+                <sequence duration="3327324/24000s" format="r1" tcStart="1473855383/24000s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+                    <spine>
+                        <ref-clip name="20170213_105_BTS_ZK_MC_CC" offset="1473855383/24000s" ref="r5" duration="3327324/24000s" start="1473855383/24000s"/>
+                    </spine>
+                </sequence>
+            </project>
+            <mc-clip name="try_3" ref="r8" duration="266185920/1920000s" start="117621504000/1920000s">
+                <mc-source angleID="UDXcoq0FT5e1RPevvnYOgA" srcEnable="all"/>
+            </mc-clip>
+        </event>
+    </library>
+</fcpxml>
