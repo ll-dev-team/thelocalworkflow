@@ -26,18 +26,8 @@ function Clip(clipPath){
 
 // also add:
 // ID: needs to correlate to the position in the array
-// name: just basename, no ext
-// uid: MAYBE DON'T DO
 // src: file:// + filePath
-// start: /24000s
-// duration: /24000s
-// hasVideo: 1
 // format: r1 ----  needs to be dynamic and not hard coded ultimately
-// hasAudio: 1
-// audioSources: 1
-// audioChannels: 2 [??]
-// audioRate: 48000
-//
 
 };
 
