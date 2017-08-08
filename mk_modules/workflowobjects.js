@@ -31,4 +31,9 @@ function Clip(clipPath){
 
 };
 
+function Shoot(shootPath){
+  this.name = path.basename(shootPath)
+};
+
 module.exports.Clip = Clip;
+module.exports.Shoot = Shoot;

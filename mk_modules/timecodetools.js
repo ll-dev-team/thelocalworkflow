@@ -1,5 +1,4 @@
 var fs = require("fs");
-require('dotenv').config();
 var ffmpeg = require('fluent-ffmpeg');
 const cp = require('child_process');
 
