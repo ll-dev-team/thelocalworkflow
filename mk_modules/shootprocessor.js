@@ -2,6 +2,7 @@ var fs = require("fs");
 var columnify = require('columnify');
 var path = require("path");
 var ffprobetools = require("./ffprobetools");
+const Clip = require("./workflowobjects").Clip;
 
 function rename(folderPath) {
   var re = /^\./;
@@ -9,6 +10,7 @@ function rename(folderPath) {
   var dirBase = path.basename(folderPath);
   var fileList = [];
   var fileObjectList =[];
+  var theseClipObjects = [];
   console.log('is the directory base ' + dirBase + '?\n\n');
   var folders = fs.readdirSync(folderPath);
   folders.forEach(function(camFolder){
@@ -36,20 +38,25 @@ function rename(folderPath) {
           var oldPath = path.join(folderPath, camFolder, file);
           // ffprobetools.ffprobe(oldPath, probeArray);
           console.log("about to do ffprobe on " + oldPath);
-          var video_metadata=ffprobetools.ffprobeSync(oldPath);
-          var videoMetaObject = JSON.parse(video_metadata);
-          console.log("done ffprobe");
+          var thisClip = new Clip(oldPath);
+          console.log('let\'s see if we can make a new object and get duration here: ' + thisClip.duration);
+          // var video_metadata=ffprobetools.ffprobeSync(oldPath);
+          // var videoMetaObject = JSON.parse(video_metadata);
           var newPath = path.join(folderPath, newName);
-          var fileInfo = {"oldPath":oldPath, "newPath":newPath, "newName":newName, "ext":ext, "camera":camFolder, "shoot":dirBase, ffprobe:videoMetaObject};
+          thisClip.newPath = newPath;
+          thisClip.ext = ext;
+          thisClip.newName = newName;
+          thisClip.oldName = basename;
+          thisClip.camera = camFolder;
+          thisClip.shoot = dirBase;
+          // var fileInfo = {"oldPath":oldPath, "newPath":newPath, "newName":newName, "ext":ext, "camera":camFolder, "shoot":dirBase, ffprobe:videoMetaObject};
           // add to above ultimately
           // , "ffprobe":video_metadata
 
-          console.log("just a test---here is the new path accessed via fileInfo.newPath: " + fileInfo.newPath);
+          console.log("just a test---here is the new path accessed via thisClip.newPath: " + thisClip.newPath);
           console.log("\n");
-          // console.log('and maybe this is the codec_long_name if ffprobeSync is working? \t' +  fileInfo.video_metadata.streams[0].codec_long_name);
-          console.log('trying just the stdout now ' + video_metadata);
           fileList.push(newPath);
-          fileObjectList.push(fileInfo);
+          theseClipObjects.push(thisClip);
           var update = ("\ngoing to try to rename \t\t" + oldPath + "\t to \t" + newPath)
           console.log(update);
           fs.appendFileSync('./tests/logs/log.txt', update);
@@ -72,7 +79,7 @@ function rename(folderPath) {
       // done
     }
   })
-  var theResult = {shots: fileList, objects: fileObjectList, probes: probeArray};
+  var theResult = {shots: fileList, probes: probeArray, clipObjects:theseClipObjects};
   return theResult;
 }
 

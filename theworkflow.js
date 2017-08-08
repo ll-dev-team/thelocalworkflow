@@ -15,8 +15,6 @@ if (args.help || !(args.name || args.file || args.video || args.shootfolder)) {
   process.exit(1);
 }
 
-// var args = require("minimist")(process.argv.slice(2),{ string: "name"});
-
 var columnify = require('columnify');
 var fs = require('fs');
 var usefile = require('./mk_modules/usefile');
@@ -58,10 +56,7 @@ if (args.video) {
 if (args.shootfolder) {
   console.log("the folder path to the files we want to rename is " + args.folder);
   var theResult = shootprocessor.rename(args.shootfolder);
-  shootprocessor.echo("try to echo this in shootprocessor");
-  console.log("now testing what got returned");
-  console.log("theResult.shots = " + theResult.shots);
-  console.log("theResult.objects = " + JSON.stringify(theResult.objects));
-  console.log("\n\nnow testing columnify\n" + columnify(theResult.objects));
-  console.log("theResult.probes = " + JSON.stringify(theResult.probes));
+  theResult.clipObjects.forEach(function(clip){
+    console.log("oldName = " + clip.oldName +"\tnewName = " + clip.newName + "\tduration for fcpxml = " + clip.fcpxmlElements.duration);
+  });
 }
