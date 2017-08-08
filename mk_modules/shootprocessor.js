@@ -3,84 +3,49 @@ var columnify = require('columnify');
 var path = require("path");
 var ffprobetools = require("./ffprobetools");
 const Clip = require("./workflowobjects").Clip;
+const Shoot = require("./workflowobjects").Shoot;
 
 function rename(folderPath) {
   var re = /^\./;
-  var probeArray = [];
-  var dirBase = path.basename(folderPath);
-  var fileList = [];
-  var fileObjectList =[];
+  var thisShoot = new Shoot(folderPath);
   var theseClipObjects = [];
-  console.log('is the directory base ' + dirBase + '?\n\n');
+  var cameraArray = [];
   var folders = fs.readdirSync(folderPath);
   folders.forEach(function(camFolder){
+    cameraArray.push(camFolder)
     var fullPath = path.join(folderPath,camFolder);
     var stats = fs.statSync(fullPath);
     if (stats.isDirectory()) {
-      console.log("\n\n" + camFolder + " or " + fullPath + " is a Directory\n\n");
       files = fs.readdirSync(fullPath);
-      i = 1;
-      files.forEach(function(file) {
+      files.forEach(function(file, index) {
         console.log("the file we're working with is " + file);
-        console.log("and it's from camera " + camFolder);
-        var reTest = re.test(file);
-        console.log("and the re test returned " + reTest);
         if (re.test(file)) {
           console.log("\n\nWE ARE NOT GOING TO RENAME THIS ONE\n\n");
         }
         else {
-          var ext = path.extname(file);
-          var basename = path.basename(file, ext);
-          var dir = path.dirname(file);
-          var counter = ("000" + i).slice(-3)
-          var newName = (dirBase + "_" + camFolder + "_" + counter + ext)
-          i++;
-          var oldPath = path.join(folderPath, camFolder, file);
-          // ffprobetools.ffprobe(oldPath, probeArray);
-          console.log("about to do ffprobe on " + oldPath);
-          var thisClip = new Clip(oldPath);
-          console.log('let\'s see if we can make a new object and get duration here: ' + thisClip.duration);
-          // var video_metadata=ffprobetools.ffprobeSync(oldPath);
-          // var videoMetaObject = JSON.parse(video_metadata);
-          var newPath = path.join(folderPath, newName);
-          thisClip.newPath = newPath;
-          thisClip.ext = ext;
-          thisClip.newName = newName;
-          thisClip.oldName = basename;
-          thisClip.camera = camFolder;
-          thisClip.shoot = dirBase;
-          // var fileInfo = {"oldPath":oldPath, "newPath":newPath, "newName":newName, "ext":ext, "camera":camFolder, "shoot":dirBase, ffprobe:videoMetaObject};
-          // add to above ultimately
-          // , "ffprobe":video_metadata
-
-          console.log("just a test---here is the new path accessed via thisClip.newPath: " + thisClip.newPath);
-          console.log("\n");
-          fileList.push(newPath);
+          var thisClip = new Clip(folderPath, camFolder, path.basename(file), index);
           theseClipObjects.push(thisClip);
-          var update = ("\ngoing to try to rename \t\t" + oldPath + "\t to \t" + newPath)
+          var update = ("\ngoing to try to rename \t\t" + thisClip.oldPath + "\t to \t" + thisClip.newPath)
           console.log(update);
           fs.appendFileSync('./tests/logs/log.txt', update);
         }
-        // fs.renameSync(filePath, newFilePath);
+        // fs.renameSync(thisClip.oldPath, thisClip.newPath);
       });
     }
     else {
       console.log("\n\n" + camFolder + " or " + fullPath + " is not a camera directory\n\n");
     }
   })
-
-  console.log(fileList.join());
-  var columns = columnify(fileObjectList);
-  console.log(columns);
-  fs.appendFile('./tests/logs/log.txt', ("\n\n" + columns), function (err) {
+  shootNotes=JSON.stringify(theseClipObjects, null, 2);
+  fs.appendFile('./tests/logs/log.txt', ("\n\n" + shootNotes), function (err) {
     if (err) {
       console.log("didn't work");
     } else {
       // done
     }
   })
-  var theResult = {shots: fileList, probes: probeArray, clipObjects:theseClipObjects};
-  return theResult;
+  thisShoot.clipArray = theseClipObjects;
+  return thisShoot;
 }
 
 function testIt(string) {
