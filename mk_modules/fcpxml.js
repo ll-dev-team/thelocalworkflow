@@ -54,16 +54,21 @@ function makeFcpxml(shootObject){
   var shootId = "20170807_001_MK_Test";
   var filePath = (shootObject.shootPath + "/" + shootId + "_v1.fcpxml")
   fs.writeFileSync(filePath, theXml);
+
 }
 
 function makeFormats(shootObject){
-  console.log("starting makeFormats");
+  console.log("\n\n\n\nstarting makeFormats");
   var resourceXml = {resources: []};
+  console.log("structure of resourceXml =" + JSON.stringify(resourceXml, null, 2));
   // function isFormatThere(clip){
   shootObject.clipArray.forEach(function(clip, index){
-    if (index==1){
-      console.log(clip.ffprobeOutput);
-      var theNewFormat = {format:{_attr:{id:"r1", name:"FFVideoFormat1080p2398", frameDuration:(clip.codec_time_base+"s"), width:clip.width, height:clip.height}}};
+    console.log("1. " + resourceXml.resources.length + " is the current length of .resources");
+    if (resourceXml.resources.length==0){
+      console.log("2. hitting first if statement---adding ");
+      var theNewFormat = {format:{_attr:{id:"r1", frameDuration:(clip.codec_time_base+"s"), width:clip.width, height:clip.height}}};
+      // resourceXml.resources.push(theNewFormat);
+      // console.log("3. pushed theNewFormat and the length of resources is now " + resourceXml.resources.length);
     }
     else {
       console.log("starting the test for " + clip.newBasenameExt);
@@ -94,13 +99,21 @@ function makeFormats(shootObject){
       resourceXml.resources.push(theNewFormat);
       console.log("just added format"+ JSON.stringify(resourceXml.resources, null, 2) +" for " + clip.newBasenameExt);
     }
-    resourceXml.resources.foreach(function(formatResource, index){
-      var formatCounter = ("r"+index);
-      formatResource.format._attr.id = formatCounter;
-    });
-    var theResourceXml = (xml(resourceXml, {indent:'\t'}));
-    console.log("\n\nhere is theXml we hope:\n\n" + theResourceXml);
+    console.log("\n\n\n\n\n\n\n\n\n\n\n" + JSON.stringify(resourceXml.resources, null, 2));
+    for (var i = 0; i < resourceXml.resources.length; i++) {
+      var formatCounter = ("r"+(i+1));
+      resourceXml.resources[i].format._attr.id = formatCounter;
+    }
+    // resourceXml.resources.foreach(function(formatResource, index){
+    //   var formatCounter = ("r"+index);
+    //   console.log("in foreach loop and rCounter is " + formatCounter);
+    //   // formatResource.format._attr.id = formatCounter;
+    // });
+
   });
+  var theResourceXml = (xml(resourceXml, {indent:'\t'}));
+  console.log("\n\nhere is theXml we hope:\n\n" + theResourceXml);
+  return theResourceXml;
 }
 
 module.exports.makeFcpxml = makeFcpxml;

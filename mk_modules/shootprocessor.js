@@ -36,11 +36,14 @@ function rename(folderPath) {
       console.log(camFolder + " or " + fullPath + " is not a camera directory");
     }
   })
+
   thisShoot.clipArray = theseClipObjects;
   shootNotes=("Log of renaming operations for " + thisShoot.shootId + ":\n");
   thisShoot.clipArray.forEach(function(clip, index){
     shootNotes=(shootNotes+(index+1)+". Renamed " + clip.oldBasenameExt + " to " + clip.newBasenameExt + "\n" )
+    console.log("renamed " + clip.newBasenameExt);
   });
+
   shootNotesName=(thisShoot.shootId + "_shootnotes.txt")
   shootNotesPath=path.join(folderPath, shootNotesName)
   fs.appendFile(shootNotesPath, ("\n\n" + shootNotes), function (err) {
@@ -50,7 +53,6 @@ function rename(folderPath) {
       // done
     }
   })
-
   return thisShoot;
 }
 
