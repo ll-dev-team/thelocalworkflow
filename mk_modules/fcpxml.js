@@ -6,28 +6,18 @@ const ffprobetools = require("./ffprobetools");
 const shootprocessor = require("./shootprocessor");
 
 function makeFcpxml(shootObject){
-  var resourceXml = {resources: []};
+  var clipsForXml = [];
   // define format for each unique format---define on first clip then check each subsequent clip against this format?
-  format={format:{_attr:{id:"r1", name:"FFVideoFormat1080p2398", frameDuration:"1001/24000s", width:"1920", height:"1080"}}};
-  resourceXml.resources.push(format);
-  console.log(JSON.stringify(resourceXml.resources[0], null, 2));
-  shootObject.clipArray.forEach(function(clip){
-    if (clip.width==1920 && clip.height==1080 && clip.codec_time_base=="1001/24000") {
-      newFormat="no new format required"
-    }
-    else {
-      newFormat="new format required"
-    }
-    console.log(newFormat);
-    console.log(resourceXml.resources[0].format._attr.width);
+  var theFormats = makeFormats(shootObject);
+  console.log("in the makeFcpxml function and logging out stringified formats " + JSON.stringify(theFormats, null, 2));
+
+  // add clips to an array for clips
+
+  shootObject.clipArray.forEach(function(clip, index){
+    console.log(index + ". " + clip.newBasenameExt + " needs to be added");
+    theFormats.push(clip.fcpxmlElements);
   });
 
-  // console.log(Object.prototype.toString.call(resourceXml.resources));
-  for (var i = 2; i < 6; i++) {
-      var thisId=("r"+i);
-      var thisName=("file_00"+i);
-      resourceXml.resources.push({asset:{_attr: {id:thisId, name:thisName, start:"13452345423/24000s", hasVideo:1, format:"r1", audioRate:"48000" }}});
-  }
   var fcpxmlAttr = {_attr:{version:'1.5'}};
   var libraryXml = {library: []};
   libraryAttr = {_attr: {location: "file:///Users/mk/Development/temp/Untitled.fcpbundle/"}}
@@ -43,7 +33,7 @@ function makeFcpxml(shootObject){
   libraryXml.library.push (libraryEventOne);
   // console.log(JSON.stringify(libraryXml.library[0], null, 2));
   // console.log("\n\nand now maybe the event?\n" + JSON.stringify(libraryXml.library[1], null, 2) );
-  fcpxObject = {fcpxml:[fcpxmlAttr, resourceXml, libraryXml]}
+  fcpxObject = {fcpxml:[fcpxmlAttr, theFormats, libraryXml]}
   // console.log("\n**************\n\n trying whole fcpxObject now \n");
   // console.log(JSON.stringify(fcpxObject, null, 2));
   theXmlHeader = '<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE fcpxml>\n'
@@ -111,9 +101,7 @@ function makeFormats(shootObject){
     // });
 
   });
-  var theResourceXml = (xml(resourceXml, {indent:'\t'}));
-  console.log("\n\nhere is theXml we hope:\n\n" + theResourceXml);
-  return theResourceXml;
+  return resourceXml;
 }
 
 module.exports.makeFcpxml = makeFcpxml;
