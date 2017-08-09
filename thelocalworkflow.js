@@ -1,3 +1,9 @@
+var args = require('minimist')(process.argv.slice(2));
+const columnify = require('columnify');
+const fs = require('fs');
+const shootprocessor = require("./mk_modules/shootprocessor");
+const fcpxml = require("./mk_modules/fcpxml");
+
 function printHelp() {
   console.log("thelocalworkflow.js (c) Marlon Kuzmick");
   console.log("");
@@ -6,11 +12,6 @@ function printHelp() {
   console.log("--m2s             m2s for fcpxml in {FOLDER}");
   console.log("--rename      rename files in {FOLDER}");
 }
-
-var args = require('minimist')(process.argv.slice(2));
-var columnify = require('columnify');
-var fs = require('fs');
-var shootprocessor = require("./mk_modules/shootprocessor")
 
 if (args.help || !(args.m2s || args.rename || args.shootfolder)) {
   printHelp();
@@ -24,7 +25,8 @@ if (args.m2s) {
 if (args.rename) {
   console.log("the folder path to the files we want to rename is " + args.rename);
   var theResult = shootprocessor.rename(args.rename);
-  theResult.clipArray.forEach(function(clip){
-    console.log("oldName = " + clip.oldBasenameExt +"\tnewName = " + clip.newBasenameExt + "\tduration for fcpxml = " + clip.fcpxmlElements.duration);
-  });
+  // theResult.clipArray.forEach(function(clip){
+  //   console.log("oldName = " + clip.oldBasenameExt +"\tnewName = " + clip.newBasenameExt + "\tduration for fcpxml = " + clip.fcpxmlElements.duration);
+  // });
+  fcpxml.makeFormats(theResult);
 }

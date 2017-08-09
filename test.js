@@ -11,6 +11,6 @@ const Clip = require("./mk_modules/workflowobjects").Clip;
 //     console.log("\n\n\n\nHello " + date.date + "\n\n\n\n");
 // }
 
-clip1 = new Clip('/Users/mk/Desktop/desktop_20170629/stills\ practice/video/MVI_0432.MOV');
-console.log('let\'s see if we can make a new object and get duration here: ' + clip1.duration);
-fcpxml.makeFcpxml("test");
+// clip1 = new Clip('/Users/mk/Desktop/desktop_20170629/stills\ practice/video/MVI_0432.MOV');
+// console.log('let\'s see if we can make a new object and get duration here: ' + clip1.duration);
+// fcpxml.makeFcpxml("test");

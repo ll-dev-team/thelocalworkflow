@@ -9,14 +9,39 @@
 		<asset id="r5" name="file_005" start="13452345423/24000s" hasVideo="1" format="r1" audioRate="48000"/>
 	</resources>
 	<library location="file:///Users/mk/Development/temp/Untitled.fcpbundle/">
-		<event name="20170807_001_MK_Test">
-			<clip name="20170213_105_BTS_ZK_C300a_001" duration="2906904/24000s">
-				<video offset="1474236764/24000s" ref="r2">
+		<event name="20170806_001_MK_Test">
+			<clip name="20170806_001_MK_Test_5Da_001" duration="99099/24000s">
+				<video offset="44227102920/720000s" ref="r2">
 					<audio lane="-1" offset="44227102920/720000s"/>
 				</video>
 			</clip>
-			<clip name="20170213_105_BTS_ZK_C300b_001" duration="2906904/24000s">
-				<video offset="1474236764/24000s" ref="r2">
+			<clip name="20170806_001_MK_Test_5Da_002" duration="110110/24000s">
+				<video offset="44227102920/720000s" ref="r2">
+					<audio lane="-1" offset="44227102920/720000s"/>
+				</video>
+			</clip>
+			<clip name="20170806_001_MK_Test_C300a_002" duration="196196/24000s">
+				<video offset="44227102920/720000s" ref="r2">
+					<audio lane="-1" offset="44227102920/720000s"/>
+				</video>
+			</clip>
+			<clip name="20170806_001_MK_Test_C300a_003" duration="220220/24000s">
+				<video offset="44227102920/720000s" ref="r2">
+					<audio lane="-1" offset="44227102920/720000s"/>
+				</video>
+			</clip>
+			<clip name="20170806_001_MK_Test_C300a_004" duration="110110/24000s">
+				<video offset="44227102920/720000s" ref="r2">
+					<audio lane="-1" offset="44227102920/720000s"/>
+				</video>
+			</clip>
+			<clip name="20170806_001_MK_Test_C300b_001" duration="8008/24000s">
+				<video offset="44227102920/720000s" ref="r2">
+					<audio lane="-1" offset="44227102920/720000s"/>
+				</video>
+			</clip>
+			<clip name="20170806_001_MK_Test_C300b_002" duration="254254/24000s">
+				<video offset="44227102920/720000s" ref="r2">
 					<audio lane="-1" offset="44227102920/720000s"/>
 				</video>
 			</clip>

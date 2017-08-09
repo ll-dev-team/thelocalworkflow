@@ -18,33 +18,39 @@ function rename(folderPath) {
     if (stats.isDirectory()) {
       files = fs.readdirSync(fullPath);
       files.forEach(function(file, index) {
-        console.log("the file we're working with is " + file);
+        // console.log("the file we're working with is " + file);
         if (re.test(file)) {
-          console.log("\n\nWE ARE NOT GOING TO RENAME THIS ONE\n\n");
+          console.log("WE ARE NOT GOING TO RENAME " + file);
         }
         else {
           var thisClip = new Clip(folderPath, camFolder, path.basename(file), index);
           theseClipObjects.push(thisClip);
           var update = ("\ngoing to try to rename \t\t" + thisClip.oldPath + "\t to \t" + thisClip.newPath)
-          console.log(update);
+          // console.log(update);
           fs.appendFileSync('./tests/logs/log.txt', update);
         }
         // fs.renameSync(thisClip.oldPath, thisClip.newPath);
       });
     }
     else {
-      console.log("\n\n" + camFolder + " or " + fullPath + " is not a camera directory\n\n");
+      console.log(camFolder + " or " + fullPath + " is not a camera directory");
     }
   })
-  shootNotes=JSON.stringify(theseClipObjects, null, 2);
-  fs.appendFile('./tests/logs/log.txt', ("\n\n" + shootNotes), function (err) {
+  thisShoot.clipArray = theseClipObjects;
+  shootNotes=("Log of renaming operations for " + thisShoot.shootId + ":\n");
+  thisShoot.clipArray.forEach(function(clip, index){
+    shootNotes=(shootNotes+(index+1)+". Renamed " + clip.oldBasenameExt + " to " + clip.newBasenameExt + "\n" )
+  });
+  shootNotesName=(thisShoot.shootId + "_shootnotes.txt")
+  shootNotesPath=path.join(folderPath, shootNotesName)
+  fs.appendFile(shootNotesPath, ("\n\n" + shootNotes), function (err) {
     if (err) {
       console.log("didn't work");
     } else {
       // done
     }
   })
-  thisShoot.clipArray = theseClipObjects;
+
   return thisShoot;
 }
 

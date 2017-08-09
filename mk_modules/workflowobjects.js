@@ -16,8 +16,6 @@ function Clip(folderPath, camFolder, file, theIndex){
   this.newBasename = (this.shootId + "_" + camFolder + "_" + this.counter)
   this.newBasenameExt = (this.newBasename + this.ext)
   this.newPath = path.join(folderPath, camFolder, this.newBasenameExt);
-  console.log("this.counter is " + this.counter);
-  console.log("this.oldPath is " + this.oldPath);
   this.width = this.ffprobeObject.streams[0].width;
   this.height = this.ffprobeObject.streams[0].height;
   this.codec_time_base = this.ffprobeObject.streams[0].codec_time_base;
@@ -30,13 +28,10 @@ function Clip(folderPath, camFolder, file, theIndex){
   this.codec_time_base_denominator = this.codec_time_base.split('/')[1];
   this.fcpxmlElements = {name: this.newBasenameExt, src: this.newPath, start: "add-later", duration:(this.ffprobeObject.streams[0].duration_ts + "/24000s"), hasVideo:1, hasAudio:1, audioSources:1, audioChannels:this.ffprobeObject.streams[1].channels, audioRate:this.ffprobeObject.streams[1].sample_rate};
   // ultimately loop through streams and see if one is audio first, which will determine if we actually have audio.
-  // also add:
-  // ID: needs to correlate to the position in the array
-  // src: file:// + filePath
-  // format: r1 ----  needs to be dynamic and not hard coded ultimately
 };
 
 function Shoot(shootPath){
+  this.shootPath = shootPath;
   this.date = "date goes here";
   this.people = [];
   this.shootId = path.basename(shootPath);
