@@ -34,6 +34,7 @@ function Clip(folderPath, camFolder, file, theIndex){
   else {
     this.startTc = "00:00:00:00"
   };
+  console.log("timeCodeToFcpxmlFormat function returns " + timeCodeToFcpxmlFormat(this.startTc));
   console.log("this.startTc is" + this.startTc);
   this.codec_time_base_numerator = this.codec_time_base.split('/')[0];
   this.codec_time_base_denominator = this.codec_time_base.split('/')[1];
@@ -58,7 +59,20 @@ function Shoot(shootPath){
 };
 
 function timeCodeToFcpxmlFormat(timecode){
-  return timecode;
+  var tempTc = ("willBeAFunctionOf " + timecode);
+  theHours = timecode.split(':')[0];
+  theMinutes = timecode.split(':')[1];
+  theSeconds = timecode.split(':')[2];
+  theFrames = timecode.split(':')[3];
+  console.log("theHours=" + theHours);
+  console.log("theMinutes=" + theMinutes);
+  console.log("theSeconds=" + theSeconds);
+  console.log("theFrames=" + theFrames);
+  theTotalFrames = theFrames+(24*(theSeconds+(60*(theMinutes+(60*theHours)))));
+  console.log(theTotalFrames);
+  theFcpxFormat = (theTotalFrames*24000 + "/24000s");
+  console.log(theFcpxFormat);
+  return theFcpxFormat;
 };
 //
 // function timeCodeToFcpxmlStart (ffprobeObject){
