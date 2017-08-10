@@ -30,4 +30,7 @@ if (args.rename) {
   // });
   var theResourceXml = fcpxml.makeFcpxml(theResult);
   console.log("\n\n\ncomplete\n\n\n\n");
+  var pathForJson = (theResult.shootPath + "/" + theResult.shootId + "_shootObject.json");
+  var shootObjectJson = JSON.stringify(theResult, null, 2);
+  fs.writeFileSync(pathForJson, shootObjectJson);
 }
