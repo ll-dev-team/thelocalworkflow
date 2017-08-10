@@ -29,5 +29,5 @@ if (args.rename) {
   //   console.log("oldName = " + clip.oldBasenameExt +"\tnewName = " + clip.newBasenameExt + "\tduration for fcpxml = " + clip.fcpxmlElements.duration);
   // });
   var theResourceXml = fcpxml.makeFcpxml(theResult);
-  console.log(theResourceXml);
+  console.log("\n\n\ncomplete\n\n\n\n");
 }

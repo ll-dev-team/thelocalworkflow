@@ -6,37 +6,49 @@ const ffprobetools = require("./ffprobetools");
 const shootprocessor = require("./shootprocessor");
 
 function makeFcpxml(shootObject){
+  // define key variables for fcpxml---mainly container arrays for the clip, format and mc or cc resources to come.
   var clipsForXml = [];
-  // define format for each unique format---define on first clip then check each subsequent clip against this format?
   var theFormats = makeFormats(shootObject);
-  console.log("in the makeFcpxml function and logging out stringified formats " + JSON.stringify(theFormats, null, 2));
-
-  // add clips to an array for clips
-
-  shootObject.clipArray.forEach(function(clip, index){
-    // console.log(index + ". " + clip.newBasenameExt + " needs to be added");
-    var theCounter=theFormats.resources.length + 1;
-    var theClipToAdd={asset: {_attr: clip.fcpxmlElements}};
-    theClipToAdd.asset._attr.id = ("r"+theCounter)
-    // then figure out format by looping through formats --- find a way to just loop formats rather than all resources.
-    console.log("\n\n\ntrying to add: \n\n" + JSON.stringify(theClipToAdd, null, 2));
-    theFormats.resources.push(theClipToAdd);
-    console.log("resources in theFormats.resources = " + theFormats.resources.length);
-  });
-
+  // add clips to an array for clips for the RESOURCES element
   var fcpxmlAttr = {_attr:{version:'1.6'}};
   var libraryXml = {library: []};
   libraryAttr = {_attr: {location: "file:///Users/mk/Development/temp/Untitled.fcpbundle/"}}
   libraryXml.library.push(libraryAttr);
   var libraryEventOne = {event:[{_attr:{name:shootObject.shootId}}]};
-  shootObject.clipArray.forEach(function(thisClip, index) {
-    console.log("in fcpxml and working on" + thisClip.newBasenameExt);
+
+  shootObject.clipArray.forEach(function(clip, index){
+    // console.log(index + ". " + clip.newBasenameExt + " needs to be added");
+    var theCounter=theFormats.resources.length + 1;
+    // console.log("\n\n__________________________________\n\nin loop of clipArray and clip.fcpxml is: \n\n" + JSON.stringify(clip.fcpxml, null, 2));
+    // var theClipToAdd=clip.fcpxml.asset;
+    // console.log("\n\n__________________________________\n\nin loop of clipArray and theClipToAdd is: \n\n" + JSON.stringify(theClipToAdd, null, 2));
+    clip.fcpxml.asset._attr.id = ("r"+theCounter)
+    clip.fcpxml.asset._attr.format = ("insertFormat_r1_forInstance")
+    // then figure out format by looping through formats --- find a way to just loop formats rather than all resources.
+    // console.log("\n\n\ntrying to add: \n\n" + JSON.stringify(theClipToAdd, null, 2));
+    theFormats.resources.push({asset: theClipToAdd});
+    console.log("resources in theFormats.resources = " + theFormats.resources.length);
+    clip.fcpxml["asset-clip"]._
+
+
     var keywords = {keyword: {_attr: {start:"make_start_of_clip", duration:"duration_of_clip", value:"comma separated keywords"}}};
-    var clip = {"asset-clip": [{_attr: {name:thisClip.newBasename, ref:("temp_r" + index), duration:thisClip.fcpxmlElements.duration}}, keywords]}
+    thisClip.fcpxml["asset-clip"]._attr.ref=thisClip.asset
+    var clip = {"asset-clip": thisClip.fcpxml["asset-clip"]};
     libraryEventOne.event.push(clip);
+
+
+
   });
 
-  libraryXml.library.push (libraryEventOne);
+  // define first lines of xml
+
+
+  shootObject.clipArray.forEach(function(thisClip, index) {
+    // console.log("in fcpxml and working on" + thisClip.newBasenameExt);
+
+  });
+
+  libraryXml.library.push(libraryEventOne);
   console.log("resources in theFormats.resources = " + theFormats.resources.length);
   // console.log(JSON.stringify(libraryXml.library[0], null, 2));
   // console.log("\n\nand now maybe the event?\n" + JSON.stringify(libraryXml.library[1], null, 2) );
@@ -46,7 +58,7 @@ function makeFcpxml(shootObject){
   theXmlHeader = '<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE fcpxml>\n'
 
   var theXml = (theXmlHeader + (xml(fcpxObject, {indent:'\t'})));
-  console.log("\n\n\n\n\n\n\nhere is theXml we hope:\n\n" + theXml);
+  // console.log("\n\n\n\n\n\n\nhere is theXml we hope:\n\n" + theXml);
   var filePath = (shootObject.shootPath + "/" + shootObject.shootId + "_v1.fcpxml")
   fs.writeFileSync(filePath, theXml);
 }
@@ -83,9 +95,9 @@ function makeFormats(shootObject){
       }
       // console.log("formatMatch is now " + formatMatch);
       if (formatMatch == false){
-        console.log("adding format variable");
+        // console.log("adding format variable");
         var theNewFormat = {format:{_attr:{frameDuration:(clip.codec_time_base+"s"), width:clip.width, height:clip.height}}};
-        console.log(JSON.stringify(theNewFormat, null, 2));
+        // console.log(JSON.stringify(theNewFormat, null, 2));
       }
     }
     // console.log("If there is a new format it is:" + JSON.stringify(theNewFormat));

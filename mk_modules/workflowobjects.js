@@ -26,8 +26,14 @@ function Clip(folderPath, camFolder, file, theIndex){
   this.nb_frames = this.ffprobeObject.streams[0].nb_frames;
   this.codec_time_base_numerator = this.codec_time_base.split('/')[0];
   this.codec_time_base_denominator = this.codec_time_base.split('/')[1];
-  this.fcpxml.format = {format:{_attr:{frameDuration:(this.codec_time_base+"s"), width:this.width, height:this.height}}};
-  this.fcpxml.clipAsset = {name: this.newBasenameExt, src: ("file://" + this.newPath), start: (timeCodeToFcpxmlStart(this)), duration:(this.ffprobeObject.streams[0].duration_ts + "/" + this.codec_time_base_denominator + "s"), hasVideo:1, hasAudio:1, audioSources:1, audioChannels:this.ffprobeObject.streams[1].channels, audioRate:this.ffprobeObject.streams[1].sample_rate};
+  // console.log("working on " + this.newBasenameExt);
+  // console.log(this.width);
+  this.fcpxml = {};
+  this.fcpxml.format = {_attr:{frameDuration:(this.codec_time_base+"s"), width:this.width, height:this.height}};
+  // console.log(JSON.stringify(this.fcpxml, null, 2));
+  this.fcpxml.asset = {_attr:{name: this.newBasenameExt, src: ("file://" + this.newPath), start: (timeCodeToFcpxmlStart(this.ffprobeObject)), duration:(this.ffprobeObject.streams[0].duration_ts + "/" + this.codec_time_base_denominator + "s"), hasVideo:1, hasAudio:1, audioSources:1, audioChannels:this.ffprobeObject.streams[1].channels, audioRate: this.ffprobeObject.streams[1].sample_rate}};
+  this.fcpxml["asset-clip"] = [{_attr:{}, }, {[{keyword:  {_attr: {start:("convert"+ffprobeObject.streams[0].tags.timecode), duration:(this.ffprobeObject.streams[0].duration_ts + "/" + this.codec_time_base_denominator + "s"), value:(this.shootId+", "+this.cameraFolder)}}}, {keyword:  {_attr: {start:"make_start_of_clip", duration:"24024/24000s", value:"first five seconds"}}}]}]
+
   // ultimately loop through streams and see if one is audio first, which will determine if we actually have audio.
 };
 
@@ -39,8 +45,11 @@ function Shoot(shootPath){
 
 };
 
-function timeCodeToFcpxmlStart (clipObject);
-  return clipObject.ffprobeObject.format.
+function timeCodeToFcpxmlStart (ffprobeObject){
+  // var theHrs = ffprobeObject.streams[0].tags.timecode.
+  var theStart = ("itWillBeAFunctionOf" + ffprobeObject.streams[0].tags.timecode);
+  return theStart;
+};
 
 module.exports.Clip = Clip;
 module.exports.Shoot = Shoot;
