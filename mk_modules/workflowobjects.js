@@ -5,6 +5,8 @@ var shootprocessor = require("./shootprocessor");
 
 
 function Clip(folderPath, camFolder, file, theIndex){
+  var now = new Date();
+  this.thelocalworkflowIngestTime = now.getUTCDate();
   this.oldBasenameExt = file;
   this.oldPath = path.join(folderPath, camFolder, file);
   this.cameraFolder = camFolder;
@@ -12,6 +14,7 @@ function Clip(folderPath, camFolder, file, theIndex){
   this.counter = ("000" + (theIndex + 1)).slice(-3);
   this.ffprobeOutput=ffprobetools.ffprobeSync(this.oldPath);
   this.ffprobeObject=JSON.parse(this.ffprobeOutput);
+  console.log(this.ffprobeOutput);
   this.ext = path.extname(file);
   this.newBasename = (this.shootId + "_" + camFolder + "_" + this.counter)
   this.newBasenameExt = (this.newBasename + this.ext)
@@ -32,7 +35,15 @@ function Clip(folderPath, camFolder, file, theIndex){
   this.fcpxml.format = {_attr:{frameDuration:(this.codec_time_base+"s"), width:this.width, height:this.height}};
   // console.log(JSON.stringify(this.fcpxml, null, 2));
   this.fcpxml.asset = {_attr:{name: this.newBasenameExt, src: ("file://" + this.newPath), start: (timeCodeToFcpxmlStart(this.ffprobeObject)), duration:(this.ffprobeObject.streams[0].duration_ts + "/" + this.codec_time_base_denominator + "s"), hasVideo:1, hasAudio:1, audioSources:1, audioChannels:this.ffprobeObject.streams[1].channels, audioRate: this.ffprobeObject.streams[1].sample_rate}};
-  this.fcpxml["asset-clip"] = [{_attr:{}, }, {[{keyword:  {_attr: {start:("convert"+ffprobeObject.streams[0].tags.timecode), duration:(this.ffprobeObject.streams[0].duration_ts + "/" + this.codec_time_base_denominator + "s"), value:(this.shootId+", "+this.cameraFolder)}}}, {keyword:  {_attr: {start:"make_start_of_clip", duration:"24024/24000s", value:"first five seconds"}}}]}]
+  this.fcpxml.keywords = [];
+  this.fcpxml.keywords.push({keyword:  {_attr: {start:("convert"+this.ffprobeObject.streams[0].tags.timecode), duration:(this.ffprobeObject.streams[0].duration_ts + "/" + this.codec_time_base_denominator + "s"), value:(this.shootId+", "+this.cameraFolder)}}});
+  this.fcpxml.keywords.push({keyword: {_attr: {start:"make_start_of_clip", duration:"24024/24000s", value:"first five seconds"}}});
+  console.log(JSON.stringify(this.fcpxml.keywords, null, 2));
+  this.fcpxml.assetclip = {_attr: {name: this.newBasename, audioRole:"dialogue", tcFormat:"NDF", start:("convert"+this.ffprobeObject.streams[0].tags.timecode), duration: (this.ffprobeObject.streams[0].duration_ts + "/" + this.codec_time_base_denominator + "s"), modDate:this.thelocalworkflowIngestTime}};
+
+  console.log(JSON.stringify(this.fcpxml, null, 2));
+
+
 
   // ultimately loop through streams and see if one is audio first, which will determine if we actually have audio.
 };

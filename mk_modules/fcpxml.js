@@ -26,16 +26,19 @@ function makeFcpxml(shootObject){
     clip.fcpxml.asset._attr.format = ("insertFormat_r1_forInstance")
     // then figure out format by looping through formats --- find a way to just loop formats rather than all resources.
     // console.log("\n\n\ntrying to add: \n\n" + JSON.stringify(theClipToAdd, null, 2));
-    theFormats.resources.push({asset: theClipToAdd});
-    console.log("resources in theFormats.resources = " + theFormats.resources.length);
-    clip.fcpxml["asset-clip"]._
+    theFormats.resources.push({asset: clip.fcpxml.asset});
+    console.log("resources in theFormats.resources = " + theFormats.resources.length + " and we are working on " +  clip.newBasenameExt);
+    console.log("\n\n__________________________________\n\nin loop of clipArray and clip.fcpxml is: \n\n" + JSON.stringify(clip.fcpxml, null, 2));
+    console.log("clip.fcpxml.asset._attr.id is " + clip.fcpxml.asset._attr.id);
+    clip.fcpxml.assetclip._attr.ref=clip.fcpxml.asset._attr.id;
+    clip.fcpxml.assetclip._attr.format=clip.fcpxml.asset._attr.format;
 
-
-    var keywords = {keyword: {_attr: {start:"make_start_of_clip", duration:"duration_of_clip", value:"comma separated keywords"}}};
-    thisClip.fcpxml["asset-clip"]._attr.ref=thisClip.asset
-    var clip = {"asset-clip": thisClip.fcpxml["asset-clip"]};
-    libraryEventOne.event.push(clip);
-
+    // var keywords = {keyword: {_attr: {start:"make_start_of_clip", duration:"duration_of_clip", value:"comma separated keywords"}}};
+    // thisClip.fcpxml["asset-clip"]._attr.ref=thisClip.asset
+    var newLibraryAssetClip = {"asset-clip": [clip.fcpxml.assetclip, clip.fcpxml.keywords]};
+    console.log("\n\n__________________________________\n\nabout to push newLibraryAssetClip and it looks like this: \n\n" + JSON.stringify(newLibraryAssetClip, null, 2));
+    libraryEventOne.event.push(newLibraryAssetClip);
+    
 
 
   });

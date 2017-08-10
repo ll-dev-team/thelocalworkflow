@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+
+<fcpxml version="1.6">
+    <resources>
+        <asset id="r1" name="Clip #1" uid="E3CD19D2EEA592FE6049DAC5E877EF9D" src="file:///Users/mk/Development/test_materials/footage/Final%20Cut%20Original%20Media/2017-06-13/Clip%20%231%20%5B14215419%20+52817%5D.mov" start="3727188465/72000s" duration="23690667/72000s" hasVideo="1" format="r2" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <bookmark>Ym9va4gDAAAAAAQQMAAAAEzxdlv/k1UBdCbVcR4dYt/7GQK/bLf/MyqQqXGTLJUthAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMAAAACAAAAAQEAAG1rAAALAAAAAQEAAERldmVsb3BtZW50AA4AAAABAQAAdGVzdF9tYXRlcmlhbHMAAAcAAAABAQAAZm9vdGFnZQAYAAAAAQEAAEZpbmFsIEN1dCBPcmlnaW5hbCBNZWRpYQoAAAABAQAAMjAxNy0wNi0xMwAAHQAAAAEBAABDbGlwICMxIFsxNDIxNTQxOSArNTI4MTddLm1vdgAAACAAAAABBgAAEAAAACAAAAAsAAAAQAAAAFgAAABoAAAAiAAAAJwAAAAIAAAABAMAAC0wBgAAAAAACAAAAAQDAACDgQYAAAAAAAgAAAAEAwAAhIpCAQAAAAAIAAAABAMAAN9wSAEAAAAACAAAAAQDAAD4q0oBAAAAAAgAAAAEAwAAmaxKAQAAAAAIAAAABAMAAJqsSgEAAAAACAAAAAQDAAD6dksBAAAAACAAAAABBgAA7AAAAPwAAAAMAQAAHAEAACwBAAA8AQAATAEAAFwBAAAIAAAAAAQAAEG+8KuiAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAIAAAABAMAAAYAAAAAAAAABAAAAAMDAAD1AQAACAAAAAEJAABmaWxlOi8vLwwAAAABAQAAbWtfMTEwXzAyMTM4CAAAAAQDAAAA0Lea0QAAAAgAAAAABAAAQb0iBlkAAAAkAAAAAQEAADRFNzcwMTkzLURCN0YtM0JFNy05MTgzLUY4NTI3QUUwOUU0OBgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAAAAAAAEFAADMAAAA/v///wEAAAAAAAAAEAAAAAQQAADEAAAAAAAAAAUQAABsAQAAAAAAABAQAACkAQAAAAAAAEAQAACUAQAAAAAAAAIgAABwAgAAAAAAAAUgAADgAQAAAAAAABAgAADwAQAAAAAAABEgAAAkAgAAAAAAABIgAAAEAgAAAAAAABMgAAAUAgAAAAAAACAgAABQAgAAAAAAADAgAAB8AgAAAAAAAAHAAADEAQAAAAAAABHAAAAgAAAAAAAAABLAAADUAQAAAAAAABDQAAAEAAAAAAAAAA==</bookmark>
+        </asset>
+        <format id="r2" name="FFVideoFormat1080p2398" frameDuration="3003/72000s" width="1920" height="1080"/>
+    </resources>
+    <library location="file:///Users/mk/Movies/keyword_test.fcpbundle/">
+        <event name="8-10-17" uid="C68ED8A0-B883-483E-A923-E190B119CE47">
+            <asset-clip name="Clip #1" ref="r1" duration="23690667/72000s" start="3727188465/72000s" audioRole="dialogue" format="r2" tcFormat="NDF" modDate="2017-08-10 15:59:55 -0400">
+                <keyword start="248479231/4800s" duration="351351/72000s" value="first 5 seconds"/>
+                <keyword start="207368161/4000s" duration="5828823/72000s" value="test"/>
+            </asset-clip>
+            <project name="Untitled Project" uid="CDD106C3-7865-4DB6-922F-BC9A328BF5B1" modDate="2017-08-10 16:00:03 -0400">
+                <sequence duration="351351/72000s" format="r2" renderColorSpace="Rec. 709" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+                    <spine>
+                        <asset-clip name="Clip #1" offset="0s" ref="r1" duration="351351/72000s" start="3727188465/72000s" audioRole="dialogue" tcFormat="NDF">
+                            <keyword start="248479231/4800s" duration="351351/72000s" value="first 5 seconds"/>
+                            <keyword start="207368161/4000s" duration="5828823/72000s" value="test"/>
+                        </asset-clip>
+                    </spine>
+                </sequence>
+            </project>
+            <keyword-collection name="test"/>
+            <keyword-collection name="first 5 seconds"/>
+        </event>
+        <smart-collection name="Projects" match="all">
+            <match-clip rule="is" type="project"/>
+        </smart-collection>
+        <smart-collection name="All Video" match="any">
+            <match-media rule="is" type="videoOnly"/>
+            <match-media rule="is" type="videoWithAudio"/>
+        </smart-collection>
+        <smart-collection name="Audio Only" match="all">
+            <match-media rule="is" type="audioOnly"/>
+        </smart-collection>
+        <smart-collection name="Stills" match="all">
+            <match-media rule="is" type="stills"/>
+        </smart-collection>
+        <smart-collection name="Favorites" match="all">
+            <match-ratings value="favorites"/>
+        </smart-collection>
+    </library>
+</fcpxml>
