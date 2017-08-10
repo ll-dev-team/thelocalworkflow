@@ -27,7 +27,7 @@ function rename(folderPath) {
           theseClipObjects.push(thisClip);
           var update = ("\ngoing to try to rename \t\t" + thisClip.oldPath + "\t to \t" + thisClip.newPath)
           // console.log(update);
-          fs.appendFileSync('./tests/logs/log.txt', update);
+          fs.appendFileSync('./tests/output/log.txt', update);
         }
         // fs.renameSync(thisClip.oldPath, thisClip.newPath);
       });
@@ -77,9 +77,6 @@ function dateFromId(shootId) {
     console.log(shootId + "'s dateRoot " + dateRoot + " is not a valid date string");
   }
 }
-
-
-
 
 module.exports.rename = rename;
 module.exports.echo = testIt;

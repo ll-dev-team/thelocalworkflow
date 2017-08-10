@@ -1,0 +1,164 @@
+{
+    "streams": [
+        {
+            "index": 0,
+            "codec_name": "mpeg2video",
+            "codec_long_name": "MPEG-2 video",
+            "profile": "4:2:2",
+            "codec_type": "video",
+            "codec_time_base": "1001/24000",
+
+
+            "codec_tag_string": "m2v1",
+            "codec_tag": "0x3176326d",
+            "width": 1920,
+            "height": 1080,
+            "coded_width": 0,
+            "coded_height": 0,
+            "has_b_frames": 1,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "16:9",
+            "pix_fmt": "yuv422p",
+            "level": 2,
+            "color_range": "tv",
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "chroma_location": "topleft",
+            "field_order": "progressive",
+            "refs": 1,
+            "r_frame_rate": "24000/1001",
+            "avg_frame_rate": "24000/1001",
+            "time_base": "1/24000",
+
+
+
+            "start_pts": 1992,
+            "start_time": "0.083000",
+            "duration_ts": 7593576,
+            "duration": "316.399000",
+            "bit_rate": "50000000",
+            "nb_frames": "7584",
+            "disposition": {
+                "default": 1,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0
+            },
+            "tags": {
+                "language": "eng",
+                "handler_name": "DataHandler",
+
+
+                "encoder": "XDCAM HD422 1080p23",
+                "timecode": "16:38:00:11"
+            }
+        },
+        {
+            "index": 1,
+            "codec_name": "pcm_s16le",
+            "codec_long_name": "PCM signed 16-bit little-endian",
+            "codec_type": "audio",
+            "codec_time_base": "1/48000",
+            "codec_tag_string": "sowt",
+            "codec_tag": "0x74776f73",
+            "sample_fmt": "s16",
+            "sample_rate": "48000",
+            "channels": 1,
+            "channel_layout": "mono",
+            "bits_per_sample": 16,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 15183168,
+            "duration": "316.316000",
+            "bit_rate": "768000",
+            "nb_frames": "15183168",
+            "disposition": {
+                "default": 1,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0
+            },
+            "tags": {
+                "language": "eng",
+                "handler_name": "DataHandler"
+            }
+        },
+        {
+            "index": 2,
+            "codec_type": "data",
+            "codec_tag_string": "tmcd",
+            "codec_tag": "0x64636d74",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "24/1",
+            "time_base": "1/24000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 7591584,
+            "duration": "316.316000",
+
+
+            "nb_frames": "1",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0
+            },
+            "tags": {
+                "language": "eng",
+                "handler_name": "DataHandler",
+                "timecode": "16:38:00:11"
+            }
+        }
+    ],
+    "format": {
+        "filename": "/Users/mk/Development/test_materials/footage/test_Capture.mov",
+        "nb_streams": 3,
+        "nb_programs": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.000000",
+        "duration": "316.316000",
+        "size": "2007477448",
+        "bit_rate": "50771442",
+        "probe_score": 100,
+        "tags": {
+            "major_brand": "qt  ",
+
+
+            "minor_version": "512",
+            "compatible_brands": "qt  ",
+
+            
+            "encoder": "Lavf57.71.100"
+        }
+    }
+}

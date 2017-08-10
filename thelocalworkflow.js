@@ -28,6 +28,6 @@ if (args.rename) {
   // theResult.clipArray.forEach(function(clip){
   //   console.log("oldName = " + clip.oldBasenameExt +"\tnewName = " + clip.newBasenameExt + "\tduration for fcpxml = " + clip.fcpxmlElements.duration);
   // });
-  var theResourceXml = fcpxml.makeFormats(theResult);
+  var theResourceXml = fcpxml.makeFcpxml(theResult);
   console.log(theResourceXml);
 }

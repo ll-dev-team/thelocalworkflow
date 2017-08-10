@@ -26,7 +26,8 @@ function Clip(folderPath, camFolder, file, theIndex){
   this.nb_frames = this.ffprobeObject.streams[0].nb_frames;
   this.codec_time_base_numerator = this.codec_time_base.split('/')[0];
   this.codec_time_base_denominator = this.codec_time_base.split('/')[1];
-  this.fcpxmlElements = {name: this.newBasenameExt, src: this.newPath, start: "add-later", duration:(this.ffprobeObject.streams[0].duration_ts + "/24000s"), hasVideo:1, hasAudio:1, audioSources:1, audioChannels:this.ffprobeObject.streams[1].channels, audioRate:this.ffprobeObject.streams[1].sample_rate};
+  this.fcpxml.format = {format:{_attr:{frameDuration:(this.codec_time_base+"s"), width:this.width, height:this.height}}};
+  this.fcpxml.clipAsset = {name: this.newBasenameExt, src: ("file://" + this.newPath), start: (timeCodeToFcpxmlStart(this)), duration:(this.ffprobeObject.streams[0].duration_ts + "/" + this.codec_time_base_denominator + "s"), hasVideo:1, hasAudio:1, audioSources:1, audioChannels:this.ffprobeObject.streams[1].channels, audioRate:this.ffprobeObject.streams[1].sample_rate};
   // ultimately loop through streams and see if one is audio first, which will determine if we actually have audio.
 };
 
@@ -37,6 +38,9 @@ function Shoot(shootPath){
   this.shootId = path.basename(shootPath);
 
 };
+
+function timeCodeToFcpxmlStart (clipObject);
+  return clipObject.ffprobeObject.format.
 
 module.exports.Clip = Clip;
 module.exports.Shoot = Shoot;

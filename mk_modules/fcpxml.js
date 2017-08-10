@@ -14,23 +14,30 @@ function makeFcpxml(shootObject){
   // add clips to an array for clips
 
   shootObject.clipArray.forEach(function(clip, index){
-    console.log(index + ". " + clip.newBasenameExt + " needs to be added");
-    theFormats.push(clip.fcpxmlElements);
+    // console.log(index + ". " + clip.newBasenameExt + " needs to be added");
+    var theCounter=theFormats.resources.length + 1;
+    var theClipToAdd={asset: {_attr: clip.fcpxmlElements}};
+    theClipToAdd.asset._attr.id = ("r"+theCounter)
+    // then figure out format by looping through formats --- find a way to just loop formats rather than all resources.
+    console.log("\n\n\ntrying to add: \n\n" + JSON.stringify(theClipToAdd, null, 2));
+    theFormats.resources.push(theClipToAdd);
+    console.log("resources in theFormats.resources = " + theFormats.resources.length);
   });
 
-  var fcpxmlAttr = {_attr:{version:'1.5'}};
+  var fcpxmlAttr = {_attr:{version:'1.6'}};
   var libraryXml = {library: []};
   libraryAttr = {_attr: {location: "file:///Users/mk/Development/temp/Untitled.fcpbundle/"}}
   libraryXml.library.push(libraryAttr);
   var libraryEventOne = {event:[{_attr:{name:shootObject.shootId}}]};
   shootObject.clipArray.forEach(function(thisClip, index) {
     console.log("in fcpxml and working on" + thisClip.newBasenameExt);
-    var audio = {audio: {_attr: {lane:"-1", offset:"44227102920/720000s"}}};
-    var video = {video: [{_attr: {offset:"44227102920/720000s", ref:"r2"}}, audio]};
-    var clip = {clip: [{_attr: {name:thisClip.newBasename, duration:thisClip.fcpxmlElements.duration}}, video]}
+    var keywords = {keyword: {_attr: {start:"make_start_of_clip", duration:"duration_of_clip", value:"comma separated keywords"}}};
+    var clip = {"asset-clip": [{_attr: {name:thisClip.newBasename, ref:("temp_r" + index), duration:thisClip.fcpxmlElements.duration}}, keywords]}
     libraryEventOne.event.push(clip);
   });
+
   libraryXml.library.push (libraryEventOne);
+  console.log("resources in theFormats.resources = " + theFormats.resources.length);
   // console.log(JSON.stringify(libraryXml.library[0], null, 2));
   // console.log("\n\nand now maybe the event?\n" + JSON.stringify(libraryXml.library[1], null, 2) );
   fcpxObject = {fcpxml:[fcpxmlAttr, theFormats, libraryXml]}
@@ -39,57 +46,54 @@ function makeFcpxml(shootObject){
   theXmlHeader = '<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE fcpxml>\n'
 
   var theXml = (theXmlHeader + (xml(fcpxObject, {indent:'\t'})));
-  console.log("\n\nhere is theXml we hope:\n\n" + theXml);
-
-  var shootId = "20170807_001_MK_Test";
-  var filePath = (shootObject.shootPath + "/" + shootId + "_v1.fcpxml")
+  console.log("\n\n\n\n\n\n\nhere is theXml we hope:\n\n" + theXml);
+  var filePath = (shootObject.shootPath + "/" + shootObject.shootId + "_v1.fcpxml")
   fs.writeFileSync(filePath, theXml);
-
 }
 
 function makeFormats(shootObject){
-  console.log("\n\n\n\nstarting makeFormats");
+  // console.log("\n\n\n\nstarting makeFormats");
   var resourceXml = {resources: []};
-  console.log("structure of resourceXml =" + JSON.stringify(resourceXml, null, 2));
+  // console.log("structure of resourceXml =" + JSON.stringify(resourceXml, null, 2));
   // function isFormatThere(clip){
   shootObject.clipArray.forEach(function(clip, index){
-    console.log("1. " + resourceXml.resources.length + " is the current length of .resources");
+    // console.log("1. " + resourceXml.resources.length + " is the current length of .resources");
     if (resourceXml.resources.length==0){
-      console.log("2. hitting first if statement---adding ");
+      // console.log("2. hitting first if statement---adding ");
       var theNewFormat = {format:{_attr:{id:"r1", frameDuration:(clip.codec_time_base+"s"), width:clip.width, height:clip.height}}};
       // resourceXml.resources.push(theNewFormat);
       // console.log("3. pushed theNewFormat and the length of resources is now " + resourceXml.resources.length);
     }
     else {
-      console.log("starting the test for " + clip.newBasenameExt);
-      console.log("index is " + index);
-      console.log("resource array length is now " + resourceXml.resources.length);
+      // console.log("3. starting the test for " + clip.newBasenameExt);
+      // console.log("index is " + index);
+      // console.log("resource array length is now " + resourceXml.resources.length);
       formatMatch = false;
       for (var i = 0; i < resourceXml.resources.length; i++) {
-        console.log("in the loop and the index is " + i);
-        console.log("properties for clip = "+ clip.width + clip.height + clip.codec_time_base );
-        console.log("properties for resourceXml format = " + resourceXml.resources[i].format._attr.width + resourceXml.resources[i].format._attr.height + resourceXml.resources[i].format._attr.frameDuration);
+        // console.log("in the loop and the index is " + i);
+        // console.log("properties for clip = "+ clip.width + clip.height + clip.codec_time_base );
+        // console.log("properties for resourceXml format = " + resourceXml.resources[i].format._attr.width + resourceXml.resources[i].format._attr.height + resourceXml.resources[i].format._attr.frameDuration);
         if (clip.width == resourceXml.resources[i].format._attr.width && clip.height == resourceXml.resources[i].format._attr.height && (clip.codec_time_base+"s") == resourceXml.resources[i].format._attr.frameDuration) {
           formatMatch=true;
-          console.log("format match");
+          // console.log("format match");
         }
         else {
-          console.log("no format match");
+          // console.log("no format match");
         }
       }
-      console.log("formatMatch is now " + formatMatch);
+      // console.log("formatMatch is now " + formatMatch);
       if (formatMatch == false){
         console.log("adding format variable");
-        var theNewFormat = {format:{_attr:{id:"r1", name:"FFVideoFormat1080p2398", frameDuration:(clip.codec_time_base+"s"), width:clip.width, height:clip.height}}};
-        console.log(JSON.stringify(theNewFormat));
+        var theNewFormat = {format:{_attr:{frameDuration:(clip.codec_time_base+"s"), width:clip.width, height:clip.height}}};
+        console.log(JSON.stringify(theNewFormat, null, 2));
       }
     }
-    console.log("If there is a new format it is:" + JSON.stringify(theNewFormat));
+    // console.log("If there is a new format it is:" + JSON.stringify(theNewFormat));
     if (theNewFormat) {
       resourceXml.resources.push(theNewFormat);
-      console.log("just added format"+ JSON.stringify(resourceXml.resources, null, 2) +" for " + clip.newBasenameExt);
+      // console.log("just added format"+ JSON.stringify(resourceXml.resources, null, 2) +" for " + clip.newBasenameExt);
     }
-    console.log("\n\n\n\n\n\n\n\n\n\n\n" + JSON.stringify(resourceXml.resources, null, 2));
+    // console.log("\n\n\n\n\n\n\n\n\n\n\n" + JSON.stringify(resourceXml.resources, null, 2));
     for (var i = 0; i < resourceXml.resources.length; i++) {
       var formatCounter = ("r"+(i+1));
       resourceXml.resources[i].format._attr.id = formatCounter;

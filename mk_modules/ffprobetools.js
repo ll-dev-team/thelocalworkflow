@@ -11,7 +11,12 @@ function ffprobe (filePath, array) {
   });
 }
 
+function ffmpegSegmentSync(request){
+  console.log("about to throw the following object into ffmpegSegmentSync:\n\n" + JSON.stringify(request, null, 2));
+}
+
 function ffprobeSync(videoFilePath){
+  // this is equivalent of running "ffprobe -v quiet -print_format json -show_format -show_streams [file]"
   var output = cp.spawnSync('ffprobe', ['-v', 'quiet', '-print_format', 'json', '-show_format', '-show_streams', videoFilePath], { encoding : 'utf8' });
   // console.log('\n\n\nGoing to add this, we hope.\n\n');
   // console.log(output.stdout);
