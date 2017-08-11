@@ -26,10 +26,11 @@ function rename(folderPath) {
           var thisClip = new Clip(folderPath, camFolder, path.basename(file), index);
           theseClipObjects.push(thisClip);
           var update = ("\ngoing to try to rename \t\t" + thisClip.oldPath + "\t to \t" + thisClip.newPath)
-          // console.log(update);
+          console.log(update);
           fs.appendFileSync('./tests/output/log.txt', update);
+          fs.renameSync(thisClip.oldPath, thisClip.newPath);
         }
-        fs.renameSync(thisClip.oldPath, thisClip.newPath);
+        // fs.renameSync(thisClip.oldPath, thisClip.newPath);
       });
     }
     else {
