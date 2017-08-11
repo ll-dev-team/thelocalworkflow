@@ -20,79 +20,37 @@ function makeFcpxml(shootObject){
   var keywordArray = [];
 
   shootObject.clipArray.forEach(function(clip, index){
-    // console.log(index + ". " + clip.newBasenameExt + " needs to be added");
     var theCounter=theFormats.resources.length + 1;
-    // console.log("\n\n__________________________________\n\nin loop of clipArray and clip.fcpxml is: \n\n" + JSON.stringify(clip.fcpxml, null, 2));
-    // var theClipToAdd=clip.fcpxml.asset;
-    // console.log("\n\n__________________________________\n\nin loop of clipArray and theClipToAdd is: \n\n" + JSON.stringify(theClipToAdd, null, 2));
-    clip.fcpxml.asset._attr.id = ("r"+theCounter)
-    // clip.fcpxml.asset._attr.format = ("loop in search of format")
-    // then figure out format by looping through formats --- find a way to just loop formats rather than all resources.
-    // console.log("\n\n\ntrying to add: \n\n" + JSON.stringify(theClipToAdd, null, 2));
+    clip.fcpxml.asset._attr.id = ("r"+theCounter);
     theFormats.resources.push({asset: clip.fcpxml.asset});
-    // console.log("resources in theFormats.resources = " + theFormats.resources.length + " and we are working on " +  clip.newBasenameExt);
-    // console.log("\n\n__________________________________\n\nin loop of clipArray and clip.fcpxml is: \n\n" + JSON.stringify(clip.fcpxml, null, 2));
-    // console.log("clip.clip.fcpxml.assetClip[0] is " + JSON.stringify(clip.fcpxml.assetClip[0], null, 2));
-    // console.log("clip.fcpxml.asset._attr.id is " + clip.fcpxml.asset._attr.id);
     clip.fcpxml.assetClip[0]._attr.ref=clip.fcpxml.asset._attr.id;
-    // console.log("clip.clip.fcpxml.assetClip[0] is " + JSON.stringify(clip.fcpxml.assetClip[0], null, 2));
     clip.fcpxml.assetClip[0]._attr.format=clip.fcpxml.asset._attr.format;
-
-    // var keywords = {keyword: {_attr: {start:"make_start_of_clip", duration:"duration_of_clip", value:"comma separated keywords"}}};
-    // thisClip.fcpxml["asset-clip"]._attr.ref=thisClip.asset
     var newLibraryAssetClip = {"asset-clip": clip.fcpxml.assetClip};
-    // console.log("\n\n__________________________________\n\nabout to push newLibraryAssetClip and it looks like this: \n\n" + JSON.stringify(newLibraryAssetClip, null, 2));
     libraryEventOne.event.push(newLibraryAssetClip);
-    // console.log(JSON.stringify(clip.fcpxml.assetClip));
-    // console.log(clip.fcpxml.assetClip.length);
-
+    // loop through all assetClips
     for (var i = 1; i < clip.fcpxml.assetClip.length; i++) {
-      // console.log("in outer loop and i is " + i);
-      // console.log(JSON.stringify(clip.fcpxml.assetClip[i]));
-      // console.log(clip.fcpxml.assetClip[i].keyword._attr.value);
+      // split the array of keywords in value property
       var thisClipKeywordArray=(clip.fcpxml.assetClip[i].keyword._attr.value.split(','));
-      // console.log(thisClipKeywordArray);
-      // console.log(thisClipKeywordArray.length);
+      // loop through keywords, trim space, if not in array already then push
       for (var j = 0; j < thisClipKeywordArray.length; j++) {
-        // console.log("in inner loop and j is " + j);
-        // console.log("and the keyword is " + thisClipKeywordArray[j]);
         var theKeyword=thisClipKeywordArray[j].trim();
         if (!(keywordArray.includes(theKeyword))){
           keywordArray.push(theKeyword);
         }
-        // keywordTextArray.push(clip.fcpxml.assetClip[i].keyword._attr.value.split(',')[i]);
       }
-      // keywordTextArray.push(clip.fcpxml.assetClip[i].keyword._attr.value);
     }
-    console.log("the keywordArray is " + keywordArray);
-
-
-
   });
+  // loop through keywordArray to build keyword-collection elements for library
   for (var i = 0; i < keywordArray.length; i++) {
     thisKeywordElement={"keyword-collection": {_attr:{name:keywordArray[i]}}};
     console.log(JSON.stringify(thisKeywordElement, null, 2));
     libraryEventOne.event.push(thisKeywordElement);
   }
-  // define first lines of xml
-
-
-  // shootObject.clipArray.forEach(function(thisClip, index) {
-  //   // console.log("in fcpxml and working on" + thisClip.newBasenameExt);
-  //
-  // });
-  // console.log(JSON.stringify(keywordTextArray));
+  // add all of the resources to the library chunk of xml
   libraryXml.library.push(libraryEventOne);
-  // console.log("resources in theFormats.resources = " + theFormats.resources.length);
-  // console.log(JSON.stringify(libraryXml.library[0], null, 2));
-  // console.log("\n\nand now maybe the event?\n" + JSON.stringify(libraryXml.library[1], null, 2) );
   fcpxObject = {fcpxml:[fcpxmlAttr, theFormats, libraryXml]}
-  // console.log("\n**************\n\n trying whole fcpxObject now \n");
-  // console.log(JSON.stringify(fcpxObject, null, 2));
   theXmlHeader = '<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE fcpxml>\n'
-
   var theXml = (theXmlHeader + (xml(fcpxObject, {indent:'\t'})));
-  // console.log("\n\n\n\n\n\n\nhere is theXml we hope:\n\n" + theXml);
   var filePath = (shootObject.shootPath + "/" + shootObject.shootId + "_v1.fcpxml");
   fs.writeFileSync(filePath, theXml);
   var pathForJson = (shootObject.shootPath + "/" + shootObject.shootId + "_fcpxObject.json");

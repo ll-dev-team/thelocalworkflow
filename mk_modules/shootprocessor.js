@@ -29,7 +29,7 @@ function rename(folderPath) {
           // console.log(update);
           fs.appendFileSync('./tests/output/log.txt', update);
         }
-        // fs.renameSync(thisClip.oldPath, thisClip.newPath);
+        fs.renameSync(thisClip.oldPath, thisClip.newPath);
       });
     }
     else {
