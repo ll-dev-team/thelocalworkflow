@@ -20,7 +20,7 @@ function rename(folderPath) {
       files.forEach(function(file, index) {
         // console.log("the file we're working with is " + file);
         if (re.test(file)) {
-          console.log("WE ARE NOT GOING TO RENAME " + file);
+          // console.log("WE ARE NOT GOING TO RENAME " + file);
         }
         else {
           var thisClip = new Clip(folderPath, camFolder, path.basename(file), index);
@@ -33,7 +33,7 @@ function rename(folderPath) {
       });
     }
     else {
-      console.log(camFolder + " or " + fullPath + " is not a camera directory");
+      // console.log(camFolder + " or " + fullPath + " is not a camera directory");
     }
   })
 
@@ -41,14 +41,14 @@ function rename(folderPath) {
   shootNotes=("Log of renaming operations for " + thisShoot.shootId + ":\n");
   thisShoot.clipArray.forEach(function(clip, index){
     shootNotes=(shootNotes+(index+1)+". Renamed " + clip.oldBasenameExt + " to " + clip.newBasenameExt + "\n" )
-    console.log("renamed " + clip.newBasenameExt);
+    // console.log("renamed " + clip.newBasenameExt);
   });
 
   shootNotesName=(thisShoot.shootId + "_shootnotes.txt")
   shootNotesPath=path.join(folderPath, shootNotesName)
   fs.appendFile(shootNotesPath, ("\n\n" + shootNotes), function (err) {
     if (err) {
-      console.log("didn't work");
+      // console.log("didn't work");
     } else {
       // done
     }
@@ -57,11 +57,11 @@ function rename(folderPath) {
 }
 
 function testIt(string) {
-  console.log("shootprocessor is working, and the string should be: " + string);
+  // console.log("shootprocessor is working, and the string should be: " + string);
 }
 
 function dateFromId(shootId) {
-  console.log("working in dateFromId with " + shootId);
+  // console.log("working in dateFromId with " + shootId);
   var regexTest = /^\d{8}/;
   var dateRoot = shootId.slice(0,8);
   if (regexTest.test(dateRoot)) {
@@ -74,7 +74,7 @@ function dateFromId(shootId) {
     return {dateString:dateRoot, date: D};
   }
   else {
-    console.log(shootId + "'s dateRoot " + dateRoot + " is not a valid date string");
+    // console.log(shootId + "'s dateRoot " + dateRoot + " is not a valid date string");
   }
 }
 

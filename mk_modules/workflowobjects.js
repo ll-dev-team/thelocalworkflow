@@ -7,7 +7,7 @@ var dateFormat = require('dateformat');
 function Clip(folderPath, camFolder, file, theIndex){
   var now = new Date();
   this.thelocalworkflowIngestTime = (dateFormat(now, "UTC:yyyy-mm-dd HH-MM-ss"));
-  console.log("is this the date? " + this.thelocalworkflowIngestTime);
+  // console.log("is this the date? " + this.thelocalworkflowIngestTime);
   this.oldBasenameExt = file;
   this.oldPath = path.join(folderPath, camFolder, file);
   this.cameraFolder = camFolder;
@@ -34,8 +34,8 @@ function Clip(folderPath, camFolder, file, theIndex){
   else {
     this.startTc = "00:00:00:00"
   };
-  console.log("timeCodeToFcpxmlFormat function returns " + timeCodeToFcpxmlFormat(this.startTc));
-  console.log("this.startTc is" + this.startTc);
+  // console.log("timeCodeToFcpxmlFormat function returns " + timeCodeToFcpxmlFormat(this.startTc));
+  // console.log("this.startTc is" + this.startTc);
   this.codec_time_base_numerator = this.codec_time_base.split('/')[0];
   this.codec_time_base_denominator = this.codec_time_base.split('/')[1];
   // console.log("working on " + this.newBasenameExt);
@@ -46,7 +46,7 @@ function Clip(folderPath, camFolder, file, theIndex){
   this.fcpxml.asset = {_attr:{name: this.newBasenameExt, src: ("file://" + this.newPath), start: (timeCodeToFcpxmlFormat(this.startTc)), duration:(this.ffprobeObject.streams[0].duration_ts + "/" + this.codec_time_base_denominator + "s"), hasVideo:1, hasAudio:1, audioSources:1, audioChannels:this.ffprobeObject.streams[1].channels, audioRate: this.ffprobeObject.streams[1].sample_rate}};
   this.fcpxml.assetClip = [{_attr: {name: this.newBasename, audioRole:"dialogue", tcFormat:"NDF", start:("convert"+this.startTc), duration: (this.ffprobeObject.streams[0].duration_ts + "/" + this.codec_time_base_denominator + "s"), modDate:this.thelocalworkflowIngestTime}}];
   this.fcpxml.assetClip.push({keyword:  {_attr: {start:("convert"+this.startTc), duration:(this.ffprobeObject.streams[0].duration_ts + "/" + this.codec_time_base_denominator + "s"), value:(this.shootId+", "+this.cameraFolder)}}});
-  this.fcpxml.assetClip.push({keyword: {_attr: {start:"make_start_of_clip", duration:"24024/24000s", value:"first five seconds"}}});
+  this.fcpxml.assetClip.push({keyword: {_attr: {start:"make_start_of_clip", duration:"24024/24000s", value:"first 24 frames"}}});
   // ultimately loop through streams and see if one is audio first, which will determine if we actually have audio.
 };
 
@@ -64,14 +64,14 @@ function timeCodeToFcpxmlFormat(timecode){
   theMinutes = parseInt(timecode.split(':')[1]);
   theSeconds = parseInt(timecode.split(':')[2]);
   theFrames = parseInt(timecode.split(':')[3]);
-  console.log("theHours=" + theHours);
-  console.log("theMinutes=" + theMinutes);
-  console.log("theSeconds=" + theSeconds);
-  console.log("theFrames=" + theFrames);
+  // console.log("theHours=" + theHours);
+  // console.log("theMinutes=" + theMinutes);
+  // console.log("theSeconds=" + theSeconds);
+  // console.log("theFrames=" + theFrames);
   theTotalFrames = (theFrames)+(24*(theSeconds+(60*(theMinutes+(60*theHours)))));
-  console.log(theTotalFrames);
+  // console.log(theTotalFrames);
   theFcpxFormat = ((theTotalFrames*1001) + "/24000s");
-  console.log(theFcpxFormat);
+  // console.log(theFcpxFormat);
   return theFcpxFormat;
 };
 //
