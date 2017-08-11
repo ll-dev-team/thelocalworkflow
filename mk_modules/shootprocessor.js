@@ -28,7 +28,14 @@ function rename(folderPath) {
           var update = ("\ngoing to try to rename \t\t" + thisClip.oldPath + "\t to \t" + thisClip.newPath)
           console.log(update);
           fs.appendFileSync('./tests/output/log.txt', update);
-          fs.renameSync(thisClip.oldPath, thisClip.newPath);
+          //
+          //
+          // toggle this on and off to avoid renaming while testing:
+          //
+          //
+          // fs.renameSync(thisClips.oldPath, thisClip.newPath);
+          //
+          //
         }
         // fs.renameSync(thisClip.oldPath, thisClip.newPath);
       });
