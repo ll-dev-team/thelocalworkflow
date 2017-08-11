@@ -6,6 +6,9 @@ const args = require("minimist")(process.argv.slice(2));
 const fcpxml = require("./mk_modules/fcpxml");
 const Clip = require("./mk_modules/workflowobjects").Clip;
 
+var array = ["apple", "orange", 3];
+console.log(array);
+
 // if (args.shootid){
 //     var date = shootprocessor.dateFromId(args.shootid);
 //     console.log("\n\n\n\nHello " + date.date + "\n\n\n\n");

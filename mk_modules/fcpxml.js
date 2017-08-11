@@ -15,6 +15,9 @@ function makeFcpxml(shootObject){
   libraryAttr = {_attr: {location: "file:///Users/mk/Development/temp/Untitled.fcpbundle/"}}
   libraryXml.library.push(libraryAttr);
   var libraryEventOne = {event:[{_attr:{name:shootObject.shootId}}]};
+  var keywordTextArray = [];
+  var keywordsToAdd = [];
+  var keywordArray = [];
 
   shootObject.clipArray.forEach(function(clip, index){
     // console.log(index + ". " + clip.newBasenameExt + " needs to be added");
@@ -33,26 +36,52 @@ function makeFcpxml(shootObject){
     // console.log("clip.fcpxml.asset._attr.id is " + clip.fcpxml.asset._attr.id);
     clip.fcpxml.assetClip[0]._attr.ref=clip.fcpxml.asset._attr.id;
     // console.log("clip.clip.fcpxml.assetClip[0] is " + JSON.stringify(clip.fcpxml.assetClip[0], null, 2));
-    clip.fcpxml.assetClip[0].format=clip.fcpxml.asset._attr.format;
+    clip.fcpxml.assetClip[0]._attr.format=clip.fcpxml.asset._attr.format;
 
     // var keywords = {keyword: {_attr: {start:"make_start_of_clip", duration:"duration_of_clip", value:"comma separated keywords"}}};
     // thisClip.fcpxml["asset-clip"]._attr.ref=thisClip.asset
     var newLibraryAssetClip = {"asset-clip": clip.fcpxml.assetClip};
     // console.log("\n\n__________________________________\n\nabout to push newLibraryAssetClip and it looks like this: \n\n" + JSON.stringify(newLibraryAssetClip, null, 2));
     libraryEventOne.event.push(newLibraryAssetClip);
+    // console.log(JSON.stringify(clip.fcpxml.assetClip));
+    // console.log(clip.fcpxml.assetClip.length);
+
+    for (var i = 1; i < clip.fcpxml.assetClip.length; i++) {
+      // console.log("in outer loop and i is " + i);
+      // console.log(JSON.stringify(clip.fcpxml.assetClip[i]));
+      // console.log(clip.fcpxml.assetClip[i].keyword._attr.value);
+      var thisClipKeywordArray=(clip.fcpxml.assetClip[i].keyword._attr.value.split(','));
+      // console.log(thisClipKeywordArray);
+      // console.log(thisClipKeywordArray.length);
+      for (var j = 0; j < thisClipKeywordArray.length; j++) {
+        // console.log("in inner loop and j is " + j);
+        // console.log("and the keyword is " + thisClipKeywordArray[j]);
+        var theKeyword=thisClipKeywordArray[j].trim();
+        if (!(keywordArray.includes(theKeyword))){
+          keywordArray.push(theKeyword);
+        }
+        // keywordTextArray.push(clip.fcpxml.assetClip[i].keyword._attr.value.split(',')[i]);
+      }
+      // keywordTextArray.push(clip.fcpxml.assetClip[i].keyword._attr.value);
+    }
+    console.log("the keywordArray is " + keywordArray);
 
 
 
   });
-
+  for (var i = 0; i < keywordArray.length; i++) {
+    thisKeywordElement={"keyword-collection": {_attr:{name:keywordArray[i]}}};
+    console.log(JSON.stringify(thisKeywordElement, null, 2));
+    libraryEventOne.event.push(thisKeywordElement);
+  }
   // define first lines of xml
 
 
-  shootObject.clipArray.forEach(function(thisClip, index) {
-    // console.log("in fcpxml and working on" + thisClip.newBasenameExt);
-
-  });
-
+  // shootObject.clipArray.forEach(function(thisClip, index) {
+  //   // console.log("in fcpxml and working on" + thisClip.newBasenameExt);
+  //
+  // });
+  // console.log(JSON.stringify(keywordTextArray));
   libraryXml.library.push(libraryEventOne);
   // console.log("resources in theFormats.resources = " + theFormats.resources.length);
   // console.log(JSON.stringify(libraryXml.library[0], null, 2));
@@ -101,7 +130,7 @@ function makeFormats(shootObject){
       theNewFormat.format._attr.id = ("r" + (resourceXml.resources.length+1));
       resourceXml.resources.push(theNewFormat);
       clip.fcpxml.asset._attr.format = ("r" + resourceXml.resources.length);
-      console.log(JSON.stringify(clip.fcpxml.asset._attr, null, 2));
+      // console.log(JSON.stringify(clip.fcpxml.asset._attr, null, 2));
     }
   });
   return resourceXml;
