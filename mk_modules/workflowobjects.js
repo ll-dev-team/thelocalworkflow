@@ -60,17 +60,17 @@ function Shoot(shootPath){
 
 function timeCodeToFcpxmlFormat(timecode){
   var tempTc = ("willBeAFunctionOf " + timecode);
-  theHours = timecode.split(':')[0];
-  theMinutes = timecode.split(':')[1];
-  theSeconds = timecode.split(':')[2];
-  theFrames = timecode.split(':')[3];
+  theHours = parseInt(timecode.split(':')[0]);
+  theMinutes = parseInt(timecode.split(':')[1]);
+  theSeconds = parseInt(timecode.split(':')[2]);
+  theFrames = parseInt(timecode.split(':')[3]);
   console.log("theHours=" + theHours);
   console.log("theMinutes=" + theMinutes);
   console.log("theSeconds=" + theSeconds);
   console.log("theFrames=" + theFrames);
-  theTotalFrames = theFrames+(24*(theSeconds+(60*(theMinutes+(60*theHours)))));
+  theTotalFrames = (theFrames)+(24*(theSeconds+(60*(theMinutes+(60*theHours)))));
   console.log(theTotalFrames);
-  theFcpxFormat = (theTotalFrames*24000 + "/24000s");
+  theFcpxFormat = ((theTotalFrames*1001) + "/24000s");
   console.log(theFcpxFormat);
   return theFcpxFormat;
 };
