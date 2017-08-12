@@ -5,6 +5,8 @@ var ffprobetools = require("./ffprobetools");
 const Clip = require("./workflowobjects").Clip;
 const Shoot = require("./workflowobjects").Shoot;
 
+
+
 function rename(folderPath) {
   var re = /^\./;
   var thisShoot = new Shoot(folderPath);
@@ -29,8 +31,7 @@ function rename(folderPath) {
           console.log(update);
           fs.appendFileSync('./tests/output/log.txt', update);
           //
-          //
-          // toggle this on and off to avoid renaming while testing:
+          // TODO: toggle this on and off to avoid renaming while testing:
           //
           //
           // fs.renameSync(thisClips.oldPath, thisClip.newPath);
@@ -68,23 +69,6 @@ function testIt(string) {
   // console.log("shootprocessor is working, and the string should be: " + string);
 }
 
-function dateFromId(shootId) {
-  // console.log("working in dateFromId with " + shootId);
-  var regexTest = /^\d{8}/;
-  var dateRoot = shootId.slice(0,8);
-  if (regexTest.test(dateRoot)) {
-    var y = dateRoot.substr(0,4),
-        m = (dateRoot.substr(4,2) - 1),
-        d = dateRoot.substr(6,2);
-    var D = new Date(y,m,d);
-    console.log("the date is " + D);
-    // return (D.getFullYear() == y && D.getMonth() == m && D.getDate() == d) ? D : 'invalid date';
-    return {dateString:dateRoot, date: D};
-  }
-  else {
-    // console.log(shootId + "'s dateRoot " + dateRoot + " is not a valid date string");
-  }
-}
 
 module.exports.rename = rename;
 module.exports.echo = testIt;

@@ -52,10 +52,12 @@ function Clip(folderPath, camFolder, file, theIndex){
 
 function Shoot(shootPath){
   this.shootPath = shootPath;
-  this.date = "date goes here";
   this.people = [];
   this.shootId = path.basename(shootPath);
-
+  this.shootIdDate = this.shootId.split('_')
+  this.dateStart = "date goes here";
+  this.shootCounter = this.shootId;
+  this.projectId
 };
 
 function timeCodeToFcpxmlFormat(timecode){
@@ -80,6 +82,25 @@ function timeCodeToFcpxmlFormat(timecode){
 //   var theStart = ("itWillBeAFunctionOf" + ffprobeObject.streams[0].tags.timecode);
 //   return theStart;
 // };
+
+
+function dateFromId(shootId) {
+  // console.log("working in dateFromId with " + shootId);
+  var regexTest = /^\d{8}/;
+  var dateRoot = shootId.slice(0,8);
+  if (regexTest.test(dateRoot)) {
+    var y = dateRoot.substr(0,4),
+        m = (dateRoot.substr(4,2) - 1),
+        d = dateRoot.substr(6,2);
+    var D = new Date(y,m,d);
+    console.log("the date is " + D);
+    return {dateString:dateRoot, date: D};
+  }
+  else {
+    // console.log(shootId + "'s dateRoot " + dateRoot + " is not a valid date string");
+  }
+}
+
 
 module.exports.Clip = Clip;
 module.exports.Shoot = Shoot;

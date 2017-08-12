@@ -7,6 +7,7 @@ const fcpxml = require("./mk_modules/fcpxml");
 function printHelp() {
   console.log("thelocalworkflow.js (c) Marlon Kuzmick");
   console.log("");
+  
   console.log("usage:");
   console.log("--help             print help");
   console.log("--m2s             m2s for fcpxml in {FOLDER}");
