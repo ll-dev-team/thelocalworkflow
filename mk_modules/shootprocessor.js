@@ -14,7 +14,7 @@ function rename(folderPath) {
   var cameraArray = [];
   var folders = fs.readdirSync(folderPath);
   folders.forEach(function(camFolder){
-    cameraArray.push(camFolder)
+    this.cameraArray.push(camFolder)
     var fullPath = path.join(folderPath,camFolder);
     var stats = fs.statSync(fullPath);
     if (stats.isDirectory()) {

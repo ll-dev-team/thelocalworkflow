@@ -53,6 +53,8 @@ function Clip(folderPath, camFolder, file, theIndex){
 function Shoot(shootPath){
   this.shootPath = shootPath;
   this.people = [];
+  this.cameraArray = [];
+  this.clipArray = [];
   this.shootId = path.basename(shootPath);
   this.shootIdDate = this.shootId.split('_')
   this.dateStart = "date goes here";
