@@ -47,6 +47,24 @@ function Clip(folderPath, camFolder, file, theIndex){
   this.fcpxml.assetClip = [{_attr: {name: this.newBasename, audioRole:"dialogue", tcFormat:"NDF", start:(timeCodeToFcpxmlFormat(this.startTc)), duration: (this.ffprobeObject.streams[0].duration_ts + "/" + this.codec_time_base_denominator + "s"), modDate:this.thelocalworkflowIngestTime}}];
   this.fcpxml.assetClip.push({keyword:  {_attr: {start:(timeCodeToFcpxmlFormat(this.startTc)), duration:(this.ffprobeObject.streams[0].duration_ts + "/" + this.codec_time_base_denominator + "s"), value:(this.shootId+", "+this.cameraFolder)}}});
   this.fcpxml.assetClip.push({keyword: {_attr: {start:(timeCodeToFcpxmlFormat(this.startTc)), duration:"24024/24000s", value:"first 24 frames"}}});
+  this.fcpxml.mcAssetClip = [
+        {_attr:
+            {name: this.newBasenameExt,
+              offset: "mcStart - thisStart",
+              ref: "same as assetClip",
+              audioRole:"dialogue",
+              tcFormat:"NDF",
+              start:(timeCodeToFcpxmlFormat(this.startTc)),
+              duration: (this.ffprobeObject.streams[0].duration_ts + "/" + this.codec_time_base_denominator + "s")
+            }
+          },
+          {"audio-channel-source":
+            {_attr:
+              {role:"dialogue.dialogue-1", srcCh:"1"}}},
+          {"audio-channel-source":
+            {_attr:
+              {role:"dialogue.dialogue-2", srcCh:"2"}}}
+          ];
   // ultimately loop through streams and see if one is audio first, which will determine if we actually have audio.
 };
 
@@ -56,10 +74,11 @@ function Shoot(shootPath){
   this.cameraArray = [];
   this.clipArray = [];
   this.shootId = path.basename(shootPath);
-  this.shootIdDate = this.shootId.split('_')
+  this.shootIdDate = this.shootId.split('_')[0];
   this.dateStart = "date goes here";
-  this.shootCounter = this.shootId;
-  this.projectId
+  this.shootCounter = this.shootId.split('_')[1];
+  this.projectId = this.shootId.split('_')[2];
+  this.subId = this.shootId.split('_')[3];
 };
 
 function timeCodeToFcpxmlFormat(timecode){

@@ -1,11 +1,9 @@
 var fs = require("fs");
-var columnify = require('columnify');
+// var columnify = require('columnify');
 var path = require("path");
-var ffprobetools = require("./ffprobetools");
+// var ffprobetools = require("./ffprobetools");
 const Clip = require("./workflowobjects").Clip;
 const Shoot = require("./workflowobjects").Shoot;
-
-
 
 function rename(folderPath) {
   var re = /^\./;
@@ -14,14 +12,12 @@ function rename(folderPath) {
   var cameraArray = [];
   var folders = fs.readdirSync(folderPath);
   folders.forEach(function(camFolder){
-    this.cameraArray.push(camFolder)
-    var fullPath = path.join(folderPath,camFolder);
-    var stats = fs.statSync(fullPath);
-    if (stats.isDirectory()) {
-      files = fs.readdirSync(fullPath);
-      files.forEach(function(file, index) {
-        // console.log("the file we're working with is " + file);
+    // check if this is actually a folder, if so, push camera to .cameraArray and start looping files in it
+    if (fs.statSync(path.join(folderPath,camFolder)).isDirectory()) {
+      thisShoot.cameraArray.push(camFolder);
+      fs.readdirSync(path.join(folderPath,camFolder)).forEach(function(file, index) {
         if (re.test(file)) {
+          // if this is a hidden file, don't bother with it
           // console.log("WE ARE NOT GOING TO RENAME " + file);
         }
         else {
@@ -32,20 +28,15 @@ function rename(folderPath) {
           fs.appendFileSync('./tests/output/log.txt', update);
           //
           // TODO: toggle this on and off to avoid renaming while testing:
-          //
-          //
           // fs.renameSync(thisClips.oldPath, thisClip.newPath);
-          //
-          //
         }
-        // fs.renameSync(thisClip.oldPath, thisClip.newPath);
       });
     }
     else {
-      // console.log(camFolder + " or " + fullPath + " is not a camera directory");
+      console.log(camFolder + " or is not a camera directory");
     }
-  })
-
+  });
+  console.log("the cameraArray is: \n" + thisShoot.cameraArray );
   thisShoot.clipArray = theseClipObjects;
   shootNotes=("Log of renaming operations for " + thisShoot.shootId + ":\n");
   thisShoot.clipArray.forEach(function(clip, index){
@@ -65,11 +56,4 @@ function rename(folderPath) {
   return thisShoot;
 }
 
-function testIt(string) {
-  // console.log("shootprocessor is working, and the string should be: " + string);
-}
-
-
 module.exports.rename = rename;
-module.exports.echo = testIt;
-module.exports.dateFromId = dateFromId;
