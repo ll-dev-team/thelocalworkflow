@@ -41,11 +41,8 @@ function makeFcpxml(shootObject){
     }
   });
   // loop through keywordArray to build keyword-collection elements for library
-
   resourceMc = resourceMediaMulticam(shootObject);
-  // console.log("hopefully this is stringified resourceMc " + JSON.stringify(resourceMc, null, 2));
   libraryEventOne.event.push(resourceMediaMulticam(shootObject));
-
   for (var i = 0; i < keywordArray.length; i++) {
     thisKeywordElement={"keyword-collection": {_attr:{name:keywordArray[i]}}};
     // console.log(JSON.stringify(thisKeywordElement, null, 2));
@@ -59,7 +56,7 @@ function makeFcpxml(shootObject){
   var filePath = (shootObject.shootPath + "/" + shootObject.shootId + "_v1.fcpxml");
   fs.writeFileSync(filePath, theXml);
   var pathForJson = (shootObject.shootPath + "/" + shootObject.shootId + "_fcpxObject.json");
-  // var fcpxJson = JSON.stringify(fcpxObject, null, 2);
+  var fcpxJson = JSON.stringify(fcpxObject, null, 2);
   fs.writeFileSync(pathForJson, fcpxJson);
 }
 
@@ -102,42 +99,20 @@ function makeFormats(shootObject){
 function resourceMediaMulticam(shootObject){
   var cameras = shootObject.cameraArray;
   // TODO: always define as "r1" and always define r1 as 1080x1920, 23.98?
-  var clipToPush = {media:
-                      [
-                        {_attr:
-                          {name: (shootObject.shootId + "_MC")}
-                        },
-                        {multicam:
-                          [{_attr: {format: "r1" }}]
-                        }
-                      ]
-                    };
+  var clipToPush = {media:[ {_attr: {name: (shootObject.shootId + "_MC")} }, {multicam: [{_attr: {format: "r1" }}] } ] };
   for (var i = 0; i < cameras.length; i++) {
-    // console.log("working on the MC clips for camera " + cameras[i]);
     var theCamera=cameras[i];
-    // console.log("the clipToPush structure is " + JSON.stringify(clipToPush, null, 4));
     clipToPush.media[1].multicam.push({"mc-angle":[{_attr: {name: theCamera}}]});
     var tempIndex=(clipToPush.media[1].multicam.length-1);
-    // console.log("tempIndex "+tempIndex);
-    // console.log("clipToPush.media.multicam" + "[" + tempIndex + "] is " + clipToPush.media.multicam[tempIndex]);
     for (var j = 0; j < shootObject.clipArray.length; j++) {
-      // console.log("working on file " + shootObject.clipArray[j].newBasenameExt);
-      // console.log("check if cameraFolder " + shootObject.clipArray[j].cameraFolder + "is equal to " + theCamera + "or" + cameras[(tempIndex-1)]);
       if (shootObject.clipArray[j].cameraFolder == theCamera) {
-        // console.log("we are going to add the clip " + shootObject.clipArray[j].newBasenameExt + " to the MC Angle " + theCamera);
         mcAngleToAdd = {"asset-clip": shootObject.clipArray[j].fcpxml.mcAssetClip};
-        // console.log("the clipToPush structure is now " + JSON.stringify(clipToPush, null, 4));
-        // console.log("is this an array? " + JSON.stringify(clipToPush.media.multicam, null, 4));
         clipToPush.media[1].multicam[tempIndex]["mc-angle"].push(mcAngleToAdd);
+        // but figure out details on mc offset
+        // and figure out if a gap is needed
+      }
     }
-
-    }
-    // console.log(xml(shootObject.clipArray[i].fcpxml.mcAssetClip));
-    // if (shootObject.clipArray[i])
-    // clipToPush.media.
   }
-  // var tempXml = xml(clipToPush, {indent:'\t'});
-  // console.log(tempXml);
   return clipToPush;
 };
 

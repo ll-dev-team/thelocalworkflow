@@ -15,13 +15,18 @@ function rename(folderPath) {
     // check if this is actually a folder, if so, push camera to .cameraArray and start looping files in it
     if (fs.statSync(path.join(folderPath,camFolder)).isDirectory()) {
       thisShoot.cameraArray.push(camFolder);
+      console.log("camera is now " + camFolder);
+      var offsetForIndex = 0;
       fs.readdirSync(path.join(folderPath,camFolder)).forEach(function(file, index) {
         if (re.test(file)) {
           // if this is a hidden file, don't bother with it
-          // console.log("WE ARE NOT GOING TO RENAME " + file);
+          console.log("WE ARE NOT GOING TO RENAME " + file);
+          offsetForIndex++;
         }
         else {
-          var thisClip = new Clip(folderPath, camFolder, path.basename(file), index);
+          console.log(index);
+          console.log(path.basename(file));
+          var thisClip = new Clip(folderPath, camFolder, path.basename(file), (index - offsetForIndex));
           theseClipObjects.push(thisClip);
           var update = ("\ngoing to try to rename \t\t" + thisClip.oldPath + "\t to \t" + thisClip.newPath)
           console.log(update);

@@ -34,6 +34,14 @@ function Clip(folderPath, camFolder, file, theIndex){
   else {
     this.startTc = "00:00:00:00"
   };
+  this.creationDate = new Date(this.ffprobeObject.streams[0].tags.creation_time);
+  console.log(this.creationDate);
+  this.utcCrStartMill = this.creationDate.getTime();
+  console.log(this.utcCrStartMill);
+  this.utcTcStartDate = dateFromIdTc(this.shootId, this.startTc);
+  console.log(this.utcTcStartDate);
+  this.utcTcStartMill = this.utcTcStartDate.getTime();
+  console.log(this.utcTcStartMill);
   // console.log("timeCodeToFcpxmlFormat function returns " + timeCodeToFcpxmlFormat(this.startTc));
   // console.log("this.startTc is" + this.startTc);
   this.codec_time_base_numerator = this.codec_time_base.split('/')[0];
@@ -83,17 +91,17 @@ function Shoot(shootPath){
 
 function timeCodeToFcpxmlFormat(timecode){
   var tempTc = ("willBeAFunctionOf " + timecode);
-  theHours = parseInt(timecode.split(':')[0]);
-  theMinutes = parseInt(timecode.split(':')[1]);
-  theSeconds = parseInt(timecode.split(':')[2]);
-  theFrames = parseInt(timecode.split(':')[3]);
+  var theHours = parseInt(timecode.split(':')[0]);
+  var theMinutes = parseInt(timecode.split(':')[1]);
+  var theSeconds = parseInt(timecode.split(':')[2]);
+  var theFrames = parseInt(timecode.split(':')[3]);
   // console.log("theHours=" + theHours);
   // console.log("theMinutes=" + theMinutes);
   // console.log("theSeconds=" + theSeconds);
   // console.log("theFrames=" + theFrames);
-  theTotalFrames = (theFrames)+(24*(theSeconds+(60*(theMinutes+(60*theHours)))));
+  var theTotalFrames = (theFrames)+(24*(theSeconds+(60*(theMinutes+(60*theHours)))));
   // console.log(theTotalFrames);
-  theFcpxFormat = ((theTotalFrames*1001) + "/24000s");
+  var theFcpxFormat = ((theTotalFrames*1001) + "/24000s");
   // console.log(theFcpxFormat);
   return theFcpxFormat;
 };
@@ -105,7 +113,7 @@ function timeCodeToFcpxmlFormat(timecode){
 // };
 
 
-function dateFromId(shootId) {
+function dateFromIdTc(shootId, timecode) {
   // console.log("working in dateFromId with " + shootId);
   var regexTest = /^\d{8}/;
   var dateRoot = shootId.slice(0,8);
@@ -113,12 +121,18 @@ function dateFromId(shootId) {
     var y = dateRoot.substr(0,4),
         m = (dateRoot.substr(4,2) - 1),
         d = dateRoot.substr(6,2);
-    var D = new Date(y,m,d);
+    var theHours = parseInt(timecode.split(':')[0]),
+        theMinutes = parseInt(timecode.split(':')[1]),
+        theSeconds = parseInt(timecode.split(':')[2]),
+        theFrames = parseInt(timecode.split(':')[3]);
+    var theTotalFrames = (theFrames)+(24*(theSeconds+(60*(theMinutes+(60*theHours)))));
+    var D = new Date(y,m,d, theHours, theMinutes, theSeconds);
+    console.log(y,m,d, theHours, theMinutes, theSeconds);
     console.log("the date is " + D);
-    return {dateString:dateRoot, date: D};
+    return D;
   }
   else {
-    // console.log(shootId + "'s dateRoot " + dateRoot + " is not a valid date string");
+    console.log(shootId + "'s dateRoot " + dateRoot + " is not a valid date string");
   }
 }
 
