@@ -7,7 +7,6 @@ var dateFormat = require('dateformat');
 function Clip(folderPath, camFolder, file, theIndex){
   var now = new Date();
   this.thelocalworkflowIngestTime = (dateFormat(now, "UTC:yyyy-mm-dd HH-MM-ss"));
-  // console.log("is this the date? " + this.thelocalworkflowIngestTime);
   this.oldBasenameExt = file;
   this.oldPath = path.join(folderPath, camFolder, file);
   this.cameraFolder = camFolder;
@@ -15,7 +14,6 @@ function Clip(folderPath, camFolder, file, theIndex){
   this.counter = ("000" + (theIndex + 1)).slice(-3);
   this.ffprobeOutput=ffprobetools.ffprobeSync(this.oldPath);
   this.ffprobeObject=JSON.parse(this.ffprobeOutput);
-  // console.log(this.ffprobeOutput);
   this.ext = path.extname(file);
   this.newBasename = (this.shootId + "_" + camFolder + "_" + this.counter)
   this.newBasenameExt = (this.newBasename + this.ext)
@@ -35,15 +33,13 @@ function Clip(folderPath, camFolder, file, theIndex){
     this.startTc = "00:00:00:00"
   };
   this.creationDate = new Date(this.ffprobeObject.streams[0].tags.creation_time);
-  console.log(this.creationDate);
+  // console.log(this.creationDate);
   this.utcCrStartMill = this.creationDate.getTime();
-  console.log(this.utcCrStartMill);
+  // console.log(this.utcCrStartMill);
   this.utcTcStartDate = dateFromIdTc(this.shootId, this.startTc);
-  console.log(this.utcTcStartDate);
+  // console.log(this.utcTcStartDate);
   this.utcTcStartMill = this.utcTcStartDate.getTime();
-  console.log(this.utcTcStartMill);
-  // console.log("timeCodeToFcpxmlFormat function returns " + timeCodeToFcpxmlFormat(this.startTc));
-  // console.log("this.startTc is" + this.startTc);
+  // console.log(this.utcTcStartMill);
   this.codec_time_base_numerator = this.codec_time_base.split('/')[0];
   this.codec_time_base_denominator = this.codec_time_base.split('/')[1];
   // console.log("working on " + this.newBasenameExt);
@@ -83,7 +79,6 @@ function Shoot(shootPath){
   this.clipArray = [];
   this.shootId = path.basename(shootPath);
   this.shootIdDate = this.shootId.split('_')[0];
-  this.dateStart = "date goes here";
   this.shootCounter = this.shootId.split('_')[1];
   this.projectId = this.shootId.split('_')[2];
   this.subId = this.shootId.split('_')[3];

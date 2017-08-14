@@ -49,6 +49,21 @@ function rename(folderPath) {
     // console.log("renamed " + clip.newBasenameExt);
   });
 
+  var minUtcCrStartMillTs = Math.min.apply(Math,thisShoot.clipArray.map(function(o){return o.utcTcStartMill;}));
+  console.log("minUtcCrStartMillTs" + minUtcCrStartMillTs);
+  thisShoot.startClip = thisShoot.clipArray.find(function(o){ return o.utcTcStartMill == minUtcCrStartMillTs; })
+  console.log(thisShoot.startClip.newBasenameExt);
+  thisShoot.firstMcAngle = thisShoot.startClip.cameraFolder;
+  thisShoot.mcStartTc = thisShoot.startClip.startTc;
+  thisShoot.startCrDate = thisShoot.startClip.creationDate;
+  thisShoot.startTcDate = thisShoot.startClip.utcTcStartDate;
+  thisShoot.tcOffset = thisShoot.startTcDate.getTime() - thisShoot.startCrDate.getTime();
+  thisShoot.tcFramesOffset = (thisShoot.tcOffset*24)/1001;
+  console.log("tc starts out " + thisShoot.tcOffset + " ahead of Creation Time clock, which is " + thisShoot.tcFramesOffset + " frames.");
+
+
+
+
   shootNotesName=(thisShoot.shootId + "_shootnotes.txt")
   shootNotesPath=path.join(folderPath, shootNotesName)
   fs.appendFile(shootNotesPath, ("\n\n" + shootNotes), function (err) {

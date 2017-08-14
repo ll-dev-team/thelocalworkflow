@@ -9,28 +9,27 @@ const xml = require("xml");
 
 // var array = ["apple", "orange", [0, 2, 3]];
 // console.log(array[2][1]);
-//
-//
-// var testObject = {};
-// testObject.media = [];
-// testObject.media.push({_attr: {name: "objectName"}});
-// testObject.media.push({clip: {_attr: {name: "ClipName", width: "1920"}}});
-//
-// var numbers = [1, 5, 10, 15];
-// var doubles = numbers.map(function(x) {
-//    return x * 2;
-// });
-// // doubles is now [2, 10, 20, 30]
-// // numbers is still [1, 5, 10, 15]
-//
-// var numbers = [1, 4, 9];
-// var roots = numbers.map(Math.sqrt);
-//
-//
-// var clips = [{_attr: {name: "clip1", width: "1920"}}, {_attr: {name: "clip2", width: "1920"}}, {_attr: {name: "clip3", width: "1920"}}, {_attr: {name: "clip4", width: "1920"}}, {_attr: {name: "clip5", width: "1920"}}];
-// var widths = clips.map(function(clip, index, clips){
-//   return clip._attr.width;
-// });
+
+
+var testObject = {};
+testObject.media = [];
+testObject.media.push({_attr: {name: "objectName"}});
+testObject.media.push({clip: {_attr: {name: "ClipName", width: "1920"}}});
+
+
+
+
+var clips = [{_attr: {name: "clip1", width: "1020"}}, {_attr: {name: "clip2", width: "2920"}}, {_attr: {name: "clip3", width: "5920"}}, {_attr: {name: "clip4", width: "10"}}, {_attr: {name: "clip5", width: "190"}}];
+var widths = clips.map(function(clip, index, clips){
+  return clip._attr.width;
+});
+
+
+var result = Math.max.apply(Math,clips.map(function(o){return o._attr.width;}));
+console.log("result is " + result);
+var obj = clips.find(function(o){ return o._attr.width == result; })
+console.log(JSON.stringify(obj, null, 4));
+
 //
 // console.log(JSON.stringify(widths, null, 4));
 //
@@ -38,9 +37,3 @@ const xml = require("xml");
 //
 //
 // console.log(xml(testObject, {indent:'\t'}));
-
-var now = new Date();
-console.log(now.getTime());
-
-var someDate = new Date('Mon, 25 Dec 1995 13:30:00 GMT');
-var theUnixTime = someDate.getUnixTime();

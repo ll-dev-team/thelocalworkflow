@@ -3,18 +3,19 @@ const columnify = require('columnify');
 const fs = require('fs');
 const shootprocessor = require("./mk_modules/shootprocessor");
 const fcpxml = require("./mk_modules/fcpxml");
+const dateFormat = require('dateformat');
+
 
 function printHelp() {
   console.log("thelocalworkflow.js (c) Marlon Kuzmick");
   console.log("");
-  
-  console.log("usage:");
-  console.log("--help             print help");
+  console.log("commands:");
+  console.log("--help            print help");
   console.log("--m2s             m2s for fcpxml in {FOLDER}");
-  console.log("--rename      rename files in {FOLDER}");
+  console.log("--rename          rename files in {FOLDER}");
 }
 
-if (args.help || !(args.m2s || args.rename || args.shootfolder)) {
+if (args.help || !(args.m2s || args.rename)) {
   printHelp();
   process.exit(1);
 }
@@ -31,6 +32,7 @@ if (args.rename) {
   // });
   var theResourceXml = fcpxml.makeFcpxml(theResult);
   console.log("\n\n\ncomplete\n\n\n\n");
+  console.log("as a test, here should be the start date for the shoot: " + dateFormat(theResult.startCrDate, "dddd, mmmm dS, yyyy, h:MM:ss TT"));
   var pathForJson = (theResult.shootPath + "/" + theResult.shootId + "_shootObject.json");
   var shootObjectJson = JSON.stringify(theResult, null, 2);
   fs.writeFileSync(pathForJson, shootObjectJson);
