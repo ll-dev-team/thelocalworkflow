@@ -32,6 +32,11 @@ function Clip(folderPath, camFolder, file, theIndex){
   else {
     this.startTc = "00:00:00:00"
   };
+  if (this.ffprobeObject.streams[0].tags["com.apple.quicktime.creationdate"])
+    {
+      this.actualCreationDate = this.ffprobeObject.streams[0].tags["com.apple.quicktime.creationdate"];
+      console.log("actualCreationDate is " + dateFormat(this.actualCreationDate, "dddd, mmmm dS, yyyy, h:MM:ss TT"));
+    }
   this.creationDate = new Date(this.ffprobeObject.streams[0].tags.creation_time);
   // console.log(this.creationDate);
   this.utcCrStartMill = this.creationDate.getTime();

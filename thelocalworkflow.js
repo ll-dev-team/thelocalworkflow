@@ -32,7 +32,8 @@ if (args.rename) {
   // });
   var theResourceXml = fcpxml.makeFcpxml(theResult);
   console.log("\n\n\ncomplete\n\n\n\n");
-  console.log("as a test, here should be the start date for the shoot: " + dateFormat(theResult.startCrDate, "dddd, mmmm dS, yyyy, h:MM:ss TT"));
+  console.log("creation start date: " + dateFormat(theResult.startCrDate, "dddd, mmmm dS, yyyy, h:MM:ss TT"));
+  console.log("tc start date: " + dateFormat(theResult.startTcDate, "dddd, mmmm dS, yyyy, h:MM:ss TT"));
   var pathForJson = (theResult.shootPath + "/" + theResult.shootId + "_shootObject.json");
   var shootObjectJson = JSON.stringify(theResult, null, 2);
   fs.writeFileSync(pathForJson, shootObjectJson);
