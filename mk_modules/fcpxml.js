@@ -100,6 +100,7 @@ function resourceMediaMulticam(shootObject){
   var cameras = shootObject.cameraArray;
   // TODO: always define as "r1" and always define r1 as 1080x1920, 23.98?
   var clipToPush = {media:[ {_attr: {name: (shootObject.shootId + "_MC")} }, {multicam: [{_attr: {format: "r1" }}] } ] };
+  var insertionPoint = shootObject.mcStartTc;
   for (var i = 0; i < cameras.length; i++) {
     var theCamera=cameras[i];
     clipToPush.media[1].multicam.push({"mc-angle":[{_attr: {name: theCamera}}]});

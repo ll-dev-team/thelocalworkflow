@@ -54,15 +54,13 @@ function rename(folderPath) {
   thisShoot.startClip = thisShoot.clipArray.find(function(o){ return o.utcTcStartMill == minUtcCrStartMillTs; })
   console.log(thisShoot.startClip.newBasenameExt);
   thisShoot.firstMcAngle = thisShoot.startClip.cameraFolder;
+  // TODO: change at some point to cope with clock-time differential.
   thisShoot.mcStartTc = thisShoot.startClip.startTc;
   thisShoot.startCrDate = thisShoot.startClip.creationDate;
   thisShoot.startTcDate = thisShoot.startClip.utcTcStartDate;
   thisShoot.tcOffset = thisShoot.startTcDate.getTime() - thisShoot.startCrDate.getTime();
   thisShoot.tcFramesOffset = (thisShoot.tcOffset*24)/1001;
   console.log("tc starts out " + thisShoot.tcOffset + " ahead of Creation Time clock, which is " + thisShoot.tcFramesOffset + " frames.");
-
-
-
 
   shootNotesName=(thisShoot.shootId + "_shootnotes.txt")
   shootNotesPath=path.join(folderPath, shootNotesName)

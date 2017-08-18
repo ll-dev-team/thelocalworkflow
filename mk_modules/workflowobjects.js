@@ -22,7 +22,6 @@ function Clip(folderPath, camFolder, file, theIndex){
   this.height = this.ffprobeObject.streams[0].height;
   this.codec_time_base = this.ffprobeObject.streams[0].codec_time_base;
   this.codec_long_name = this.ffprobeObject.streams[0].codec_long_name;
-  this.duration_ts = this.ffprobeObject.streams[0].duration_ts;
   this.duration = this.ffprobeObject.streams[0].duration;
   this.bit_rate = this.ffprobeObject.streams[0].bit_rate;
   this.nb_frames = this.ffprobeObject.streams[0].nb_frames;
@@ -37,6 +36,12 @@ function Clip(folderPath, camFolder, file, theIndex){
       this.actualCreationDate = this.ffprobeObject.streams[0].tags["com.apple.quicktime.creationdate"];
       console.log("actualCreationDate is " + dateFormat(this.actualCreationDate, "dddd, mmmm dS, yyyy, h:MM:ss TT"));
     }
+  this.duration_ts = this.ffprobeObject.streams[0].duration_ts;
+  this.start_ts = timeCodeToFcpxmlFormat(this.startTc);
+  this.end_ts = this.start_ts + this.duration_ts;
+  console.log("start_ts: " + this.start_ts);
+  console.log("end_ts: " + this.end_ts);
+  console.log("duration_ts: " + this.duration_ts);
   this.creationDate = new Date(this.ffprobeObject.streams[0].tags.creation_time);
   // console.log(this.creationDate);
   this.utcCrStartMill = this.creationDate.getTime();
