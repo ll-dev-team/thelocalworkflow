@@ -41,7 +41,7 @@ function makeFcpxml(shootObject){
     }
   });
   // loop through keywordArray to build keyword-collection elements for library
-  resourceMc = resourceMediaMulticam(shootObject);
+  // resourceMc = resourceMediaMulticam(shootObject);
   libraryEventOne.event.push(resourceMediaMulticam(shootObject));
   for (var i = 0; i < keywordArray.length; i++) {
     thisKeywordElement={"keyword-collection": {_attr:{name:keywordArray[i]}}};
@@ -100,15 +100,22 @@ function resourceMediaMulticam(shootObject){
   var cameras = shootObject.cameraArray;
   // TODO: always define as "r1" and always define r1 as 1080x1920, 23.98?
   var clipToPush = {media:[ {_attr: {name: (shootObject.shootId + "_MC")} }, {multicam: [{_attr: {format: "r1" }}] } ] };
-  var insertionPoint = shootObject.mcStartTc;
+  var insertionPoint = shootObject.mcStartTs;
+  console.log("\n\n\n\n\n\n\n\ncurrent clip to push is " + clipToPush.media[0]._attr.name + "\nand the insertionPoint is now " + insertionPoint);
   for (var i = 0; i < cameras.length; i++) {
     var theCamera=cameras[i];
+    console.log("in the camera loop and working on camera " + theCamera);
     clipToPush.media[1].multicam.push({"mc-angle":[{_attr: {name: theCamera}}]});
     var tempIndex=(clipToPush.media[1].multicam.length-1);
     for (var j = 0; j < shootObject.clipArray.length; j++) {
+      console.log("in the clip loop and working on shot " + shootObject.clipArray[j].newBasenameExt);
       if (shootObject.clipArray[j].cameraFolder == theCamera) {
         mcAngleToAdd = {"asset-clip": shootObject.clipArray[j].fcpxml.mcAssetClip};
         clipToPush.media[1].multicam[tempIndex]["mc-angle"].push(mcAngleToAdd);
+        console.log("in the if statement and it checks out.\n\nNow adding " + shootObject.clipArray[j].newBasenameExt + " to the MC.");
+
+
+      // nThe insertionPoint is now " + insertionPoint + "\n and the start_ts for this clip is + " shootObject.clipArray[j].start_ts + "\nThe duration_ts is " + shootObject.clipArray[j].duration_ts + "\nAnd the end_ts is " + shootObject.clipArray[j].end_ts);
         // but figure out details on mc offset
         // and figure out if a gap is needed
       }

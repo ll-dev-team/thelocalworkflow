@@ -56,6 +56,7 @@ function rename(folderPath) {
   thisShoot.firstMcAngle = thisShoot.startClip.cameraFolder;
   // TODO: change at some point to cope with clock-time differential.
   thisShoot.mcStartTc = thisShoot.startClip.startTc;
+  thisShoot.mcStartTs = thisShoot.startClip.start_ts;
   thisShoot.startCrDate = thisShoot.startClip.creationDate;
   thisShoot.startTcDate = thisShoot.startClip.utcTcStartDate;
   thisShoot.tcOffset = thisShoot.startTcDate.getTime() - thisShoot.startCrDate.getTime();
