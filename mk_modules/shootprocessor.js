@@ -15,21 +15,21 @@ function rename(folderPath) {
     // check if this is actually a folder, if so, push camera to .cameraArray and start looping files in it
     if (fs.statSync(path.join(folderPath,camFolder)).isDirectory()) {
       thisShoot.cameraArray.push(camFolder);
-      console.log("camera is now " + camFolder);
+      // console.log("camera is now " + camFolder);
       var offsetForIndex = 0;
       fs.readdirSync(path.join(folderPath,camFolder)).forEach(function(file, index) {
         if (re.test(file)) {
           // if this is a hidden file, don't bother with it
-          console.log("WE ARE NOT GOING TO RENAME " + file);
+          // console.log("WE ARE NOT GOING TO RENAME " + file);
           offsetForIndex++;
         }
         else {
-          console.log(index);
-          console.log(path.basename(file));
+          // console.log(index);
+          // console.log(path.basename(file));
           var thisClip = new Clip(folderPath, camFolder, path.basename(file), (index - offsetForIndex));
           theseClipObjects.push(thisClip);
           var update = ("\ngoing to try to rename \t\t" + thisClip.oldPath + "\t to \t" + thisClip.newPath)
-          console.log(update);
+          // console.log(update);
           fs.appendFileSync('./tests/output/log.txt', update);
           //
           // TODO: toggle this on and off to avoid renaming while testing:
@@ -38,10 +38,10 @@ function rename(folderPath) {
       });
     }
     else {
-      console.log(camFolder + " or is not a camera directory");
+      // console.log(camFolder + " or is not a camera directory");
     }
   });
-  console.log("the cameraArray is: \n" + thisShoot.cameraArray );
+  // console.log("the cameraArray is: \n" + thisShoot.cameraArray );
   thisShoot.clipArray = theseClipObjects;
   shootNotes=("Log of renaming operations for " + thisShoot.shootId + ":\n");
   thisShoot.clipArray.forEach(function(clip, index){
@@ -57,6 +57,7 @@ function rename(folderPath) {
   // TODO: change at some point to cope with clock-time differential.
   thisShoot.mcStartTc = thisShoot.startClip.startTc;
   thisShoot.mcStartTs = thisShoot.startClip.start_ts;
+
   thisShoot.startCrDate = thisShoot.startClip.creationDate;
   thisShoot.startTcDate = thisShoot.startClip.utcTcStartDate;
   thisShoot.tcOffset = thisShoot.startTcDate.getTime() - thisShoot.startCrDate.getTime();

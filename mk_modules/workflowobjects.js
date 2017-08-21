@@ -34,14 +34,14 @@ function Clip(folderPath, camFolder, file, theIndex){
   if (this.ffprobeObject.streams[0].tags["com.apple.quicktime.creationdate"])
     {
       this.actualCreationDate = this.ffprobeObject.streams[0].tags["com.apple.quicktime.creationdate"];
-      console.log("actualCreationDate is " + dateFormat(this.actualCreationDate, "dddd, mmmm dS, yyyy, h:MM:ss TT"));
+      // console.log("actualCreationDate is " + dateFormat(this.actualCreationDate, "dddd, mmmm dS, yyyy, h:MM:ss TT"));
     }
   this.duration_ts = this.ffprobeObject.streams[0].duration_ts;
   this.start_ts = timeCodeToFcpxmlFormat(this.startTc);
   this.end_ts = this.start_ts + this.duration_ts;
-  console.log("start_ts: " + this.start_ts);
-  console.log("end_ts: " + this.end_ts);
-  console.log("duration_ts: " + this.duration_ts);
+  // console.log("start_ts: " + this.start_ts);
+  // console.log("end_ts: " + this.end_ts);
+  // console.log("duration_ts: " + this.duration_ts);
   this.creationDate = new Date(this.ffprobeObject.streams[0].tags.creation_time);
   // console.log(this.creationDate);
   this.utcCrStartMill = this.creationDate.getTime();
@@ -106,7 +106,8 @@ function timeCodeToFcpxmlFormat(timecode){
   // console.log("theFrames=" + theFrames);
   var theTotalFrames = (theFrames)+(24*(theSeconds+(60*(theMinutes+(60*theHours)))));
   // console.log(theTotalFrames);
-  var theFcpxFormat = ((theTotalFrames*1001) + "/24000s");
+  // var theFcpxFormat = ((theTotalFrames*1001) + "/24000s");
+  var theFcpxFormat = (theTotalFrames*1001);
   // console.log(theFcpxFormat);
   return theFcpxFormat;
 };
@@ -132,8 +133,8 @@ function dateFromIdTc(shootId, timecode) {
         theFrames = parseInt(timecode.split(':')[3]);
     var theTotalFrames = (theFrames)+(24*(theSeconds+(60*(theMinutes+(60*theHours)))));
     var D = new Date(y,m,d, theHours, theMinutes, theSeconds);
-    console.log(y,m,d, theHours, theMinutes, theSeconds);
-    console.log("the date is " + D);
+    // console.log(y,m,d, theHours, theMinutes, theSeconds);
+    // console.log("the date is " + D);
     return D;
   }
   else {

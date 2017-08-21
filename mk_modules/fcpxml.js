@@ -42,7 +42,11 @@ function makeFcpxml(shootObject){
   });
   // loop through keywordArray to build keyword-collection elements for library
   // resourceMc = resourceMediaMulticam(shootObject);
+  console.log("would the r number at this point be related to " + theFormats.resources.length + "?");
+  theFormats.resources.push(resourceMediaMulticam(shootObject));
+
   libraryEventOne.event.push(resourceMediaMulticam(shootObject));
+
   for (var i = 0; i < keywordArray.length; i++) {
     thisKeywordElement={"keyword-collection": {_attr:{name:keywordArray[i]}}};
     // console.log(JSON.stringify(thisKeywordElement, null, 2));
@@ -99,28 +103,60 @@ function makeFormats(shootObject){
 function resourceMediaMulticam(shootObject){
   var cameras = shootObject.cameraArray;
   // TODO: always define as "r1" and always define r1 as 1080x1920, 23.98?
-  var clipToPush = {media:[ {_attr: {name: (shootObject.shootId + "_MC")} }, {multicam: [{_attr: {format: "r1" }}] } ] };
-  var insertionPoint = shootObject.mcStartTs;
-  console.log("\n\n\n\n\n\n\n\ncurrent clip to push is " + clipToPush.media[0]._attr.name + "\nand the insertionPoint is now " + insertionPoint);
+  var anglesArray = [];
+  // build angles array
   for (var i = 0; i < cameras.length; i++) {
     var theCamera=cameras[i];
-    console.log("in the camera loop and working on camera " + theCamera);
-    clipToPush.media[1].multicam.push({"mc-angle":[{_attr: {name: theCamera}}]});
-    var tempIndex=(clipToPush.media[1].multicam.length-1);
-    for (var j = 0; j < shootObject.clipArray.length; j++) {
-      console.log("in the clip loop and working on shot " + shootObject.clipArray[j].newBasenameExt);
-      if (shootObject.clipArray[j].cameraFolder == theCamera) {
-        mcAngleToAdd = {"asset-clip": shootObject.clipArray[j].fcpxml.mcAssetClip};
-        clipToPush.media[1].multicam[tempIndex]["mc-angle"].push(mcAngleToAdd);
-        console.log("in the if statement and it checks out.\n\nNow adding " + shootObject.clipArray[j].newBasenameExt + " to the MC.");
+    // buils thisAngle.clips array
+    var thisAngle={name:theCamera, clips: []};
 
-
-      // nThe insertionPoint is now " + insertionPoint + "\n and the start_ts for this clip is + " shootObject.clipArray[j].start_ts + "\nThe duration_ts is " + shootObject.clipArray[j].duration_ts + "\nAnd the end_ts is " + shootObject.clipArray[j].end_ts);
-        // but figure out details on mc offset
-        // and figure out if a gap is needed
+    console.log("in the camera loop and working on camera " + thisAngle.name);
+      for (var j = 0; j < shootObject.clipArray.length; j++) {
+        if (shootObject.clipArray[j].cameraFolder == theCamera) {
+          thisAngle.clips.push(shootObject.clipArray[j]);
+        }
       }
+      anglesArray.push(thisAngle);
+    };
+  // loop through angles, then through clips and build xml for clips and gaps
+  var clipToPush = {media:[ {_attr: {name: (shootObject.shootId + "_MC")} }, {multicam: [{_attr: {format: "r1" }}] } ] };
+  var thisMcStartTs = shootObject.mcStartTs;
+  anglesArray.forEach(function(thisAngle, index){
+    var insertionPoint = shootObject.mcStartTs;
+      thisAngle.camera=cameras[index]
+      console.log("working on angle including" + thisAngle.clips[0].newBasenameExt + " and the index is " + index + " and hopefully camera is " + thisAngle.camera);
+      // push the name of the camera to the clip to push
+      clipToPush.media[1].multicam.push({"mc-angle":[{_attr: {name: thisAngle.camera}}]});
+      var tempIndex=(clipToPush.media[1].multicam.length-1);
+      // loop clips in angle
+      thisAngle.clips.forEach(function(thisClip, index)
+        {
+          mcAngleToAdd = {"asset-clip": thisClip.fcpxml.mcAssetClip};
+          if (thisClip.start_ts == insertionPoint){
+            console.log(thisClip.newBasenameExt + " is at the start of the multi or previous clip, so no gap needed");
+            clipToPush.media[1].multicam[tempIndex]["mc-angle"].push(mcAngleToAdd);
+          }
+          else {
+            var gapDuration = (thisClip.start_ts - insertionPoint);
+            console.log(thisClip.newBasenameExt + " isn't at the start of the multi or previous clip, so a gap clip of "+
+            gapDuration+" in duration will be generated");
+            var gapToAdd = {"gap": {_attr:{name:"Gap", offset:((insertionPoint-thisMcStartTs) + "/24000s"), duration:( gapDuration+"/24000s"), start: "86400314/24000s"}}};
+            clipToPush.media[1].multicam[tempIndex]["mc-angle"].push(gapToAdd);
+
+            // <gap name="Gap" offset="0s" duration="360360/24000s" start="86400314/24000s"/>
+
+            clipToPush.media[1].multicam[tempIndex]["mc-angle"].push(mcAngleToAdd);
+
+
+          }
+          insertionPoint = thisClip.end_ts;
+
+
+        }
+      );
     }
-  }
+  );
+
   return clipToPush;
 };
 

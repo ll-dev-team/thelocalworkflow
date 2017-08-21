@@ -25,15 +25,15 @@ if (args.m2s) {
 }
 
 if (args.rename) {
-  console.log("the folder path to the files we want to rename is " + args.rename);
+  // console.log("the folder path to the files we want to rename is " + args.rename);
   var theResult = shootprocessor.rename(args.rename);
   // theResult.clipArray.forEach(function(clip){
   //   console.log("oldName = " + clip.oldBasenameExt +"\tnewName = " + clip.newBasenameExt + "\tduration for fcpxml = " + clip.fcpxmlElements.duration);
   // });
   var theResourceXml = fcpxml.makeFcpxml(theResult);
   console.log("\n\n\ncomplete\n\n\n\n");
-  console.log("creation start date: " + dateFormat(theResult.startCrDate, "dddd, mmmm dS, yyyy, h:MM:ss TT"));
-  console.log("tc start date: " + dateFormat(theResult.startTcDate, "dddd, mmmm dS, yyyy, h:MM:ss TT"));
+  // console.log("creation start date: " + dateFormat(theResult.startCrDate, "dddd, mmmm dS, yyyy, h:MM:ss TT"));
+  // console.log("tc start date: " + dateFormat(theResult.startTcDate, "dddd, mmmm dS, yyyy, h:MM:ss TT"));
   var pathForJson = (theResult.shootPath + "/" + theResult.shootId + "_shootObject.json");
   var shootObjectJson = JSON.stringify(theResult, null, 2);
   fs.writeFileSync(pathForJson, shootObjectJson);

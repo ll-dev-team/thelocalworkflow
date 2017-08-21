@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+
+<fcpxml version="1.6">
+    <resources>
+        <asset id="r1" name="20170802_002_ACEGIDPlanning_LeratoMK_C300a_001" uid="307CE3A1753212A7E268796AB16DA55F" src="file:///Users/mk/Development/test_materials/20170802_002_ACEGIDPlanning_LeratoMK/C300a/20170802_002_ACEGIDPlanning_LeratoMK_C300a_001.mov" start="1095317223/24000s" duration="11756745/24000s" hasVideo="1" format="r2" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <bookmark>Ym9va3wDAAAAAAQQMAAAAGOjjJ/xnl8gfqGjl9tIlPBQ8u8+U0WSQG6E2B2iKkG+eAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMAAAACAAAAAQEAAG1rAAALAAAAAQEAAERldmVsb3BtZW50AA4AAAABAQAAdGVzdF9tYXRlcmlhbHMAACQAAAABAQAAMjAxNzA4MDJfMDAyX0FDRUdJRFBsYW5uaW5nX0xlcmF0b01LBQAAAAEBAABDMzAwYQAAADIAAAABAQAAMjAxNzA4MDJfMDAyX0FDRUdJRFBsYW5uaW5nX0xlcmF0b01LX0MzMDBhXzAwMS5tb3YAABwAAAABBgAAEAAAACAAAAAsAAAAQAAAAFgAAACEAAAAlAAAAAgAAAAEAwAA92cGAAAAAAAIAAAABAMAAH7JBgAAAAAACAAAAAQDAAALgxsAAAAAAAgAAAAEAwAA92lBAAAAAAAIAAAABAMAADJLSAAAAAAACAAAAAQDAAA2S0gAAAAAAAgAAAAEAwAAN0tIAAAAAAAcAAAAAQYAAPQAAAAEAQAAFAEAACQBAAA0AQAARAEAAFQBAAAIAAAAAAQAAEG/MjfnAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAIAAAABAMAAAUAAAAAAAAABAAAAAMDAAD1AQAACAAAAAEJAABmaWxlOi8vLwkAAAABAQAAbWtfc2llcnJhAAAACAAAAAQDAAAAAABIrgAAAAgAAAAABAAAQb8Fun4AAAAkAAAAAQEAAEI0MDkzNTZGLTlERDktMzM3Ri1BODFCLUU4MjJDOTM3NzZFMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAAAAAAAEFAADMAAAA/v///wEAAAAAAAAAEAAAAAQQAADQAAAAAAAAAAUQAABkAQAAAAAAABAQAACYAQAAAAAAAEAQAACIAQAAAAAAAAIgAABkAgAAAAAAAAUgAADUAQAAAAAAABAgAADkAQAAAAAAABEgAAAYAgAAAAAAABIgAAD4AQAAAAAAABMgAAAIAgAAAAAAACAgAABEAgAAAAAAADAgAABwAgAAAAAAAAHAAAC4AQAAAAAAABHAAAAgAAAAAAAAABLAAADIAQAAAAAAABDQAAAEAAAAAAAAAA==</bookmark>
+        </asset>
+        <format id="r2" name="FFVideoFormat1080p2398" frameDuration="1001/24000s" width="1920" height="1080"/>
+        <asset id="r3" name="20170802_002_ACEGIDPlanning_LeratoMK_C300b_001" uid="2BBE77897A7A538951B402B3B7D9BCFA" src="file:///Users/mk/Development/test_materials/20170802_002_ACEGIDPlanning_LeratoMK/C300b/20170802_002_ACEGIDPlanning_LeratoMK_C300b_001.mov" start="1095677583/24000s" duration="6235229/24000s" hasVideo="1" format="r2" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <bookmark>Ym9va3wDAAAAAAQQMAAAAA3Pt6h1f5tAl6+e4BAkXg9TCL2+3XBR7YayK+AzBF1HeAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMAAAACAAAAAQEAAG1rAAALAAAAAQEAAERldmVsb3BtZW50AA4AAAABAQAAdGVzdF9tYXRlcmlhbHMAACQAAAABAQAAMjAxNzA4MDJfMDAyX0FDRUdJRFBsYW5uaW5nX0xlcmF0b01LBQAAAAEBAABDMzAwYgAAADIAAAABAQAAMjAxNzA4MDJfMDAyX0FDRUdJRFBsYW5uaW5nX0xlcmF0b01LX0MzMDBiXzAwMS5tb3YAABwAAAABBgAAEAAAACAAAAAsAAAAQAAAAFgAAACEAAAAlAAAAAgAAAAEAwAA92cGAAAAAAAIAAAABAMAAH7JBgAAAAAACAAAAAQDAAALgxsAAAAAAAgAAAAEAwAA92lBAAAAAAAIAAAABAMAADJLSAAAAAAACAAAAAQDAABES0gAAAAAAAgAAAAEAwAARUtIAAAAAAAcAAAAAQYAAPQAAAAEAQAAFAEAACQBAAA0AQAARAEAAFQBAAAIAAAAAAQAAEG/MjfvAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAIAAAABAMAAAUAAAAAAAAABAAAAAMDAAD1AQAACAAAAAEJAABmaWxlOi8vLwkAAAABAQAAbWtfc2llcnJhAAAACAAAAAQDAAAAAABIrgAAAAgAAAAABAAAQb8Fun4AAAAkAAAAAQEAAEI0MDkzNTZGLTlERDktMzM3Ri1BODFCLUU4MjJDOTM3NzZFMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAAAAAAAEFAADMAAAA/v///wEAAAAAAAAAEAAAAAQQAADQAAAAAAAAAAUQAABkAQAAAAAAABAQAACYAQAAAAAAAEAQAACIAQAAAAAAAAIgAABkAgAAAAAAAAUgAADUAQAAAAAAABAgAADkAQAAAAAAABEgAAAYAgAAAAAAABIgAAD4AQAAAAAAABMgAAAIAgAAAAAAACAgAABEAgAAAAAAADAgAABwAgAAAAAAAAHAAAC4AQAAAAAAABHAAAAgAAAAAAAAABLAAADIAQAAAAAAABDQAAAEAAAAAAAAAA==</bookmark>
+        </asset>
+        <asset id="r4" name="20170802_002_ACEGIDPlanning_LeratoMK_C300c_001" uid="70D5A452203056144A4D74AF38CF3E55" src="file:///Users/mk/Development/test_materials/20170802_002_ACEGIDPlanning_LeratoMK/C300c/20170802_002_ACEGIDPlanning_LeratoMK_C300c_001.mov" start="1088410323/24000s" duration="8817809/24000s" hasVideo="1" format="r2" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <bookmark>Ym9va3wDAAAAAAQQMAAAAAKtuoZoyiZqOkW7yjmWMCA7W2jrm0hl8QOyq0cPs8LdeAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMAAAACAAAAAQEAAG1rAAALAAAAAQEAAERldmVsb3BtZW50AA4AAAABAQAAdGVzdF9tYXRlcmlhbHMAACQAAAABAQAAMjAxNzA4MDJfMDAyX0FDRUdJRFBsYW5uaW5nX0xlcmF0b01LBQAAAAEBAABDMzAwYwAAADIAAAABAQAAMjAxNzA4MDJfMDAyX0FDRUdJRFBsYW5uaW5nX0xlcmF0b01LX0MzMDBjXzAwMS5tb3YAABwAAAABBgAAEAAAACAAAAAsAAAAQAAAAFgAAACEAAAAlAAAAAgAAAAEAwAA92cGAAAAAAAIAAAABAMAAH7JBgAAAAAACAAAAAQDAAALgxsAAAAAAAgAAAAEAwAA92lBAAAAAAAIAAAABAMAADJLSAAAAAAACAAAAAQDAABJS0gAAAAAAAgAAAAEAwAASktIAAAAAAAcAAAAAQYAAPQAAAAEAQAAFAEAACQBAAA0AQAARAEAAFQBAAAIAAAAAAQAAEG/MjiQAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAIAAAABAMAAAUAAAAAAAAABAAAAAMDAAD1AQAACAAAAAEJAABmaWxlOi8vLwkAAAABAQAAbWtfc2llcnJhAAAACAAAAAQDAAAAAABIrgAAAAgAAAAABAAAQb8Fun4AAAAkAAAAAQEAAEI0MDkzNTZGLTlERDktMzM3Ri1BODFCLUU4MjJDOTM3NzZFMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAAAAAAAEFAADMAAAA/v///wEAAAAAAAAAEAAAAAQQAADQAAAAAAAAAAUQAABkAQAAAAAAABAQAACYAQAAAAAAAEAQAACIAQAAAAAAAAIgAABkAgAAAAAAAAUgAADUAQAAAAAAABAgAADkAQAAAAAAABEgAAAYAgAAAAAAABIgAAD4AQAAAAAAABMgAAAIAgAAAAAAACAgAABEAgAAAAAAADAgAABwAgAAAAAAAAHAAAC4AQAAAAAAABHAAAAgAAAAAAAAABLAAADIAQAAAAAAABDQAAAEAAAAAAAAAA==</bookmark>
+        </asset>
+        <asset id="r5" name="20170802_002_ACEGIDPlanning_LeratoMK_GH4_001" uid="5C0A0E63752D9BB1013A360F97EE102D" src="file:///Users/mk/Development/test_materials/20170802_002_ACEGIDPlanning_LeratoMK/GH4/20170802_002_ACEGIDPlanning_LeratoMK_GH4_001.mov" start="1095413319/24000s" duration="7837830/24000s" hasVideo="1" format="r2" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <bookmark>Ym9va3QDAAAAAAQQMAAAAG2v13y5EoKbDHCc/fNP0riFelhJ1Y+P4HRgDVZpCa9acAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMAAAACAAAAAQEAAG1rAAALAAAAAQEAAERldmVsb3BtZW50AA4AAAABAQAAdGVzdF9tYXRlcmlhbHMAACQAAAABAQAAMjAxNzA4MDJfMDAyX0FDRUdJRFBsYW5uaW5nX0xlcmF0b01LAwAAAAEBAABHSDQAMAAAAAEBAAAyMDE3MDgwMl8wMDJfQUNFR0lEUGxhbm5pbmdfTGVyYXRvTUtfR0g0XzAwMS5tb3YcAAAAAQYAABAAAAAgAAAALAAAAEAAAABYAAAAhAAAAJAAAAAIAAAABAMAAPdnBgAAAAAACAAAAAQDAAB+yQYAAAAAAAgAAAAEAwAAC4MbAAAAAAAIAAAABAMAAPdpQQAAAAAACAAAAAQDAAAyS0gAAAAAAAgAAAAEAwAATUtIAAAAAAAIAAAABAMAAE5LSAAAAAAAHAAAAAEGAADsAAAA/AAAAAwBAAAcAQAALAEAADwBAABMAQAACAAAAAAEAABBvzJ5ygAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAACAAAAAQDAAAFAAAAAAAAAAQAAAADAwAA9QEAAAgAAAABCQAAZmlsZTovLy8JAAAAAQEAAG1rX3NpZXJyYQAAAAgAAAAEAwAAAAAASK4AAAAIAAAAAAQAAEG/Bbp+AAAAJAAAAAEBAABCNDA5MzU2Ri05REQ5LTMzN0YtQTgxQi1FODIyQzkzNzc2RTIYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAAzAAAAP7///8BAAAAAAAAABAAAAAEEAAAyAAAAAAAAAAFEAAAXAEAAAAAAAAQEAAAkAEAAAAAAABAEAAAgAEAAAAAAAACIAAAXAIAAAAAAAAFIAAAzAEAAAAAAAAQIAAA3AEAAAAAAAARIAAAEAIAAAAAAAASIAAA8AEAAAAAAAATIAAAAAIAAAAAAAAgIAAAPAIAAAAAAAAwIAAAaAIAAAAAAAABwAAAsAEAAAAAAAARwAAAIAAAAAAAAAASwAAAwAEAAAAAAAAQ0AAABAAAAAAAAAA=</bookmark>
+        </asset>
+        <media id="r6" name="20170802_002_ACEGIDPlanning_LeratoMK_MC" uid="yO3E62SaTUWzb1Lul6VVoA" modDate="2017-08-20 09:17:01 -0400">
+            <multicam format="r2" renderColorSpace="Rec. 709" tcStart="1095317223/24000s" tcFormat="NDF">
+                <mc-angle name="C300a" angleID="0000C300a">
+                    <asset-clip name="20170802_002_ACEGIDPlanning_LeratoMK_C300a_001" offset="0s" ref="r1" duration="11756745/24000s" start="1095317223/24000s" audioRole="dialogue" tcFormat="NDF">
+                        <audio-channel-source role="dialogue.dialogue-1" srcCh="1"/>
+                        <audio-channel-source role="dialogue.dialogue-2" srcCh="2"/>
+                    </asset-clip>
+                </mc-angle>
+                <mc-angle name="C300b" angleID="0000C300b">
+                    <asset-clip name="20170802_002_ACEGIDPlanning_LeratoMK_C300b_001" offset="360360/24000s" ref="r3" duration="6235229/24000s" start="1095677583/24000s" audioRole="dialogue" tcFormat="NDF">
+                        <audio-channel-source role="dialogue.dialogue-1" srcCh="1"/>
+                        <audio-channel-source role="dialogue.dialogue-2" srcCh="2"/>
+                    </asset-clip>
+                </mc-angle>
+                <mc-angle name="GH4" angleID="0000GH4">
+                    <asset-clip name="20170802_002_ACEGIDPlanning_LeratoMK_GH4_001" offset="96096/24000s" ref="r5" duration="7837830/24000s" start="1095413319/24000s" audioRole="dialogue" tcFormat="NDF">
+                        <audio-channel-source role="dialogue.dialogue-1" srcCh="1"/>
+                        <audio-channel-source role="dialogue.dialogue-2" srcCh="2"/>
+                    </asset-clip>
+                </mc-angle>
+                <mc-angle name="C300c" angleID="KSBTEPVJRdiH1fkJzJaD4A">
+                    <asset-clip name="20170802_002_ACEGIDPlanning_LeratoMK_C300c_001" offset="283283/24000s" ref="r4" duration="8817809/24000s" start="1088410323/24000s" audioRole="dialogue" tcFormat="NDF"/>
+                </mc-angle>
+            </multicam>
+        </media>
+        <media id="r7" name="20170802_002_ACEGIDPlanning_LeratoMK_MC_CC" uid="TxHV7bUBTtqdx59QvYpcBg" modDate="2017-08-20 09:17:01 -0400">
+            <sequence duration="11756745/24000s" format="r2" renderColorSpace="Rec. 709" tcStart="1095317223/24000s" tcFormat="NDF">
+                <spine>
+                    <mc-clip name="20170802_002_ACEGIDPlanning_LeratoMK_MC" offset="1095317223/24000s" ref="r6" duration="11756745/24000s" start="1095317223/24000s">
+                        <mc-source angleID="0000C300a" srcEnable="all"/>
+                        <mc-clip name="20170802_002_ACEGIDPlanning_LeratoMK_MC" lane="-2" offset="1095317223/24000s" ref="r6" duration="11756745/24000s" start="1095317223/24000s">
+                            <adjust-volume amount="-96dB"/>
+                            <mc-source angleID="0000C300a" srcEnable="audio"/>
+                            <mc-source angleID="0000GH4" srcEnable="video"/>
+                        </mc-clip>
+                        <mc-clip name="20170802_002_ACEGIDPlanning_LeratoMK_MC" lane="-1" offset="1095317223/24000s" ref="r6" duration="11756745/24000s" start="1095317223/24000s">
+                            <adjust-volume amount="-96dB"/>
+                            <mc-source angleID="0000C300a" srcEnable="audio"/>
+                            <mc-source angleID="0000C300b" srcEnable="video"/>
+                        </mc-clip>
+                    </mc-clip>
+                </spine>
+            </sequence>
+        </media>
+    </resources>
+    <library location="file:///Users/mk/Development/test_materials/nogap_test.fcpbundle/">
+        <event name="20170802_002_ACEGIDPlanning_LeratoMK" uid="DDB231B1-734A-4359-A911-263FFEF1475C">
+            <asset-clip name="20170802_002_ACEGIDPlanning_LeratoMK_C300a_001" ref="r1" duration="11756745/24000s" start="1095317223/24000s" audioRole="dialogue" format="r2" tcFormat="NDF" modDate="2017-08-18 21:04:04 -0400"/>
+            <asset-clip name="20170802_002_ACEGIDPlanning_LeratoMK_C300b_001" ref="r3" duration="6235229/24000s" start="1095677583/24000s" audioRole="dialogue" format="r2" tcFormat="NDF" modDate="2017-08-18 21:04:04 -0400"/>
+            <asset-clip name="20170802_002_ACEGIDPlanning_LeratoMK_C300c_001" ref="r4" duration="8817809/24000s" start="1088410323/24000s" audioRole="dialogue" format="r2" tcFormat="NDF" modDate="2017-08-18 21:05:57 -0400"/>
+            <asset-clip name="20170802_002_ACEGIDPlanning_LeratoMK_GH4_001" ref="r5" duration="7837830/24000s" start="1095413319/24000s" audioRole="dialogue" format="r2" tcFormat="NDF" modDate="2017-08-18 21:04:04 -0400"/>
+            <mc-clip name="20170802_002_ACEGIDPlanning_LeratoMK_MC" ref="r6" duration="11756745/24000s" start="1095317223/24000s" modDate="2017-08-18 21:06:19 -0400">
+                <mc-source angleID="0000C300a" srcEnable="all"/>
+            </mc-clip>
+            <ref-clip name="20170802_002_ACEGIDPlanning_LeratoMK_MC_CC" ref="r7" duration="11756745/24000s" start="1095317223/24000s" modDate="2017-08-18 21:06:19 -0400"/>
+            <project name="20170802_002_ACEGIDPlanning_LeratoMK_MC_CC_Ex" uid="CAAB9862-D544-45CD-A285-89D67DE66565" modDate="2017-08-20 09:17:01 -0400">
+                <sequence duration="11756745/24000s" format="r2" renderColorSpace="Rec. 709" tcStart="1095317223/24000s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+                    <spine>
+                        <ref-clip name="20170802_002_ACEGIDPlanning_LeratoMK_MC_CC" offset="1095317223/24000s" ref="r7" duration="11756745/24000s" start="1095317223/24000s"/>
+                    </spine>
+                </sequence>
+            </project>
+            <project name="temp_project" uid="7B5E0A1D-EB49-460A-AB7F-8D1D08A42DB0" modDate="2017-08-20 09:17:01 -0400">
+                <sequence duration="530530/24000s" format="r2" renderColorSpace="Rec. 709" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+                    <spine>
+                        <mc-clip name="20170802_002_ACEGIDPlanning_LeratoMK_MC" offset="0s" ref="r6" duration="238238/24000s" start="1095554460/24000s">
+                            <mc-source angleID="0000C300a" srcEnable="all"/>
+                        </mc-clip>
+                        <mc-clip name="20170802_002_ACEGIDPlanning_LeratoMK_MC" offset="238238/24000s" ref="r6" duration="110110/24000s" start="1095792698/24000s">
+                            <mc-source angleID="0000C300b" srcEnable="all"/>
+                        </mc-clip>
+                        <mc-clip name="20170802_002_ACEGIDPlanning_LeratoMK_MC" offset="348348/24000s" ref="r6" duration="182182/24000s" start="1095902808/24000s">
+                            <mc-source angleID="0000GH4" srcEnable="all"/>
+                        </mc-clip>
+                    </spine>
+                </sequence>
+            </project>
+        </event>
+    </library>
+</fcpxml>
