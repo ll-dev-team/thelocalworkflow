@@ -132,6 +132,10 @@ function resourceMediaMulticam(shootObject){
       thisAngle.clips.forEach(function(thisClip, index)
         {
           mcAngleToAdd = {"asset-clip": thisClip.fcpxml.mcAssetClip};
+          mcAngleToAdd["asset-clip"][0]._attr.offset = ((thisClip.start_ts - thisMcStartTs) + "/24000s");
+          mcAngleToAdd["asset-clip"][0]._attr.ref=thisClip.fcpxml.asset._attr.id;
+
+          console.log(mcAngleToAdd["asset-clip"][0]._attr.offset);
           if (thisClip.start_ts == insertionPoint){
             console.log(thisClip.newBasenameExt + " is at the start of the multi or previous clip, so no gap needed");
             clipToPush.media[1].multicam[tempIndex]["mc-angle"].push(mcAngleToAdd);
