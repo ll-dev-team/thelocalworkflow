@@ -4,6 +4,9 @@ const columnify = require('columnify');
 const path = require("path");
 const ffprobetools = require("./ffprobetools");
 const shootprocessor = require("./shootprocessor");
+const dateFormat = require('dateformat');
+
+var now = new Date();
 
 function makeFcpxml(shootObject){
   // define key variables for fcpxml---mainly container arrays for the clip, format and mc or cc resources to come.
@@ -43,9 +46,9 @@ function makeFcpxml(shootObject){
   // loop through keywordArray to build keyword-collection elements for library
   // resourceMc = resourceMediaMulticam(shootObject);
   console.log("would the r number at this point be related to " + theFormats.resources.length + "?");
-  theFormats.resources.push(resourceMediaMulticam(shootObject));
+  var mcR = (theFormats.resources.length + 1)
+  theFormats.resources.push(resourceMediaMulticam(shootObject, mcR));
 
-  libraryEventOne.event.push(resourceMediaMulticam(shootObject));
 
   for (var i = 0; i < keywordArray.length; i++) {
     thisKeywordElement={"keyword-collection": {_attr:{name:keywordArray[i]}}};
@@ -100,7 +103,7 @@ function makeFormats(shootObject){
   return resourceXml;
 }
 
-function resourceMediaMulticam(shootObject){
+function resourceMediaMulticam(shootObject, mcR){
   var cameras = shootObject.cameraArray;
   // TODO: always define as "r1" and always define r1 as 1080x1920, 23.98?
   var anglesArray = [];
@@ -118,8 +121,9 @@ function resourceMediaMulticam(shootObject){
       }
       anglesArray.push(thisAngle);
     };
+
   // loop through angles, then through clips and build xml for clips and gaps
-  var clipToPush = {media:[ {_attr: {name: (shootObject.shootId + "_MC")} }, {multicam: [{_attr: {format: "r1" }}] } ] };
+  var clipToPush = {media:[ {_attr: {name: (shootObject.shootId + "_MC"), id: ("r")+mcR, modDate: dateFormat(now, "yyyy-mm-dd HH:MM:ss o")} }, {multicam: [{_attr: {format: "r1" }}] } ] };
   var thisMcStartTs = shootObject.mcStartTs;
   anglesArray.forEach(function(thisAngle, index){
     var insertionPoint = shootObject.mcStartTs;
