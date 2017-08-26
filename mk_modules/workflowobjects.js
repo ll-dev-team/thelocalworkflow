@@ -18,25 +18,32 @@ function Clip(folderPath, camFolder, file, theIndex){
   this.newBasename = (this.shootId + "_" + camFolder + "_" + this.counter)
   this.newBasenameExt = (this.newBasename + this.ext)
   this.newPath = path.join(folderPath, camFolder, this.newBasenameExt);
-  this.width = this.ffprobeObject.streams[0].width;
-  this.height = this.ffprobeObject.streams[0].height;
-  this.codec_time_base = this.ffprobeObject.streams[0].codec_time_base;
-  this.codec_long_name = this.ffprobeObject.streams[0].codec_long_name;
-  this.duration = this.ffprobeObject.streams[0].duration;
-  this.bit_rate = this.ffprobeObject.streams[0].bit_rate;
-  this.nb_frames = this.ffprobeObject.streams[0].nb_frames;
-  if (this.ffprobeObject.streams[0].tags.timecode) {
-    this.startTc = this.ffprobeObject.streams[0].tags.timecode
+  for (var i = 0; i < this.ffprobeObject.streams.length; i++) {
+    if (this.ffprobeObject.streams[i].codec_type == "video") {
+      this.videoStreamJson = this.ffprobeObject.streams[i];
+    }
+  };
+  // console.log(JSON.stringify(this.videoStreamJson, null, 2));
+  this.width = this.videoStreamJson.width;
+  this.height = this.videoStreamJson.height;
+  this.codec_time_base = this.videoStreamJson.codec_time_base;
+  this.codec_long_name = this.videoStreamJson.codec_long_name;
+  this.duration = this.videoStreamJson.duration;
+  this.bit_rate = this.videoStreamJson.bit_rate;
+  this.nb_frames = this.videoStreamJson.nb_frames;
+  if (this.videoStreamJson.tags.timecode) {
+    this.startTc = this.videoStreamJson.tags.timecode
+    console.log("just made start tc for " + this.newBasenameExt + " = " + this.startTc);
   }
   else {
     this.startTc = "00:00:00:00"
   };
-  if (this.ffprobeObject.streams[0].tags["com.apple.quicktime.creationdate"])
+  if (this.videoStreamJson.tags["com.apple.quicktime.creationdate"])
     {
-      this.actualCreationDate = this.ffprobeObject.streams[0].tags["com.apple.quicktime.creationdate"];
+      this.actualCreationDate = this.videoStreamJson.tags["com.apple.quicktime.creationdate"];
       // console.log("actualCreationDate is " + dateFormat(this.actualCreationDate, "dddd, mmmm dS, yyyy, h:MM:ss TT"));
     }
-  this.duration_ts = this.ffprobeObject.streams[0].duration_ts;
+  this.duration_ts = this.videoStreamJson.duration_ts;
   this.start_ts = timeCodeToFcpxmlFormat(this.startTc);
   this.end_ts = this.start_ts + this.duration_ts;
   // console.log("start_ts: " + this.start_ts);
@@ -57,9 +64,9 @@ function Clip(folderPath, camFolder, file, theIndex){
   this.fcpxml = {};
   this.fcpxml.format = {_attr:{frameDuration:(this.codec_time_base+"s"), width:this.width, height:this.height}};
   // console.log(JSON.stringify(this.fcpxml, null, 2));
-  this.fcpxml.asset = {_attr:{name: this.newBasenameExt, src: ("file://" + this.newPath), start: (timeCodeToFcpxmlFormat(this.startTc)+"/24000s"), duration:(this.ffprobeObject.streams[0].duration_ts + "/" + this.codec_time_base_denominator + "s"), hasVideo:1, hasAudio:1, audioSources:1, audioChannels:this.ffprobeObject.streams[1].channels, audioRate: this.ffprobeObject.streams[1].sample_rate}};
-  this.fcpxml.assetClip = [{_attr: {name: this.newBasename, audioRole:"dialogue", tcFormat:"NDF", start:(timeCodeToFcpxmlFormat(this.startTc)), duration: (this.ffprobeObject.streams[0].duration_ts + "/" + this.codec_time_base_denominator + "s"), modDate:this.thelocalworkflowIngestTime}}];
-  this.fcpxml.assetClip.push({keyword:  {_attr: {start:(timeCodeToFcpxmlFormat(this.startTc)), duration:(this.ffprobeObject.streams[0].duration_ts + "/" + this.codec_time_base_denominator + "s"), value:(this.shootId+", "+this.cameraFolder)}}});
+  this.fcpxml.asset = {_attr:{name: this.newBasenameExt, src: ("file://" + this.newPath), start: (timeCodeToFcpxmlFormat(this.startTc)+"/24000s"), duration:(this.videoStreamJson.duration_ts + "/" + this.codec_time_base_denominator + "s"), hasVideo:1, hasAudio:1, audioSources:1, audioChannels:this.ffprobeObject.streams[1].channels, audioRate: this.ffprobeObject.streams[1].sample_rate}};
+  this.fcpxml.assetClip = [{_attr: {name: this.newBasename, audioRole:"dialogue", tcFormat:"NDF", start:(timeCodeToFcpxmlFormat(this.startTc)), duration: (this.videoStreamJson.duration_ts + "/" + this.codec_time_base_denominator + "s"), modDate:this.thelocalworkflowIngestTime}}];
+  this.fcpxml.assetClip.push({keyword:  {_attr: {start:(timeCodeToFcpxmlFormat(this.startTc)), duration:(this.videoStreamJson.duration_ts + "/" + this.codec_time_base_denominator + "s"), value:(this.shootId+", "+this.cameraFolder)}}});
   this.fcpxml.assetClip.push({keyword: {_attr: {start:(timeCodeToFcpxmlFormat(this.startTc)), duration:"24024/24000s", value:"first 24 frames"}}});
   this.fcpxml.mcAssetClip = [
         {_attr:
@@ -69,7 +76,7 @@ function Clip(folderPath, camFolder, file, theIndex){
               audioRole:"dialogue",
               tcFormat:"NDF",
               start:(timeCodeToFcpxmlFormat(this.startTc)+"/24000s"),
-              duration: (this.ffprobeObject.streams[0].duration_ts + "/" + this.codec_time_base_denominator + "s")
+              duration: (this.videoStreamJson.duration_ts + "/" + this.codec_time_base_denominator + "s")
             }
           },
           {"audio-channel-source":
@@ -92,6 +99,50 @@ function Shoot(shootPath){
   this.shootCounter = this.shootId.split('_')[1];
   this.projectId = this.shootId.split('_')[2];
   this.subId = this.shootId.split('_')[3];
+};
+
+
+var workflowTools = {
+  tcToFcpxTs: function timeCodeToFcpxmlFormat(timecode){
+    var tempTc = ("willBeAFunctionOf " + timecode);
+    var theHours = parseInt(timecode.split(':')[0]);
+    var theMinutes = parseInt(timecode.split(':')[1]);
+    var theSeconds = parseInt(timecode.split(':')[2]);
+    var theFrames = parseInt(timecode.split(':')[3]);
+    // console.log("theHours=" + theHours);
+    // console.log("theMinutes=" + theMinutes);
+    // console.log("theSeconds=" + theSeconds);
+    // console.log("theFrames=" + theFrames);
+    var theTotalFrames = (theFrames)+(24*(theSeconds+(60*(theMinutes+(60*theHours)))));
+    // console.log(theTotalFrames);
+    // var theFcpxFormat = ((theTotalFrames*1001) + "/24000s");
+    var theFcpxFormat = (theTotalFrames*1001);
+    // console.log(theFcpxFormat);
+    return theFcpxFormat;
+  },
+  idTcToDate: function dateFromIdTc(shootId, timecode) {
+    // console.log("working in dateFromId with " + shootId);
+    var regexTest = /^\d{8}/;
+    var dateRoot = shootId.slice(0,8);
+    if (regexTest.test(dateRoot)) {
+      var y = dateRoot.substr(0,4),
+          m = (dateRoot.substr(4,2) - 1),
+          d = dateRoot.substr(6,2);
+      var theHours = parseInt(timecode.split(':')[0]),
+          theMinutes = parseInt(timecode.split(':')[1]),
+          theSeconds = parseInt(timecode.split(':')[2]),
+          theFrames = parseInt(timecode.split(':')[3]);
+      var theTotalFrames = (theFrames)+(24*(theSeconds+(60*(theMinutes+(60*theHours)))));
+      var D = new Date(y,m,d, theHours, theMinutes, theSeconds);
+      // console.log(y,m,d, theHours, theMinutes, theSeconds);
+      // console.log("the date is " + D);
+      return D;
+    }
+    else {
+      console.log(shootId + "'s dateRoot " + dateRoot + " is not a valid date string");
+    }
+  }
+
 };
 
 function timeCodeToFcpxmlFormat(timecode){

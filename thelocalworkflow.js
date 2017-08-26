@@ -25,6 +25,7 @@ if (args.m2s) {
 }
 
 if (args.rename) {
+  console.log("\n\n\n\n\n\n\n\nstarting . . .\n\n\n\n\n");
   // console.log("the folder path to the files we want to rename is " + args.rename);
   var theResult = shootprocessor.rename(args.rename);
   // theResult.clipArray.forEach(function(clip){

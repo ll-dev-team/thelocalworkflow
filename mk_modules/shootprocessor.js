@@ -50,19 +50,35 @@ function rename(folderPath) {
   });
 
   var minUtcCrStartMillTs = Math.min.apply(Math,thisShoot.clipArray.map(function(o){return o.utcTcStartMill;}));
-  console.log("minUtcCrStartMillTs" + minUtcCrStartMillTs);
+  // console.log("minUtcCrStartMillTs" + minUtcCrStartMillTs);
   thisShoot.startClip = thisShoot.clipArray.find(function(o){ return o.utcTcStartMill == minUtcCrStartMillTs; })
-  console.log(thisShoot.startClip.newBasenameExt);
+
+
+  var minStartTs = Math.min.apply(Math,thisShoot.clipArray.map(function(o){return o.start_ts;}));
+  // console.log("minUtcCrStartMillTs" + minUtcCrStartMillTs);
+  thisShoot.tsStartClip = thisShoot.clipArray.find(function(o){ return o.start_ts == minStartTs; });
+  console.log("the tsStartClip is " +  thisShoot.tsStartClip.newBasenameExt);
+  console.log("the minStartTs is " + minStartTs);
+
+  var maxEndTs = Math.max.apply(Math,thisShoot.clipArray.map(function(o){return o.end_ts;}));
+
+  // console.log(thisShoot.startClip.newBasenameExt);
   thisShoot.firstMcAngle = thisShoot.startClip.cameraFolder;
   // TODO: change at some point to cope with clock-time differential.
   thisShoot.mcStartTc = thisShoot.startClip.startTc;
-  thisShoot.mcStartTs = thisShoot.startClip.start_ts;
+  // thisShoot.mcStartTs = thisShoot.startClip.start_ts;
+  thisShoot.mcStartTs = minStartTs;
+  thisShoot.mcEndTs = maxEndTs;
+  thisShoot.mcDuration = thisShoot.mcEndTs - thisShoot.mcStartTs;
+  console.log("just computed thisShoot.mcDuration and it is " + thisShoot.mcDuration);
+  console.log("just computed thisShoot.mcEndTs and it is " + thisShoot.mcEndTs);
+
 
   thisShoot.startCrDate = thisShoot.startClip.creationDate;
   thisShoot.startTcDate = thisShoot.startClip.utcTcStartDate;
   thisShoot.tcOffset = thisShoot.startTcDate.getTime() - thisShoot.startCrDate.getTime();
   thisShoot.tcFramesOffset = (thisShoot.tcOffset*24)/1001;
-  console.log("tc starts out " + thisShoot.tcOffset + " ahead of Creation Time clock, which is " + thisShoot.tcFramesOffset + " frames.");
+  // console.log("tc starts out " + thisShoot.tcOffset + " ahead of Creation Time clock, which is " + thisShoot.tcFramesOffset + " frames.");
 
   shootNotesName=(thisShoot.shootId + "_shootnotes.txt")
   shootNotesPath=path.join(folderPath, shootNotesName)
