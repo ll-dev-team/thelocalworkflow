@@ -1,0 +1,21 @@
+/Users/mk/Library/Application\ Support/Compressor/Settings/360p_aPassThrough.cmprstng
+
+Compressor ‑jobpath <path> ‑settingpath <path> ‑locationpath <path>
+
+
+
+
+/Applications/Compressor.app/Contents/MacOS/Compressor -jobpath /Users/mk/Development/to_transcode.mov -settingpath /Users/mk/Library/Application\ Support/Compressor/Settings/360p_aPassThrough.cmprstng -locationpath /Users/mk/Development/test_materials/exports/20170601_701_MK_Test_C100a_001.mov
+
+
+
+
+
+/Users/mk/Development/test_materials/20170601_701_MK_Test/C100a/Clip\ \#1\ \[14215419\ +52817\].mov
+
+
+
+/Applications/Compressor.app/Contents/MacOS/Compressor -jobpath /Users/mk/Development/to_transcode.mov -settingpath /Users/mk/Library/Application\ Support/Compressor/Settings/360p_aPassThrough.cmprstng -locationpath /Users/mk/Development/test_materials/exports/20170601_701_MK_Test_C100a_001.mov
+
+
+test
