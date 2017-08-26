@@ -44,12 +44,14 @@ function makeFcpxml(shootObject){
     }
   });
   // loop through keywordArray to build keyword-collection elements for library
-  // resourceMc = resourceMediaMulticam(shootObject);
-  console.log("would the r number at this point be related to " + theFormats.resources.length + "?");
-  var mcR = (theFormats.resources.length + 1)
-  theFormats.resources.push(resourceMediaMulticam(shootObject, mcR));
+  var mcR = (theFormats.resources.length + 1);
+  var theResMc = resourceMediaMulticam(shootObject, mcR);
+  theFormats.resources.push(theResMc);
+  var ccR = mcR + 1;
+  var theResCC = resourceMediaCc(shootObject, theResCC, ccR, theResMc);
 
-
+  theFormats.resources.push(theResCC);
+  // console.log(JSON.stringify(theFormats.resources, null, 2));
   for (var i = 0; i < keywordArray.length; i++) {
     thisKeywordElement={"keyword-collection": {_attr:{name:keywordArray[i]}}};
     // console.log(JSON.stringify(thisKeywordElement, null, 2));
@@ -113,7 +115,7 @@ function resourceMediaMulticam(shootObject, mcR){
     // buils thisAngle.clips array
     var thisAngle={name:theCamera, clips: []};
 
-    console.log("in the camera loop and working on camera " + thisAngle.name);
+    // console.log("in the camera loop and working on camera " + thisAngle.name);
       for (var j = 0; j < shootObject.clipArray.length; j++) {
         if (shootObject.clipArray[j].cameraFolder == theCamera) {
           thisAngle.clips.push(shootObject.clipArray[j]);
@@ -128,7 +130,7 @@ function resourceMediaMulticam(shootObject, mcR){
   anglesArray.forEach(function(thisAngle, index){
     var insertionPoint = shootObject.mcStartTs;
       thisAngle.camera=cameras[index]
-      console.log("working on angle including" + thisAngle.clips[0].newBasenameExt + " and the index is " + index + " and hopefully camera is " + thisAngle.camera);
+      // console.log("working on angle including" + thisAngle.clips[0].newBasenameExt + " and the index is " + index + " and hopefully camera is " + thisAngle.camera);
       // push the name of the camera to the clip to push
       clipToPush.media[1].multicam.push({"mc-angle":[{_attr: {name: thisAngle.camera}}]});
       var tempIndex=(clipToPush.media[1].multicam.length-1);
@@ -139,33 +141,104 @@ function resourceMediaMulticam(shootObject, mcR){
           mcAngleToAdd["asset-clip"][0]._attr.offset = ((thisClip.start_ts - thisMcStartTs) + "/24000s");
           mcAngleToAdd["asset-clip"][0]._attr.ref=thisClip.fcpxml.asset._attr.id;
 
-          console.log(mcAngleToAdd["asset-clip"][0]._attr.offset);
+          // console.log(mcAngleToAdd["asset-clip"][0]._attr.offset);
           if (thisClip.start_ts == insertionPoint){
-            console.log(thisClip.newBasenameExt + " is at the start of the multi or previous clip, so no gap needed");
+            // console.log(thisClip.newBasenameExt + " is at the start of the multi or previous clip, so no gap needed");
             clipToPush.media[1].multicam[tempIndex]["mc-angle"].push(mcAngleToAdd);
           }
           else {
             var gapDuration = (thisClip.start_ts - insertionPoint);
-            console.log(thisClip.newBasenameExt + " isn't at the start of the multi or previous clip, so a gap clip of "+
-            gapDuration+" in duration will be generated");
+            // console.log(thisClip.newBasenameExt + " isn't at the start of the multi or previous clip, so a gap clip of "+ gapDuration+" in duration will be generated");
             var gapToAdd = {"gap": {_attr:{name:"Gap", offset:((insertionPoint-thisMcStartTs) + "/24000s"), duration:( gapDuration+"/24000s"), start: "86400314/24000s"}}};
             clipToPush.media[1].multicam[tempIndex]["mc-angle"].push(gapToAdd);
-
             // <gap name="Gap" offset="0s" duration="360360/24000s" start="86400314/24000s"/>
-
             clipToPush.media[1].multicam[tempIndex]["mc-angle"].push(mcAngleToAdd);
-
-
           }
           insertionPoint = thisClip.end_ts;
-
-
         }
       );
     }
   );
 
   return clipToPush;
+};
+
+function resourceMediaCc(shootObject, theResCC, ccR, theResMc){
+  var theResCcXml =
+    {media:
+      [
+        {_attr: {name: (shootObject.shootId + "_MC_CC"), id:("r"+ccR), modDate: dateFormat(now, "yyyy-mm-dd HH:MM:ss o")}},
+        {sequence: [
+          {_attr: {duration: "function of mc duration", format: "r1", renderColorSpace:"Rec. 709", tcStart:"start of mc", tcFormat:"NDF"}},
+          {spine:
+            [
+
+              {"mc-clip":
+              [
+                {_attr:{name: (shootObject.shootId + "_MC")}}
+              ]
+            }]
+          }]
+        }
+      ]
+    };
+  console.log("\n\n\n\n\n\n");
+  console.log("working on theResCcXml.media[1].sequence[1].spine[0][\"mc-clip\"] ");
+  console.log(JSON.stringify(theResCcXml.media[1].sequence[1].spine[0]["mc-clip"], null, 2));
+  console.log(theResCcXml.media[1].sequence[1].spine[0]["mc-clip"].length);
+  console.log("\n\n\n\n\n\n");
+
+  theResCcXml.media[1].sequence[1].spine[0]["mc-clip"].push()
+  // console.log(JSON.stringify((theResCcXml.media[1].sequence[1].spine[1]), null, 2));
+  // console.log(theResCcXml.media[1].sequence[1].spine[1].length);
+
+  // theResCcXml.media[1].sequence[1].spine[1].push({"mc-clip":[{_attr:{name: (shootObject.shootId + "_MC"), lane:"-2", offset:"CHANGE1095317223/24000s", ref:"CHANGEr6", duration:"CHANGE11756745/24000s", start:"CHANGE1095317223/24000s"}}]});
+  console.log("AFTER---------");
+  console.log(JSON.stringify(theResCcXml, null, 2));
+  console.log(xml(theResCcXml, true));
+
+
+  //
+  //
+  //   [
+  //     {_attr:{name: (shootObject.shootId + "_MC"), lane:"-2", offset:"CHANGE1095317223/24000s" ref:"CHANGEr6" duration:"CHANGE11756745/24000s" start:"CHANGE1095317223/24000s"}
+  //     },
+  //     {"adjust-volume": {_attr:{amount:"-96dB"}}},
+  //     {"mc-source": {_attr:{angleID:"0000C300a", srcEnable:"audio"}}},
+  //     {"mc-source": {_attr:{angleID:"0000C300b", srcEnable:"video"}}}
+  //   ]
+  // });
+
+
+
+
+  // // console.log(JSON.stringify(theResCcXml, null, 2));
+  // console.log("\n\n\n\n\t\t\t+++++++++++++++++\n\n\n\n\n\n\n\n");
+  // console.log(JSON.stringify((theResCcXml.media[1].sequence[1].spine), null, 2));
+  // console.log("\n\n\n\n\t\t\t+++++++++++++++++\n\n\n\n\n\n\n\n");
+  // console.log(JSON.stringify(theResMc, null, 2));
+  // justMcClips =  theResMc.media[1].multicam.filter(function(element){
+  //   if (element["mc-angle"].name){return element};});
+  // console.log("THE MC CLIPS FILTERED");
+  // console.log(JSON.stringify(justMcClips, null, 2));
+  // console.log("length of justMcClips " + justMcClips.length);
+  console.log("number of elements in theResMc.media = " + theResMc.media[1].multicam.length);
+  for (var i = 0; i < theResMc.media[1].multicam.length; i++) {
+    if (theResMc.media[1].multicam[i]["mc-angle"] === undefined) {
+      console.log("step " + i);
+      console.log("it was undefined");
+    }
+    else {
+
+      console.log(theResMc.media[1].multicam[i]["mc-angle"]);
+    }
+  }
+
+  console.log("number of angles = " + shootObject.cameraArray.length);
+  // for (var i = 0; i < shootObject.cameraArray.length; i++) {
+  //   array[i]
+  // }
+  return theResCcXml;
 };
 
 module.exports.makeFcpxml = makeFcpxml;
