@@ -1,0 +1,52 @@
+/Applications/Compressor.app/Contents/MacOS/Compressor
+    -batchname "My First Batch" -jobpath ~/Movies/
+    MySource.mov -settingpath ~/Library/Application\
+    Support/Compressor/Settings/Apple\ Devices\ HD\ \
+    (Custom\).cmprstng -locationpath ~/Movies/MyOutput.m4v
+
+
+
+PROCESS:
+
+/Applications/Compressor.app/Contents/MacOS/Compressor
+
+
+
+
+SETTINGS:
+
+/Users/mk/Library/Application\ Support/Compressor/Settings/1080_h264.cmprstng
+
+
+
+
+SEGMENTED COMMAND
+
+
+
+/Applications/Compressor.app/Contents/MacOS/Compressor
+
+-jobpath
+
+/Users/mk/Development/test_materials/20170828_001_JustTc_Test/C100a/clip_2.mov
+
+-settingpath
+
+/Users/mk/Library/Application\ Support/Compressor/Settings/1080_h264.cmprstng
+
+-locationpath
+
+/Users/mk/Development/test_materials/exports/proxy/clip_2_transcoded.mov
+
+
+
+
+
+
+
+
+
+
+FULL COMMAND TO test
+
+/Applications/Compressor.app/Contents/MacOS/Compressor -jobpath /Users/mk/Development/test_materials/20170828_001_JustTc_Test/C100a/clip_2.mov -settingpath /Users/mk/Library/Application\ Support/Compressor/Settings/1080_h264.cmprstng -locationpath /Users/mk/Development/test_materials/exports/proxy/clip_2_transcoded.mov

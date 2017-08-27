@@ -4,6 +4,7 @@ const fs = require('fs');
 const shootprocessor = require("./mk_modules/shootprocessor");
 const fcpxml = require("./mk_modules/fcpxml");
 const dateFormat = require('dateformat');
+const compressor = require("./mk_modules/compressor")
 
 
 function printHelp() {
@@ -15,7 +16,7 @@ function printHelp() {
   console.log("--rename          rename files in {FOLDER}");
 }
 
-if (args.help || !(args.m2s || args.rename)) {
+if (args.help || !(args.m2s || args.rename || args.compress)) {
   printHelp();
   process.exit(1);
 }
@@ -23,6 +24,12 @@ if (args.help || !(args.m2s || args.rename)) {
 if (args.m2s) {
   console.log("haven't built this yet, but we will ultimately perform m2s on the folder you just entered.");
 }
+
+if (args.compress) {
+  console.log("\n\n\n\n\n\n\ntesting compressIt\n\n\n");
+  compressor.compressIt(args.compress);
+}
+
 
 if (args.rename) {
   console.log("\n\n\n\n\n\n\n\nstarting . . .\n\n\n\n\n");
