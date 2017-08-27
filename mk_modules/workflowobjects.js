@@ -65,7 +65,7 @@ function Clip(folderPath, camFolder, file, theIndex){
   this.codec_time_base_numerator = this.time_base.split('/')[0];
   this.codec_time_base_denominator = this.time_base.split('/')[1];
   this.frameDuration = (this.videoStreamJson.r_frame_rate.split('/')[1] + "/" + this.videoStreamJson.r_frame_rate.split('/')[0] + "s");
-  console.log("in workflowobjects and this.frameDuration is " + this.frameDuration);
+  // console.log("in workflowobjects and this.frameDuration is " + this.frameDuration);
 
   // console.log("working on " + this.newBasenameExt);
   // console.log(this.width);

@@ -75,19 +75,38 @@ function makeFcpxml(shootObject){
   theResourceXml.resources.push(theResCc);
   // TODO: push CC to library too   libraryEventOne.event.push(newLibraryAssetClip);
   var theLibraryCc = {"ref-clip":{_attr: {name:(shootObject.shootId + "_MC_CC"), ref: ("r"+ccR), duration:(shootObject.mcDuration+"/24000s"), start: (shootObject.startClip.start_ts + "/24000s"), modDate: dateFormat(now, "yyyy-mm-dd HH:MM:ss o")}}};
-
-
-
   libraryEventOne.event.push(theLibraryCc);
-
-  // console.log(JSON.stringify(theResourceXml.resources, null, 2));
   for (var i = 0; i < keywordArray.length; i++) {
     thisKeywordElement={"keyword-collection": {_attr:{name:keywordArray[i]}}};
-    // console.log(JSON.stringify(thisKeywordElement, null, 2));
     libraryEventOne.event.push(thisKeywordElement);
   }
-  // add all of the resources to the library chunk of xml
   libraryXml.library.push(libraryEventOne);
+  var smartCollections = [
+    {"smart-collection":[
+      {_attr: {name:"_PROJECTS", match:"all"}},
+      {"match-clip": {_attr:{ rule:"is", type:"project"}}}]},
+    {"smart-collection":[
+      {_attr: {name:"_FAVORITES", match:"all"}},
+      {"match-ratings": {_attr:{ value:"favorites"}}}]},
+    {"smart-collection":[
+      {_attr: {name:"_CC", match:"all"}},
+      {"match-clip": {_attr:{ rule:"is", type:"compound"}}}]},
+    {"smart-collection":[
+      {_attr: {name:"_MC", match:"all"}},
+      {"match-clip": {_attr:{ rule:"is", type:"multicam"}}}]},
+    {"smart-collection":[
+      {_attr: {name:"_MC_CC_Ex", match:"all"}},
+      {"match-text": {_attr:{ rule:"includes", value:"MC_CC_Ex"}}}]},
+  ];
+
+  smartCollections.forEach(function(thisSc){
+    libraryXml.library.push(thisSc);
+  });
+
+
+
+
+
   fcpxObject = {fcpxml:[fcpxmlAttr, theResourceXml, libraryXml]}
   theXmlHeader = '<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE fcpxml>\n'
   var theXml = (theXmlHeader + (xml(fcpxObject, {indent:'\t'})));
@@ -102,7 +121,6 @@ function makeFormats(shootObject){
   var resourceXml = {resources: []};
   shootObject.clipArray.forEach(function(clip, index){
     // if no format, initiate first format
-    // TODO: is it the right thing to go from codec_time_base to just time_base here?  and what's the difference?
     if (resourceXml.resources.length==0){
       var theNewFormat = {format:{_attr:{id:"r1", frameDuration:(clip.frameDuration), width:clip.width, height:clip.height}}};
     }
