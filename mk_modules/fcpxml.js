@@ -144,14 +144,14 @@ function resourceMediaMulticam(shootObject, mcR){
     };
 
   // loop through angles, then through clips and build xml for clips and gaps
-  var clipToPush = {media:[ {_attr: {name: (shootObject.shootId + "_MC"), id: ("r")+mcR, modDate: dateFormat(now, "yyyy-mm-dd HH:MM:ss o")} }, {multicam: [{_attr: {format: "r1" }}] } ] };
+  var clipToPush = {media:[ {_attr: {name: (shootObject.shootId + "_MC"), id: ("r")+mcR, modDate: dateFormat(now, "yyyy-mm-dd HH:MM:ss o")} }, {multicam: [{_attr: {format: "r1", renderColorSpace: "Rec. 709", tcStart: (shootObject.mcStartTs + "/24000s"), tcFormat: "NDF" }}] } ] };
   var thisMcStartTs = shootObject.mcStartTs;
   anglesArray.forEach(function(thisAngle, index){
     var insertionPoint = shootObject.mcStartTs;
       thisAngle.camera=cameras[index]
       // console.log("working on angle including" + thisAngle.clips[0].newBasenameExt + " and the index is " + index + " and hopefully camera is " + thisAngle.camera);
       // push the name of the camera to the clip to push
-      clipToPush.media[1].multicam.push({"mc-angle":[{_attr: {name: thisAngle.camera}}]});
+      clipToPush.media[1].multicam.push({"mc-angle":[{_attr: {name: thisAngle.camera, angleID: ("0000"+thisAngle.camera)}}]});
       var tempIndex=(clipToPush.media[1].multicam.length-1);
       // loop clips in angle
       thisAngle.clips.forEach(function(thisClip, index)
@@ -189,7 +189,7 @@ function threeCamCc(shootObject, ccR, theResMc){
       [
         {_attr: {name: (shootObject.shootId + "_MC_CC"), id:("r"+ccR), modDate: dateFormat(now, "yyyy-mm-dd HH:MM:ss o")}},
         {sequence: [
-          {_attr: {duration: "function of mc duration", format: "r1", renderColorSpace:"Rec. 709", tcStart:"start of mc", tcFormat:"NDF"}},
+          {_attr: {duration: (shootObject.mcDuration +"/24000s"), format: "r1", renderColorSpace:"Rec. 709", tcStart:(shootObject.startClip.start_ts + "/24000s"), tcFormat:"NDF"}},
           {spine:
             [
               {"mc-clip":
@@ -206,14 +206,14 @@ function threeCamCc(shootObject, ccR, theResMc){
   //hardcoding all layers of CC for now
   //add second element of CC
   theResCcXml.media[1].sequence[1].spine[0]["mc-clip"].push({"mc-clip":
-  [{_attr:{name: (shootObject.shootId + "_MC"), lane:"-2", offset:"CHANGE1095317223/24000s", ref:shootObject.resourceMcCounterR, duration:(shootObject.mcDuration +"/24000s"), start:(shootObject.startClip.start_ts + "/24000s")}},
+  [{_attr:{name: (shootObject.shootId + "_MC"), lane:"-2", offset:(shootObject.startClip.start_ts + "/24000s"), ref:shootObject.resourceMcCounterR, duration:(shootObject.mcDuration +"/24000s"), start:(shootObject.startClip.start_ts + "/24000s")}},
   {"adjust-volume":{_attr:{amount:"-96dB"}}},
   {"mc-source": {_attr:{angleID: ("0000"+shootObject.cameraArray[0]), srcEnable:"audio"}}},
   {"mc-source": {_attr:{angleID: ("0000"+shootObject.cameraArray[1]), srcEnable:"video"}}}
 ]});
   //add third element of CC
   theResCcXml.media[1].sequence[1].spine[0]["mc-clip"].push({"mc-clip":
-  [{_attr:{name: (shootObject.shootId + "_MC"), lane:"-1", offset:"CHANGE1095317223/24000s", ref:shootObject.resourceMcCounterR, duration:(shootObject.mcDuration +"/24000s"), start:"insert start"}},
+  [{_attr:{name: (shootObject.shootId + "_MC"), lane:"-1", offset:(shootObject.startClip.start_ts + "/24000s"), ref:shootObject.resourceMcCounterR, duration:(shootObject.mcDuration +"/24000s"), start:(shootObject.startClip.start_ts + "/24000s")}},
   {"adjust-volume":{_attr:{amount:"-96dB"}}},
   {"mc-source": {_attr:{angleID: ("0000"+shootObject.cameraArray[0]), srcEnable:"audio"}}},
   {"mc-source": {_attr:{angleID: ("0000"+shootObject.cameraArray[2]), srcEnable:"video"}}}

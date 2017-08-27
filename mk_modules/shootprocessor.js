@@ -53,7 +53,6 @@ function rename(folderPath) {
   // console.log("minUtcCrStartMillTs" + minUtcCrStartMillTs);
   thisShoot.startClip = thisShoot.clipArray.find(function(o){ return o.utcTcStartMill == minUtcCrStartMillTs; })
 
-
   var minStartTs = Math.min.apply(Math,thisShoot.clipArray.map(function(o){return o.start_ts;}));
   // console.log("minUtcCrStartMillTs" + minUtcCrStartMillTs);
   thisShoot.tsStartClip = thisShoot.clipArray.find(function(o){ return o.start_ts == minStartTs; });

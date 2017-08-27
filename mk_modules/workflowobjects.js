@@ -22,6 +22,9 @@ function Clip(folderPath, camFolder, file, theIndex){
     if (this.ffprobeObject.streams[i].codec_type == "video") {
       this.videoStreamJson = this.ffprobeObject.streams[i];
     }
+    else if (this.ffprobeObject.streams[i].codec_type == "audio") {
+      this.audioStreamJson = this.ffprobeObject.streams[i];
+    }
   };
   // console.log(JSON.stringify(this.videoStreamJson, null, 2));
   this.width = this.videoStreamJson.width;
@@ -49,7 +52,7 @@ function Clip(folderPath, camFolder, file, theIndex){
   // console.log("start_ts: " + this.start_ts);
   // console.log("end_ts: " + this.end_ts);
   // console.log("duration_ts: " + this.duration_ts);
-  this.creationDate = new Date(this.ffprobeObject.streams[0].tags.creation_time);
+  this.creationDate = new Date(this.videoStreamJson.tags.creation_time);
   // console.log(this.creationDate);
   this.utcCrStartMill = this.creationDate.getTime();
   // console.log(this.utcCrStartMill);
@@ -64,7 +67,7 @@ function Clip(folderPath, camFolder, file, theIndex){
   this.fcpxml = {};
   this.fcpxml.format = {_attr:{frameDuration:(this.codec_time_base+"s"), width:this.width, height:this.height}};
   // console.log(JSON.stringify(this.fcpxml, null, 2));
-  this.fcpxml.asset = {_attr:{name: this.newBasenameExt, src: ("file://" + this.newPath), start: (timeCodeToFcpxmlFormat(this.startTc)+"/24000s"), duration:(this.videoStreamJson.duration_ts + "/" + this.codec_time_base_denominator + "s"), hasVideo:1, hasAudio:1, audioSources:1, audioChannels:this.ffprobeObject.streams[1].channels, audioRate: this.ffprobeObject.streams[1].sample_rate}};
+  this.fcpxml.asset = {_attr:{name: this.newBasenameExt, src: ("file://" + this.newPath), start: (timeCodeToFcpxmlFormat(this.startTc)+"/24000s"), duration:(this.videoStreamJson.duration_ts + "/" + this.codec_time_base_denominator + "s"), hasVideo:1, hasAudio:1, audioSources:1, audioChannels:this.audioStreamJson.channels, audioRate: this.audioStreamJson.sample_rate}};
   this.fcpxml.assetClip = [{_attr: {name: this.newBasename, audioRole:"dialogue", tcFormat:"NDF", start:(timeCodeToFcpxmlFormat(this.startTc)), duration: (this.videoStreamJson.duration_ts + "/" + this.codec_time_base_denominator + "s"), modDate:this.thelocalworkflowIngestTime}}];
   this.fcpxml.assetClip.push({keyword:  {_attr: {start:(timeCodeToFcpxmlFormat(this.startTc)), duration:(this.videoStreamJson.duration_ts + "/" + this.codec_time_base_denominator + "s"), value:(this.shootId+", "+this.cameraFolder)}}});
   this.fcpxml.assetClip.push({keyword: {_attr: {start:(timeCodeToFcpxmlFormat(this.startTc)), duration:"24024/24000s", value:"first 24 frames"}}});
