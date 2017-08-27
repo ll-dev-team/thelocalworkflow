@@ -4,6 +4,7 @@ const ffprobetools = require("./ffprobetools");
 var shootprocessor = require("./shootprocessor");
 var dateFormat = require('dateformat');
 
+
 function Clip(folderPath, camFolder, file, theIndex){
   var now = new Date();
   this.thelocalworkflowIngestTime = (dateFormat(now, "UTC:yyyy-mm-dd HH-MM-ss"));
@@ -108,6 +109,10 @@ function Shoot(shootPath){
   this.shootCounter = this.shootId.split('_')[1];
   this.projectId = this.shootId.split('_')[2];
   this.subId = this.shootId.split('_')[3];
+  this.fcpxml = {};
+  this.fcpxml.motionEffectA = {effect: {_attr:{id:"empty", name:"2.5_A", uid:"~/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef", src:"file:///Users/mk/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef"}}};
+  this.fcpxml.motionEffectC = {effect: {_attr:{id:"empty", name:"2.5_C", uid:"~/Effects.localized/thelocalworkflow/2.5/2.5_C/2.5_C.moef", src:"file:///Users/mk/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_C/2.5_C.moef"}}};
+  this.fcpxml.motionEffectB = {effect: {_attr:{id:"empty", name:"2.5_B", uid:"~/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef", src:"file:///Users/mk/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef"}}};
 };
 
 

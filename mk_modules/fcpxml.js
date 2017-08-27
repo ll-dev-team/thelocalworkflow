@@ -150,6 +150,14 @@ function makeFormats(shootObject){
       // console.log(JSON.stringify(clip.fcpxml.asset._attr, null, 2));
     }
   });
+  // add motion effects
+
+  shootObject.fcpxml.motionEffectA.effect._attr.id=("r"+(resourceXml.resources.length+1));
+  resourceXml.resources.push(shootObject.fcpxml.motionEffectA);
+  shootObject.fcpxml.motionEffectB.effect._attr.id=("r"+(resourceXml.resources.length+1));
+  resourceXml.resources.push(shootObject.fcpxml.motionEffectB);
+  shootObject.fcpxml.motionEffectC.effect._attr.id=("r"+(resourceXml.resources.length+1));
+  resourceXml.resources.push(shootObject.fcpxml.motionEffectC);
   return resourceXml;
 }
 
@@ -224,7 +232,52 @@ function threeCamCc(shootObject, ccR, theResMc){
               {"mc-clip":
               [
                 {_attr:{name: (shootObject.shootId + "_MC"), offset: (shootObject.startClip.start_ts + "/24000s"), ref:shootObject.resourceMcCounterR, duration:(shootObject.mcDuration +"/24000s"), start: (shootObject.startClip.start_ts + "/24000s")}},
-                {"mc-source": {_attr:{angleID: ("0000"+shootObject.cameraArray[0]), srcEnable:"all"}}}
+                {"mc-source": [
+                  {_attr:{angleID: ("0000"+shootObject.cameraArray[0]), srcEnable:"all"}},
+                  {"filter-video":[
+                    {_attr:{ref:shootObject.fcpxml.motionEffectA.effect._attr.id, name:"2.5_A"}},
+                    {param:{_attr: {
+                      name:"Position",
+                      key:"9999/32385/10619/1/100/101",
+                      value:"-19.3779 -232"}}},
+                    {param:{_attr: {
+                      name:"Alignment",
+                      key:"9999/32385/10619/2/354/10624/401",
+                      value:"2 (Right)"}}},
+                    {param:{_attr: {
+                      name:"Line Spacing",
+                      key:"9999/32385/10619/2/354/10624/404",
+                      value:"-2"}}},
+                    {param:{_attr: {
+                      name:"Text",
+                      key:"9999/32385/10619/2/369",
+                      value:"PEOPLE GO HERE (FCPX field 1)"}}},
+                    {param:{_attr: {
+                      name:"Position",
+                      key:"9999/32385/20673/1/100/101",
+                      value:"-16.824 -180"}}},
+                    {param:{_attr: {
+                      name:"Alignment",
+                      key:"9999/32385/20673/2/354/20674/401",
+                      value:"2 (Right)"}}},
+                    {param:{_attr: {
+                      name:"Text",
+                      key:"9999/32385/20673/2/369",
+                      value:"PROJECT ID or TITLE (3)"}}},
+                    {param:{_attr: {
+                      name:"Position",
+                      key:"9999/32385/20837/1/100/101",
+                      value:"-443.584 -395"}}},
+                    {param:{_attr: {
+                      name:"Alignment",
+                      key:"9999/32385/20837/2/354/20838/401",
+                      value:"2 (Right)"}}},
+                    {param:{_attr: {
+                      name:"Text",
+                      key:"9999/32385/20837/2/369",
+                      value:(shootObject.shootIdDate+":")}}}
+                  ]}
+                ]}
               ]
             }]
           }]

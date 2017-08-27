@@ -5,7 +5,7 @@ const shootprocessor = require("./mk_modules/shootprocessor");
 const fcpxml = require("./mk_modules/fcpxml");
 const dateFormat = require('dateformat');
 const compressor = require("./mk_modules/compressor")
-
+require('dotenv').config();
 
 function printHelp() {
   console.log("thelocalworkflow.js (c) Marlon Kuzmick");
@@ -39,6 +39,8 @@ if (args.rename) {
   //   console.log("oldName = " + clip.oldBasenameExt +"\tnewName = " + clip.newBasenameExt + "\tduration for fcpxml = " + clip.fcpxmlElements.duration);
   // });
   var theResourceXml = fcpxml.makeFcpxml(theResult);
+  console.log("\n\n\nnow back in the localworkflow.  And going to log some stuff to check things out . . . \n\n\n");
+  console.log(JSON.stringify(theResult.fcpxml.motionEffectB, null, 2));
   console.log("\n\n\ncomplete\n\n\n\n");
   // console.log("creation start date: " + dateFormat(theResult.startCrDate, "dddd, mmmm dS, yyyy, h:MM:ss TT"));
   // console.log("tc start date: " + dateFormat(theResult.startTcDate, "dddd, mmmm dS, yyyy, h:MM:ss TT"));
