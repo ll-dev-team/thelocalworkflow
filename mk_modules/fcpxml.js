@@ -47,6 +47,9 @@ function makeFcpxml(shootObject){
   var mcR = (theResourceXml.resources.length + 1);
   var theResMc = resourceMediaMulticam(shootObject, mcR);
   theResourceXml.resources.push(theResMc);
+    // TODO: change hard coded /24000s everywhere
+  var theLibraryMc = {"mc-clip":[{_attr: {name:(shootObject.shootId + "_MC"), ref: ("r"+mcR), duration:(shootObject.mcDuration+"/24000s"), start: (shootObject.startClip.start_ts + "/24000s"), modDate: dateFormat(now, "yyyy-mm-dd HH:MM:ss o")}}, {"mc-source": {_attr: {angleID: ("0000" + shootObject.cameraArray[0]), srcEnable:"all"}}}]};
+  libraryEventOne.event.push(theLibraryMc);
   var ccR = mcR + 1;
   // if three cameras, then . . .
   if (shootObject.cameraArray.length == 2)
@@ -70,6 +73,13 @@ function makeFcpxml(shootObject){
       var theResCc = threeCamCc(shootObject, ccR, theResMc);
     };
   theResourceXml.resources.push(theResCc);
+  // TODO: push CC to library too   libraryEventOne.event.push(newLibraryAssetClip);
+  var theLibraryCc = {"ref-clip":{_attr: {name:(shootObject.shootId + "_MC_CC"), ref: ("r"+ccR), duration:(shootObject.mcDuration+"/24000s"), start: (shootObject.startClip.start_ts + "/24000s"), modDate: dateFormat(now, "yyyy-mm-dd HH:MM:ss o")}}};
+
+
+
+  libraryEventOne.event.push(theLibraryCc);
+
   // console.log(JSON.stringify(theResourceXml.resources, null, 2));
   for (var i = 0; i < keywordArray.length; i++) {
     thisKeywordElement={"keyword-collection": {_attr:{name:keywordArray[i]}}};
@@ -92,14 +102,15 @@ function makeFormats(shootObject){
   var resourceXml = {resources: []};
   shootObject.clipArray.forEach(function(clip, index){
     // if no format, initiate first format
+    // TODO: is it the right thing to go from codec_time_base to just time_base here?  and what's the difference?
     if (resourceXml.resources.length==0){
-      var theNewFormat = {format:{_attr:{id:"r1", frameDuration:(clip.codec_time_base+"s"), width:clip.width, height:clip.height}}};
+      var theNewFormat = {format:{_attr:{id:"r1", frameDuration:(clip.frameDuration), width:clip.width, height:clip.height}}};
     }
     else {
       // for the rest of the clips, loop through the formats in search of a match
       formatMatch = false;
       for (var i = 0; i < resourceXml.resources.length; i++) {
-        if (clip.width == resourceXml.resources[i].format._attr.width && clip.height == resourceXml.resources[i].format._attr.height && (clip.codec_time_base+"s") == resourceXml.resources[i].format._attr.frameDuration) {
+        if (clip.width == resourceXml.resources[i].format._attr.width && clip.height == resourceXml.resources[i].format._attr.height && (clip.frameDuration) == resourceXml.resources[i].format._attr.frameDuration) {
           formatMatch=true;
           clip.fcpxml.asset._attr.format = ("r" + (i+1))
           // console.log("match");
@@ -110,7 +121,7 @@ function makeFormats(shootObject){
       }
       // if no match, then create new format
       if (formatMatch == false){
-        var theNewFormat = {format:{_attr:{frameDuration:(clip.codec_time_base+"s"), width:clip.width, height:clip.height}}};
+        var theNewFormat = {format:{_attr:{frameDuration:(clip.frameDuration), width:clip.width, height:clip.height}}};
       }
     }
     // if there's a new format, add it to the list
@@ -159,7 +170,7 @@ function resourceMediaMulticam(shootObject, mcR){
           mcAngleToAdd = {"asset-clip": thisClip.fcpxml.mcAssetClip};
           mcAngleToAdd["asset-clip"][0]._attr.offset = ((thisClip.start_ts - thisMcStartTs) + "/24000s");
           mcAngleToAdd["asset-clip"][0]._attr.ref=thisClip.fcpxml.asset._attr.id;
-
+          mcAngleToAdd["asset-clip"][0]._attr.format=thisClip.fcpxml.asset._attr.format;
           // console.log(mcAngleToAdd["asset-clip"][0]._attr.offset);
           if (thisClip.start_ts == insertionPoint){
             // console.log(thisClip.newBasenameExt + " is at the start of the multi or previous clip, so no gap needed");
@@ -210,7 +221,7 @@ function threeCamCc(shootObject, ccR, theResMc){
   {"adjust-volume":{_attr:{amount:"-96dB"}}},
   {"mc-source": {_attr:{angleID: ("0000"+shootObject.cameraArray[0]), srcEnable:"audio"}}},
   {"mc-source": {_attr:{angleID: ("0000"+shootObject.cameraArray[1]), srcEnable:"video"}}}
-]});
+  ]});
   //add third element of CC
   theResCcXml.media[1].sequence[1].spine[0]["mc-clip"].push({"mc-clip":
   [{_attr:{name: (shootObject.shootId + "_MC"), lane:"-1", offset:(shootObject.startClip.start_ts + "/24000s"), ref:shootObject.resourceMcCounterR, duration:(shootObject.mcDuration +"/24000s"), start:(shootObject.startClip.start_ts + "/24000s")}},

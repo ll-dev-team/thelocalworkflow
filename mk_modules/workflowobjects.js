@@ -7,6 +7,7 @@ var dateFormat = require('dateformat');
 function Clip(folderPath, camFolder, file, theIndex){
   var now = new Date();
   this.thelocalworkflowIngestTime = (dateFormat(now, "UTC:yyyy-mm-dd HH-MM-ss"));
+  this.thelocalworkflowFcpxmlTime =  dateFormat(now, "yyyy-mm-dd HH:MM:ss o");
   this.oldBasenameExt = file;
   this.oldPath = path.join(folderPath, camFolder, file);
   this.cameraFolder = camFolder;
@@ -30,6 +31,7 @@ function Clip(folderPath, camFolder, file, theIndex){
   this.width = this.videoStreamJson.width;
   this.height = this.videoStreamJson.height;
   this.codec_time_base = this.videoStreamJson.codec_time_base;
+  this.time_base = this.videoStreamJson.time_base;
   this.codec_long_name = this.videoStreamJson.codec_long_name;
   this.duration = this.videoStreamJson.duration;
   this.bit_rate = this.videoStreamJson.bit_rate;
@@ -60,17 +62,20 @@ function Clip(folderPath, camFolder, file, theIndex){
   // console.log(this.utcTcStartDate);
   this.utcTcStartMill = this.utcTcStartDate.getTime();
   // console.log(this.utcTcStartMill);
-  this.codec_time_base_numerator = this.codec_time_base.split('/')[0];
-  this.codec_time_base_denominator = this.codec_time_base.split('/')[1];
+  this.codec_time_base_numerator = this.time_base.split('/')[0];
+  this.codec_time_base_denominator = this.time_base.split('/')[1];
+  this.frameDuration = (this.videoStreamJson.r_frame_rate.split('/')[1] + "/" + this.videoStreamJson.r_frame_rate.split('/')[0] + "s");
+  console.log("in workflowobjects and this.frameDuration is " + this.frameDuration);
+
   // console.log("working on " + this.newBasenameExt);
   // console.log(this.width);
   this.fcpxml = {};
-  this.fcpxml.format = {_attr:{frameDuration:(this.codec_time_base+"s"), width:this.width, height:this.height}};
+  this.fcpxml.format = {_attr:{frameDuration:(this.frameDuration), width:this.width, height:this.height}};
   // console.log(JSON.stringify(this.fcpxml, null, 2));
-  this.fcpxml.asset = {_attr:{name: this.newBasenameExt, src: ("file://" + this.newPath), start: (timeCodeToFcpxmlFormat(this.startTc)+"/24000s"), duration:(this.videoStreamJson.duration_ts + "/" + this.codec_time_base_denominator + "s"), hasVideo:1, hasAudio:1, audioSources:1, audioChannels:this.audioStreamJson.channels, audioRate: this.audioStreamJson.sample_rate}};
-  this.fcpxml.assetClip = [{_attr: {name: this.newBasename, audioRole:"dialogue", tcFormat:"NDF", start:(timeCodeToFcpxmlFormat(this.startTc)), duration: (this.videoStreamJson.duration_ts + "/" + this.codec_time_base_denominator + "s"), modDate:this.thelocalworkflowIngestTime}}];
+  this.fcpxml.asset = {_attr:{name: this.newBasenameExt, src: ("file://" + this.newPath), start: (timeCodeToFcpxmlFormat(this.startTc)+"/" + this.codec_time_base_denominator + "s"), duration:(this.videoStreamJson.duration_ts + "/" + this.codec_time_base_denominator + "s"), hasVideo:1, hasAudio:1, audioSources:1, audioChannels:this.audioStreamJson.channels, audioRate: this.audioStreamJson.sample_rate}};
+  this.fcpxml.assetClip = [{_attr: {name: this.newBasename, audioRole:"dialogue", tcFormat:"NDF", start:(timeCodeToFcpxmlFormat(this.startTc) + "/" + this.codec_time_base_denominator + "s"), duration: (this.videoStreamJson.duration_ts + "/" + this.codec_time_base_denominator + "s"), modDate:this.thelocalworkflowFcpxmlTime}}];
   this.fcpxml.assetClip.push({keyword:  {_attr: {start:(timeCodeToFcpxmlFormat(this.startTc)), duration:(this.videoStreamJson.duration_ts + "/" + this.codec_time_base_denominator + "s"), value:(this.shootId+", "+this.cameraFolder)}}});
-  this.fcpxml.assetClip.push({keyword: {_attr: {start:(timeCodeToFcpxmlFormat(this.startTc)), duration:"24024/24000s", value:"first 24 frames"}}});
+  this.fcpxml.assetClip.push({keyword: {_attr: {start:(timeCodeToFcpxmlFormat(this.startTc) + "/" + this.codec_time_base_denominator + "s"), duration:"24024/24000s", value:"first 24 frames"}}});
   this.fcpxml.mcAssetClip = [
         {_attr:
             {name: this.newBasenameExt,
@@ -78,7 +83,8 @@ function Clip(folderPath, camFolder, file, theIndex){
               ref: "same as assetClip",
               audioRole:"dialogue",
               tcFormat:"NDF",
-              start:(timeCodeToFcpxmlFormat(this.startTc)+"/24000s"),
+              format:"insertFORMAThere",
+              start:(timeCodeToFcpxmlFormat(this.startTc)+"/" + this.codec_time_base_denominator + "s"),
               duration: (this.videoStreamJson.duration_ts + "/" + this.codec_time_base_denominator + "s")
             }
           },
