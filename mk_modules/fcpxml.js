@@ -76,6 +76,7 @@ function makeFcpxml(shootObject){
   // TODO: push CC to library too   libraryEventOne.event.push(newLibraryAssetClip);
   var theLibraryCc = {"ref-clip":{_attr: {name:(shootObject.shootId + "_MC_CC"), ref: ("r"+ccR), duration:(shootObject.mcDuration+"/24000s"), start: (shootObject.startClip.start_ts + "/24000s"), modDate: dateFormat(now, "yyyy-mm-dd HH:MM:ss o")}}};
   libraryEventOne.event.push(theLibraryCc);
+  libraryEventOne.event.push(makeProject(shootObject, ccR));
   for (var i = 0; i < keywordArray.length; i++) {
     thisKeywordElement={"keyword-collection": {_attr:{name:keywordArray[i]}}};
     libraryEventOne.event.push(thisKeywordElement);
@@ -117,7 +118,7 @@ function makeFcpxml(shootObject){
   fs.writeFileSync(pathForJson, fcpxJson);
 }
 
-function makeFormats(shootObject){
+function makeFormatsOld(shootObject){
   var resourceXml = {resources: []};
   shootObject.clipArray.forEach(function(clip, index){
     // if no format, initiate first format
@@ -160,6 +161,46 @@ function makeFormats(shootObject){
   resourceXml.resources.push(shootObject.fcpxml.motionEffectC);
   return resourceXml;
 }
+
+function makeFormats(shootObject){
+  var resourceXml = {resources: []};
+  var firstFormat = {format:{_attr:{id:"r1", name: "FFVideoFormat1080p2398", frameDuration:"1001/24000s", width:"1920", height:"1080"}}};
+  resourceXml.resources.push(firstFormat);
+  shootObject.clipArray.forEach(function(clip, index){
+    formatMatch = false;
+      for (var i = 0; i < resourceXml.resources.length; i++) {
+        if (clip.width == resourceXml.resources[i].format._attr.width && clip.height == resourceXml.resources[i].format._attr.height && (clip.frameDuration) == resourceXml.resources[i].format._attr.frameDuration) {
+          formatMatch=true;
+          clip.fcpxml.asset._attr.format = ("r" + (i+1))
+          console.log("match");
+        }
+        else {
+          console.log("no match");
+        }
+      }
+      // if no match, then create new format
+      if (formatMatch == false){
+        var theNewFormat = {format:{_attr:{frameDuration:(clip.frameDuration), width:clip.width, height:clip.height}}};
+      }
+    // if there's a new format, add it to the list
+    if (theNewFormat) {
+      theNewFormat.format._attr.id = ("r" + (resourceXml.resources.length+1));
+      resourceXml.resources.push(theNewFormat);
+      clip.fcpxml.asset._attr.format = ("r" + resourceXml.resources.length);
+      // console.log(JSON.stringify(clip.fcpxml.asset._attr, null, 2));
+    }
+  });
+  // add motion effects
+
+  shootObject.fcpxml.motionEffectA.effect._attr.id=("r"+(resourceXml.resources.length+1));
+  resourceXml.resources.push(shootObject.fcpxml.motionEffectA);
+  shootObject.fcpxml.motionEffectB.effect._attr.id=("r"+(resourceXml.resources.length+1));
+  resourceXml.resources.push(shootObject.fcpxml.motionEffectB);
+  shootObject.fcpxml.motionEffectC.effect._attr.id=("r"+(resourceXml.resources.length+1));
+  resourceXml.resources.push(shootObject.fcpxml.motionEffectC);
+  return resourceXml;
+}
+
 
 function resourceMediaMulticam(shootObject, mcR){
   var cameras = shootObject.cameraArray;
@@ -291,14 +332,14 @@ function threeCamCc(shootObject, ccR, theResMc){
   [{_attr:{name: (shootObject.shootId + "_MC"), lane:"-2", offset:(shootObject.startClip.start_ts + "/24000s"), ref:shootObject.resourceMcCounterR, duration:(shootObject.mcDuration +"/24000s"), start:(shootObject.startClip.start_ts + "/24000s")}},
   {"adjust-volume":{_attr:{amount:"-96dB"}}},
   {"mc-source": {_attr:{angleID: ("0000"+shootObject.cameraArray[0]), srcEnable:"audio"}}},
-  {"mc-source": {_attr:{angleID: ("0000"+shootObject.cameraArray[1]), srcEnable:"video"}}}
+  {"mc-source": [{_attr:{angleID: ("0000"+shootObject.cameraArray[1]), srcEnable:"video"}}, {"filter-video": {_attr:{ref: shootObject.fcpxml.motionEffectC.effect._attr.id, name:"2.5_C"}}}]}
   ]});
   //add third element of CC
   theResCcXml.media[1].sequence[1].spine[0]["mc-clip"].push({"mc-clip":
   [{_attr:{name: (shootObject.shootId + "_MC"), lane:"-1", offset:(shootObject.startClip.start_ts + "/24000s"), ref:shootObject.resourceMcCounterR, duration:(shootObject.mcDuration +"/24000s"), start:(shootObject.startClip.start_ts + "/24000s")}},
   {"adjust-volume":{_attr:{amount:"-96dB"}}},
   {"mc-source": {_attr:{angleID: ("0000"+shootObject.cameraArray[0]), srcEnable:"audio"}}},
-  {"mc-source": {_attr:{angleID: ("0000"+shootObject.cameraArray[2]), srcEnable:"video"}}}
+  {"mc-source": [{_attr:{angleID: ("0000"+shootObject.cameraArray[2]), srcEnable:"video"}}, {"filter-video": {_attr:{ref: shootObject.fcpxml.motionEffectB.effect._attr.id, name:"2.5_B"}}}]}
   ]});
 
   // console.log("number of elements in theResMc.media = " + theResMc.media[1].multicam.length);
@@ -320,6 +361,25 @@ function threeCamCc(shootObject, ccR, theResMc){
   console.log(xml(theResCcXml, true));
   return theResCcXml;
 };
+
+function makeProject(shootObject, ccR){
+  var projectXml =
+    {project:
+      [
+        {_attr:{name:(shootObject.shootId + "_MC_CC_Ex"), modDate:dateFormat(now, "yyyy-mm-dd HH:MM:ss o")}},
+        {sequence:[
+          {_attr:{duration: (shootObject.mcDuration +"/24000s"), format:"r1", renderColorSpace: "Rec. 709", tcStart: "0s", tcFormat: "NDF", audioLayout:"stereo"}},
+          // took out , audioRate:"48000" --- add back later?
+          {spine:[
+            {"ref-clip":
+              {_attr:{name: (shootObject.shootId + "_MC_CC"), offset:"0s", ref:("r"+ccR), duration:(shootObject.mcDuration +"/24000s"), start:(shootObject.mcStartTs+"/24000s")}},
+            }
+          ]}
+        ]}
+      ]
+    };
+  return projectXml;
+}
 
 module.exports.makeFcpxml = makeFcpxml;
 module.exports.makeFormats = makeFormats;

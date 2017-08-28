@@ -4,7 +4,8 @@ const fs = require('fs');
 const shootprocessor = require("./mk_modules/shootprocessor");
 const fcpxml = require("./mk_modules/fcpxml");
 const dateFormat = require('dateformat');
-const compressor = require("./mk_modules/compressor")
+const compressor = require("./mk_modules/compressor");
+const m2s = require("./mk_modules/m2s").markersToStills;
 require('dotenv').config();
 
 function printHelp() {
@@ -22,7 +23,9 @@ if (args.help || !(args.m2s || args.rename || args.compress)) {
 }
 
 if (args.m2s) {
-  console.log("haven't built this yet, but we will ultimately perform m2s on the folder you just entered.");
+  console.log("\n\n\n\n\nhaven't built this yet, but we will ultimately perform m2s on the folder you just entered.\n\n\n\n\n\n\n\n\n\n\n\n");
+  m2s();
+
 }
 
 if (args.compress) {
