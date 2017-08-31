@@ -17,10 +17,13 @@ function Still(tsElements, videoFilePath, m2sPath){
 }
 
 function markersToStills() {
+  
   // TODO: path to ffmpeg (dev_folder replacement)
   // TODO: path for stills to export (path_for_stills replacement)
   // TODO: path for the fcpxml files ()
   // TODO: loop folder to get all stills fcpxmls (test if ends with fcpxml)
+  // TODO: add to mongodb
+
   var now = new Date();
   var stillArray = [];
   console.log("Starting markersToStills at " + (dateFormat(now, "yyyymmdd HH:MM:ss")));
