@@ -4,13 +4,16 @@ const path = require("path");
 const dateFormat = require('dateformat');
 const xml2js = require('xml2js');
 const parseXmlString = require('xml2js').parseString;
+const cp = require('child_process');
 
 
-function Still(start, videoFilePath){
-  this.fcpxmlStart = start;
+function Still(tsElements, videoFilePath, m2sPath){
+  this.tsElements = tsElements
   this.videoFilePath = videoFilePath;
-  this.stillFileName = "";
-  this.stillFilePath = "";
+  this.fileExtension = path.extname(videoFilePath);
+  this.stillFileName = (path.basename(videoFilePath, this.fileExtension) + "_" + tc_from_frames(this.tsElements.frames) + ".png");
+  this.stillFilePath = path.join(m2sPath, this.stillFileName);
+  cp.spawnSync('ffmpeg', ['-ss', this.tsElements.seconds, '-i', videoFilePath, '-vframes', '1', this.stillFilePath]);
 }
 
 function markersToStills() {
@@ -24,26 +27,47 @@ function markersToStills() {
   // console.log(tc_from_frames(442371));
   var xml2test = fs.readFileSync('/Users/mk/Development/test_materials/exports/Stills_2_projects.fcpxml', 'UTF-8');
   parseXmlString(xml2test, function (err, result) {
-    var pathForJson = ("/Users/mk/Development/test_materials/exports/testing2stills.json");
-    var xmlJson = JSON.stringify(result, null, 2);
-    fs.writeFileSync(pathForJson, xmlJson);
-    for (var i = 0; i < result.fcpxml.library[0].event[0].project.length; i++) {
-      if (result.fcpxml.library[0].event[0].project[i].$.name=="Stills" || result.fcpxml.library[0].event[0].project[i].$.name=="stills" || result.fcpxml.library[0].event[0].project[i].$.name=="Still" || result.fcpxml.library[0].event[0].project[i].$.name=="still") {
-        var theProject = result.fcpxml.library[0].event[0].project[i];
-      }
+    if (err) {
+      console.log(err);
     }
-    for (var i = 0; i < theProject.sequence[0].spine[0]["asset-clip"].length; i++) {
-      var videoFileName = theProject.sequence[0].spine[0]["asset-clip"][i].$.name;
-      var theClip = result.fcpxml.resources[0].asset.filter(function(clip){
-        return clip.$.id === theProject.sequence[0].spine[0]["asset-clip"][i].$.ref
-      });
-      var videoFilePath = theClip[0].$.src.replace('file:///','/');
-      console.log("theClipPath is " + videoFilePath);
-      console.log("\n\n");
-      findMarkers(theProject.sequence[0].spine[0]["asset-clip"][i], videoFilePath, stillArray);
-      // console.log(stillArray);
+    else
+  {    var pathForJson = ("/Users/mk/Development/test_materials/exports/testing2stills.json");
+      // var xmlJson = JSON.stringify(result, null, 2);
+      // fs.writeFileSync(pathForJson, xmlJson);
+      extrasFilePathString = result.fcpxml.resources[0].asset[0].$.src.replace('file:///','/');
+      filePathStringElements = extrasFilePathString.split('/').slice(1, -2);
+      thePath = "";
+      for (var i = 0; i < filePathStringElements.length; i++) {
+        thePath=path.join(thePath, filePathStringElements[i]);
+        console.log(thePath);
+      }
+      m2sPath=("/" + path.join(thePath, "_m2s"));
+      console.log("\n\n\n\n\n\n\n\n" + extrasFilePathString + "\n\n\n\n\n\n\n");
+      console.log("\n\n\n\n\n\n\n\n" + filePathStringElements + "\n\n\n\n\n\n\n");
+      console.log("\n\n\n\n\n\n\n\n" + m2sPath + "\n\n\n\n\n\n\n");
+      fs.mkdirSync(m2sPath);
+      for (var i = 0; i < result.fcpxml.library[0].event[0].project.length; i++) {
+        // TODO: change this to a regex
+        if (result.fcpxml.library[0].event[0].project[i].$.name=="Stills" || result.fcpxml.library[0].event[0].project[i].$.name=="stills" || result.fcpxml.library[0].event[0].project[i].$.name=="Still" || result.fcpxml.library[0].event[0].project[i].$.name=="still") {
+          var theProject = result.fcpxml.library[0].event[0].project[i];
+        }
+      }
+      for (var i = 0; i < theProject.sequence[0].spine[0]["asset-clip"].length; i++) {
+        var videoFileName = theProject.sequence[0].spine[0]["asset-clip"][i].$.name;
+        var videoFileStartTs = theProject.sequence[0].spine[0]["asset-clip"][i].$.start;
+        var theClip = result.fcpxml.resources[0].asset.filter(function(clip){
+          return clip.$.id === theProject.sequence[0].spine[0]["asset-clip"][i].$.ref
+        });
+        var videoFilePath = theClip[0].$.src.replace('file:///','/');
+        console.log("theClipPath is " + videoFilePath + "and start ts is " + videoFileStartTs);
+        console.log("\n\n");
+        // determine start for this camera
+        findMarkers(theProject.sequence[0].spine[0]["asset-clip"][i], videoFilePath, stillArray, videoFileStartTs, m2sPath);
+        // console.log(stillArray);
+
+      }
       stillArray.forEach(function(still){
-        // console.log(JSON.stringify(still, null, 2));
+        // console.log("\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"+JSON.stringify(still, null, 2));
       });
     }
   });
@@ -68,67 +92,39 @@ function stills_from_fcpxml(fcpxml_path){
 
   };
 
-function fcpxmlStartToSeconds(fcpxmlStart){
-  console.log(fcpxmlStart);
-  var numerator = fcpxmlStart.split('/')[0];
-  var denominator = fcpxmlStart.split('/')[1].replace('s','');
-  console.log(numerator);
-  console.log(denominator);
-  return (numerator/denominator);
+function fcpxmlStartToSeconds(fcpxmlStart, videoFileStartTs){
+  // console.log(fcpxmlStart);
+  console.log("videoFileStartTs is" + videoFileStartTs);
+  var thisNumerator = fcpxmlStart.split('/')[0];
+  var thisDenominator = fcpxmlStart.split('/')[1].replace('s','');
+  // console.log(thisNumerator);
+  // console.log(thisDenominator);
+  var thisFrames = ((24000/thisDenominator)*thisNumerator)/1001;
+  var thisFileStartTsNumerator = videoFileStartTs.split('/')[0];
+  var thisFileStartTsDenominator = videoFileStartTs.split('/')[1].replace('s','');
+  var thisStartFrames = ((24000/thisFileStartTsDenominator)*thisFileStartTsNumerator)/1001;
+  var theSecondsStart = thisFileStartTsNumerator/thisFileStartTsDenominator;
+  var theSecondsMarker = thisNumerator/thisDenominator;
+  var theSeconds = theSecondsMarker - theSecondsStart;
+  console.log(theSecondsMarker + " - " + theSecondsStart + " = " + theSeconds);
+  // console.log("there are "+ thisFrames +" frames.");
+  return {numerator: thisNumerator, denominator: thisDenominator, seconds: theSeconds, frames: thisFrames, fileStartFrames: thisStartFrames, fcpxmlFileStart: videoFileStartTs};
 }
 
-function findMarkers(projectAssetClip, videoFilePath, stillArray){
+
+
+
+function findMarkers(projectAssetClip, videoFilePath, stillArray, videoFileStartTs, m2sPath){
   console.log("in findMarkers");
   // console.log("projectAssetClip is " + JSON.stringify(projectAssetClip, null, 2));
   projectAssetClip.marker.forEach(function(marker, index){
     console.log("logging marker.$.start"+JSON.stringify(marker.$.start, null, 2));
-    var timestampSeconds = fcpxmlStartToSeconds(marker.$.start);
-    console.log("timestampSeconds is " + timestampSeconds);
-    var thisStill = new Still(timestampSeconds, videoFilePath);
+    var tsElements = fcpxmlStartToSeconds(marker.$.start, videoFileStartTs);
+    console.log("timestampSeconds is " + tsElements.seconds +" and the frames are " + tsElements.frames);
+    var thisStill = new Still(tsElements, videoFilePath, m2sPath);
     stillArray.push(thisStill);
   });
 };
-
-
-//
-//             for i in clip:
-//                 if i.tag=="marker":
-//                     print('starting with {}, but . . .'.format(i.attrib['start']))
-//                     x=(i.attrib['start'])
-//                     numerator=int(x.split('/')[0])
-//                     y=(x.split('/')[1])
-//                     denominator=int(y.split('s')[0])
-//                     actual_frames=int(24000/denominator*numerator)/1001
-//                     print('the actual frames are {}.'.format(actual_frames))
-//                     suffix=tc_from_frames(actual_frames)
-//                     seconds_marker=(numerator/denominator)
-//                     #print('tc of marker in seconds is {}.'.format(seconds_marker))
-//                     seconds_request=(seconds_marker - seconds_start)
-//                     #print('the seconds request is {}'.format(seconds_request))
-//                     #print(str(suffix))
-//                     this_still_filename='{}_{}.png'.format(clip.attrib['name'], suffix)
-//                     this_still_filepath='{}{}'.format(path_for_stills, this_still_filename)
-//                     #print('the filename will be {}.'.format(this_still_filename))
-//                     the_command="/{}/ffmpeg -ss {} -i {} -vframes 1 {}".format(dev_folder, seconds_request, the_src, this_still_filepath)
-//                     #print('we are about to use the command \n\n{}\n\n'.format(the_command))
-//                     #print('and the full path to it is {}.'.format(this_still_filepath))
-//                     #subprocess.call('/mk_dev/tests/m2s.sh', [seconds_request, the_src, this_still_filepath])
-//                     subprocess.call("/{}/ffmpeg -ss {} -i {} -vframes 1 {}".format(dev_folder, seconds_request, the_src, this_still_filepath), shell=True)
-//                     shoot_id=this_still_filename.split('_')[0]
-//                     notes="any notes would go here"
-//                     #print(notes)
-//                     clocktime="2017-05-28 12:01:00"
-//                     still_mysql_insert(this_still_filename, seconds_request, shoot_id, clocktime, notes)
-//                     this_yyyymmdd=shoot_id[0:8]
-//                     this_hhmm=suffix[0:4]
-//                     creation_date_input=this_yyyymmdd+this_hhmm
-//                     subprocess.call("touch -t {} {}".format(creation_date_input, this_still_filepath), shell=True)
-//                     print("touch -t {} {}".format(creation_date_input, this_still_filepath))
-//                 else:
-//                     pass
-//         else:
-//             print ("{} isn't a regular clip, so stills won't be extracted.".format(clip))
-
 
 
 module.exports.markersToStills = markersToStills;
