@@ -8,7 +8,10 @@ const fcpxml = require("./mk_modules/fcpxml");
 const dateFormat = require('dateformat');
 const compressor = require("./mk_modules/compressor");
 const m2s = require("./mk_modules/m2s").markersToStills;
+const MongoClient = require("mongodb").MongoClient, assert = require('assert');
 require('dotenv').config();
+
+var mongoUrl = 'mongodb://localhost:27017/thelocalworkflow';
 
 function printHelp() {
   console.log("thelocalworkflow.js (c) Marlon Kuzmick");
@@ -52,4 +55,17 @@ if (args.rename) {
   var pathForJson = (theResult.shootPath + "/_notes/" + theResult.shootId + "_shootObject.json");
   var shootObjectJson = JSON.stringify(theResult, null, 2);
   fs.writeFileSync(pathForJson, shootObjectJson);
+
+  MongoClient.connect(mongoUrl, function(err, db) {
+    assert.equal(null, err);
+    console.log("Connected successfully to server");
+    theResult.clipArray = undefined;
+    theResult.startClip = undefined;
+    theResult.tsStartClip = undefined;
+    console.log(JSON.stringify(theResult, null, 4));
+    db.collection('shoots').insertOne({theResult});
+    db.close();
+  });
+
+
 }
