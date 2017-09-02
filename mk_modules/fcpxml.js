@@ -111,9 +111,9 @@ function makeFcpxml(shootObject){
   fcpxObject = {fcpxml:[fcpxmlAttr, theResourceXml, libraryXml]}
   theXmlHeader = '<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE fcpxml>\n'
   var theXml = (theXmlHeader + (xml(fcpxObject, {indent:'\t'})));
-  var filePath = (shootObject.shootPath + "/" + shootObject.shootId + "_v1.fcpxml");
+  var filePath = (shootObject.shootPath + "/_notes/" + shootObject.shootId + "_v1.fcpxml");
   fs.writeFileSync(filePath, theXml);
-  var pathForJson = (shootObject.shootPath + "/" + shootObject.shootId + "_fcpxObject.json");
+  var pathForJson = (shootObject.shootPath + "/_notes/" + shootObject.shootId + "_fcpxObject.json");
   var fcpxJson = JSON.stringify(fcpxObject, null, 2);
   fs.writeFileSync(pathForJson, fcpxJson);
 }
@@ -172,10 +172,10 @@ function makeFormats(shootObject){
         if (clip.width == resourceXml.resources[i].format._attr.width && clip.height == resourceXml.resources[i].format._attr.height && (clip.frameDuration) == resourceXml.resources[i].format._attr.frameDuration) {
           formatMatch=true;
           clip.fcpxml.asset._attr.format = ("r" + (i+1))
-          console.log("match");
+          // console.log("match");
         }
         else {
-          console.log("no match");
+          // console.log("no match");
         }
       }
       // if no match, then create new format
@@ -292,7 +292,7 @@ function threeCamCc(shootObject, ccR, theResMc){
                     {param:{_attr: {
                       name:"Text",
                       key:"9999/32385/10619/2/369",
-                      value:"PEOPLE GO HERE (FCPX field 1)"}}},
+                      value:"People & Tags"}}},
                     {param:{_attr: {
                       name:"Position",
                       key:"9999/32385/20673/1/100/101",
@@ -304,7 +304,7 @@ function threeCamCc(shootObject, ccR, theResMc){
                     {param:{_attr: {
                       name:"Text",
                       key:"9999/32385/20673/2/369",
-                      value:"PROJECT ID or TITLE (3)"}}},
+                      value:(shootObject.shootId)}}},
                     {param:{_attr: {
                       name:"Position",
                       key:"9999/32385/20837/1/100/101",
@@ -358,7 +358,7 @@ function threeCamCc(shootObject, ccR, theResMc){
   // for (var i = 0; i < shootObject.cameraArray.length; i++) {
   //   array[i]
   // }
-  console.log(xml(theResCcXml, true));
+  // console.log(xml(theResCcXml, true));
   return theResCcXml;
 };
 

@@ -8,6 +8,14 @@ const Shoot = require("./workflowobjects").Shoot;
 function rename(folderPath) {
   var re = /^\./;
   var thisShoot = new Shoot(folderPath);
+  notesFolderPath=("/" + path.join(folderPath, "_notes"));
+  if (fs.existsSync(notesFolderPath)) {
+
+  }
+  else {
+    fs.mkdirSync(notesFolderPath);
+  }
+
   var theseClipObjects = [];
   var cameraArray = [];
   var folders = fs.readdirSync(folderPath);
@@ -28,9 +36,9 @@ function rename(folderPath) {
           // console.log(path.basename(file));
           var thisClip = new Clip(folderPath, camFolder, path.basename(file), (index - offsetForIndex));
           theseClipObjects.push(thisClip);
-          var update = ("\ngoing to try to rename \t\t" + thisClip.oldPath + "\t to \t" + thisClip.newPath)
+          // var update = ("\ngoing to try to rename \t\t" + thisClip.oldPath + "\t to \t" + thisClip.newPath)
           // console.log(update);
-          fs.appendFileSync('./tests/output/log.txt', update);
+          // fs.appendFileSync('./tests/output/log.txt', update);
           //
           // TODO: toggle this on and off to avoid renaming while testing:
           // fs.renameSync(thisClips.oldPath, thisClip.newPath);
@@ -56,8 +64,8 @@ function rename(folderPath) {
   var minStartTs = Math.min.apply(Math,thisShoot.clipArray.map(function(o){return o.start_ts;}));
   // console.log("minUtcCrStartMillTs" + minUtcCrStartMillTs);
   thisShoot.tsStartClip = thisShoot.clipArray.find(function(o){ return o.start_ts == minStartTs; });
-  console.log("the tsStartClip is " +  thisShoot.tsStartClip.newBasenameExt);
-  console.log("the minStartTs is " + minStartTs);
+  // console.log("the tsStartClip is " +  thisShoot.tsStartClip.newBasenameExt);
+  // console.log("the minStartTs is " + minStartTs);
 
   var maxEndTs = Math.max.apply(Math,thisShoot.clipArray.map(function(o){return o.end_ts;}));
 
@@ -69,8 +77,8 @@ function rename(folderPath) {
   thisShoot.mcStartTs = minStartTs;
   thisShoot.mcEndTs = maxEndTs;
   thisShoot.mcDuration = thisShoot.mcEndTs - thisShoot.mcStartTs;
-  console.log("just computed thisShoot.mcDuration and it is " + thisShoot.mcDuration);
-  console.log("just computed thisShoot.mcEndTs and it is " + thisShoot.mcEndTs);
+  // console.log("just computed thisShoot.mcDuration and it is " + thisShoot.mcDuration);
+  // console.log("just computed thisShoot.mcEndTs and it is " + thisShoot.mcEndTs);
 
 
   thisShoot.startCrDate = thisShoot.startClip.creationDate;
@@ -80,7 +88,7 @@ function rename(folderPath) {
   // console.log("tc starts out " + thisShoot.tcOffset + " ahead of Creation Time clock, which is " + thisShoot.tcFramesOffset + " frames.");
 
   shootNotesName=(thisShoot.shootId + "_shootnotes.txt")
-  shootNotesPath=path.join(folderPath, shootNotesName)
+  shootNotesPath=path.join(folderPath, "_notes", shootNotesName)
   fs.appendFile(shootNotesPath, ("\n\n" + shootNotes), function (err) {
     if (err) {
       // console.log("didn't work");

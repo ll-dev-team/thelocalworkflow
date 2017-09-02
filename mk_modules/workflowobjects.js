@@ -39,7 +39,7 @@ function Clip(folderPath, camFolder, file, theIndex){
   this.nb_frames = this.videoStreamJson.nb_frames;
   if (this.videoStreamJson.tags.timecode) {
     this.startTc = this.videoStreamJson.tags.timecode
-    console.log("just made start tc for " + this.newBasenameExt + " = " + this.startTc);
+    // console.log("just made start tc for " + this.newBasenameExt + " = " + this.startTc);
   }
   else {
     this.startTc = "00:00:00:00"
@@ -153,7 +153,7 @@ var workflowTools = {
       return D;
     }
     else {
-      console.log(shootId + "'s dateRoot " + dateRoot + " is not a valid date string");
+      // console.log(shootId + "'s dateRoot " + dateRoot + " is not a valid date string");
     }
   }
 
@@ -203,7 +203,7 @@ function dateFromIdTc(shootId, timecode) {
     return D;
   }
   else {
-    console.log(shootId + "'s dateRoot " + dateRoot + " is not a valid date string");
+    // console.log(shootId + "'s dateRoot " + dateRoot + " is not a valid date string");
   }
 }
 

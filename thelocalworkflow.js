@@ -1,3 +1,5 @@
+// NOTE: you need to have ffmpeg and ffprobe installed and in folders that are in the $PATH
+
 var args = require('minimist')(process.argv.slice(2));
 const columnify = require('columnify');
 const fs = require('fs');
@@ -35,19 +37,19 @@ if (args.compress) {
 
 
 if (args.rename) {
-  console.log("\n\n\n\n\n\n\n\nstarting . . .\n\n\n\n\n");
+  console.log("\n\n\nstarting________________________________________________\n\n\n");
   // console.log("the folder path to the files we want to rename is " + args.rename);
   var theResult = shootprocessor.rename(args.rename);
   // theResult.clipArray.forEach(function(clip){
   //   console.log("oldName = " + clip.oldBasenameExt +"\tnewName = " + clip.newBasenameExt + "\tduration for fcpxml = " + clip.fcpxmlElements.duration);
   // });
   var theResourceXml = fcpxml.makeFcpxml(theResult);
-  console.log("\n\n\nnow back in the localworkflow.  And going to log some stuff to check things out . . . \n\n\n");
-  console.log(JSON.stringify(theResult.fcpxml.motionEffectB, null, 2));
-  console.log("\n\n\ncomplete\n\n\n\n");
+  // console.log("\n\n\nnow back in the localworkflow.  And going to log some stuff to check things out . . . \n\n\n");
+  // console.log(JSON.stringify(theResult.fcpxml.motionEffectB, null, 2));
+  console.log("\n\ncomplete________________________________________________\n\n");
   // console.log("creation start date: " + dateFormat(theResult.startCrDate, "dddd, mmmm dS, yyyy, h:MM:ss TT"));
   // console.log("tc start date: " + dateFormat(theResult.startTcDate, "dddd, mmmm dS, yyyy, h:MM:ss TT"));
-  var pathForJson = (theResult.shootPath + "/" + theResult.shootId + "_shootObject.json");
+  var pathForJson = (theResult.shootPath + "/_notes/" + theResult.shootId + "_shootObject.json");
   var shootObjectJson = JSON.stringify(theResult, null, 2);
   fs.writeFileSync(pathForJson, shootObjectJson);
 }
