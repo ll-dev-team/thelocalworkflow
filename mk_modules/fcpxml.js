@@ -292,7 +292,7 @@ function threeCamCc(shootObject, ccR, theResMc){
                     {param:{_attr: {
                       name:"Text",
                       key:"9999/32385/10619/2/369",
-                      value:"People & Tags"}}},
+                      value:shootObject.shootId + ""}}},
                     {param:{_attr: {
                       name:"Position",
                       key:"9999/32385/20673/1/100/101",
@@ -304,7 +304,7 @@ function threeCamCc(shootObject, ccR, theResMc){
                     {param:{_attr: {
                       name:"Text",
                       key:"9999/32385/20673/2/369",
-                      value:(shootObject.shootId)}}},
+                      value:(shootObject.projectId + ": " + shootObject.subId)}}},
                     {param:{_attr: {
                       name:"Position",
                       key:"9999/32385/20837/1/100/101",
