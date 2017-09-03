@@ -13,11 +13,11 @@ function Still(tsElements, videoFilePath, m2sPath){
   this.fileExtension = path.extname(videoFilePath);
   this.stillFileName = (path.basename(videoFilePath, this.fileExtension) + "_" + tc_from_frames(this.tsElements.frames) + ".png");
   this.stillFilePath = path.join(m2sPath, this.stillFileName);
-  cp.spawnSync('ffmpeg', ['-ss', this.tsElements.seconds, '-i', videoFilePath, '-vframes', '1', this.stillFilePath]);
+  cp.spawnSync(process.env.FFMPEG_PATH, ['-ss', this.tsElements.seconds, '-i', videoFilePath, '-vframes', '1', this.stillFilePath]);
 }
 
 function markersToStills() {
-  
+
   // TODO: path to ffmpeg (dev_folder replacement)
   // TODO: path for stills to export (path_for_stills replacement)
   // TODO: path for the fcpxml files ()
