@@ -11,7 +11,7 @@ const m2s = require("./mk_modules/m2s").markersToStills;
 const MongoClient = require("mongodb").MongoClient, assert = require('assert');
 require('dotenv').config();
 
-var mongoUrl = 'mongodb://localhost:27017/thelocalworkflow';
+// var mongoUrl = 'mongodb://localhost:27017/thelocalworkflow';
 
 function printHelp() {
   console.log("thelocalworkflow.js (c) Marlon Kuzmick");
@@ -57,7 +57,7 @@ if (args.rename) {
   var shootObjectJson = JSON.stringify(theResult, null, 2);
   fs.writeFileSync(pathForJson, shootObjectJson);
 
-  MongoClient.connect(mongoUrl, function(err, db) {
+  MongoClient.connect(process.env.MONGODB_PATH, function(err, db) {
     assert.equal(null, err);
     console.log("Connected successfully to server");
     theResult.clipArray = undefined;

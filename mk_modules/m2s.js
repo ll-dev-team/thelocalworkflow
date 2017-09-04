@@ -7,9 +7,6 @@ const parseXmlString = require('xml2js').parseString;
 const cp = require('child_process');
 const MongoClient = require("mongodb").MongoClient, assert = require('assert');
 
-var mongoUrl = 'mongodb://localhost:27017/thelocalworkflow';
-
-
 function Still(tsElements, videoFilePath, m2sPath){
   this.tsElements = tsElements
   this.videoFilePath = videoFilePath;
