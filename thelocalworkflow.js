@@ -29,6 +29,7 @@ if (args.help || !(args.m2s || args.rename || args.compress)) {
 
 if (args.m2s) {
   console.log("\n\n\n\n\nhaven't built this yet, but we will ultimately perform m2s on the folder you just entered.\n\n\n\n\n\n\n\n\n\n\n\n");
+  console.log(process.env.MONGODB_PATH);
   m2s();
 
 }

@@ -5,6 +5,9 @@ const dateFormat = require('dateformat');
 const xml2js = require('xml2js');
 const parseXmlString = require('xml2js').parseString;
 const cp = require('child_process');
+const MongoClient = require("mongodb").MongoClient, assert = require('assert');
+
+var mongoUrl = 'mongodb://localhost:27017/thelocalworkflow';
 
 
 function Still(tsElements, videoFilePath, m2sPath){
@@ -69,11 +72,17 @@ function markersToStills() {
         // console.log(stillArray);
 
       }
-      stillArray.forEach(function(still){
-        // console.log("\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"+JSON.stringify(still, null, 2));
-      });
     }
   });
+    MongoClient.connect(process.env.MONGODB_PATH, function(err, db) {
+      assert.equal(null, err);
+      stillArray.forEach(function(still){
+        console.log(process.env.MONGODB_PATH);
+        db.collection('stills').insertOne({still});
+      });
+
+      db.close();
+    });
 }
 
 function tc_from_frames(frames){
