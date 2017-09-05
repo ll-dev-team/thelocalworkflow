@@ -29,8 +29,9 @@ if (args.help || !(args.m2s || args.rename || args.compress)) {
 
 if (args.m2s) {
   console.log("\n\n\n\n\nhaven't built this yet, but we will ultimately perform m2s on the folder you just entered.\n\n\n\n\n\n\n\n\n\n\n\n");
-  console.log(process.env.MONGODB_PATH);
-  m2s();
+  // console.log(process.env.MONGODB_PATH);
+  m2s(args.m2s);
+  console.log("done");
 
 }
 
@@ -57,16 +58,16 @@ if (args.rename) {
   var shootObjectJson = JSON.stringify(theResult, null, 2);
   fs.writeFileSync(pathForJson, shootObjectJson);
 
-  MongoClient.connect(process.env.MONGODB_PATH, function(err, db) {
-    assert.equal(null, err);
-    console.log("Connected successfully to server");
-    theResult.clipArray = undefined;
-    theResult.startClip = undefined;
-    theResult.tsStartClip = undefined;
-    console.log(JSON.stringify(theResult, null, 4));
-    db.collection('shoots').insertOne({theResult});
-    db.close();
-  });
+  // MongoClient.connect(process.env.MONGODB_PATH, function(err, db) {
+  //   assert.equal(null, err);
+  //   console.log("Connected successfully to server");
+  //   theResult.clipArray = undefined;
+  //   theResult.startClip = undefined;
+  //   theResult.tsStartClip = undefined;
+  //   console.log(JSON.stringify(theResult, null, 4));
+  //   db.collection('shoots').insertOne({theResult});
+  //   db.close();
+  // });
 
 
 }

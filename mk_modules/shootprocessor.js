@@ -41,7 +41,7 @@ function rename(folderPath) {
           // fs.appendFileSync('./tests/output/log.txt', update);
           //
           // TODO: toggle this on and off to avoid renaming while testing:
-          // fs.renameSync(thisClips.oldPath, thisClip.newPath);
+          fs.renameSync(thisClip.oldPath, thisClip.newPath);
         }
       });
     }

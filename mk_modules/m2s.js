@@ -16,7 +16,7 @@ function Still(tsElements, videoFilePath, m2sPath){
   cp.spawnSync(process.env.FFMPEG_PATH, ['-ss', this.tsElements.seconds, '-i', videoFilePath, '-vframes', '1', this.stillFilePath]);
 }
 
-function markersToStills() {
+function markersToStills(folderPath) {
 
   // TODO: path to ffmpeg (dev_folder replacement)
   // TODO: path for stills to export (path_for_stills replacement)
@@ -28,58 +28,83 @@ function markersToStills() {
   var stillArray = [];
   console.log("Starting markersToStills at " + (dateFormat(now, "yyyymmdd HH:MM:ss")));
   // console.log(tc_from_frames(442371));
-  var xml2test = fs.readFileSync('/Users/mk/Development/test_materials/exports/Stills_2_projects.fcpxml', 'UTF-8');
-  parseXmlString(xml2test, function (err, result) {
-    if (err) {
-      console.log(err);
-    }
-    else
-  {    var pathForJson = ("/Users/mk/Development/test_materials/exports/testing2stills.json");
-      // var xmlJson = JSON.stringify(result, null, 2);
-      // fs.writeFileSync(pathForJson, xmlJson);
-      extrasFilePathString = result.fcpxml.resources[0].asset[0].$.src.replace('file:///','/');
-      filePathStringElements = extrasFilePathString.split('/').slice(1, -2);
-      thePath = "";
-      for (var i = 0; i < filePathStringElements.length; i++) {
-        thePath=path.join(thePath, filePathStringElements[i]);
-        console.log(thePath);
+
+  // loop folderPath
+  var xmlFiles = fs.readdirSync(folderPath);
+  xmlFiles.forEach(function(thisXmlFile){
+    var thisXmlPath = path.join(folderPath,thisXmlFile);
+    console.log("the path I'm trying to read as xml is " + thisXmlPath);
+    var xml2test = fs.readFileSync(thisXmlPath, 'UTF-8');
+    parseXmlString(xml2test, function (err, result) {
+      if (err) {
+        console.log(err);
       }
-      m2sPath=("/" + path.join(thePath, "_m2s"));
-      console.log("\n\n\n\n\n\n\n\n" + extrasFilePathString + "\n\n\n\n\n\n\n");
-      console.log("\n\n\n\n\n\n\n\n" + filePathStringElements + "\n\n\n\n\n\n\n");
-      console.log("\n\n\n\n\n\n\n\n" + m2sPath + "\n\n\n\n\n\n\n");
-      fs.mkdirSync(m2sPath);
-      for (var i = 0; i < result.fcpxml.library[0].event[0].project.length; i++) {
-        // TODO: change this to a regex
-        if (result.fcpxml.library[0].event[0].project[i].$.name=="Stills" || result.fcpxml.library[0].event[0].project[i].$.name=="stills" || result.fcpxml.library[0].event[0].project[i].$.name=="Still" || result.fcpxml.library[0].event[0].project[i].$.name=="still") {
-          var theProject = result.fcpxml.library[0].event[0].project[i];
+      else
+    {    var pathForJson = ("/Users/mk/Development/test_materials/exports/testing2stills.json");
+        // var xmlJson = JSON.stringify(result, null, 2);
+        // fs.writeFileSync(pathForJson, xmlJson);
+        extrasFilePathString = result.fcpxml.resources[0].asset[0].$.src.replace('file:///','/');
+        filePathStringElements = extrasFilePathString.split('/').slice(1, -2);
+        thePath = "";
+        for (var i = 0; i < filePathStringElements.length; i++) {
+          thePath=path.join(thePath, filePathStringElements[i]);
+          console.log(thePath + "+++++++++++++++++++++++++");
         }
-      }
-      for (var i = 0; i < theProject.sequence[0].spine[0]["asset-clip"].length; i++) {
-        var videoFileName = theProject.sequence[0].spine[0]["asset-clip"][i].$.name;
-        var videoFileStartTs = theProject.sequence[0].spine[0]["asset-clip"][i].$.start;
-        var theClip = result.fcpxml.resources[0].asset.filter(function(clip){
-          return clip.$.id === theProject.sequence[0].spine[0]["asset-clip"][i].$.ref
-        });
-        var videoFilePath = theClip[0].$.src.replace('file:///','/');
-        console.log("theClipPath is " + videoFilePath + "and start ts is " + videoFileStartTs);
-        console.log("\n\n");
-        // determine start for this camera
-        findMarkers(theProject.sequence[0].spine[0]["asset-clip"][i], videoFilePath, stillArray, videoFileStartTs, m2sPath);
-        // console.log(stillArray);
+
+
+        m2sPath=("/" + path.join(thePath, "_m2s"));
+        // console.log("\n\n\n\n\n\n\n\n" + extrasFilePathString + "\n\n\n\n\n\n\n");
+        // console.log("\n\n\n\n\n\n\n\n" + filePathStringElements + "\n\n\n\n\n\n\n");
+        console.log("\n\n\n\n\n\n\n\n" + m2sPath + "\n\n\n\n\n\n\n");
+
+        if (fs.existsSync(thePath)) {
+          fs.mkdirSync(m2sPath);
+          console.log(JSON.stringify(result, null, 4));
+          for (var i = 0; i < result.fcpxml.library[0].event[0].project.length; i++) {
+            // TODO: change this to a regex
+            if (result.fcpxml.library[0].event[0].project[i].$.name.includes("till")) {
+              var theProject = result.fcpxml.library[0].event[0].project[i];
+
+            }
+          }
+          console.log("success---------------------------");
+          console.log(JSON.stringify(theProject, null, 4));
+          for (var i = 0; i < theProject.sequence[0].spine[0]["asset-clip"].length; i++) {
+            var videoFileName = theProject.sequence[0].spine[0]["asset-clip"][i].$.name;
+            var videoFileStartTs = theProject.sequence[0].spine[0]["asset-clip"][i].$.start;
+            var theClip = result.fcpxml.resources[0].asset.filter(function(clip){
+              return clip.$.id === theProject.sequence[0].spine[0]["asset-clip"][i].$.ref
+            });
+            var videoFilePath = theClip[0].$.src.replace('file:///','/');
+            console.log("theClipPath is " + videoFilePath + "and start ts is " + videoFileStartTs);
+            console.log("\n\n");
+            // determine start for this camera
+            findMarkers(theProject.sequence[0].spine[0]["asset-clip"][i], videoFilePath, stillArray, videoFileStartTs, m2sPath);
+            // console.log(stillArray);
+
+          }
+        }
+        else {
+          console.log("something is wrong--the path to the original media as defined in the fcpxml doesn't seem to exist--you may need to relink files");
+        }
+
+
 
       }
-    }
-  });
-    MongoClient.connect(process.env.MONGODB_PATH, function(err, db) {
-      assert.equal(null, err);
-      stillArray.forEach(function(still){
-        console.log(process.env.MONGODB_PATH);
-        db.collection('stills').insertOne({still});
-      });
-
-      db.close();
     });
+      // MongoClient.connect(process.env.MONGODB_PATH, function(err, db) {
+      //   assert.equal(null, err);
+      //   stillArray.forEach(function(still){
+      //     console.log(process.env.MONGODB_PATH);
+      //     db.collection('stills').insertOne({still});
+      //   });
+      //
+      //   db.close();
+
+
+
+
+  });
 }
 
 function tc_from_frames(frames){
