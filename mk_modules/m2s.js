@@ -20,7 +20,6 @@ function toMongo(stillArray){
   MongoClient.connect(process.env.MONGODB_PATH, function(err, db) {
     assert.equal(null, err);
     stillArray.forEach(function(still){
-      console.log(process.env.MONGODB_PATH);
       db.collection('stills').insertOne({still});
     });
     db.close();
@@ -28,13 +27,8 @@ function toMongo(stillArray){
 }
 
 function markersToStills(folderPath) {
-
-  // TODO: path to ffmpeg (dev_folder replacement)
-  // TODO: path for stills to export (path_for_stills replacement)
-  // TODO: path for the fcpxml files ()
   // TODO: loop folder to get all stills fcpxmls (test if ends with fcpxml)
   // TODO: add to mongodb
-
   var now = new Date();
   var stillArray = [];
   console.log("Starting markersToStills at " + (dateFormat(now, "yyyymmdd HH:MM:ss")));
@@ -56,22 +50,16 @@ function markersToStills(folderPath) {
         thePath = "/";
         for (var i = 0; i < filePathStringElements.length; i++) {
           thePath=path.join(thePath, filePathStringElements[i]);
-          console.log(thePath + "+++++++++++++++++++++++++");
         }
         m2sPath=(path.join(thePath, "_m2s"));
-        console.log("\n\n\n\n\n\n\n\n" + m2sPath + "\n\n\n\n\n\n\n");
         if (fs.existsSync(thePath)) {
           fs.mkdirSync(m2sPath);
-          console.log(JSON.stringify(result, null, 4));
           for (var i = 0; i < result.fcpxml.library[0].event[0].project.length; i++) {
             // TODO: change this to a regex
             if (result.fcpxml.library[0].event[0].project[i].$.name.includes("till")) {
               var theProject = result.fcpxml.library[0].event[0].project[i];
-
             }
           }
-          console.log("success---------------------------");
-          console.log(JSON.stringify(theProject, null, 4));
           for (var i = 0; i < theProject.sequence[0].spine[0]["asset-clip"].length; i++) {
             var videoFileName = theProject.sequence[0].spine[0]["asset-clip"][i].$.name;
             var videoFileStartTs = theProject.sequence[0].spine[0]["asset-clip"][i].$.start;
@@ -79,8 +67,6 @@ function markersToStills(folderPath) {
               return clip.$.id === theProject.sequence[0].spine[0]["asset-clip"][i].$.ref
             });
             var videoFilePath = theClip[0].$.src.replace('file:///','/');
-            console.log("theClipPath is " + videoFilePath + "and start ts is " + videoFileStartTs);
-            console.log("\n\n");
             // determine start for this camera
             findMarkers(theProject.sequence[0].spine[0]["asset-clip"][i], videoFilePath, stillArray, videoFileStartTs, m2sPath);
           }
@@ -97,30 +83,19 @@ function markersToStills(folderPath) {
 
 function tc_from_frames(frames){
   var the_frames=(frames % 24);
-  // console.log("the_frames are "+ the_frames);
   var seconds = (frames-the_frames)/24;
-  // console.log("seconds are "+ seconds);
   var the_seconds=(seconds%60);
-  // console.log("the_seconds are "+ the_seconds);
   var minutes = (seconds-the_seconds)/60;
   var the_minutes = minutes%60;
   var the_hours = (minutes-the_minutes)/60;
   var tc_string = ((("00" + the_hours).slice(-2))+(("00" + the_minutes).slice(-2))+(("00" + the_seconds).slice(-2))+(("00" + the_frames).slice(-2)))
-  // console.log("something like " + tc_string);
   return tc_string
 };
 
-function stills_from_fcpxml(fcpxml_path){
-
-  };
-
 function fcpxmlStartToSeconds(fcpxmlStart, videoFileStartTs){
-  // console.log(fcpxmlStart);
   console.log("videoFileStartTs is" + videoFileStartTs);
   var thisNumerator = fcpxmlStart.split('/')[0];
   var thisDenominator = fcpxmlStart.split('/')[1].replace('s','');
-  // console.log(thisNumerator);
-  // console.log(thisDenominator);
   var thisFrames = ((24000/thisDenominator)*thisNumerator)/1001;
   var thisFileStartTsNumerator = videoFileStartTs.split('/')[0];
   var thisFileStartTsDenominator = videoFileStartTs.split('/')[1].replace('s','');
@@ -129,16 +104,11 @@ function fcpxmlStartToSeconds(fcpxmlStart, videoFileStartTs){
   var theSecondsMarker = thisNumerator/thisDenominator;
   var theSeconds = theSecondsMarker - theSecondsStart;
   console.log(theSecondsMarker + " - " + theSecondsStart + " = " + theSeconds);
-  // console.log("there are "+ thisFrames +" frames.");
   return {numerator: thisNumerator, denominator: thisDenominator, seconds: theSeconds, frames: thisFrames, fileStartFrames: thisStartFrames, fcpxmlFileStart: videoFileStartTs};
 }
 
-
-
-
 function findMarkers(projectAssetClip, videoFilePath, stillArray, videoFileStartTs, m2sPath){
   console.log("in findMarkers");
-  // console.log("projectAssetClip is " + JSON.stringify(projectAssetClip, null, 2));
   projectAssetClip.marker.forEach(function(marker, index){
     console.log("logging marker.$.start"+JSON.stringify(marker.$.start, null, 2));
     var tsElements = fcpxmlStartToSeconds(marker.$.start, videoFileStartTs);
@@ -148,20 +118,4 @@ function findMarkers(projectAssetClip, videoFilePath, stillArray, videoFileStart
   });
 };
 
-
 module.exports.markersToStills = markersToStills;
-
-
-
-
-// def still_mysql_insert(still_filename, tc_request, shoot_id, clocktime, notes):
-//     cnx = mysql.connector.connect(user='root', password='root', port='3306', host='127.0.0.1', database='learning_lab')
-//     cursor = cnx.cursor()
-//     mysql_command="""
-//     INSERT INTO test_stills (shoot_id, filename, tc_request, clocktime, notes) VALUES (%s, %s, %s, %s, %s)
-//     """
-//     values=(shoot_id, still_filename, tc_request, clocktime, notes)
-//     cursor.execute(mysql_command, values)
-//     #print('just tried to execute')
-//     cnx.commit()
-//     cnx.close()
