@@ -16,6 +16,17 @@ function Still(tsElements, videoFilePath, m2sPath){
   cp.spawnSync(process.env.FFMPEG_PATH, ['-ss', this.tsElements.seconds, '-i', videoFilePath, '-vframes', '1', this.stillFilePath]);
 }
 
+function toMongo(stillArray){
+  MongoClient.connect(process.env.MONGODB_PATH, function(err, db) {
+    assert.equal(null, err);
+    stillArray.forEach(function(still){
+      console.log(process.env.MONGODB_PATH);
+      db.collection('stills').insertOne({still});
+    });
+    db.close();
+});
+}
+
 function markersToStills(folderPath) {
 
   // TODO: path to ffmpeg (dev_folder replacement)
@@ -27,36 +38,28 @@ function markersToStills(folderPath) {
   var now = new Date();
   var stillArray = [];
   console.log("Starting markersToStills at " + (dateFormat(now, "yyyymmdd HH:MM:ss")));
-  // console.log(tc_from_frames(442371));
-
-  // loop folderPath
   var xmlFiles = fs.readdirSync(folderPath);
+  // loop folderPath
   xmlFiles.forEach(function(thisXmlFile){
     var thisXmlPath = path.join(folderPath,thisXmlFile);
     console.log("the path I'm trying to read as xml is " + thisXmlPath);
+    // read and parse xml file
     var xml2test = fs.readFileSync(thisXmlPath, 'UTF-8');
     parseXmlString(xml2test, function (err, result) {
       if (err) {
         console.log(err);
       }
       else
-    {    var pathForJson = ("/Users/mk/Development/test_materials/exports/testing2stills.json");
-        // var xmlJson = JSON.stringify(result, null, 2);
-        // fs.writeFileSync(pathForJson, xmlJson);
+      {    var pathForJson = ("/Users/mk/Development/test_materials/exports/testing2stills.json");
         extrasFilePathString = result.fcpxml.resources[0].asset[0].$.src.replace('file:///','/');
         filePathStringElements = extrasFilePathString.split('/').slice(1, -2);
-        thePath = "";
+        thePath = "/";
         for (var i = 0; i < filePathStringElements.length; i++) {
           thePath=path.join(thePath, filePathStringElements[i]);
           console.log(thePath + "+++++++++++++++++++++++++");
         }
-
-
-        m2sPath=("/" + path.join(thePath, "_m2s"));
-        // console.log("\n\n\n\n\n\n\n\n" + extrasFilePathString + "\n\n\n\n\n\n\n");
-        // console.log("\n\n\n\n\n\n\n\n" + filePathStringElements + "\n\n\n\n\n\n\n");
+        m2sPath=(path.join(thePath, "_m2s"));
         console.log("\n\n\n\n\n\n\n\n" + m2sPath + "\n\n\n\n\n\n\n");
-
         if (fs.existsSync(thePath)) {
           fs.mkdirSync(m2sPath);
           console.log(JSON.stringify(result, null, 4));
@@ -80,31 +83,16 @@ function markersToStills(folderPath) {
             console.log("\n\n");
             // determine start for this camera
             findMarkers(theProject.sequence[0].spine[0]["asset-clip"][i], videoFilePath, stillArray, videoFileStartTs, m2sPath);
-            // console.log(stillArray);
-
           }
         }
         else {
+          console.log("the path is " + thePath);
           console.log("something is wrong--the path to the original media as defined in the fcpxml doesn't seem to exist--you may need to relink files");
         }
-
-
-
       }
     });
-      // MongoClient.connect(process.env.MONGODB_PATH, function(err, db) {
-      //   assert.equal(null, err);
-      //   stillArray.forEach(function(still){
-      //     console.log(process.env.MONGODB_PATH);
-      //     db.collection('stills').insertOne({still});
-      //   });
-      //
-      //   db.close();
-
-
-
-
   });
+  toMongo(stillArray);
 }
 
 function tc_from_frames(frames){
