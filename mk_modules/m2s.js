@@ -32,9 +32,12 @@ function markersToStills(folderPath) {
   var now = new Date();
   var stillArray = [];
   console.log("Starting markersToStills at " + (dateFormat(now, "yyyymmdd HH:MM:ss")));
-  var xmlFiles = fs.readdirSync(folderPath);
+  var allFiles = fs.readdirSync(folderPath);
+  var reDot = /^\./
+  var xmlFiles = allFiles.filter(file => !reDot.test(file));
   // loop folderPath
   xmlFiles.forEach(function(thisXmlFile){
+
     var thisXmlPath = path.join(folderPath,thisXmlFile);
     console.log("the path I'm trying to read as xml is " + thisXmlPath);
     // read and parse xml file
@@ -53,7 +56,9 @@ function markersToStills(folderPath) {
         }
         m2sPath=(path.join(thePath, "_m2s"));
         if (fs.existsSync(thePath)) {
-          fs.mkdirSync(m2sPath);
+          if (!fs.existsSync(m2sPath)) {
+            fs.mkdirSync(m2sPath);
+          }
           for (var i = 0; i < result.fcpxml.library[0].event[0].project.length; i++) {
             // TODO: change this to a regex
             if (result.fcpxml.library[0].event[0].project[i].$.name.includes("till")) {
@@ -108,14 +113,16 @@ function fcpxmlStartToSeconds(fcpxmlStart, videoFileStartTs){
 }
 
 function findMarkers(projectAssetClip, videoFilePath, stillArray, videoFileStartTs, m2sPath){
-  console.log("in findMarkers");
-  projectAssetClip.marker.forEach(function(marker, index){
-    console.log("logging marker.$.start"+JSON.stringify(marker.$.start, null, 2));
-    var tsElements = fcpxmlStartToSeconds(marker.$.start, videoFileStartTs);
-    console.log("timestampSeconds is " + tsElements.seconds +" and the frames are " + tsElements.frames);
-    var thisStill = new Still(tsElements, videoFilePath, m2sPath);
-    stillArray.push(thisStill);
-  });
+  console.log("in findMarkers for " + projectAssetClip.$.name);
+  if (projectAssetClip.marker) {
+    projectAssetClip.marker.forEach(function(marker, index){
+      console.log("logging marker.$.start"+JSON.stringify(marker.$.start, null, 2));
+      var tsElements = fcpxmlStartToSeconds(marker.$.start, videoFileStartTs);
+      console.log("timestampSeconds is " + tsElements.seconds +" and the frames are " + tsElements.frames);
+      var thisStill = new Still(tsElements, videoFilePath, m2sPath);
+      stillArray.push(thisStill);
+    });
+  }
 };
 
 module.exports.markersToStills = markersToStills;

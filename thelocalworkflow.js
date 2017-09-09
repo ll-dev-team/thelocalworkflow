@@ -32,7 +32,6 @@ if (args.m2s) {
   // console.log(process.env.MONGODB_PATH);
   m2s(args.m2s);
   console.log("done");
-
 }
 
 if (args.compress) {
