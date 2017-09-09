@@ -27,6 +27,9 @@ function Clip(folderPath, camFolder, file, theIndex){
     else if (this.ffprobeObject.streams[i].codec_type == "audio") {
       this.audioStreamJson = this.ffprobeObject.streams[i];
     }
+    else if (this.ffprobeObject.streams[i].codec_type == "data") {
+      this.dataStreamJson = this.ffprobeObject.streams[i];
+    }
   };
   // console.log(JSON.stringify(this.videoStreamJson, null, 2));
   this.width = this.videoStreamJson.width;
@@ -37,7 +40,11 @@ function Clip(folderPath, camFolder, file, theIndex){
   this.duration = this.videoStreamJson.duration;
   this.bit_rate = this.videoStreamJson.bit_rate;
   this.nb_frames = this.videoStreamJson.nb_frames;
-  if (this.videoStreamJson.tags.timecode) {
+  if (this.dataStreamJson.tags.timecode){
+    this.startTc = this.dataStreamJson.tags.timecode
+    console.log("for clip " + this.newBasenameExt + " we are going with the dataStreamJson tc, which is " + this.startTc);
+  }
+  else if (this.videoStreamJson.tags.timecode) {
     this.startTc = this.videoStreamJson.tags.timecode
     // console.log("just made start tc for " + this.newBasenameExt + " = " + this.startTc);
   }

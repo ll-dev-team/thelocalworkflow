@@ -204,6 +204,7 @@ function makeFormats(shootObject){
 
 function resourceMediaMulticam(shootObject, mcR){
   var cameras = shootObject.cameraArray;
+  console.log(shootObject.cameraArray + " is the shootObject.cameraArray");
   // TODO: always define as "r1" and always define r1 as 1080x1920, 23.98?
   var anglesArray = [];
   // build angles array

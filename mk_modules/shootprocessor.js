@@ -8,14 +8,6 @@ const Shoot = require("./workflowobjects").Shoot;
 function rename(folderPath) {
   var re = /^\./;
   var thisShoot = new Shoot(folderPath);
-  notesFolderPath=("/" + path.join(folderPath, "_notes"));
-  if (fs.existsSync(notesFolderPath)) {
-
-  }
-  else {
-    fs.mkdirSync(notesFolderPath);
-  }
-
   var theseClipObjects = [];
   var cameraArray = [];
   var folders = fs.readdirSync(folderPath);
@@ -86,7 +78,12 @@ function rename(folderPath) {
   thisShoot.tcOffset = thisShoot.startTcDate.getTime() - thisShoot.startCrDate.getTime();
   thisShoot.tcFramesOffset = (thisShoot.tcOffset*24)/1001;
   // console.log("tc starts out " + thisShoot.tcOffset + " ahead of Creation Time clock, which is " + thisShoot.tcFramesOffset + " frames.");
-
+  notesFolderPath=("/" + path.join(folderPath, "_notes"));
+  if (fs.existsSync(notesFolderPath)) {
+  }
+  else {
+    fs.mkdirSync(notesFolderPath);
+  }
   shootNotesName=(thisShoot.shootId + "_shootnotes.txt")
   shootNotesPath=path.join(folderPath, "_notes", shootNotesName)
   fs.appendFile(shootNotesPath, ("\n\n" + shootNotes), function (err) {
