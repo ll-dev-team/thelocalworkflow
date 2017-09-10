@@ -4,7 +4,6 @@ const ffprobetools = require("./ffprobetools");
 var shootprocessor = require("./shootprocessor");
 var dateFormat = require('dateformat');
 
-
 function Clip(folderPath, camFolder, file, theIndex){
   var now = new Date();
   this.thelocalworkflowIngestTime = (dateFormat(now, "UTC:yyyy-mm-dd HH-MM-ss"));
@@ -15,22 +14,36 @@ function Clip(folderPath, camFolder, file, theIndex){
   this.shootId=path.basename(folderPath);
   this.counter = ("000" + (theIndex + 1)).slice(-3);
   this.ffprobeOutput=ffprobetools.ffprobeSync(this.oldPath);
-  this.ffprobeObject=JSON.parse(this.ffprobeOutput);
+  // introduce a temp variable to hold ffprobeObject
+  var theFfprobeObject = JSON.parse(this.ffprobeOutput);
+
+
+  // this.ffprobeObject=JSON.parse(this.ffprobeOutput);
   this.ext = path.extname(file);
   this.newBasename = (this.shootId + "_" + camFolder + "_" + this.counter)
   this.newBasenameExt = (this.newBasename + this.ext)
   this.newPath = path.join(folderPath, camFolder, this.newBasenameExt);
-  for (var i = 0; i < this.ffprobeObject.streams.length; i++) {
-    if (this.ffprobeObject.streams[i].codec_type == "video") {
-      this.videoStreamJson = this.ffprobeObject.streams[i];
+  for (var i = 0; i < theFfprobeObject.streams.length; i++) {
+    if (theFfprobeObject.streams[i].codec_type == "video") {
+      this.videoStreamJson = theFfprobeObject.streams[i];
     }
-    else if (this.ffprobeObject.streams[i].codec_type == "audio") {
-      this.audioStreamJson = this.ffprobeObject.streams[i];
+    else if (theFfprobeObject.streams[i].codec_type == "audio") {
+      this.audioStreamJson = theFfprobeObject.streams[i];
     }
-    else if (this.ffprobeObject.streams[i].codec_type == "data") {
-      this.dataStreamJson = this.ffprobeObject.streams[i];
+    else if (theFfprobeObject.streams[i].codec_type == "data") {
+      this.dataStreamJson = theFfprobeObject.streams[i];
     }
   };
+  this.formatJson = JSON.stringify(theFfprobeObject.format, null, 2);
+
+  if (theFfprobeObject.format.tags.creation_time) {
+    this.formatTagsCreationTime = theFfprobeObject.format.tags.creation_time;
+  }
+  //
+  //
+  // this.cameraSerialNo = theFormatObject.tags["com.apple.proapps.serialno"];
+  // this.cameraModel = theFormatObject.tags["com.apple.proapps.serialno"];
+
   // console.log(JSON.stringify(this.videoStreamJson, null, 2));
   this.width = this.videoStreamJson.width;
   this.height = this.videoStreamJson.height;
@@ -51,10 +64,10 @@ function Clip(folderPath, camFolder, file, theIndex){
   else {
     this.startTc = "00:00:00:00"
   };
-  if (this.videoStreamJson.tags["com.apple.quicktime.creationdate"])
+  if (theFfprobeObject.format.tags["com.apple.quicktime.creationdate"])
     {
-      this.actualCreationDate = this.videoStreamJson.tags["com.apple.quicktime.creationdate"];
-      // console.log("actualCreationDate is " + dateFormat(this.actualCreationDate, "dddd, mmmm dS, yyyy, h:MM:ss TT"));
+      this.actualCreationDate = theFfprobeObject.format.tags["com.apple.quicktime.creationdate"];
+      console.log("actualCreationDate for " + this.newBasenameExt + " is " + dateFormat(this.actualCreationDate, "dddd, mmmm dS, yyyy, h:MM:ss TT"));
     }
   this.duration_ts = this.videoStreamJson.duration_ts;
   this.start_ts = timeCodeToFcpxmlFormat(this.startTc);

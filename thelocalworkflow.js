@@ -57,16 +57,13 @@ if (args.rename) {
   var shootObjectJson = JSON.stringify(theResult, null, 2);
   fs.writeFileSync(pathForJson, shootObjectJson);
 
-  // MongoClient.connect(process.env.MONGODB_PATH, function(err, db) {
-  //   assert.equal(null, err);
-  //   console.log("Connected successfully to server");
-  //   theResult.clipArray = undefined;
-  //   theResult.startClip = undefined;
-  //   theResult.tsStartClip = undefined;
-  //   console.log(JSON.stringify(theResult, null, 4));
-  //   db.collection('shoots').insertOne({theResult});
-  //   db.close();
-  // });
+  MongoClient.connect(process.env.MONGODB_PATH, function(err, db) {
+    assert.equal(null, err);
+    console.log("Connected successfully to server");
+    // console.log(JSON.stringify(theResult, null, 4));
+    db.collection('shoots').insertOne({theResult});
+    db.close();
+  });
 
 
 }
