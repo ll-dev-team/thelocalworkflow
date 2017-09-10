@@ -84,6 +84,7 @@ function markersToStills(folderPath) {
     });
   });
   toMongo(stillArray);
+  return stillArray;
 }
 
 function tc_from_frames(frames){

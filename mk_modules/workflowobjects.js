@@ -135,7 +135,6 @@ function Shoot(shootPath){
   this.fcpxml.motionEffectB = {effect: {_attr:{id:"empty", name:"2.5_B", uid:"~/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef", src:"file:///Users/mk/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef"}}};
 };
 
-
 var workflowTools = {
   tcToFcpxTs: function timeCodeToFcpxmlFormat(timecode){
     var tempTc = ("willBeAFunctionOf " + timecode);
@@ -196,13 +195,6 @@ function timeCodeToFcpxmlFormat(timecode){
   // console.log(theFcpxFormat);
   return theFcpxFormat;
 };
-//
-// function timeCodeToFcpxmlStart (ffprobeObject){
-//   // var theHrs = ffprobeObject.streams[0].tags.timecode.
-//   var theStart = ("itWillBeAFunctionOf" + ffprobeObject.streams[0].tags.timecode);
-//   return theStart;
-// };
-
 
 function dateFromIdTc(shootId, timecode) {
   // console.log("working in dateFromId with " + shootId);
@@ -226,7 +218,6 @@ function dateFromIdTc(shootId, timecode) {
     // console.log(shootId + "'s dateRoot " + dateRoot + " is not a valid date string");
   }
 }
-
 
 module.exports.Clip = Clip;
 module.exports.Shoot = Shoot;

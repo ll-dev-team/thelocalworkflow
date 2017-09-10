@@ -9,6 +9,7 @@ const dateFormat = require('dateformat');
 const compressor = require("./mk_modules/compressor");
 const m2s = require("./mk_modules/m2s").markersToStills;
 const MongoClient = require("mongodb").MongoClient, assert = require('assert');
+const cp = require('child_process');
 require('dotenv').config();
 
 // var mongoUrl = 'mongodb://localhost:27017/thelocalworkflow';
@@ -30,7 +31,12 @@ if (args.help || !(args.m2s || args.rename || args.compress)) {
 if (args.m2s) {
   console.log("\n\n\n\n\nhaven't built this yet, but we will ultimately perform m2s on the folder you just entered.\n\n\n\n\n\n\n\n\n\n\n\n");
   // console.log(process.env.MONGODB_PATH);
-  m2s(args.m2s);
+  var m2sOutput = m2s(args.m2s);
+  console.log("done the stills--now prepping payload and sending to Slack");
+  var theMessage = ""
+  m2sOutput.forEach(file => theMessage= (theMessage + file.stillFileName + "\n"));
+  var thePayload = 'payload={"channel": "#ll-tests", "username": "m2s-bot", "text": "This is posted to #ll-tests and comes from a bot named m2s-bot.  You have created some stills, and their names are ' + theMessage + ' ", "icon_emoji": ":rocket:"}'
+  cp.spawnSync("curl", ['-X', 'POST', '--data-urlencode', thePayload, process.env.SLACK_WEBHOOK_URL]);
   console.log("done");
 }
 
@@ -42,7 +48,6 @@ if (args.compress) {
 
 if (args.rename) {
   console.log("\n\n\nstarting________________________________________________\n\n\n");
-  // console.log("the folder path to the files we want to rename is " + args.rename);
   var theResult = shootprocessor.rename(args.rename);
   // theResult.clipArray.forEach(function(clip){
   //   console.log("oldName = " + clip.oldBasenameExt +"\tnewName = " + clip.newBasenameExt + "\tduration for fcpxml = " + clip.fcpxmlElements.duration);
