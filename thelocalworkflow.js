@@ -35,7 +35,7 @@ if (args.m2s) {
   console.log("done the stills--now prepping payload and sending to Slack");
   var theMessage = ""
   m2sOutput.forEach(file => theMessage= (theMessage + file.stillFileName + "\n"));
-  var thePayload = 'payload={"channel": "#ll-tests", "username": "m2s-bot", "text": "This is posted to #ll-tests and comes from a bot named m2s-bot.  You have created some stills, and their names are ' + theMessage + ' ", "icon_emoji": ":rocket:"}'
+  var thePayload = 'payload={"channel": "#ll-tests", "username": "theworkflow-bot", "text": "<@marlon>: new stills have been exported: ' + theMessage + ' ", "icon_emoji": ":camera:"}'
   cp.spawnSync("curl", ['-X', 'POST', '--data-urlencode', thePayload, process.env.SLACK_WEBHOOK_URL]);
   console.log("done");
 }
@@ -61,6 +61,8 @@ if (args.rename) {
   var pathForJson = (theResult.shootPath + "/_notes/" + theResult.shootId + "_shootObject.json");
   var shootObjectJson = JSON.stringify(theResult, null, 2);
   fs.writeFileSync(pathForJson, shootObjectJson);
+  var thePayload = 'payload={"channel": "#ll-tests", "username": "theworkflow-bot", "text": "<@marlon>: the shoot with id ' + theResult.shootId + ' has been ingested and renamed.", "icon_emoji": ":desktop_computer:"}'
+  cp.spawnSync("curl", ['-X', 'POST', '--data-urlencode', thePayload, process.env.SLACK_WEBHOOK_URL]);
 
   MongoClient.connect(process.env.MONGODB_PATH, function(err, db) {
     assert.equal(null, err);
@@ -69,6 +71,7 @@ if (args.rename) {
     db.collection('shoots').insertOne({theResult});
     db.close();
   });
+  console.log("\n\ndone.\n");
 
 
 }
