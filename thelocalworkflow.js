@@ -31,7 +31,9 @@ if (args.help || !(args.m2s || args.rename || args.compress)) {
 if (args.m2s) {
   console.log("\n\n\n\n\nhaven't built this yet, but we will ultimately perform m2s on the folder you just entered.\n\n\n\n\n\n\n\n\n\n\n\n");
   // console.log(process.env.MONGODB_PATH);
-  var m2sOutput = m2s(args.m2s);
+  // var m2sFcpxmlFolder = args.m2s;
+  var m2sFcpxmlFolder = "/Users/ll-201-macpro/Development/fcpxml_for_stills";
+  var m2sOutput = m2s(m2sFcpxmlFolder);
   console.log("done the stills--now prepping payload and sending to Slack");
   var theMessage = ""
   m2sOutput.forEach(file => theMessage= (theMessage + file.stillFileName + "\n"));
