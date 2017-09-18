@@ -21,6 +21,7 @@ function makeFcpxml(shootObject){
   var keywordTextArray = [];
   var keywordsToAdd = [];
   var keywordArray = [];
+  var stillsProjectArray = [];
 
   shootObject.clipArray.forEach(function(clip, index){
     var theCounter=theResourceXml.resources.length + 1;
@@ -29,6 +30,7 @@ function makeFcpxml(shootObject){
     clip.fcpxml.assetClip[0]._attr.ref=clip.fcpxml.asset._attr.id;
     clip.fcpxml.assetClip[0]._attr.format=clip.fcpxml.asset._attr.format;
     var newLibraryAssetClip = {"asset-clip": clip.fcpxml.assetClip};
+    var clipXmlForStillsProject = {"asset-clip": clip.fcpxml.assetClip};
     libraryEventOne.event.push(newLibraryAssetClip);
     // loop through all assetClips
     for (var i = 1; i < clip.fcpxml.assetClip.length; i++) {
@@ -42,6 +44,9 @@ function makeFcpxml(shootObject){
         }
       }
     }
+
+    stillsProjectArray.push(clipXmlForStillsProject);
+    console.log(JSON.stringify(stillsProjectArray, null, 4));
   });
   // loop through keywordArray to build keyword-collection elements for library
   var mcR = (theResourceXml.resources.length + 1);
@@ -77,6 +82,7 @@ function makeFcpxml(shootObject){
   var theLibraryCc = {"ref-clip":{_attr: {name:(shootObject.shootId + "_MC_CC"), ref: ("r"+ccR), duration:(shootObject.mcDuration+"/24000s"), start: (shootObject.startClip.start_ts + "/24000s"), modDate: dateFormat(now, "yyyy-mm-dd HH:MM:ss o")}}};
   libraryEventOne.event.push(theLibraryCc);
   libraryEventOne.event.push(makeProject(shootObject, ccR));
+  libraryEventOne.event.push(makeStillsProject(shootObject));
   for (var i = 0; i < keywordArray.length; i++) {
     thisKeywordElement={"keyword-collection": {_attr:{name:keywordArray[i]}}};
     libraryEventOne.event.push(thisKeywordElement);
@@ -103,10 +109,6 @@ function makeFcpxml(shootObject){
   smartCollections.forEach(function(thisSc){
     libraryXml.library.push(thisSc);
   });
-
-
-
-
 
   fcpxObject = {fcpxml:[fcpxmlAttr, theResourceXml, libraryXml]}
   theXmlHeader = '<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE fcpxml>\n'
@@ -200,7 +202,6 @@ function makeFormats(shootObject){
   resourceXml.resources.push(shootObject.fcpxml.motionEffectC);
   return resourceXml;
 }
-
 
 function resourceMediaMulticam(shootObject, mcR){
   var cameras = shootObject.cameraArray;
@@ -379,6 +380,36 @@ function makeProject(shootObject, ccR){
         ]}
       ]
     };
+  return projectXml;
+}
+
+function makeStillsProject(shootObject){
+  // calculate stillsProjectDuration
+  //
+  var stillsProjectDuration = 0;
+  var insertionPointStills = 0;
+  var xmlAssetClipList = [];
+  shootObject.clipArray.forEach(function(clip) {
+    console.log(clip.newBasename);
+  })
+  // define the projectXml for <project> <sequence> <spine>
+  var projectXml =
+    {project:
+      [
+        {_attr:{name:(shootObject.shootId + "_Stills"), modDate:dateFormat(now, "yyyy-mm-dd HH:MM:ss o")}},
+        {sequence:[
+          // change duration to real duration
+          {_attr:{duration: (stillsProjectDuration +"/24000s"), format:"r1", renderColorSpace: "Rec. 709", tcStart: "0s", tcFormat: "NDF", audioLayout:"stereo"}},
+          // took out , audioRate:"48000" --- add back later?
+          {spine:[
+            {"asset-clip":
+              {_attr:{name: (shootObject.shootId + "_MC_CC"), offset:"0s", ref:("r"), duration:(shootObject.mcDuration +"/24000s"), start:(shootObject.mcStartTs+"/24000s")}},
+            }
+          ]}
+        ]}
+      ]
+    };
+
   return projectXml;
 }
 
