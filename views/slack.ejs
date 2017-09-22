@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+  <html lang="en-US">
+  <head>
+    <% include partials/head %>
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <p>
+      slack will go here, ultimately
+    </p>
+    <form action="/slack/history" method="post">
+      <label for="team_name">Enter name: </label>
+      <input id="team_name" type="text" name="name_field" value="Default name for team.">
+      <input type="submit" value="OK">
+    </form>
+  </body>
+<% include partials/foot %>

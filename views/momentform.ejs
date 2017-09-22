@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+  <html lang="en-US">
+  <head>
+    <% include partials/head %>
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <p>
+      Submit moment information below.
+    </p>
+    <form action="/moments/submitmoment" method="post">
+      <label for="shoot ID">Enter shoot ID: </label>
+
+      <input id="shoot ID" type="text" name="shootId" value="20170921_001_Example_Shoot">
+      <br />
+      <label for="in_point">Enter in point: </label>
+      <input id="in point" type="text" name="inPoint" value="09:00:00:01">
+      <br />
+      <label for="out_point">Enter out point: </label>
+      <input id="out point" type="text" name="outPoint" value="09:02:01:01">
+      <br />
+      <input type="submit" value="OK">
+    </form>
+  </body>
+<% include partials/foot %>

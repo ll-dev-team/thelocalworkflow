@@ -1,0 +1,14 @@
+body {
+  padding: 50px;
+  font: 14px "Avenir Next", "Avenir", sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+a {
+  color: #00B7FF;
+}

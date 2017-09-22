@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const ffprobetools = require("./ffprobetools");
-var shootprocessor = require("./shootprocessor");
+// var shootprocessor = require("./shootprocessor");
 var dateFormat = require('dateformat');
 
 function Clip(folderPath, camFolder, file, theIndex){
