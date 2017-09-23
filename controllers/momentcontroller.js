@@ -25,7 +25,6 @@ exports.moment_create = function(req, res, next) {
     req.checkBody('shootId', 'Shoot ID must be specified.').notEmpty(); //We won't force Alphanumeric, because people might have spaces.
     req.checkBody('inPoint', 'In Point must be specified.').notEmpty();
     req.checkBody('outPoint', 'Out Point must be specified.').notEmpty();
-
     req.sanitize('shootId').escape();
     req.sanitize('inPoint').escape();
     req.sanitize('outPoint').escape();

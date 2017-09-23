@@ -13,6 +13,11 @@ router.get('/', function(req, res, next) {
   res.render('slack', { tabTitle: 'history-machine', title: 'The Slack History Machine' });
 });
 
+router.get('/channels', function(req, res, next){
+  var theResult = ['x1', 'x2', 'x3', 'x4'];
+  res.render('slack/channels', { tabTitle: 'history-machine', title: 'The Slack History Machine', result: theResult })
+});
+
 router.post('/history', function(req, res, next){
   console.log("test");
   slack.channels.history({token: token, channel: "C6AAGUS6T", count: 20}, (err, data) => {
@@ -25,7 +30,7 @@ router.post('/history', function(req, res, next){
         theResult.push(datum.text);
       });
     console.log("theResult is " + JSON.stringify(theResult, null, 8));
-    res.render('slackhistory', { tabTitle: 'history-machine', title: 'The Slack History Machine', result: theResult });
+    res.render('slack/history', { tabTitle: 'history-machine', title: 'The Slack History Machine', result: theResult });
   });
 });
 
