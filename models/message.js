@@ -4,12 +4,16 @@ var Schema = mongoose.Schema;
 
 var MessageSchema = Schema(
   {
+    type: {type: String, required: true},
+    user: {type: String, required: true},
     text: {type: String, required: true},
-    channel: {type: String, required: true, max: 20},
-    timeOfMessage: {type: String},
-    timestamp: {type: }
+    ts: {type: String, required: true}
   }
 );
+
+
+
+
 
 // Virtual for author's full name
 // AuthorSchema
@@ -26,4 +30,4 @@ var MessageSchema = Schema(
 // });
 
 //Export model
-module.exports.message = mongoose.model('Message', MessageSchema);
+module.exports = mongoose.model('Message', MessageSchema);

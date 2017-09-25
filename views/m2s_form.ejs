@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+  <html lang="en-US">
+  <head>
+    <% include partials/head.ejs %>
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <p>
+    Drag in the file with the m2s markers.
+    </p>
+
+
+
+  <form action="/m2s/run_m2s" method="post">
+    Do you want to run m2s or no?
+    <br />
+    <input type="radio" name="webexport" value="yes" checked> Yes
+    <br />
+    <input type="radio" name="webexport" value="no"> No
+    <br />
+    <input type="submit" value="GO">
+  </form>
+
+
+  </body>
+<% include partials/foot.ejs %>

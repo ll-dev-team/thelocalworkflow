@@ -1,11 +1,14 @@
-var Author = require('../models/author')
+var Author = require('../models/author');
 // var async = require('async')
-var Book = require('../models/book')
+var Message = require('../models/message');
+var slack = require('slack');
+var token = process.env.SLACK_TOKEN;
+var mongoose = require('mongoose');
 
 // Display list of all Authors
-exports.author_list = function(req, res, next) {
+exports.get_slack_history = function(req, res, next) {
 
-  Author.find()
+  Message.find()
     .sort([['family_name', 'ascending']])
     .exec(function (err, list_authors) {
       if (err) { return next(err); }

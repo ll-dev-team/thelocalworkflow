@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+  <html lang="en-US">
+  <head>
+    <% include partials/head %>
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <p>
+      slack will go here, ultimately
+    </p>
+
+    <form action="/test/testresult" method="post">
+      <label for="channel">Choose channels: </label>
+      <input id="channel_name" type="text" name="channel_name" value="ChannelName.">
+      <br />
+      <label for="multi">Select your channel here:</label>
+      <br />
+      <select multiple id="multi" name="multi" size=10>
+      <% for (var i = 0; i < channels.length; i++) { %>
+      <option value="<%= channels[i] %>">
+        <%- "#" + channels[i] %>
+      </option>
+      <% } %>
+      <div>
+        <input type="submit" value="OK" style="position:relative; top:25px; left: -80px">
+      </div>
+    </form>
+  </body>
+<% include partials/foot %>

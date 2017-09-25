@@ -10,8 +10,10 @@ const MongoClient = require("mongodb").MongoClient, assert = require('assert');
 function Still(tsElements, videoFilePath, m2sPath){
   this.tsElements = tsElements
   this.videoFilePath = videoFilePath;
+  this.tcString = tc_from_frames(this.tsElements.frames).tc_string;
+  this.tcNumber = tc_from_frames(this.tsElements.frames).tc_forFilename;
   this.fileExtension = path.extname(videoFilePath);
-  this.stillFileName = (path.basename(videoFilePath, this.fileExtension) + "_" + tc_from_frames(this.tsElements.frames) + ".png");
+  this.stillFileName = (path.basename(videoFilePath, this.fileExtension) + "_" + this.tcNumber + ".png");
   this.stillFilePath = path.join(m2sPath, this.stillFileName);
   cp.spawnSync(process.env.FFMPEG_PATH, ['-ss', this.tsElements.seconds, '-i', videoFilePath, '-vframes', '1', this.stillFilePath]);
 }
@@ -54,7 +56,8 @@ function markersToStills(folderPath) {
         for (var i = 0; i < filePathStringElements.length; i++) {
           thePath=path.join(thePath, filePathStringElements[i]);
         }
-        m2sPath=(path.join(thePath, "_m2s"));
+        // m2sPath=(path.join(thePath, "_m2s"));
+        var m2sPath = "/Users/mk/Development/thelocalworkflow/public/images"
         if (fs.existsSync(thePath)) {
           if (!fs.existsSync(m2sPath)) {
             fs.mkdirSync(m2sPath);
@@ -94,8 +97,9 @@ function tc_from_frames(frames){
   var minutes = (seconds-the_seconds)/60;
   var the_minutes = minutes%60;
   var the_hours = (minutes-the_minutes)/60;
-  var tc_string = ((("00" + the_hours).slice(-2))+(("00" + the_minutes).slice(-2))+(("00" + the_seconds).slice(-2))+(("00" + the_frames).slice(-2)))
-  return tc_string
+  var theTc_string = ((("00" + the_hours).slice(-2))+(("00" + the_minutes).slice(-2))+(("00" + the_seconds).slice(-2))+(("00" + the_frames).slice(-2)));
+  var theTc_colon_string = ((("00" + the_hours).slice(-2))+ ":" + (("00" + the_minutes).slice(-2))+ ":" + (("00" + the_seconds).slice(-2))+ ":" + (("00" + the_frames).slice(-2)));
+  return {tc_forFilename: theTc_string, tc_string:theTc_colon_string};
 };
 
 function fcpxmlStartToSeconds(fcpxmlStart, videoFileStartTs){

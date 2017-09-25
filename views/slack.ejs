@@ -9,10 +9,22 @@
     <p>
       slack will go here, ultimately
     </p>
+
     <form action="/slack/history" method="post">
-      <label for="team_name">Enter name: </label>
-      <input id="team_name" type="text" name="name_field" value="Default name for team.">
-      <input type="submit" value="OK">
+      <label for="channel">Choose channels: </label>
+      <input id="channel_name" type="text" name="channel_name" value="ChannelName.">
+      <br />
+      <label for="multi">Select your channel here:</label>
+      <br />
+      <select multiple id="multi" name="multi" size=10>
+      <% for (var i = 0; i < channels.length; i++) { %>
+      <option value="<%= channels[i].id %>">
+        <%- "#" + channels[i].name %>
+      </option>
+      <% } %>
+      <div>
+        <input type="submit" value="OK" style="position:relative; top:25px; left: -80px">
+      </div>
     </form>
   </body>
 <% include partials/foot %>

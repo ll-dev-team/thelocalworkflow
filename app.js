@@ -13,8 +13,11 @@ require('dotenv').config();
 var index = require('./routes/index');
 var users = require('./routes/users');
 var slack = require('./routes/slack');
-var moments = require('./routes/moments')
-var theworkflow = require('./routes/theworkflow')
+var shoots = require('./routes/shoots');
+var moments = require('./routes/moments');
+var theworkflow = require('./routes/theworkflow');
+var m2s = require('./routes/m2s');
+var test = require('./routes/test');
 
 var mongoDB = process.env.MONGODB_URL;
 console.log("mongoDB url is " + mongoDB);
@@ -42,6 +45,9 @@ app.use('/users', users);
 app.use('/slack', slack);
 app.use('/theworkflow', theworkflow);
 app.use('/moments', moments);
+app.use('/shoots', shoots);
+app.use('/m2s', m2s);
+app.use('/test', test);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
