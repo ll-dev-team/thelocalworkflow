@@ -12,6 +12,11 @@ router.post('/testresult', function(req, res, next){
   res.render('testresult', { tabTitle: 'history-machine', title: 'The Slack History Machine', result: "0"});
 });
 
+router.get('/layout_001', function(req, res, next) {
+    var theData = {array:[{firstName: "Marlon", lastName: "Kuzmick", title: "Director of the Learning Lab"}, {firstName: "Lauren", lastName: "Davidson", title: "Assistant Director of the Learning Lab"}, {firstName: "Katie", lastName: "Gilligan", title: "Learning Lab Project Manager"}, {firstName: "Noelle", lastName: "Lopez", title: "Learning Lab Postdoctoral Fellow"}], id: "001"}
+    res.render('layout_001', { tabTitle: 'layout_001', title: 'Layout Test 1', data: theData });
+  });
+
 module.exports = router;
 
 

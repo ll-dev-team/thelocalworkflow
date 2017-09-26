@@ -15,7 +15,7 @@ function Still(tsElements, videoFilePath, m2sPath){
   this.fileExtension = path.extname(videoFilePath);
   this.stillFileName = (path.basename(videoFilePath, this.fileExtension) + "_" + this.tcNumber + ".png");
   this.stillFilePath = path.join(m2sPath, this.stillFileName);
-  cp.spawnSync(process.env.FFMPEG_PATH, ['-ss', this.tsElements.seconds, '-i', videoFilePath, '-vframes', '1', this.stillFilePath]);
+  cp.spawnSync(process.env.FFMPEG_PATH, ['-ss', this.tsElements.seconds, '-i', videoFilePath, '-vframes', '1', '-vf', "curves=psfile='/Users/mk/Development/thelocalworkflow/tools/curves/boost.acv'", this.stillFilePath]);
 }
 
 function toMongo(stillArray){

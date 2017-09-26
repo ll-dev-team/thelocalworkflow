@@ -2,6 +2,7 @@
   <html lang="en-US">
   <head>
     <% include partials/head %>
+    <link rel='stylesheet' href='/css/m2s_output.css'>
   </head>
   <body>
     <h1><%= title %></h1>
@@ -22,8 +23,8 @@
 
       <% for (var i = 0; i < stillArray.length; i++) { %>
       <br />
-      <h4><%- stillArray[i].tcString %></h4>
       <img src= <%= ("/images/" + stillArray[i].stillFileName)  %> class="image" >
+      <h4><%- stillArray[i].tcString %></h4>
       <% } %>
     </div>
 
