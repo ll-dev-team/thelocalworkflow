@@ -17,6 +17,7 @@ var shoots = require('./routes/shoots');
 var moments = require('./routes/moments');
 var theworkflow = require('./routes/theworkflow');
 var m2s = require('./routes/m2s');
+var rename = require('./routes/rename');
 var test = require('./routes/test');
 
 var mongoDB = process.env.MONGODB_URL;
@@ -47,6 +48,7 @@ app.use('/theworkflow', theworkflow);
 app.use('/moments', moments);
 app.use('/shoots', shoots);
 app.use('/m2s', m2s);
+app.use('/rename', rename);
 app.use('/test', test);
 
 // catch 404 and forward to error handler
