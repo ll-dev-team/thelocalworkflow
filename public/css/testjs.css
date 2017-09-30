@@ -1,0 +1,25 @@
+.big {
+  font-size: 100px;
+}
+
+p {
+  font-size: 50px;
+}
+
+div.large {
+  height: 200px;
+  width: 200px;
+  background-color: rgba(0, 150, 200, 0.5);
+}
+
+
+div.small {
+  height: 100px;
+  width: 100px;
+  background-color: rgba(255, 0, 100, 0.5);
+}
+
+
+.black {
+  background-color: rgba(0, 0, 0, 0.8);
+}
