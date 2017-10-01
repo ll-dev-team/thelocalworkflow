@@ -82,7 +82,8 @@ function makeFcpxml(shootObject){
   var theLibraryCc = {"ref-clip":{_attr: {name:(shootObject.shootId + "_MC_CC"), ref: ("r"+ccR), duration:(shootObject.mcDuration+"/24000s"), start: (shootObject.startClip.start_ts + "/24000s"), modDate: dateFormat(now, "yyyy-mm-dd HH:MM:ss o")}}};
   libraryEventOne.event.push(theLibraryCc);
   libraryEventOne.event.push(makeProject(shootObject, ccR));
-  libraryEventOne.event.push(makeStillsProject(shootObject));
+  // TODO: put this back in once stills template is decided;
+  // libraryEventOne.event.push(makeStillsProject(shootObject));
   for (var i = 0; i < keywordArray.length; i++) {
     thisKeywordElement={"keyword-collection": {_attr:{name:keywordArray[i]}}};
     libraryEventOne.event.push(thisKeywordElement);
@@ -382,36 +383,36 @@ function makeProject(shootObject, ccR){
     };
   return projectXml;
 }
-
-function makeStillsProject(shootObject){
-  // calculate stillsProjectDuration
-  //
-  var stillsProjectDuration = 0;
-  var insertionPointStills = 0;
-  var xmlAssetClipList = [];
-  shootObject.clipArray.forEach(function(clip) {
-    console.log(clip.newBasename);
-  })
-  // define the projectXml for <project> <sequence> <spine>
-  var projectXml =
-    {project:
-      [
-        {_attr:{name:(shootObject.shootId + "_Stills"), modDate:dateFormat(now, "yyyy-mm-dd HH:MM:ss o")}},
-        {sequence:[
-          // change duration to real duration
-          {_attr:{duration: (stillsProjectDuration +"/24000s"), format:"r1", renderColorSpace: "Rec. 709", tcStart: "0s", tcFormat: "NDF", audioLayout:"stereo"}},
-          // took out , audioRate:"48000" --- add back later?
-          {spine:[
-            {"asset-clip":
-              {_attr:{name: (shootObject.shootId + "_MC_CC"), offset:"0s", ref:("r"), duration:(shootObject.mcDuration +"/24000s"), start:(shootObject.mcStartTs+"/24000s")}},
-            }
-          ]}
-        ]}
-      ]
-    };
-
-  return projectXml;
-}
+//
+// function makeStillsProject(shootObject){
+//   // calculate stillsProjectDuration
+//   //
+//   var stillsProjectDuration = 0;
+//   var insertionPointStills = 0;
+//   var xmlAssetClipList = [];
+//   shootObject.clipArray.forEach(function(clip) {
+//     console.log(clip.newBasename);
+//   })
+//   // define the projectXml for <project> <sequence> <spine>
+//   var projectXml =
+//     {project:
+//       [
+//         {_attr:{name:(shootObject.shootId + "_Stills"), modDate:dateFormat(now, "yyyy-mm-dd HH:MM:ss o")}},
+//         {sequence:[
+//           // change duration to real duration
+//           {_attr:{duration: (stillsProjectDuration +"/24000s"), format:"r1", renderColorSpace: "Rec. 709", tcStart: "0s", tcFormat: "NDF", audioLayout:"stereo"}},
+//           // took out , audioRate:"48000" --- add back later?
+//           {spine:[
+//             {"asset-clip":
+//               {_attr:{name: (shootObject.shootId + "_MC_CC"), offset:"0s", ref:("r"), duration:(shootObject.mcDuration +"/24000s"), start:(shootObject.mcStartTs+"/24000s")}},
+//             }
+//           ]}
+//         ]}
+//       ]
+//     };
+//
+//   return projectXml;
+// }
 
 module.exports.makeFcpxml = makeFcpxml;
 module.exports.makeFormats = makeFormats;
