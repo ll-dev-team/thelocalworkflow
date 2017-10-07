@@ -9,7 +9,8 @@ const m2s = require("../mk_modules/m2s").markersToStills;
 var db = mongoose.connection;
 
 router.get('/', function(req, res, next) {
-  res.render('m2s_form', { tabTitle: 'm2s Entry Form', title: 'The m2s Form' });
+  var folderPath = "/Users/mk/Development/test_materials/_readyToTest/m2s_fcpxml";
+  res.render('m2s_form', { tabTitle: 'm2s Entry Form', title: 'The m2s Form', theFolderPath: folderPath });
 });
 
 
@@ -24,7 +25,7 @@ router.post('/run_m2s', function(req, res, next){
     var folderPath = "/Users/mk/Development/test_materials/_readyToTest/m2s_fcpxml";
     var theResult = m2s(folderPath);
     var theNewResult = _.sortBy(theResult, ['tcNumber']);
-    res.render('m2s_result', { tabTitle: 'm2s Result', title: 'The m2s Result for ', stillArray: theNewResult });
+    res.render('m2s_result', { tabTitle: 'm2s Result', title: 'The m2s Result for ', stillArray: theNewResult, theFolderPath: folderPath });
   }
   else {
     res.send('why did you bother opening up thelocalworkflow then?')
