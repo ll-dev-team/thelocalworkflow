@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+  <html lang="en-US">
+  <head>
+    <% include partials/head.ejs %>
+  </head>
+  <body>
+    <% include partials/header.ejs %>
+    <div class="content">
+
+    <p>Welcome to <%= title %></p>
+    <p>
+      Once we identify the folder you want to rename, we'll be able to rename every file in every camera folder (using the camera folder to determine the camera name).  We'll also generate .fcpxml files with synched multiclips and MC_CC_Ex projects if it's a timecode-synched studio shoot.  And we'll log all the info we can find to a .json file we'll put in the shoot folder and our MongoDB database.
+    </p>
+  <p>  We're going to rename everything we find in the following location:
+  </p>
+   <h3><%= folderPath %></h3>
+   <p>is that ok?</p>
+    <form action="/rename/confirm_rename" method="post">
+      <br />
+      <button type="submit" name="confirmation" value=<%= folderPath %>>Yes</button>
+      <button type="submit" name="confirmation" value="no">No</button>
+    </form>
+
+
+
+  </div>
+  </body>
+<% include partials/foot.ejs %>

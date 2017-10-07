@@ -10,7 +10,18 @@ var db = mongoose.connection;
 
 router.get('/', function(req, res, next) {
   // res.render('m2s_form', { tabTitle: 'm2s Entry Form', title: 'The m2s Form' });
-  res.send('rename workflow will live here.')
+  res.render('rename_form', { tabTitle: 'rename Entry Form', title: 'the Rename Form' })
+});
+
+router.post('/run_rename', function(req, res, next){
+  console.log(req.body);
+  res.render('rename_areusure', { tabTitle: 'rename confirmation', title: 'the Rename Form', folderPath: req.body.drive })
+});
+
+router.post('/confirm_rename', function(req, res, next){
+  console.log(req.body);
+  res.send(req.body);
+  // res.render('rename_form', { tabTitle: 'rename confirmation', title: 'the Rename Form', folderPath: req.body.drive })
 });
 
 //

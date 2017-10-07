@@ -38,3 +38,40 @@ h4 {
 a:hover {
   text-decoration: none;
 }
+
+#nav_bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    float: right;
+}
+
+li.nav_link {
+    float: left;
+
+}
+
+a.nav_link_a {
+    display: block;
+    color: black;
+    padding: 8px;
+}
+
+div.content {
+  width: 85%;
+  margin: auto;
+}
+
+input.text_box {
+  width: 60%;
+  font-family: Menlo;
+}
+
+legend {
+  font-family: "Avenir Next";
+  font-weight: 800;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: black;
+}
