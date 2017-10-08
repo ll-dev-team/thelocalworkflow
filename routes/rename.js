@@ -15,7 +15,7 @@ router.get('/', function(req, res, next) {
 
 router.post('/run_rename', function(req, res, next){
   console.log(req.body);
-  res.render('rename_areusure', { tabTitle: 'rename confirmation', title: 'the Rename Form', folderPath: req.body.drive })
+  res.render('rename_areusure', { tabTitle: 'rename confirmation', title: 'the Rename Form', folderPath: req.body.drive, reqBody: req.body })
 });
 
 router.post('/confirm_rename', function(req, res, next){

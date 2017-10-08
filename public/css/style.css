@@ -8,6 +8,7 @@ h1 {
   text-transform: uppercase;
   font-weight: 900;
   color: rgba(0, 0, 0, 1);
+  margin-bottom: 0px;
 }
 
 h1.white {
@@ -74,4 +75,22 @@ legend {
   font-size: 20px;
   text-transform: uppercase;
   color: black;
+}
+
+div.a_form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+button {
+  font-family: "Avenir Next";
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+fieldset {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
 }

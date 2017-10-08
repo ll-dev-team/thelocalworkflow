@@ -6,30 +6,36 @@
   <body>
     <% include partials/header.ejs %>
     <div class="content">
-
     <p>Welcome to <%= title %></p>
     <p>
       Once we identify the folder you want to rename, we'll be able to rename every file in every camera folder (using the camera folder to determine the camera name).  We'll also generate .fcpxml files with synched multiclips and MC_CC_Ex projects if it's a timecode-synched studio shoot.  And we'll log all the info we can find to a .json file we'll put in the shoot folder and our MongoDB database.
     </p>
 
     <form action="/rename/run_rename" method="post">
-      Is your stuff in one of the usual spots?  If so, just hit the appropriate button below:
-      <br />
+      <fieldset>
+      <legend>Where are the files?
+      </legend>
+      <p>Is your stuff in one of the usual spots?  If so, just hit the appropriate button below:
+      </p>
       <button type="submit" name="drive" value="monday">Monday Drive</button>
       <button type="submit" name="drive" value="tuesday">Tuesday Drive</button>
       <button type="submit" name="drive" value="wednesday">Wednesday Drive</button>
       <button type="submit" name="drive" value="thursday">Thursday Drive</button>
       <button type="submit" name="drive" value="friday">Friday Drive</button>
+    </fieldset>
     </form>
 
 
 
 
 
-
+<div class="a_form">
     <form action="/rename/run_rename" method="post">
       <fieldset>
       <legend>Who was there?</legend>
+        <p>
+          check a box for each person you recognize:
+        </p>
         <div>
           <input type="checkbox" id="Marlon" name="people" value="coding">
           <label for="Marlon">Marlon</label>
@@ -67,18 +73,23 @@
           <label for="other">Other</label>
           <input type="text" id="otherValue" name="other">
         </div>
+        <br />
         <div>
-          <button type="submit">Submit form</button>
+          <button type="submit">That's All</button>
         </div>
       </fieldset>
+    </br>
+      <fieldset>
+        <legend>Is your footage somewhere strange?</legend>
+        <form action="/rename/run_rename" method="post">
+          <p>Enter the complete URL for the shootfolder you'd like run the script on.</p>
+          <input class="text_box" type="text" name="shootId" value="/Users/mk/Downloads/test">
+          <input type="submit" value="GO">
+        </form>
+      </fieldset>
     </form>
+</div>
 
-  <form action="/rename/run_rename" method="post">
-    Enter the complete URL for the shootfolder you'd like run the script on.
-    <br />
-    <input class="text_box" type="text" name="shootId" value="/Users/mk/Downloads/test">
-    <input type="submit" value="GO">
-  </form>
 
   </div>
   </body>

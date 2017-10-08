@@ -20,7 +20,13 @@
       <button type="submit" name="confirmation" value=<%= folderPath %>>Yes</button>
       <button type="submit" name="confirmation" value="no">No</button>
     </form>
-
+    <p>Or, if you didn't submit a request for a drive, here's what you did submit:
+    </p>
+    <% if (!folderPath) { %>
+      <p>
+      <%= reqBody.people %>
+       </p>
+  <%  } %>
 
 
   </div>
