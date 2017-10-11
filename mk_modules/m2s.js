@@ -65,16 +65,38 @@ function markersToStills(folderPath) {
               var theProject = result.fcpxml.library[0].event[0].project[i];
             }
           }
-          for (var i = 0; i < theProject.sequence[0].spine[0]["asset-clip"].length; i++) {
-            var videoFileName = theProject.sequence[0].spine[0]["asset-clip"][i].$.name;
-            var videoFileStartTs = theProject.sequence[0].spine[0]["asset-clip"][i].$.start;
-            var theClip = result.fcpxml.resources[0].asset.filter(function(clip){
-              return clip.$.id === theProject.sequence[0].spine[0]["asset-clip"][i].$.ref
-            });
-            var videoFilePath = theClip[0].$.src.replace('file:///','/');
-            // determine start for this camera
-            findMarkers(theProject.sequence[0].spine[0]["asset-clip"][i], videoFilePath, stillArray, videoFileStartTs, m2sPath);
+          if (theProject.sequence[0].spine[0]["asset-clip"]) {
+            console.log("there is an asset-clip tag");
+            for (var i = 0; i < theProject.sequence[0].spine[0]["asset-clip"].length; i++) {
+              var videoFileName = theProject.sequence[0].spine[0]["asset-clip"][i].$.name;
+              var videoFileStartTs = theProject.sequence[0].spine[0]["asset-clip"][i].$.start;
+              var theClip = result.fcpxml.resources[0].asset.filter(function(clip){
+                return clip.$.id === theProject.sequence[0].spine[0]["asset-clip"][i].$.ref
+              });
+              var videoFilePath = theClip[0].$.src.replace('file:///','/');
+              // determine start for this camera
+              findMarkers(theProject.sequence[0].spine[0]["asset-clip"][i], videoFilePath, stillArray, videoFileStartTs, m2sPath);
+            }
           }
+          else if (theProject.sequence[0].spine[0]["clip"]) {
+            for (var i = 0; i < theProject.sequence[0].spine[0]["clip"].length; i++) {
+              console.log(JSON.stringify(theProject.sequence[0].spine[0]["clip"][i], null, 8));
+              var videoFileName = theProject.sequence[0].spine[0]["clip"][i].$.name;
+
+              var videoFileStartTs = theProject.sequence[0].spine[0]["clip"][i].$.start;
+
+              var theClip = result.fcpxml.resources[0].asset.filter(function(clip){
+                return clip.$.id === theProject.sequence[0].spine[0]["clip"][i].$.ref
+              });
+              console.log(JSON.stringify(theClip, null, 8));
+              var videoFilePath = theClip[0].$.src.replace('file:///','/');
+              console.log("break point");
+              // determine start for this camera
+              findMarkers(theProject.sequence[0].spine[0]["clip"][i], videoFilePath, stillArray, videoFileStartTs, m2sPath);
+            }
+          }
+
+
         }
         else {
           console.log("the path is " + thePath);
