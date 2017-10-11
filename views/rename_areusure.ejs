@@ -8,27 +8,50 @@
     <div class="content">
 
     <p>Welcome to <%= title %></p>
-    <p>
-      Once we identify the folder you want to rename, we'll be able to rename every file in every camera folder (using the camera folder to determine the camera name).  We'll also generate .fcpxml files with synched multiclips and MC_CC_Ex projects if it's a timecode-synched studio shoot.  And we'll log all the info we can find to a .json file we'll put in the shoot folder and our MongoDB database.
-    </p>
-  <p>  We're going to rename everything we find in the following location:
+  <p>OK. We're going to rename everything we find in the following location:
   </p>
    <h3><%= folderPath %></h3>
-   <p>is that ok?</p>
-    <form action="/rename/confirm_rename" method="post">
-      <br />
-      <button type="submit" name="confirmation" value=<%= folderPath %>>Yes</button>
-      <button type="submit" name="confirmation" value="no">No</button>
+   <p>And we're going to add the following people as participants in the shoot in the MongoDB database:
+   </p>
+
+
+   <div class="a_form">
+       <form action="/rename/confirm_rename" method="post">
+         <fieldset>
+         <legend>Confirm People</legend>
+           <p>
+             check a box for each person you recognize:
+           </p>
+           <% for (var i = 0; i < people.length; i++) { %>
+             <div>
+               <input type="checkbox" id=
+               <%=people[i] %>
+               name="people"
+               value=
+               <%=people[i] %>
+               checked>
+               <label for=
+               <%=people[i] %>
+               >
+               <%=people[i] %>
+               </label>
+             </div>
+          <% } %>
+        </fieldset>
+      <br/>
+        <fieldset>
+          <legend>Confirm Path</legend>
+          <input type="checkbox" checked id="folderPath" name="folderPath" value=
+          <%= folderPath %>
+           />
+          <label><%= folderPath %></label>
+        </fieldset>
+      <br/>
+        <fieldset>
+          <button type="submit" name="confirmation" value="yes">Yes</button>
+          <button type="submit" name="confirmation" value="no">Try Again</button>
+        </fieldset>
     </form>
-    <p>Or, if you didn't submit a request for a drive, here's what you did submit:
-    </p>
-    <% if (!folderPath) { %>
-      <p>
-      <%= reqBody.people %>
-       </p>
-  <%  } %>
-
-
   </div>
   </body>
 <% include partials/foot.ejs %>

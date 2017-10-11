@@ -11,6 +11,22 @@
       Once we identify the folder you want to rename, we'll be able to rename every file in every camera folder (using the camera folder to determine the camera name).  We'll also generate .fcpxml files with synched multiclips and MC_CC_Ex projects if it's a timecode-synched studio shoot.  And we'll log all the info we can find to a .json file we'll put in the shoot folder and our MongoDB database.
     </p>
 
+    <form action="/rename/run_rename" method="post">
+      <fieldset>
+      <legend>Where are the files?
+      </legend>
+      <p>Is your stuff in one of the usual spots?  If so, just hit the appropriate button below:
+      </p>
+      <button type="submit" name="drive" value="monday">Monday Drive</button>
+      <button type="submit" name="drive" value="tuesday">Tuesday Drive</button>
+      <button type="submit" name="drive" value="wednesday">Wednesday Drive</button>
+      <button type="submit" name="drive" value="thursday">Thursday Drive</button>
+      <button type="submit" name="drive" value="friday">Friday Drive</button>
+    </fieldset>
+    </form>
+
+
+
 <div class="a_form">
     <form action="/rename/run_rename" method="post">
       <fieldset>
@@ -19,7 +35,7 @@
           check a box for each person you recognize:
         </p>
         <div>
-          <input type="checkbox" id="Marlon" name="people" value="Marlon">
+          <input type="checkbox" id="Marlon" name="people" value="coding">
           <label for="Marlon">Marlon</label>
         </div>
         <div>
@@ -51,29 +67,25 @@
           <label for="Sadikshya">Sadikshya</label>
         </div>
         <div>
-          <input type="checkbox" id="no_one_else" name="people" value="no_one_else">
-          <label for="no_one_else">no_one_else</label>
-        </div>
-        <div>
-          <input type="checkbox" id="unnamed_others" name="people" value="unnamed_others">
-          <label for="unnamed_others">Others I can't name.</label>
-        </div>
-        <div>
           <input type="checkbox" id="other" name="people" value="other">
           <label for="other">Other</label>
           <input type="text" id="otherValue" name="other">
         </div>
-      </fieldset>
-      <br />
-      <fieldset>
-        <legend>Where is the footage?</legend>
-        <p>Enter the complete URL for the shootfolder you'd like run the script on.</p>
-        <input class="text_box" type="text" name="folderPath" value="/Users/mk/Downloads/test">
-
-
+        <br />
         <div>
-          <button type="submit">Go</button>
+          <button type="submit">That's All</button>
         </div>
+      </fieldset>
+    </br>
+      <fieldset>
+        <legend>Is your footage somewhere strange?</legend>
+        <form action="/rename/run_rename" method="post">
+          <p>Enter the complete URL for the shootfolder you'd like run the script on.</p>
+          <input class="text_box" type="text" name="shootId" value="/Users/mk/Downloads/test">
+
+            <button type="submit">GO</button>
+
+        </form>
       </fieldset>
     </form>
 </div>
