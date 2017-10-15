@@ -7,11 +7,14 @@ const parseXmlString = require('xml2js').parseString;
 const cp = require('child_process');
 const MongoClient = require("mongodb").MongoClient, assert = require('assert');
 
-const destinationFolder = "/Users/mk/Development/thelocalworkflow/public/images"
-// const destinationFolder = "/Users/mk/Development/_tests/output/m2s";
-const logFolder = "/Users/mk/Development/_tests/output/logs";
+const destinationFolder = "/Users/ll-201-macpro/Development/thelocalworkflow/public/images"
+// const destinationFolder = "/Users/ll-201-macpro/Development/_tests/output/m2s";
+const logFolder = "/Users/ll-201-macpro/Development/_tests/output/logs";
+
+var psBoost001 = "curves=psfile='/Users/ll-201-macpro/Development/thelocalworkflow/tools/curves/boost.acv'";
 
 function Still(tsElements, videoFilePath, m2sPath){
+  console.log("creating new still for");
   this.tsElements = tsElements
   this.videoFilePath = videoFilePath;
   this.tcString = tc_from_frames(this.tsElements.frames).tc_string;
@@ -19,7 +22,8 @@ function Still(tsElements, videoFilePath, m2sPath){
   this.fileExtension = path.extname(videoFilePath);
   this.stillFileName = (path.basename(videoFilePath, this.fileExtension) + "_" + this.tcNumber + ".png");
   this.stillFilePath = path.join(m2sPath, this.stillFileName);
-  cp.spawnSync(process.env.FFMPEG_PATH, ['-ss', this.tsElements.seconds, '-i', videoFilePath, '-vframes', '1', '-vf', "curves=psfile='/Users/mk/Development/thelocalworkflow/tools/curves/boost.acv'", this.stillFilePath]);
+  console.log("the command would be: \n" + process.env.FFMPEG_PATH + " -ss " + this.tsElements.seconds + " -i " + videoFilePath + " -vframes 1 " + this.stillFilePath);
+  cp.spawnSync(process.env.FFMPEG_PATH, ['-ss', this.tsElements.seconds, '-i', videoFilePath, '-vframes', '1', '-vf', psBoost001, this.stillFilePath]);
 }
 
 function toMongo(stillArray){
@@ -142,7 +146,7 @@ function markersToStills(folderPath) {
           thePath=path.join(thePath, filePathStringElements[i]);
         }
         // m2sPath=(path.join(thePath, "_m2s"));
-        var m2sPath = "/Users/mk/Development/thelocalworkflow/public/images"
+        var m2sPath = destinationFolder;
         if (fs.existsSync(thePath)) {
           if (!fs.existsSync(m2sPath)) {
             fs.mkdirSync(m2sPath);
