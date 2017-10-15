@@ -7,6 +7,9 @@ const parseXmlString = require('xml2js').parseString;
 const cp = require('child_process');
 const MongoClient = require("mongodb").MongoClient, assert = require('assert');
 
+const destinationFolder = "/Users/mk/Development/_tests/output/m2s";
+const logFolder = "/Users/mk/Development/_tests/output/logs";
+
 function Still(tsElements, videoFilePath, m2sPath){
   this.tsElements = tsElements
   this.videoFilePath = videoFilePath;
@@ -25,7 +28,88 @@ function toMongo(stillArray){
       db.collection('stills').insertOne({still});
     });
     db.close();
-});
+    });
+  }
+
+function fcpxmlFileToStills(thisXmlPath){
+    var now = new Date();
+    var stillArray = [];
+    console.log("Starting markersToStills at " + (dateFormat(now, "yyyymmdd HH:MM:ss")));
+    console.log("the path I'm trying to read as xml is " + thisXmlPath);
+      // read and parse xml file
+      var xml2test = fs.readFileSync(thisXmlPath, 'UTF-8');
+      parseXmlString(xml2test, function (err, result) {
+        if (err) {
+          console.log(err);
+        }
+        else
+        {
+          // even if not using this path to store things, we need to use it to check whether the files are where they're supposed to be
+          // TODO: if files aren't there, give user the option to identify shootFolderPath--or path that the shootfolder is in?
+          fs.writeFileSync(path.join(logFolder, "whole_json.txt"), JSON.stringify(result, null, 4));
+          extrasFilePathString = result.fcpxml.resources[0].asset[0].$.src.replace('file:///','/');
+          filePathStringElements = extrasFilePathString.split('/').slice(1, -2);
+          thePath = "/";
+          for (var i = 0; i < filePathStringElements.length; i++) {
+            thePath=path.join(thePath, filePathStringElements[i]);
+          }
+          console.log(extrasFilePathString + " is the extrasFilePathString");
+          // m2sPath=(path.join(thePath, "_m2s"));
+          var m2sPath = destinationFolder;
+          if (fs.existsSync(thePath)) {
+            if (!fs.existsSync(m2sPath)) {
+              fs.mkdirSync(m2sPath);
+            }
+            // console.log(JSON.stringify(result.fcpxml.library[0].event[0].project, null, 4));
+            for (var i = 0; i < result.fcpxml.library[0].event[0].project.length; i++) {
+              // TODO: change this to a regex
+              if (result.fcpxml.library[0].event[0].project[i].$.name.includes("till")) {
+                var theProject = result.fcpxml.library[0].event[0].project[i];
+              }
+            }
+
+            console.log("going to test if there's a clip or an asset-clip");
+            console.log();
+            fs.writeFileSync(path.join(logFolder, "project_json.txt"), JSON.stringify(theProject, null, 4));
+            if (theProject.sequence[0].spine[0]["asset-clip"]) {
+              console.log("there is an asset-clip");
+              for (var i = 0; i < theProject.sequence[0].spine[0]["asset-clip"].length; i++) {
+                var videoFileName = theProject.sequence[0].spine[0]["asset-clip"][i].$.name;
+                var videoFileStartTs = theProject.sequence[0].spine[0]["asset-clip"][i].$.start;
+                var theClip = result.fcpxml.resources[0].asset.filter(function(clip){
+                  return clip.$.id === theProject.sequence[0].spine[0]["asset-clip"][i].$.ref
+                });
+                var videoFilePath = theClip[0].$.src.replace('file:///','/');
+                // determine start for this camera
+                findMarkers(theProject.sequence[0].spine[0]["asset-clip"][i], videoFilePath, stillArray, videoFileStartTs, m2sPath);
+              }
+            }
+            if (theProject.sequence[0].spine[0].hasOwnProperty('clip')) {
+              console.log("there is a clip");
+              console.log("and its name is " + theProject.sequence[0].spine[0].clip[0].$.name);
+              console.log("length of clip array is " + theProject.sequence[0].spine[0]["clip"].length);
+              for (var i = 0; i < theProject.sequence[0].spine[0]["clip"].length; i++) {
+                console.log("step " + i);
+                var videoFileName = theProject.sequence[0].spine[0]["clip"][i].$.name;
+                var videoFileStartTs = theProject.sequence[0].spine[0]["clip"][i].$.start;
+                var theClip = result.fcpxml.resources[0].asset.filter(function(possibleClip){
+                  return possibleClip.$.id === theProject.sequence[0].spine[0].clip[i].video[0].$.ref
+                });
+                console.log(JSON.stringify(theClip, null, 5));
+                var videoFilePath = theClip[0].$.src.replace('file:///','/');
+                // determine start for this camera
+                findMarkers(theProject.sequence[0].spine[0].clip[i], videoFilePath, stillArray, videoFileStartTs, m2sPath);
+              }
+            }
+          }
+          else {
+            console.log("the path is " + thePath);
+            console.log("something is wrong--the path to the original media as defined in the fcpxml doesn't seem to exist--you may need to relink files");
+          }
+        }
+    });
+    toMongo(stillArray);
+    return stillArray;
 }
 
 function markersToStills(folderPath) {
@@ -49,7 +133,7 @@ function markersToStills(folderPath) {
         console.log(err);
       }
       else
-      {    var pathForJson = ("/Users/mk/Development/test_materials/exports/testing2stills.json");
+      {
         extrasFilePathString = result.fcpxml.resources[0].asset[0].$.src.replace('file:///','/');
         filePathStringElements = extrasFilePathString.split('/').slice(1, -2);
         thePath = "/";
@@ -131,3 +215,4 @@ function findMarkers(projectAssetClip, videoFilePath, stillArray, videoFileStart
 };
 
 module.exports.markersToStills = markersToStills;
+module.exports.fcpxmlFileToStills = fcpxmlFileToStills;

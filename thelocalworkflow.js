@@ -8,6 +8,7 @@ const fcpxml = require("./mk_modules/fcpxml");
 const dateFormat = require('dateformat');
 const compressor = require("./mk_modules/compressor");
 const m2s = require("./mk_modules/m2s").markersToStills;
+const m2sf = require("./mk_modules/m2s").fcpxmlFileToStills;
 const MongoClient = require("mongodb").MongoClient, assert = require('assert');
 const cp = require('child_process');
 require('dotenv').config();
@@ -20,10 +21,11 @@ function printHelp() {
   console.log("commands:");
   console.log("--help            print help");
   console.log("--m2s             m2s for fcpxml in {FOLDER}");
+  console.log("--m2sf            m2s for fcpxml in {FILE}");
   console.log("--rename          rename files in {FOLDER}");
 }
 
-if (args.help || !(args.m2s || args.rename || args.compress)) {
+if (args.help || !(args.m2s || args.rename || args.compress || args.m2sf)) {
   printHelp();
   process.exit(1);
 }
@@ -32,6 +34,16 @@ if (args.m2s) {
   console.log("\n\n\n\n\nhaven't built this yet, but we will ultimately perform m2s on the folder you just entered.\n\n\n\n\n\n\n\n\n\n\n\n");
   // console.log(process.env.MONGODB_PATH);
   var m2sOutput = m2s(args.m2s);
+  console.log("done the stills--now prepping payload and sending to Slack");
+  var theMessage = ""
+  m2sOutput.forEach(file => theMessage= (theMessage + file.stillFileName + "\n"));
+  var thePayload = 'payload={"channel": "#ll-tests", "username": "theworkflow-bot", "text": "<@marlon>: new stills have been exported: ' + theMessage + ' ", "icon_emoji": ":camera:"}'
+  cp.spawnSync("curl", ['-X', 'POST', '--data-urlencode', thePayload, process.env.SLACK_WEBHOOK_URL]);
+  console.log("done");
+}
+
+if (args.m2sf){
+  var m2sOutput = m2sf(args.m2sf);
   console.log("done the stills--now prepping payload and sending to Slack");
   var theMessage = ""
   m2sOutput.forEach(file => theMessage= (theMessage + file.stillFileName + "\n"));

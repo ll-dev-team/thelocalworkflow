@@ -37,11 +37,7 @@ router.post('/confirm_rename', function(req, res, next){
     res.redirect("/rename");
   }
   else {
-    var result = rename(req.body.folderPath);
-
-
-
-
+    var theResult = rename(req.body.folderPath);
     var theResourceXml = fcpxml.makeFcpxml(theResult);
     console.log("\n\ncomplete________________________________________________\n\n");
     var pathForJson = (theResult.shootPath + "/_notes/" + theResult.shootId + "_shootObject.json");
