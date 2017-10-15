@@ -7,7 +7,8 @@ const parseXmlString = require('xml2js').parseString;
 const cp = require('child_process');
 const MongoClient = require("mongodb").MongoClient, assert = require('assert');
 
-const destinationFolder = "/Users/mk/Development/_tests/output/m2s";
+const destinationFolder = "/Users/mk/Development/thelocalworkflow/public/images"
+// const destinationFolder = "/Users/mk/Development/_tests/output/m2s";
 const logFolder = "/Users/mk/Development/_tests/output/logs";
 
 function Still(tsElements, videoFilePath, m2sPath){
