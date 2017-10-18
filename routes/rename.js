@@ -2,12 +2,12 @@ var express = require('express');
 var router = express.Router();
 require('dotenv').config();
 var mongoose = require('mongoose');
-const fcpxml = require("../mk_modules/fcpxml");
+const fcpxml = require("../ll_modules/fcpxml");
 const fs = require('fs');
 const cp = require('child_process');
 const _ = require('lodash');
-const m2s = require("../mk_modules/m2s").markersToStills;
-const rename = require("../mk_modules/shootprocessor").rename;
+const m2s = require("../ll_modules/m2s").markersToStills;
+const rename = require("../ll_modules/shootprocessor").rename;
 // var Message = require('../models/message');
 
 var db = mongoose.connection;

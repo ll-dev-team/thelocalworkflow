@@ -3,8 +3,8 @@ var router = express.Router();
 require('dotenv').config();
 var mongoose = require('mongoose');
 const _ = require('lodash');
-const m2s = require("../mk_modules/m2s").markersToStills;
-const m2sf = require("../mk_modules/m2s").fcpxmlFileToStills;
+const m2s = require("../ll_modules/m2s").markersToStills;
+const m2sf = require("../ll_modules/m2s").fcpxmlFileToStills;
 // var Message = require('../models/message');
 
 var db = mongoose.connection;

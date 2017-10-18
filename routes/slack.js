@@ -26,13 +26,8 @@ router.get('/channels', function(req, res, next){
 });
 
 router.post('/history', function(req, res, next){
-
-  console.log("test");
-  console.log(JSON.stringify(req.body.multi));
-  for (var i = 0; i < req.body.multi.length; i++) {
-    console.log("there is a request for history from channel " + req.body.multi[i]+ ". Which has the human-readable name, " );
-  }
-  slack.channels.history({token: token, channel: req.body.multi[0], count: 20}, (err, data) => {
+  var channelName = req.body.channel.split(".")[1];
+  slack.channels.history({token: token, channel: req.body.channel.split(".")[0], count: 20}, (err, data) => {
     // console.log(JSON.stringify(data, null, 10));
     // console.log(req.body.key1);
     // var dataObject = JSON.parse(data);
@@ -43,7 +38,9 @@ router.post('/history', function(req, res, next){
         // console.log(datum);
       });
     console.log("theResult is " + JSON.stringify(theResult, null, 8));
-    res.render('slack/history', { tabTitle: 'history-machine', title: 'The Slack History Machine', result: theResult });
+    res.render('slack/history', { tabTitle: 'history-machine', title: 'The Slack History Machine', channelName : req.body.channel.split(".")[1], result: theResult });
+
+  // res.send("the channel id is " + channelId + "\nand the channel name is " + channelName);
   });
 });
 

@@ -10,6 +10,9 @@ const MongoClient = require("mongodb").MongoClient, assert = require('assert');
 const destinationFolder = "/Users/mk/Development/thelocalworkflow/public/images"
 // const destinationFolder = "/Users/mk/Development/_tests/output/m2s";
 const logFolder = "/Users/mk/Development/_tests/output/logs";
+var psBoost001 = "curves=psfile='/Users/mk/Development/thelocalworkflow/tools/curves/boost.acv'";
+
+
 
 function Still(tsElements, videoFilePath, m2sPath){
   this.tsElements = tsElements
@@ -19,7 +22,7 @@ function Still(tsElements, videoFilePath, m2sPath){
   this.fileExtension = path.extname(videoFilePath);
   this.stillFileName = (path.basename(videoFilePath, this.fileExtension) + "_" + this.tcNumber + ".png");
   this.stillFilePath = path.join(m2sPath, this.stillFileName);
-  cp.spawnSync(process.env.FFMPEG_PATH, ['-ss', this.tsElements.seconds, '-i', videoFilePath, '-vframes', '1', '-vf', "curves=psfile='/Users/mk/Development/thelocalworkflow/tools/curves/boost.acv'", this.stillFilePath]);
+  cp.spawnSync(process.env.FFMPEG_PATH, ['-ss', this.tsElements.seconds, '-i', videoFilePath, '-vframes', '1', '-vf', psBoost001, this.stillFilePath]);
 }
 
 function toMongo(stillArray){

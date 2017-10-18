@@ -3,12 +3,12 @@
 var args = require('minimist')(process.argv.slice(2));
 const columnify = require('columnify');
 const fs = require('fs');
-const shootprocessor = require("./mk_modules/shootprocessor");
-const fcpxml = require("./mk_modules/fcpxml");
+const shootprocessor = require("./ll_modules/shootprocessor");
+const fcpxml = require("./ll_modules/fcpxml");
 const dateFormat = require('dateformat');
-const compressor = require("./mk_modules/compressor");
-const m2s = require("./mk_modules/m2s").markersToStills;
-const m2sf = require("./mk_modules/m2s").fcpxmlFileToStills;
+const compressor = require("./ll_modules/compressor");
+const m2s = require("./ll_modules/m2s").markersToStills;
+const m2sf = require("./ll_modules/m2s").fcpxmlFileToStills;
 const MongoClient = require("mongodb").MongoClient, assert = require('assert');
 const cp = require('child_process');
 require('dotenv').config();
