@@ -27,7 +27,7 @@ router.get('/channels', function(req, res, next){
 
 router.post('/history', function(req, res, next){
   var channelName = req.body.channel.split(".")[1];
-  slack.channels.history({token: token, channel: req.body.channel.split(".")[0], count: 20}, (err, data) => {
+  slack.channels.history({token: token, channel: req.body.channel.split(".")[0], count: 100}, (err, data) => {
     // console.log(JSON.stringify(data, null, 10));
     // console.log(req.body.key1);
     // var dataObject = JSON.parse(data);

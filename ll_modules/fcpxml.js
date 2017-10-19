@@ -46,7 +46,7 @@ function makeFcpxml(shootObject){
     }
 
     stillsProjectArray.push(clipXmlForStillsProject);
-    console.log(JSON.stringify(stillsProjectArray, null, 4));
+    // console.log(JSON.stringify(stillsProjectArray, null, 4));
   });
   // loop through keywordArray to build keyword-collection elements for library
   var mcR = (theResourceXml.resources.length + 1);

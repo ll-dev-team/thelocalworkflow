@@ -46,7 +46,18 @@ function rename(folderPath) {
   thisShoot.mcStartTc = thisShoot.startClip.startTc;
   thisShoot.mcStartTs = minStartTs;
   thisShoot.mcEndTs = maxEndTs;
+  thisShoot.totalDurationTs = 0;
+  thisShoot.totalDuration = 0;
+  thisShoot.clipArray.forEach(function(clip){
+    thisShoot.totalDurationTs += clip.duration_ts;
+    thisShoot.totalDuration += parseFloat(clip.duration);
+  });
+  console.log("total duration_ts is " + thisShoot.totalDurationTs);
+  console.log("total duration is " + thisShoot.totalDuration);
+  secondsFromDurationTs = (thisShoot.totalDurationTs/(24000));
+  console.log("equiv of duration_ts in seconds is" + secondsFromDurationTs);
   thisShoot.mcDuration = thisShoot.mcEndTs - thisShoot.mcStartTs;
+  console.log(("and this shoot's mcDur is " + thisShoot.mcDuration));
   thisShoot.startCrDate = thisShoot.startClip.creationDate;
   thisShoot.startTcDate = thisShoot.startClip.utcTcStartDate;
   thisShoot.tcOffset = thisShoot.startTcDate.getTime() - thisShoot.startCrDate.getTime();
