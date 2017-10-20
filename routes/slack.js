@@ -27,17 +27,18 @@ router.get('/channels', function(req, res, next){
 
 router.post('/history', function(req, res, next){
   var channelName = req.body.channel.split(".")[1];
-  slack.channels.history({token: token, channel: req.body.channel.split(".")[0], count: 100}, (err, data) => {
+  slack.channels.history({token: token, channel: req.body.channel.split(".")[0], count: 10}, (err, data) => {
     // console.log(JSON.stringify(data, null, 10));
     // console.log(req.body.key1);
     // var dataObject = JSON.parse(data);
     var theResult = [];
+    console.log(data);
     data.messages.forEach(datum => {
         // console.log(datum.text);
         theResult.push(datum.text);
         // console.log(datum);
       });
-    console.log("theResult is " + JSON.stringify(theResult, null, 8));
+    // console.log("theResult is " + JSON.stringify(theResult, null, 8));
     res.render('slack/history', { tabTitle: 'history-machine', title: 'The Slack History Machine', channelName : req.body.channel.split(".")[1], result: theResult });
 
   // res.send("the channel id is " + channelId + "\nand the channel name is " + channelName);
@@ -55,6 +56,23 @@ router.post('/', function(req, res, next){
     })
     res.send('received ' + JSON.stringify(req.body) + "\ngoodbye.\n\n\n")
   });
+});
+
+router.get('/sync_users', function(req, res, next){
+  res.render('slack/sync_user_form', { tabTitle: 'Sync Users', title: 'Sync Users'});
+});
+
+router.post('/sync_users', function(req, res, next){
+  if (req.body.sync == "yes") {
+      slack.users.list({token: token}, (err, data) => {
+        console.log(JSON.stringify(data, null, 8));
+        res.render('slack/sync_user_result', { tabTitle: 'Sync Users Result', title: 'Sync Users Result', result: data});
+      });
+  }
+  else {
+      res.render('basic_result', { tabTitle: 'Sync Users Result', title: 'Sync Users Result', result: "no result"});
+  }
+
 });
 
 // router.get('/slackhistory', function(req, res, next) {

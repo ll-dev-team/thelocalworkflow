@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+  <html lang="en-US">
+  <head>
+    <% include partials/head %>
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <p>
+      This page is intended to help keep the users in the database up to date.
+    </p>
+
+    <form action="/slack/sync_users" method="post">
+      <fieldset>
+        <legend>
+          Sync Users Now?
+        </legend>
+        <input type="radio" name="sync" value="yes" checked> Yes
+        <br />
+        <input type="radio" name="sync" value="no"> No
+        <br />
+        <input type="submit" value="GO">
+      </fieldset>
+      <br />
+    </form>
+
+  </body>
+<% include partials/foot %>

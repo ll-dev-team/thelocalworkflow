@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+  <html lang="en-US">
+  <head>
+    <% include partials/head %>
+    <link rel='stylesheet' href='/css/m2s_output.css'>
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <p>
+      Basic results page.  Logging out the JSON.
+    </p>
+    <p>
+      <%- JSON.stringify(result, null, 4) %>
+    </p>
+  </body>
+<% include partials/foot %>

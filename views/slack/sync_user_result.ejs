@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+  <html lang="en-US">
+  <head>
+    <% include partials/head %>
+    <link rel='stylesheet' href='/css/m2s_output.css'>
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <p>
+      List of users and IDs.
+    </p>
+    <ol>
+      <%
+        result.members.forEach(function(member){
+      %>
+      <li>
+        <strong>Name: </strong><%= member.profile.real_name %>
+        <strong>Id: </strong><%= member.id %>
+      </li>
+      <%
+        });
+      %>
+    </ol>
+  </body>
+<% include partials/foot %>
