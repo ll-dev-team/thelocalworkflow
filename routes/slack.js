@@ -1,14 +1,26 @@
 var express = require('express');
 var router = express.Router();
 var slack = require('slack');
+const fs = require('fs');
 require('dotenv').config();
 var token = process.env.SLACK_TOKEN;
 var mongoose = require('mongoose');
 const async = require('async');
+// const MongoClient = require("mongodb").MongoClient, assert = require('assert');
+
 // var Message = require('../models/message');
 
 var db = mongoose.connection;
 
+function arrayToMongo(array, collection){
+  // db.connect(process.env.MONGODB_PATH, function(err, db) {
+  //   assert.equal(null, err);
+    array.forEach(function(element){
+      db.collection(collection).insertOne(element);
+    });
+    // db.close();
+    // });
+  };
 
 router.get('/', function(req, res, next) {
   // var theChannels = ['67iutkf', 'go8t', '87ifm'];
@@ -27,7 +39,7 @@ router.get('/channels', function(req, res, next){
 
 router.post('/history', function(req, res, next){
   var channelName = req.body.channel.split(".")[1];
-  slack.channels.history({token: token, channel: req.body.channel.split(".")[0], count: 10}, (err, data) => {
+  slack.channels.history({token: token, channel: req.body.channel.split(".")[0], count: 200}, (err, data) => {
     // console.log(JSON.stringify(data, null, 10));
     // console.log(req.body.key1);
     // var dataObject = JSON.parse(data);
@@ -45,18 +57,19 @@ router.post('/history', function(req, res, next){
   });
 });
 
-router.post('/', function(req, res, next){
-  console.log("test");
-  slack.channels.history({token: token, channel: "C6AAGUS6T", count: 10}, (err, data) => {
-    // console.log(JSON.stringify(data, null, 10));
-    // console.log(req.body.key1);
-    // var dataObject = JSON.parse(data);
-    data.messages.forEach(datum => {console.log(datum.text);
-      // new Message()
-    })
-    res.send('received ' + JSON.stringify(req.body) + "\ngoodbye.\n\n\n")
-  });
-});
+// router.post('/', function(req, res, next){
+//   console.log("test");
+//   slack.channels.history({token: token, channel: "C6AAGUS6T", count: 10}, (err, data) => {
+//     // console.log(JSON.stringify(data, null, 10));
+//     // console.log(req.body.key1);
+//     // var dataObject = JSON.parse(data);
+//     console.log("in the post / channel");
+//     data.messages.forEach(datum => {console.log(datum.text);
+//       // new Message()
+//     })
+//     res.send('received ' + JSON.stringify(req.body) + "\ngoodbye.\n\n\n")
+//   });
+// });
 
 router.get('/sync_users', function(req, res, next){
   res.render('slack/sync_user_form', { tabTitle: 'Sync Users', title: 'Sync Users'});
@@ -66,6 +79,9 @@ router.post('/sync_users', function(req, res, next){
   if (req.body.sync == "yes") {
       slack.users.list({token: token}, (err, data) => {
         console.log(JSON.stringify(data, null, 8));
+        fs.writeFileSync('/Users/mk/Development/_tests/output/slack/users.json', JSON.stringify(data, null, 2));
+        // TODO: write json out to db
+        arrayToMongo(data.members, 'users');
         res.render('slack/sync_user_result', { tabTitle: 'Sync Users Result', title: 'Sync Users Result', result: data});
       });
   }

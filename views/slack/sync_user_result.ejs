@@ -10,17 +10,21 @@
     <p>
       List of users and IDs.
     </p>
-    <ol>
+    <table style="width:400px;">
       <%
         result.members.forEach(function(member){
       %>
-      <li>
-        <strong>Name: </strong><%= member.profile.real_name %>
-        <strong>Id: </strong><%= member.id %>
-      </li>
+      <tr>
+        <td>
+          <strong>Name: </strong><%= member.profile.real_name %>
+        </td>
+        <td>
+          <strong>Id: </strong><%= member.id %>
+        </td>
+      </tr>
       <%
         });
       %>
-    </ol>
+    </table>
   </body>
 <% include partials/foot %>
