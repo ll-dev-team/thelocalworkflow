@@ -11,6 +11,7 @@ const m2s = require("./ll_modules/m2s").markersToStills;
 const m2sf = require("./ll_modules/m2s").fcpxmlFileToStills;
 const MongoClient = require("mongodb").MongoClient, assert = require('assert');
 const cp = require('child_process');
+const path = require('path');
 require('dotenv').config();
 
 // var mongoUrl = 'mongodb://localhost:27017/thelocalworkflow';
@@ -25,7 +26,7 @@ function printHelp() {
   console.log("--rename          rename files in {FOLDER}");
 }
 
-if (args.help || !(args.m2s || args.rename || args.compress || args.m2sf)) {
+if (args.help || !(args.m2s || args.rename || args.compress || args.m2sf || args.shootdata)) {
   printHelp();
   process.exit(1);
 }
@@ -57,7 +58,6 @@ if (args.compress) {
   compressor.compressIt(args.compress);
 }
 
-
 if (args.rename) {
   console.log("\n\n\nstarting________________________________________________\n\n\n");
   var theResult = shootprocessor.rename(args.rename);
@@ -73,7 +73,8 @@ if (args.rename) {
   var pathForJson = (theResult.shootPath + "/_notes/" + theResult.shootId + "_shootObject.json");
   var shootObjectJson = JSON.stringify(theResult, null, 2);
   fs.writeFileSync(pathForJson, shootObjectJson);
-  var thePayload = 'payload={"channel": "#ll-tests", "username": "theworkflow-bot", "text": "<@marlon>: the shoot with id ' + theResult.shootId + ' has been ingested and renamed.", "icon_emoji": ":desktop_computer:"}'
+  var thePayload = 'payload={"channel": "#ll-tests", "username": "theworkflow-bot", "text": "<@marlon>: the shoot with id ' + theResult.shootId + ' has been ingested and renamed.", "icon_emoji": ":desktop_computer:"}';
+
   cp.spawnSync("curl", ['-X', 'POST', '--data-urlencode', thePayload, process.env.SLACK_WEBHOOK_URL]);
 
   MongoClient.connect(process.env.MONGODB_PATH, function(err, db) {
@@ -84,6 +85,49 @@ if (args.rename) {
     db.close();
   });
   console.log("\n\ndone.\n");
-
-
 }
+
+if (args.shootdata) {
+  // TODO: comment this AND similar line in shootprocessor and replace with process.env.X
+  var re = /^\./;
+  var logLocation = '/Users/mk/Development/_tests/calcSize';
+  console.log("\n\n\nstarting________________________________________________\n\n\n");
+  var folders = fs.readdirSync(args.shootdata);
+  folders.forEach(function(shootFolder){
+    if (fs.statSync(path.join(args.shootdata,shootFolder)).isDirectory()) {
+      console.log(shootFolder);
+      var theResult = shootprocessor.getShootInfo(shootFolder);
+      console.log("\n\ncomplete________________________________________________\n\n");
+    }
+    else {
+      console.log("not a shootFolder");
+    }
+
+    }
+    // else {}
+  );
+  console.log("\n\ndone.\n");
+};
+
+
+
+
+
+
+
+
+  var shootJsonNotesName = (theResult.shootId + "_info.json")
+  var pathForJson =  path.join(logLocation, shootJsonNotesName);
+  var shootObjectJson = JSON.stringify(theResult, null, 2);
+  fs.writeFileSync(pathForJson, shootObjectJson);
+  var durationRoundedString = theResult.totalDuration.toFixed(1);
+  var thePayload = 'payload={"channel": "#ll-tests", "username": "theworkflow-bot", "text":  "<@marlon>: the shoot with id ' + theResult.shootId + ' has been probed.  The total duration for the shoot is ' + durationRoundedString + ' seconds.", "icon_emoji": ":desktop_computer:"}';
+  console.log(thePayload);
+  cp.spawnSync("curl", ['-X', 'POST', '--data-urlencode', thePayload, process.env.SLACK_WEBHOOK_URL]);
+  MongoClient.connect(process.env.MONGODB_PATH, function(err, db) {
+    assert.equal(null, err);
+    console.log("Connected successfully to server");
+    // console.log(JSON.stringify(theResult, null, 4));
+    db.collection('shoots').insertOne({theResult});
+    db.close();
+  }
