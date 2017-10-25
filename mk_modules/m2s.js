@@ -25,17 +25,28 @@ function Still(tsElements, videoFilePath, m2sPath){
   this.fileExtension = path.extname(videoFilePath);
   this.stillFileName = (path.basename(videoFilePath, this.fileExtension) + "_" + this.tcNumber + ".png");
   this.stillFilePath = path.join(m2sPath, this.stillFileName);
+
+
+  this.eightDigitDate = this.stillFileName.split("_")[0];
+  console.log(this.eightDigitDate);
+  this.newDateString = (this.eightDigitDate + this.tcNumber.substring(0,4))
+
+
+
   console.log("the command would be: \n" + process.env.FFMPEG_PATH + " -ss " + this.tsElements.seconds + " -i " + videoFilePath + " -vframes 1 " + this.stillFilePath);
   // console.log("the JSON for this still is ");
   // console.log(JSON.stringify(this, null, 4));
   if (this.videoFilePath.includes('GH4')) {
       cp.spawnSync(process.env.FFMPEG_PATH, ['-ss', this.tsElements.seconds, '-i', videoFilePath, '-vframes', '1', '-vf', gh4Boost_001, this.stillFilePath]);
       console.log("used the GH4 boost on " + this.stillFilePath);
+      cp.spawnSync('touch', ['-t', this.newDateString, this.stillFilePath]);
   }
   else {
       cp.spawnSync(process.env.FFMPEG_PATH, ['-ss', this.tsElements.seconds, '-i', videoFilePath, '-vframes', '1', this.stillFilePath]);
+      cp.spawnSync('touch', ['-t', this.newDateString, this.stillFilePath]);
   }
-
+  console.log("\n\n\n\n\n\n\n\n\ngoing to try to log newDateString");
+  console.log(this.newDateString);
 }
 
 function toMongo(stillArray){
