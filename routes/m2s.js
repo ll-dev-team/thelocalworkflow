@@ -28,7 +28,7 @@ router.post('/run_m2s', function(req, res, next){
     var folderPath = req.body.fcpxmlPath;
     var theResult = m2sf(req.body.fcpxmlPath);
     var theNewResult = _.sortBy(theResult, ['tcNumber']);
-    res.render('m2s_result', { tabTitle: 'm2s Result', title: 'The m2s Result for ', stillArray: theNewResult, theFolderPath: folderPath });
+    res.render('m2s_result', { tabTitle: 'm2s Result', title: 'The m2s Result', stillArray: theNewResult, theFolderPath: folderPath });
   }
   else {
     res.send('why did you bother opening up thelocalworkflow then?')

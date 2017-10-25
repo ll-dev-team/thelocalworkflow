@@ -12,6 +12,9 @@ const destinationFolder = "/Users/ll-201-macpro/Development/thelocalworkflow/pub
 const logFolder = "/Users/ll-201-macpro/Development/_tests/output/logs";
 
 var psBoost001 = "curves=psfile='/Users/ll-201-macpro/Development/thelocalworkflow/tools/curves/boost.acv'";
+var psBoost002 = "curves=psfile='/Users/ll-201-macpro/Development/thelocalworkflow/tools/curves/slight_boost_002.acv'";
+var psBlueBoost_001 = "curves=psfile='/Users/ll-201-macpro/Development/thelocalworkflow/tools/curves/slight_blue_boost_001.acv'";
+var gh4Boost_001 = "curves=psfile='/Users/ll-201-macpro/Development/thelocalworkflow/tools/curves/gh4_boost_001.acv'";
 
 function Still(tsElements, videoFilePath, m2sPath){
   console.log("creating new still for");
@@ -23,7 +26,16 @@ function Still(tsElements, videoFilePath, m2sPath){
   this.stillFileName = (path.basename(videoFilePath, this.fileExtension) + "_" + this.tcNumber + ".png");
   this.stillFilePath = path.join(m2sPath, this.stillFileName);
   console.log("the command would be: \n" + process.env.FFMPEG_PATH + " -ss " + this.tsElements.seconds + " -i " + videoFilePath + " -vframes 1 " + this.stillFilePath);
-  cp.spawnSync(process.env.FFMPEG_PATH, ['-ss', this.tsElements.seconds, '-i', videoFilePath, '-vframes', '1', '-vf', psBoost001, this.stillFilePath]);
+  // console.log("the JSON for this still is ");
+  // console.log(JSON.stringify(this, null, 4));
+  if (this.videoFilePath.includes('GH4')) {
+      cp.spawnSync(process.env.FFMPEG_PATH, ['-ss', this.tsElements.seconds, '-i', videoFilePath, '-vframes', '1', '-vf', gh4Boost_001, this.stillFilePath]);
+      console.log("used the GH4 boost on " + this.stillFilePath);
+  }
+  else {
+      cp.spawnSync(process.env.FFMPEG_PATH, ['-ss', this.tsElements.seconds, '-i', videoFilePath, '-vframes', '1', this.stillFilePath]);
+  }
+
 }
 
 function toMongo(stillArray){
