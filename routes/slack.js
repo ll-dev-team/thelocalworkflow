@@ -16,6 +16,10 @@ function arrayToMongo(array, collection){
   // db.connect(process.env.MONGODB_PATH, function(err, db) {
   //   assert.equal(null, err);
     array.forEach(function(element){
+      var testElement = db.collection(collection).findOne
+      if (true) {
+
+      }
       db.collection(collection).insertOne(element);
     });
     // db.close();
