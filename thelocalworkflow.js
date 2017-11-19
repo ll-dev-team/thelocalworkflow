@@ -12,6 +12,7 @@ const m2sf = require("./ll_modules/m2s").fcpxmlFileToStills;
 const MongoClient = require("mongodb").MongoClient, assert = require('assert');
 const cp = require('child_process');
 const path = require('path');
+const transcode = require("./ll_modules/transcoder").transcode;
 require('dotenv').config();
 
 // var mongoUrl = 'mongodb://localhost:27017/thelocalworkflow';
@@ -24,9 +25,10 @@ function printHelp() {
   console.log("--m2s             m2s for fcpxml in {FOLDER}");
   console.log("--m2sf            m2s for fcpxml in {FILE}");
   console.log("--rename          rename files in {FOLDER}");
+  console.log("--transcode       transcode files in {FOLDER}");
 }
 
-if (args.help || !(args.m2s || args.rename || args.compress || args.m2sf || args.shootdata)) {
+if (args.help || !(args.m2s || args.rename || args.compress || args.m2sf || args.shootdata || args.transcode)) {
   printHelp();
   process.exit(1);
 }
@@ -109,25 +111,24 @@ if (args.shootdata) {
   console.log("\n\ndone.\n");
 };
 
-
-
-
-
-
-
-
-  var shootJsonNotesName = (theResult.shootId + "_info.json")
-  var pathForJson =  path.join(logLocation, shootJsonNotesName);
-  var shootObjectJson = JSON.stringify(theResult, null, 2);
-  fs.writeFileSync(pathForJson, shootObjectJson);
-  var durationRoundedString = theResult.totalDuration.toFixed(1);
-  var thePayload = 'payload={"channel": "#ll-tests", "username": "theworkflow-bot", "text":  "<@marlon>: the shoot with id ' + theResult.shootId + ' has been probed.  The total duration for the shoot is ' + durationRoundedString + ' seconds.", "icon_emoji": ":desktop_computer:"}';
-  console.log(thePayload);
-  cp.spawnSync("curl", ['-X', 'POST', '--data-urlencode', thePayload, process.env.SLACK_WEBHOOK_URL]);
-  MongoClient.connect(process.env.MONGODB_PATH, function(err, db) {
-    assert.equal(null, err);
-    console.log("Connected successfully to server");
-    // console.log(JSON.stringify(theResult, null, 4));
-    db.collection('shoots').insertOne({theResult});
-    db.close();
+if (args.transcode) {
+  console.log(JSON.stringify(args, null, 8));
+  var crfVal = 23
+  if (args.crf) {
+    crfVal = args.crf
   }
+  else {
+    crfVal = 23;
+  }
+  if (args.folder) {
+    var filesToTranscode = fs.readdirSync(args.folder);
+    filesToTranscode.forEach((file) => {
+      var filePath = path.join(args.folder, file);
+      console.log(filePath);
+      transcode(filePath, crfVal);
+    });
+  }
+  else {
+    transcode(args.transcode, crfVal);
+  }
+}
