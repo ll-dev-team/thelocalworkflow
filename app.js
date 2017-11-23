@@ -15,6 +15,7 @@ var users = require('./routes/users');
 var slack = require('./routes/slack');
 var shoots = require('./routes/shoots');
 var moments = require('./routes/moments');
+var transcode = require('./routes/transcode');
 var theworkflow = require('./routes/theworkflow');
 var m2s = require('./routes/m2s');
 var rename = require('./routes/rename');
@@ -31,6 +32,8 @@ db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
+app.set('json spaces', 4);
+app.set('json replacer', null);
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
@@ -50,6 +53,7 @@ app.use('/shoots', shoots);
 app.use('/m2s', m2s);
 app.use('/rename', rename);
 app.use('/test', test);
+app.use('/transcode', transcode);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

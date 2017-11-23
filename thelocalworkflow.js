@@ -12,7 +12,7 @@ const m2sf = require("./ll_modules/m2s").fcpxmlFileToStills;
 const MongoClient = require("mongodb").MongoClient, assert = require('assert');
 const cp = require('child_process');
 const path = require('path');
-const transcode = require("./ll_modules/transcoder").transcode;
+const transcode = require("./tools/scripts/transcode").transcode;
 require('dotenv').config();
 
 // var mongoUrl = 'mongodb://localhost:27017/thelocalworkflow';
