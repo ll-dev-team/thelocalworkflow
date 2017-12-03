@@ -3,22 +3,8 @@ const fs = require("fs");
 const path = require("path");
 const dateFormat = require('dateformat');
 const cp = require('child_process');
-// const MongoClient = require("mongodb").MongoClient, assert = require('assert');
 
-
-//
-// function Clip(tsElements, videoFilePath, m2sPath){
-//   this.tsElements = tsElements
-//   this.videoFilePath = videoFilePath;
-//   this.tcString = tc_from_frames(this.tsElements.frames).tc_string;
-//   this.tcNumber = tc_from_frames(this.tsElements.frames).tc_forFilename;
-//   this.fileExtension = path.extname(videoFilePath);
-//   this.stillFileName = (path.basename(videoFilePath, this.fileExtension) + "_" + this.tcNumber + ".png");
-//   this.stillFilePath = path.join(m2sPath, this.stillFileName);
-//   cp.spawnSync(process.env.FFMPEG_PATH, ['-ss', this.tsElements.seconds, '-i', videoFilePath, '-vframes', '1', '-vf', psBoost001, this.stillFilePath]);
-// }
-
-var destinationFolder = "/Volumes/mk2/tests/test_output/"
+var destinationFolder = "/Volumes/mk2/_test_materials/test_output/"
 
 function transcode(filePath, crfVal){
   var fileNameExt = path.basename(filePath);
@@ -34,7 +20,7 @@ function transcode(filePath, crfVal){
   var output = cp.spawnSync(process.env.FFMPEG_PATH, ['-i', filePath, '-c:v', 'libx264', '-vf', 'format=yuv420p', '-preset', 'slow', '-crf', crfVal, '-c:a', 'aac', '-b:a', '128k', destinationFileName]);
   console.log("done");
   console.log("\n\n");
-  // console.log(output.stderr, utf8);
+
   // TODO: insert if to copy audio entirely if we have weird channel number or other situation
   // ffmpeg -i input.avi -c:v libx264 -preset slow -crf 22 -c:a copy output.mkv
   // ffmpeg -i input -c:v libx265 -crf 28 -c:a aac -b:a 128k output.mp4

@@ -12,7 +12,14 @@ const m2sf = require("./ll_modules/m2s").fcpxmlFileToStills;
 const MongoClient = require("mongodb").MongoClient, assert = require('assert');
 const cp = require('child_process');
 const path = require('path');
-const transcode = require("./tools/scripts/transcode").transcode;
+// const transcode = require("./tools/scripts/transcode").transcode;
+const transcode = require("./tools/scripts/transcode_sync").transcode;
+const io2s = require("./tools/scripts/io2s").io2s;
+var ioExample = require("./tools/data/io2sExample.json")
+
+const csv=require('csvtojson')
+
+
 require('dotenv').config();
 
 // var mongoUrl = 'mongodb://localhost:27017/thelocalworkflow';
@@ -28,7 +35,7 @@ function printHelp() {
   console.log("--transcode       transcode files in {FOLDER}");
 }
 
-if (args.help || !(args.m2s || args.rename || args.compress || args.m2sf || args.shootdata || args.transcode)) {
+if (args.help || !(args.m2s || args.rename || args.compress || args.m2sf || args.shootdata || args.transcode || args.io2s)) {
   printHelp();
   process.exit(1);
 }
@@ -111,6 +118,14 @@ if (args.shootdata) {
   console.log("\n\ndone.\n");
 };
 
+if (args.io2s) {
+
+  console.log("starting io2s");
+  io2s(ioExample);
+  console.log("done");
+
+}
+
 if (args.transcode) {
   console.log(JSON.stringify(args, null, 8));
   var crfVal = 23
@@ -131,4 +146,5 @@ if (args.transcode) {
   else {
     transcode(args.transcode, crfVal);
   }
+
 }

@@ -15,6 +15,7 @@
     "body-parser": "^1.18.2",
     "columnify": "^1.5.4",
     "cookie-parser": "^1.4.3",
+    "csvtojson": "^1.1.9",
     "dateformat": "^2.0.0",
     "debug": "^2.6.9",
     "dotenv": "^4.0.0",
