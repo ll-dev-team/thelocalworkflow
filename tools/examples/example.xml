@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<fcpxml version="1.6">
+  <resources>
+    <format id="r1" name="FFVideoFormat1080p2398" frameDuration="1001/24000s" width="1920" height="1080"/>
+    <effect id="r2" name="2.5_A" uid="~/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef" src="file:///Users/mk/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef"/>
+    <effect id="r3" name="2.5_B" uid="~/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef" src="file:///Users/mk/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef"/>
+    <effect id="r4" name="2.5_C" uid="~/Effects.localized/thelocalworkflow/2.5/2.5_C/2.5_C.moef" src="file:///Users/mk/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_C/2.5_C.moef"/>
+    <asset name="20171018_002_Test_JustStudio_C300a_001.mov" src="file:///Volumes/mk2/20171018_002_Test_JustStudio/C300a/20171018_002_Test_JustStudio_C300a_001.mov" start="1139901763/24000s" duration="44475431/24000s" hasVideo="1" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000" format="r1" id="r5"/>
+    <asset name="20171018_002_Test_JustStudio_C300b_001.mov" src="file:///Volumes/mk2/20171018_002_Test_JustStudio/C300b/20171018_002_Test_JustStudio_C300b_001.mov" start="1144336193/24000s" duration="39999960/24000s" hasVideo="1" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000" format="r1" id="r6"/>
+    <asset name="20171018_002_Test_JustStudio_C300c_001.mov" src="file:///Volumes/mk2/20171018_002_Test_JustStudio/C300c/20171018_002_Test_JustStudio_C300c_001.mov" start="1140719580/24000s" duration="43698655/24000s" hasVideo="1" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000" format="r1" id="r7"/>
+    <asset name="20171018_002_Test_JustStudio_GH4_001.mov" src="file:///Volumes/mk2/20171018_002_Test_JustStudio/GH4/20171018_002_Test_JustStudio_GH4_001.mov" start="1144237094/24000s" duration="40045005/24000s" hasVideo="1" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000" format="r1" id="r8"/>
+    <media name="20171018_002_Test_JustStudio_MC" id="r9" modDate="2017-12-02 08:41:27 -0500">
+      <multicam format="r1" renderColorSpace="Rec. 709" tcStart="1139901763/24000s" tcFormat="NDF">
+        <mc-angle name="C300a" angleID="0000C300a">
+          <asset-clip name="20171018_002_Test_JustStudio_C300a_001.mov" offset="0/24000s" ref="r5" audioRole="dialogue" tcFormat="NDF" format="r1" start="1139901763/24000s" duration="44475431/24000s">
+            <audio-channel-source role="dialogue.dialogue-1" srcCh="1"/>
+            <audio-channel-source role="dialogue.dialogue-2" srcCh="2"/>
+          </asset-clip>
+        </mc-angle>
+        <mc-angle name="C300b" angleID="0000C300b">
+          <gap name="Gap" offset="0/24000s" duration="4434430/24000s" start="86400314/24000s"/>
+          <asset-clip name="20171018_002_Test_JustStudio_C300b_001.mov" offset="4434430/24000s" ref="r6" audioRole="dialogue" tcFormat="NDF" format="r1" start="1144336193/24000s" duration="39999960/24000s">
+            <audio-channel-source role="dialogue.dialogue-1" srcCh="1"/>
+            <audio-channel-source role="dialogue.dialogue-2" srcCh="2"/>
+          </asset-clip>
+        </mc-angle>
+        <mc-angle name="C300c" angleID="0000C300c">
+          <gap name="Gap" offset="0/24000s" duration="817817/24000s" start="86400314/24000s"/>
+          <asset-clip name="20171018_002_Test_JustStudio_C300c_001.mov" offset="817817/24000s" ref="r7" audioRole="dialogue" tcFormat="NDF" format="r1" start="1140719580/24000s" duration="43698655/24000s">
+            <audio-channel-source role="dialogue.dialogue-1" srcCh="1"/>
+            <audio-channel-source role="dialogue.dialogue-2" srcCh="2"/>
+          </asset-clip>
+        </mc-angle>
+        <mc-angle name="GH4" angleID="0000GH4">
+          <gap name="Gap" offset="0/24000s" duration="4335331/24000s" start="86400314/24000s"/>
+          <asset-clip name="20171018_002_Test_JustStudio_GH4_001.mov" offset="4335331/24000s" ref="r8" audioRole="dialogue" tcFormat="NDF" format="r1" start="1144237094/24000s" duration="40045005/24000s">
+            <audio-channel-source role="dialogue.dialogue-1" srcCh="1"/>
+            <audio-channel-source role="dialogue.dialogue-2" srcCh="2"/>
+          </asset-clip>
+        </mc-angle>
+      </multicam>
+    </media>
+    <media name="20171018_002_Test_JustStudio_MC_CC" id="r10" modDate="2017-12-02 08:41:27 -0500">
+      <sequence duration="44516472/24000s" format="r1" renderColorSpace="Rec. 709" tcStart="1139901763/24000s" tcFormat="NDF">
+        <spine>
+          <mc-clip name="20171018_002_Test_JustStudio_MC" offset="1139901763/24000s" ref="r9" duration="44516472/24000s" start="1139901763/24000s">
+            <mc-source angleID="0000C300a" srcEnable="all">
+              <filter-video ref="r2" name="2.5_A">
+                <param name="Position" key="9999/32385/10619/1/100/101" value="-19.3779 -232"/>
+                <param name="Alignment" key="9999/32385/10619/2/354/10624/401" value="2 (Right)"/>
+                <param name="Line Spacing" key="9999/32385/10619/2/354/10624/404" value="-2"/>
+                <param name="Text" key="9999/32385/10619/2/369" value="20171018_002_Test_JustStudio"/>
+                <param name="Position" key="9999/32385/20673/1/100/101" value="-16.824 -180"/>
+                <param name="Alignment" key="9999/32385/20673/2/354/20674/401" value="2 (Right)"/>
+                <param name="Text" key="9999/32385/20673/2/369" value="Test: JustStudio"/>
+                <param name="Position" key="9999/32385/20837/1/100/101" value="-443.584 -395"/>
+                <param name="Alignment" key="9999/32385/20837/2/354/20838/401" value="2 (Right)"/>
+                <param name="Text" key="9999/32385/20837/2/369" value="20171018:"/>
+              </filter-video>
+            </mc-source>
+            <mc-clip name="20171018_002_Test_JustStudio_MC" lane="-2" offset="1139901763/24000s" ref="r9" duration="44516472/24000s" start="1139901763/24000s">
+              <adjust-volume amount="-96dB"/>
+              <mc-source angleID="0000C300a" srcEnable="audio"/>
+              <mc-source angleID="0000C300b" srcEnable="video">
+                <filter-video ref="r4" name="2.5_C"/>
+              </mc-source>
+            </mc-clip>
+            <mc-clip name="20171018_002_Test_JustStudio_MC" lane="-1" offset="1139901763/24000s" ref="r9" duration="44516472/24000s" start="1139901763/24000s">
+              <adjust-volume amount="-96dB"/>
+              <mc-source angleID="0000C300a" srcEnable="audio"/>
+              <mc-source angleID="0000C300c" srcEnable="video">
+                <filter-video ref="r3" name="2.5_B"/>
+              </mc-source>
+            </mc-clip>
+          </mc-clip>
+        </spine>
+      </sequence>
+    </media>
+  </resources>
+  <library location="file:///Users/mk/Development/temp/Untitled.fcpbundle/">
+    <event name="20171018_002_Test_JustStudio">
+      <asset-clip name="20171018_002_Test_JustStudio_C300a_001" audioRole="dialogue" tcFormat="NDF" start="1139901763/24000s" duration="44475431/24000s" modDate="2017-12-02 08:41:28 -0500" ref="r5" format="r1">
+        <keyword start="1139901763" duration="44475431/24000s" value="20171018_002_Test_JustStudio, C300a"/>
+        <keyword start="1139901763/24000s" duration="24024/24000s" value="first 24 frames"/>
+      </asset-clip>
+      <asset-clip name="20171018_002_Test_JustStudio_C300b_001" audioRole="dialogue" tcFormat="NDF" start="1144336193/24000s" duration="39999960/24000s" modDate="2017-12-02 08:41:28 -0500" ref="r6" format="r1">
+        <keyword start="1144336193" duration="39999960/24000s" value="20171018_002_Test_JustStudio, C300b"/>
+        <keyword start="1144336193/24000s" duration="24024/24000s" value="first 24 frames"/>
+      </asset-clip>
+      <asset-clip name="20171018_002_Test_JustStudio_C300c_001" audioRole="dialogue" tcFormat="NDF" start="1140719580/24000s" duration="43698655/24000s" modDate="2017-12-02 08:41:28 -0500" ref="r7" format="r1">
+        <keyword start="1140719580" duration="43698655/24000s" value="20171018_002_Test_JustStudio, C300c"/>
+        <keyword start="1140719580/24000s" duration="24024/24000s" value="first 24 frames"/>
+      </asset-clip>
+      <asset-clip name="20171018_002_Test_JustStudio_GH4_001" audioRole="dialogue" tcFormat="NDF" start="1144237094/24000s" duration="40045005/24000s" modDate="2017-12-02 08:41:28 -0500" ref="r8" format="r1">
+        <keyword start="1144237094" duration="40045005/24000s" value="20171018_002_Test_JustStudio, GH4"/>
+        <keyword start="1144237094/24000s" duration="24024/24000s" value="first 24 frames"/>
+      </asset-clip>
+      <mc-clip name="20171018_002_Test_JustStudio_MC" ref="r9" duration="44516472/24000s" start="1139901763/24000s" modDate="2017-12-02 08:41:27 -0500">
+        <mc-source angleID="0000C300a" srcEnable="all"/>
+      </mc-clip>
+      <ref-clip name="20171018_002_Test_JustStudio_MC_CC" ref="r10" duration="44516472/24000s" start="1139901763/24000s" modDate="2017-12-02 08:41:27 -0500"/>
+      <project name="20171018_002_Test_JustStudio_MC_CC_Ex" modDate="2017-12-02 08:41:27 -0500">
+        <sequence duration="44516472/24000s" format="r1" renderColorSpace="Rec. 709" tcStart="0s" tcFormat="NDF" audioLayout="stereo">
+          <spine>
+            <ref-clip name="20171018_002_Test_JustStudio_MC_CC" offset="0s" ref="r10" duration="44516472/24000s" start="1139901763/24000s"/>
+          </spine>
+        </sequence>
+      </project>
+      <keyword-collection name="20171018_002_Test_JustStudio"/>
+      <keyword-collection name="C300a"/>
+      <keyword-collection name="first 24 frames"/>
+      <keyword-collection name="C300b"/>
+      <keyword-collection name="C300c"/>
+      <keyword-collection name="GH4"/>
+    </event>
+    <smart-collection name="_PROJECTS" match="all">
+      <match-clip rule="is" type="project"/>
+    </smart-collection>
+    <smart-collection name="_FAVORITES" match="all">
+      <match-ratings value="favorites"/>
+    </smart-collection>
+    <smart-collection name="_CC" match="all">
+      <match-clip rule="is" type="compound"/>
+    </smart-collection>
+    <smart-collection name="_MC" match="all">
+      <match-clip rule="is" type="multicam"/>
+    </smart-collection>
+    <smart-collection name="_MC_CC_Ex" match="all">
+      <match-text rule="includes" value="MC_CC_Ex"/>
+    </smart-collection>
+  </library>
+</fcpxml>
