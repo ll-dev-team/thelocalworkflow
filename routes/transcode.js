@@ -112,12 +112,12 @@ function createProxy(filePath){
     });
 }
 
-var myVar = setInterval(myTimer, 1000);
-
-function myTimer() {
-    var d = new Date();
-    console.log(d);
-}
+// var myVar = setInterval(myTimer, 1000);
+//
+// function myTimer() {
+//     var d = new Date();
+//     console.log(d);
+// }
 
 module.exports = router;
 module.exports.transcode = transcode;

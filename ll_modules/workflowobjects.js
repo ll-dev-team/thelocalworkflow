@@ -221,3 +221,4 @@ function dateFromIdTc(shootId, timecode) {
 
 module.exports.Clip = Clip;
 module.exports.Shoot = Shoot;
+module.exports.tools = workflowTools;

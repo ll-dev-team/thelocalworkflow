@@ -14,7 +14,7 @@ const path = require('path');
 const transcode = require("./tools/scripts/transcode_sync").transcode;
 const io2s = require("./tools/scripts/io2s").io2s;
 const xml = require('xml');
-var ioExample = require("./tools/data/io2sExample.json");
+
 var reHidden = /^\./;
 
 
@@ -120,9 +120,11 @@ if (args.shootdata) {
 };
 
 if (args.io2s) {
-  var sourceXmlPath = args.xml;
+  // var sourceXmlPath = args.xml;
+  var sourceXmlPath = './tools/examples/example.xml';
+  var ioExample = require("./tools/data/io2sExample.json");
   console.log("starting io2s");
-  io2s(ioExample, args.xml);
+  io2s(ioExample, sourceXmlPath);
   console.log("done");
 
 }
