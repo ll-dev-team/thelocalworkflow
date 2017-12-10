@@ -23,7 +23,7 @@ function io2s(ioJson, xmlPath){
         console.log("inTcFcpxml is " + inTcFcpxml);
         var outTcFcpxml = 1001*((segment.outFrame)+(24*(segment.outSec+(60*(segment.outMin+(60*segment.outHr))))));
         console.log("outTcFcpxml is " + outTcFcpxml);
-        var camera = segment.CamAngle;
+        var camera = segment.camAngle;
         console.log("camera is " + camera);
         var duration = outTcFcpxml - inTcFcpxml;
         console.log("duration is " + duration);

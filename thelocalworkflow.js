@@ -10,18 +10,30 @@ const m2sf = require("./ll_modules/m2s").fcpxmlFileToStills;
 const MongoClient = require("mongodb").MongoClient, assert = require('assert');
 const cp = require('child_process');
 const path = require('path');
+var mongoose = require('mongoose');
 // const transcode = require("./tools/scripts/transcode").transcode;
 const transcode = require("./tools/scripts/transcode_sync").transcode;
 const io2s = require("./tools/scripts/io2s").io2s;
 const xml = require('xml');
+const popFcpxml = require("./tools/scripts/populate_fcpxml");
+var ioExample = require("./tools/data/io2s_20171018_002_test.json");
 
 var reHidden = /^\./;
 
-
 const csv=require('csvtojson')
 
-
 require('dotenv').config();
+
+// var mongoDB = process.env.MONGODB_URL;
+var mongoDB = process.env.MONGODB_URL_DEV;
+console.log("mongoDB url is " + mongoDB);
+mongoose.connect(mongoDB);
+var db = mongoose.connection;
+
+// Bind connection to error event (to get notification of connection errors)
+db.on('error', console.error.bind(console, 'MongoDB connection error:'));
+
+
 
 // var mongoUrl = 'mongodb://localhost:27017/thelocalworkflow';
 
@@ -36,9 +48,19 @@ function printHelp() {
   console.log("--transcode       transcode files in {FOLDER}");
 }
 
-if (args.help || !(args.m2s || args.rename || args.compress || args.m2sf || args.shootdata || args.transcode || args.io2s)) {
+if (args.help || !(args.m2s || args.rename || args.compress || args.m2sf || args.shootdata || args.transcode || args.io2s || args.populate)) {
   printHelp();
   process.exit(1);
+}
+
+if (args.io2s) {
+  // var sourceXmlPath = args.xml;
+  var sourceXmlPath = './tools/examples/20171018_002_Test_JustStudio_v1 copy.fcpxml';
+
+  console.log("starting io2s");
+  io2s(ioExample, sourceXmlPath);
+  console.log("done");
+
 }
 
 if (args.m2s) {
@@ -119,15 +141,16 @@ if (args.shootdata) {
   console.log("\n\ndone.\n");
 };
 
-if (args.io2s) {
-  // var sourceXmlPath = args.xml;
-  var sourceXmlPath = './tools/examples/example.xml';
-  var ioExample = require("./tools/data/io2sExample.json");
-  console.log("starting io2s");
-  io2s(ioExample, sourceXmlPath);
-  console.log("done");
 
-}
+if (args.populate) {
+  if (args.fcpxml) {
+    popFcpxml(args.fcpxml);
+  }
+};
+
+
+
+
 
 if (args.transcode) {
   // var destRoot = '/Volumes/06_01/Proxy_Footage/2017_12_Proxy'

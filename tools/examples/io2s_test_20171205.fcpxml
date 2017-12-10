@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+
+<fcpxml version="1.6">
+    <resources>
+        <asset id="r1" name="20171018_002_Test_JustStudio_C300a_001" uid="55C9D55F38CBBF8F2DD6B7B5701B29FD" src="file:///Volumes/mk2/20171018_002_Test_JustStudio/C300a/20171018_002_Test_JustStudio_C300a_001.mov" start="1139901763/24000s" duration="44475431/24000s" hasVideo="1" format="r2" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <bookmark>Ym9va+wDAAAAAAQQMAAAAEdQsPY36r0l7PUeUJgINOcxDAbNCfB4QAuffn2OtpbDDAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwADAAAAAQEAAG1rMgAcAAAAAQEAADIwMTcxMDE4XzAwMl9UZXN0X0p1c3RTdHVkaW8FAAAAAQEAAEMzMDBhAAAAKgAAAAEBAAAyMDE3MTAxOF8wMDJfVGVzdF9KdXN0U3R1ZGlvX0MzMDBhXzAwMS5tb3YAABQAAAABBgAAEAAAACAAAAAsAAAAUAAAAGAAAAAIAAAABAMAALkCCwAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAYgIAAAAAAAAIAAAABAMAAHUCAAAAAAAACAAAAAQDAAB2AgAAAAAAABQAAAABBgAAsAAAAMAAAADQAAAA4AAAAPAAAAAIAAAAAAQAAEG/l77nAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAUAAAAAQkAAGZpbGU6Ly8vVm9sdW1lcy9tazIvCAAAAAQDAAAA0F6MdAAAAAgAAAAABAAAQb97JCGMdzIkAAAAAQEAADNGRDNCODJCLUYwMzMtNDg5My1CQjJELTUzN0YwREM4RkUwNhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAADAAAAAEBAAAvVm9sdW1lcy9tazIIAAAAAQkAAGZpbGU6Ly8vBgAAAAEBAABtazFfaHMAAAgAAAAEAwAAABCjVnQAAAAIAAAAAAQAAEG/eyNdRwr8JAAAAAEBAABDRTA5QzVCRC0yMjkxLTQ0NkYtOTEzQS03NkJENDk3OTdBMUYBAAAAAQEAAC8AAABgAAAA/v///wDwAAAAAAAABwAAAAIgAABUAgAAAAAAAAUgAADoAQAAAAAAABAgAAD4AQAAAAAAABEgAAAoAgAAAAAAABIgAAAIAgAAAAAAABMgAAAYAgAAAAAAACAgAAC0AQAAAAAAAAQAAAADAwAAAPAAAAQAAAADAwAAAAAAAAQAAAADAwAAAQAAABgAAAABBgAAyAIAANQCAADgAgAA1AIAANQCAADUAgAAqAAAAP7///8BAAAAYAIAAA0AAAAEEAAAlAAAAAAAAAAFEAAAAAEAAAAAAAAQEAAALAEAAAAAAABAEAAAHAEAAAAAAAAAIAAA7AIAAAAAAAACIAAA1AEAAAAAAAAFIAAATAEAAAAAAAAQIAAAIAAAAAAAAAARIAAAiAEAAAAAAAASIAAAaAEAAAAAAAATIAAAeAEAAAAAAAAgIAAAtAEAAAAAAAAQ0AAABAAAAAAAAAA=</bookmark>
+        </asset>
+        <format id="r2" name="FFVideoFormat1080p2398" frameDuration="1001/24000s" width="1920" height="1080"/>
+        <asset id="r3" name="20171018_002_Test_JustStudio_C300b_001" uid="454A721EFE1797B653F047D1C80F4BC8" src="file:///Volumes/mk2/20171018_002_Test_JustStudio/C300b/20171018_002_Test_JustStudio_C300b_001.mov" start="1144336193/24000s" duration="39999960/24000s" hasVideo="1" format="r2" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <bookmark>Ym9va+wDAAAAAAQQMAAAAIOD7G3L65DO0qSBJdY4TWn6ktOFpOmvyXmuh9B7BVqKDAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwADAAAAAQEAAG1rMgAcAAAAAQEAADIwMTcxMDE4XzAwMl9UZXN0X0p1c3RTdHVkaW8FAAAAAQEAAEMzMDBiAAAAKgAAAAEBAAAyMDE3MTAxOF8wMDJfVGVzdF9KdXN0U3R1ZGlvX0MzMDBiXzAwMS5tb3YAABQAAAABBgAAEAAAACAAAAAsAAAAUAAAAGAAAAAIAAAABAMAALkCCwAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAYgIAAAAAAAAIAAAABAMAAGoCAAAAAAAACAAAAAQDAABrAgAAAAAAABQAAAABBgAAsAAAAMAAAADQAAAA4AAAAPAAAAAIAAAAAAQAAEG/l8UAAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAUAAAAAQkAAGZpbGU6Ly8vVm9sdW1lcy9tazIvCAAAAAQDAAAA0F6MdAAAAAgAAAAABAAAQb97JCGMdzIkAAAAAQEAADNGRDNCODJCLUYwMzMtNDg5My1CQjJELTUzN0YwREM4RkUwNhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAADAAAAAEBAAAvVm9sdW1lcy9tazIIAAAAAQkAAGZpbGU6Ly8vBgAAAAEBAABtazFfaHMAAAgAAAAEAwAAABCjVnQAAAAIAAAAAAQAAEG/eyNdRwr8JAAAAAEBAABDRTA5QzVCRC0yMjkxLTQ0NkYtOTEzQS03NkJENDk3OTdBMUYBAAAAAQEAAC8AAABgAAAA/v///wDwAAAAAAAABwAAAAIgAABUAgAAAAAAAAUgAADoAQAAAAAAABAgAAD4AQAAAAAAABEgAAAoAgAAAAAAABIgAAAIAgAAAAAAABMgAAAYAgAAAAAAACAgAAC0AQAAAAAAAAQAAAADAwAAAPAAAAQAAAADAwAAAAAAAAQAAAADAwAAAQAAABgAAAABBgAAyAIAANQCAADgAgAA1AIAANQCAADUAgAAqAAAAP7///8BAAAAYAIAAA0AAAAEEAAAlAAAAAAAAAAFEAAAAAEAAAAAAAAQEAAALAEAAAAAAABAEAAAHAEAAAAAAAAAIAAA7AIAAAAAAAACIAAA1AEAAAAAAAAFIAAATAEAAAAAAAAQIAAAIAAAAAAAAAARIAAAiAEAAAAAAAASIAAAaAEAAAAAAAATIAAAeAEAAAAAAAAgIAAAtAEAAAAAAAAQ0AAABAAAAAAAAAA=</bookmark>
+        </asset>
+        <asset id="r4" name="20171018_002_Test_JustStudio_C300c_001" uid="034ECB85DE0BDD665FCAB1631A10D82E" src="file:///Volumes/mk2/20171018_002_Test_JustStudio/C300c/20171018_002_Test_JustStudio_C300c_001.mov" start="1140719580/24000s" duration="43698655/24000s" hasVideo="1" format="r2" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <bookmark>Ym9va+wDAAAAAAQQMAAAAKsV8tFUOsCqLPZ1enyM5usAvMj7lMqbvGRm8acrAdcJDAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwADAAAAAQEAAG1rMgAcAAAAAQEAADIwMTcxMDE4XzAwMl9UZXN0X0p1c3RTdHVkaW8FAAAAAQEAAEMzMDBjAAAAKgAAAAEBAAAyMDE3MTAxOF8wMDJfVGVzdF9KdXN0U3R1ZGlvX0MzMDBjXzAwMS5tb3YAABQAAAABBgAAEAAAACAAAAAsAAAAUAAAAGAAAAAIAAAABAMAALkCCwAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAYgIAAAAAAAAIAAAABAMAAGwCAAAAAAAACAAAAAQDAABtAgAAAAAAABQAAAABBgAAsAAAAMAAAADQAAAA4AAAAPAAAAAIAAAAAAQAAEG/l79IAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAUAAAAAQkAAGZpbGU6Ly8vVm9sdW1lcy9tazIvCAAAAAQDAAAA0F6MdAAAAAgAAAAABAAAQb97JCGMdzIkAAAAAQEAADNGRDNCODJCLUYwMzMtNDg5My1CQjJELTUzN0YwREM4RkUwNhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAADAAAAAEBAAAvVm9sdW1lcy9tazIIAAAAAQkAAGZpbGU6Ly8vBgAAAAEBAABtazFfaHMAAAgAAAAEAwAAABCjVnQAAAAIAAAAAAQAAEG/eyNdRwr8JAAAAAEBAABDRTA5QzVCRC0yMjkxLTQ0NkYtOTEzQS03NkJENDk3OTdBMUYBAAAAAQEAAC8AAABgAAAA/v///wDwAAAAAAAABwAAAAIgAABUAgAAAAAAAAUgAADoAQAAAAAAABAgAAD4AQAAAAAAABEgAAAoAgAAAAAAABIgAAAIAgAAAAAAABMgAAAYAgAAAAAAACAgAAC0AQAAAAAAAAQAAAADAwAAAPAAAAQAAAADAwAAAAAAAAQAAAADAwAAAQAAABgAAAABBgAAyAIAANQCAADgAgAA1AIAANQCAADUAgAAqAAAAP7///8BAAAAYAIAAA0AAAAEEAAAlAAAAAAAAAAFEAAAAAEAAAAAAAAQEAAALAEAAAAAAABAEAAAHAEAAAAAAAAAIAAA7AIAAAAAAAACIAAA1AEAAAAAAAAFIAAATAEAAAAAAAAQIAAAIAAAAAAAAAARIAAAiAEAAAAAAAASIAAAaAEAAAAAAAATIAAAeAEAAAAAAAAgIAAAtAEAAAAAAAAQ0AAABAAAAAAAAAA=</bookmark>
+        </asset>
+        <asset id="r5" name="20171018_002_Test_JustStudio_GH4_001" uid="98A7C29CA25CA13B07342C5CBA4B4FFB" src="file:///Volumes/mk2/20171018_002_Test_JustStudio/GH4/20171018_002_Test_JustStudio_GH4_001.mov" start="1144237094/24000s" duration="40045005/24000s" hasVideo="1" format="r2" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <bookmark>Ym9va+QDAAAAAAQQMAAAAGzRn+WFdM6aJ1v6nN2IE8ef5GVuTdKYYFavHO4VI+NlBAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwADAAAAAQEAAG1rMgAcAAAAAQEAADIwMTcxMDE4XzAwMl9UZXN0X0p1c3RTdHVkaW8DAAAAAQEAAEdINAAoAAAAAQEAADIwMTcxMDE4XzAwMl9UZXN0X0p1c3RTdHVkaW9fR0g0XzAwMS5tb3YUAAAAAQYAABAAAAAgAAAALAAAAFAAAABcAAAACAAAAAQDAAC5AgsAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAAGICAAAAAAAACAAAAAQDAABzAgAAAAAAAAgAAAAEAwAAdAIAAAAAAAAUAAAAAQYAAKgAAAC4AAAAyAAAANgAAADoAAAACAAAAAAEAABBv5fHDgAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAFAAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvbWsyLwgAAAAEAwAAANBejHQAAAAIAAAAAAQAAEG/eyQhjHcyJAAAAAEBAAAzRkQzQjgyQi1GMDMzLTQ4OTMtQkIyRC01MzdGMERDOEZFMDYYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAwAAAABAQAAL1ZvbHVtZXMvbWsyCAAAAAEJAABmaWxlOi8vLwYAAAABAQAAbWsxX2hzAAAIAAAABAMAAAAQo1Z0AAAACAAAAAAEAABBv3sjXUcK/CQAAAABAQAAQ0UwOUM1QkQtMjI5MS00NDZGLTkxM0EtNzZCRDQ5Nzk3QTFGAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAATAIAAAAAAAAFIAAA4AEAAAAAAAAQIAAA8AEAAAAAAAARIAAAIAIAAAAAAAASIAAAAAIAAAAAAAATIAAAEAIAAAAAAAAgIAAArAEAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAYAAAAAQYAAMACAADMAgAA2AIAAMwCAADMAgAAzAIAAKgAAAD+////AQAAAFgCAAANAAAABBAAAIwAAAAAAAAABRAAAPgAAAAAAAAAEBAAACQBAAAAAAAAQBAAABQBAAAAAAAAACAAAOQCAAAAAAAAAiAAAMwBAAAAAAAABSAAAEQBAAAAAAAAECAAACAAAAAAAAAAESAAAIABAAAAAAAAEiAAAGABAAAAAAAAEyAAAHABAAAAAAAAICAAAKwBAAAAAAAAENAAAAQAAAAAAAAA</bookmark>
+        </asset>
+        <media id="r6" name="20171018_002_Test_JustStudio_MC" uid="3+pOqy3gT7iKdZYUM4Y9pg" modDate="2017-12-05 12:07:10 -0500">
+            <multicam format="r2" renderColorSpace="Rec. 709" tcStart="1139901763/24000s" tcFormat="NDF">
+                <mc-angle name="C300a" angleID="0000C300a">
+                    <asset-clip name="20171018_002_Test_JustStudio_C300a_001.mov" offset="0s" ref="r1" duration="44475431/24000s" start="1139901763/24000s" audioRole="dialogue" tcFormat="NDF">
+                        <audio-channel-source role="dialogue.dialogue-1" srcCh="1"/>
+                        <audio-channel-source role="dialogue.dialogue-2" srcCh="2"/>
+                    </asset-clip>
+                </mc-angle>
+                <mc-angle name="C300b" angleID="0000C300b">
+                    <gap name="Gap" offset="0s" duration="4434430/24000s" start="86400314/24000s"/>
+                    <asset-clip name="20171018_002_Test_JustStudio_C300b_001.mov" offset="4434430/24000s" ref="r3" duration="39999960/24000s" start="1144336193/24000s" audioRole="dialogue" tcFormat="NDF">
+                        <audio-channel-source role="dialogue.dialogue-1" srcCh="1"/>
+                        <audio-channel-source role="dialogue.dialogue-2" srcCh="2"/>
+                    </asset-clip>
+                </mc-angle>
+                <mc-angle name="C300c" angleID="0000C300c">
+                    <gap name="Gap" offset="0s" duration="817817/24000s" start="86400314/24000s"/>
+                    <asset-clip name="20171018_002_Test_JustStudio_C300c_001.mov" offset="817817/24000s" ref="r4" duration="43698655/24000s" start="1140719580/24000s" audioRole="dialogue" tcFormat="NDF">
+                        <audio-channel-source role="dialogue.dialogue-1" srcCh="1"/>
+                        <audio-channel-source role="dialogue.dialogue-2" srcCh="2"/>
+                    </asset-clip>
+                </mc-angle>
+                <mc-angle name="GH4" angleID="0000GH4">
+                    <gap name="Gap" offset="0s" duration="4335331/24000s" start="86400314/24000s"/>
+                    <asset-clip name="20171018_002_Test_JustStudio_GH4_001.mov" offset="4335331/24000s" ref="r5" duration="40045005/24000s" start="1144237094/24000s" audioRole="dialogue" tcFormat="NDF">
+                        <audio-channel-source role="dialogue.dialogue-1" srcCh="1"/>
+                        <audio-channel-source role="dialogue.dialogue-2" srcCh="2"/>
+                    </asset-clip>
+                </mc-angle>
+            </multicam>
+        </media>
+        <media id="r7" name="20171018_002_Test_JustStudio_MC_CC" uid="UsqGXBe3SLC1rpzkvikEKA" modDate="2017-12-05 12:07:10 -0500">
+            <sequence duration="44516472/24000s" format="r2" renderColorSpace="Rec. 709" tcStart="1139901763/24000s" tcFormat="NDF">
+                <spine>
+                    <mc-clip name="20171018_002_Test_JustStudio_MC" offset="1139901763/24000s" ref="r6" duration="44516472/24000s" start="1139901763/24000s">
+                        <mc-source angleID="0000C300a" srcEnable="all"/>
+                        <mc-clip name="20171018_002_Test_JustStudio_MC" lane="-2" offset="1139901763/24000s" ref="r6" duration="44516472/24000s" start="1139901763/24000s">
+                            <adjust-volume amount="-96dB"/>
+                            <mc-source angleID="0000C300a" srcEnable="audio"/>
+                            <mc-source angleID="0000C300b" srcEnable="video"/>
+                        </mc-clip>
+                        <mc-clip name="20171018_002_Test_JustStudio_MC" lane="-1" offset="1139901763/24000s" ref="r6" duration="44516472/24000s" start="1139901763/24000s">
+                            <adjust-volume amount="-96dB"/>
+                            <mc-source angleID="0000C300a" srcEnable="audio"/>
+                            <mc-source angleID="0000C300c" srcEnable="video"/>
+                        </mc-clip>
+                    </mc-clip>
+                </spine>
+            </sequence>
+        </media>
+    </resources>
+    <library location="file:///Volumes/mk2/io2s_test_20171205.fcpbundle/">
+        <event name="20171018_002_Test_JustStudio" uid="E5C62A2B-D71D-40B4-90AA-BE5B312E3D78">
+            <asset-clip name="20171018_002_Test_JustStudio_C300a_001" ref="r1" duration="44475431/24000s" start="1139901763/24000s" audioRole="dialogue" format="r2" tcFormat="NDF" modDate="2017-12-02 08:41:28 -0500">
+                <keyword start="1139901763/24000s" duration="24024/24000s" value="first 24 frames"/>
+                <keyword start="1.1399e+09s" duration="44475431/24000s" value="20171018_002_Test_JustStudio, C300a"/>
+            </asset-clip>
+            <asset-clip name="20171018_002_Test_JustStudio_C300b_001" ref="r3" duration="39999960/24000s" start="1144336193/24000s" audioRole="dialogue" format="r2" tcFormat="NDF" modDate="2017-12-02 08:41:28 -0500">
+                <keyword start="1144336193/24000s" duration="24024/24000s" value="first 24 frames"/>
+                <keyword start="1.14434e+09s" duration="39999960/24000s" value="20171018_002_Test_JustStudio, C300b"/>
+            </asset-clip>
+            <asset-clip name="20171018_002_Test_JustStudio_C300c_001" ref="r4" duration="43698655/24000s" start="1140719580/24000s" audioRole="dialogue" format="r2" tcFormat="NDF" modDate="2017-12-02 08:41:28 -0500">
+                <keyword start="19011993/400s" duration="24024/24000s" value="first 24 frames"/>
+                <keyword start="1.14072e+09s" duration="43698655/24000s" value="20171018_002_Test_JustStudio, C300c"/>
+            </asset-clip>
+            <asset-clip name="20171018_002_Test_JustStudio_GH4_001" ref="r5" duration="40045005/24000s" start="1144237094/24000s" audioRole="dialogue" format="r2" tcFormat="NDF" modDate="2017-12-02 08:41:28 -0500">
+                <keyword start="572118547/12000s" duration="24024/24000s" value="first 24 frames"/>
+                <keyword start="1.14424e+09s" duration="40045005/24000s" value="20171018_002_Test_JustStudio, GH4"/>
+            </asset-clip>
+            <mc-clip name="20171018_002_Test_JustStudio_MC" ref="r6" duration="44516472/24000s" start="1139901763/24000s" modDate="2017-12-05 12:07:10 -0500">
+                <mc-source angleID="0000C300a" srcEnable="all"/>
+            </mc-clip>
+            <ref-clip name="20171018_002_Test_JustStudio_MC_CC" ref="r7" duration="44516472/24000s" start="1139901763/24000s" modDate="2017-12-05 12:07:10 -0500"/>
+            <project name="20171018_002_Test_JustStudio_MC_CC_Ex" uid="62D5A324-ED5B-401B-8FE0-2F9811B07C0E" modDate="2017-12-05 12:07:10 -0500">
+                <sequence duration="44516472/24000s" format="r2" renderColorSpace="Rec. 709" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+                    <spine>
+                        <ref-clip name="20171018_002_Test_JustStudio_MC_CC" offset="0s" ref="r7" duration="44516472/24000s" start="1139901763/24000s"/>
+                    </spine>
+                </sequence>
+            </project>
+            <keyword-collection name="20171018_002_Test_JustStudio"/>
+            <keyword-collection name="C300a"/>
+            <keyword-collection name="first 24 frames"/>
+            <keyword-collection name="C300b"/>
+            <keyword-collection name="C300c"/>
+            <keyword-collection name="GH4"/>
+        </event>
+        <event name="Projects" uid="A797016A-158A-45E7-9FE9-85D6531E27BB">
+            <project name="Rough_Cut_001" uid="915A02C8-EAEE-497D-96E2-1200E1D3786D" modDate="2017-12-05 12:25:08 -0500">
+                <sequence duration="316316/24000s" format="r2" renderColorSpace="Rec. 709" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+                    <spine>
+                        <mc-clip name="20171018_002_Test_JustStudio_MC" offset="0s" ref="r6" duration="70070/24000s" start="1175331157/24000s">
+                            <mc-source angleID="0000C300a" srcEnable="all"/>
+                        </mc-clip>
+                        <mc-clip name="20171018_002_Test_JustStudio_MC" offset="70070/24000s" ref="r6" duration="43043/24000s" start="1150813664/24000s">
+                            <mc-source angleID="0000C300a" srcEnable="all"/>
+                        </mc-clip>
+                        <mc-clip name="20171018_002_Test_JustStudio_MC" offset="113113/24000s" ref="r6" duration="27027/24000s" start="1150856707/24000s">
+                            <mc-source angleID="0000C300a" srcEnable="audio"/>
+                            <mc-source angleID="0000GH4" srcEnable="video"/>
+                        </mc-clip>
+                        <mc-clip name="20171018_002_Test_JustStudio_MC" offset="140140/24000s" ref="r6" duration="35035/24000s" start="1150883734/24000s">
+                            <mc-source angleID="0000C300a" srcEnable="audio"/>
+                            <mc-source angleID="0000C300c" srcEnable="video"/>
+                        </mc-clip>
+                        <mc-clip name="20171018_002_Test_JustStudio_MC" offset="175175/24000s" ref="r6" duration="33033/24000s" start="1150918769/24000s">
+                            <mc-source angleID="0000C300a" srcEnable="audio"/>
+                            <mc-source angleID="0000C300b" srcEnable="video"/>
+                        </mc-clip>
+                        <mc-clip name="20171018_002_Test_JustStudio_MC" offset="208208/24000s" ref="r6" duration="108108/24000s" start="1151044895/24000s">
+                            <mc-source angleID="0000C300a" srcEnable="audio"/>
+                            <mc-source angleID="0000C300c" srcEnable="video"/>
+                        </mc-clip>
+                    </spine>
+                </sequence>
+            </project>
+        </event>
+        <smart-collection name="_PROJECTS" match="all">
+            <match-clip rule="is" type="project"/>
+        </smart-collection>
+        <smart-collection name="_FAVORITES" match="all">
+            <match-ratings value="favorites"/>
+        </smart-collection>
+        <smart-collection name="_CC" match="all">
+            <match-clip rule="is" type="compound"/>
+        </smart-collection>
+        <smart-collection name="_MC" match="all">
+            <match-clip rule="is" type="multicam"/>
+        </smart-collection>
+        <smart-collection name="_MC_CC_Ex" match="all">
+            <match-text rule="includes" value="MC_CC_Ex"/>
+        </smart-collection>
+    </library>
+</fcpxml>

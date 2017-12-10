@@ -1,0 +1,68 @@
+[
+  {
+    "camAngle": "A",
+    "inHr": 13,
+    "inMin": 35,
+    "inSec": 23,
+    "inFrame": 5,
+    "outHr": 13,
+    "outMin": 35,
+    "outSec": 26,
+    "outFrame": 3
+  },
+  {
+    "camAngle": "A",
+    "inHr": 13,
+    "inMin": 18,
+    "inSec": 22,
+    "inFrame": 16,
+    "outHr": 13,
+    "outMin": 18,
+    "outSec": 24,
+    "outFrame": 11
+  },
+  {
+    "camAngle": "D",
+    "inHr": 13,
+    "inMin": 18,
+    "inSec": 24,
+    "inFrame": 11,
+    "outHr": 13,
+    "outMin": 18,
+    "outSec": 25,
+    "outFrame": 14
+  },
+  {
+    "camAngle": "C",
+    "inHr": 13,
+    "inMin": 18,
+    "inSec": 25,
+    "inFrame": 14,
+    "outHr": 13,
+    "outMin": 18,
+    "outSec": 27,
+    "outFrame": 1
+  },
+  {
+    "camAngle": "B",
+    "inHr": 13,
+    "inMin": 18,
+    "inSec": 27,
+    "inFrame": 1,
+    "outHr": 13,
+    "outMin": 18,
+    "outSec": 28,
+    "outFrame": 10
+  },
+  {
+    "camAngle": "C",
+    "inHr": 13,
+    "inMin": 18,
+    "inSec": 32,
+    "inFrame": 7,
+    "outHr": 13,
+    "outMin": 18,
+    "outSec": 36,
+    "outFrame": 19
+  }
+]
