@@ -22,6 +22,7 @@
     "ejs": "^2.5.7",
     "express": "^4.15.4",
     "express-validator": "^4.2.0",
+    "fast-xml-parser": "^2.8.2",
     "fluent-ffmpeg": "^2.1.2",
     "lodash": "^4.17.4",
     "minimist": "^1.2.0",

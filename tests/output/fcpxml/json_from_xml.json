@@ -1,0 +1,793 @@
+[
+    {
+        "$": {
+            "id": "r5",
+            "name": "20171201_001_MCB81_Sugar_MC",
+            "uid": "+Lpo/Jj3T/y70HO1BpcuPA",
+            "modDate": "2017-12-11 06:16:04 -0500"
+        },
+        "multicam": [
+            {
+                "$": {
+                    "format": "r1",
+                    "renderColorSpace": "Rec. 709",
+                    "tcStart": "831922091/24000s",
+                    "tcFormat": "NDF"
+                },
+                "mc-angle": [
+                    {
+                        "$": {
+                            "name": "C300a",
+                            "angleID": "0000C300a"
+                        },
+                        "clip": [
+                            {
+                                "$": {
+                                    "name": "20171201_001_MCB81_Sugar_C300a_001.mov",
+                                    "offset": "0s",
+                                    "duration": "108083976/24000s",
+                                    "start": "831922091/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "video": [
+                                    {
+                                        "$": {
+                                            "name": "20171201_001_MCB81_Sugar_C300a_001 - v1",
+                                            "offset": "831922091/24000s",
+                                            "ref": "r2",
+                                            "duration": "108083976/24000s",
+                                            "start": "831922091/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "$": {
+                                                    "name": "20171201_001_MCB81_Sugar_C300a_001 - a1",
+                                                    "lane": "-1",
+                                                    "offset": "24957662730/720000s",
+                                                    "ref": "r2",
+                                                    "duration": "3242519280/720000s",
+                                                    "start": "24957662730/720000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            },
+                                            {
+                                                "$": {
+                                                    "name": "20171201_001_MCB81_Sugar_C300a_001 - a1",
+                                                    "lane": "-1",
+                                                    "offset": "831922091/24000s",
+                                                    "ref": "r2",
+                                                    "duration": "108083976/24000s",
+                                                    "start": "831922091/24000s",
+                                                    "role": "dialogue.dialogue-2",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "audio-channel-source": [
+                                    {
+                                        "$": {
+                                            "role": "dialogue.dialogue-1",
+                                            "srcCh": "1"
+                                        }
+                                    },
+                                    {
+                                        "$": {
+                                            "role": "dialogue.dialogue-2",
+                                            "srcCh": "2",
+                                            "active": "0"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "$": {
+                            "name": "C300b",
+                            "angleID": "0000C300b"
+                        },
+                        "gap": [
+                            {
+                                "$": {
+                                    "name": "Gap",
+                                    "offset": "0s",
+                                    "duration": "3392389/24000s",
+                                    "start": "86400314/24000s"
+                                }
+                            }
+                        ],
+                        "clip": [
+                            {
+                                "$": {
+                                    "name": "20171201_001_MCB81_Sugar_C300b_001.mov",
+                                    "offset": "3392389/24000s",
+                                    "duration": "104720616/24000s",
+                                    "start": "835314480/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "video": [
+                                    {
+                                        "$": {
+                                            "name": "20171201_001_MCB81_Sugar_C300b_001 - v1",
+                                            "offset": "835314480/24000s",
+                                            "ref": "r3",
+                                            "duration": "104720616/24000s",
+                                            "start": "835314480/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "$": {
+                                                    "name": "20171201_001_MCB81_Sugar_C300b_001 - a1",
+                                                    "lane": "-1",
+                                                    "offset": "25059434400/720000s",
+                                                    "ref": "r3",
+                                                    "duration": "3141618480/720000s",
+                                                    "start": "25059434400/720000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            },
+                                            {
+                                                "$": {
+                                                    "name": "20171201_001_MCB81_Sugar_C300b_001 - a1",
+                                                    "lane": "-1",
+                                                    "offset": "835314480/24000s",
+                                                    "ref": "r3",
+                                                    "duration": "104720616/24000s",
+                                                    "start": "835314480/24000s",
+                                                    "role": "dialogue.dialogue-2",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "audio-channel-source": [
+                                    {
+                                        "$": {
+                                            "role": "dialogue.dialogue-1",
+                                            "srcCh": "1"
+                                        }
+                                    },
+                                    {
+                                        "$": {
+                                            "role": "dialogue.dialogue-2",
+                                            "srcCh": "2"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "$": {
+                            "name": "GH4",
+                            "angleID": "0000GH4"
+                        },
+                        "gap": [
+                            {
+                                "$": {
+                                    "name": "Gap",
+                                    "offset": "0s",
+                                    "duration": "72072/24000s",
+                                    "start": "86400314/24000s"
+                                }
+                            }
+                        ],
+                        "clip": [
+                            {
+                                "$": {
+                                    "name": "20171201_001_MCB81_Sugar_GH4_001.MOV",
+                                    "offset": "72072/24000s",
+                                    "duration": "108089982/24000s",
+                                    "start": "831994163/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "video": [
+                                    {
+                                        "$": {
+                                            "name": "20171201_001_MCB81_Sugar_GH4_001 - v1",
+                                            "offset": "831994163/24000s",
+                                            "ref": "r4",
+                                            "duration": "108089982/24000s",
+                                            "start": "831994163/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "$": {
+                                                    "name": "20171201_001_MCB81_Sugar_GH4_001 - a1",
+                                                    "lane": "-1",
+                                                    "offset": "831994163/24000s",
+                                                    "ref": "r4",
+                                                    "duration": "108089982/24000s",
+                                                    "start": "831994163/24000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            },
+                                            {
+                                                "$": {
+                                                    "name": "20171201_001_MCB81_Sugar_GH4_001 - a1",
+                                                    "lane": "-1",
+                                                    "offset": "24959824890/720000s",
+                                                    "ref": "r4",
+                                                    "duration": "3242699460/720000s",
+                                                    "start": "24959824890/720000s",
+                                                    "role": "dialogue.dialogue-2",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "audio-channel-source": [
+                                    {
+                                        "$": {
+                                            "role": "dialogue.dialogue-1",
+                                            "srcCh": "1"
+                                        }
+                                    },
+                                    {
+                                        "$": {
+                                            "role": "dialogue.dialogue-2",
+                                            "srcCh": "2"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "$": {
+            "id": "r10",
+            "name": "20171204_001_MCB81_Sugar_MC",
+            "uid": "sBTG63ZlSPGcBVvDaYfljw",
+            "modDate": "2017-12-11 06:15:44 -0500"
+        },
+        "multicam": [
+            {
+                "$": {
+                    "format": "r1",
+                    "renderColorSpace": "Rec. 709",
+                    "tcStart": "830339510/24000s",
+                    "tcFormat": "NDF"
+                },
+                "mc-angle": [
+                    {
+                        "$": {
+                            "name": "C300a",
+                            "angleID": "0000C300a"
+                        },
+                        "asset-clip": [
+                            {
+                                "$": {
+                                    "name": "20171204_001_MCB81_Sugar_C300a_001.mov",
+                                    "offset": "0s",
+                                    "ref": "r6",
+                                    "duration": "36552516/24000s",
+                                    "start": "830339510/24000s",
+                                    "audioRole": "dialogue",
+                                    "tcFormat": "NDF"
+                                },
+                                "audio-channel-source": [
+                                    {
+                                        "$": {
+                                            "role": "dialogue.dialogue-1",
+                                            "srcCh": "1"
+                                        }
+                                    },
+                                    {
+                                        "$": {
+                                            "role": "dialogue.dialogue-2",
+                                            "srcCh": "2"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "$": {
+                            "name": "C300b",
+                            "angleID": "0000C300b"
+                        },
+                        "gap": [
+                            {
+                                "$": {
+                                    "name": "Gap",
+                                    "offset": "0s",
+                                    "duration": "104104/24000s",
+                                    "start": "86400314/24000s"
+                                }
+                            }
+                        ],
+                        "asset-clip": [
+                            {
+                                "$": {
+                                    "name": "20171204_001_MCB81_Sugar_C300b_001.mov",
+                                    "offset": "104104/24000s",
+                                    "ref": "r7",
+                                    "duration": "36456420/24000s",
+                                    "start": "830443614/24000s",
+                                    "audioRole": "dialogue",
+                                    "tcFormat": "NDF"
+                                },
+                                "audio-channel-source": [
+                                    {
+                                        "$": {
+                                            "role": "dialogue.dialogue-1",
+                                            "srcCh": "1"
+                                        }
+                                    },
+                                    {
+                                        "$": {
+                                            "role": "dialogue.dialogue-2",
+                                            "srcCh": "2"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "$": {
+                            "name": "C300c",
+                            "angleID": "0000C300c"
+                        },
+                        "gap": [
+                            {
+                                "$": {
+                                    "name": "Gap",
+                                    "offset": "0s",
+                                    "duration": "39039/24000s",
+                                    "start": "86400314/24000s"
+                                }
+                            }
+                        ],
+                        "asset-clip": [
+                            {
+                                "$": {
+                                    "name": "20171204_001_MCB81_Sugar_C300c_001.mov",
+                                    "offset": "39039/24000s",
+                                    "ref": "r8",
+                                    "duration": "36540504/24000s",
+                                    "start": "830378549/24000s",
+                                    "audioRole": "dialogue",
+                                    "tcFormat": "NDF"
+                                },
+                                "audio-channel-source": [
+                                    {
+                                        "$": {
+                                            "role": "dialogue.dialogue-1",
+                                            "srcCh": "1"
+                                        }
+                                    },
+                                    {
+                                        "$": {
+                                            "role": "dialogue.dialogue-2",
+                                            "srcCh": "2"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "$": {
+                            "name": "GH4",
+                            "angleID": "0000GH4"
+                        },
+                        "gap": [
+                            {
+                                "$": {
+                                    "name": "Gap",
+                                    "offset": "0s",
+                                    "duration": "1288287/24000s",
+                                    "start": "86400314/24000s"
+                                }
+                            }
+                        ],
+                        "asset-clip": [
+                            {
+                                "$": {
+                                    "name": "20171204_001_MCB81_Sugar_GH4_001.mov",
+                                    "offset": "1288287/24000s",
+                                    "ref": "r9",
+                                    "duration": "33426393/24000s",
+                                    "start": "831631801/24000s",
+                                    "audioRole": "dialogue",
+                                    "tcFormat": "NDF"
+                                },
+                                "audio-channel-source": [
+                                    {
+                                        "$": {
+                                            "role": "dialogue.dialogue-1",
+                                            "srcCh": "1"
+                                        }
+                                    },
+                                    {
+                                        "$": {
+                                            "role": "dialogue.dialogue-2",
+                                            "srcCh": "2"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "$": {
+            "id": "r16",
+            "name": "20171205_004_MCB81_Sugar_MC",
+            "uid": "+NdRrvMUQluXs2ECFJxXlw",
+            "modDate": "2017-12-11 06:15:02 -0500"
+        },
+        "multicam": [
+            {
+                "$": {
+                    "format": "r1",
+                    "renderColorSpace": "Rec. 709",
+                    "tcStart": "1091591501/24000s",
+                    "tcFormat": "NDF"
+                },
+                "mc-angle": [
+                    {
+                        "$": {
+                            "name": "C300a",
+                            "angleID": "0000C300a"
+                        },
+                        "clip": [
+                            {
+                                "$": {
+                                    "name": "20171205_004_MCB81_Sugar_C300a_001.mov",
+                                    "offset": "0s",
+                                    "duration": "170882712/24000s",
+                                    "start": "1091591501/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "video": [
+                                    {
+                                        "$": {
+                                            "name": "20171205_004_MCB81_Sugar_C300a_001 - v1",
+                                            "offset": "1091591501/24000s",
+                                            "ref": "r11",
+                                            "duration": "170882712/24000s",
+                                            "start": "1091591501/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "$": {
+                                                    "name": "20171205_004_MCB81_Sugar_C300a_001 - a1",
+                                                    "lane": "-1",
+                                                    "offset": "1091591501/24000s",
+                                                    "ref": "r11",
+                                                    "duration": "170882712/24000s",
+                                                    "start": "1091591501/24000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            },
+                                            {
+                                                "$": {
+                                                    "name": "20171205_004_MCB81_Sugar_C300a_001 - a1",
+                                                    "lane": "-1",
+                                                    "offset": "32747745030/720000s",
+                                                    "ref": "r11",
+                                                    "duration": "5126481360/720000s",
+                                                    "start": "32747745030/720000s",
+                                                    "role": "dialogue.dialogue-2",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "audio-channel-source": [
+                                    {
+                                        "$": {
+                                            "role": "dialogue.dialogue-1",
+                                            "srcCh": "1"
+                                        }
+                                    },
+                                    {
+                                        "$": {
+                                            "role": "dialogue.dialogue-2",
+                                            "srcCh": "2"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "$": {
+                                    "name": "20171205_004_MCB81_Sugar_C300a_002.mov",
+                                    "offset": "170882712/24000s",
+                                    "duration": "14005992/24000s",
+                                    "start": "1262474213/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "video": [
+                                    {
+                                        "$": {
+                                            "name": "20171205_004_MCB81_Sugar_C300a_002 - v1",
+                                            "offset": "1262474213/24000s",
+                                            "ref": "r12",
+                                            "duration": "14005992/24000s",
+                                            "start": "1262474213/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "$": {
+                                                    "name": "20171205_004_MCB81_Sugar_C300a_002 - a1",
+                                                    "lane": "-1",
+                                                    "offset": "1262474213/24000s",
+                                                    "ref": "r12",
+                                                    "duration": "14005992/24000s",
+                                                    "start": "1262474213/24000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            },
+                                            {
+                                                "$": {
+                                                    "name": "20171205_004_MCB81_Sugar_C300a_002 - a1",
+                                                    "lane": "-1",
+                                                    "offset": "37874226390/720000s",
+                                                    "ref": "r12",
+                                                    "duration": "420179760/720000s",
+                                                    "start": "37874226390/720000s",
+                                                    "role": "dialogue.dialogue-2",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "audio-channel-source": [
+                                    {
+                                        "$": {
+                                            "role": "dialogue.dialogue-1",
+                                            "srcCh": "1"
+                                        }
+                                    },
+                                    {
+                                        "$": {
+                                            "role": "dialogue.dialogue-2",
+                                            "srcCh": "2"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "$": {
+                            "name": "C300b",
+                            "angleID": "0000C300b"
+                        },
+                        "gap": [
+                            {
+                                "$": {
+                                    "name": "Gap",
+                                    "offset": "0s",
+                                    "duration": "1357356/24000s",
+                                    "start": "86400314/24000s"
+                                }
+                            }
+                        ],
+                        "clip": [
+                            {
+                                "$": {
+                                    "name": "20171205_004_MCB81_Sugar_C300b_001.mov",
+                                    "offset": "1357356/24000s",
+                                    "duration": "171195024/24000s",
+                                    "start": "1092948857/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "video": [
+                                    {
+                                        "$": {
+                                            "name": "20171205_004_MCB81_Sugar_C300b_001 - v1",
+                                            "offset": "1092948857/24000s",
+                                            "ref": "r13",
+                                            "duration": "171195024/24000s",
+                                            "start": "1092948857/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "$": {
+                                                    "name": "20171205_004_MCB81_Sugar_C300b_001 - a1",
+                                                    "lane": "-1",
+                                                    "offset": "1092948857/24000s",
+                                                    "ref": "r13",
+                                                    "duration": "171195024/24000s",
+                                                    "start": "1092948857/24000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            },
+                                            {
+                                                "$": {
+                                                    "name": "20171205_004_MCB81_Sugar_C300b_001 - a1",
+                                                    "lane": "-1",
+                                                    "offset": "32788465710/720000s",
+                                                    "ref": "r13",
+                                                    "duration": "5135850720/720000s",
+                                                    "start": "32788465710/720000s",
+                                                    "role": "dialogue.dialogue-2",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "audio-channel-source": [
+                                    {
+                                        "$": {
+                                            "role": "dialogue.dialogue-1",
+                                            "srcCh": "1"
+                                        }
+                                    },
+                                    {
+                                        "$": {
+                                            "role": "dialogue.dialogue-2",
+                                            "srcCh": "2"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "$": {
+                                    "name": "20171205_004_MCB81_Sugar_C300b_002.mov",
+                                    "offset": "172552380/24000s",
+                                    "duration": "12288276/24000s",
+                                    "start": "1264143881/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "video": [
+                                    {
+                                        "$": {
+                                            "name": "20171205_004_MCB81_Sugar_C300b_002 - v1",
+                                            "offset": "1264143881/24000s",
+                                            "ref": "r14",
+                                            "duration": "12288276/24000s",
+                                            "start": "1264143881/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "$": {
+                                                    "name": "20171205_004_MCB81_Sugar_C300b_002 - a1",
+                                                    "lane": "-1",
+                                                    "offset": "1264143881/24000s",
+                                                    "ref": "r14",
+                                                    "duration": "12288276/24000s",
+                                                    "start": "1264143881/24000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            },
+                                            {
+                                                "$": {
+                                                    "name": "20171205_004_MCB81_Sugar_C300b_002 - a1",
+                                                    "lane": "-1",
+                                                    "offset": "37924316430/720000s",
+                                                    "ref": "r14",
+                                                    "duration": "368648280/720000s",
+                                                    "start": "37924316430/720000s",
+                                                    "role": "dialogue.dialogue-2",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "audio-channel-source": [
+                                    {
+                                        "$": {
+                                            "role": "dialogue.dialogue-1",
+                                            "srcCh": "1"
+                                        }
+                                    },
+                                    {
+                                        "$": {
+                                            "role": "dialogue.dialogue-2",
+                                            "srcCh": "2"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "$": {
+                            "name": "GH4",
+                            "angleID": "0000GH4"
+                        },
+                        "gap": [
+                            {
+                                "$": {
+                                    "name": "Gap",
+                                    "offset": "0s",
+                                    "duration": "1611610/24000s",
+                                    "start": "86400314/24000s"
+                                }
+                            }
+                        ],
+                        "clip": [
+                            {
+                                "$": {
+                                    "name": "20171205_004_MCB81_Sugar_GH4_001.MOV",
+                                    "offset": "1611610/24000s",
+                                    "duration": "183125943/24000s",
+                                    "start": "1093203111/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "video": [
+                                    {
+                                        "$": {
+                                            "name": "20171205_004_MCB81_Sugar_GH4_001 - v1",
+                                            "offset": "1093203111/24000s",
+                                            "ref": "r15",
+                                            "duration": "183125943/24000s",
+                                            "start": "1093203111/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "$": {
+                                                    "name": "20171205_004_MCB81_Sugar_GH4_001 - a1",
+                                                    "lane": "-1",
+                                                    "offset": "32796093330/720000s",
+                                                    "ref": "r15",
+                                                    "duration": "5493778290/720000s",
+                                                    "start": "32796093330/720000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            },
+                                            {
+                                                "$": {
+                                                    "name": "20171205_004_MCB81_Sugar_GH4_001 - a1",
+                                                    "lane": "-1",
+                                                    "offset": "1093203111/24000s",
+                                                    "ref": "r15",
+                                                    "duration": "183125943/24000s",
+                                                    "start": "1093203111/24000s",
+                                                    "role": "dialogue.dialogue-2",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "audio-channel-source": [
+                                    {
+                                        "$": {
+                                            "role": "dialogue.dialogue-1",
+                                            "srcCh": "1"
+                                        }
+                                    },
+                                    {
+                                        "$": {
+                                            "role": "dialogue.dialogue-2",
+                                            "srcCh": "2"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

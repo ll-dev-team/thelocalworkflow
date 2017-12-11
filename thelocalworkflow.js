@@ -13,19 +13,16 @@ const path = require('path');
 var mongoose = require('mongoose');
 // const transcode = require("./tools/scripts/transcode").transcode;
 const transcode = require("./tools/scripts/transcode_sync").transcode;
-const io2s = require("./tools/scripts/io2s").io2s;
+const io2s = require("./tools/scripts/io2s_002").io2s;
 const xml = require('xml');
 const popFcpxml = require("./tools/scripts/populate_fcpxml");
-var ioExample = require("./tools/data/io2s_20171018_002_test.json");
-
 var reHidden = /^\./;
-
 const csv=require('csvtojson')
 
 require('dotenv').config();
 
-// var mongoDB = process.env.MONGODB_URL;
-var mongoDB = process.env.MONGODB_URL_DEV;
+var mongoDB = process.env.MONGODB_URL;
+// var mongoDB = process.env.MONGODB_URL_DEV;
 console.log("mongoDB url is " + mongoDB);
 mongoose.connect(mongoDB);
 var db = mongoose.connection;
@@ -54,12 +51,16 @@ if (args.help || !(args.m2s || args.rename || args.compress || args.m2sf || args
 }
 
 if (args.io2s) {
+
+  // var ioExample = require("./tools/data/io2s_20171018_002_test.json");
+  var ioExample = require("./tools/data/mcb81_sugar_new.json");
+  // var sourceXmlPath = './tools/examples/20171018_002_Test_JustStudio_v1 copy.fcpxml';
+  var sourceXmlPath = './tools/data/mcb81_sugar_all_shoots_.fcpxml'
   // var sourceXmlPath = args.xml;
-  var sourceXmlPath = './tools/examples/20171018_002_Test_JustStudio_v1 copy.fcpxml';
 
   console.log("starting io2s");
   io2s(ioExample, sourceXmlPath);
-  console.log("done");
+
 
 }
 

@@ -19,13 +19,13 @@ function fcpxmlToDb (folderPath) {
     if (reFcpxml.test(file)) {
       console.log("this looks like a fcpxml file: " + file);
       var theXmlString = fs.readFileSync(path.join(folderPath, file), "utf-8");
-      var shootId = (file.split('_')[0] + "_" + file.split('_')[1] + "_" + file.split('_')[2] + "_" + file.split('_')[3]);
+      var thisShootId = (file.split('_')[0] + "_" + file.split('_')[1] + "_" + file.split('_')[2] + "_" + file.split('_')[3]);
       parseXml(theXmlString, (err, thisObj)=>{
         if (err) {
           console.log(err);
         }
         // console.log("here is the json from xml: \n" + JSON.stringify(thisObj, null, 4));
-        var newFcpxml = new Fcpxml({shootId: shootId, fcpxml: theXmlString });
+        var newFcpxml = new Fcpxml({shootId: thisShootId, fcpxml: theXmlString });
         newFcpxml.save((err)=> {
           // console.log("saved result:\n")
         });
@@ -35,7 +35,7 @@ function fcpxmlToDb (folderPath) {
           console.log("Clip #" + (i + 1) + ":");
           console.log(thisObj.fcpxml.resources[0].asset[i].$.name);
         }
-        var newShoot = new Shoot({shootId: shootId, })
+        var newShoot = new Shoot({shootId: thisShootId })
         var shootObjectJson = JSON.stringify(thisObj, null, 4);
         fs.writeFileSync(pathForJson, shootObjectJson);
       });

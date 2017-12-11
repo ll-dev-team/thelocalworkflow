@@ -1,0 +1,254 @@
+<event name="Projects">
+    <project name="sugar_rough_cut">
+        <sequence duration="25253228/24000s" format="r1" renderColorSpace="Rec. 709" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+            <spine>
+                <mc-clip name="20171201_001_MCB81_Sugar_MC" offset="0/24000s" ref="r5" duration="1440439/24000s" start="863516654/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000C300a" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171201_001_MCB81_Sugar_MC" offset="1440439/24000s" ref="r5" duration="144144/24000s" start="864956092/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000C300a" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171201_001_MCB81_Sugar_MC" offset="1584583/24000s" ref="r5" duration="104104/24000s" start="865524660/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000GH4" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171201_001_MCB81_Sugar_MC" offset="1688687/24000s" ref="r5" duration="44044/24000s" start="866149284/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000GH4" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171201_001_MCB81_Sugar_MC" offset="1732731/24000s" ref="r5" duration="423423/24000s" start="868388521/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000C300a" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171201_001_MCB81_Sugar_MC" offset="2156154/24000s" ref="r5" duration="402402/24000s" start="881398518/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000GH4" srcEnable="video"/>
+                </mc-clip>
+                <gap name="Gap" offset="2558556/24000s" duration="72072/24000s" start="86400314/24000s">
+                </gap>
+                <mc-clip name="20171201_001_MCB81_Sugar_MC" offset="2630628/24000s" ref="r5" duration="274274/24000s" start="889431543/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000C300b" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171201_001_MCB81_Sugar_MC" offset="2904902/24000s" ref="r5" duration="234234/24000s" start="889705817/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000GH4" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171201_001_MCB81_Sugar_MC" offset="3139136/24000s" ref="r5" duration="203203/24000s" start="893584692/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000C300a" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171201_001_MCB81_Sugar_MC" offset="3342339/24000s" ref="r5" duration="305305/24000s" start="895024130/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000GH4" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171201_001_MCB81_Sugar_MC" offset="3647644/24000s" ref="r5" duration="220220/24000s" start="897433537/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000C300b" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171201_001_MCB81_Sugar_MC" offset="3867864/24000s" ref="r5" duration="155155/24000s" start="898137240/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000C300a" srcEnable="video"/>
+                </mc-clip>
+                <gap name="Gap" offset="4023019/24000s" duration="72072/24000s" start="86400314/24000s">
+                </gap>
+                <mc-clip name="20171201_001_MCB81_Sugar_MC" offset="4095091/24000s" ref="r5" duration="505505/24000s" start="917825909/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000GH4" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171201_001_MCB81_Sugar_MC" offset="4600596/24000s" ref="r5" duration="352352/24000s" start="926443518/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000GH4" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171201_001_MCB81_Sugar_MC" offset="4952948/24000s" ref="r5" duration="495495/24000s" start="928722795/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000GH4" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171201_001_MCB81_Sugar_MC" offset="5448443/24000s" ref="r5" duration="286286/24000s" start="930884955/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000GH4" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="5734729/24000s" ref="r16" duration="321321/24000s" start="1105702598/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000C300a" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="6056050/24000s" ref="r16" duration="511511/24000s" start="1106386281/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000GH4" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="6567561/24000s" ref="r16" duration="870870/24000s" start="1106966861/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000GH4" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="7438431/24000s" ref="r16" duration="949949/24000s" start="1108502395/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000GH4" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="8388380/24000s" ref="r16" duration="278278/24000s" start="1110358249/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000C300b" srcEnable="video"/>
+                </mc-clip>
+                <gap name="Gap" offset="8666658/24000s" duration="72072/24000s" start="86400314/24000s">
+                </gap>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="8738730/24000s" ref="r16" duration="245245/24000s" start="1147069924/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000C300a" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="8983975/24000s" ref="r16" duration="631631/24000s" start="1147344198/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000GH4" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="9615606/24000s" ref="r16" duration="1152151/24000s" start="1156827672/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000GH4" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="10767757/24000s" ref="r16" duration="366366/24000s" start="1126623498/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000C300b" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="11134123/24000s" ref="r16" duration="636636/24000s" start="1131470340/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000GH4" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="11770759/24000s" ref="r16" duration="154154/24000s" start="1168677510/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000C300b" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="11924913/24000s" ref="r16" duration="433433/24000s" start="1168839672/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000GH4" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="12358346/24000s" ref="r16" duration="287287/24000s" start="1178307130/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000C300a" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="12645633/24000s" ref="r16" duration="868868/24000s" start="1178641464/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000GH4" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="13514501/24000s" ref="r16" duration="777777/24000s" start="1248074828/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000C300a" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="14292278/24000s" ref="r16" duration="121121/24000s" start="1259194937/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000GH4" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="14413399/24000s" ref="r16" duration="121121/24000s" start="1255679425/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000GH4" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="14534520/24000s" ref="r16" duration="135135/24000s" start="1256652397/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000GH4" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="14669655/24000s" ref="r16" duration="92092/24000s" start="1259608350/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000C300a" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="14761747/24000s" ref="r16" duration="479479/24000s" start="1262704443/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000C300a" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="15241226/24000s" ref="r16" duration="165165/24000s" start="1210353144/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000C300b" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="15406391/24000s" ref="r16" duration="1325324/24000s" start="1210518309/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000GH4" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="16731715/24000s" ref="r16" duration="718718/24000s" start="1214498285/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000C300b" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="17450433/24000s" ref="r16" duration="226226/24000s" start="1224365142/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000C300b" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="17676659/24000s" ref="r16" duration="379379/24000s" start="1224591368/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000GH4" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="18056038/24000s" ref="r16" duration="524524/24000s" start="1225464240/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000C300b" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="18580562/24000s" ref="r16" duration="68068/24000s" start="1228731504/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000C300b" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="18648630/24000s" ref="r16" duration="402402/24000s" start="1228798571/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000GH4" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="19051032/24000s" ref="r16" duration="981981/24000s" start="1231580350/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000GH4" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="20033013/24000s" ref="r16" duration="177177/24000s" start="1236721486/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000C300a" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="20210190/24000s" ref="r16" duration="874874/24000s" start="1237956720/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000GH4" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="21085064/24000s" ref="r16" duration="305305/24000s" start="1241728488/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000C300b" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="21390369/24000s" ref="r16" duration="271271/24000s" start="1242084844/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000C300b" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="21661640/24000s" ref="r16" duration="447447/24000s" start="1113503391/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000C300a" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="22109087/24000s" ref="r16" duration="467467/24000s" start="1117901785/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000GH4" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="22576554/24000s" ref="r16" duration="157157/24000s" start="1119096979/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000C300b" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171205_004_MCB81_Sugar_MC" offset="22733711/24000s" ref="r16" duration="306306/24000s" start="1119844726/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000GH4" srcEnable="video"/>
+                </mc-clip>
+                <gap name="Gap" offset="23040017/24000s" duration="72072/24000s" start="86400314/24000s">
+                </gap>
+                <mc-clip name="20171204_001_MCB81_Sugar_MC" offset="23112089/24000s" ref="r10" duration="902902/24000s" start="859314456/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000C300b" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171204_001_MCB81_Sugar_MC" offset="24014991/24000s" ref="r10" duration="130130/24000s" start="837724888/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000C300a" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171204_001_MCB81_Sugar_MC" offset="24145121/24000s" ref="r10" duration="150150/24000s" start="837983146/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000C300a" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171204_001_MCB81_Sugar_MC" offset="24295271/24000s" ref="r10" duration="194194/24000s" start="841779939/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000C300a" srcEnable="video"/>
+                </mc-clip>
+                <mc-clip name="20171204_001_MCB81_Sugar_MC" offset="24489465/24000s" ref="r10" duration="235235/24000s" start="843330488/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000C300a" srcEnable="video"/>
+                </mc-clip>
+                <gap name="Gap" offset="24724700/24000s" duration="72072/24000s" start="86400314/24000s">
+                </gap>
+                <mc-clip name="20171204_001_MCB81_Sugar_MC" offset="24796772/24000s" ref="r10" duration="456456/24000s" start="865122258/24000s">
+                    <mc-source angleID="0000C300a" srcEnable="audio"/>
+                    <mc-source angleID="0000C300a" srcEnable="video"/>
+                </mc-clip>
+            </spine>
+        </sequence>
+    </project>
+</event>
