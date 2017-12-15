@@ -13,10 +13,11 @@ const path = require('path');
 var mongoose = require('mongoose');
 // const transcode = require("./tools/scripts/transcode").transcode;
 const transcode = require("./tools/scripts/transcode_sync").transcode;
-const io2s = require("./tools/scripts/io2s_002").io2s;
+const io2s = require("./tools/scripts/io2s").io2s;
 const xml = require('xml');
 const popFcpxml = require("./tools/scripts/populate_fcpxml");
 var reHidden = /^\./;
+var theDate = new Date;
 const csv=require('csvtojson')
 
 require('dotenv').config();
@@ -51,17 +52,11 @@ if (args.help || !(args.m2s || args.rename || args.compress || args.m2sf || args
 }
 
 if (args.io2s) {
-
-  // var ioExample = require("./tools/data/io2s_20171018_002_test.json");
-  var ioExample = require("./tools/data/mcb81_sugar_new.json");
-  // var sourceXmlPath = './tools/examples/20171018_002_Test_JustStudio_v1 copy.fcpxml';
-  var sourceXmlPath = './tools/data/mcb81_sugar_all_shoots_.fcpxml'
-  // var sourceXmlPath = args.xml;
-
+  var theJson = require(args.json);
+  var pathForXml = (args.json.split('.')[0] + '_' + theDate.getTime() + '.fcpxml');
+  var pathForJson = (args.json.split('.')[0] + '_' + theDate.getTime() + '.json');
   console.log("starting io2s");
-  io2s(ioExample, sourceXmlPath);
-
-
+  io2s(theJson, args.xml, pathForXml, pathForJson, args.title);
 }
 
 if (args.m2s) {
