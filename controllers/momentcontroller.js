@@ -59,6 +59,52 @@ exports.moment_create = function(req, res, next) {
     }
 
 };
+
+
+
+
+var moment = require('../models/moment');
+
+// Display list of all Authors
+exports.moment_list = function(req, res) {
+    res.send('NOT IMPLEMENTED: moment list');
+};
+
+// Display detail page for a specific Author
+exports.moment_detail = function(req, res) {
+    res.send('NOT IMPLEMENTED: moment detail: ' + req.params.id);
+};
+
+// Display Author create form on GET
+exports.moment_create_get = function(req, res) {
+    res.send('NOT IMPLEMENTED: moment create GET');
+};
+
+// Handle Author create on POST
+exports.moment_create_post = function(req, res) {
+    res.send('NOT IMPLEMENTED: moment create POST');
+};
+
+// Display Author delete form on GET
+exports.moment_delete_get = function(req, res) {
+    res.send('NOT IMPLEMENTED: moment delete GET');
+};
+
+// Handle Author delete on POST
+exports.moment_delete_post = function(req, res) {
+    res.send('NOT IMPLEMENTED: moment delete POST');
+};
+
+// Display Author update form on GET
+exports.moment_update_get = function(req, res) {
+    res.send('NOT IMPLEMENTED: moment update GET');
+};
+
+// Handle Author update on POST
+exports.moment_update_post = function(req, res) {
+    res.send('NOT IMPLEMENTED: moment update POST');
+};
+
 //
 // // Display Author delete form on GET
 // exports.author_delete_get = function(req, res, next) {

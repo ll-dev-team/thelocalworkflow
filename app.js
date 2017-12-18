@@ -11,6 +11,7 @@ require('dotenv').config();
 
 // require routes
 var index = require('./routes/index');
+var database = require('./routes/database');
 var users = require('./routes/users');
 var slack = require('./routes/slack');
 var shoots = require('./routes/shoots');
@@ -54,6 +55,7 @@ app.use('/m2s', m2s);
 app.use('/rename', rename);
 app.use('/test', test);
 app.use('/transcode', transcode);
+app.use('/database', database);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
