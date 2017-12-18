@@ -1,4 +1,4 @@
-var args = require('minimist')(process.argv.slice(2));
+xvar args = require('minimist')(process.argv.slice(2));
 const columnify = require('columnify');
 const fs = require('fs');
 const shootprocessor = require("./ll_modules/shootprocessor");

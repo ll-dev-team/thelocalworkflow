@@ -45,6 +45,7 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
         }
       }
     })
+
     console.log(JSON.stringify(mcArray, null, 4));
     var theDate = new Date();
     fs.writeFileSync(pathForJson, JSON.stringify(data, null, 4));
