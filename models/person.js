@@ -1,13 +1,10 @@
-//Require Mongoose
 var mongoose = require('mongoose');
-
-//Define a schema
 var Schema = mongoose.Schema;
 
-var personSchema = new Schema({
+var PersonSchema = new Schema({
     userId: String,
     firstName: String,
     lastName: String
-});
+}, {strict: false});
 
-module.exports.personSchema = personSchema;
+module.exports = mongoose.model('Person', PersonSchema);

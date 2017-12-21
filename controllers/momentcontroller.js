@@ -8,7 +8,7 @@ exports.moment_list = function(req, res, next) {
     .exec(function (err, list_moments) {
       if (err) { return next(err); }
       //Successful, so render
-      res.render('shootlist', { title: 'Moment List', momentlist:  list_moments});
+      res.render('momentlist', { title: 'Moment List',  tabTitle: 'Moment List',moment_list:  list_moments});
     })
 
 };
@@ -65,10 +65,7 @@ exports.moment_create = function(req, res, next) {
 
 var moment = require('../models/moment');
 
-// Display list of all Authors
-exports.moment_list = function(req, res) {
-    res.send('NOT IMPLEMENTED: moment list');
-};
+
 
 // Display detail page for a specific Author
 exports.moment_detail = function(req, res) {

@@ -2,8 +2,19 @@ var Segment = require('../models/segment');
 
 // Display list of all Authors
 exports.segment_list = function(req, res) {
-    res.send('NOT IMPLEMENTED: segment list');
+  Segment.find({})
+    .exec(function (err, list_segment) {
+      if (err) { return next(err); }
+      //Successful, so render
+      console.log(JSON.stringify(list_segment, null, 4));
+      res.render('segmentlist', { title: 'Segment List', tabTitle: "Segment List", segment_list: list_segment });
+
+    });
 };
+
+
+
+
 
 // Display detail page for a specific Author
 exports.segment_detail = function(req, res) {

@@ -1,9 +1,20 @@
 var Person = require('../models/person');
 
 // Display list of all Authors
-exports.person_list = function(req, res) {
-    res.send('NOT IMPLEMENTED: person list');
+exports.person_list = function(req, res, next) {
+  Person.find({})
+    .exec(function (err, list_people) {
+      if (err) { return next(err); }
+      //Successful, so render
+      console.log(JSON.stringify(list_people, null, 4));
+      res.render('peoplelist', { title: 'Person List', tabTitle: "Person List", people_list: list_people });
+
+    });
 };
+
+exports.shoot_list = function(req, res, next) {
+
+}
 
 // Display detail page for a specific Author
 exports.person_detail = function(req, res) {

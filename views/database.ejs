@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+  <html lang="en-US">
+  <head>
+    <% include partials/head.ejs %>
+  </head>
+  <body>
+    <% include partials/header.ejs %>
+    <p>Welcome to <%= title %></p>
+    <p>
+    We're going to try to get everything organized here.
+    </p>
+    <h2>DATA</h2>
+    <p>
+      <%= JSON.stringify(data, null, 4) %>
+    </p>
+    <h2>COUNTS</h2>
+    <ul>
+      <li>Number of people: <%= data.person_count %></li>
+      <li>Number of shoots: <%= data.shoot_count %></li>
+      <li>Number of segments: <%= data.segment_count %></li>
+      <li>Number of moments: <%= data.moment_count %></li>
+    </ul>
+
+    <h2>FUNCTIONS</h2>
+    <ul id="database_functions">
+     <li><a href="/database/shoots">List Shoots</a></li>
+     <li><a href="/database/people">List People</a></li>
+     <li><a href="/database/moments">List Moments</a></li>
+     <li><a href="/database/segments">List Segments</a></li>
+     <li><a href="/database/shoot/create">Create a Shoot</a></li>
+     <li><a href="/database/moment/create">Create a Moment</a></li>
+     <li><a href="/database/person/create">Create a Person</a></li>
+     <li><a href="/database/segment/create">Create a Segment</a></li>
+   </ul>
+
+
+  </body>
+<% include partials/foot.ejs %>

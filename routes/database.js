@@ -23,6 +23,13 @@ router.get('/shoot/create', shoot_controller.shoot_create_get);
 /* POST request for creating Book. */
 router.post('/shoot/create', shoot_controller.shoot_create_post);
 
+// router.get('/shoot/:id',
+//   function (req, res) {
+//     res.send("working: " + req.params.id)
+//   }
+// );
+
+
 /* GET request to delete Book. */
 router.get('/shoot/:id/delete', shoot_controller.shoot_delete_get);
 

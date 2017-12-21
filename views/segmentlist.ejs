@@ -4,18 +4,18 @@
     <% include partials/head %>
   </head>
   <body>
-        <% include partials/header.ejs %>
+    <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
 
     <p>
-      here are the shoots currently in the database.
+      here are the segments currently in the database.
     </p>
     <ul>
-    <% for (i=0; i<shoot_list.length; i++ ){ %>
+    <% for (i=0; i<segment_list.length; i++ ){ %>
 
-    </shoot_list.length;>
+    </segment_list.length;>
       <li>
-        <%= shoot_list[i].shootId %>
+        <%= segment_list[i].shootId + " " + segment_list[i].inPoint  %>
 
       </li>
 
