@@ -12,25 +12,33 @@
     <h2>shootId</h2>
     <form method="POST" action="/database/shoot/create">
       <div class="form-group">
-        <label> Genre:
+        <label> ShootId:
         </label>
-        <input id="shootId" class="form-control" type="text" placeholder="20171201_001_Test_Shoot" name="shootId" value="" />
+        <input id="shootId" class="form-control" type="text" placeholder="shoot ID here" name="shootId" value="" />
+        <label> fcpxml:
+        </label>
+        <input id="fcpxml" class="form-control" type="text" placeholder="paste .fcpxml here as text" name="fcpxml" value="" />
+        <label> people:
+        </label>
+        <input id="people" class="form-control" type="text" placeholder="" name="people" value="Marlon, Moira, Phil" />
+
         <button type="submit">Submit</button>
       </div>
     </form>
 
+    <% if (errors) {  %>
+      <h2>ERRORS</h2>
+       <ul>
+
+
+              <% for (i=0; i<errors.length; i++){ %>
+
+               <li>
+                 <%= errors[i].msg %>
+               </li>
+
+            <%  } %>
+       </ul>
+   <%  } %>
   </body>
 <% include partials/foot.ejs %>
-
-
-
-  form(method='POST' action='')
-    div.form-group
-      label(for='name') Genre:
-      input#name.form-control(type='text', placeholder='Fantasy, Poetry etc.' name='name' value=(undefined===genre ? '' : genre.name))
-    button.btn.btn-primary(type='submit') Submit
-
-  if errors
-    ul
-      for error in errors
-        li!= error.msg

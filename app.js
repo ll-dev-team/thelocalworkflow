@@ -26,7 +26,8 @@ var test = require('./routes/test');
 var mongoDB = process.env.MONGODB_URL_DEV;
 
 const { body,validationResult } = require('express-validator/check');
-const { sanitizeBody } = require('express-validator/filter');
+// const { sanitizeBody } = require('express-validator/filter');
+const { matchedData, sanitize } = require('express-validator/filter');
 
 
 console.log("mongoDB url is " + mongoDB);
@@ -48,8 +49,8 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(expressValidator());
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(expressValidator());
 
 app.use('/', index);
 app.use('/users', users);
