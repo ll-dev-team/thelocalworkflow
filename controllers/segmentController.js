@@ -7,7 +7,7 @@ exports.segment_list = function(req, res) {
       if (err) { return next(err); }
       //Successful, so render
       console.log(JSON.stringify(list_segment, null, 4));
-      res.render('segmentlist', { title: 'Segment List', tabTitle: "Segment List", segment_list: list_segment });
+      res.render('database/segmentlist', { title: 'Segment List', tabTitle: "Segment List", segment_list: list_segment });
 
     });
 };

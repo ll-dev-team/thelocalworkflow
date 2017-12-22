@@ -7,7 +7,7 @@ exports.person_list = function(req, res, next) {
       if (err) { return next(err); }
       //Successful, so render
       console.log(JSON.stringify(list_people, null, 4));
-      res.render('peoplelist', { title: 'Person List', tabTitle: "Person List", people_list: list_people });
+      res.render('database/peoplelist', { title: 'Person List', tabTitle: "Person List", people_list: list_people });
 
     });
 };

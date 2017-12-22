@@ -1,4 +1,5 @@
 var Shoot = require('../models/shoot');
+var async = require('async');
 
 // Display list of all Authors
 exports.shoot_list = function(req, res, next) {
@@ -7,18 +8,46 @@ exports.shoot_list = function(req, res, next) {
         if (err) { return next(err); }
         //Successful, so render
         console.log(JSON.stringify(list_shoots, null, 4));
-        res.render('shootlist', { title: 'Shoot List', tabTitle: "Shoot List", shoot_list: list_shoots });
+        res.render('database/shootlist', { title: 'Shoot List', tabTitle: "Shoot List", shoot_list: list_shoots });
       });
 }
 
 // Display detail page for a specific Author
-exports.shoot_detail = function(req, res) {
-    res.send('NOT IMPLEMENTED: shoot detail: ' + req.params.id);
+exports.shoot_detail = function(req, res, next) {
+    // res.send('NOT IMPLEMENTED: shoot detail: ' + req.params.id);
+    async.parallel({
+        shoot: function(callback) {
+                Shoot.findById(req.params.id)
+                  .exec(callback);
+            }
+
+
+            // ,
+            // genre_books: function(callback) {
+            //   Book.find({ 'genre': req.params.id })
+            //   .exec(callback);
+            // },
+
+        }, function(err, results) {
+            if (err) { return next(err); }
+            if (results.shoot==null) { // No results.
+                var err = new Error('Shoot not found');
+                err.status = 404;
+                return next(err);
+            }
+            // Successful, so render
+            res.render('database/shoot_detail', { title: 'Shoot Detail', tabTitle: 'Shoot Detail', theShoot: results.shoot
+            // , genre_books: results.genre_books
+            } );
+        });
+
+
+
 };
 
 // Display Author create form on GET
 exports.shoot_create_get = function(req, res) {
-    res.render('shoot_create', { title: 'Create Shoot', tabTitle: "Create Shoot", errors: null});
+    res.render('database/shoot_create', { title: 'Create Shoot', tabTitle: "Create Shoot", errors: null});
 };
 
 // Handle Author create on POST
@@ -92,10 +121,6 @@ exports.shoot_create_post = function(req, res, next) {
     }
 
 };
-
-
-
-
 
 // Display Author delete form on GET
 exports.shoot_delete_get = function(req, res) {

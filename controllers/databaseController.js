@@ -27,7 +27,7 @@ exports.index = function(req, res) {
           console.log(err);
         }
         JSON.stringify(results);
-        res.render('database', {title: "the Database", tabTitle: "theDatabase", data: results});
+        res.render('database/database', {title: "the Database", tabTitle: "theDatabase", data: results});
    });
 
 

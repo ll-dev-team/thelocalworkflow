@@ -8,7 +8,7 @@ exports.moment_list = function(req, res, next) {
     .exec(function (err, list_moments) {
       if (err) { return next(err); }
       //Successful, so render
-      res.render('momentlist', { title: 'Moment List',  tabTitle: 'Moment List',moment_list:  list_moments});
+      res.render('database/momentlist', { title: 'Moment List',  tabTitle: 'Moment List',moment_list:  list_moments});
     })
 
 };
@@ -16,7 +16,7 @@ exports.moment_list = function(req, res, next) {
 
 // Display Author create form on GET
 exports.shoot_create_get = function(req, res, next) {
-    res.render('momentform', { title: 'Create Author'});
+    res.render('database/momentform', { title: 'Create Author'});
 };
 
 // Handle Author create on POST
@@ -43,7 +43,7 @@ exports.moment_create = function(req, res, next) {
 
 
     if (errors) {
-        res.render('author_form', { title: 'Create Author', author: author, errors: errors});
+        res.render('database/author_form', { title: 'Create Author', author: author, errors: errors});
     return;
     }
     else {

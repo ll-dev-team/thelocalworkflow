@@ -9,5 +9,10 @@ var ShootSchema = new Schema({
 }, {strict: false});
 
 
+ShootSchema
+  .virtual('url')
+  .get(function () {
+    return '/database/shoot/' + this._id;
+});
 
 module.exports = mongoose.model('shoot', ShootSchema );
