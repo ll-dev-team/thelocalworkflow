@@ -14,8 +14,11 @@
     <% for (i=0; i<shoot_list.length; i++ ){ %>
 
     </shoot_list.length;>
-      <li>
+      <li><a href=
+        <%= ("/database/shoot/" + shoot_list[i]._id) %>
+        >
         <%= shoot_list[i].shootId %>
+      </a>
 
       </li>
 
