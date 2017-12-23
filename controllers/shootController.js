@@ -8,11 +8,10 @@ exports.shoot_list = function(req, res, next) {
         if (err) { return next(err); }
         //Successful, so render
         console.log(JSON.stringify(list_shoots, null, 4));
-        res.render('database/shootlist', { title: 'Shoot List', tabTitle: "Shoot List", shoot_list: list_shoots });
+        res.render('database/shoot_list', { title: 'Shoot List', tabTitle: "Shoot List", shoot_list: list_shoots });
       });
 }
 
-// Display detail page for a specific Author
 exports.shoot_detail = function(req, res, next) {
     // res.send('NOT IMPLEMENTED: shoot detail: ' + req.params.id);
     async.parallel({
@@ -36,6 +35,7 @@ exports.shoot_detail = function(req, res, next) {
                 return next(err);
             }
             // Successful, so render
+            console.log(JSON.stringify(results.shoot.fcpxml, null, 4));
             res.render('database/shoot_detail', { title: 'Shoot Detail', tabTitle: 'Shoot Detail', theShoot: results.shoot
             // , genre_books: results.genre_books
             } );
@@ -75,15 +75,15 @@ exports.shoot_create_post = function(req, res, next) {
     var errors = req.validationErrors();
     req.sanitize('date_of_birth').toDate();
     req.sanitize('date_of_death').toDate();
-
-
-
-
     console.log("the errors are " + JSON.stringify(errors, null, 4));
     var peopleArray = [];
     if (req.body.people) {
       var peopleArray = req.body.people.split(",");
-      peopleArray.map(function(s){return s.trim});
+      for (var i = 0; i < peopleArray.length; i++) {
+        peopleArray[i] = peopleArray[i].trim();
+      }
+      // peopleArray.map(function(s){return s.trim()});
+      console.log(JSON.stringify(peopleArray));
     }
     var theShoot = new Shoot(
       { shootId: req.body.shootId, fcpxml: req.body.fcpxml, people: peopleArray }
@@ -123,21 +123,86 @@ exports.shoot_create_post = function(req, res, next) {
 };
 
 // Display Author delete form on GET
-exports.shoot_delete_get = function(req, res) {
-    res.send('NOT IMPLEMENTED: shoot delete GET');
+exports.shoot_delete_get = function(req, res, next) {
+  async.parallel({
+    shoot: function(callback) {
+          Shoot.findById(req.params.id).exec(callback)
+      }
+      // ,
+      // authors_books: function(callback) {
+      //   Book.find({ 'author': req.params.id }).exec(callback)
+      // },
+    }, function(err, results) {
+      if (err) { return next(err); }
+      if (results.shoot==null) { // No results.
+          res.redirect('/database/shoots');
+      }
+      // Successful, so render.
+      res.render('database/shoot_delete', { title: 'Delete Shoot', tabTitle: 'Delete Shoot', theShoot: results.shoot } );
+    });
 };
 
 // Handle Author delete on POST
 exports.shoot_delete_post = function(req, res) {
-    res.send('NOT IMPLEMENTED: shoot delete POST');
+    // res.header("Content-Type",'application/json');
+    // res.send('NOT IMPLEMENTED: shoot delete POST\n' + JSON.stringify(req.body, null, 4));
+    async.parallel({
+        shoot: function(callback) {
+          Shoot.findById(req.body.dbId).exec(callback)
+        },
+        // authors_books: function(callback) {
+        //   Book.find({ 'author': req.body.authorid }).exec(callback)
+        // },
+    }, function(err, results) {
+        if (err) { return next(err); }
+        // Success
+        // if (results.authors_books.length > 0) {
+        //     // Author has books. Render in same way as for GET route.
+        //     res.render('author_delete', { title: 'Delete Author', author: results.author, author_books: results.authors_books } );
+        //     return;
+        // }
+        else {
+            Shoot.findByIdAndRemove(req.body.dbId, function deleteShoot(err) {
+                if (err) { return next(err); }
+                // Success - go to author list
+                res.redirect('/database/shoots')
+            })
+        }
+    });
 };
 
+
 // Display Author update form on GET
-exports.shoot_update_get = function(req, res) {
-    res.send('NOT IMPLEMENTED: shoot update GET');
+exports.shoot_update_get = function(req, res, next) {
+  console.log("in the get request");
+  // Get book, authors and genres for form.
+  async.parallel({
+      shoot: function(callback) {
+          Shoot.findById(req.params.id)
+          // .populate('author').populate('genre')
+          .exec(callback);
+      }
+      // ,
+      // authors: function(callback) {
+      //     Author.find(callback);
+      // },
+      // genres: function(callback) {
+      //     Genre.find(callback);
+      // },
+      }, function(err, results) {
+          if (err) { return next(err); }
+          if (results.shoot==null) { // No results.
+              var err = new Error('Shoot not found');
+              err.status = 404;
+              return next(err);
+          }
+          res.render('database/shoot_update', { title: 'Update Shoot', tabTitle: 'Update Shoot', theShoot:results.shoot });
+
+      });
 };
 
 // Handle Author update on POST
 exports.shoot_update_post = function(req, res) {
-    res.send('NOT IMPLEMENTED: shoot update POST');
+  res.header("Content-Type",'application/json');
+  res.send('NOT IMPLEMENTED: shoot update GET\n' + JSON.stringify(req.body, null, 4));
 };

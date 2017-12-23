@@ -7,12 +7,13 @@
     <% include ../partials/header.ejs %>
     <p>Welcome to <%= title %></p>
     <p>
-    Shoot details below.
+    Be careful with this one.
     </p>
 
-    <p class = "json">
+    <p class="json">
       <%- JSON.stringify(theShoot, null, 4) %>
     </p>
+
 
     <p>
       <%= theShoot._id %>
@@ -21,7 +22,7 @@
       <%= theShoot.shootId %>
     </p>
     <p class="fcpxml">
-      <%- theShoot.fcpxml %>
+      <%= theShoot.fcpxml %>
     </p>
   <%  if(theShoot.people){ %>
     <p>
@@ -40,10 +41,23 @@
       <% }} %>
     </ol>
     <p>
-      To delete, click <a href=<%- theShoot.deleteUrl %>>here.</a>
+      do you want to delete it?
     </p>
-    <p>
-      To update, click <a href=<%- (theShoot.url + '/update') %>>here.</a>
-    </p>
+    <form method="POST" >
+      <form method="POST" action=
+      <%- ('/database/shoot/' + theShoot._id + '/delete') %>
+
+      >
+      <div class="form-group">
+        <label> ShootId:
+        </label>
+        <input id="shootId" class="form-control" type="text" name="shootId" value=
+        <%= theShoot.shootId %>
+        />
+        <input type="hidden" name="dbId" value=<%- theShoot._id %>>
+        <button type="submit">yes</button>
+      </div>
+
+    </form>
   </body>
 <% include ../partials/foot.ejs %>

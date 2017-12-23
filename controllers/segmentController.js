@@ -12,10 +12,6 @@ exports.segment_list = function(req, res) {
     });
 };
 
-
-
-
-
 // Display detail page for a specific Author
 exports.segment_detail = function(req, res) {
     res.send('NOT IMPLEMENTED: segment detail: ' + req.params.id);
