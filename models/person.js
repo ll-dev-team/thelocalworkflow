@@ -2,9 +2,16 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var PersonSchema = new Schema({
-    userId: String,
     firstName: String,
-    lastName: String
+    lastName: String,
+    title: String,
+    email: String
 }, {strict: false});
 
-module.exports = mongoose.model('Person', PersonSchema);
+PersonSchema
+  .virtual('url')
+  .get(function () {
+    return '/database/person/' + this._id;
+});
+
+module.exports = mongoose.model('person', PersonSchema);

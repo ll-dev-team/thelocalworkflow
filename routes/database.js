@@ -7,7 +7,7 @@ var person_controller = require('../controllers/personController');
 var moment_controller = require('../controllers/momentController');
 var segment_controller = require('../controllers/segmentController');
 var database_controller = require('../controllers/databaseController');
-
+var Person = require('../models/person');
 
 /// BOOK ROUTES ///
 
@@ -63,6 +63,13 @@ router.post('/person/:id/update', person_controller.person_update_post);
 
 /* GET request for one person. */
 router.get('/person/:id', person_controller.person_detail);
+
+// router.get('/person/:id', (req, res, next)=>{
+//   Person.findById(req.params.id, (err, result)=> {
+//     console.log(JSON.stringify(result, null, 4));
+//     res.render('database/person_detail', { title: 'Person Detail', tabTitle: 'Person Detail', thePerson: result})
+//   });
+// });
 
 /* GET request for list of all persons. */
 router.get('/people', person_controller.person_list);

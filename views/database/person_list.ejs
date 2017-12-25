@@ -15,13 +15,15 @@
 
     </people_list.length;>
       <li>
-        <%= people_list[i].firstName + " " + people_list[i].lastName  %>
-
+        <a href=
+          <%= ("/database/person/" + people_list[i]._id) %>
+          >
+          <%= people_list[i].firstName + " " + people_list[i].lastName  %>
+        </a>
       </li>
 
 
   <%  }  %>
-
 
     </ul>
   </body>

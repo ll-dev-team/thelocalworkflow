@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+  <html lang="en-US">
+  <head>
+    <% include ../partials/head.ejs %>
+  </head>
+  <body>
+    <% include ../partials/header.ejs %>
+    <p>Welcome to <%= title %></p>
+    <p>
+    Let's create a shoot.
+    </p>
+    <h2>shootId</h2>
+    <form method="POST" action="/database/shoot/create">
+      <div class="form-group">
+        <label> ShootId:
+        </label>
+        <input id="shootId" class="form-control" type="text" placeholder="shoot ID here" name="shootId" value="" />
+        <label> fcpxml:
+        </label>
+        <input id="fcpxml" class="form-control" type="text" placeholder="paste .fcpxml here as text" name="fcpxml" value="" />
+        <!-- <input type="file" name="fcpmxl" /> -->
+        <label> people:
+        </label>
+        <input id="people" class="form-control" type="text" placeholder="" name="people" value="Marlon, Moira, Phil" />
+
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+
+    <% if (errors) {  %>
+      <h2>ERRORS</h2> 
+       <ul>
+
+
+              <% for (i=0; i<errors.length; i++){ %>
+
+               <li>
+                 <%= errors[i].msg %>
+               </li>
+
+            <%  } %>
+       </ul>
+   <%  } %>
+  </body>
+<% include ../partials/foot.ejs %>

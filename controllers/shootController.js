@@ -3,6 +3,7 @@ var async = require('async');
 var fs = require ('fs');
 var pd = require('pretty-data').pd;
 
+
 // Display list of all Authors
 exports.shoot_list = function(req, res, next) {
     Shoot.find({})

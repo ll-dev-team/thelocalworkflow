@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+  <html lang="en-US">
+  <head>
+    <% include ../partials/head.ejs %>
+  </head>
+  <body>
+    <% include ../partials/header.ejs %>
+    <p>Welcome to <%= title %>. To delete, click <a href=<%- (thePerson.url + '/delete') %>>here.</a> To update, click <a href=<%- (thePerson.url + '/update') %>>here.</a> To review the details on this person, look below.</p>
+    <h5>THE PERSON</h5>
+    <p>
+      <%= (thePerson.firstName + " " + thePerson.lastName) %>
+    </p>
+    <h5>SHOOTS</h5>
+    <p>
+    to implement
+    </p>
+
+  </body>
+<% include ../partials/foot.ejs %>
