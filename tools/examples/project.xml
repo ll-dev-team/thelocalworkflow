@@ -1,39 +1,22 @@
-<event name="Projects" uid="F632FD31-B1E6-4127-A3C3-26942E54DE36">
-    <project name="sugar_rough_cut" uid="98F496B0-2156-4C91-B278-3EE53194BE73" modDate="2017-12-11 06:31:10 -0500">
-        <sequence duration="3159156/24000s" format="r1" renderColorSpace="Rec. 709" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
-            <spine>
-                <mc-clip name="20171201_001_MCB81_Sugar_MC" offset="0s" ref="r5" duration="1440439/24000s" start="863516654/24000s">
-                    <mc-source angleID="0000C300a" srcEnable="all"/>
-                </mc-clip>
-                <mc-clip name="20171201_001_MCB81_Sugar_MC" offset="1440439/24000s" ref="r5" duration="144144/24000s" start="864956092/24000s">
-                    <mc-source angleID="0000C300a" srcEnable="all"/>
-                </mc-clip>
-                <mc-clip name="20171201_001_MCB81_Sugar_MC" offset="1584583/24000s" ref="r5" duration="104104/24000s" start="865524660/24000s">
-                    <mc-source angleID="0000C300a" srcEnable="audio"/>
-                    <mc-source angleID="0000GH4" srcEnable="video"/>
-                </mc-clip>
-                <mc-clip name="20171201_001_MCB81_Sugar_MC" offset="1688687/24000s" ref="r5" duration="54054/24000s" start="866149284/24000s">
-                    <mc-source angleID="0000C300a" srcEnable="audio"/>
-                    <mc-source angleID="0000GH4" srcEnable="video"/>
-                </mc-clip>
-                <mc-clip name="20171201_001_MCB81_Sugar_MC" offset="1742741/24000s" ref="r5" duration="433433/24000s" start="868388521/24000s">
-                    <mc-source angleID="0000C300a" srcEnable="audio"/>
-                    <mc-source angleID="0000GH4" srcEnable="video"/>
-                </mc-clip>
-                <mc-clip name="20171201_001_MCB81_Sugar_MC" offset="2176174/24000s" ref="r5" duration="402402/24000s" start="881398518/24000s">
-                    <mc-source angleID="0000C300a" srcEnable="audio"/>
-                    <mc-source angleID="0000GH4" srcEnable="video"/>
-                </mc-clip>
-                <gap name="Gap" offset="2578576/24000s" duration="72072/24000s" start="86400314/24000s"/>
-                <mc-clip name="20171201_001_MCB81_Sugar_MC" offset="2650648/24000s" ref="r5" duration="274274/24000s" start="889431543/24000s">
-                    <mc-source angleID="0000C300a" srcEnable="audio"/>
-                    <mc-source angleID="0000C300b" srcEnable="video"/>
-                </mc-clip>
-                <mc-clip name="20171201_001_MCB81_Sugar_MC" offset="2924922/24000s" ref="r5" duration="234234/24000s" start="889705817/24000s">
-                    <mc-source angleID="0000C300a" srcEnable="audio"/>
-                    <mc-source angleID="0000GH4" srcEnable="video"/>
-                </mc-clip>
-            </spine>
-        </sequence>
-    </project>
-</event>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+<fcpxml version="1.6">
+  <event name="Projects" uid="F632FD31-B1E6-4127-A3C3-26942E54DE36">
+      <project name="sugar_rough_cut" uid="98F496B0-2156-4C91-B278-3EE53194BE73" modDate="2017-12-11 06:31:10 -0500">
+          <sequence duration="3159156/24000s" format="r1" renderColorSpace="Rec. 709" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+              <spine>
+                  <mc-clip name="20171201_001_MCB81_Sugar_MC" offset="0s" ref="r5" duration="1440439/24000s" start="863516654/24000s">
+                      <mc-source angleID="0000C300a" srcEnable="all"/>
+                  </mc-clip>
+                  <mc-clip name="20171201_001_MCB81_Sugar_MC" offset="1440439/24000s" ref="r5" duration="144144/24000s" start="864956092/24000s">
+                      <mc-source angleID="0000C300a" srcEnable="all"/>
+                  </mc-clip>
+                  <mc-clip name="20171201_001_MCB81_Sugar_MC" offset="2924922/24000s" ref="r5" duration="234234/24000s" start="889705817/24000s">
+                      <mc-source angleID="0000C300a" srcEnable="audio"/>
+                      <mc-source angleID="0000GH4" srcEnable="video"/>
+                  </mc-clip>
+              </spine>
+          </sequence>
+      </project>
+  </event>
+</fcpxml>

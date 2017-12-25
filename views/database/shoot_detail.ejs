@@ -5,25 +5,13 @@
   </head>
   <body>
     <% include ../partials/header.ejs %>
-    <p>Welcome to <%= title %></p>
-    <p>
-    Shoot details below.
-    </p>
-
-    <p class = "json">
-      <%- JSON.stringify(theShoot, null, 4) %>
-    </p>
-
-    <p>
-      <%= theShoot._id %>
-    </p>
+    <p>Welcome to <%= title %>. To delete, click <a href=<%- theShoot.deleteUrl %>>here.</a> To update, click <a href=<%- (theShoot.url + '/update') %>>here.</a> To review the shoot details, look below.</p>
+    <h5>THE SHOOT ID</h5>
     <p>
       <%= theShoot.shootId %>
     </p>
-    <p class="fcpxml">
-      <%- theShoot.fcpxml %>
-    </p>
   <%  if(theShoot.people){ %>
+    <h5>THE PEOPLE</h5>
     <p>
       There are
       <%= theShoot.people.length %>
@@ -39,11 +27,17 @@
 
       <% }} %>
     </ol>
-    <p>
-      To delete, click <a href=<%- theShoot.deleteUrl %>>here.</a>
-    </p>
-    <p>
-      To update, click <a href=<%- (theShoot.url + '/update') %>>here.</a>
-    </p>
+
+
+    <h5>THE FCPXML</h5>
+    <div class="code"><pre><code><%= prettyFcpxml %></code>
+    </pre>
+    </div>
+    <h5>THE JSON FOR THE SHOOT</h5>
+    <div class="code" >
+        <pre><code><%= (JSON.stringify(theShoot, null, 4)) %>
+        </code></pre>
+    </div>
+
   </body>
 <% include ../partials/foot.ejs %>

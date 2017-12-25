@@ -1,5 +1,7 @@
 var Shoot = require('../models/shoot');
 var async = require('async');
+var fs = require ('fs');
+var pd = require('pretty-data').pd;
 
 // Display list of all Authors
 exports.shoot_list = function(req, res, next) {
@@ -20,7 +22,6 @@ exports.shoot_detail = function(req, res, next) {
                   .exec(callback);
             }
 
-
             // ,
             // genre_books: function(callback) {
             //   Book.find({ 'genre': req.params.id })
@@ -35,22 +36,19 @@ exports.shoot_detail = function(req, res, next) {
                 return next(err);
             }
             // Successful, so render
-            console.log(JSON.stringify(results.shoot.fcpxml, null, 4));
-            res.render('database/shoot_detail', { title: 'Shoot Detail', tabTitle: 'Shoot Detail', theShoot: results.shoot
+            var pdFcpxml = pd.xml(results.shoot.fcpxml);
+            console.log("\n\npdFcpxml: \n\n"+ pdFcpxml);
+            console.log(JSON.stringify(results.shoot, null, 4));
+            console.log("\n\n\n\n\n\n\n+++++++++++++++++++++");
+            res.render('database/shoot_detail', { title: 'Shoot Detail', tabTitle: 'Shoot Detail', theShoot: results.shoot, prettyFcpxml: (pd.xml(results.shoot.fcpxml))})
             // , genre_books: results.genre_books
             } );
-        });
+        }
 
-
-
-};
-
-// Display Author create form on GET
 exports.shoot_create_get = function(req, res) {
     res.render('database/shoot_create', { title: 'Create Shoot', tabTitle: "Create Shoot", errors: null});
 };
 
-// Handle Author create on POST
 exports.shoot_create_post = function(req, res, next) {
     console.log("just got a post request:\n" + JSON.stringify(req.body, null, 4));
     // req.checkBody('shootId', 'Shoot ID required').notEmpty();
@@ -59,22 +57,11 @@ exports.shoot_create_post = function(req, res, next) {
     req.checkBody('people', 'People required.').notEmpty(); //We won't force Alphanumeric, because people might have spaces.
     req.sanitize('shootId').escape();
     req.sanitize('shootId').trim();
-    req.sanitize('fcpxml').escape();
+    // req.sanitize('fcpxml').escape();
     req.sanitize('fcpxml').trim();
     req.sanitize('people').escape();
     req.sanitize('people').trim();
     var errors = req.validationErrors();
-
-
-    req.sanitize('first_name').escape();
-    req.sanitize('family_name').escape();
-    req.sanitize('first_name').trim();
-    req.sanitize('family_name').trim();
-
-    // check for errors here because below code will modify the value of dates which may cause validation error.
-    var errors = req.validationErrors();
-    req.sanitize('date_of_birth').toDate();
-    req.sanitize('date_of_death').toDate();
     console.log("the errors are " + JSON.stringify(errors, null, 4));
     var peopleArray = [];
     if (req.body.people) {
@@ -83,14 +70,18 @@ exports.shoot_create_post = function(req, res, next) {
         peopleArray[i] = peopleArray[i].trim();
       }
       // peopleArray.map(function(s){return s.trim()});
-      console.log(JSON.stringify(peopleArray));
+      // console.log(JSON.stringify(peopleArray));
     }
+    // var xmlData = fs.readFileSync('/Users/mk/Development/thelocalworkflow/tools/examples/20171018_002_Test_JustStudio_v1_copy.fcpxml', "utf-8");
+    // console.log("the XML data is +++++++++++++++++++++++++++++++" + xmlData);
     var theShoot = new Shoot(
-      { shootId: req.body.shootId, fcpxml: req.body.fcpxml, people: peopleArray }
+      { shootId: req.body.shootId, people: peopleArray, fcpxml: req.body.fcpxml  }
     );
+
+    // console.log(JSON.stringify(theShoot, null, 4));
     if (errors) {
         //If there are errors render the form again, passing the previously entered values and errors
-        res.render('shoot_create', { title: 'Create Shoot', tabTitle: "Create Shoot", errors: errors});
+        res.render('database/shoot_create', { title: 'Create Shoot', tabTitle: "Create Shoot", errors: errors});
     return;
     }
 
@@ -202,7 +193,43 @@ exports.shoot_update_get = function(req, res, next) {
 };
 
 // Handle Author update on POST
-exports.shoot_update_post = function(req, res) {
-  res.header("Content-Type",'application/json');
-  res.send('NOT IMPLEMENTED: shoot update GET\n' + JSON.stringify(req.body, null, 4));
+exports.shoot_update_post = function(req, res, next) {
+  // res.header("Content-Type",'application/json');
+  // res.send('NOT IMPLEMENTED: shoot update POST\n' + JSON.stringify(req.body, null, 4));
+  req.checkBody('shootId', 'Shoot ID must be alphanumeric text.').notEmpty();
+  req.checkBody('fcpxml', 'Fcpxml required.').notEmpty(); //We won't force Alphanumeric, because people might have spaces.
+  req.checkBody('people', 'People required.').notEmpty(); //We won't force Alphanumeric, because people might have spaces.
+  req.sanitize('shootId').escape();
+  req.sanitize('shootId').trim();
+  req.sanitize('fcpxml').escape();
+  req.sanitize('fcpxml').trim();
+  req.sanitize('people').escape();
+  req.sanitize('people').trim();
+  var errors = req.validationErrors();
+  console.log("the errors are " + JSON.stringify(errors, null, 4));
+  var peopleArray = [];
+  if (req.body.people) {
+    var peopleArray = req.body.people.split(",");
+    for (var i = 0; i < peopleArray.length; i++) {
+      peopleArray[i] = peopleArray[i].trim();
+    }
+    // peopleArray.map(function(s){return s.trim()});
+    console.log(JSON.stringify(peopleArray));
+  }
+  var theShoot = new Shoot(
+    { shootId: req.body.shootId, fcpxml: req.body.fcpxml, people: peopleArray, _id:req.params.id }
+  );
+  if (errors) {
+      //If there are errors render the form again, passing the previously entered values and errors
+      res.render('shoot_create', { title: 'Create Shoot', tabTitle: "Create Shoot", errors: errors});
+  return;
+  }
+  else {
+         Shoot.findByIdAndUpdate(req.params.id, theShoot, {}, function (err,thenewshoot) {
+           if (err) { return next(err); }
+           //successful - redirect to book detail page.
+           res.redirect(thenewshoot.url);
+         });
+
+       }
 };
