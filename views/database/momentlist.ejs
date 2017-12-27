@@ -4,25 +4,21 @@
     <% include ../partials/head %>
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-
-    <p>
-      here are the shoots currently in the database.
-    </p>
-    <ul>
-    <% for (i=0; i<moment_list.length; i++ ){ %>
-
-    </moment_list.length;>
-      <li>
-        <%= moment_list[i].shootId + " " + moment_list[i].inPoint  %>
-
-      </li>
-
-
-  <%  }  %>
-
-
-    </ul>
-  </body>
-<% include ../partials/foot %>
+    <% include ../partials/header.ejs %>
+    <div class="container">
+      <h1><%= title %></h1>
+      <p>
+        Welcome to <%= title %>
+      </p>
+      <p>
+        here are the shoots currently in the database.
+      </p>
+      <ul>
+        <% for (i=0; i<moment_list.length; i++ ){ %>
+          <li>
+            <%= moment_list[i].shootId + " " + moment_list[i].inPoint  %>
+          </li>
+        <%  }  %>
+      </ul>
+    </div>
+    <% include ../partials/foot %>

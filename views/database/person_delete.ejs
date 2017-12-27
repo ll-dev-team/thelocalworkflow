@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+  <html lang="en-US">
+  <head>
+    <% include ../partials/head.ejs %>
+  </head>
+  <body>
+    <% include ../partials/header.ejs %>
+    <div class="container">
+
+
+    <p>Welcome to <%= title %></p>
+    <p>
+    Be careful with this one.
+    </p>
+
+    <p class="json">
+      <%- JSON.stringify(thePerson, null, 4) %>
+    </p>
+
+    <p>
+      shoots?
+    </p>
+    <ol>
+      <% if (personShoots.length > 0) { for (var i = 0; i < personShoots.length; i++) {   %>
+            <li>
+             <%= personShoots[i].shootId %>
+            </li>
+      <% } }%>
+    </ol>
+
+    <p>
+      do you want to delete this person?  (for now their name will remain in shoots, but this may change)
+    </p>
+    <form method="POST" >
+      <form method="POST" action=
+      <%- ('/database/person/' + thePerson._id + '/delete') %>
+
+      >
+      <div class="form-group">
+        <label> PersonId:
+        </label>
+        <input id="fullName" class="form-control" type="text" name="fullName" value=
+        <%= thePerson.fullName %>
+        />
+        <input type="hidden" name="dbId" value=<%- thePerson._id %>>
+        <button type="submit">yes</button>
+      </div>
+
+    </form>
+      </div>
+    <% include ../partials/database_function_links.ejs %>
+<% include ../partials/foot.ejs %>

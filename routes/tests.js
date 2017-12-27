@@ -27,7 +27,9 @@ router.get('/clock', function(req, res, next) {
     res.render('clock', { tabTitle: 'clock', title: 'js clock', data: theData });
   });
 
-
+router.get('/rollover', function(req, res) {
+  res.render('tests/rollover', {title:"Rollover Test", tabTitle: "Rollover Test"});
+});
 
 module.exports = router;
 

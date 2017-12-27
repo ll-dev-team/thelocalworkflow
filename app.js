@@ -20,7 +20,7 @@ var transcode = require('./routes/transcode');
 var theworkflow = require('./routes/theworkflow');
 var m2s = require('./routes/m2s');
 var rename = require('./routes/rename');
-var test = require('./routes/test');
+var tests = require('./routes/tests');
 
 // var mongoDB = process.env.MONGODB_URL;
 var mongoDB = process.env.MONGODB_URL_DEV;
@@ -60,7 +60,7 @@ app.use('/moments', moments);
 app.use('/shoots', shoots);
 app.use('/m2s', m2s);
 app.use('/rename', rename);
-app.use('/test', test);
+app.use('/tests', tests);
 app.use('/transcode', transcode);
 app.use('/database', database);
 

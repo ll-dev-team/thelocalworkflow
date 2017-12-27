@@ -5,41 +5,24 @@
   </head>
   <body>
     <% include ../partials/header.ejs %>
-    <p>Welcome to <%= title %></p>
+    <div class="container">
     <p>
-    Let's create a shoot.
+    Let's create a person.
     </p>
-    <h2>shootId</h2>
-    <form method="POST" action="/database/shoot/create">
+    <h2>PERSON  </h2>
+    <form method="POST" action="/database/person/create">
       <div class="form-group">
-        <label> ShootId:
+        <label> First Name:
         </label>
-        <input id="shootId" class="form-control" type="text" placeholder="shoot ID here" name="shootId" value="" />
-        <label> fcpxml:
+        <input id="firstName" class="form-control" type="text" placeholder="first name" name="firstName" value="" />
+        <label> Last Name:
         </label>
-        <input id="fcpxml" class="form-control" type="text" placeholder="paste .fcpxml here as text" name="fcpxml" value="" />
-        <!-- <input type="file" name="fcpmxl" /> -->
-        <label> people:
+        <input id="lastName" class="form-control" type="text" placeholder="last name here" name="lastName" value="" />
+        <label> Title:
         </label>
-        <input id="people" class="form-control" type="text" placeholder="" name="people" value="Marlon, Moira, Phil" />
-
+        <input id="title" class="form-control" type="text" placeholder="title here" name="title" value="" />
         <button type="submit">Submit</button>
       </div>
     </form>
-
-    <% if (errors) {  %>
-      <h2>ERRORS</h2> 
-       <ul>
-
-
-              <% for (i=0; i<errors.length; i++){ %>
-
-               <li>
-                 <%= errors[i].msg %>
-               </li>
-
-            <%  } %>
-       </ul>
-   <%  } %>
-  </body>
+    </div>
 <% include ../partials/foot.ejs %>

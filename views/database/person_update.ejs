@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+  <html lang="en-US">
+  <head>
+    <% include ../partials/head.ejs %>
+  </head>
+  <body>
+    <% include ../partials/header.ejs %>
+      <div class = "container">
+        <p>Welcome to <%= title %></p>
+        <p>
+          Let's create a shoot.
+        </p>
+        <h2>shootId</h2>
+        <form method="POST" action=
+          <%= (theShoot.url + '/update') %>
+          >
+          <div class="form-group">
+            <label> ShootId:
+            </label>
+            <input id="shootId" class="form-control" type="text" name="shootId" value=<%= theShoot.shootId %> />
+            <label> fcpxml:
+            </label>
+            <input id="fcpxml" class="form-control" type="text" name="fcpxml" value=<%- theShoot.fcpxml %> />
+            <label> people:
+            </label>
+            <ol>
+              <% for (i=0; i<theShoot.people.length; i++) { %>
+                <li>
+                  <%= theShoot.people [i] %>
+                </li>
+                  <% } %>
+            </ol>
+            <input id="people" class="form-control" type="text" name="people" value=<%- theShoot.people %> />
+            <button type="submit">Update</button>
+          </div>
+        </form>
+      </div>
+    <% include ../partials/database_function_links.ejs %>
+<% include ../partials/foot.ejs %>

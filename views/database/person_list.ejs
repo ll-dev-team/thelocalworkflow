@@ -4,27 +4,22 @@
     <% include ../partials/head %>
   </head>
   <body>
-        <% include ../partials/header.ejs %>
-    <p>Welcome to <%= title %></p>
-
-    <p>
-      here are the shoots currently in the database.
-    </p>
-    <ul>
-    <% for (i=0; i<people_list.length; i++ ){ %>
-
-    </people_list.length;>
-      <li>
-        <a href=
-          <%= ("/database/person/" + people_list[i]._id) %>
-          >
-          <%= people_list[i].firstName + " " + people_list[i].lastName  %>
-        </a>
-      </li>
-
-
-  <%  }  %>
-
-    </ul>
-  </body>
-<% include ../partials/foot %>
+    <% include ../partials/header.ejs %>
+      <div class="container">
+        <h2>Welcome to <%= title %></h2>
+        <p>
+          here are the people currently in the database.
+        </p>
+        <ul>
+          <% for (i=0; i<people_list.length; i++ ){ %>
+            <li>
+              <a href=
+                <%= ("/database/person/" + people_list[i]._id) %>
+                >
+                <%= people_list[i].firstName + " " + people_list[i].lastName  %>
+              </a>
+            </li>
+          <% } %>
+        </ul>
+      </div>
+    <% include ../partials/foot %>

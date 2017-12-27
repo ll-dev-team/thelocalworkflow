@@ -14,4 +14,12 @@ PersonSchema
     return '/database/person/' + this._id;
 });
 
+PersonSchema
+  .virtual('fullName')
+  .get(function () {
+    return (this.firstName + " " + this.lastName);
+});
+
+
+
 module.exports = mongoose.model('person', PersonSchema);

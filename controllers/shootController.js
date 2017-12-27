@@ -53,7 +53,7 @@ exports.shoot_create_get = function(req, res) {
 exports.shoot_create_post = function(req, res, next) {
     console.log("just got a post request:\n" + JSON.stringify(req.body, null, 4));
     // req.checkBody('shootId', 'Shoot ID required').notEmpty();
-    req.checkBody('shootId', 'Shoot ID must be alphanumeric text.').notEmpty();
+    req.checkBody('shootId', 'Shoot ID required.').notEmpty();
     req.checkBody('fcpxml', 'Fcpxml required.').notEmpty(); //We won't force Alphanumeric, because people might have spaces.
     req.checkBody('people', 'People required.').notEmpty(); //We won't force Alphanumeric, because people might have spaces.
     req.sanitize('shootId').escape();
@@ -104,7 +104,7 @@ exports.shoot_create_post = function(req, res, next) {
                        if (err) { return next(err); }
                        //Genre saved. Redirect to genre detail page
                        // res.redirect(shoot.url);
-                       res.redirect('/database')
+                       res.redirect(theShoot.url)
                      });
 
                  }
