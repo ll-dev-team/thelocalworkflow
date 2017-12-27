@@ -2,11 +2,11 @@ var express = require('express');
 var router = express.Router();
 
 // Require controller modules
-var shoot_controller = require('../controllers/shootController');
-var person_controller = require('../controllers/personController');
-var moment_controller = require('../controllers/momentController');
-var segment_controller = require('../controllers/segmentController');
-var database_controller = require('../controllers/databaseController');
+var shoot_controller = require('../controllers/the_database/shootController');
+var person_controller = require('../controllers/the_database/personController');
+var moment_controller = require('../controllers/the_database/momentController');
+var segment_controller = require('../controllers/the_database/segmentController');
+var database_controller = require('../controllers/the_database/databaseController');
 var Person = require('../models/person');
 
 /// BOOK ROUTES ///

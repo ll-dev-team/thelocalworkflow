@@ -1,4 +1,4 @@
-var Shoot = require('../models/shoot');
+var Shoot = require('../../models/shoot');
 var async = require('async');
 var fs = require ('fs');
 var pd = require('pretty-data').pd;

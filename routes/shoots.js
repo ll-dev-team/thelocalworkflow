@@ -8,7 +8,7 @@ var db = mongoose.connection;
 
 router.get('/', function(req, res, next) {
   var theResult = ["results", "and more results", "probably lots"];
-  res.render('shoots_list', { tabTitle: 'LL Shoots', title: 'LL Shoots List', result: theResult })
+  res.render('tools/shoots_list', { tabTitle: 'LL Shoots', title: 'LL Shoots List', result: theResult })
 });
 
 router.post('/selectshoot', function(req, res, next){
@@ -17,7 +17,7 @@ router.post('/selectshoot', function(req, res, next){
   });
 
 router.get('/:shootId', function(req, res, next) {
-  res.render('shootinfo', { tabTitle: ('Info on ' + req.params.shootId), title: ('Details on ' + req.params.shootId), shootId: req.params.shootId })
+  res.render('tools/shootinfo', { tabTitle: ('Info on ' + req.params.shootId), title: ('Details on ' + req.params.shootId), shootId: req.params.shootId })
 });
 
 // router.get('/slackhistory', function(req, res, next) {

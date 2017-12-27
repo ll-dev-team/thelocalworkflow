@@ -99,7 +99,6 @@ function rename(folderPath) {
   return thisShoot;
 }
 
-
 function getShootInfo(folderPath) {
   // regex to cope with hidden files
   var re = /^\./;
@@ -190,7 +189,6 @@ function getShootInfo(folderPath) {
   })
   return thisShoot;
 }
-
 
 module.exports.rename = rename;
 module.exports.getShootInfo = getShootInfo;

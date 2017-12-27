@@ -1,4 +1,4 @@
-var Segment = require('../models/segment');
+var Segment = require('../../models/segment');
 
 // Display list of all Authors
 exports.segment_list = function(req, res) {

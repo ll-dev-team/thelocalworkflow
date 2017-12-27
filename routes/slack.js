@@ -32,8 +32,18 @@ router.get('/', function(req, res, next) {
     console.log(data);
     // console.log("the length of data is " + data.length);
     var theChannels = data.channels;
-    res.render('slack', { tabTitle: 'history-machine', title: 'The Slack History Machine', channels: theChannels });
+    res.render('slack/slack', { tabTitle: 'history-machine', title: 'The Slack History Machine', channels: theChannels });
   });
+});
+
+
+
+router.get('/invideo', function(req, res, next){
+  res.render('slack/invideo_form', { tabTitle: 'Slack in Video', title: 'The Slack in Video Machine'})
+});
+
+router.post('/make_segment', function(req, res, next){
+  res.send("not quite there yet.  check back soon.\n\nIn the meantime, here's your JSON:\n\n" + JSON.stringify(req.body, null, 4));
 });
 
 router.get('/channels', function(req, res, next){
@@ -71,7 +81,7 @@ router.post('/sync_users', function(req, res, next){
       });
   }
   else {
-      res.render('basic_result', { tabTitle: 'Sync Users Result', title: 'Sync Users Result', result: "no result"});
+      res.render('slack/basic_result', { tabTitle: 'Sync Users Result', title: 'Sync Users Result', result: "no result"});
   }
 
 });

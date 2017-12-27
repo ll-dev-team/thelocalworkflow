@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+  <html lang="en-US">
+  <head>
+    <% include ../partials/head.ejs %>
+  </head>
+  <body>
+    <% include ../partials/header.ejs %>
+    <div class="container">
+      <p>Welcome to <%= title %></p>
+      <form action="/slack/make_segment" method="post">
+        <fieldset>
+          <legend>
+            Let's get our slack json input here.
+          </legend>
+          <input type="text" name="slackJson" placeholder="Paste your JSON here."/>
+          <br />
+        </fieldset>
+        <br />
+        <fieldset>
+          <input type="submit" value="GO">
+        </fieldset>
+      </form>
+    </div>
+<% include ../partials/foot.ejs %>

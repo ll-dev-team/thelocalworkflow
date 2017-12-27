@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+  <html lang="en-US">
+  <head>
+    <% include ../partials/head %>
+  </head>
+  <body>
+    <% include ../partials/header.ejs %>
+    <div class="container">
+      <h1><%= title %></h1>
+      <p>Welcome to <%= title %></p>
+      <p>
+        all done.
+      </p>
+      <ul>
+        <li>
+          whole reqbody =
+          <%- JSON.stringify(reqbody) %>
+        </li>
+      </ul>
+    </div>
+<% include ../partials/foot %>

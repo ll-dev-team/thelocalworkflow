@@ -1,4 +1,4 @@
-var Still = require('../models/still');
+var Still = require('../../models/still');
 
 // Display list of all Authors
 exports.still_list = function(req, res) {

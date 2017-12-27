@@ -12,7 +12,7 @@ var destinationFolder = "/Volumes/mk2/tests/test_output/";
 
 router.get('/', function(req, res, next) {
   var folderPath = "/Users/mk/Development/test_materials/_readyToProxy/";
-  res.render('transcode_form', { tabTitle: 'Transcode Form', title: 'The Transcode Form', theFolderPath: folderPath });
+  res.render('tools/transcode_form', { tabTitle: 'Transcode Form', title: 'The Transcode Form', theFolderPath: folderPath });
 });
 
 router.post('/run_transcode', function(req, res){

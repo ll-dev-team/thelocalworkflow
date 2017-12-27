@@ -1,4 +1,4 @@
-var Moment = require('../models/moment')
+var Moment = require('../../models/moment')
 var async = require('async')
 
 // Display list of all Authors
@@ -59,11 +59,6 @@ exports.moment_create = function(req, res, next) {
     }
 
 };
-
-
-
-
-var moment = require('../models/moment');
 
 
 

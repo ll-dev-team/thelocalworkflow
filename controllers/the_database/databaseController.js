@@ -1,8 +1,8 @@
 
-var Moment = require('../models/moment');
-var Person = require('../models/person');
-var Segment = require('../models/segment');
-var Shoot = require('../models/shoot');
+var Moment = require('../../models/moment');
+var Person = require('../../models/person');
+var Segment = require('../../models/segment');
+var Shoot = require('../../models/shoot');
 var async = require('async');
 
 

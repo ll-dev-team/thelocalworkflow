@@ -1,12 +1,12 @@
 xvar args = require('minimist')(process.argv.slice(2));
 const columnify = require('columnify');
 const fs = require('fs');
-const shootprocessor = require("./ll_modules/shootprocessor");
-const fcpxml = require("./ll_modules/fcpxml");
+const shootprocessor = require("./tools/workflow_tools/shootprocessor");
+const fcpxml = require("./tools/workflow_tools/fcpxml");
 const dateFormat = require('dateformat');
-const compressor = require("./ll_modules/compressor");
-const m2s = require("./ll_modules/m2s").markersToStills;
-const m2sf = require("./ll_modules/m2s").fcpxmlFileToStills;
+const compressor = require("./tools/workflow_tools/compressor");
+const m2s = require("./tools/workflow_tools/m2s").markersToStills;
+const m2sf = require("./tools/workflow_tools/m2s").fcpxmlFileToStills;
 const MongoClient = require("mongodb").MongoClient, assert = require('assert');
 const cp = require('child_process');
 const path = require('path');

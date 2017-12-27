@@ -1,5 +1,5 @@
-var Person = require('../models/person');
-var Shoot = require('../models/shoot');
+var Person = require('../../models/person');
+var Shoot = require('../../models/shoot');
 var async = require('async');
 var pd = require('pretty-data').pd;
 

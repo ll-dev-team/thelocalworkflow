@@ -2,19 +2,19 @@ var express = require('express');
 var router = express.Router();
 require('dotenv').config();
 var mongoose = require('mongoose');
-const fcpxml = require("../ll_modules/fcpxml");
+const fcpxml = require("../tools/workflow_tools/fcpxml");
 const fs = require('fs');
 const cp = require('child_process');
 const _ = require('lodash');
-const m2s = require("../ll_modules/m2s").markersToStills;
-const rename = require("../ll_modules/shootprocessor").rename;
+const m2s = require("../tools/workflow_tools/m2s").markersToStills;
+const rename = require("../tools/workflow_tools/shootprocessor").rename;
 // var Message = require('../models/message');
 
 var db = mongoose.connection;
 
 router.get('/', function(req, res, next) {
   // send the rename form to the user.
-  res.render('rename_form', { tabTitle: 'rename Entry Form', title: 'the Rename Form' })
+  res.render('tools/rename_form', { tabTitle: 'rename Entry Form', title: 'the Rename Form' })
 });
 
 router.post('/run_rename', function(req, res, next){
@@ -23,7 +23,7 @@ router.post('/run_rename', function(req, res, next){
   console.log("initial form req.body: \n" + JSON.stringify(req.body, null, 5));
   // render the are you sure page, sending key data to client that needs to be sent back to server again
   // TODO: need to do a better job of handing this data over and getting it back.
-  res.render('rename_areusure', { tabTitle: 'rename confirmation', title: 'the Rename Form', folderPath: req.body.folderPath, people: req.body.people  })
+  res.render('tools/rename_areusure', { tabTitle: 'rename confirmation', title: 'the Rename Form', folderPath: req.body.folderPath, people: req.body.people  })
 });
 
 router.post('/confirm_rename', function(req, res, next){
