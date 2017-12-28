@@ -47,7 +47,7 @@ exports.moment_create_post = function(req, res, next) {
             if (err) { return next(err); }
                //successful - redirect to new author record.
               //  res.redirect(moment.url);
-              res.redirect('/');
+              res.redirect('/database/moments');
             });
 
     }
@@ -70,14 +70,52 @@ exports.moment_detail = function(req, res, next) {
   })
 };
 
-// Display Author delete form on GET
 exports.moment_delete_get = function(req, res) {
-    res.send('NOT IMPLEMENTED: moment delete GET');
+  async.parallel({
+    moment: function(callback) {
+          Moment.findById(req.params.id).exec(callback)
+      }
+      // ,
+      // authors_books: function(callback) {
+      //   Book.find({ 'author': req.params.id }).exec(callback)
+      // },
+    }, function(err, results) {
+      if (err) { return next(err); }
+      if (results.moment==null) { // No results.
+          res.redirect('/database/moments');
+      }
+      // Successful, so render.
+      res.render('database/moment_delete', { title: 'Delete Moment', tabTitle: 'Delete Moment', theMoment: results.moment } );
+    });
 };
 
 // Handle Author delete on POST
 exports.moment_delete_post = function(req, res) {
-    res.send('NOT IMPLEMENTED: moment delete POST');
+  // res.header("Content-Type",'application/json');
+  // res.send('NOT IMPLEMENTED: shoot delete POST\n' + JSON.stringify(req.body, null, 4));
+  async.parallel({
+      moment: function(callback) {
+        Moment.findById(req.body.dbId).exec(callback)
+      },
+      // authors_books: function(callback) {
+      //   Book.find({ 'author': req.body.authorid }).exec(callback)
+      // },
+  }, function(err, results) {
+      if (err) { return next(err); }
+      // Success
+      // if (results.authors_books.length > 0) {
+      //     // Author has books. Render in same way as for GET route.
+      //     res.render('author_delete', { title: 'Delete Author', author: results.author, author_books: results.authors_books } );
+      //     return;
+      // }
+      else {
+          Moment.findByIdAndRemove(req.body.dbId, function deleteMoment(err) {
+              if (err) { return next(err); }
+              // Success - go to author list
+              res.redirect('/database/moments')
+          })
+      }
+  });
 };
 
 // Display Author update form on GET

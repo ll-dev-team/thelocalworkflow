@@ -3,8 +3,6 @@ var async = require('async');
 var fs = require ('fs');
 var pd = require('pretty-data').pd;
 
-
-// Display list of all Authors
 exports.shoot_list = function(req, res, next) {
     Shoot.find({})
       .exec(function (err, list_shoots) {
@@ -114,7 +112,6 @@ exports.shoot_create_post = function(req, res, next) {
 
 };
 
-// Display Author delete form on GET
 exports.shoot_delete_get = function(req, res, next) {
   async.parallel({
     shoot: function(callback) {
@@ -134,7 +131,6 @@ exports.shoot_delete_get = function(req, res, next) {
     });
 };
 
-// Handle Author delete on POST
 exports.shoot_delete_post = function(req, res) {
     // res.header("Content-Type",'application/json');
     // res.send('NOT IMPLEMENTED: shoot delete POST\n' + JSON.stringify(req.body, null, 4));
@@ -163,8 +159,6 @@ exports.shoot_delete_post = function(req, res) {
     });
 };
 
-
-// Display Author update form on GET
 exports.shoot_update_get = function(req, res, next) {
   console.log("in the get request");
   // Get book, authors and genres for form.
@@ -193,7 +187,6 @@ exports.shoot_update_get = function(req, res, next) {
       });
 };
 
-// Handle Author update on POST
 exports.shoot_update_post = function(req, res, next) {
   // res.header("Content-Type",'application/json');
   // res.send('NOT IMPLEMENTED: shoot update POST\n' + JSON.stringify(req.body, null, 4));
