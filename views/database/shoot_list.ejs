@@ -4,27 +4,22 @@
     <% include ../partials/head %>
   </head>
   <body>
-        <% include ../partials/header.ejs %>
-    <p>Welcome to <%= title %></p>
-
-    <p>
-      here are the shoots currently in the database.
-    </p>
-    <ul>
-    <% for (i=0; i<shoot_list.length; i++ ){ %>
-
-    </shoot_list.length;>
-      <li><a href=
-        <%= ("/database/shoot/" + shoot_list[i]._id) %>
-        >
-        <%= shoot_list[i].shootId %>
-      </a>
-
-      </li>
-
-  <%  }  %>
-
-    </ul>
-    <% include ../partials/database_function_links.ejs %>
-
-<% include ../partials/foot %>
+    <% include ../partials/header.ejs %>
+    <div class="container">
+      <p>Welcome to <%= title %></p>
+      <p>
+        here are the shoots currently in the database.
+      </p>
+      <ul>
+        <% for (i=0; i<shoot_list.length; i++ ){ %>
+          <li>
+            <a href=
+              <%= ("/database/shoot/" + shoot_list[i]._id) %>
+              >
+              <%= shoot_list[i].shootId %>
+            </a>
+          </li>
+        <% } %>
+      </ul>
+    </div>
+  <% include ../partials/foot %>

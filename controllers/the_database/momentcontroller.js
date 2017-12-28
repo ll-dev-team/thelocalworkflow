@@ -13,14 +13,13 @@ exports.moment_list = function(req, res, next) {
 
 };
 
-
 // Display Author create form on GET
-exports.shoot_create_get = function(req, res, next) {
-    res.render('database/momentform', { title: 'Create Author'});
+exports.moment_create_get = function(req, res, next) {
+    res.render('database/moment_create', { title: 'Create Moment', tabTitle: "Create Moment"});
 };
 
 // Handle Author create on POST
-exports.moment_create = function(req, res, next) {
+exports.moment_create_post = function(req, res, next) {
   console.log("made it into momentController and in the moment_create function");
     req.checkBody('shootId', 'Shoot ID must be specified.').notEmpty(); //We won't force Alphanumeric, because people might have spaces.
     req.checkBody('inPoint', 'In Point must be specified.').notEmpty();
@@ -28,9 +27,11 @@ exports.moment_create = function(req, res, next) {
     req.sanitize('shootId').escape();
     req.sanitize('inPoint').escape();
     req.sanitize('outPoint').escape();
+    req.sanitize('description').escape();
     req.sanitize('shootId').trim();
     req.sanitize('inPoint').trim();
     req.sanitize('outPoint').trim();
+    req.sanitize('description').trim();
 
     var errors = req.validationErrors();
 
@@ -38,12 +39,11 @@ exports.moment_create = function(req, res, next) {
       {
         shootId: req.body.shootId,
         inPoint: req.body.inPoint,
-        outPoint: req.body.outPoint
+        outPoint: req.body.outPoint,
+        description: req.body.description
       });
-
-
     if (errors) {
-        res.render('database/author_form', { title: 'Create Author', author: author, errors: errors});
+        res.render('database/moment_create', { title: 'Create Moment',tabTitle: "Create Moment"});
     return;
     }
     else {
@@ -61,20 +61,15 @@ exports.moment_create = function(req, res, next) {
 };
 
 
+// exports.moment_create_post = function(req, res) {
+//   res.send(JSON.stringify(req.body, null, 4));
+// };
+
 
 // Display detail page for a specific Author
 exports.moment_detail = function(req, res) {
-    res.send('NOT IMPLEMENTED: moment detail: ' + req.params.id);
-};
-
-// Display Author create form on GET
-exports.moment_create_get = function(req, res) {
-    res.send('NOT IMPLEMENTED: moment create GET');
-};
-
-// Handle Author create on POST
-exports.moment_create_post = function(req, res) {
-    res.send('NOT IMPLEMENTED: moment create POST');
+    res.setHeader('Content-Type', 'application/json');
+    res.send('NOT IMPLEMENTED: moment detail: ' + JSON,stringify(req.body, null, 4));
 };
 
 // Display Author delete form on GET

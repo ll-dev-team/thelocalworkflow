@@ -6,26 +6,28 @@
   </head>
   <body>
     <% include ../partials/header.ejs %>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-    <p>
-      listing all stills from m2s.
-    </p>
+    <div class="container">
+      <h1><%= title %></h1>
+      <p>Welcome to <%= title %></p>
+      <p>
+        listing all stills from m2s.
+      </p>
 
-    <ol>
-      <% for (var i = 0; i < stillArray.length; i++) { %>
-      <li>
-        <%= stillArray[i].stillFilePath  %>
-      </li>
+      <ol>
+        <% for (var i = 0; i < stillArray.length; i++) { %>
+        <li>
+          <%= stillArray[i].stillFilePath  %>
+        </li>
+          <% } %>
+      </ol>
+
+      <div class="images">
+
+        <% for (var i = 0; i < stillArray.length; i++) { %>
+        <br />
+        <img src= <%= ("/images/" + stillArray[i].stillFileName)  %> class="image" >
+        <h4><%- stillArray[i].tcString %></h4>
         <% } %>
-    </ol>
-
-    <div class="images">
-
-      <% for (var i = 0; i < stillArray.length; i++) { %>
-      <br />
-      <img src= <%= ("/images/" + stillArray[i].stillFileName)  %> class="image" >
-      <h4><%- stillArray[i].tcString %></h4>
-      <% } %>
-    </div>
+      </div>
+    </div>    
 <% include ../partials/foot %>

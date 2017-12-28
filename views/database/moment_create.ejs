@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+  <html lang="en-US">
+  <head>
+    <% include ../partials/head.ejs %>
+  </head>
+  <body>
+    <% include ../partials/header.ejs %>
+    <div class="container">
+    <p>
+    Let's create a moment.
+    </p>
+    <h2><%= title %></h2>
+    <form method="POST" action="/database/moment/create">
+      <div class="form-group">
+        <label> Shoot ID:
+        </label>
+        <input id="shootId" class="form-control" type="text" placeholder="shootId" name="shootId" value="" />
+        <label> In:
+        </label>
+        <input id="inPoint" class="form-control" type="text" placeholder="in timecode" name="inPoint" value="" />
+        <label> Out:
+        </label>
+        <input id="outPoint" class="form-control" type="text" placeholder="out timecode" name="outPoint" value="" />
+        <label> Description:
+        </label>
+        <input id="description" class="form-control" type="text" placeholder="description here" name="description" value="" />
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+    </div>
+<% include ../partials/foot.ejs %>

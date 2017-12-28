@@ -7,8 +7,60 @@ nav {
 
 body {
   padding-top: 70px;
+  font-family: "Avenir", sans-serif;
 }
 
 .avenir {
   font-family: "Avenir";
 }
+
+.opacity80 {
+  opacity: .8;
+}
+
+.text-redblack {
+  color: rgba(200, 200, 200, 0.8)
+}
+
+.text-gray {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+a.dropdown-item {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.playful {
+  /* font-family: "Reenie Beanie";
+  font-size: 3rem; */
+}
+
+.playful-small {
+  /* font-family: "Reenie Beanie";
+  font-size: 1.5rem; */
+}
+
+h1 {
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+}
+
+h2 {
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .05rem;
+}
+
+input.form-control {
+  margin-bottom: 1rem;
+}
+/*
+h1 {
+  font-family: "Reenie Beanie", sans-serif;
+}
+
+h2 {
+  font-family: "Reenie Beanie", sans-serif;
+} */
