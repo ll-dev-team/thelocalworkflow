@@ -16,7 +16,13 @@
       <ul>
         <% for (i=0; i<moment_list.length; i++ ){ %>
           <li>
-            <%= moment_list[i].shootId + " " + moment_list[i].inPoint  %>
+            <a href =
+              <%= ("/database/moment/" + moment_list[i]._id) %>
+            >
+              <%= (moment_list[i].shootId) + " from " + moment_list[i].inPoint
+                  + " to " + moment_list[i].outPoint %>
+            </a>
+            <%= " (" + moment_list[i].description + ")" %>
           </li>
         <%  }  %>
       </ul>

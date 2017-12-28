@@ -1,24 +1,20 @@
 var Moment = require('../../models/moment')
 var async = require('async')
 
-// Display list of all Authors
 exports.moment_list = function(req, res, next) {
   Moment.find()
     .sort([['shootId', 'ascending']])
     .exec(function (err, list_moments) {
       if (err) { return next(err); }
       //Successful, so render
-      res.render('database/momentlist', { title: 'Moment List',  tabTitle: 'Moment List',moment_list:  list_moments});
+      res.render('database/moment_list', { title: 'Moment List',  tabTitle: 'Moment List', moment_list: list_moments});
     })
-
 };
 
-// Display Author create form on GET
 exports.moment_create_get = function(req, res, next) {
     res.render('database/moment_create', { title: 'Create Moment', tabTitle: "Create Moment"});
 };
 
-// Handle Author create on POST
 exports.moment_create_post = function(req, res, next) {
   console.log("made it into momentController and in the moment_create function");
     req.checkBody('shootId', 'Shoot ID must be specified.').notEmpty(); //We won't force Alphanumeric, because people might have spaces.
@@ -32,9 +28,7 @@ exports.moment_create_post = function(req, res, next) {
     req.sanitize('inPoint').trim();
     req.sanitize('outPoint').trim();
     req.sanitize('description').trim();
-
     var errors = req.validationErrors();
-
     var moment = new Moment(
       {
         shootId: req.body.shootId,
@@ -43,12 +37,12 @@ exports.moment_create_post = function(req, res, next) {
         description: req.body.description
       });
     if (errors) {
-        res.render('database/moment_create', { title: 'Create Moment',tabTitle: "Create Moment"});
+      // TODO: handle errors in view
+        res.render('database/moment_create', { title: 'Create Moment',tabTitle: "Create Moment", errorList: errors});
     return;
     }
     else {
     // Data from form is valid
-
         moment.save(function (err) {
             if (err) { return next(err); }
                //successful - redirect to new author record.
@@ -60,16 +54,20 @@ exports.moment_create_post = function(req, res, next) {
 
 };
 
-
-// exports.moment_create_post = function(req, res) {
-//   res.send(JSON.stringify(req.body, null, 4));
-// };
-
-
-// Display detail page for a specific Author
-exports.moment_detail = function(req, res) {
-    res.setHeader('Content-Type', 'application/json');
-    res.send('NOT IMPLEMENTED: moment detail: ' + JSON,stringify(req.body, null, 4));
+exports.moment_detail = function(req, res, next) {
+  Moment.findById(req.params.id, (err, moment)=>{
+    if (err) {
+      return next(err);
+    }
+    if (moment==null) {
+      var err = new Error('Moment not found');
+      err.status = 404;
+      return next(err);
+    }
+    else {
+      res.render('database/moment_detail', {title: 'Moment Detail', tabTitle: "Moment Detail", theMoment: moment})
+    }
+  })
 };
 
 // Display Author delete form on GET

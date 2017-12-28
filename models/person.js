@@ -20,6 +20,4 @@ PersonSchema
     return (this.firstName + " " + this.lastName);
 });
 
-
-
 module.exports = mongoose.model('person', PersonSchema);

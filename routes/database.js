@@ -97,12 +97,10 @@ router.post('/segment/:id/update', segment_controller.segment_update_post);
 /* GET request for one segment. */
 router.get('/segment/:id', segment_controller.segment_detail);
 
-/* GET request for list of all segment. */
+/* GET request for list of all segments. */
 router.get('/segments', segment_controller.segment_list);
 
-
-
-
+// GET request for creating moment.
 router.get('/moment/create', moment_controller.moment_create_get);
 
 /* POST request for creating moment. */
