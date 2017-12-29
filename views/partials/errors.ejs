@@ -1,0 +1,14 @@
+<% if (errors) {  %>
+  <h2>ERRORS</h2>
+   <ul>
+
+
+          <% for (i=0; i<errors.length; i++){ %>
+
+           <li>
+             <%= errors[i].msg %>
+           </li>
+
+        <%  } %>
+   </ul>
+<%  } %>

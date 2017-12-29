@@ -26,19 +26,6 @@
           <button type="submit">Submit</button>
         </div>
       </form>
-      <% if (errors) {  %>
-        <h2>ERRORS</h2>
-         <ul>
-
-
-                <% for (i=0; i<errors.length; i++){ %>
-
-                 <li>
-                   <%= errors[i].msg %>
-                 </li>
-
-              <%  } %>
-         </ul>
-     <%  } %>
+      <% include ../partials/errors.ejs  %>
     </div>
 <% include ../partials/foot.ejs %>

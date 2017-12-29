@@ -8,32 +8,36 @@
       <div class = "container">
         <p>Welcome to <%= title %></p>
         <p>
-          Let's create a shoot.
+          Let's update the moment then.
         </p>
-        <h2>shootId</h2>
         <form method="POST" action=
-          <%= (theShoot.url + '/update') %>
+          <%= (theMoment.url + '/update') %>
           >
-          <div class="form-group">
-            <label> ShootId:
-            </label>
-            <input id="shootId" class="form-control" type="text" name="shootId" value=<%= theShoot.shootId %> />
-            <label> fcpxml:
-            </label>
-            <input id="fcpxml" class="form-control" type="text" name="fcpxml" value=<%- theShoot.fcpxml %> />
-            <label> people:
-            </label>
-            <ol>
-              <% for (i=0; i<theShoot.people.length; i++) { %>
-                <li>
-                  <%= theShoot.people [i] %>
-                </li>
-                  <% } %>
-            </ol>
-            <input id="people" class="form-control" type="text" name="people" value=<%- theShoot.people %> />
-            <button type="submit">Update</button>
-          </div>
-        </form>
+            <div class="form-group">
+              <label> Shoot ID:
+              </label>
+              <input id="shootId" class="form-control" type="text" name="shootId" value=
+                <%- theMoment.shootId %>
+               />
+              <label> In:
+              </label>
+              <input id="inPoint" class="form-control" type="text" name="inPoint" value=
+                <%- theMoment.inPoint %>
+               />
+              <label> Out:
+              </label>
+              <input id="outPoint" class="form-control" type="text"  name="outPoint" value=
+                  <%- theMoment.outPoint %>
+               />
+              <label> Description:
+              </label>
+              <input id="description" class="form-control" type="text" name="description" value=
+                  <%- theMoment.description %>
+               />
+              <input type="hidden" name="dbId" value=<%- theMoment._id %>>
+              <button type="submit">Submit</button>
+            </div>
+          </form>
       </div>
-    <% include ../partials/database_function_links.ejs %>
+      <% include ../partials/errors.ejs  %>
 <% include ../partials/foot.ejs %>

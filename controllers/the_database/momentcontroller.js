@@ -12,7 +12,7 @@ exports.moment_list = function(req, res, next) {
 };
 
 exports.moment_create_get = function(req, res, next) {
-    res.render('database/moment_create', { title: 'Create Moment', tabTitle: "Create Moment"});
+    res.render('database/moment_create', { title: 'Create Moment', tabTitle: "Create Moment", errors: null});
 };
 
 exports.moment_create_post = function(req, res, next) {
@@ -89,7 +89,6 @@ exports.moment_delete_get = function(req, res) {
     });
 };
 
-// Handle Author delete on POST
 exports.moment_delete_post = function(req, res) {
   // res.header("Content-Type",'application/json');
   // res.send('NOT IMPLEMENTED: shoot delete POST\n' + JSON.stringify(req.body, null, 4));
@@ -118,31 +117,68 @@ exports.moment_delete_post = function(req, res) {
   });
 };
 
-// Display Author update form on GET
-exports.moment_update_get = function(req, res) {
-    res.send('NOT IMPLEMENTED: moment update GET');
-};
+exports.moment_update_get = function(req, res, next) {
+  console.log("in the get request");
+  // Get book, authors and genres for form.
+  async.parallel({
+      moment: function(callback) {
+          Moment.findById(req.params.id)
+          // .populate('author').populate('genre')
+          .exec(callback);
+      }
+      // ,
+      // authors: function(callback) {
+      //     Author.find(callback);
+      // },
+      // genres: function(callback) {
+      //     Genre.find(callback);
+      // },
+    }, function(err, results) {
+          if (err) { return next(err); }
+          if (results.moment==null) { // No results.
+              var err = new Error('Moment not found');
+              err.status = 404;
+              return next(err);
+          }
+          var errors = null;
+          res.render('database/moment_update', { title: 'Update Moment', tabTitle: 'Update Moment', theMoment:results.moment, errors: errors });
 
-// Handle Author update on POST
-exports.moment_update_post = function(req, res) {
-    res.send('NOT IMPLEMENTED: moment update POST');
-};
+      });
+}
 
-//
-// // Display Author delete form on GET
-// exports.author_delete_get = function(req, res, next) {
-//
-//     async.parallel({
-//         author: function(callback) {
-//             Author.findById(req.params.id).exec(callback)
-//         },
-//         authors_books: function(callback) {
-//           Book.find({ 'author': req.params.id }).exec(callback)
-//         },
-//     }, function(err, results) {
-//         if (err) { return next(err); }
-//         //Successful, so render
-//         res.render('author_delete', { title: 'Delete Author', author: results.author, author_books: results.authors_books } );
-//     });
-//
-// };
+exports.moment_update_post = function(req, res, next) {
+  console.log("just got moment update and req.body is \n\n" +
+      JSON.stringify(req.body, null, 4));
+  req.checkBody('shootId', 'Shoot ID must be alphanumeric text.').notEmpty();
+  req.checkBody('inPoint', 'In point required.').notEmpty(); //We won't force Alphanumeric, because people might have spaces.
+  req.checkBody('outPoint', 'Out point required.').notEmpty(); //We won't force Alphanumeric, because people might have spaces.
+  req.sanitize('shootId').escape();
+  req.sanitize('shootId').trim();
+  req.sanitize('inPoint').escape();
+  req.sanitize('inPoint').trim();
+  req.sanitize('outPoint').escape();
+  req.sanitize('outPoint').trim();
+  req.sanitize('description').escape();
+  req.sanitize('description').trim();
+  var errors = req.validationErrors();
+  console.log("the errors are " + JSON.stringify(errors, null, 4));
+  console.log("req.params.id is " + req.params.id);
+  console.log("and req.body.dbId is " + req.body.dbId)
+  var moment = new Moment(
+    { shootId: req.body.shootId, inPoint: req.body.inPoint, outPoint: req.body.outPoint, description: req.body.description, _id:req.body.dbId }
+  );
+  if (errors) {
+      //If there are errors render the form again, passing the previously entered values and errors
+      res.render('moment_update', { title: 'Create Moment', tabTitle: "Create Moment", theMoment: moment, errors: errors});
+  return;
+  }
+  else {
+         Moment.findByIdAndUpdate(req.body.dbId, moment, {}, function (err,thenewmoment) {
+           if (err) { return next(err); }
+           //successful - redirect to book detail page.
+           res.redirect(thenewmoment.url);
+         });
+
+       }
+
+}
