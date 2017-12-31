@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+  <html lang="en-US">
+  <head>
+    <% include ../partials/head.ejs %>
+  </head>
+  <body>
+    <% include ../partials/header.ejs %>
+    <div class="container">
+      <p>
+      Let's create a segment.  Paste in some <a href='/segment_create/fcpxml'>.fcpxml</a> OR a <a href='/segment_create/csv'>.csv</a> OR do it <a href='/segment_create/manual'>manually</a>?
+      </p>
+    <form method="POST" action="/database/segment/create">
+      <div class="form-group">
+        <label> Shoot ID:
+        </label>
+        <input id="shootId" class="form-control" type="text" placeholder="shootId" name="shootId" value="" />
+        <label> In:
+        </label>
+        <input id="inPoint" class="form-control" type="text" placeholder="in timecode" name="inPoint" value="" />
+        <label> Out:
+        </label>
+        <input id="outPoint" class="form-control" type="text" placeholder="out timecode" name="outPoint" value="" />
+        <label> Description:
+        </label>
+        <input id="angle" class="form-control" type="text" placeholder="angle here" name="angle" value="" />
+        <input type="hidden" name="option" value="manual" />
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+    <% include ../partials/errors.ejs  %>
+    </div>
+<% include ../partials/foot.ejs %>

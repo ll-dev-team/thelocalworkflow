@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+  <html lang="en-US">
+  <head>
+    <% include ../partials/head.ejs %>
+  </head>
+  <body>
+    <% include ../partials/header.ejs %>
+    <div class="container">
+    <p>Welcome to <%= title %></p>
+    <p>
+    Be careful with this one.
+    </p>
+
+    <p class="json">
+      <%- JSON.stringify(theSegment, null, 4) %>
+    </p>
+    <p>
+      <%= theSegment._id %>
+    </p>
+    <p>
+      <%= theSegment.shootId %>
+    </p>
+    <p>
+      do you want to delete it?
+    </p>
+    <form method="POST" >
+      <form method="POST" action=
+      <%- ('/database/segment/' + theSegment._id + '/delete') %>
+
+      >
+      <div class="form-group">
+        <input type="hidden" name="dbId" value=<%- theSegment._id %>>
+        <button type="submit">yes</button>
+      </div>
+    </form>
+  </div>
+<% include ../partials/foot.ejs %>

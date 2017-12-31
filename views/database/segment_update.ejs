@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+  <html lang="en-US">
+  <head>
+    <% include ../partials/head.ejs %>
+  </head>
+  <body>
+    <% include ../partials/header.ejs %>
+      <div class = "container">
+        <p>Welcome to <%= title %></p>
+        <p>
+          Let's update the segment then.
+        </p>
+        <p>
+          <%- JSON.stringify(theSegment, null, 4) %>
+        </p>
+      
+      </div>
+      <% include ../partials/errors.ejs  %>
+<% include ../partials/foot.ejs %>

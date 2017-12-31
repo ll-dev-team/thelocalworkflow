@@ -74,9 +74,11 @@ router.get('/person/:id', person_controller.person_detail);
 /* GET request for list of all persons. */
 router.get('/people', person_controller.person_list);
 
-/// moment ROUTES ///
-
 /* GET request for creating a segment. NOTE This must come before route that displays segment (uses id) */
+
+router.get('/segment/create/csv', segment_controller.segment_create_csv_get);
+router.get('/segment/create/manual', segment_controller.segment_create_manual_get);
+
 router.get('/segment/create', segment_controller.segment_create_get);
 
 /* POST request for creating segment. */

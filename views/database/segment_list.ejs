@@ -15,8 +15,13 @@
         </p>
         <ul>
           <% for (i=0; i<segment_list.length; i++ ){ %>
-            <li>
-              <%= segment_list[i].shootId + " " + segment_list[i].inPoint  %>
+            <li><a href=
+              <%=  segment_list[i].url %>
+              >
+              <%= "submitted at " + segment_list[i].submissionTs +
+                  " and testArray is " +
+                  JSON.stringify(segment_list[i].ioArray, null, 4)  %>
+            </a>
             </li>
           <% } %>
         </ul>

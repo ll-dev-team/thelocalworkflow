@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+  <html lang="en-US">
+  <head>
+    <% include ../partials/head.ejs %>
+  </head>
+  <body>
+    <% include ../partials/header.ejs %>
+    <div class="container">
+      <p>
+      Let's create a segment.  Paste in some csv here:
+      </p>
+      <form method="POST" action="/database/segment/create">
+        <div class="form-group">
+          <label> Title for the project:
+          </label>
+          <input id="title" class="form-control" type="text" placeholder="title" name="title" value="" />
+          <label> fcpxml:
+          </label>
+          <input id="fcpxml" class="form-control" type="text" placeholder="fcpxml here" name="fcpxml" value="" />
+          <label> csv:
+          </label>
+          <input id="csv" class="form-control" type="text" placeholder="csv here" name="csv" value="" />
+          <input type="hidden" name="option" value="csv" />
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    <% include ../partials/errors.ejs  %>
+    </div>
+<% include ../partials/foot.ejs %>

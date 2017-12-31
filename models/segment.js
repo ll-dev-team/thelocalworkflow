@@ -4,6 +4,7 @@ var Schema = mongoose.Schema;
 var ioRequestSchema = new Schema({
     fcpxml: String,
     submissionTs: Number,
+    title: String,
     ioArray: [],
 }, {strict: false}
 );
@@ -14,4 +15,4 @@ ioRequestSchema
     return '/database/segment/' + this._id;
 });
 
-module.exports = mongoose.model('ioRequest', ioRequestSchema );
+module.exports = mongoose.model('ioRequest', ioRequestSchema);
