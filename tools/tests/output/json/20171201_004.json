@@ -1,0 +1,1132 @@
+{
+    "fcpxml": {
+        "$": {
+            "version": "1.6"
+        },
+        "resources": [
+            {
+                "format": [
+                    {
+                        "$": {
+                            "id": "r1",
+                            "name": "FFVideoFormat1080p2398",
+                            "frameDuration": "1001/24000s",
+                            "width": "1920",
+                            "height": "1080"
+                        }
+                    }
+                ],
+                "asset": [
+                    {
+                        "$": {
+                            "id": "r2",
+                            "name": "20171201_004_TDM90AR_ScrapbookBTS_C300a_001",
+                            "uid": "B0C85F5ADAFE9FFE76BABCF3A2B92F96",
+                            "src": "file:///Volumes/RAID_5_007_15/2017_12/20171201_004_TDM90AR_ScrapbookBTS/C300a/20171201_004_TDM90AR_ScrapbookBTS_C300a_001.mov",
+                            "start": "1212386175/24000s",
+                            "duration": "50762712/24000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7QEAAAAAAQQMAAAADKZXqLB2EcVU9I6JvkMtKVFz2yOLyg1EwrOarfvDp3SsAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwANAAAAAQEAAFJBSURfNV8wMDdfMTUAAAAHAAAAAQEAADIwMTdfMTIAIQAAAAEBAAAyMDE3MTIwMV8wMDRfVERNOTBBUl9TY3JhcGJvb2tCVFMAAAAFAAAAAQEAAEMzMDBhAAAALwAAAAEBAAAyMDE3MTIwMV8wMDRfVERNOTBBUl9TY3JhcGJvb2tCVFNfQzMwMGFfMDAxLm1vdgAYAAAAAQYAABAAAAAgAAAAOAAAAEgAAAB0AAAAhAAAAAgAAAAEAwAApmcGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAABofxoAAAAAAAgAAAAEAwAAbn8aAAAAAAAIAAAABAMAAJN/GgAAAAAACAAAAAQDAACUfxoAAAAAABgAAAABBgAA3AAAAOwAAAD8AAAADAEAABwBAAAsAQAACAAAAAAEAABBv9HtEwAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAEFAAAEAAAAAwMAAAYAAAAEAAAAAwMAAAUAAAAeAAAAAQkAAGZpbGU6Ly8vVm9sdW1lcy9SQUlEXzVfMDA3XzE1LwAACAAAAAQDAAAAwN3lpA0AAAgAAAAABAAAQbtX0n0AAAAkAAAAAQEAADkyQjc2NjQ2LTRGREEtMzJDQS05NEVGLTA0QUYwNjU3RjY3OBgAAAABAgAAAQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAFgAAAAEBAAAvVm9sdW1lcy9SQUlEXzVfMDA3XzE1AAAIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA9AIAAAAAAAAFIAAAYAIAAAAAAAAQIAAAcAIAAAAAAAARIAAAqAIAAAAAAAASIAAAiAIAAAAAAAATIAAAmAIAAAAAAAAgIAAA1AIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAcAAAAAQYAAGgDAAB0AwAAgAMAAHQDAAB0AwAAdAMAAHQDAADMAAAA/v///wEAAAAAAwAAEAAAAAQQAAC8AAAAAAAAAAUQAAA8AQAAAAAAABAQAABsAQAAAAAAAEAQAABcAQAAAAAAAFQQAACUAQAAAAAAAFUQAACgAQAAAAAAAFYQAACMAQAAAAAAAAAgAACMAwAAAAAAAAIgAABAAgAAAAAAAAUgAACsAQAAAAAAABAgAAAgAAAAAAAAABEgAAD0AQAAAAAAABIgAADUAQAAAAAAABMgAADkAQAAAAAAACAgAAAgAgAAAAAAABDQAAAEAAAAAAAAAA=="
+                        ]
+                    },
+                    {
+                        "$": {
+                            "id": "r3",
+                            "name": "20171201_004_TDM90AR_ScrapbookBTS_C300a_002",
+                            "uid": "BBE66AE274EB94C11F3F8D06A7DEEB90",
+                            "src": "file:///Volumes/RAID_5_007_15/2017_12/20171201_004_TDM90AR_ScrapbookBTS/C300a/20171201_004_TDM90AR_ScrapbookBTS_C300a_002.mov",
+                            "start": "1263148887/24000s",
+                            "duration": "2534532/24000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7QEAAAAAAQQMAAAAHZVI8WU0f66/FTt/tNM6+6bgkuRLMGeTw/vUnmOckN1sAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwANAAAAAQEAAFJBSURfNV8wMDdfMTUAAAAHAAAAAQEAADIwMTdfMTIAIQAAAAEBAAAyMDE3MTIwMV8wMDRfVERNOTBBUl9TY3JhcGJvb2tCVFMAAAAFAAAAAQEAAEMzMDBhAAAALwAAAAEBAAAyMDE3MTIwMV8wMDRfVERNOTBBUl9TY3JhcGJvb2tCVFNfQzMwMGFfMDAyLm1vdgAYAAAAAQYAABAAAAAgAAAAOAAAAEgAAAB0AAAAhAAAAAgAAAAEAwAApmcGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAABofxoAAAAAAAgAAAAEAwAAbn8aAAAAAAAIAAAABAMAAJN/GgAAAAAACAAAAAQDAACVfxoAAAAAABgAAAABBgAA3AAAAOwAAAD8AAAADAEAABwBAAAsAQAACAAAAAAEAABBv9H1VgAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAEFAAAEAAAAAwMAAAYAAAAEAAAAAwMAAAUAAAAeAAAAAQkAAGZpbGU6Ly8vVm9sdW1lcy9SQUlEXzVfMDA3XzE1LwAACAAAAAQDAAAAwN3lpA0AAAgAAAAABAAAQbtX0n0AAAAkAAAAAQEAADkyQjc2NjQ2LTRGREEtMzJDQS05NEVGLTA0QUYwNjU3RjY3OBgAAAABAgAAAQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAFgAAAAEBAAAvVm9sdW1lcy9SQUlEXzVfMDA3XzE1AAAIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA9AIAAAAAAAAFIAAAYAIAAAAAAAAQIAAAcAIAAAAAAAARIAAAqAIAAAAAAAASIAAAiAIAAAAAAAATIAAAmAIAAAAAAAAgIAAA1AIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAcAAAAAQYAAGgDAAB0AwAAgAMAAHQDAAB0AwAAdAMAAHQDAADMAAAA/v///wEAAAAAAwAAEAAAAAQQAAC8AAAAAAAAAAUQAAA8AQAAAAAAABAQAABsAQAAAAAAAEAQAABcAQAAAAAAAFQQAACUAQAAAAAAAFUQAACgAQAAAAAAAFYQAACMAQAAAAAAAAAgAACMAwAAAAAAAAIgAABAAgAAAAAAAAUgAACsAQAAAAAAABAgAAAgAAAAAAAAABEgAAD0AQAAAAAAABIgAADUAQAAAAAAABMgAADkAQAAAAAAACAgAAAgAgAAAAAAABDQAAAEAAAAAAAAAA=="
+                        ]
+                    },
+                    {
+                        "$": {
+                            "id": "r4",
+                            "name": "20171201_004_TDM90AR_ScrapbookBTS_C300b_001",
+                            "uid": "A02E0EF9497008AB55083071BB9D259A",
+                            "src": "file:///Volumes/RAID_5_007_15/2017_12/20171201_004_TDM90AR_ScrapbookBTS/C300b/20171201_004_TDM90AR_ScrapbookBTS_C300b_001.mov",
+                            "start": "1218325108/24000s",
+                            "duration": "54246192/24000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7QEAAAAAAQQMAAAAMqHAcfmp2divb8977LMEnwvoIb7NDbp7kuOtpfcDjv+sAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwANAAAAAQEAAFJBSURfNV8wMDdfMTUAAAAHAAAAAQEAADIwMTdfMTIAIQAAAAEBAAAyMDE3MTIwMV8wMDRfVERNOTBBUl9TY3JhcGJvb2tCVFMAAAAFAAAAAQEAAEMzMDBiAAAALwAAAAEBAAAyMDE3MTIwMV8wMDRfVERNOTBBUl9TY3JhcGJvb2tCVFNfQzMwMGJfMDAxLm1vdgAYAAAAAQYAABAAAAAgAAAAOAAAAEgAAAB0AAAAhAAAAAgAAAAEAwAApmcGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAABofxoAAAAAAAgAAAAEAwAAbn8aAAAAAAAIAAAABAMAAJZ/GgAAAAAACAAAAAQDAACXfxoAAAAAABgAAAABBgAA3AAAAOwAAAD8AAAADAEAABwBAAAsAQAACAAAAAAEAABBv9HuDQAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAEFAAAEAAAAAwMAAAYAAAAEAAAAAwMAAAUAAAAeAAAAAQkAAGZpbGU6Ly8vVm9sdW1lcy9SQUlEXzVfMDA3XzE1LwAACAAAAAQDAAAAwN3lpA0AAAgAAAAABAAAQbtX0n0AAAAkAAAAAQEAADkyQjc2NjQ2LTRGREEtMzJDQS05NEVGLTA0QUYwNjU3RjY3OBgAAAABAgAAAQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAFgAAAAEBAAAvVm9sdW1lcy9SQUlEXzVfMDA3XzE1AAAIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA9AIAAAAAAAAFIAAAYAIAAAAAAAAQIAAAcAIAAAAAAAARIAAAqAIAAAAAAAASIAAAiAIAAAAAAAATIAAAmAIAAAAAAAAgIAAA1AIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAcAAAAAQYAAGgDAAB0AwAAgAMAAHQDAAB0AwAAdAMAAHQDAADMAAAA/v///wEAAAAAAwAAEAAAAAQQAAC8AAAAAAAAAAUQAAA8AQAAAAAAABAQAABsAQAAAAAAAEAQAABcAQAAAAAAAFQQAACUAQAAAAAAAFUQAACgAQAAAAAAAFYQAACMAQAAAAAAAAAgAACMAwAAAAAAAAIgAABAAgAAAAAAAAUgAACsAQAAAAAAABAgAAAgAAAAAAAAABEgAAD0AQAAAAAAABIgAADUAQAAAAAAABMgAADkAQAAAAAAACAgAAAgAgAAAAAAABDQAAAEAAAAAAAAAA=="
+                        ]
+                    },
+                    {
+                        "$": {
+                            "id": "r5",
+                            "name": "20171201_004_TDM90AR_ScrapbookBTS_C300c_001",
+                            "uid": "7CDF7121B52F2DD5BA92C538D8225583",
+                            "src": "file:///Volumes/RAID_5_007_15/2017_12/20171201_004_TDM90AR_ScrapbookBTS/C300c/20171201_004_TDM90AR_ScrapbookBTS_C300c_001.mov",
+                            "start": "1212360149/24000s",
+                            "duration": "53357304/24000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7QEAAAAAAQQMAAAALOuzN/8MDq1STg+NkgkEVGMo6FaaRiR86ESAZ6nFDGBsAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwANAAAAAQEAAFJBSURfNV8wMDdfMTUAAAAHAAAAAQEAADIwMTdfMTIAIQAAAAEBAAAyMDE3MTIwMV8wMDRfVERNOTBBUl9TY3JhcGJvb2tCVFMAAAAFAAAAAQEAAEMzMDBjAAAALwAAAAEBAAAyMDE3MTIwMV8wMDRfVERNOTBBUl9TY3JhcGJvb2tCVFNfQzMwMGNfMDAxLm1vdgAYAAAAAQYAABAAAAAgAAAAOAAAAEgAAAB0AAAAhAAAAAgAAAAEAwAApmcGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAABofxoAAAAAAAgAAAAEAwAAbn8aAAAAAAAIAAAABAMAAJp/GgAAAAAACAAAAAQDAACbfxoAAAAAABgAAAABBgAA3AAAAOwAAAD8AAAADAEAABwBAAAsAQAACAAAAAAEAABBv9HtaQAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAEFAAAEAAAAAwMAAAYAAAAEAAAAAwMAAAUAAAAeAAAAAQkAAGZpbGU6Ly8vVm9sdW1lcy9SQUlEXzVfMDA3XzE1LwAACAAAAAQDAAAAwN3lpA0AAAgAAAAABAAAQbtX0n0AAAAkAAAAAQEAADkyQjc2NjQ2LTRGREEtMzJDQS05NEVGLTA0QUYwNjU3RjY3OBgAAAABAgAAAQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAFgAAAAEBAAAvVm9sdW1lcy9SQUlEXzVfMDA3XzE1AAAIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA9AIAAAAAAAAFIAAAYAIAAAAAAAAQIAAAcAIAAAAAAAARIAAAqAIAAAAAAAASIAAAiAIAAAAAAAATIAAAmAIAAAAAAAAgIAAA1AIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAcAAAAAQYAAGgDAAB0AwAAgAMAAHQDAAB0AwAAdAMAAHQDAADMAAAA/v///wEAAAAAAwAAEAAAAAQQAAC8AAAAAAAAAAUQAAA8AQAAAAAAABAQAABsAQAAAAAAAEAQAABcAQAAAAAAAFQQAACUAQAAAAAAAFUQAACgAQAAAAAAAFYQAACMAQAAAAAAAAAgAACMAwAAAAAAAAIgAABAAgAAAAAAAAUgAACsAQAAAAAAABAgAAAgAAAAAAAAABEgAAD0AQAAAAAAABIgAADUAQAAAAAAABMgAADkAQAAAAAAACAgAAAgAgAAAAAAABDQAAAEAAAAAAAAAA=="
+                        ]
+                    },
+                    {
+                        "$": {
+                            "id": "r6",
+                            "name": "20171201_004_TDM90AR_ScrapbookBTS_GH4_001",
+                            "uid": "4B67D6723C1301B0A754520943423A4B",
+                            "src": "file:///Volumes/RAID_5_007_15/2017_12/20171201_004_TDM90AR_ScrapbookBTS/GH4/20171201_004_TDM90AR_ScrapbookBTS_GH4_001.MOV",
+                            "start": "1212480269/24000s",
+                            "duration": "53317264/24000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7AEAAAAAAQQMAAAABQVtSQE4/FQHHwW+v7H0CmUpMSnEKNSN+EebyuU+tL0rAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwANAAAAAQEAAFJBSURfNV8wMDdfMTUAAAAHAAAAAQEAADIwMTdfMTIAIQAAAAEBAAAyMDE3MTIwMV8wMDRfVERNOTBBUl9TY3JhcGJvb2tCVFMAAAADAAAAAQEAAEdINAAtAAAAAQEAADIwMTcxMjAxXzAwNF9URE05MEFSX1NjcmFwYm9va0JUU19HSDRfMDAxLk1PVgAAABgAAAABBgAAEAAAACAAAAA4AAAASAAAAHQAAACAAAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAAGh/GgAAAAAACAAAAAQDAABufxoAAAAAAAgAAAAEAwAAnH8aAAAAAAAIAAAABAMAAJ1/GgAAAAAAGAAAAAEGAADYAAAA6AAAAPgAAAAIAQAAGAEAACgBAAAIAAAAAAQAAEG/0e+eAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAAAQAAAADAwAABQAAAB4AAAABCQAAZmlsZTovLy9Wb2x1bWVzL1JBSURfNV8wMDdfMTUvAAAIAAAABAMAAADA3eWkDQAACAAAAAAEAABBu1fSfQAAACQAAAABAQAAOTJCNzY2NDYtNEZEQS0zMkNBLTk0RUYtMDRBRjA2NTdGNjc4GAAAAAECAAABAAAAAQAAAO8TAAABAAAAAAAAAAAAAAAWAAAAAQEAAC9Wb2x1bWVzL1JBSURfNV8wMDdfMTUAAAgAAAABCQAAZmlsZTovLy8NAAAAAQEAAExMX1Byb2R1Y3Rpb24AAAAIAAAABAMAAABwokd0AAAACAAAAAAEAABBvz48jQAAACQAAAABAQAARjhDRTE5QTUtNUY5MC0zQzk3LThGMDMtRTdFMEMwRUQzOEQyGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAABgAAAA/v///wDwAAAAAAAABwAAAAIgAADwAgAAAAAAAAUgAABcAgAAAAAAABAgAABsAgAAAAAAABEgAACkAgAAAAAAABIgAACEAgAAAAAAABMgAACUAgAAAAAAACAgAADQAgAAAAAAAAQAAAADAwAAAPAAAAQAAAADAwAAAAAAAAQAAAADAwAAAQAAABwAAAABBgAAZAMAAHADAAB8AwAAcAMAAHADAABwAwAAcAMAAMwAAAD+////AQAAAPwCAAAQAAAABBAAALgAAAAAAAAABRAAADgBAAAAAAAAEBAAAGgBAAAAAAAAQBAAAFgBAAAAAAAAVBAAAJABAAAAAAAAVRAAAJwBAAAAAAAAVhAAAIgBAAAAAAAAACAAAIgDAAAAAAAAAiAAADwCAAAAAAAABSAAAKgBAAAAAAAAECAAACAAAAAAAAAAESAAAPABAAAAAAAAEiAAANABAAAAAAAAEyAAAOABAAAAAAAAICAAABwCAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    }
+                ],
+                "media": [
+                    {
+                        "$": {
+                            "id": "r7",
+                            "name": "20171201_004_TDM90AR_ScrapbookBTS_MC",
+                            "uid": "iBK6KgONTMSn2diGqaMuWg",
+                            "modDate": "2017-12-03 11:59:31 -0500"
+                        },
+                        "multicam": [
+                            {
+                                "$": {
+                                    "format": "r1",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "1212360149/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "mc-angle": [
+                                    {
+                                        "$": {
+                                            "name": "C300a",
+                                            "angleID": "0000C300a"
+                                        },
+                                        "gap": [
+                                            {
+                                                "$": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "26026/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "clip": [
+                                            {
+                                                "$": {
+                                                    "name": "20171201_004_TDM90AR_ScrapbookBTS_C300a_001.mov",
+                                                    "offset": "26026/24000s",
+                                                    "duration": "50762712/24000s",
+                                                    "start": "1212386175/24000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "$": {
+                                                            "offset": "1212386175/24000s",
+                                                            "ref": "r2",
+                                                            "duration": "50762712/24000s",
+                                                            "start": "1212386175/24000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "$": {
+                                                                    "lane": "-1",
+                                                                    "offset": "1212386175/24000s",
+                                                                    "ref": "r2",
+                                                                    "duration": "50762712/24000s",
+                                                                    "start": "1212386175/24000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            },
+                                                            {
+                                                                "$": {
+                                                                    "lane": "-1",
+                                                                    "offset": "36371585250/720000s",
+                                                                    "ref": "r2",
+                                                                    "duration": "1522881360/720000s",
+                                                                    "start": "36371585250/720000s",
+                                                                    "role": "dialogue.dialogue-2",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "audio-channel-source": [
+                                                    {
+                                                        "$": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "$": {
+                                                    "name": "20171201_004_TDM90AR_ScrapbookBTS_C300a_002.mov",
+                                                    "offset": "50788738/24000s",
+                                                    "duration": "2534532/24000s",
+                                                    "start": "1263148887/24000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "$": {
+                                                            "offset": "1263148887/24000s",
+                                                            "ref": "r3",
+                                                            "duration": "2534532/24000s",
+                                                            "start": "1263148887/24000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "$": {
+                                                                    "lane": "-1",
+                                                                    "offset": "1263148887/24000s",
+                                                                    "ref": "r3",
+                                                                    "duration": "2534532/24000s",
+                                                                    "start": "1263148887/24000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            },
+                                                            {
+                                                                "$": {
+                                                                    "lane": "-1",
+                                                                    "offset": "37894466610/720000s",
+                                                                    "ref": "r3",
+                                                                    "duration": "76035960/720000s",
+                                                                    "start": "37894466610/720000s",
+                                                                    "role": "dialogue.dialogue-2",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "audio-channel-source": [
+                                                    {
+                                                        "$": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "$": {
+                                            "name": "C300b",
+                                            "angleID": "0000C300b"
+                                        },
+                                        "gap": [
+                                            {
+                                                "$": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "5964959/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "clip": [
+                                            {
+                                                "$": {
+                                                    "name": "20171201_004_TDM90AR_ScrapbookBTS_C300b_001.mov",
+                                                    "offset": "5964959/24000s",
+                                                    "duration": "54246192/24000s",
+                                                    "start": "1218325108/24000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "$": {
+                                                            "offset": "1218325108/24000s",
+                                                            "ref": "r4",
+                                                            "duration": "54246192/24000s",
+                                                            "start": "1218325108/24000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "$": {
+                                                                    "lane": "-1",
+                                                                    "offset": "36549753240/720000s",
+                                                                    "ref": "r4",
+                                                                    "duration": "1627385760/720000s",
+                                                                    "start": "36549753240/720000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            },
+                                                            {
+                                                                "$": {
+                                                                    "lane": "-1",
+                                                                    "offset": "1218325108/24000s",
+                                                                    "ref": "r4",
+                                                                    "duration": "54246192/24000s",
+                                                                    "start": "1218325108/24000s",
+                                                                    "role": "dialogue.dialogue-2",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "audio-channel-source": [
+                                                    {
+                                                        "$": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "$": {
+                                            "name": "C300c",
+                                            "angleID": "0000C300c"
+                                        },
+                                        "clip": [
+                                            {
+                                                "$": {
+                                                    "name": "20171201_004_TDM90AR_ScrapbookBTS_C300c_001.mov",
+                                                    "offset": "0s",
+                                                    "duration": "53357304/24000s",
+                                                    "start": "1212360149/24000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "$": {
+                                                            "offset": "1212360149/24000s",
+                                                            "ref": "r5",
+                                                            "duration": "53357304/24000s",
+                                                            "start": "1212360149/24000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "$": {
+                                                                    "lane": "-1",
+                                                                    "offset": "1212360149/24000s",
+                                                                    "ref": "r5",
+                                                                    "duration": "53357304/24000s",
+                                                                    "start": "1212360149/24000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            },
+                                                            {
+                                                                "$": {
+                                                                    "lane": "-1",
+                                                                    "offset": "36370804470/720000s",
+                                                                    "ref": "r5",
+                                                                    "duration": "1600719120/720000s",
+                                                                    "start": "36370804470/720000s",
+                                                                    "role": "dialogue.dialogue-2",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "audio-channel-source": [
+                                                    {
+                                                        "$": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "$": {
+                                            "name": "GH4",
+                                            "angleID": "0000GH4"
+                                        },
+                                        "gap": [
+                                            {
+                                                "$": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "120120/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "clip": [
+                                            {
+                                                "$": {
+                                                    "name": "20171201_004_TDM90AR_ScrapbookBTS_GH4_001.MOV",
+                                                    "offset": "120120/24000s",
+                                                    "duration": "53317264/24000s",
+                                                    "start": "1212480269/24000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "$": {
+                                                            "offset": "1212480269/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "53317264/24000s",
+                                                            "start": "1212480269/24000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "$": {
+                                                                    "lane": "-1",
+                                                                    "offset": "36374408070/720000s",
+                                                                    "ref": "r6",
+                                                                    "duration": "1599517920/720000s",
+                                                                    "start": "36374408070/720000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            },
+                                                            {
+                                                                "$": {
+                                                                    "lane": "-1",
+                                                                    "offset": "1212480269/24000s",
+                                                                    "ref": "r6",
+                                                                    "duration": "53317264/24000s",
+                                                                    "start": "1212480269/24000s",
+                                                                    "role": "dialogue.dialogue-2",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "audio-channel-source": [
+                                                    {
+                                                        "$": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "$": {
+                            "id": "r8",
+                            "name": "20171201_004_TDM90AR_ScrapbookBTS_MC_CC",
+                            "uid": "IORcR6/WRKCCSvULVmDDPg",
+                            "modDate": "2017-12-03 11:59:31 -0500"
+                        },
+                        "sequence": [
+                            {
+                                "$": {
+                                    "duration": "60211151/24000s",
+                                    "format": "r1",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "1212360149/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "spine": [
+                                    {
+                                        "mc-clip": [
+                                            {
+                                                "$": {
+                                                    "name": "20171201_004_TDM90AR_ScrapbookBTS_MC",
+                                                    "offset": "1212360149/24000s",
+                                                    "ref": "r7",
+                                                    "duration": "60211151/24000s",
+                                                    "start": "1212360149/24000s"
+                                                },
+                                                "mc-source": [
+                                                    {
+                                                        "$": {
+                                                            "angleID": "0000C300a",
+                                                            "srcEnable": "all"
+                                                        },
+                                                        "filter-video": [
+                                                            {
+                                                                "$": {
+                                                                    "ref": "r9",
+                                                                    "name": "2.5_A"
+                                                                },
+                                                                "param": [
+                                                                    {
+                                                                        "$": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/10619/1/100/101",
+                                                                            "value": "-19.3779 -232"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "$": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/10619/2/354/42576/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "$": {
+                                                                            "name": "Line Spacing",
+                                                                            "key": "9999/32385/10619/2/354/42576/404",
+                                                                            "value": "-2"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "$": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/10619/2/369",
+                                                                            "value": "20171201_004_TDM90AR_ScrapbookBTS"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "$": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20673/1/100/101",
+                                                                            "value": "-16.824 -180"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "$": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20673/2/354/42574/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "$": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20673/2/369",
+                                                                            "value": "TDM90AR: ScrapbookBTS"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "$": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20837/1/100/101",
+                                                                            "value": "-443.584 -395"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "$": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20837/2/354/42578/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "$": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20837/2/369",
+                                                                            "value": "20171201:"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "mc-clip": [
+                                                    {
+                                                        "$": {
+                                                            "name": "20171201_004_TDM90AR_ScrapbookBTS_MC",
+                                                            "lane": "-2",
+                                                            "offset": "1212360149/24000s",
+                                                            "ref": "r7",
+                                                            "duration": "60211151/24000s",
+                                                            "start": "1212360149/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "$": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "$": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "$": {
+                                                                    "angleID": "0000C300b",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "$": {
+                                                                            "ref": "r10",
+                                                                            "name": "2.5_C"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "$": {
+                                                            "name": "20171201_004_TDM90AR_ScrapbookBTS_MC",
+                                                            "lane": "-1",
+                                                            "offset": "1212360149/24000s",
+                                                            "ref": "r7",
+                                                            "duration": "60211151/24000s",
+                                                            "start": "1212360149/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "$": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "$": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "$": {
+                                                                    "angleID": "0000C300c",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "$": {
+                                                                            "ref": "r11",
+                                                                            "name": "2.5_B"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "effect": [
+                    {
+                        "$": {
+                            "id": "r9",
+                            "name": "2.5_A",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef"
+                        }
+                    },
+                    {
+                        "$": {
+                            "id": "r10",
+                            "name": "2.5_C",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_C/2.5_C.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_C/2.5_C.moef"
+                        }
+                    },
+                    {
+                        "$": {
+                            "id": "r11",
+                            "name": "2.5_B",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef"
+                        }
+                    }
+                ]
+            }
+        ],
+        "library": [
+            {
+                "$": {
+                    "location": "file:///Volumes/RAID_5_007_15/temp_MC_CC_Ex.fcpbundle/"
+                },
+                "event": [
+                    {
+                        "$": {
+                            "name": "20171201_004_TDM90AR_ScrapbookBTS",
+                            "uid": "58E6FF7B-F639-441B-9062-A2E224F3C15B"
+                        },
+                        "clip": [
+                            {
+                                "$": {
+                                    "name": "20171201_004_TDM90AR_ScrapbookBTS_C300a_001",
+                                    "duration": "50762712/24000s",
+                                    "start": "1212386175/24000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-03 11:11:10 -0500"
+                                },
+                                "video": [
+                                    {
+                                        "$": {
+                                            "offset": "1212386175/24000s",
+                                            "ref": "r2",
+                                            "duration": "50762712/24000s",
+                                            "start": "1212386175/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "$": {
+                                                    "lane": "-1",
+                                                    "offset": "1212386175/24000s",
+                                                    "ref": "r2",
+                                                    "duration": "50762712/24000s",
+                                                    "start": "1212386175/24000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            },
+                                            {
+                                                "$": {
+                                                    "lane": "-1",
+                                                    "offset": "36371585250/720000s",
+                                                    "ref": "r2",
+                                                    "duration": "1522881360/720000s",
+                                                    "start": "36371585250/720000s",
+                                                    "role": "dialogue.dialogue-2",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "$": {
+                                            "start": "16165149/320s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "$": {
+                                            "start": "1.21239e+09s",
+                                            "duration": "50762712/24000s",
+                                            "value": "20171201_004_TDM90AR_ScrapbookBTS, C300a"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "$": {
+                                    "name": "20171201_004_TDM90AR_ScrapbookBTS_C300a_002",
+                                    "duration": "2534532/24000s",
+                                    "start": "1263148887/24000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-03 11:11:10 -0500"
+                                },
+                                "video": [
+                                    {
+                                        "$": {
+                                            "offset": "1263148887/24000s",
+                                            "ref": "r3",
+                                            "duration": "2534532/24000s",
+                                            "start": "1263148887/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "$": {
+                                                    "lane": "-1",
+                                                    "offset": "37894466610/720000s",
+                                                    "ref": "r3",
+                                                    "duration": "76035960/720000s",
+                                                    "start": "37894466610/720000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            },
+                                            {
+                                                "$": {
+                                                    "lane": "-1",
+                                                    "offset": "1263148887/24000s",
+                                                    "ref": "r3",
+                                                    "duration": "2534532/24000s",
+                                                    "start": "1263148887/24000s",
+                                                    "role": "dialogue.dialogue-2",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "$": {
+                                            "start": "421049629/8000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "$": {
+                                            "start": "1.26315e+09s",
+                                            "duration": "2534532/24000s",
+                                            "value": "20171201_004_TDM90AR_ScrapbookBTS, C300a"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "$": {
+                                    "name": "20171201_004_TDM90AR_ScrapbookBTS_C300b_001",
+                                    "duration": "54246192/24000s",
+                                    "start": "1218325108/24000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-03 11:11:10 -0500"
+                                },
+                                "video": [
+                                    {
+                                        "$": {
+                                            "offset": "1218325108/24000s",
+                                            "ref": "r4",
+                                            "duration": "54246192/24000s",
+                                            "start": "1218325108/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "$": {
+                                                    "lane": "-1",
+                                                    "offset": "1218325108/24000s",
+                                                    "ref": "r4",
+                                                    "duration": "54246192/24000s",
+                                                    "start": "1218325108/24000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            },
+                                            {
+                                                "$": {
+                                                    "lane": "-1",
+                                                    "offset": "36549753240/720000s",
+                                                    "ref": "r4",
+                                                    "duration": "1627385760/720000s",
+                                                    "start": "36549753240/720000s",
+                                                    "role": "dialogue.dialogue-2",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "$": {
+                                            "start": "304581277/6000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "$": {
+                                            "start": "1.21833e+09s",
+                                            "duration": "54246192/24000s",
+                                            "value": "20171201_004_TDM90AR_ScrapbookBTS, C300b"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "$": {
+                                    "name": "20171201_004_TDM90AR_ScrapbookBTS_C300c_001",
+                                    "duration": "53357304/24000s",
+                                    "start": "1212360149/24000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-03 11:11:10 -0500"
+                                },
+                                "video": [
+                                    {
+                                        "$": {
+                                            "offset": "1212360149/24000s",
+                                            "ref": "r5",
+                                            "duration": "53357304/24000s",
+                                            "start": "1212360149/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "$": {
+                                                    "lane": "-1",
+                                                    "offset": "36370804470/720000s",
+                                                    "ref": "r5",
+                                                    "duration": "1600719120/720000s",
+                                                    "start": "36370804470/720000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            },
+                                            {
+                                                "$": {
+                                                    "lane": "-1",
+                                                    "offset": "1212360149/24000s",
+                                                    "ref": "r5",
+                                                    "duration": "53357304/24000s",
+                                                    "start": "1212360149/24000s",
+                                                    "role": "dialogue.dialogue-2",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "$": {
+                                            "start": "1212360149/24000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "$": {
+                                            "start": "1.21236e+09s",
+                                            "duration": "53357304/24000s",
+                                            "value": "20171201_004_TDM90AR_ScrapbookBTS, C300c"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "$": {
+                                    "name": "20171201_004_TDM90AR_ScrapbookBTS_GH4_001",
+                                    "duration": "53317264/24000s",
+                                    "start": "1212480269/24000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-03 11:11:10 -0500"
+                                },
+                                "video": [
+                                    {
+                                        "$": {
+                                            "offset": "1212480269/24000s",
+                                            "ref": "r6",
+                                            "duration": "53317264/24000s",
+                                            "start": "1212480269/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "$": {
+                                                    "lane": "-1",
+                                                    "offset": "36374408070/720000s",
+                                                    "ref": "r6",
+                                                    "duration": "1599517920/720000s",
+                                                    "start": "36374408070/720000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            },
+                                            {
+                                                "$": {
+                                                    "lane": "-1",
+                                                    "offset": "1212480269/24000s",
+                                                    "ref": "r6",
+                                                    "duration": "53317264/24000s",
+                                                    "start": "1212480269/24000s",
+                                                    "role": "dialogue.dialogue-2",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "$": {
+                                            "start": "1212480269/24000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "$": {
+                                            "start": "1.21248e+09s",
+                                            "duration": "53317264/24000s",
+                                            "value": "20171201_004_TDM90AR_ScrapbookBTS, GH4"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "mc-clip": [
+                            {
+                                "$": {
+                                    "name": "20171201_004_TDM90AR_ScrapbookBTS_MC",
+                                    "ref": "r7",
+                                    "duration": "60211151/24000s",
+                                    "start": "1212360149/24000s",
+                                    "modDate": "2017-12-03 11:11:10 -0500"
+                                },
+                                "mc-source": [
+                                    {
+                                        "$": {
+                                            "angleID": "0000C300a",
+                                            "srcEnable": "all"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "ref-clip": [
+                            {
+                                "$": {
+                                    "name": "20171201_004_TDM90AR_ScrapbookBTS_MC_CC",
+                                    "ref": "r8",
+                                    "duration": "60211151/24000s",
+                                    "start": "1212360149/24000s",
+                                    "modDate": "2017-12-03 11:11:10 -0500"
+                                }
+                            }
+                        ],
+                        "project": [
+                            {
+                                "$": {
+                                    "name": "20171201_004_TDM90AR_ScrapbookBTS_MC_CC_Ex",
+                                    "uid": "CF0552D9-7A9D-4732-A853-BE1EBC06A878",
+                                    "modDate": "2017-12-03 11:59:31 -0500"
+                                },
+                                "sequence": [
+                                    {
+                                        "$": {
+                                            "duration": "60211151/24000s",
+                                            "format": "r1",
+                                            "renderColorSpace": "Rec. 709",
+                                            "tcStart": "0s",
+                                            "tcFormat": "NDF",
+                                            "audioLayout": "stereo",
+                                            "audioRate": "48k"
+                                        },
+                                        "spine": [
+                                            {
+                                                "ref-clip": [
+                                                    {
+                                                        "$": {
+                                                            "name": "20171201_004_TDM90AR_ScrapbookBTS_MC_CC",
+                                                            "offset": "0s",
+                                                            "ref": "r8",
+                                                            "duration": "60211151/24000s",
+                                                            "start": "1212360149/24000s"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "keyword-collection": [
+                            {
+                                "$": {
+                                    "name": "20171201_004_TDM90AR_ScrapbookBTS"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "name": "C300a"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "name": "first 24 frames"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "name": "C300b"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "name": "C300c"
+                                }
+                            },
+                            {
+                                "$": {
+                                    "name": "GH4"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

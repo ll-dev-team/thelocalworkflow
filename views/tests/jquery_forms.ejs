@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel='stylesheet' href='/css/bootstrap_additions.css'>
+    <title><%= tabTitle %></title>
+    <script src="/js/add_form_rows.js" defer></script>
+<script>
+  $(document).ready(function(){
+      $("#content").append("<h1>the page has loaded</h1>");
+      $("#content").append("<h1>the page has loaded again</h1>");
+      $("#mouse_zone").on("mousemove", onMouseOver);
+      $("#side-div").css({top:"100px"})
+      // $("#content").html($("<h1>").append("testing again"));
+  })
+
+  function onMouseOver(evt){
+    $("#mouse_move_display").text(evt.pageX + " " + evt.pageY);
+    var newWidth = 200 + evt.pageY;
+    var newColor = ("rgba(" + evt.pageX/3 + ",0, 0, .7)")
+    console.log("the new width is " + newWidth);
+    $("#mouse_zone").css({width:newWidth, "background-color":newColor});
+    $("#side-div").css({top:(newWidth/2)});
+
+  }
+
+</script>
+  </head>
+  <body>
+    <% include ../partials/header.ejs %>
+    <div class="container">
+      <p>
+      Let's create a segment.  Paste in some <a href='/database/segment/create/csv'>fcpxml and csv</a> or do it <a href='/database/segment/create/manual'>manually</a>?
+      </p>
+
+	       <div class="row">
+
+		         <input type="hidden" name="count" value="1" />
+              <div class="control-group" id="fields">
+                <label class="control-label" for="field1">Nice Multiple Form Fields</label>
+                <div class="controls" id="profs">
+                <form class="input-append">
+                    <div id="field">
+                      <input autocomplete="off" class="input" id="field1" name="prof1" type="text" placeholder="Type something" data-items="10"/>
+                        <button id="b1" class="btn add-more" type="button">+</button>
+                    </div>
+                </form>
+                <br>
+                <small>Press + to add another form field</small>
+            </div>
+        </div>
+     </div>
+     <div id="content">
+
+     </div>
+     <div id="mouse_zone" style="background-color: rgba(0, 0, 0, .5); width: 500px; height: 300px">
+       <p id="mouse_move_display">
+
+       </p>
+       <div id="side-div" style="position:fixed; width:100px; height:100px; background-color: blue; left: 700px">
+         <p>
+           test
+         </p>
+       </div>
+     </div>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
+</html>

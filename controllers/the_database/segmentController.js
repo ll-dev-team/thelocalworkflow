@@ -1,5 +1,10 @@
 var Segment = require('../../models/segment');
 var async = require('async');
+// const csv=require('csvtojson');
+var should = require('should');
+// var parse = require('csv-parse');
+// var CSV = require('csv-string');
+var d3 = require('d3');
 
 exports.segment_list = function(req, res) {
   Segment.find({})
@@ -42,8 +47,29 @@ exports.segment_create_csv_get = function(req, res) {
 
 exports.segment_create_post = function(req, res, next) {
   if (req.body.option=="csv") {
+    req.checkBody('title', 'Title must be specified.').notEmpty(); //We won't force Alphanumeric, because people might have spaces.
+    req.checkBody('csv', 'csv must be specified.').notEmpty();
+    req.sanitize('title').escape();
+    req.sanitize('csv').escape();
+    req.sanitize('title').trim();
+    req.sanitize('csv').trim();
+    console.log(req.body.csv);
     res.setHeader('Content-Type', 'application/json');
-res.send("not done yet, but here's your json: " + JSON.stringify(req.body, null, 4));
+    var result = {"req.body":req.body, test: "001"};
+
+    d3.csv(req.body.csv, (err, data)=>{
+      console.log(JSON.stringify(data, null, 4));
+    })
+    res.send("not done yet, but here's your json: " + JSON.stringify(result, null, 4));
+
+              // if (results.shoot.fcpxml) {
+              //   var newShootObject = parseXmlString(results.shoot.fcpxml, (err, data)=>{
+              //     console.log("\n\n++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n\nhere is the shootObject: \n\n" + JSON.stringify(data, null, 4));
+              //     console.log(results.shoot.fcpxml);
+              //   });
+              // }
+
+
   }
   else if (req.body.option=="manual") {
     console.log("made it into segmentController and in the segment_create function");

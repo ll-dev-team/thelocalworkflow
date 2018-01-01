@@ -17,6 +17,10 @@ router.get('/layout_001', function(req, res, next) {
     res.render('tests/layout_001', { tabTitle: 'layout_001', title: 'Layout Test 1', data: theData });
   });
 
+router.get('/jquery_forms', function(req, res, next) {
+    res.render('tests/jquery_forms', { tabTitle: 'layout_001', title: 'Layout Test 1' });
+  });
+
 router.get('/testjs', function(req, res, next) {
     var theData = {array:[{firstName: "Marlon", lastName: "Kuzmick", title: "Director of the Learning Lab"}, {firstName: "Lauren", lastName: "Davidson", title: "Assistant Director of the Learning Lab"}, {firstName: "Katie", lastName: "Gilligan", title: "Learning Lab Project Manager"}, {firstName: "Noelle", lastName: "Lopez", title: "Learning Lab Postdoctoral Fellow"}], id: "001"}
     res.render('tests/testjs', { tabTitle: 'testjs', title: 'test js', data: theData });

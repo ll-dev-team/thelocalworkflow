@@ -2,6 +2,7 @@
   <html lang="en-US">
   <head>
     <% include ../partials/head.ejs %>
+    <script src="/js/add_form_rows.js" defer></script>
   </head>
   <body>
     <% include ../partials/header.ejs %>
@@ -9,6 +10,24 @@
       <p>
       Let's create a segment.  Paste in some <a href='/database/segment/create/csv'>fcpxml and csv</a> or do it <a href='/database/segment/create/manual'>manually</a>?
       </p>
+	       <div class="row">
+
+		         <input type="hidden" name="count" value="1" />
+              <div class="control-group" id="fields">
+                <label class="control-label" for="field1">Nice Multiple Form Fields</label>
+                <div class="controls" id="profs">
+                <form class="input-append">
+                    <div id="field">
+                      <input autocomplete="off" class="input" id="field1" name="prof1" type="text" placeholder="Type something" data-items="10"/>
+                        <button id="b1" class="btn add-more" type="button">+</button>
+                    </div>
+                </form>
+                <br>
+                <small>Press + to add another form field</small>
+            </div>
+        </div>
+     </div>
+
     <% include ../partials/errors.ejs  %>
     </div>
 <% include ../partials/foot.ejs %>

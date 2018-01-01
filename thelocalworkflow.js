@@ -1,4 +1,4 @@
-xvar args = require('minimist')(process.argv.slice(2));
+var args = require('minimist')(process.argv.slice(2));
 const columnify = require('columnify');
 const fs = require('fs');
 const shootprocessor = require("./tools/workflow_tools/shootprocessor");
@@ -11,7 +11,6 @@ const MongoClient = require("mongodb").MongoClient, assert = require('assert');
 const cp = require('child_process');
 const path = require('path');
 var mongoose = require('mongoose');
-// const transcode = require("./tools/scripts/transcode").transcode;
 const transcode = require("./tools/scripts/transcode_sync").transcode;
 const io2s = require("./tools/scripts/io2s").io2s;
 const xml = require('xml');
@@ -19,21 +18,14 @@ const popFcpxml = require("./tools/scripts/populate_fcpxml");
 var reHidden = /^\./;
 var theDate = new Date;
 const csv=require('csvtojson')
-
 require('dotenv').config();
-
-var mongoDB = process.env.MONGODB_URL;
+var mongoDB = process.env.MONGODB_URL_DEV;
 // var mongoDB = process.env.MONGODB_URL_DEV;
-console.log("mongoDB url is " + mongoDB);
 mongoose.connect(mongoDB);
 var db = mongoose.connection;
 
 // Bind connection to error event (to get notification of connection errors)
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
-
-
-
-// var mongoUrl = 'mongodb://localhost:27017/thelocalworkflow';
 
 function printHelp() {
   console.log("thelocalworkflow.js (c) Marlon Kuzmick");
@@ -46,9 +38,11 @@ function printHelp() {
   console.log("--transcode       transcode files in {FOLDER}");
 }
 
-if (args.help || !(args.m2s || args.rename || args.compress || args.m2sf || args.shootdata || args.transcode || args.io2s || args.populate)) {
-  printHelp();
-  process.exit(1);
+if (args.help || !(args.m2s || args.rename || args.compress ||
+    args.m2sf || args.shootdata || args.transcode || args.io2s ||
+      args.populate)) {
+        printHelp();
+        process.exit(1);
 }
 
 if (args.io2s) {
@@ -137,16 +131,24 @@ if (args.shootdata) {
   console.log("\n\ndone.\n");
 };
 
-
 if (args.populate) {
-  if (args.fcpxml) {
-    popFcpxml(args.fcpxml);
+  if (args.folder) {
+    console.log("about to populate " + mongoDB);
+    popFcpxml.fcpxmlFolderToDb(args.folder);
+
   }
-};
+  else if (args.file) {
+    console.log("about to populate " + mongoDB);
+    popFcpxml.fcpxmlFileToDb(args.file);
 
-
-
-
+  }
+  else {
+    console.log("input a file or a folder");
+    db.close();
+  }
+  // if (args.fcpxml) {
+  //   popFcpxml(args.fcpxml);
+}
 
 if (args.transcode) {
   // var destRoot = '/Volumes/06_01/Proxy_Footage/2017_12_Proxy'

@@ -15,7 +15,10 @@
     "body-parser": "^1.18.2",
     "columnify": "^1.5.4",
     "cookie-parser": "^1.4.3",
+    "csv-parse": "^2.0.0",
+    "csv-string": "^3.1.2",
     "csvtojson": "^1.1.9",
+    "d3": "^4.12.2",
     "dateformat": "^2.0.0",
     "debug": "^2.6.9",
     "dotenv": "^4.0.0",
@@ -33,6 +36,7 @@
     "pretty-data": "^0.40.0",
     "serve-favicon": "^2.4.4",
     "shelljs": "^0.7.8",
+    "should": "^13.2.0",
     "slack": "^8.4.1",
     "xml": "^1.0.1",
     "xml2js": "^0.4.19"

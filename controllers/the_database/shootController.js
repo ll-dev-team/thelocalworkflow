@@ -2,6 +2,7 @@ var Shoot = require('../../models/shoot');
 var async = require('async');
 var fs = require ('fs');
 var pd = require('pretty-data').pd;
+const parseXmlString = require('xml2js').parseString;
 
 exports.shoot_list = function(req, res, next) {
     Shoot.find({})
@@ -35,10 +36,10 @@ exports.shoot_detail = function(req, res, next) {
                 return next(err);
             }
             // Successful, so render
-            var pdFcpxml = pd.xml(results.shoot.fcpxml);
-            console.log("\n\npdFcpxml: \n\n"+ pdFcpxml);
-            console.log(JSON.stringify(results.shoot, null, 4));
-            console.log("\n\n\n\n\n\n\n+++++++++++++++++++++");
+            // var pdFcpxml = pd.xml(results.shoot.fcpxml);
+            // console.log("\n\npdFcpxml: \n\n"+ pdFcpxml);
+            // console.log(JSON.stringify(results.shoot, null, 4));
+
             res.render('database/shoot_detail', { title: 'Shoot Detail', tabTitle: 'Shoot Detail', theShoot: results.shoot, prettyFcpxml: (pd.xml(results.shoot.fcpxml))})
             // , genre_books: results.genre_books
             } );
