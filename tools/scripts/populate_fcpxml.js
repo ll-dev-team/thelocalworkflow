@@ -4,10 +4,13 @@ const fs = require('fs');
 const xml = require('xml');
 const xml2js = require('xml2js');
 const path = require('path');
+const mongoose = require('mongoose');
+const traverse = require('traverse');
 
 require('dotenv').config();
 
-var pathForJson = 'tools/tests/output/json/'
+var pathForJson = 'tools/tests/output/json/';
+var db = mongoose.connection;
 
 function fcpxmlFolderToDb (folderPath) {
   var allFiles = fs.readdirSync(folderPath);
@@ -33,7 +36,10 @@ function fcpxmlFolderToDb (folderPath) {
             return;
           }
           else {
-            console.log("saved result:\n")
+            console.log("saved result: " + newShoot.shootId);
+            if (index==(allFiles.length-1)) {
+              db.close();
+            }
           }
 
         });
@@ -54,6 +60,21 @@ function fcpxmlFolderToDb (folderPath) {
   });
 };
 
+
+function simpleTraverse(o ) {
+  for (i in o) {
+      if (!!o[i] && typeof(o[i])=="object") {
+          console.log(i, o[i])
+          simpleTraverse(o[i] );
+          if (Object.keys(o).includes("$")){
+            console.log("\nfound a $ the hard way: " + this.key);
+            o._attr=o.$;
+            delete o.$;
+          }
+      }
+  }
+}
+
 function fcpxmlFileToDb (filePath) {
   console.log("in the file function and would execute it on " + filePath);
   var reDot = /^\./
@@ -68,30 +89,31 @@ function fcpxmlFileToDb (filePath) {
       if (err) {
         console.log(err);
       }
-      var newShoot = new Shoot({shootId: thisShootId, shootIdRoot:thisShootIdRoot, fcpxml: theXmlString
-          // , fcpxmlAsJson:thisObj
-          });
-
-      // newShoot.save((err)=> {
-      //   if (err) {
-      //     console.log(err);
-      //     return;
-      //   }
-      //   else {
-      //     console.log("saved result:\n")
-      //   }
-      //
-      // });
-
       console.log("\n\n\ngetting at properties\n\n");
       console.log("trying for the resource clips: ");
       for (var i = 0; i < thisObj.fcpxml.resources[0].asset.length; i++) {
         console.log("Clip #" + (i + 1) + ":");
         console.log(thisObj.fcpxml.resources[0].asset[i].$.name);
       }
+      simpleTraverse(thisObj);
       var shootObjectJson = JSON.stringify(thisObj, null, 4);
+      var newShoot = new Shoot({shootId: thisShootId, shootIdRoot:thisShootIdRoot, fcpxml: theXmlString
+          , fcpxmlAsObject:thisObj
+          });
       fs.writeFileSync((pathForJson + newShoot.shootIdRoot + ".json"), shootObjectJson);
-      console.log("these are the object's keys: " + Object.keys(thisObj));
+      newShoot.save((err)=> {
+        if (err) {
+          console.log(err);
+          // db.close();
+          db.close();
+          return;
+        }
+        else {
+          console.log("saved result: " + newShoot.shootId);
+          db.close();
+        }
+
+      });
     });
   }
   else {
