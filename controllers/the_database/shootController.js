@@ -132,6 +132,46 @@ exports.shoot_delete_get = function(req, res, next) {
     });
 };
 
+exports.shoot_json_get = function(req, res, next) {
+  Shoot.findById(req.params.id, (err, data)=>{
+    console.log(JSON.stringify(data));
+    if (err) { return next(err); }
+    else if (data==null) { // No results.
+        res.redirect('/database/shoots');
+    }
+    else {
+      res.render('database/shoot_json', {title: 'Shoot JSON', tabTitle: 'Shoot JSON', theShoot: data})
+    }
+  })
+}
+
+exports.shoot_fcpxml_get = function(req, res, next) {
+  Shoot.findById(req.params.id, (err, data)=>{
+    console.log(JSON.stringify(data));
+    if (err) { return next(err); }
+    else if (data==null) { // No results.
+        res.redirect('/database/shoots');
+    }
+    else {
+      res.render('database/shoot_json', {title: 'Shoot fcpxml', tabTitle: 'Shoot fcpxml', theShoot: data})
+    }
+  })
+}
+
+exports.shoot_stills_get = function(req, res, next) {
+  Shoot.findById(req.params.id, (err, data)=>{
+    console.log(JSON.stringify(data));
+    if (err) { return next(err); }
+    else if (data==null) { // No results.
+        res.redirect('/database/shoots');
+    }
+    else {
+      // TODO: check to see if there are stills from this shoot in the stills db, then send to either 1) a page with the stills, or 2) a page asking if they want to randomly generate stills
+      res.render('database/shoot_stills', {title: 'Shoot fcpxml', tabTitle: 'Shoot fcpxml', theShoot: data})
+    }
+  })
+}
+
 exports.shoot_delete_post = function(req, res) {
     // res.header("Content-Type",'application/json');
     // res.send('NOT IMPLEMENTED: shoot delete POST\n' + JSON.stringify(req.body, null, 4));

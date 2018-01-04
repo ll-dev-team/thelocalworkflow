@@ -4,10 +4,13 @@ var Schema = mongoose.Schema;
 
 var StillSchema = Schema(
   {
-    type: {type: String, required: true},
-    user: {type: String, required: true},
-    text: {type: String, required: true},
-    ts: {type: String, required: true}
+    tcString: {type: String, required: false},
+    fileName: {type: String, required: false},
+    filePath: {type: String, required: false},
+    secondsIn: {type: String, required: false},
+    tcFcpxml: {type: String, required: false},
+    people: String;
+    creationTs: {type: String, required: false}
   }
 );
 

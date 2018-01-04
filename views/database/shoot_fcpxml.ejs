@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+  <html lang="en-US">
+  <head>
+    <% include ../partials/head.ejs %>
+  </head>
+  <body>
+    <div class="container">
+      <% include ../partials/header.ejs %>
+      <p>Welcome to <%= title %>. To delete, click <a href=<%- theShoot.deleteUrl %>>here.</a> To update, click <a href=<%- (theShoot.url + '/update') %>>here.</a> To review various shoot details, look at the links below.</p>
+      <h5>THE FCPXML</h5>
+      <div class="code">
+        <pre>
+          <code>
+            <%= prettyFcpxml %>
+          </code>
+        </pre>
+      </div>
+    </div>
+  <% include ../partials/foot.ejs %>

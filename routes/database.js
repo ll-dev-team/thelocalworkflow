@@ -22,6 +22,12 @@ router.get('/shoot/:id/update', shoot_controller.shoot_update_get);
 
 router.post('/shoot/:id/update', shoot_controller.shoot_update_post);
 
+router.get('/shoot/:id/stills', shoot_controller.shoot_stills_get);
+
+router.get('/shoot/:id/fcpxml', shoot_controller.shoot_fcpxml_get);
+
+router.get('/shoot/:id/json', shoot_controller.shoot_json_get);
+
 router.get('/shoot/:id', shoot_controller.shoot_detail);
 
 router.get('/shoots', shoot_controller.shoot_list);

@@ -4,42 +4,60 @@
     <% include ../partials/head.ejs %>
   </head>
   <body>
-
     <div class="container">
       <% include ../partials/header.ejs %>
-    <p>Welcome to <%= title %>. To delete, click <a href=<%- theShoot.deleteUrl %>>here.</a> To update, click <a href=<%- (theShoot.url + '/update') %>>here.</a> To review the shoot details, look below.</p>
-    <h5>THE SHOOT ID</h5>
-    <p>
-      <%= theShoot.shootId %>
-    </p>
-  <%  if(theShoot.people){ %>
-    <h5>THE PEOPLE</h5>
-    <p>
-      There are
-      <%= theShoot.people.length %>
-       people for this shoot:
-    </p>
-    <ol>
-      <% for (i=0; i<theShoot.people.length; i++) { %>
+      <p>Welcome to <%= title %>. To delete, click <a href=<%- theShoot.deleteUrl %>>here.</a> To update, click <a href=<%- (theShoot.url + '/update') %>>here.</a> To review various shoot details, look at the links below.</p>
+      <h5>SHOOT DETAILS</h5>
+      <ul>
         <li>
-
-          <%- theShoot.people [i] %>
-
+          <a href=<%- (theShoot.url + '/stills')%>>
+            the stills
+          </a>
         </li>
-
-      <% }} %>
-    </ol>
-
-
-
-    <h5>THE JSON FOR THE SHOOT</h5>
-    <div class="code" >
-        <pre><code><%= (JSON.stringify(theShoot, null, 4)) %>
-        </code></pre>
+        <li>
+          <a href=<%- (theShoot.url + '/fcpxml')%>>
+            the fcpxml
+          </a>
+        </li>
+        <li>
+          <a href=<%- (theShoot.url + '/json')%>>
+            the JSON
+          </a>
+        </li>
+      </ul>
+      <h5>THE SHOOT ID</h5>
+      <p>
+        <%= theShoot.shootId %>
+      </p>
+      <% if(theShoot.people){ %>
+        <h5>THE PEOPLE</h5>
+        <p>
+          There are
+          <%= theShoot.people.length %>
+          people for this shoot:
+        </p>
+        <ol>
+          <% for (i=0; i<theShoot.people.length; i++) { %>
+            <li>
+              <%- theShoot.people [i] %>
+            </li>
+          <% }} %>
+        </ol>
+      <h5>THE JSON FOR THE SHOOT</h5>
+      <div class="code" >
+        <pre>
+          <code>
+            <%= (JSON.stringify(theShoot, null, 4)) %>
+          </code>
+        </pre>
+      </div>
+      <h5>THE FCPXML</h5>
+      <div class="code">
+        <pre>
+          <code>
+            <%= prettyFcpxml %>
+          </code>
+        </pre>
+      </div>
     </div>
-    <h5>THE FCPXML</h5>
-    <div class="code"><pre><code><%= prettyFcpxml %></code>
-    </pre>
-  </div>x
-  </div>
-<% include ../partials/foot.ejs %>
+  <% include ../partials/foot.ejs %>

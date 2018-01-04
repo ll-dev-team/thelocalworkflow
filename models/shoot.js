@@ -10,7 +10,6 @@ var ShootSchema = new Schema({
     fcpxml : String,
 }, {strict: false});
 
-
 ShootSchema
   .virtual('url')
   .get(function () {

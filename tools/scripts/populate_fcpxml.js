@@ -60,7 +60,6 @@ function fcpxmlFolderToDb (folderPath) {
   });
 };
 
-
 function simpleTraverse(o ) {
   for (i in o) {
       if (!!o[i] && typeof(o[i])=="object") {
