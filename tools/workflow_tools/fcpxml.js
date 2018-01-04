@@ -383,7 +383,9 @@ function makeProject(shootObject, ccR){
     };
   return projectXml;
 }
-//
+
+
+ 
 // function makeStillsProject(shootObject){
 //   // calculate stillsProjectDuration
 //   //

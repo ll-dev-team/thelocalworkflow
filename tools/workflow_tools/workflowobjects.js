@@ -7,7 +7,7 @@ var dateFormat = require('dateformat');
 function Clip(folderPath, camFolder, file, theIndex){
   var now = new Date();
   this.thelocalworkflowIngestTime = (dateFormat(now, "UTC:yyyy-mm-dd HH-MM-ss"));
-  this.thelocalworkflowFcpxmlTime =  dateFormat(now, "yyyy-mm-dd HH:MM:ss o");  
+  this.thelocalworkflowFcpxmlTime =  dateFormat(now, "yyyy-mm-dd HH:MM:ss o");
   this.oldBasenameExt = file;
   this.oldPath = path.join(folderPath, camFolder, file);
   this.cameraFolder = camFolder;
@@ -95,7 +95,7 @@ function Clip(folderPath, camFolder, file, theIndex){
   // console.log(JSON.stringify(this.fcpxml, null, 2));
   this.fcpxml.asset = {_attr:{name: this.newBasenameExt, src: ("file://" + this.newPath), start: (timeCodeToFcpxmlFormat(this.startTc)+"/" + this.codec_time_base_denominator + "s"), duration:(this.videoStreamJson.duration_ts + "/" + this.codec_time_base_denominator + "s"), hasVideo:1, hasAudio:1, audioSources:1, audioChannels:this.audioStreamJson.channels, audioRate: this.audioStreamJson.sample_rate}};
   this.fcpxml.assetClip = [{_attr: {name: this.newBasename, audioRole:"dialogue", tcFormat:"NDF", start:(timeCodeToFcpxmlFormat(this.startTc) + "/" + this.codec_time_base_denominator + "s"), duration: (this.videoStreamJson.duration_ts + "/" + this.codec_time_base_denominator + "s"), modDate:this.thelocalworkflowFcpxmlTime}}];
-  this.fcpxml.assetClip.push({keyword:  {_attr: {start:(timeCodeToFcpxmlFormat(this.startTc)), duration:(this.videoStreamJson.duration_ts + "/" + this.codec_time_base_denominator + "s"), value:(this.shootId+", "+this.cameraFolder)}}});
+  this.fcpxml.assetClip.push({keyword:  {_attr: {start:(timeCodeToFcpxmlFormat(this.startTc) + "/" + this.codec_time_base_denominator + "s"), duration:(this.videoStreamJson.duration_ts + "/" + this.codec_time_base_denominator + "s"), value:(this.shootId+", "+this.cameraFolder)}}});
   this.fcpxml.assetClip.push({keyword: {_attr: {start:(timeCodeToFcpxmlFormat(this.startTc) + "/" + this.codec_time_base_denominator + "s"), duration:"24024/24000s", value:"first 24 frames"}}});
   this.fcpxml.mcAssetClip = [
         {_attr:

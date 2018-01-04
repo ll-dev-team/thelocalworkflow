@@ -1,17 +1,14 @@
 {
     "fcpxml": {
-        "$": {
-            "version": "1.6"
-        },
         "resources": [
             {
                 "asset": [
                     {
-                        "$": {
+                        "_attr": {
                             "id": "r1",
                             "name": "20171203_004_MCB81_Indecisives_C300a_001",
                             "uid": "218C540543A39396880ABC90D9753422",
-                            "src": "file:///Volumes/138_1050_extra_02/20171203_004_MCB81_Indecisives/C300a/20171203_004_MCB81_Indecisives_C300a_001.mov",
+                            "src": "file:///Volumes/143_Friday_02/20171203_004_MCB81_Indecisives/C300a/20171203_004_MCB81_Indecisives_C300a_001.mov",
                             "start": "1409307900/24000s",
                             "duration": "57873816/24000s",
                             "hasVideo": "1",
@@ -20,17 +17,14 @@
                             "audioSources": "1",
                             "audioChannels": "2",
                             "audioRate": "48000"
-                        },
-                        "bookmark": [
-                            "Ym9va4wEAAAAAAQQMAAAAFpUj84HDOQzpQg1IHMVprgl59sOoXPgTA8bVWC6FHGFiAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwARAAAAAQEAADEzOF8xMDUwX2V4dHJhXzAyAAAAHgAAAAEBAAAyMDE3MTIwM18wMDRfTUNCODFfSW5kZWNpc2l2ZXMAAAUAAAABAQAAQzMwMGEAAAAsAAAAAQEAADIwMTcxMjAzXzAwNF9NQ0I4MV9JbmRlY2lzaXZlc19DMzAwYV8wMDEubW92FAAAAAEGAAAQAAAAIAAAADwAAABkAAAAdAAAAAgAAAAEAwAApmcGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAAAAJwAAAAAAAAgAAAAEAwAAAicAAAAAAAAIAAAABAMAADQnAAAAAAAAFAAAAAEGAADEAAAA1AAAAOQAAAD0AAAABAEAAAgAAAAABAAAQb/UrccAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAGAAAABAAAAAMDAAAEAAAAIgAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvMTM4XzEwNTBfZXh0cmFfMDIvAAAIAAAABAMAAABAKnH0AAAACAAAAAAEAABBv0N59wAAACQAAAABAQAAQURGNEU4NEQtQTkwNi0zQjBDLUE2QkEtMkRGNTA0Q0VGNzBGGAAAAAECAAABAQAAAQAAAO8TAAABAAAAAAAAAAAAAAAaAAAAAQEAAC9Wb2x1bWVzLzEzOF8xMDUwX2V4dHJhXzAyAAAIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA0AIAAAAAAAAFIAAAPAIAAAAAAAAQIAAATAIAAAAAAAARIAAAhAIAAAAAAAASIAAAZAIAAAAAAAATIAAAdAIAAAAAAAAgIAAAsAIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAYAAAAAQYAAEQDAABQAwAAXAMAAFADAABQAwAAUAMAAMwAAAD+////AQAAANwCAAAQAAAABBAAAKgAAAAAAAAABRAAABQBAAAAAAAAEBAAAEABAAAAAAAAQBAAADABAAAAAAAAVBAAAGgBAAAAAAAAVRAAAHQBAAAAAAAAVhAAAGABAAAAAAAAACAAAGgDAAAAAAAAAiAAABgCAAAAAAAABSAAAIABAAAAAAAAECAAACAAAAAAAAAAESAAAMwBAAAAAAAAEiAAAKwBAAAAAAAAEyAAALwBAAAAAAAAICAAAPgBAAAAAAAAENAAAAQAAAAAAAAA"
-                        ]
+                        }
                     },
                     {
-                        "$": {
+                        "_attr": {
                             "id": "r3",
                             "name": "20171203_004_MCB81_Indecisives_C300b_001",
                             "uid": "68D7566196C50C9709905AAD5C3B9213",
-                            "src": "file:///Volumes/138_1050_extra_02/20171203_004_MCB81_Indecisives/C300b/20171203_004_MCB81_Indecisives_C300b_001.mov",
+                            "src": "file:///Volumes/143_Friday_02/20171203_004_MCB81_Indecisives/C300b/20171203_004_MCB81_Indecisives_C300b_001.mov",
                             "start": "1409726318/24000s",
                             "duration": "57429372/24000s",
                             "hasVideo": "1",
@@ -39,17 +33,14 @@
                             "audioSources": "1",
                             "audioChannels": "2",
                             "audioRate": "48000"
-                        },
-                        "bookmark": [
-                            "Ym9va4wEAAAAAAQQMAAAACt3u/zWwIpy0qAbkvcWjXZ/01IfMsygC3ZDythozgBliAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwARAAAAAQEAADEzOF8xMDUwX2V4dHJhXzAyAAAAHgAAAAEBAAAyMDE3MTIwM18wMDRfTUNCODFfSW5kZWNpc2l2ZXMAAAUAAAABAQAAQzMwMGIAAAAsAAAAAQEAADIwMTcxMjAzXzAwNF9NQ0I4MV9JbmRlY2lzaXZlc19DMzAwYl8wMDEubW92FAAAAAEGAAAQAAAAIAAAADwAAABkAAAAdAAAAAgAAAAEAwAApmcGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAAAAJwAAAAAAAAgAAAAEAwAAAycAAAAAAAAIAAAABAMAAGYnAAAAAAAAFAAAAAEGAADEAAAA1AAAAOQAAAD0AAAABAEAAAgAAAAABAAAQb/Urs4AAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAGAAAABAAAAAMDAAAEAAAAIgAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvMTM4XzEwNTBfZXh0cmFfMDIvAAAIAAAABAMAAABAKnH0AAAACAAAAAAEAABBv0N59wAAACQAAAABAQAAQURGNEU4NEQtQTkwNi0zQjBDLUE2QkEtMkRGNTA0Q0VGNzBGGAAAAAECAAABAQAAAQAAAO8TAAABAAAAAAAAAAAAAAAaAAAAAQEAAC9Wb2x1bWVzLzEzOF8xMDUwX2V4dHJhXzAyAAAIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA0AIAAAAAAAAFIAAAPAIAAAAAAAAQIAAATAIAAAAAAAARIAAAhAIAAAAAAAASIAAAZAIAAAAAAAATIAAAdAIAAAAAAAAgIAAAsAIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAYAAAAAQYAAEQDAABQAwAAXAMAAFADAABQAwAAUAMAAMwAAAD+////AQAAANwCAAAQAAAABBAAAKgAAAAAAAAABRAAABQBAAAAAAAAEBAAAEABAAAAAAAAQBAAADABAAAAAAAAVBAAAGgBAAAAAAAAVRAAAHQBAAAAAAAAVhAAAGABAAAAAAAAACAAAGgDAAAAAAAAAiAAABgCAAAAAAAABSAAAIABAAAAAAAAECAAACAAAAAAAAAAESAAAMwBAAAAAAAAEiAAAKwBAAAAAAAAEyAAALwBAAAAAAAAICAAAPgBAAAAAAAAENAAAAQAAAAAAAAA"
-                        ]
+                        }
                     },
                     {
-                        "$": {
+                        "_attr": {
                             "id": "r4",
                             "name": "20171203_004_MCB81_Indecisives_C300c_001",
                             "uid": "F2941352AD467510E43F000210FE991F",
-                            "src": "file:///Volumes/138_1050_extra_02/20171203_004_MCB81_Indecisives/C300c/20171203_004_MCB81_Indecisives_C300c_001.mov",
+                            "src": "file:///Volumes/143_Friday_02/20171203_004_MCB81_Indecisives/C300c/20171203_004_MCB81_Indecisives_C300c_001.mov",
                             "start": "1409586178/24000s",
                             "duration": "57621564/24000s",
                             "hasVideo": "1",
@@ -58,17 +49,14 @@
                             "audioSources": "1",
                             "audioChannels": "2",
                             "audioRate": "48000"
-                        },
-                        "bookmark": [
-                            "Ym9va4wEAAAAAAQQMAAAAOi+vaKqgAZipjnNc2I4SW6i5ZBaf2gBlU7hDwoDC3nLiAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwARAAAAAQEAADEzOF8xMDUwX2V4dHJhXzAyAAAAHgAAAAEBAAAyMDE3MTIwM18wMDRfTUNCODFfSW5kZWNpc2l2ZXMAAAUAAAABAQAAQzMwMGMAAAAsAAAAAQEAADIwMTcxMjAzXzAwNF9NQ0I4MV9JbmRlY2lzaXZlc19DMzAwY18wMDEubW92FAAAAAEGAAAQAAAAIAAAADwAAABkAAAAdAAAAAgAAAAEAwAApmcGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAAAAJwAAAAAAAAgAAAAEAwAABCcAAAAAAAAIAAAABAMAACcnAAAAAAAAFAAAAAEGAADEAAAA1AAAAOQAAAD0AAAABAEAAAgAAAAABAAAQb/UrL0AAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAGAAAABAAAAAMDAAAEAAAAIgAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvMTM4XzEwNTBfZXh0cmFfMDIvAAAIAAAABAMAAABAKnH0AAAACAAAAAAEAABBv0N59wAAACQAAAABAQAAQURGNEU4NEQtQTkwNi0zQjBDLUE2QkEtMkRGNTA0Q0VGNzBGGAAAAAECAAABAQAAAQAAAO8TAAABAAAAAAAAAAAAAAAaAAAAAQEAAC9Wb2x1bWVzLzEzOF8xMDUwX2V4dHJhXzAyAAAIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA0AIAAAAAAAAFIAAAPAIAAAAAAAAQIAAATAIAAAAAAAARIAAAhAIAAAAAAAASIAAAZAIAAAAAAAATIAAAdAIAAAAAAAAgIAAAsAIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAYAAAAAQYAAEQDAABQAwAAXAMAAFADAABQAwAAUAMAAMwAAAD+////AQAAANwCAAAQAAAABBAAAKgAAAAAAAAABRAAABQBAAAAAAAAEBAAAEABAAAAAAAAQBAAADABAAAAAAAAVBAAAGgBAAAAAAAAVRAAAHQBAAAAAAAAVhAAAGABAAAAAAAAACAAAGgDAAAAAAAAAiAAABgCAAAAAAAABSAAAIABAAAAAAAAECAAACAAAAAAAAAAESAAAMwBAAAAAAAAEiAAAKwBAAAAAAAAEyAAALwBAAAAAAAAICAAAPgBAAAAAAAAENAAAAQAAAAAAAAA"
-                        ]
+                        }
                     },
                     {
-                        "$": {
+                        "_attr": {
                             "id": "r5",
                             "name": "20171203_004_MCB81_Indecisives_GH4_001",
                             "uid": "C38609C693A8DAB28EDF1D775FF245F0",
-                            "src": "file:///Volumes/138_1050_extra_02/20171203_004_MCB81_Indecisives/GH4/20171203_004_MCB81_Indecisives_GH4_001.MOV",
+                            "src": "file:///Volumes/143_Friday_02/20171203_004_MCB81_Indecisives/GH4/20171203_004_MCB81_Indecisives_GH4_001.MOV",
                             "start": "1409789381/24000s",
                             "duration": "57248191/24000s",
                             "hasVideo": "1",
@@ -77,15 +65,12 @@
                             "audioSources": "1",
                             "audioChannels": "2",
                             "audioRate": "48000"
-                        },
-                        "bookmark": [
-                            "Ym9va4gEAAAAAAQQMAAAAOTrcB7E/rtnvSDhrWGEk1xlzqjqJvcstKFbdm3b7+XwhAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwARAAAAAQEAADEzOF8xMDUwX2V4dHJhXzAyAAAAHgAAAAEBAAAyMDE3MTIwM18wMDRfTUNCODFfSW5kZWNpc2l2ZXMAAAMAAAABAQAAR0g0ACoAAAABAQAAMjAxNzEyMDNfMDA0X01DQjgxX0luZGVjaXNpdmVzX0dINF8wMDEuTU9WAAAUAAAAAQYAABAAAAAgAAAAPAAAAGQAAABwAAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAAAAnAAAAAAAACAAAAAQDAAAFJwAAAAAAAAgAAAAEAwAAnCcAAAAAAAAUAAAAAQYAAMAAAADQAAAA4AAAAPAAAAAAAQAACAAAAAAEAABBv9SzJAAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAEFAAAEAAAAAwMAAAYAAAAEAAAAAwMAAAQAAAAiAAAAAQkAAGZpbGU6Ly8vVm9sdW1lcy8xMzhfMTA1MF9leHRyYV8wMi8AAAgAAAAEAwAAAEAqcfQAAAAIAAAAAAQAAEG/Q3n3AAAAJAAAAAEBAABBREY0RTg0RC1BOTA2LTNCMEMtQTZCQS0yREY1MDRDRUY3MEYYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABoAAAABAQAAL1ZvbHVtZXMvMTM4XzEwNTBfZXh0cmFfMDIAAAgAAAABCQAAZmlsZTovLy8NAAAAAQEAAExMX1Byb2R1Y3Rpb24AAAAIAAAABAMAAABwokd0AAAACAAAAAAEAABBvz48jQAAACQAAAABAQAARjhDRTE5QTUtNUY5MC0zQzk3LThGMDMtRTdFMEMwRUQzOEQyGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAABgAAAA/v///wDwAAAAAAAABwAAAAIgAADMAgAAAAAAAAUgAAA4AgAAAAAAABAgAABIAgAAAAAAABEgAACAAgAAAAAAABIgAABgAgAAAAAAABMgAABwAgAAAAAAACAgAACsAgAAAAAAAAQAAAADAwAAAPAAAAQAAAADAwAAAAAAAAQAAAADAwAAAQAAABgAAAABBgAAQAMAAEwDAABYAwAATAMAAEwDAABMAwAAzAAAAP7///8BAAAA2AIAABAAAAAEEAAApAAAAAAAAAAFEAAAEAEAAAAAAAAQEAAAPAEAAAAAAABAEAAALAEAAAAAAABUEAAAZAEAAAAAAABVEAAAcAEAAAAAAABWEAAAXAEAAAAAAAAAIAAAZAMAAAAAAAACIAAAFAIAAAAAAAAFIAAAfAEAAAAAAAAQIAAAIAAAAAAAAAARIAAAyAEAAAAAAAASIAAAqAEAAAAAAAATIAAAuAEAAAAAAAAgIAAA9AEAAAAAAAAQ0AAABAAAAAAAAAA="
-                        ]
+                        }
                     }
                 ],
                 "format": [
                     {
-                        "$": {
+                        "_attr": {
                             "id": "r2",
                             "name": "FFVideoFormat1080p2398",
                             "frameDuration": "1001/24000s",
@@ -96,29 +81,28 @@
                 ],
                 "media": [
                     {
-                        "$": {
-                            "id": "r6",
-                            "name": "20171203_004_MCB81_Indecisives_MC",
-                            "uid": "pEAQUEhKSLmcOLZ8dWSfLg",
-                            "modDate": "2017-12-03 17:45:57 -0500"
-                        },
                         "multicam": [
                             {
-                                "$": {
-                                    "format": "r2",
-                                    "renderColorSpace": "Rec. 709",
-                                    "tcStart": "1409307900/24000s",
-                                    "tcFormat": "NDF"
-                                },
                                 "mc-angle": [
                                     {
-                                        "$": {
-                                            "name": "C300a",
-                                            "angleID": "0000C300a"
-                                        },
                                         "asset-clip": [
                                             {
-                                                "$": {
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2",
+                                                            "active": "0"
+                                                        }
+                                                    }
+                                                ],
+                                                "_attr": {
                                                     "name": "20171203_004_MCB81_Indecisives_C300a_001.mov",
                                                     "offset": "0s",
                                                     "ref": "r1",
@@ -126,33 +110,18 @@
                                                     "start": "1409307900/24000s",
                                                     "audioRole": "dialogue",
                                                     "tcFormat": "NDF"
-                                                },
-                                                "audio-channel-source": [
-                                                    {
-                                                        "$": {
-                                                            "role": "dialogue.dialogue-1",
-                                                            "srcCh": "1"
-                                                        }
-                                                    },
-                                                    {
-                                                        "$": {
-                                                            "role": "dialogue.dialogue-2",
-                                                            "srcCh": "2",
-                                                            "active": "0"
-                                                        }
-                                                    }
-                                                ]
+                                                }
                                             }
-                                        ]
+                                        ],
+                                        "_attr": {
+                                            "name": "C300a",
+                                            "angleID": "0000C300a"
+                                        }
                                     },
                                     {
-                                        "$": {
-                                            "name": "C300b",
-                                            "angleID": "0000C300b"
-                                        },
                                         "gap": [
                                             {
-                                                "$": {
+                                                "_attr": {
                                                     "name": "Gap",
                                                     "offset": "0s",
                                                     "duration": "418418/24000s",
@@ -162,7 +131,21 @@
                                         ],
                                         "asset-clip": [
                                             {
-                                                "$": {
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ],
+                                                "_attr": {
                                                     "name": "20171203_004_MCB81_Indecisives_C300b_001.mov",
                                                     "offset": "418418/24000s",
                                                     "ref": "r3",
@@ -170,32 +153,18 @@
                                                     "start": "1409726318/24000s",
                                                     "audioRole": "dialogue",
                                                     "tcFormat": "NDF"
-                                                },
-                                                "audio-channel-source": [
-                                                    {
-                                                        "$": {
-                                                            "role": "dialogue.dialogue-1",
-                                                            "srcCh": "1"
-                                                        }
-                                                    },
-                                                    {
-                                                        "$": {
-                                                            "role": "dialogue.dialogue-2",
-                                                            "srcCh": "2"
-                                                        }
-                                                    }
-                                                ]
+                                                }
                                             }
-                                        ]
+                                        ],
+                                        "_attr": {
+                                            "name": "C300b",
+                                            "angleID": "0000C300b"
+                                        }
                                     },
                                     {
-                                        "$": {
-                                            "name": "C300c",
-                                            "angleID": "0000C300c"
-                                        },
                                         "gap": [
                                             {
-                                                "$": {
+                                                "_attr": {
                                                     "name": "Gap",
                                                     "offset": "0s",
                                                     "duration": "278278/24000s",
@@ -205,7 +174,21 @@
                                         ],
                                         "asset-clip": [
                                             {
-                                                "$": {
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ],
+                                                "_attr": {
                                                     "name": "20171203_004_MCB81_Indecisives_C300c_001.mov",
                                                     "offset": "278278/24000s",
                                                     "ref": "r4",
@@ -213,32 +196,18 @@
                                                     "start": "1409586178/24000s",
                                                     "audioRole": "dialogue",
                                                     "tcFormat": "NDF"
-                                                },
-                                                "audio-channel-source": [
-                                                    {
-                                                        "$": {
-                                                            "role": "dialogue.dialogue-1",
-                                                            "srcCh": "1"
-                                                        }
-                                                    },
-                                                    {
-                                                        "$": {
-                                                            "role": "dialogue.dialogue-2",
-                                                            "srcCh": "2"
-                                                        }
-                                                    }
-                                                ]
+                                                }
                                             }
-                                        ]
+                                        ],
+                                        "_attr": {
+                                            "name": "C300c",
+                                            "angleID": "0000C300c"
+                                        }
                                     },
                                     {
-                                        "$": {
-                                            "name": "GH4",
-                                            "angleID": "0000GH4"
-                                        },
                                         "gap": [
                                             {
-                                                "$": {
+                                                "_attr": {
                                                     "name": "Gap",
                                                     "offset": "0s",
                                                     "duration": "481481/24000s",
@@ -248,7 +217,21 @@
                                         ],
                                         "asset-clip": [
                                             {
-                                                "$": {
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ],
+                                                "_attr": {
                                                     "name": "20171203_004_MCB81_Indecisives_GH4_001.MOV",
                                                     "offset": "481481/24000s",
                                                     "ref": "r5",
@@ -256,234 +239,290 @@
                                                     "start": "1409789381/24000s",
                                                     "audioRole": "dialogue",
                                                     "tcFormat": "NDF"
-                                                },
-                                                "audio-channel-source": [
-                                                    {
-                                                        "$": {
-                                                            "role": "dialogue.dialogue-1",
-                                                            "srcCh": "1"
-                                                        }
-                                                    },
-                                                    {
-                                                        "$": {
-                                                            "role": "dialogue.dialogue-2",
-                                                            "srcCh": "2"
-                                                        }
-                                                    }
-                                                ]
+                                                }
                                             }
-                                        ]
+                                        ],
+                                        "_attr": {
+                                            "name": "GH4",
+                                            "angleID": "0000GH4"
+                                        }
                                     }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "$": {
-                            "id": "r7",
-                            "name": "20171203_004_MCB81_Indecisives_MC_CC",
-                            "uid": "o0u00ESUS9G0TLI10iAlKw",
-                            "modDate": "2017-12-03 17:45:57 -0500"
-                        },
-                        "sequence": [
-                            {
-                                "$": {
-                                    "duration": "57899842/24000s",
+                                ],
+                                "_attr": {
                                     "format": "r2",
                                     "renderColorSpace": "Rec. 709",
                                     "tcStart": "1409307900/24000s",
                                     "tcFormat": "NDF"
-                                },
+                                }
+                            }
+                        ],
+                        "_attr": {
+                            "id": "r6",
+                            "name": "20171203_004_MCB81_Indecisives_MC",
+                            "uid": "pEAQUEhKSLmcOLZ8dWSfLg",
+                            "modDate": "2017-12-03 17:45:57 -0500"
+                        }
+                    },
+                    {
+                        "sequence": [
+                            {
                                 "spine": [
                                     {
                                         "mc-clip": [
                                             {
-                                                "$": {
-                                                    "name": "20171203_004_MCB81_Indecisives_MC",
-                                                    "offset": "1409307900/24000s",
-                                                    "ref": "r6",
-                                                    "duration": "57899842/24000s",
-                                                    "start": "1409307900/24000s"
-                                                },
                                                 "mc-source": [
                                                     {
-                                                        "$": {
-                                                            "angleID": "0000C300a",
-                                                            "srcEnable": "all"
-                                                        },
                                                         "filter-video": [
                                                             {
-                                                                "$": {
-                                                                    "ref": "r8",
-                                                                    "name": "2.5_A"
-                                                                },
                                                                 "param": [
                                                                     {
-                                                                        "$": {
+                                                                        "_attr": {
                                                                             "name": "Position",
                                                                             "key": "9999/32385/10619/1/100/101",
                                                                             "value": "-19.3779 -232"
                                                                         }
                                                                     },
                                                                     {
-                                                                        "$": {
+                                                                        "_attr": {
                                                                             "name": "Alignment",
                                                                             "key": "9999/32385/10619/2/354/142907/401",
                                                                             "value": "2 (Right)"
                                                                         }
                                                                     },
                                                                     {
-                                                                        "$": {
+                                                                        "_attr": {
                                                                             "name": "Line Spacing",
                                                                             "key": "9999/32385/10619/2/354/142907/404",
                                                                             "value": "-2"
                                                                         }
                                                                     },
                                                                     {
-                                                                        "$": {
+                                                                        "_attr": {
                                                                             "name": "Text",
                                                                             "key": "9999/32385/10619/2/369",
                                                                             "value": "20171203_004_MCB81_Indecisives"
                                                                         }
                                                                     },
                                                                     {
-                                                                        "$": {
+                                                                        "_attr": {
                                                                             "name": "Position",
                                                                             "key": "9999/32385/20673/1/100/101",
                                                                             "value": "-16.824 -180"
                                                                         }
                                                                     },
                                                                     {
-                                                                        "$": {
+                                                                        "_attr": {
                                                                             "name": "Alignment",
                                                                             "key": "9999/32385/20673/2/354/142905/401",
                                                                             "value": "2 (Right)"
                                                                         }
                                                                     },
                                                                     {
-                                                                        "$": {
+                                                                        "_attr": {
                                                                             "name": "Text",
                                                                             "key": "9999/32385/20673/2/369",
                                                                             "value": "MCB81: Indecisives"
                                                                         }
                                                                     },
                                                                     {
-                                                                        "$": {
+                                                                        "_attr": {
                                                                             "name": "Position",
                                                                             "key": "9999/32385/20837/1/100/101",
                                                                             "value": "-443.584 -395"
                                                                         }
                                                                     },
                                                                     {
-                                                                        "$": {
+                                                                        "_attr": {
                                                                             "name": "Alignment",
                                                                             "key": "9999/32385/20837/2/354/142909/401",
                                                                             "value": "2 (Right)"
                                                                         }
                                                                     },
                                                                     {
-                                                                        "$": {
+                                                                        "_attr": {
                                                                             "name": "Text",
                                                                             "key": "9999/32385/20837/2/369",
                                                                             "value": "20171203:"
                                                                         }
                                                                     }
-                                                                ]
+                                                                ],
+                                                                "_attr": {
+                                                                    "ref": "r8",
+                                                                    "name": "2.5_A"
+                                                                }
                                                             }
-                                                        ]
+                                                        ],
+                                                        "_attr": {
+                                                            "angleID": "0000C300a",
+                                                            "srcEnable": "all"
+                                                        }
                                                     }
                                                 ],
                                                 "mc-clip": [
                                                     {
-                                                        "$": {
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r9",
+                                                                            "name": "2.5_C"
+                                                                        }
+                                                                    }
+                                                                ],
+                                                                "_attr": {
+                                                                    "angleID": "0000C300b",
+                                                                    "srcEnable": "none"
+                                                                }
+                                                            },
+                                                            {
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r10",
+                                                                            "name": "2.5_B"
+                                                                        }
+                                                                    }
+                                                                ],
+                                                                "_attr": {
+                                                                    "angleID": "0000GH4",
+                                                                    "srcEnable": "video"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "_attr": {
+                                                            "name": "20171203_004_MCB81_Indecisives_MC",
+                                                            "lane": "-3",
+                                                            "offset": "1409307900/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "57899842/24000s",
+                                                            "start": "1409307900/24000s"
+                                                        }
+                                                    },
+                                                    {
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r11",
+                                                                            "name": "GH4-cam-2018-master"
+                                                                        }
+                                                                    }
+                                                                ],
+                                                                "_attr": {
+                                                                    "angleID": "0000C300b",
+                                                                    "srcEnable": "video"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "_attr": {
                                                             "name": "20171203_004_MCB81_Indecisives_MC",
                                                             "lane": "-2",
                                                             "offset": "1409307900/24000s",
                                                             "ref": "r6",
                                                             "duration": "57899842/24000s",
                                                             "start": "1409307900/24000s"
-                                                        },
+                                                        }
+                                                    },
+                                                    {
                                                         "adjust-volume": [
                                                             {
-                                                                "$": {
+                                                                "_attr": {
                                                                     "amount": "-96dB"
                                                                 }
                                                             }
                                                         ],
                                                         "mc-source": [
                                                             {
-                                                                "$": {
+                                                                "_attr": {
                                                                     "angleID": "0000C300a",
                                                                     "srcEnable": "audio"
                                                                 }
                                                             },
                                                             {
-                                                                "$": {
-                                                                    "angleID": "0000C300b",
-                                                                    "srcEnable": "video"
-                                                                },
                                                                 "filter-video": [
                                                                     {
-                                                                        "$": {
-                                                                            "ref": "r9",
-                                                                            "name": "2.5_C"
+                                                                        "_attr": {
+                                                                            "ref": "r10",
+                                                                            "name": "2.5_B"
                                                                         }
                                                                     }
-                                                                ]
+                                                                ],
+                                                                "_attr": {
+                                                                    "angleID": "0000C300c",
+                                                                    "srcEnable": "video"
+                                                                }
                                                             }
-                                                        ]
-                                                    },
-                                                    {
-                                                        "$": {
+                                                        ],
+                                                        "_attr": {
                                                             "name": "20171203_004_MCB81_Indecisives_MC",
                                                             "lane": "-1",
                                                             "offset": "1409307900/24000s",
                                                             "ref": "r6",
                                                             "duration": "57899842/24000s",
-                                                            "start": "1409307900/24000s"
-                                                        },
-                                                        "adjust-volume": [
-                                                            {
-                                                                "$": {
-                                                                    "amount": "-96dB"
-                                                                }
-                                                            }
-                                                        ],
-                                                        "mc-source": [
-                                                            {
-                                                                "$": {
-                                                                    "angleID": "0000C300a",
-                                                                    "srcEnable": "audio"
-                                                                }
-                                                            },
-                                                            {
-                                                                "$": {
-                                                                    "angleID": "0000C300c",
-                                                                    "srcEnable": "video"
-                                                                },
-                                                                "filter-video": [
-                                                                    {
-                                                                        "$": {
-                                                                            "ref": "r10",
-                                                                            "name": "2.5_B"
-                                                                        }
-                                                                    }
-                                                                ]
-                                                            }
-                                                        ]
+                                                            "start": "1409307900/24000s",
+                                                            "enabled": "0"
+                                                        }
                                                     }
-                                                ]
+                                                ],
+                                                "_attr": {
+                                                    "name": "20171203_004_MCB81_Indecisives_MC",
+                                                    "offset": "1409307900/24000s",
+                                                    "ref": "r6",
+                                                    "duration": "57899842/24000s",
+                                                    "start": "1409307900/24000s"
+                                                }
                                             }
                                         ]
                                     }
-                                ]
+                                ],
+                                "_attr": {
+                                    "duration": "57899842/24000s",
+                                    "format": "r2",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "1409307900/24000s",
+                                    "tcFormat": "NDF"
+                                }
                             }
-                        ]
+                        ],
+                        "_attr": {
+                            "id": "r7",
+                            "name": "20171203_004_MCB81_Indecisives_MC_CC",
+                            "uid": "o0u00ESUS9G0TLI10iAlKw",
+                            "modDate": "2017-12-04 12:03:26 -0500"
+                        }
                     }
                 ],
                 "effect": [
                     {
-                        "$": {
+                        "_attr": {
                             "id": "r8",
                             "name": "2.5_A",
                             "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef",
@@ -491,7 +530,7 @@
                         }
                     },
                     {
-                        "$": {
+                        "_attr": {
                             "id": "r9",
                             "name": "2.5_C",
                             "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_C/2.5_C.moef",
@@ -499,11 +538,19 @@
                         }
                     },
                     {
-                        "$": {
+                        "_attr": {
                             "id": "r10",
                             "name": "2.5_B",
                             "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef",
                             "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r11",
+                            "name": "GH4-cam-2018-master",
+                            "uid": "~/Effects.localized/layouts-2018/GH4-cam-2018-master/GH4-cam-2018-master.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/layouts-2018/GH4-cam-2018-master/GH4-cam-2018-master.moef"
                         }
                     }
                 ]
@@ -511,18 +558,27 @@
         ],
         "library": [
             {
-                "$": {
-                    "location": "file:///Volumes/138_1050_extra_02/20171203_MC_CC_Ex.fcpbundle/"
-                },
                 "event": [
                     {
-                        "$": {
-                            "name": "20171203_004_MCB81_Indecisives",
-                            "uid": "95108E6E-25DA-4617-84ED-48F34D501AF2"
-                        },
                         "asset-clip": [
                             {
-                                "$": {
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "4697693/80s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.40931e+09s",
+                                            "duration": "57873816/24000s",
+                                            "value": "20171203_004_MCB81_Indecisives, C300a"
+                                        }
+                                    }
+                                ],
+                                "_attr": {
                                     "name": "20171203_004_MCB81_Indecisives_C300a_001",
                                     "ref": "r1",
                                     "duration": "57873816/24000s",
@@ -531,26 +587,26 @@
                                     "format": "r2",
                                     "tcFormat": "NDF",
                                     "modDate": "2017-12-03 17:25:29 -0500"
-                                },
+                                }
+                            },
+                            {
                                 "keyword": [
                                     {
-                                        "$": {
-                                            "start": "4697693/80s",
+                                        "_attr": {
+                                            "start": "704863159/12000s",
                                             "duration": "24024/24000s",
                                             "value": "first 24 frames"
                                         }
                                     },
                                     {
-                                        "$": {
-                                            "start": "1.40931e+09s",
-                                            "duration": "57873816/24000s",
-                                            "value": "20171203_004_MCB81_Indecisives, C300a"
+                                        "_attr": {
+                                            "start": "1.40973e+09s",
+                                            "duration": "57429372/24000s",
+                                            "value": "20171203_004_MCB81_Indecisives, C300b"
                                         }
                                     }
-                                ]
-                            },
-                            {
-                                "$": {
+                                ],
+                                "_attr": {
                                     "name": "20171203_004_MCB81_Indecisives_C300b_001",
                                     "ref": "r3",
                                     "duration": "57429372/24000s",
@@ -559,26 +615,26 @@
                                     "format": "r2",
                                     "tcFormat": "NDF",
                                     "modDate": "2017-12-03 17:25:29 -0500"
-                                },
+                                }
+                            },
+                            {
                                 "keyword": [
                                     {
-                                        "$": {
-                                            "start": "704863159/12000s",
+                                        "_attr": {
+                                            "start": "704793089/12000s",
                                             "duration": "24024/24000s",
                                             "value": "first 24 frames"
                                         }
                                     },
                                     {
-                                        "$": {
-                                            "start": "1.40973e+09s",
-                                            "duration": "57429372/24000s",
-                                            "value": "20171203_004_MCB81_Indecisives, C300b"
+                                        "_attr": {
+                                            "start": "1.40959e+09s",
+                                            "duration": "57621564/24000s",
+                                            "value": "20171203_004_MCB81_Indecisives, C300c"
                                         }
                                     }
-                                ]
-                            },
-                            {
-                                "$": {
+                                ],
+                                "_attr": {
                                     "name": "20171203_004_MCB81_Indecisives_C300c_001",
                                     "ref": "r4",
                                     "duration": "57621564/24000s",
@@ -587,26 +643,26 @@
                                     "format": "r2",
                                     "tcFormat": "NDF",
                                     "modDate": "2017-12-03 17:25:29 -0500"
-                                },
+                                }
+                            },
+                            {
                                 "keyword": [
                                     {
-                                        "$": {
-                                            "start": "704793089/12000s",
+                                        "_attr": {
+                                            "start": "1409789381/24000s",
                                             "duration": "24024/24000s",
                                             "value": "first 24 frames"
                                         }
                                     },
                                     {
-                                        "$": {
-                                            "start": "1.40959e+09s",
-                                            "duration": "57621564/24000s",
-                                            "value": "20171203_004_MCB81_Indecisives, C300c"
+                                        "_attr": {
+                                            "start": "1.40979e+09s",
+                                            "duration": "57248191/24000s",
+                                            "value": "20171203_004_MCB81_Indecisives, GH4"
                                         }
                                     }
-                                ]
-                            },
-                            {
-                                "$": {
+                                ],
+                                "_attr": {
                                     "name": "20171203_004_MCB81_Indecisives_GH4_001",
                                     "ref": "r5",
                                     "duration": "57248191/24000s",
@@ -615,78 +671,48 @@
                                     "format": "r2",
                                     "tcFormat": "NDF",
                                     "modDate": "2017-12-03 17:25:29 -0500"
-                                },
-                                "keyword": [
-                                    {
-                                        "$": {
-                                            "start": "1409789381/24000s",
-                                            "duration": "24024/24000s",
-                                            "value": "first 24 frames"
-                                        }
-                                    },
-                                    {
-                                        "$": {
-                                            "start": "1.40979e+09s",
-                                            "duration": "57248191/24000s",
-                                            "value": "20171203_004_MCB81_Indecisives, GH4"
-                                        }
-                                    }
-                                ]
+                                }
                             }
                         ],
                         "mc-clip": [
                             {
-                                "$": {
-                                    "name": "20171203_004_MCB81_Indecisives_MC",
-                                    "ref": "r6",
-                                    "duration": "57899842/24000s",
-                                    "start": "1409307900/24000s",
-                                    "modDate": "2017-12-03 17:45:57 -0500"
-                                },
                                 "mc-source": [
                                     {
-                                        "$": {
+                                        "_attr": {
                                             "angleID": "0000C300a",
                                             "srcEnable": "all"
                                         }
                                     }
-                                ]
-                            }
-                        ],
-                        "ref-clip": [
-                            {
-                                "$": {
-                                    "name": "20171203_004_MCB81_Indecisives_MC_CC",
-                                    "ref": "r7",
+                                ],
+                                "_attr": {
+                                    "name": "20171203_004_MCB81_Indecisives_MC",
+                                    "ref": "r6",
                                     "duration": "57899842/24000s",
                                     "start": "1409307900/24000s",
                                     "modDate": "2017-12-03 17:45:57 -0500"
                                 }
                             }
                         ],
+                        "ref-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171203_004_MCB81_Indecisives_MC_CC",
+                                    "ref": "r7",
+                                    "duration": "57899842/24000s",
+                                    "start": "1409307900/24000s",
+                                    "modDate": "2017-12-04 12:03:26 -0500"
+                                }
+                            }
+                        ],
                         "project": [
                             {
-                                "$": {
-                                    "name": "20171203_004_MCB81_Indecisives_MC_CC_Ex",
-                                    "uid": "F59729C7-1F6F-4DE3-8873-AAEB271AACD4",
-                                    "modDate": "2017-12-03 17:45:57 -0500"
-                                },
                                 "sequence": [
                                     {
-                                        "$": {
-                                            "duration": "57899842/24000s",
-                                            "format": "r2",
-                                            "renderColorSpace": "Rec. 709",
-                                            "tcStart": "0s",
-                                            "tcFormat": "NDF",
-                                            "audioLayout": "stereo",
-                                            "audioRate": "48k"
-                                        },
                                         "spine": [
                                             {
                                                 "ref-clip": [
                                                     {
-                                                        "$": {
+                                                        "_attr": {
                                                             "name": "20171203_004_MCB81_Indecisives_MC_CC",
                                                             "offset": "0s",
                                                             "ref": "r7",
@@ -696,46 +722,70 @@
                                                     }
                                                 ]
                                             }
-                                        ]
+                                        ],
+                                        "_attr": {
+                                            "duration": "57899842/24000s",
+                                            "format": "r2",
+                                            "renderColorSpace": "Rec. 709",
+                                            "tcStart": "0s",
+                                            "tcFormat": "NDF",
+                                            "audioLayout": "stereo",
+                                            "audioRate": "48k"
+                                        }
                                     }
-                                ]
+                                ],
+                                "_attr": {
+                                    "name": "20171203_004_MCB81_Indecisives_MC_CC_Ex",
+                                    "uid": "F59729C7-1F6F-4DE3-8873-AAEB271AACD4",
+                                    "modDate": "2017-12-04 12:03:26 -0500"
+                                }
                             }
                         ],
                         "keyword-collection": [
                             {
-                                "$": {
+                                "_attr": {
                                     "name": "20171203_004_MCB81_Indecisives"
                                 }
                             },
                             {
-                                "$": {
+                                "_attr": {
                                     "name": "C300a"
                                 }
                             },
                             {
-                                "$": {
+                                "_attr": {
                                     "name": "first 24 frames"
                                 }
                             },
                             {
-                                "$": {
+                                "_attr": {
                                     "name": "C300b"
                                 }
                             },
                             {
-                                "$": {
+                                "_attr": {
                                     "name": "C300c"
                                 }
                             },
                             {
-                                "$": {
+                                "_attr": {
                                     "name": "GH4"
                                 }
                             }
-                        ]
+                        ],
+                        "_attr": {
+                            "name": "20171203_004_MCB81_Indecisives",
+                            "uid": "95108E6E-25DA-4617-84ED-48F34D501AF2"
+                        }
                     }
-                ]
+                ],
+                "_attr": {
+                    "location": "file:///Volumes/143_Friday_02/20171203_MC_CC_Ex.fcpbundle/"
+                }
             }
-        ]
+        ],
+        "_attr": {
+            "version": "1.6"
+        }
     }
 }

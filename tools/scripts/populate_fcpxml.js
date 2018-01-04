@@ -71,6 +71,10 @@ function simpleTraverse(o ) {
             o._attr=o.$;
             delete o.$;
           }
+          if (Object.keys(o).includes("bookmark")) {
+            console.log("found a bookmark and will delete it: " + o.bookmark);
+            delete o.bookmark;
+          }
       }
   }
 }
@@ -97,8 +101,7 @@ function fcpxmlFileToDb (filePath) {
       }
       simpleTraverse(thisObj);
       var shootObjectJson = JSON.stringify(thisObj, null, 4);
-      var newShoot = new Shoot({shootId: thisShootId, shootIdRoot:thisShootIdRoot, fcpxml: theXmlString
-          , fcpxmlAsObject:thisObj
+      var newShoot = new Shoot({shootId: thisShootId, shootIdRoot:thisShootIdRoot, fcpxmlAsObject:thisObj, fcpxml: theXmlString
           });
       fs.writeFileSync((pathForJson + newShoot.shootIdRoot + ".json"), shootObjectJson);
       newShoot.save((err)=> {

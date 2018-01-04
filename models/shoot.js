@@ -4,7 +4,7 @@ var Schema = mongoose.Schema;
 var ShootSchema = new Schema({
     shootId : String,
     shootIdRoot : String,
-    fcpxmlAsJson : {},
+    fcpxmlAsObject : {},
     clips : [],
     people: [],
     fcpxml : String,
