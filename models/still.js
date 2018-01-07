@@ -20,4 +20,4 @@ ShootSchema
     return '/database/still/' + this._id;
 });
 
-module.exports = mongoose.model('Still', StillSchema);
+module.exports = mongoose.model('still', StillSchema);

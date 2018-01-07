@@ -8,26 +8,22 @@ exports.shoot_list = function(req, res, next) {
     Shoot.find({})
       .exec(function (err, list_shoots) {
         if (err) { return next(err); }
-        //Successful, so render
         console.log(JSON.stringify(list_shoots, null, 4));
         res.render('database/shoot_list', { title: 'Shoot List', tabTitle: "Shoot List", shoot_list: list_shoots });
       });
 }
 
 exports.shoot_detail = function(req, res, next) {
-    // res.send('NOT IMPLEMENTED: shoot detail: ' + req.params.id);
     async.parallel({
         shoot: function(callback) {
                 Shoot.findById(req.params.id)
                   .exec(callback);
             }
-
-            // ,
-            // genre_books: function(callback) {
-            //   Book.find({ 'genre': req.params.id })
-            //   .exec(callback);
-            // },
-
+        // ,
+        // shoot_stills: function(callback) {
+        //   Still.find({ 'shoot_id': req.params.id })
+        //   .exec(callback);
+        // },
         }, function(err, results) {
             if (err) { return next(err); }
             if (results.shoot==null) { // No results.
@@ -35,13 +31,7 @@ exports.shoot_detail = function(req, res, next) {
                 err.status = 404;
                 return next(err);
             }
-            // Successful, so render
-            // var pdFcpxml = pd.xml(results.shoot.fcpxml);
-            // console.log("\n\npdFcpxml: \n\n"+ pdFcpxml);
-            // console.log(JSON.stringify(results.shoot, null, 4));
-
             res.render('database/shoot_detail', { title: 'Shoot Detail', tabTitle: 'Shoot Detail', theShoot: results.shoot, prettyFcpxml: (pd.xml(results.shoot.fcpxml))})
-            // , genre_books: results.genre_books
             } );
         }
 
@@ -69,16 +59,10 @@ exports.shoot_create_post = function(req, res, next) {
       for (var i = 0; i < peopleArray.length; i++) {
         peopleArray[i] = peopleArray[i].trim();
       }
-      // peopleArray.map(function(s){return s.trim()});
-      // console.log(JSON.stringify(peopleArray));
     }
-    // var xmlData = fs.readFileSync('/Users/mk/Development/thelocalworkflow/tools/examples/20171018_002_Test_JustStudio_v1_copy.fcpxml', "utf-8");
-    // console.log("the XML data is +++++++++++++++++++++++++++++++" + xmlData);
     var theShoot = new Shoot(
       { shootId: req.body.shootId, people: peopleArray, fcpxml: req.body.fcpxml  }
     );
-
-    // console.log(JSON.stringify(theShoot, null, 4));
     if (errors) {
         //If there are errors render the form again, passing the previously entered values and errors
         res.render('database/shoot_create', { title: 'Create Shoot', tabTitle: "Create Shoot", errors: errors});
@@ -118,10 +102,6 @@ exports.shoot_delete_get = function(req, res, next) {
     shoot: function(callback) {
           Shoot.findById(req.params.id).exec(callback)
       }
-      // ,
-      // authors_books: function(callback) {
-      //   Book.find({ 'author': req.params.id }).exec(callback)
-      // },
     }, function(err, results) {
       if (err) { return next(err); }
       if (results.shoot==null) { // No results.
@@ -173,27 +153,15 @@ exports.shoot_stills_get = function(req, res, next) {
 }
 
 exports.shoot_delete_post = function(req, res) {
-    // res.header("Content-Type",'application/json');
-    // res.send('NOT IMPLEMENTED: shoot delete POST\n' + JSON.stringify(req.body, null, 4));
     async.parallel({
         shoot: function(callback) {
           Shoot.findById(req.body.dbId).exec(callback)
         },
-        // authors_books: function(callback) {
-        //   Book.find({ 'author': req.body.authorid }).exec(callback)
-        // },
     }, function(err, results) {
         if (err) { return next(err); }
-        // Success
-        // if (results.authors_books.length > 0) {
-        //     // Author has books. Render in same way as for GET route.
-        //     res.render('author_delete', { title: 'Delete Author', author: results.author, author_books: results.authors_books } );
-        //     return;
-        // }
         else {
             Shoot.findByIdAndRemove(req.body.dbId, function deleteShoot(err) {
                 if (err) { return next(err); }
-                // Success - go to author list
                 res.redirect('/database/shoots')
             })
         }
@@ -202,20 +170,11 @@ exports.shoot_delete_post = function(req, res) {
 
 exports.shoot_update_get = function(req, res, next) {
   console.log("in the get request");
-  // Get book, authors and genres for form.
   async.parallel({
       shoot: function(callback) {
           Shoot.findById(req.params.id)
-          // .populate('author').populate('genre')
           .exec(callback);
       }
-      // ,
-      // authors: function(callback) {
-      //     Author.find(callback);
-      // },
-      // genres: function(callback) {
-      //     Genre.find(callback);
-      // },
       }, function(err, results) {
           if (err) { return next(err); }
           if (results.shoot==null) { // No results.
@@ -229,11 +188,9 @@ exports.shoot_update_get = function(req, res, next) {
 };
 
 exports.shoot_update_post = function(req, res, next) {
-  // res.header("Content-Type",'application/json');
-  // res.send('NOT IMPLEMENTED: shoot update POST\n' + JSON.stringify(req.body, null, 4));
   req.checkBody('shootId', 'Shoot ID must be alphanumeric text.').notEmpty();
-  req.checkBody('fcpxml', 'Fcpxml required.').notEmpty(); //We won't force Alphanumeric, because people might have spaces.
-  req.checkBody('people', 'People required.').notEmpty(); //We won't force Alphanumeric, because people might have spaces.
+  req.checkBody('fcpxml', 'Fcpxml required.').notEmpty();
+  req.checkBody('people', 'People required.').notEmpty();
   req.sanitize('shootId').escape();
   req.sanitize('shootId').trim();
   req.sanitize('fcpxml').escape();
@@ -248,21 +205,18 @@ exports.shoot_update_post = function(req, res, next) {
     for (var i = 0; i < peopleArray.length; i++) {
       peopleArray[i] = peopleArray[i].trim();
     }
-    // peopleArray.map(function(s){return s.trim()});
     console.log(JSON.stringify(peopleArray));
   }
   var theShoot = new Shoot(
     { shootId: req.body.shootId, fcpxml: req.body.fcpxml, people: peopleArray, _id:req.params.id }
   );
   if (errors) {
-      //If there are errors render the form again, passing the previously entered values and errors
       res.render('shoot_create', { title: 'Create Shoot', tabTitle: "Create Shoot", errors: errors});
   return;
   }
   else {
          Shoot.findByIdAndUpdate(req.params.id, theShoot, {}, function (err,thenewshoot) {
            if (err) { return next(err); }
-           //successful - redirect to book detail page.
            res.redirect(thenewshoot.url);
          });
 

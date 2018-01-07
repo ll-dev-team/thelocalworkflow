@@ -33,6 +33,7 @@
     "mongodb": "^2.2.31",
     "mongoose": "^4.11.4",
     "morgan": "^1.8.2",
+    "passport": "^0.4.0",
     "pretty-data": "^0.40.0",
     "serve-favicon": "^2.4.4",
     "shelljs": "^0.7.8",

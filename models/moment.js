@@ -19,4 +19,4 @@ MomentSchema
 
 // TODO: add a virtual('duration')--using functions elsewhere in the app? or in here?
 
-module.exports = mongoose.model('Moment', MomentSchema);
+module.exports = mongoose.model('moment', MomentSchema);

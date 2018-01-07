@@ -46,16 +46,10 @@ router.post('/person/:id/update', person_controller.person_update_post);
 
 router.get('/person/:id', person_controller.person_detail);
 
-// router.get('/person/:id', (req, res, next)=>{
-//   Person.findById(req.params.id, (err, result)=> {
-//     console.log(JSON.stringify(result, null, 4));
-//     res.render('database/person_detail', { title: 'Person Detail', tabTitle: 'Person Detail', thePerson: result})
-//   });
-// });
-
 router.get('/people', person_controller.person_list);
 
 router.get('/segment/create/csv', segment_controller.segment_create_csv_get);
+
 router.get('/segment/create/manual', segment_controller.segment_create_manual_get);
 
 router.get('/segment/create', segment_controller.segment_create_get);
