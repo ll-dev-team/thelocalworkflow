@@ -21,8 +21,8 @@ var m2s = require('./routes/m2s');
 var rename = require('./routes/rename');
 var tests = require('./routes/tests');
 
-// var mongoDB = process.env.MONGODB_URL;
-var mongoDB = process.env.MONGODB_URL_DEV;
+var mongoDB = process.env.MONGODB_URL;
+// var mongoDB = process.env.MONGODB_URL_DEV;
 
 const { body,validationResult } = require('express-validator/check');
 // const { sanitizeBody } = require('express-validator/filter');

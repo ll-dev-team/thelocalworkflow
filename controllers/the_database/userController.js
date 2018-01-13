@@ -1,7 +1,5 @@
 
 
-
-
 if (req.body.email &&
   req.body.username &&
   req.body.password &&
