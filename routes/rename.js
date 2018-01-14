@@ -7,10 +7,17 @@ const fs = require('fs');
 const cp = require('child_process');
 const _ = require('lodash');
 const m2s = require("../tools/workflow_tools/m2s").markersToStills;
-const rename = require("../tools/workflow_tools/shootprocessor").rename;
-// var Message = require('../models/message');
+const investigate = require("../tools/workflow_tools/shootinvestigator").investigate;
+var ffmpeg = require('fluent-ffmpeg');
+const path = require('path');
 
 var db = mongoose.connection;
+
+function ffprobeSync(videoFilePath){
+  var output = cp.spawnSync(process.env.FFPROBE_PATH, ['-v', 'quiet', '-print_format', 'json', '-show_format', '-show_streams', videoFilePath], { encoding : 'utf8' });
+  var theObject = JSON.parse((output.stdout));
+  return {json: output.stdout, obj: theObject};
+}
 
 router.get('/', function(req, res, next) {
   // send the rename form to the user.
@@ -18,12 +25,51 @@ router.get('/', function(req, res, next) {
 });
 
 router.post('/run_rename', function(req, res, next){
-  // user sends filled form back to server
-  // log JSON for response
+  var re = /^\./;
   console.log("initial form req.body: \n" + JSON.stringify(req.body, null, 5));
-  // render the are you sure page, sending key data to client that needs to be sent back to server again
-  // TODO: need to do a better job of handing this data over and getting it back.
-  res.render('tools/rename_areusure', { tabTitle: 'rename confirmation', title: 'the Rename Form', folderPath: req.body.folderPath, people: req.body.people  })
+  var shootFolderCandidates = fs.readdirSync(req.body.folderPath);
+  var theShootJsons = [];
+  var theShootObjects = [];
+  shootFolderCandidates.forEach(function(shootFolder){
+    if (fs.statSync(path.join(req.body.folderPath, shootFolder)).isDirectory()) {
+      console.log(shootFolder + " is a Directory");
+      var testThisShoot = investigate(path.join(req.body.folderPath, shootFolder));
+      console.log("\n\n\n\n\n\n++++++++++++++++++\n\n\n\n\n");
+      console.log(JSON.stringify(testThisShoot, null, 4));
+      var thisShoot = {shootId: "insert", clips: []}
+      var cameraFolderCandidates = fs.readdirSync(path.join(req.body.folderPath, shootFolder));
+      cameraFolderCandidates.forEach(function(cameraFolder){
+        if (fs.statSync(path.join(req.body.folderPath, shootFolder, cameraFolder)).isDirectory()){
+          console.log(cameraFolder + " is a Directory");
+          var theClipFiles = fs.readdirSync(path.join(req.body.folderPath, shootFolder, cameraFolder));
+          theClipFiles.forEach(function(file){
+            if (re.test(file)) {
+              console.log(file + " passes re test");
+            }
+            else {
+              console.log(file + " does not pass re test");
+              var filePath = path.join(req.body.folderPath, shootFolder, cameraFolder, file);
+              console.log("running ffprobe on " + filePath);
+              var theFfprobeResult = ffprobeSync(filePath);
+              console.log();
+              theShootJsons.push(theFfprobeResult.json);
+              theShootObjects.push(theFfprobeResult.obj)
+            }
+          })
+        }
+        else {
+          console.log(cameraFolder + " is not a Directory");
+        }
+      })
+    }
+    else {
+      console.log(shootFolder + " is not a Directory");
+    }
+  })
+  // TODO: structure clip data
+  // TODO: grab a thumbnail from the center of each angle
+  // TODO: maybe grab a thumbnail of each clip
+  res.render('tools/rename_areusure', { tabTitle: 'rename confirmation', title: 'the Rename Form', folderPath: req.body.folderPath, people: req.body.people, shootObjects: theShootObjects })
 });
 
 router.post('/confirm_rename', function(req, res, next){
@@ -69,25 +115,5 @@ router.post('/confirm_rename', function(req, res, next){
   // res.render('rename_form', { tabTitle: 'rename confirmation', title: 'the Rename Form', folderPath: req.body.drive })
 
 });
-
-//
-// router.get('/test', function(req, res, next) {
-//   res.render('m2s_form', { tabTitle: 'test here', title: 'The m2s test Form' });
-// });
-//
-//
-// router.post('/run_m2s', function(req, res, next){
-//   console.log(JSON.stringify(req.body, null, 4));
-//   if (req.body.webexport == "yes") {
-//     var folderPath = "/Users/mk/Development/test_materials/_readyToTest/m2s_fcpxml";
-//     var theResult = m2s(folderPath);
-//     var theNewResult = _.sortBy(theResult, ['tcNumber']);
-//     res.render('m2s_result', { tabTitle: 'm2s Result', title: 'The m2s Result for ', stillArray: theNewResult });
-//   }
-//   else {
-//     res.send('why did you bother opening up thelocalworkflow then?')
-//   }
-// });
-
 
 module.exports = router;
