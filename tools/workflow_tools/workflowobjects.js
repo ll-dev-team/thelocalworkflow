@@ -35,7 +35,8 @@ function Clip(folderPath, camFolder, file, theIndex){
     }
   };
   this.formatJson = JSON.stringify(theFfprobeObject.format, null, 2);
-
+  console.log("\n\nhere is the json for " + this.newBasename +
+  ": \n" + this.formatJson);
   if (theFfprobeObject.format.tags.creation_time) {
     this.formatTagsCreationTime = theFfprobeObject.format.tags.creation_time;
   }

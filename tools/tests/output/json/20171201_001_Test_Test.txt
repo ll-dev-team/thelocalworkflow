@@ -1,0 +1,1328 @@
+{
+    "shootPath": "/Volumes/mk2/test_shoots/20171201_001_Test_Test",
+    "people": [],
+    "cameraArray": [
+        "C300a",
+        "C300b"
+    ],
+    "clipArray": [
+        {
+            "thelocalworkflowIngestTime": "2018-01-16 02-35-29",
+            "thelocalworkflowFcpxmlTime": "2018-01-15 21:35:29 -0500",
+            "oldBasenameExt": "20171201_001_Test_Test_C300a_001.mov",
+            "oldPath": "/Volumes/mk2/test_shoots/20171201_001_Test_Test/C300a/20171201_001_Test_Test_C300a_001.mov",
+            "cameraFolder": "C300a",
+            "shootId": "20171201_001_Test_Test",
+            "counter": "001",
+            "ffprobeOutput": "{\n    \"streams\": [\n        {\n            \"index\": 0,\n            \"codec_name\": \"mpeg2video\",\n            \"codec_long_name\": \"MPEG-2 video\",\n            \"profile\": \"4:2:2\",\n            \"codec_type\": \"video\",\n            \"codec_time_base\": \"1001/24000\",\n            \"codec_tag_string\": \"xd5d\",\n            \"codec_tag\": \"0x64356478\",\n            \"width\": 1920,\n            \"height\": 1080,\n            \"coded_width\": 0,\n            \"coded_height\": 0,\n            \"has_b_frames\": 1,\n            \"sample_aspect_ratio\": \"1:1\",\n            \"display_aspect_ratio\": \"16:9\",\n            \"pix_fmt\": \"yuv422p\",\n            \"level\": 2,\n            \"color_range\": \"tv\",\n            \"color_space\": \"bt709\",\n            \"color_transfer\": \"bt709\",\n            \"color_primaries\": \"bt709\",\n            \"chroma_location\": \"topleft\",\n            \"field_order\": \"progressive\",\n            \"refs\": 1,\n            \"r_frame_rate\": \"24000/1001\",\n            \"avg_frame_rate\": \"24000/1001\",\n            \"time_base\": \"1/24000\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 648648,\n            \"duration\": \"27.027000\",\n            \"bit_rate\": \"50011874\",\n            \"nb_frames\": \"648\",\n            \"disposition\": {\n                \"default\": 1,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0,\n                \"timed_thumbnails\": 0\n            },\n            \"tags\": {\n                \"creation_time\": \"2017-09-09T14:18:33.000000Z\",\n                \"language\": \"und\",\n                \"handler_name\": \"Core Media Data Handler\",\n                \"encoder\": \"XF-MPEG 422 50Mbps\",\n                \"timecode\": \"09:21:38:23\"\n            }\n        },\n        {\n            \"index\": 1,\n            \"codec_name\": \"pcm_s16le\",\n            \"codec_long_name\": \"PCM signed 16-bit little-endian\",\n            \"codec_type\": \"audio\",\n            \"codec_time_base\": \"1/48000\",\n            \"codec_tag_string\": \"sowt\",\n            \"codec_tag\": \"0x74776f73\",\n            \"sample_fmt\": \"s16\",\n            \"sample_rate\": \"48000\",\n            \"channels\": 2,\n            \"channel_layout\": \"stereo\",\n            \"bits_per_sample\": 16,\n            \"r_frame_rate\": \"0/0\",\n            \"avg_frame_rate\": \"0/0\",\n            \"time_base\": \"1/48000\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 1297296,\n            \"duration\": \"27.027000\",\n            \"bit_rate\": \"1536000\",\n            \"nb_frames\": \"1297296\",\n            \"disposition\": {\n                \"default\": 1,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0,\n                \"timed_thumbnails\": 0\n            },\n            \"tags\": {\n                \"creation_time\": \"2017-09-09T14:18:33.000000Z\",\n                \"language\": \"und\",\n                \"handler_name\": \"Core Media Data Handler\"\n            }\n        },\n        {\n            \"index\": 2,\n            \"codec_type\": \"data\",\n            \"codec_tag_string\": \"tmcd\",\n            \"codec_tag\": \"0x64636d74\",\n            \"r_frame_rate\": \"0/0\",\n            \"avg_frame_rate\": \"24/1\",\n            \"time_base\": \"1/24000\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 648648,\n            \"duration\": \"27.027000\",\n            \"bit_rate\": \"767\",\n            \"nb_frames\": \"648\",\n            \"disposition\": {\n                \"default\": 0,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0,\n                \"timed_thumbnails\": 0\n            },\n            \"tags\": {\n                \"creation_time\": \"2017-09-09T14:18:33.000000Z\",\n                \"language\": \"und\",\n                \"handler_name\": \"Core Media Data Handler\",\n                \"timecode\": \"09:21:38:23\"\n            }\n        }\n    ],\n    \"format\": {\n        \"filename\": \"/Volumes/mk2/test_shoots/20171201_001_Test_Test/C300a/20171201_001_Test_Test_C300a_001.mov\",\n        \"nb_streams\": 3,\n        \"nb_programs\": 0,\n        \"format_name\": \"mov,mp4,m4a,3gp,3g2,mj2\",\n        \"format_long_name\": \"QuickTime / MOV\",\n        \"start_time\": \"0.000000\",\n        \"duration\": \"27.027000\",\n        \"size\": \"174599567\",\n        \"bit_rate\": \"51681523\",\n        \"probe_score\": 100,\n        \"tags\": {\n            \"major_brand\": \"qt  \",\n            \"minor_version\": \"0\",\n            \"compatible_brands\": \"qt  \",\n            \"creation_time\": \"2017-09-09T14:18:33.000000Z\",\n            \"com.apple.proapps.customcolor\": \"com.canon.proapps.bt709.bt709\",\n            \"com.apple.proapps.isGood\": \"0\",\n            \"com.apple.proapps.dataSize\": \"A��t�\",\n            \"com.apple.proapps.displayFormat\": \"XF-MPEG FHD 23.98P\",\n            \"com.apple.proapps.shootingRate\": \"@8\",\n            \"com.apple.proapps.videoBitrate\": \"0\",\n            \"com.apple.proapps.originalFormat\": \"XF-MPEG\",\n            \"com.apple.proapps.pulldown\": \"1\",\n            \"com.apple.proapps.mediaRate\": \"@7��G�\\u0014{\",\n            \"com.apple.proapps.timecodeFormat\": \"2\",\n            \"com.apple.proapps.numberOfAudioChannels\": \"0\",\n            \"com.apple.proapps.sampleRate\": \"0\",\n            \"com.apple.proapps.bitsPerSample\": \"0\",\n            \"com.apple.quicktime.creationdate\": \"2017-08-14T09:19:21-0400\",\n            \"com.apple.proapps.lastupdatedate\": \"2017-08-14 09:19:48 -0400\",\n            \"com.apple.proapps.manufacturer\": \"CANON\",\n            \"com.apple.proapps.modelname\": \"EOS C300\",\n            \"com.apple.proapps.serialno\": \"532851500030\",\n            \"com.apple.proapps.clipFileName\": \"AA0564\",\n            \"com.apple.proapps.clipID\": \"0D2F349C-7979-0580-0000-8500025A208F\",\n            \"com.apple.proapps.RADSDKVersion\": \"3.1\",\n            \"com.apple.proapps.cameraID\": \"CANON_532851500030\",\n            \"com.apple.proapps.cameraName\": \"CANON XF\",\n            \"com.apple.proapps.ingestDate.description\": \"2017-09-09 10:18:33 -0400\",\n            \"com.apple.quicktime.make\": \"Apple\",\n            \"com.apple.quicktime.model\": \"iMac17,1\",\n            \"com.apple.quicktime.software\": \"Mac OS X 10.12.6 (16G29)\"\n        }\n    }\n}\n",
+            "ext": ".mov",
+            "newBasename": "20171201_001_Test_Test_C300a_001",
+            "newBasenameExt": "20171201_001_Test_Test_C300a_001.mov",
+            "newPath": "/Volumes/mk2/test_shoots/20171201_001_Test_Test/C300a/20171201_001_Test_Test_C300a_001.mov",
+            "videoStreamJson": {
+                "index": 0,
+                "codec_name": "mpeg2video",
+                "codec_long_name": "MPEG-2 video",
+                "profile": "4:2:2",
+                "codec_type": "video",
+                "codec_time_base": "1001/24000",
+                "codec_tag_string": "xd5d",
+                "codec_tag": "0x64356478",
+                "width": 1920,
+                "height": 1080,
+                "coded_width": 0,
+                "coded_height": 0,
+                "has_b_frames": 1,
+                "sample_aspect_ratio": "1:1",
+                "display_aspect_ratio": "16:9",
+                "pix_fmt": "yuv422p",
+                "level": 2,
+                "color_range": "tv",
+                "color_space": "bt709",
+                "color_transfer": "bt709",
+                "color_primaries": "bt709",
+                "chroma_location": "topleft",
+                "field_order": "progressive",
+                "refs": 1,
+                "r_frame_rate": "24000/1001",
+                "avg_frame_rate": "24000/1001",
+                "time_base": "1/24000",
+                "start_pts": 0,
+                "start_time": "0.000000",
+                "duration_ts": 648648,
+                "duration": "27.027000",
+                "bit_rate": "50011874",
+                "nb_frames": "648",
+                "disposition": {
+                    "default": 1,
+                    "dub": 0,
+                    "original": 0,
+                    "comment": 0,
+                    "lyrics": 0,
+                    "karaoke": 0,
+                    "forced": 0,
+                    "hearing_impaired": 0,
+                    "visual_impaired": 0,
+                    "clean_effects": 0,
+                    "attached_pic": 0,
+                    "timed_thumbnails": 0
+                },
+                "tags": {
+                    "creation_time": "2017-09-09T14:18:33.000000Z",
+                    "language": "und",
+                    "handler_name": "Core Media Data Handler",
+                    "encoder": "XF-MPEG 422 50Mbps",
+                    "timecode": "09:21:38:23"
+                }
+            },
+            "audioStreamJson": {
+                "index": 1,
+                "codec_name": "pcm_s16le",
+                "codec_long_name": "PCM signed 16-bit little-endian",
+                "codec_type": "audio",
+                "codec_time_base": "1/48000",
+                "codec_tag_string": "sowt",
+                "codec_tag": "0x74776f73",
+                "sample_fmt": "s16",
+                "sample_rate": "48000",
+                "channels": 2,
+                "channel_layout": "stereo",
+                "bits_per_sample": 16,
+                "r_frame_rate": "0/0",
+                "avg_frame_rate": "0/0",
+                "time_base": "1/48000",
+                "start_pts": 0,
+                "start_time": "0.000000",
+                "duration_ts": 1297296,
+                "duration": "27.027000",
+                "bit_rate": "1536000",
+                "nb_frames": "1297296",
+                "disposition": {
+                    "default": 1,
+                    "dub": 0,
+                    "original": 0,
+                    "comment": 0,
+                    "lyrics": 0,
+                    "karaoke": 0,
+                    "forced": 0,
+                    "hearing_impaired": 0,
+                    "visual_impaired": 0,
+                    "clean_effects": 0,
+                    "attached_pic": 0,
+                    "timed_thumbnails": 0
+                },
+                "tags": {
+                    "creation_time": "2017-09-09T14:18:33.000000Z",
+                    "language": "und",
+                    "handler_name": "Core Media Data Handler"
+                }
+            },
+            "dataStreamJson": {
+                "index": 2,
+                "codec_type": "data",
+                "codec_tag_string": "tmcd",
+                "codec_tag": "0x64636d74",
+                "r_frame_rate": "0/0",
+                "avg_frame_rate": "24/1",
+                "time_base": "1/24000",
+                "start_pts": 0,
+                "start_time": "0.000000",
+                "duration_ts": 648648,
+                "duration": "27.027000",
+                "bit_rate": "767",
+                "nb_frames": "648",
+                "disposition": {
+                    "default": 0,
+                    "dub": 0,
+                    "original": 0,
+                    "comment": 0,
+                    "lyrics": 0,
+                    "karaoke": 0,
+                    "forced": 0,
+                    "hearing_impaired": 0,
+                    "visual_impaired": 0,
+                    "clean_effects": 0,
+                    "attached_pic": 0,
+                    "timed_thumbnails": 0
+                },
+                "tags": {
+                    "creation_time": "2017-09-09T14:18:33.000000Z",
+                    "language": "und",
+                    "handler_name": "Core Media Data Handler",
+                    "timecode": "09:21:38:23"
+                }
+            },
+            "formatJson": "{\n  \"filename\": \"/Volumes/mk2/test_shoots/20171201_001_Test_Test/C300a/20171201_001_Test_Test_C300a_001.mov\",\n  \"nb_streams\": 3,\n  \"nb_programs\": 0,\n  \"format_name\": \"mov,mp4,m4a,3gp,3g2,mj2\",\n  \"format_long_name\": \"QuickTime / MOV\",\n  \"start_time\": \"0.000000\",\n  \"duration\": \"27.027000\",\n  \"size\": \"174599567\",\n  \"bit_rate\": \"51681523\",\n  \"probe_score\": 100,\n  \"tags\": {\n    \"major_brand\": \"qt  \",\n    \"minor_version\": \"0\",\n    \"compatible_brands\": \"qt  \",\n    \"creation_time\": \"2017-09-09T14:18:33.000000Z\",\n    \"com.apple.proapps.customcolor\": \"com.canon.proapps.bt709.bt709\",\n    \"com.apple.proapps.isGood\": \"0\",\n    \"com.apple.proapps.dataSize\": \"A��t�\",\n    \"com.apple.proapps.displayFormat\": \"XF-MPEG FHD 23.98P\",\n    \"com.apple.proapps.shootingRate\": \"@8\",\n    \"com.apple.proapps.videoBitrate\": \"0\",\n    \"com.apple.proapps.originalFormat\": \"XF-MPEG\",\n    \"com.apple.proapps.pulldown\": \"1\",\n    \"com.apple.proapps.mediaRate\": \"@7��G�\\u0014{\",\n    \"com.apple.proapps.timecodeFormat\": \"2\",\n    \"com.apple.proapps.numberOfAudioChannels\": \"0\",\n    \"com.apple.proapps.sampleRate\": \"0\",\n    \"com.apple.proapps.bitsPerSample\": \"0\",\n    \"com.apple.quicktime.creationdate\": \"2017-08-14T09:19:21-0400\",\n    \"com.apple.proapps.lastupdatedate\": \"2017-08-14 09:19:48 -0400\",\n    \"com.apple.proapps.manufacturer\": \"CANON\",\n    \"com.apple.proapps.modelname\": \"EOS C300\",\n    \"com.apple.proapps.serialno\": \"532851500030\",\n    \"com.apple.proapps.clipFileName\": \"AA0564\",\n    \"com.apple.proapps.clipID\": \"0D2F349C-7979-0580-0000-8500025A208F\",\n    \"com.apple.proapps.RADSDKVersion\": \"3.1\",\n    \"com.apple.proapps.cameraID\": \"CANON_532851500030\",\n    \"com.apple.proapps.cameraName\": \"CANON XF\",\n    \"com.apple.proapps.ingestDate.description\": \"2017-09-09 10:18:33 -0400\",\n    \"com.apple.quicktime.make\": \"Apple\",\n    \"com.apple.quicktime.model\": \"iMac17,1\",\n    \"com.apple.quicktime.software\": \"Mac OS X 10.12.6 (16G29)\"\n  }\n}",
+            "formatTagsCreationTime": "2017-09-09T14:18:33.000000Z",
+            "width": 1920,
+            "height": 1080,
+            "codec_time_base": "1001/24000",
+            "time_base": "1/24000",
+            "codec_long_name": "MPEG-2 video",
+            "duration": "27.027000",
+            "bit_rate": "50011874",
+            "nb_frames": "648",
+            "startTc": "09:21:38:23",
+            "actualCreationDate": "2017-08-14T09:19:21-0400",
+            "duration_ts": 648648,
+            "start_ts": 809583775,
+            "end_ts": 810232423,
+            "creationDate": "2017-09-09T14:18:33.000Z",
+            "utcCrStartMill": 1504966713000,
+            "utcTcStartDate": "2017-12-01T14:21:38.000Z",
+            "utcTcStartMill": 1512138098000,
+            "codec_time_base_numerator": "1",
+            "codec_time_base_denominator": "24000",
+            "frameDuration": "1001/24000s",
+            "fcpxml": {
+                "format": {
+                    "_attr": {
+                        "frameDuration": "1001/24000s",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                },
+                "asset": {
+                    "_attr": {
+                        "name": "20171201_001_Test_Test_C300a_001.mov",
+                        "src": "file:///Volumes/mk2/test_shoots/20171201_001_Test_Test/C300a/20171201_001_Test_Test_C300a_001.mov",
+                        "start": "809583775/24000s",
+                        "duration": "648648/24000s",
+                        "hasVideo": 1,
+                        "hasAudio": 1,
+                        "audioSources": 1,
+                        "audioChannels": 2,
+                        "audioRate": "48000"
+                    }
+                },
+                "assetClip": [
+                    {
+                        "_attr": {
+                            "name": "20171201_001_Test_Test_C300a_001",
+                            "audioRole": "dialogue",
+                            "tcFormat": "NDF",
+                            "start": "809583775/24000s",
+                            "duration": "648648/24000s",
+                            "modDate": "2018-01-15 21:35:29 -0500"
+                        }
+                    },
+                    {
+                        "keyword": {
+                            "_attr": {
+                                "start": "809583775/24000s",
+                                "duration": "648648/24000s",
+                                "value": "20171201_001_Test_Test, C300a"
+                            }
+                        }
+                    },
+                    {
+                        "keyword": {
+                            "_attr": {
+                                "start": "809583775/24000s",
+                                "duration": "24024/24000s",
+                                "value": "first 24 frames"
+                            }
+                        }
+                    }
+                ],
+                "mcAssetClip": [
+                    {
+                        "_attr": {
+                            "name": "20171201_001_Test_Test_C300a_001.mov",
+                            "offset": "mcStart - thisStart",
+                            "ref": "same as assetClip",
+                            "audioRole": "dialogue",
+                            "tcFormat": "NDF",
+                            "format": "insertFORMAThere",
+                            "start": "809583775/24000s",
+                            "duration": "648648/24000s"
+                        }
+                    },
+                    {
+                        "audio-channel-source": {
+                            "_attr": {
+                                "role": "dialogue.dialogue-1",
+                                "srcCh": "1"
+                            }
+                        }
+                    },
+                    {
+                        "audio-channel-source": {
+                            "_attr": {
+                                "role": "dialogue.dialogue-2",
+                                "srcCh": "2"
+                            }
+                        }
+                    }
+                ]
+            },
+            "halfway": 14,
+            "tempStillFilePath": "/Users/mk/Development/thelocalworkflow/public/images/temp/rename/still14.png",
+            "relativeTempStileFilePath": "/images/temp/rename/still14.png"
+        },
+        {
+            "thelocalworkflowIngestTime": "2018-01-16 02-35-29",
+            "thelocalworkflowFcpxmlTime": "2018-01-15 21:35:29 -0500",
+            "oldBasenameExt": "20171201_001_Test_Test_C300b_001.mov",
+            "oldPath": "/Volumes/mk2/test_shoots/20171201_001_Test_Test/C300b/20171201_001_Test_Test_C300b_001.mov",
+            "cameraFolder": "C300b",
+            "shootId": "20171201_001_Test_Test",
+            "counter": "001",
+            "ffprobeOutput": "{\n    \"streams\": [\n        {\n            \"index\": 0,\n            \"codec_name\": \"mpeg2video\",\n            \"codec_long_name\": \"MPEG-2 video\",\n            \"profile\": \"4:2:2\",\n            \"codec_type\": \"video\",\n            \"codec_time_base\": \"1001/24000\",\n            \"codec_tag_string\": \"xd5d\",\n            \"codec_tag\": \"0x64356478\",\n            \"width\": 1920,\n            \"height\": 1080,\n            \"coded_width\": 0,\n            \"coded_height\": 0,\n            \"has_b_frames\": 1,\n            \"sample_aspect_ratio\": \"1:1\",\n            \"display_aspect_ratio\": \"16:9\",\n            \"pix_fmt\": \"yuv422p\",\n            \"level\": 2,\n            \"color_range\": \"tv\",\n            \"color_space\": \"bt709\",\n            \"color_transfer\": \"bt709\",\n            \"color_primaries\": \"bt709\",\n            \"chroma_location\": \"topleft\",\n            \"field_order\": \"progressive\",\n            \"refs\": 1,\n            \"r_frame_rate\": \"24000/1001\",\n            \"avg_frame_rate\": \"24000/1001\",\n            \"time_base\": \"1/24000\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 1033032,\n            \"duration\": \"43.043000\",\n            \"bit_rate\": \"50000001\",\n            \"nb_frames\": \"1032\",\n            \"disposition\": {\n                \"default\": 1,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0,\n                \"timed_thumbnails\": 0\n            },\n            \"tags\": {\n                \"creation_time\": \"2017-09-09T14:04:36.000000Z\",\n                \"language\": \"und\",\n                \"handler_name\": \"Core Media Data Handler\",\n                \"encoder\": \"XF-MPEG 422 50Mbps\",\n                \"timecode\": \"09:21:47:23\"\n            }\n        },\n        {\n            \"index\": 1,\n            \"codec_name\": \"pcm_s16le\",\n            \"codec_long_name\": \"PCM signed 16-bit little-endian\",\n            \"codec_type\": \"audio\",\n            \"codec_time_base\": \"1/48000\",\n            \"codec_tag_string\": \"sowt\",\n            \"codec_tag\": \"0x74776f73\",\n            \"sample_fmt\": \"s16\",\n            \"sample_rate\": \"48000\",\n            \"channels\": 2,\n            \"channel_layout\": \"stereo\",\n            \"bits_per_sample\": 16,\n            \"r_frame_rate\": \"0/0\",\n            \"avg_frame_rate\": \"0/0\",\n            \"time_base\": \"1/48000\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 2066064,\n            \"duration\": \"43.043000\",\n            \"bit_rate\": \"1536000\",\n            \"nb_frames\": \"2066064\",\n            \"disposition\": {\n                \"default\": 1,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0,\n                \"timed_thumbnails\": 0\n            },\n            \"tags\": {\n                \"creation_time\": \"2017-09-09T14:04:36.000000Z\",\n                \"language\": \"und\",\n                \"handler_name\": \"Core Media Data Handler\"\n            }\n        },\n        {\n            \"index\": 2,\n            \"codec_type\": \"data\",\n            \"codec_tag_string\": \"tmcd\",\n            \"codec_tag\": \"0x64636d74\",\n            \"r_frame_rate\": \"0/0\",\n            \"avg_frame_rate\": \"24/1\",\n            \"time_base\": \"1/24000\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 1033032,\n            \"duration\": \"43.043000\",\n            \"bit_rate\": \"767\",\n            \"nb_frames\": \"1032\",\n            \"disposition\": {\n                \"default\": 0,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0,\n                \"timed_thumbnails\": 0\n            },\n            \"tags\": {\n                \"creation_time\": \"2017-09-09T14:04:36.000000Z\",\n                \"language\": \"und\",\n                \"handler_name\": \"Core Media Data Handler\",\n                \"timecode\": \"09:21:47:23\"\n            }\n        }\n    ],\n    \"format\": {\n        \"filename\": \"/Volumes/mk2/test_shoots/20171201_001_Test_Test/C300b/20171201_001_Test_Test_C300b_001.mov\",\n        \"nb_streams\": 3,\n        \"nb_programs\": 0,\n        \"format_name\": \"mov,mp4,m4a,3gp,3g2,mj2\",\n        \"format_long_name\": \"QuickTime / MOV\",\n        \"start_time\": \"0.000000\",\n        \"duration\": \"43.043000\",\n        \"size\": \"278011787\",\n        \"bit_rate\": \"51671451\",\n        \"probe_score\": 100,\n        \"tags\": {\n            \"major_brand\": \"qt  \",\n            \"minor_version\": \"0\",\n            \"compatible_brands\": \"qt  \",\n            \"creation_time\": \"2017-09-09T14:04:36.000000Z\",\n            \"com.apple.proapps.customcolor\": \"com.canon.proapps.bt709.bt709\",\n            \"com.apple.proapps.isGood\": \"0\",\n            \"com.apple.proapps.dataSize\": \"A���l\",\n            \"com.apple.proapps.displayFormat\": \"XF-MPEG FHD 23.98P\",\n            \"com.apple.proapps.shootingRate\": \"@8\",\n            \"com.apple.proapps.videoBitrate\": \"0\",\n            \"com.apple.proapps.originalFormat\": \"XF-MPEG\",\n            \"com.apple.proapps.pulldown\": \"1\",\n            \"com.apple.proapps.mediaRate\": \"@7��G�\\u0014{\",\n            \"com.apple.proapps.timecodeFormat\": \"2\",\n            \"com.apple.proapps.numberOfAudioChannels\": \"0\",\n            \"com.apple.proapps.sampleRate\": \"0\",\n            \"com.apple.proapps.bitsPerSample\": \"0\",\n            \"com.apple.quicktime.creationdate\": \"2017-08-14T09:19:24-0400\",\n            \"com.apple.proapps.lastupdatedate\": \"2017-08-14 09:20:07 -0400\",\n            \"com.apple.proapps.manufacturer\": \"CANON\",\n            \"com.apple.proapps.modelname\": \"EOS C300\",\n            \"com.apple.proapps.serialno\": \"882891500172\",\n            \"com.apple.proapps.clipFileName\": \"BB0486\",\n            \"com.apple.proapps.clipID\": \"0D2F3550-7979-0580-0000-8500025A23B2\",\n            \"com.apple.proapps.RADSDKVersion\": \"3.1\",\n            \"com.apple.proapps.cameraID\": \"CANON_882891500172\",\n            \"com.apple.proapps.cameraName\": \"CANON XF\",\n            \"com.apple.proapps.ingestDate.description\": \"2017-09-09 10:04:36 -0400\",\n            \"com.apple.quicktime.make\": \"Apple\",\n            \"com.apple.quicktime.model\": \"iMac17,1\",\n            \"com.apple.quicktime.software\": \"Mac OS X 10.12.6 (16G29)\"\n        }\n    }\n}\n",
+            "ext": ".mov",
+            "newBasename": "20171201_001_Test_Test_C300b_001",
+            "newBasenameExt": "20171201_001_Test_Test_C300b_001.mov",
+            "newPath": "/Volumes/mk2/test_shoots/20171201_001_Test_Test/C300b/20171201_001_Test_Test_C300b_001.mov",
+            "videoStreamJson": {
+                "index": 0,
+                "codec_name": "mpeg2video",
+                "codec_long_name": "MPEG-2 video",
+                "profile": "4:2:2",
+                "codec_type": "video",
+                "codec_time_base": "1001/24000",
+                "codec_tag_string": "xd5d",
+                "codec_tag": "0x64356478",
+                "width": 1920,
+                "height": 1080,
+                "coded_width": 0,
+                "coded_height": 0,
+                "has_b_frames": 1,
+                "sample_aspect_ratio": "1:1",
+                "display_aspect_ratio": "16:9",
+                "pix_fmt": "yuv422p",
+                "level": 2,
+                "color_range": "tv",
+                "color_space": "bt709",
+                "color_transfer": "bt709",
+                "color_primaries": "bt709",
+                "chroma_location": "topleft",
+                "field_order": "progressive",
+                "refs": 1,
+                "r_frame_rate": "24000/1001",
+                "avg_frame_rate": "24000/1001",
+                "time_base": "1/24000",
+                "start_pts": 0,
+                "start_time": "0.000000",
+                "duration_ts": 1033032,
+                "duration": "43.043000",
+                "bit_rate": "50000001",
+                "nb_frames": "1032",
+                "disposition": {
+                    "default": 1,
+                    "dub": 0,
+                    "original": 0,
+                    "comment": 0,
+                    "lyrics": 0,
+                    "karaoke": 0,
+                    "forced": 0,
+                    "hearing_impaired": 0,
+                    "visual_impaired": 0,
+                    "clean_effects": 0,
+                    "attached_pic": 0,
+                    "timed_thumbnails": 0
+                },
+                "tags": {
+                    "creation_time": "2017-09-09T14:04:36.000000Z",
+                    "language": "und",
+                    "handler_name": "Core Media Data Handler",
+                    "encoder": "XF-MPEG 422 50Mbps",
+                    "timecode": "09:21:47:23"
+                }
+            },
+            "audioStreamJson": {
+                "index": 1,
+                "codec_name": "pcm_s16le",
+                "codec_long_name": "PCM signed 16-bit little-endian",
+                "codec_type": "audio",
+                "codec_time_base": "1/48000",
+                "codec_tag_string": "sowt",
+                "codec_tag": "0x74776f73",
+                "sample_fmt": "s16",
+                "sample_rate": "48000",
+                "channels": 2,
+                "channel_layout": "stereo",
+                "bits_per_sample": 16,
+                "r_frame_rate": "0/0",
+                "avg_frame_rate": "0/0",
+                "time_base": "1/48000",
+                "start_pts": 0,
+                "start_time": "0.000000",
+                "duration_ts": 2066064,
+                "duration": "43.043000",
+                "bit_rate": "1536000",
+                "nb_frames": "2066064",
+                "disposition": {
+                    "default": 1,
+                    "dub": 0,
+                    "original": 0,
+                    "comment": 0,
+                    "lyrics": 0,
+                    "karaoke": 0,
+                    "forced": 0,
+                    "hearing_impaired": 0,
+                    "visual_impaired": 0,
+                    "clean_effects": 0,
+                    "attached_pic": 0,
+                    "timed_thumbnails": 0
+                },
+                "tags": {
+                    "creation_time": "2017-09-09T14:04:36.000000Z",
+                    "language": "und",
+                    "handler_name": "Core Media Data Handler"
+                }
+            },
+            "dataStreamJson": {
+                "index": 2,
+                "codec_type": "data",
+                "codec_tag_string": "tmcd",
+                "codec_tag": "0x64636d74",
+                "r_frame_rate": "0/0",
+                "avg_frame_rate": "24/1",
+                "time_base": "1/24000",
+                "start_pts": 0,
+                "start_time": "0.000000",
+                "duration_ts": 1033032,
+                "duration": "43.043000",
+                "bit_rate": "767",
+                "nb_frames": "1032",
+                "disposition": {
+                    "default": 0,
+                    "dub": 0,
+                    "original": 0,
+                    "comment": 0,
+                    "lyrics": 0,
+                    "karaoke": 0,
+                    "forced": 0,
+                    "hearing_impaired": 0,
+                    "visual_impaired": 0,
+                    "clean_effects": 0,
+                    "attached_pic": 0,
+                    "timed_thumbnails": 0
+                },
+                "tags": {
+                    "creation_time": "2017-09-09T14:04:36.000000Z",
+                    "language": "und",
+                    "handler_name": "Core Media Data Handler",
+                    "timecode": "09:21:47:23"
+                }
+            },
+            "formatJson": "{\n  \"filename\": \"/Volumes/mk2/test_shoots/20171201_001_Test_Test/C300b/20171201_001_Test_Test_C300b_001.mov\",\n  \"nb_streams\": 3,\n  \"nb_programs\": 0,\n  \"format_name\": \"mov,mp4,m4a,3gp,3g2,mj2\",\n  \"format_long_name\": \"QuickTime / MOV\",\n  \"start_time\": \"0.000000\",\n  \"duration\": \"43.043000\",\n  \"size\": \"278011787\",\n  \"bit_rate\": \"51671451\",\n  \"probe_score\": 100,\n  \"tags\": {\n    \"major_brand\": \"qt  \",\n    \"minor_version\": \"0\",\n    \"compatible_brands\": \"qt  \",\n    \"creation_time\": \"2017-09-09T14:04:36.000000Z\",\n    \"com.apple.proapps.customcolor\": \"com.canon.proapps.bt709.bt709\",\n    \"com.apple.proapps.isGood\": \"0\",\n    \"com.apple.proapps.dataSize\": \"A���l\",\n    \"com.apple.proapps.displayFormat\": \"XF-MPEG FHD 23.98P\",\n    \"com.apple.proapps.shootingRate\": \"@8\",\n    \"com.apple.proapps.videoBitrate\": \"0\",\n    \"com.apple.proapps.originalFormat\": \"XF-MPEG\",\n    \"com.apple.proapps.pulldown\": \"1\",\n    \"com.apple.proapps.mediaRate\": \"@7��G�\\u0014{\",\n    \"com.apple.proapps.timecodeFormat\": \"2\",\n    \"com.apple.proapps.numberOfAudioChannels\": \"0\",\n    \"com.apple.proapps.sampleRate\": \"0\",\n    \"com.apple.proapps.bitsPerSample\": \"0\",\n    \"com.apple.quicktime.creationdate\": \"2017-08-14T09:19:24-0400\",\n    \"com.apple.proapps.lastupdatedate\": \"2017-08-14 09:20:07 -0400\",\n    \"com.apple.proapps.manufacturer\": \"CANON\",\n    \"com.apple.proapps.modelname\": \"EOS C300\",\n    \"com.apple.proapps.serialno\": \"882891500172\",\n    \"com.apple.proapps.clipFileName\": \"BB0486\",\n    \"com.apple.proapps.clipID\": \"0D2F3550-7979-0580-0000-8500025A23B2\",\n    \"com.apple.proapps.RADSDKVersion\": \"3.1\",\n    \"com.apple.proapps.cameraID\": \"CANON_882891500172\",\n    \"com.apple.proapps.cameraName\": \"CANON XF\",\n    \"com.apple.proapps.ingestDate.description\": \"2017-09-09 10:04:36 -0400\",\n    \"com.apple.quicktime.make\": \"Apple\",\n    \"com.apple.quicktime.model\": \"iMac17,1\",\n    \"com.apple.quicktime.software\": \"Mac OS X 10.12.6 (16G29)\"\n  }\n}",
+            "formatTagsCreationTime": "2017-09-09T14:04:36.000000Z",
+            "width": 1920,
+            "height": 1080,
+            "codec_time_base": "1001/24000",
+            "time_base": "1/24000",
+            "codec_long_name": "MPEG-2 video",
+            "duration": "43.043000",
+            "bit_rate": "50000001",
+            "nb_frames": "1032",
+            "startTc": "09:21:47:23",
+            "actualCreationDate": "2017-08-14T09:19:24-0400",
+            "duration_ts": 1033032,
+            "start_ts": 809799991,
+            "end_ts": 810833023,
+            "creationDate": "2017-09-09T14:04:36.000Z",
+            "utcCrStartMill": 1504965876000,
+            "utcTcStartDate": "2017-12-01T14:21:47.000Z",
+            "utcTcStartMill": 1512138107000,
+            "codec_time_base_numerator": "1",
+            "codec_time_base_denominator": "24000",
+            "frameDuration": "1001/24000s",
+            "fcpxml": {
+                "format": {
+                    "_attr": {
+                        "frameDuration": "1001/24000s",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                },
+                "asset": {
+                    "_attr": {
+                        "name": "20171201_001_Test_Test_C300b_001.mov",
+                        "src": "file:///Volumes/mk2/test_shoots/20171201_001_Test_Test/C300b/20171201_001_Test_Test_C300b_001.mov",
+                        "start": "809799991/24000s",
+                        "duration": "1033032/24000s",
+                        "hasVideo": 1,
+                        "hasAudio": 1,
+                        "audioSources": 1,
+                        "audioChannels": 2,
+                        "audioRate": "48000"
+                    }
+                },
+                "assetClip": [
+                    {
+                        "_attr": {
+                            "name": "20171201_001_Test_Test_C300b_001",
+                            "audioRole": "dialogue",
+                            "tcFormat": "NDF",
+                            "start": "809799991/24000s",
+                            "duration": "1033032/24000s",
+                            "modDate": "2018-01-15 21:35:29 -0500"
+                        }
+                    },
+                    {
+                        "keyword": {
+                            "_attr": {
+                                "start": "809799991/24000s",
+                                "duration": "1033032/24000s",
+                                "value": "20171201_001_Test_Test, C300b"
+                            }
+                        }
+                    },
+                    {
+                        "keyword": {
+                            "_attr": {
+                                "start": "809799991/24000s",
+                                "duration": "24024/24000s",
+                                "value": "first 24 frames"
+                            }
+                        }
+                    }
+                ],
+                "mcAssetClip": [
+                    {
+                        "_attr": {
+                            "name": "20171201_001_Test_Test_C300b_001.mov",
+                            "offset": "mcStart - thisStart",
+                            "ref": "same as assetClip",
+                            "audioRole": "dialogue",
+                            "tcFormat": "NDF",
+                            "format": "insertFORMAThere",
+                            "start": "809799991/24000s",
+                            "duration": "1033032/24000s"
+                        }
+                    },
+                    {
+                        "audio-channel-source": {
+                            "_attr": {
+                                "role": "dialogue.dialogue-1",
+                                "srcCh": "1"
+                            }
+                        }
+                    },
+                    {
+                        "audio-channel-source": {
+                            "_attr": {
+                                "role": "dialogue.dialogue-2",
+                                "srcCh": "2"
+                            }
+                        }
+                    }
+                ]
+            },
+            "halfway": 22,
+            "tempStillFilePath": "/Users/mk/Development/thelocalworkflow/public/images/temp/rename/still22.png",
+            "relativeTempStileFilePath": "/images/temp/rename/still22.png"
+        },
+        {
+            "thelocalworkflowIngestTime": "2018-01-16 02-35-29",
+            "thelocalworkflowFcpxmlTime": "2018-01-15 21:35:29 -0500",
+            "oldBasenameExt": "20171201_001_Test_Test_C300b_002.mov",
+            "oldPath": "/Volumes/mk2/test_shoots/20171201_001_Test_Test/C300b/20171201_001_Test_Test_C300b_002.mov",
+            "cameraFolder": "C300b",
+            "shootId": "20171201_001_Test_Test",
+            "counter": "002",
+            "ffprobeOutput": "{\n    \"streams\": [\n        {\n            \"index\": 0,\n            \"codec_name\": \"mpeg2video\",\n            \"codec_long_name\": \"MPEG-2 video\",\n            \"profile\": \"4:2:2\",\n            \"codec_type\": \"video\",\n            \"codec_time_base\": \"1001/24000\",\n            \"codec_tag_string\": \"xd5d\",\n            \"codec_tag\": \"0x64356478\",\n            \"width\": 1920,\n            \"height\": 1080,\n            \"coded_width\": 0,\n            \"coded_height\": 0,\n            \"has_b_frames\": 1,\n            \"sample_aspect_ratio\": \"1:1\",\n            \"display_aspect_ratio\": \"16:9\",\n            \"pix_fmt\": \"yuv422p\",\n            \"level\": 2,\n            \"color_range\": \"tv\",\n            \"color_space\": \"bt709\",\n            \"color_transfer\": \"bt709\",\n            \"color_primaries\": \"bt709\",\n            \"chroma_location\": \"topleft\",\n            \"field_order\": \"progressive\",\n            \"refs\": 1,\n            \"r_frame_rate\": \"24000/1001\",\n            \"avg_frame_rate\": \"24000/1001\",\n            \"time_base\": \"1/24000\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 564564,\n            \"duration\": \"23.523500\",\n            \"bit_rate\": \"50000002\",\n            \"nb_frames\": \"564\",\n            \"disposition\": {\n                \"default\": 1,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0,\n                \"timed_thumbnails\": 0\n            },\n            \"tags\": {\n                \"creation_time\": \"2017-09-09T14:19:44.000000Z\",\n                \"language\": \"und\",\n                \"handler_name\": \"Core Media Data Handler\",\n                \"encoder\": \"XF-MPEG 422 50Mbps\",\n                \"timecode\": \"09:19:36:12\"\n            }\n        },\n        {\n            \"index\": 1,\n            \"codec_name\": \"pcm_s16le\",\n            \"codec_long_name\": \"PCM signed 16-bit little-endian\",\n            \"codec_type\": \"audio\",\n            \"codec_time_base\": \"1/48000\",\n            \"codec_tag_string\": \"sowt\",\n            \"codec_tag\": \"0x74776f73\",\n            \"sample_fmt\": \"s16\",\n            \"sample_rate\": \"48000\",\n            \"channels\": 2,\n            \"channel_layout\": \"stereo\",\n            \"bits_per_sample\": 16,\n            \"r_frame_rate\": \"0/0\",\n            \"avg_frame_rate\": \"0/0\",\n            \"time_base\": \"1/48000\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 1129128,\n            \"duration\": \"23.523500\",\n            \"bit_rate\": \"1536000\",\n            \"nb_frames\": \"1129128\",\n            \"disposition\": {\n                \"default\": 1,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0,\n                \"timed_thumbnails\": 0\n            },\n            \"tags\": {\n                \"creation_time\": \"2017-09-09T14:19:44.000000Z\",\n                \"language\": \"und\",\n                \"handler_name\": \"Core Media Data Handler\"\n            }\n        },\n        {\n            \"index\": 2,\n            \"codec_type\": \"data\",\n            \"codec_tag_string\": \"tmcd\",\n            \"codec_tag\": \"0x64636d74\",\n            \"r_frame_rate\": \"0/0\",\n            \"avg_frame_rate\": \"24/1\",\n            \"time_base\": \"1/24000\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 564564,\n            \"duration\": \"23.523500\",\n            \"bit_rate\": \"767\",\n            \"nb_frames\": \"564\",\n            \"disposition\": {\n                \"default\": 0,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0,\n                \"timed_thumbnails\": 0\n            },\n            \"tags\": {\n                \"creation_time\": \"2017-09-09T14:19:44.000000Z\",\n                \"language\": \"und\",\n                \"handler_name\": \"Core Media Data Handler\",\n                \"timecode\": \"09:19:36:12\"\n            }\n        }\n    ],\n    \"format\": {\n        \"filename\": \"/Volumes/mk2/test_shoots/20171201_001_Test_Test/C300b/20171201_001_Test_Test_C300b_002.mov\",\n        \"nb_streams\": 3,\n        \"nb_programs\": 0,\n        \"format_name\": \"mov,mp4,m4a,3gp,3g2,mj2\",\n        \"format_long_name\": \"QuickTime / MOV\",\n        \"start_time\": \"0.000000\",\n        \"duration\": \"23.523500\",\n        \"size\": \"151902651\",\n        \"bit_rate\": \"51659880\",\n        \"probe_score\": 100,\n        \"tags\": {\n            \"major_brand\": \"qt  \",\n            \"minor_version\": \"0\",\n            \"compatible_brands\": \"qt  \",\n            \"creation_time\": \"2017-09-09T14:19:44.000000Z\",\n            \"com.apple.proapps.customcolor\": \"com.canon.proapps.bt709.bt709\",\n            \"com.apple.proapps.isGood\": \"0\",\n            \"com.apple.proapps.dataSize\": \"A�#��\",\n            \"com.apple.proapps.displayFormat\": \"XF-MPEG FHD 23.98P\",\n            \"com.apple.proapps.shootingRate\": \"@8\",\n            \"com.apple.proapps.videoBitrate\": \"0\",\n            \"com.apple.proapps.originalFormat\": \"XF-MPEG\",\n            \"com.apple.proapps.pulldown\": \"1\",\n            \"com.apple.proapps.mediaRate\": \"@7��G�\\u0014{\",\n            \"com.apple.proapps.timecodeFormat\": \"2\",\n            \"com.apple.proapps.numberOfAudioChannels\": \"0\",\n            \"com.apple.proapps.sampleRate\": \"0\",\n            \"com.apple.proapps.bitsPerSample\": \"0\",\n            \"com.apple.quicktime.creationdate\": \"2017-08-14T09:23:59-0400\",\n            \"com.apple.proapps.lastupdatedate\": \"2017-08-14 09:24:22 -0400\",\n            \"com.apple.proapps.manufacturer\": \"CANON\",\n            \"com.apple.proapps.modelname\": \"EOS C300\",\n            \"com.apple.proapps.serialno\": \"882233900027\",\n            \"com.apple.proapps.clipFileName\": \"CC0322\",\n            \"com.apple.proapps.clipID\": \"0D2F75C4-7979-0580-0000-8500025A2C08\",\n            \"com.apple.proapps.RADSDKVersion\": \"3.1\",\n            \"com.apple.proapps.cameraID\": \"CANON_882233900027\",\n            \"com.apple.proapps.cameraName\": \"CANON XF\",\n            \"com.apple.proapps.ingestDate.description\": \"2017-09-09 10:19:44 -0400\",\n            \"com.apple.quicktime.make\": \"Apple\",\n            \"com.apple.quicktime.model\": \"iMac17,1\",\n            \"com.apple.quicktime.software\": \"Mac OS X 10.12.6 (16G29)\"\n        }\n    }\n}\n",
+            "ext": ".mov",
+            "newBasename": "20171201_001_Test_Test_C300b_002",
+            "newBasenameExt": "20171201_001_Test_Test_C300b_002.mov",
+            "newPath": "/Volumes/mk2/test_shoots/20171201_001_Test_Test/C300b/20171201_001_Test_Test_C300b_002.mov",
+            "videoStreamJson": {
+                "index": 0,
+                "codec_name": "mpeg2video",
+                "codec_long_name": "MPEG-2 video",
+                "profile": "4:2:2",
+                "codec_type": "video",
+                "codec_time_base": "1001/24000",
+                "codec_tag_string": "xd5d",
+                "codec_tag": "0x64356478",
+                "width": 1920,
+                "height": 1080,
+                "coded_width": 0,
+                "coded_height": 0,
+                "has_b_frames": 1,
+                "sample_aspect_ratio": "1:1",
+                "display_aspect_ratio": "16:9",
+                "pix_fmt": "yuv422p",
+                "level": 2,
+                "color_range": "tv",
+                "color_space": "bt709",
+                "color_transfer": "bt709",
+                "color_primaries": "bt709",
+                "chroma_location": "topleft",
+                "field_order": "progressive",
+                "refs": 1,
+                "r_frame_rate": "24000/1001",
+                "avg_frame_rate": "24000/1001",
+                "time_base": "1/24000",
+                "start_pts": 0,
+                "start_time": "0.000000",
+                "duration_ts": 564564,
+                "duration": "23.523500",
+                "bit_rate": "50000002",
+                "nb_frames": "564",
+                "disposition": {
+                    "default": 1,
+                    "dub": 0,
+                    "original": 0,
+                    "comment": 0,
+                    "lyrics": 0,
+                    "karaoke": 0,
+                    "forced": 0,
+                    "hearing_impaired": 0,
+                    "visual_impaired": 0,
+                    "clean_effects": 0,
+                    "attached_pic": 0,
+                    "timed_thumbnails": 0
+                },
+                "tags": {
+                    "creation_time": "2017-09-09T14:19:44.000000Z",
+                    "language": "und",
+                    "handler_name": "Core Media Data Handler",
+                    "encoder": "XF-MPEG 422 50Mbps",
+                    "timecode": "09:19:36:12"
+                }
+            },
+            "audioStreamJson": {
+                "index": 1,
+                "codec_name": "pcm_s16le",
+                "codec_long_name": "PCM signed 16-bit little-endian",
+                "codec_type": "audio",
+                "codec_time_base": "1/48000",
+                "codec_tag_string": "sowt",
+                "codec_tag": "0x74776f73",
+                "sample_fmt": "s16",
+                "sample_rate": "48000",
+                "channels": 2,
+                "channel_layout": "stereo",
+                "bits_per_sample": 16,
+                "r_frame_rate": "0/0",
+                "avg_frame_rate": "0/0",
+                "time_base": "1/48000",
+                "start_pts": 0,
+                "start_time": "0.000000",
+                "duration_ts": 1129128,
+                "duration": "23.523500",
+                "bit_rate": "1536000",
+                "nb_frames": "1129128",
+                "disposition": {
+                    "default": 1,
+                    "dub": 0,
+                    "original": 0,
+                    "comment": 0,
+                    "lyrics": 0,
+                    "karaoke": 0,
+                    "forced": 0,
+                    "hearing_impaired": 0,
+                    "visual_impaired": 0,
+                    "clean_effects": 0,
+                    "attached_pic": 0,
+                    "timed_thumbnails": 0
+                },
+                "tags": {
+                    "creation_time": "2017-09-09T14:19:44.000000Z",
+                    "language": "und",
+                    "handler_name": "Core Media Data Handler"
+                }
+            },
+            "dataStreamJson": {
+                "index": 2,
+                "codec_type": "data",
+                "codec_tag_string": "tmcd",
+                "codec_tag": "0x64636d74",
+                "r_frame_rate": "0/0",
+                "avg_frame_rate": "24/1",
+                "time_base": "1/24000",
+                "start_pts": 0,
+                "start_time": "0.000000",
+                "duration_ts": 564564,
+                "duration": "23.523500",
+                "bit_rate": "767",
+                "nb_frames": "564",
+                "disposition": {
+                    "default": 0,
+                    "dub": 0,
+                    "original": 0,
+                    "comment": 0,
+                    "lyrics": 0,
+                    "karaoke": 0,
+                    "forced": 0,
+                    "hearing_impaired": 0,
+                    "visual_impaired": 0,
+                    "clean_effects": 0,
+                    "attached_pic": 0,
+                    "timed_thumbnails": 0
+                },
+                "tags": {
+                    "creation_time": "2017-09-09T14:19:44.000000Z",
+                    "language": "und",
+                    "handler_name": "Core Media Data Handler",
+                    "timecode": "09:19:36:12"
+                }
+            },
+            "formatJson": "{\n  \"filename\": \"/Volumes/mk2/test_shoots/20171201_001_Test_Test/C300b/20171201_001_Test_Test_C300b_002.mov\",\n  \"nb_streams\": 3,\n  \"nb_programs\": 0,\n  \"format_name\": \"mov,mp4,m4a,3gp,3g2,mj2\",\n  \"format_long_name\": \"QuickTime / MOV\",\n  \"start_time\": \"0.000000\",\n  \"duration\": \"23.523500\",\n  \"size\": \"151902651\",\n  \"bit_rate\": \"51659880\",\n  \"probe_score\": 100,\n  \"tags\": {\n    \"major_brand\": \"qt  \",\n    \"minor_version\": \"0\",\n    \"compatible_brands\": \"qt  \",\n    \"creation_time\": \"2017-09-09T14:19:44.000000Z\",\n    \"com.apple.proapps.customcolor\": \"com.canon.proapps.bt709.bt709\",\n    \"com.apple.proapps.isGood\": \"0\",\n    \"com.apple.proapps.dataSize\": \"A�#��\",\n    \"com.apple.proapps.displayFormat\": \"XF-MPEG FHD 23.98P\",\n    \"com.apple.proapps.shootingRate\": \"@8\",\n    \"com.apple.proapps.videoBitrate\": \"0\",\n    \"com.apple.proapps.originalFormat\": \"XF-MPEG\",\n    \"com.apple.proapps.pulldown\": \"1\",\n    \"com.apple.proapps.mediaRate\": \"@7��G�\\u0014{\",\n    \"com.apple.proapps.timecodeFormat\": \"2\",\n    \"com.apple.proapps.numberOfAudioChannels\": \"0\",\n    \"com.apple.proapps.sampleRate\": \"0\",\n    \"com.apple.proapps.bitsPerSample\": \"0\",\n    \"com.apple.quicktime.creationdate\": \"2017-08-14T09:23:59-0400\",\n    \"com.apple.proapps.lastupdatedate\": \"2017-08-14 09:24:22 -0400\",\n    \"com.apple.proapps.manufacturer\": \"CANON\",\n    \"com.apple.proapps.modelname\": \"EOS C300\",\n    \"com.apple.proapps.serialno\": \"882233900027\",\n    \"com.apple.proapps.clipFileName\": \"CC0322\",\n    \"com.apple.proapps.clipID\": \"0D2F75C4-7979-0580-0000-8500025A2C08\",\n    \"com.apple.proapps.RADSDKVersion\": \"3.1\",\n    \"com.apple.proapps.cameraID\": \"CANON_882233900027\",\n    \"com.apple.proapps.cameraName\": \"CANON XF\",\n    \"com.apple.proapps.ingestDate.description\": \"2017-09-09 10:19:44 -0400\",\n    \"com.apple.quicktime.make\": \"Apple\",\n    \"com.apple.quicktime.model\": \"iMac17,1\",\n    \"com.apple.quicktime.software\": \"Mac OS X 10.12.6 (16G29)\"\n  }\n}",
+            "formatTagsCreationTime": "2017-09-09T14:19:44.000000Z",
+            "width": 1920,
+            "height": 1080,
+            "codec_time_base": "1001/24000",
+            "time_base": "1/24000",
+            "codec_long_name": "MPEG-2 video",
+            "duration": "23.523500",
+            "bit_rate": "50000002",
+            "nb_frames": "564",
+            "startTc": "09:19:36:12",
+            "actualCreationDate": "2017-08-14T09:23:59-0400",
+            "duration_ts": 564564,
+            "start_ts": 806641836,
+            "end_ts": 807206400,
+            "creationDate": "2017-09-09T14:19:44.000Z",
+            "utcCrStartMill": 1504966784000,
+            "utcTcStartDate": "2017-12-01T14:19:36.000Z",
+            "utcTcStartMill": 1512137976000,
+            "codec_time_base_numerator": "1",
+            "codec_time_base_denominator": "24000",
+            "frameDuration": "1001/24000s",
+            "fcpxml": {
+                "format": {
+                    "_attr": {
+                        "frameDuration": "1001/24000s",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                },
+                "asset": {
+                    "_attr": {
+                        "name": "20171201_001_Test_Test_C300b_002.mov",
+                        "src": "file:///Volumes/mk2/test_shoots/20171201_001_Test_Test/C300b/20171201_001_Test_Test_C300b_002.mov",
+                        "start": "806641836/24000s",
+                        "duration": "564564/24000s",
+                        "hasVideo": 1,
+                        "hasAudio": 1,
+                        "audioSources": 1,
+                        "audioChannels": 2,
+                        "audioRate": "48000"
+                    }
+                },
+                "assetClip": [
+                    {
+                        "_attr": {
+                            "name": "20171201_001_Test_Test_C300b_002",
+                            "audioRole": "dialogue",
+                            "tcFormat": "NDF",
+                            "start": "806641836/24000s",
+                            "duration": "564564/24000s",
+                            "modDate": "2018-01-15 21:35:29 -0500"
+                        }
+                    },
+                    {
+                        "keyword": {
+                            "_attr": {
+                                "start": "806641836/24000s",
+                                "duration": "564564/24000s",
+                                "value": "20171201_001_Test_Test, C300b"
+                            }
+                        }
+                    },
+                    {
+                        "keyword": {
+                            "_attr": {
+                                "start": "806641836/24000s",
+                                "duration": "24024/24000s",
+                                "value": "first 24 frames"
+                            }
+                        }
+                    }
+                ],
+                "mcAssetClip": [
+                    {
+                        "_attr": {
+                            "name": "20171201_001_Test_Test_C300b_002.mov",
+                            "offset": "mcStart - thisStart",
+                            "ref": "same as assetClip",
+                            "audioRole": "dialogue",
+                            "tcFormat": "NDF",
+                            "format": "insertFORMAThere",
+                            "start": "806641836/24000s",
+                            "duration": "564564/24000s"
+                        }
+                    },
+                    {
+                        "audio-channel-source": {
+                            "_attr": {
+                                "role": "dialogue.dialogue-1",
+                                "srcCh": "1"
+                            }
+                        }
+                    },
+                    {
+                        "audio-channel-source": {
+                            "_attr": {
+                                "role": "dialogue.dialogue-2",
+                                "srcCh": "2"
+                            }
+                        }
+                    }
+                ]
+            },
+            "halfway": 12,
+            "tempStillFilePath": "/Users/mk/Development/thelocalworkflow/public/images/temp/rename/still12.png",
+            "relativeTempStileFilePath": "/images/temp/rename/still12.png"
+        }
+    ],
+    "shootId": "20171201_001_Test_Test",
+    "shootIdDate": "20171201",
+    "shootCounter": "001",
+    "projectId": "Test",
+    "subId": "Test",
+    "fcpxml": {
+        "motionEffectA": {
+            "effect": {
+                "_attr": {
+                    "id": "empty",
+                    "name": "2.5_A",
+                    "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef",
+                    "src": "file:///Users/mk/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef"
+                }
+            }
+        },
+        "motionEffectC": {
+            "effect": {
+                "_attr": {
+                    "id": "empty",
+                    "name": "2.5_C",
+                    "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_C/2.5_C.moef",
+                    "src": "file:///Users/mk/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_C/2.5_C.moef"
+                }
+            }
+        },
+        "motionEffectB": {
+            "effect": {
+                "_attr": {
+                    "id": "empty",
+                    "name": "2.5_B",
+                    "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef",
+                    "src": "file:///Users/mk/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef"
+                }
+            }
+        }
+    },
+    "startClip": {
+        "thelocalworkflowIngestTime": "2018-01-16 02-35-29",
+        "thelocalworkflowFcpxmlTime": "2018-01-15 21:35:29 -0500",
+        "oldBasenameExt": "20171201_001_Test_Test_C300b_002.mov",
+        "oldPath": "/Volumes/mk2/test_shoots/20171201_001_Test_Test/C300b/20171201_001_Test_Test_C300b_002.mov",
+        "cameraFolder": "C300b",
+        "shootId": "20171201_001_Test_Test",
+        "counter": "002",
+        "ffprobeOutput": "{\n    \"streams\": [\n        {\n            \"index\": 0,\n            \"codec_name\": \"mpeg2video\",\n            \"codec_long_name\": \"MPEG-2 video\",\n            \"profile\": \"4:2:2\",\n            \"codec_type\": \"video\",\n            \"codec_time_base\": \"1001/24000\",\n            \"codec_tag_string\": \"xd5d\",\n            \"codec_tag\": \"0x64356478\",\n            \"width\": 1920,\n            \"height\": 1080,\n            \"coded_width\": 0,\n            \"coded_height\": 0,\n            \"has_b_frames\": 1,\n            \"sample_aspect_ratio\": \"1:1\",\n            \"display_aspect_ratio\": \"16:9\",\n            \"pix_fmt\": \"yuv422p\",\n            \"level\": 2,\n            \"color_range\": \"tv\",\n            \"color_space\": \"bt709\",\n            \"color_transfer\": \"bt709\",\n            \"color_primaries\": \"bt709\",\n            \"chroma_location\": \"topleft\",\n            \"field_order\": \"progressive\",\n            \"refs\": 1,\n            \"r_frame_rate\": \"24000/1001\",\n            \"avg_frame_rate\": \"24000/1001\",\n            \"time_base\": \"1/24000\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 564564,\n            \"duration\": \"23.523500\",\n            \"bit_rate\": \"50000002\",\n            \"nb_frames\": \"564\",\n            \"disposition\": {\n                \"default\": 1,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0,\n                \"timed_thumbnails\": 0\n            },\n            \"tags\": {\n                \"creation_time\": \"2017-09-09T14:19:44.000000Z\",\n                \"language\": \"und\",\n                \"handler_name\": \"Core Media Data Handler\",\n                \"encoder\": \"XF-MPEG 422 50Mbps\",\n                \"timecode\": \"09:19:36:12\"\n            }\n        },\n        {\n            \"index\": 1,\n            \"codec_name\": \"pcm_s16le\",\n            \"codec_long_name\": \"PCM signed 16-bit little-endian\",\n            \"codec_type\": \"audio\",\n            \"codec_time_base\": \"1/48000\",\n            \"codec_tag_string\": \"sowt\",\n            \"codec_tag\": \"0x74776f73\",\n            \"sample_fmt\": \"s16\",\n            \"sample_rate\": \"48000\",\n            \"channels\": 2,\n            \"channel_layout\": \"stereo\",\n            \"bits_per_sample\": 16,\n            \"r_frame_rate\": \"0/0\",\n            \"avg_frame_rate\": \"0/0\",\n            \"time_base\": \"1/48000\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 1129128,\n            \"duration\": \"23.523500\",\n            \"bit_rate\": \"1536000\",\n            \"nb_frames\": \"1129128\",\n            \"disposition\": {\n                \"default\": 1,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0,\n                \"timed_thumbnails\": 0\n            },\n            \"tags\": {\n                \"creation_time\": \"2017-09-09T14:19:44.000000Z\",\n                \"language\": \"und\",\n                \"handler_name\": \"Core Media Data Handler\"\n            }\n        },\n        {\n            \"index\": 2,\n            \"codec_type\": \"data\",\n            \"codec_tag_string\": \"tmcd\",\n            \"codec_tag\": \"0x64636d74\",\n            \"r_frame_rate\": \"0/0\",\n            \"avg_frame_rate\": \"24/1\",\n            \"time_base\": \"1/24000\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 564564,\n            \"duration\": \"23.523500\",\n            \"bit_rate\": \"767\",\n            \"nb_frames\": \"564\",\n            \"disposition\": {\n                \"default\": 0,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0,\n                \"timed_thumbnails\": 0\n            },\n            \"tags\": {\n                \"creation_time\": \"2017-09-09T14:19:44.000000Z\",\n                \"language\": \"und\",\n                \"handler_name\": \"Core Media Data Handler\",\n                \"timecode\": \"09:19:36:12\"\n            }\n        }\n    ],\n    \"format\": {\n        \"filename\": \"/Volumes/mk2/test_shoots/20171201_001_Test_Test/C300b/20171201_001_Test_Test_C300b_002.mov\",\n        \"nb_streams\": 3,\n        \"nb_programs\": 0,\n        \"format_name\": \"mov,mp4,m4a,3gp,3g2,mj2\",\n        \"format_long_name\": \"QuickTime / MOV\",\n        \"start_time\": \"0.000000\",\n        \"duration\": \"23.523500\",\n        \"size\": \"151902651\",\n        \"bit_rate\": \"51659880\",\n        \"probe_score\": 100,\n        \"tags\": {\n            \"major_brand\": \"qt  \",\n            \"minor_version\": \"0\",\n            \"compatible_brands\": \"qt  \",\n            \"creation_time\": \"2017-09-09T14:19:44.000000Z\",\n            \"com.apple.proapps.customcolor\": \"com.canon.proapps.bt709.bt709\",\n            \"com.apple.proapps.isGood\": \"0\",\n            \"com.apple.proapps.dataSize\": \"A�#��\",\n            \"com.apple.proapps.displayFormat\": \"XF-MPEG FHD 23.98P\",\n            \"com.apple.proapps.shootingRate\": \"@8\",\n            \"com.apple.proapps.videoBitrate\": \"0\",\n            \"com.apple.proapps.originalFormat\": \"XF-MPEG\",\n            \"com.apple.proapps.pulldown\": \"1\",\n            \"com.apple.proapps.mediaRate\": \"@7��G�\\u0014{\",\n            \"com.apple.proapps.timecodeFormat\": \"2\",\n            \"com.apple.proapps.numberOfAudioChannels\": \"0\",\n            \"com.apple.proapps.sampleRate\": \"0\",\n            \"com.apple.proapps.bitsPerSample\": \"0\",\n            \"com.apple.quicktime.creationdate\": \"2017-08-14T09:23:59-0400\",\n            \"com.apple.proapps.lastupdatedate\": \"2017-08-14 09:24:22 -0400\",\n            \"com.apple.proapps.manufacturer\": \"CANON\",\n            \"com.apple.proapps.modelname\": \"EOS C300\",\n            \"com.apple.proapps.serialno\": \"882233900027\",\n            \"com.apple.proapps.clipFileName\": \"CC0322\",\n            \"com.apple.proapps.clipID\": \"0D2F75C4-7979-0580-0000-8500025A2C08\",\n            \"com.apple.proapps.RADSDKVersion\": \"3.1\",\n            \"com.apple.proapps.cameraID\": \"CANON_882233900027\",\n            \"com.apple.proapps.cameraName\": \"CANON XF\",\n            \"com.apple.proapps.ingestDate.description\": \"2017-09-09 10:19:44 -0400\",\n            \"com.apple.quicktime.make\": \"Apple\",\n            \"com.apple.quicktime.model\": \"iMac17,1\",\n            \"com.apple.quicktime.software\": \"Mac OS X 10.12.6 (16G29)\"\n        }\n    }\n}\n",
+        "ext": ".mov",
+        "newBasename": "20171201_001_Test_Test_C300b_002",
+        "newBasenameExt": "20171201_001_Test_Test_C300b_002.mov",
+        "newPath": "/Volumes/mk2/test_shoots/20171201_001_Test_Test/C300b/20171201_001_Test_Test_C300b_002.mov",
+        "videoStreamJson": {
+            "index": 0,
+            "codec_name": "mpeg2video",
+            "codec_long_name": "MPEG-2 video",
+            "profile": "4:2:2",
+            "codec_type": "video",
+            "codec_time_base": "1001/24000",
+            "codec_tag_string": "xd5d",
+            "codec_tag": "0x64356478",
+            "width": 1920,
+            "height": 1080,
+            "coded_width": 0,
+            "coded_height": 0,
+            "has_b_frames": 1,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "16:9",
+            "pix_fmt": "yuv422p",
+            "level": 2,
+            "color_range": "tv",
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "chroma_location": "topleft",
+            "field_order": "progressive",
+            "refs": 1,
+            "r_frame_rate": "24000/1001",
+            "avg_frame_rate": "24000/1001",
+            "time_base": "1/24000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 564564,
+            "duration": "23.523500",
+            "bit_rate": "50000002",
+            "nb_frames": "564",
+            "disposition": {
+                "default": 1,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0
+            },
+            "tags": {
+                "creation_time": "2017-09-09T14:19:44.000000Z",
+                "language": "und",
+                "handler_name": "Core Media Data Handler",
+                "encoder": "XF-MPEG 422 50Mbps",
+                "timecode": "09:19:36:12"
+            }
+        },
+        "audioStreamJson": {
+            "index": 1,
+            "codec_name": "pcm_s16le",
+            "codec_long_name": "PCM signed 16-bit little-endian",
+            "codec_type": "audio",
+            "codec_time_base": "1/48000",
+            "codec_tag_string": "sowt",
+            "codec_tag": "0x74776f73",
+            "sample_fmt": "s16",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 16,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 1129128,
+            "duration": "23.523500",
+            "bit_rate": "1536000",
+            "nb_frames": "1129128",
+            "disposition": {
+                "default": 1,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0
+            },
+            "tags": {
+                "creation_time": "2017-09-09T14:19:44.000000Z",
+                "language": "und",
+                "handler_name": "Core Media Data Handler"
+            }
+        },
+        "dataStreamJson": {
+            "index": 2,
+            "codec_type": "data",
+            "codec_tag_string": "tmcd",
+            "codec_tag": "0x64636d74",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "24/1",
+            "time_base": "1/24000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 564564,
+            "duration": "23.523500",
+            "bit_rate": "767",
+            "nb_frames": "564",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0
+            },
+            "tags": {
+                "creation_time": "2017-09-09T14:19:44.000000Z",
+                "language": "und",
+                "handler_name": "Core Media Data Handler",
+                "timecode": "09:19:36:12"
+            }
+        },
+        "formatJson": "{\n  \"filename\": \"/Volumes/mk2/test_shoots/20171201_001_Test_Test/C300b/20171201_001_Test_Test_C300b_002.mov\",\n  \"nb_streams\": 3,\n  \"nb_programs\": 0,\n  \"format_name\": \"mov,mp4,m4a,3gp,3g2,mj2\",\n  \"format_long_name\": \"QuickTime / MOV\",\n  \"start_time\": \"0.000000\",\n  \"duration\": \"23.523500\",\n  \"size\": \"151902651\",\n  \"bit_rate\": \"51659880\",\n  \"probe_score\": 100,\n  \"tags\": {\n    \"major_brand\": \"qt  \",\n    \"minor_version\": \"0\",\n    \"compatible_brands\": \"qt  \",\n    \"creation_time\": \"2017-09-09T14:19:44.000000Z\",\n    \"com.apple.proapps.customcolor\": \"com.canon.proapps.bt709.bt709\",\n    \"com.apple.proapps.isGood\": \"0\",\n    \"com.apple.proapps.dataSize\": \"A�#��\",\n    \"com.apple.proapps.displayFormat\": \"XF-MPEG FHD 23.98P\",\n    \"com.apple.proapps.shootingRate\": \"@8\",\n    \"com.apple.proapps.videoBitrate\": \"0\",\n    \"com.apple.proapps.originalFormat\": \"XF-MPEG\",\n    \"com.apple.proapps.pulldown\": \"1\",\n    \"com.apple.proapps.mediaRate\": \"@7��G�\\u0014{\",\n    \"com.apple.proapps.timecodeFormat\": \"2\",\n    \"com.apple.proapps.numberOfAudioChannels\": \"0\",\n    \"com.apple.proapps.sampleRate\": \"0\",\n    \"com.apple.proapps.bitsPerSample\": \"0\",\n    \"com.apple.quicktime.creationdate\": \"2017-08-14T09:23:59-0400\",\n    \"com.apple.proapps.lastupdatedate\": \"2017-08-14 09:24:22 -0400\",\n    \"com.apple.proapps.manufacturer\": \"CANON\",\n    \"com.apple.proapps.modelname\": \"EOS C300\",\n    \"com.apple.proapps.serialno\": \"882233900027\",\n    \"com.apple.proapps.clipFileName\": \"CC0322\",\n    \"com.apple.proapps.clipID\": \"0D2F75C4-7979-0580-0000-8500025A2C08\",\n    \"com.apple.proapps.RADSDKVersion\": \"3.1\",\n    \"com.apple.proapps.cameraID\": \"CANON_882233900027\",\n    \"com.apple.proapps.cameraName\": \"CANON XF\",\n    \"com.apple.proapps.ingestDate.description\": \"2017-09-09 10:19:44 -0400\",\n    \"com.apple.quicktime.make\": \"Apple\",\n    \"com.apple.quicktime.model\": \"iMac17,1\",\n    \"com.apple.quicktime.software\": \"Mac OS X 10.12.6 (16G29)\"\n  }\n}",
+        "formatTagsCreationTime": "2017-09-09T14:19:44.000000Z",
+        "width": 1920,
+        "height": 1080,
+        "codec_time_base": "1001/24000",
+        "time_base": "1/24000",
+        "codec_long_name": "MPEG-2 video",
+        "duration": "23.523500",
+        "bit_rate": "50000002",
+        "nb_frames": "564",
+        "startTc": "09:19:36:12",
+        "actualCreationDate": "2017-08-14T09:23:59-0400",
+        "duration_ts": 564564,
+        "start_ts": 806641836,
+        "end_ts": 807206400,
+        "creationDate": "2017-09-09T14:19:44.000Z",
+        "utcCrStartMill": 1504966784000,
+        "utcTcStartDate": "2017-12-01T14:19:36.000Z",
+        "utcTcStartMill": 1512137976000,
+        "codec_time_base_numerator": "1",
+        "codec_time_base_denominator": "24000",
+        "frameDuration": "1001/24000s",
+        "fcpxml": {
+            "format": {
+                "_attr": {
+                    "frameDuration": "1001/24000s",
+                    "width": 1920,
+                    "height": 1080
+                }
+            },
+            "asset": {
+                "_attr": {
+                    "name": "20171201_001_Test_Test_C300b_002.mov",
+                    "src": "file:///Volumes/mk2/test_shoots/20171201_001_Test_Test/C300b/20171201_001_Test_Test_C300b_002.mov",
+                    "start": "806641836/24000s",
+                    "duration": "564564/24000s",
+                    "hasVideo": 1,
+                    "hasAudio": 1,
+                    "audioSources": 1,
+                    "audioChannels": 2,
+                    "audioRate": "48000"
+                }
+            },
+            "assetClip": [
+                {
+                    "_attr": {
+                        "name": "20171201_001_Test_Test_C300b_002",
+                        "audioRole": "dialogue",
+                        "tcFormat": "NDF",
+                        "start": "806641836/24000s",
+                        "duration": "564564/24000s",
+                        "modDate": "2018-01-15 21:35:29 -0500"
+                    }
+                },
+                {
+                    "keyword": {
+                        "_attr": {
+                            "start": "806641836/24000s",
+                            "duration": "564564/24000s",
+                            "value": "20171201_001_Test_Test, C300b"
+                        }
+                    }
+                },
+                {
+                    "keyword": {
+                        "_attr": {
+                            "start": "806641836/24000s",
+                            "duration": "24024/24000s",
+                            "value": "first 24 frames"
+                        }
+                    }
+                }
+            ],
+            "mcAssetClip": [
+                {
+                    "_attr": {
+                        "name": "20171201_001_Test_Test_C300b_002.mov",
+                        "offset": "mcStart - thisStart",
+                        "ref": "same as assetClip",
+                        "audioRole": "dialogue",
+                        "tcFormat": "NDF",
+                        "format": "insertFORMAThere",
+                        "start": "806641836/24000s",
+                        "duration": "564564/24000s"
+                    }
+                },
+                {
+                    "audio-channel-source": {
+                        "_attr": {
+                            "role": "dialogue.dialogue-1",
+                            "srcCh": "1"
+                        }
+                    }
+                },
+                {
+                    "audio-channel-source": {
+                        "_attr": {
+                            "role": "dialogue.dialogue-2",
+                            "srcCh": "2"
+                        }
+                    }
+                }
+            ]
+        },
+        "halfway": 12,
+        "tempStillFilePath": "/Users/mk/Development/thelocalworkflow/public/images/temp/rename/still12.png",
+        "relativeTempStileFilePath": "/images/temp/rename/still12.png"
+    },
+    "tsStartClip": {
+        "thelocalworkflowIngestTime": "2018-01-16 02-35-29",
+        "thelocalworkflowFcpxmlTime": "2018-01-15 21:35:29 -0500",
+        "oldBasenameExt": "20171201_001_Test_Test_C300b_002.mov",
+        "oldPath": "/Volumes/mk2/test_shoots/20171201_001_Test_Test/C300b/20171201_001_Test_Test_C300b_002.mov",
+        "cameraFolder": "C300b",
+        "shootId": "20171201_001_Test_Test",
+        "counter": "002",
+        "ffprobeOutput": "{\n    \"streams\": [\n        {\n            \"index\": 0,\n            \"codec_name\": \"mpeg2video\",\n            \"codec_long_name\": \"MPEG-2 video\",\n            \"profile\": \"4:2:2\",\n            \"codec_type\": \"video\",\n            \"codec_time_base\": \"1001/24000\",\n            \"codec_tag_string\": \"xd5d\",\n            \"codec_tag\": \"0x64356478\",\n            \"width\": 1920,\n            \"height\": 1080,\n            \"coded_width\": 0,\n            \"coded_height\": 0,\n            \"has_b_frames\": 1,\n            \"sample_aspect_ratio\": \"1:1\",\n            \"display_aspect_ratio\": \"16:9\",\n            \"pix_fmt\": \"yuv422p\",\n            \"level\": 2,\n            \"color_range\": \"tv\",\n            \"color_space\": \"bt709\",\n            \"color_transfer\": \"bt709\",\n            \"color_primaries\": \"bt709\",\n            \"chroma_location\": \"topleft\",\n            \"field_order\": \"progressive\",\n            \"refs\": 1,\n            \"r_frame_rate\": \"24000/1001\",\n            \"avg_frame_rate\": \"24000/1001\",\n            \"time_base\": \"1/24000\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 564564,\n            \"duration\": \"23.523500\",\n            \"bit_rate\": \"50000002\",\n            \"nb_frames\": \"564\",\n            \"disposition\": {\n                \"default\": 1,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0,\n                \"timed_thumbnails\": 0\n            },\n            \"tags\": {\n                \"creation_time\": \"2017-09-09T14:19:44.000000Z\",\n                \"language\": \"und\",\n                \"handler_name\": \"Core Media Data Handler\",\n                \"encoder\": \"XF-MPEG 422 50Mbps\",\n                \"timecode\": \"09:19:36:12\"\n            }\n        },\n        {\n            \"index\": 1,\n            \"codec_name\": \"pcm_s16le\",\n            \"codec_long_name\": \"PCM signed 16-bit little-endian\",\n            \"codec_type\": \"audio\",\n            \"codec_time_base\": \"1/48000\",\n            \"codec_tag_string\": \"sowt\",\n            \"codec_tag\": \"0x74776f73\",\n            \"sample_fmt\": \"s16\",\n            \"sample_rate\": \"48000\",\n            \"channels\": 2,\n            \"channel_layout\": \"stereo\",\n            \"bits_per_sample\": 16,\n            \"r_frame_rate\": \"0/0\",\n            \"avg_frame_rate\": \"0/0\",\n            \"time_base\": \"1/48000\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 1129128,\n            \"duration\": \"23.523500\",\n            \"bit_rate\": \"1536000\",\n            \"nb_frames\": \"1129128\",\n            \"disposition\": {\n                \"default\": 1,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0,\n                \"timed_thumbnails\": 0\n            },\n            \"tags\": {\n                \"creation_time\": \"2017-09-09T14:19:44.000000Z\",\n                \"language\": \"und\",\n                \"handler_name\": \"Core Media Data Handler\"\n            }\n        },\n        {\n            \"index\": 2,\n            \"codec_type\": \"data\",\n            \"codec_tag_string\": \"tmcd\",\n            \"codec_tag\": \"0x64636d74\",\n            \"r_frame_rate\": \"0/0\",\n            \"avg_frame_rate\": \"24/1\",\n            \"time_base\": \"1/24000\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 564564,\n            \"duration\": \"23.523500\",\n            \"bit_rate\": \"767\",\n            \"nb_frames\": \"564\",\n            \"disposition\": {\n                \"default\": 0,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0,\n                \"timed_thumbnails\": 0\n            },\n            \"tags\": {\n                \"creation_time\": \"2017-09-09T14:19:44.000000Z\",\n                \"language\": \"und\",\n                \"handler_name\": \"Core Media Data Handler\",\n                \"timecode\": \"09:19:36:12\"\n            }\n        }\n    ],\n    \"format\": {\n        \"filename\": \"/Volumes/mk2/test_shoots/20171201_001_Test_Test/C300b/20171201_001_Test_Test_C300b_002.mov\",\n        \"nb_streams\": 3,\n        \"nb_programs\": 0,\n        \"format_name\": \"mov,mp4,m4a,3gp,3g2,mj2\",\n        \"format_long_name\": \"QuickTime / MOV\",\n        \"start_time\": \"0.000000\",\n        \"duration\": \"23.523500\",\n        \"size\": \"151902651\",\n        \"bit_rate\": \"51659880\",\n        \"probe_score\": 100,\n        \"tags\": {\n            \"major_brand\": \"qt  \",\n            \"minor_version\": \"0\",\n            \"compatible_brands\": \"qt  \",\n            \"creation_time\": \"2017-09-09T14:19:44.000000Z\",\n            \"com.apple.proapps.customcolor\": \"com.canon.proapps.bt709.bt709\",\n            \"com.apple.proapps.isGood\": \"0\",\n            \"com.apple.proapps.dataSize\": \"A�#��\",\n            \"com.apple.proapps.displayFormat\": \"XF-MPEG FHD 23.98P\",\n            \"com.apple.proapps.shootingRate\": \"@8\",\n            \"com.apple.proapps.videoBitrate\": \"0\",\n            \"com.apple.proapps.originalFormat\": \"XF-MPEG\",\n            \"com.apple.proapps.pulldown\": \"1\",\n            \"com.apple.proapps.mediaRate\": \"@7��G�\\u0014{\",\n            \"com.apple.proapps.timecodeFormat\": \"2\",\n            \"com.apple.proapps.numberOfAudioChannels\": \"0\",\n            \"com.apple.proapps.sampleRate\": \"0\",\n            \"com.apple.proapps.bitsPerSample\": \"0\",\n            \"com.apple.quicktime.creationdate\": \"2017-08-14T09:23:59-0400\",\n            \"com.apple.proapps.lastupdatedate\": \"2017-08-14 09:24:22 -0400\",\n            \"com.apple.proapps.manufacturer\": \"CANON\",\n            \"com.apple.proapps.modelname\": \"EOS C300\",\n            \"com.apple.proapps.serialno\": \"882233900027\",\n            \"com.apple.proapps.clipFileName\": \"CC0322\",\n            \"com.apple.proapps.clipID\": \"0D2F75C4-7979-0580-0000-8500025A2C08\",\n            \"com.apple.proapps.RADSDKVersion\": \"3.1\",\n            \"com.apple.proapps.cameraID\": \"CANON_882233900027\",\n            \"com.apple.proapps.cameraName\": \"CANON XF\",\n            \"com.apple.proapps.ingestDate.description\": \"2017-09-09 10:19:44 -0400\",\n            \"com.apple.quicktime.make\": \"Apple\",\n            \"com.apple.quicktime.model\": \"iMac17,1\",\n            \"com.apple.quicktime.software\": \"Mac OS X 10.12.6 (16G29)\"\n        }\n    }\n}\n",
+        "ext": ".mov",
+        "newBasename": "20171201_001_Test_Test_C300b_002",
+        "newBasenameExt": "20171201_001_Test_Test_C300b_002.mov",
+        "newPath": "/Volumes/mk2/test_shoots/20171201_001_Test_Test/C300b/20171201_001_Test_Test_C300b_002.mov",
+        "videoStreamJson": {
+            "index": 0,
+            "codec_name": "mpeg2video",
+            "codec_long_name": "MPEG-2 video",
+            "profile": "4:2:2",
+            "codec_type": "video",
+            "codec_time_base": "1001/24000",
+            "codec_tag_string": "xd5d",
+            "codec_tag": "0x64356478",
+            "width": 1920,
+            "height": 1080,
+            "coded_width": 0,
+            "coded_height": 0,
+            "has_b_frames": 1,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "16:9",
+            "pix_fmt": "yuv422p",
+            "level": 2,
+            "color_range": "tv",
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "chroma_location": "topleft",
+            "field_order": "progressive",
+            "refs": 1,
+            "r_frame_rate": "24000/1001",
+            "avg_frame_rate": "24000/1001",
+            "time_base": "1/24000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 564564,
+            "duration": "23.523500",
+            "bit_rate": "50000002",
+            "nb_frames": "564",
+            "disposition": {
+                "default": 1,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0
+            },
+            "tags": {
+                "creation_time": "2017-09-09T14:19:44.000000Z",
+                "language": "und",
+                "handler_name": "Core Media Data Handler",
+                "encoder": "XF-MPEG 422 50Mbps",
+                "timecode": "09:19:36:12"
+            }
+        },
+        "audioStreamJson": {
+            "index": 1,
+            "codec_name": "pcm_s16le",
+            "codec_long_name": "PCM signed 16-bit little-endian",
+            "codec_type": "audio",
+            "codec_time_base": "1/48000",
+            "codec_tag_string": "sowt",
+            "codec_tag": "0x74776f73",
+            "sample_fmt": "s16",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 16,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 1129128,
+            "duration": "23.523500",
+            "bit_rate": "1536000",
+            "nb_frames": "1129128",
+            "disposition": {
+                "default": 1,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0
+            },
+            "tags": {
+                "creation_time": "2017-09-09T14:19:44.000000Z",
+                "language": "und",
+                "handler_name": "Core Media Data Handler"
+            }
+        },
+        "dataStreamJson": {
+            "index": 2,
+            "codec_type": "data",
+            "codec_tag_string": "tmcd",
+            "codec_tag": "0x64636d74",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "24/1",
+            "time_base": "1/24000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 564564,
+            "duration": "23.523500",
+            "bit_rate": "767",
+            "nb_frames": "564",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0
+            },
+            "tags": {
+                "creation_time": "2017-09-09T14:19:44.000000Z",
+                "language": "und",
+                "handler_name": "Core Media Data Handler",
+                "timecode": "09:19:36:12"
+            }
+        },
+        "formatJson": "{\n  \"filename\": \"/Volumes/mk2/test_shoots/20171201_001_Test_Test/C300b/20171201_001_Test_Test_C300b_002.mov\",\n  \"nb_streams\": 3,\n  \"nb_programs\": 0,\n  \"format_name\": \"mov,mp4,m4a,3gp,3g2,mj2\",\n  \"format_long_name\": \"QuickTime / MOV\",\n  \"start_time\": \"0.000000\",\n  \"duration\": \"23.523500\",\n  \"size\": \"151902651\",\n  \"bit_rate\": \"51659880\",\n  \"probe_score\": 100,\n  \"tags\": {\n    \"major_brand\": \"qt  \",\n    \"minor_version\": \"0\",\n    \"compatible_brands\": \"qt  \",\n    \"creation_time\": \"2017-09-09T14:19:44.000000Z\",\n    \"com.apple.proapps.customcolor\": \"com.canon.proapps.bt709.bt709\",\n    \"com.apple.proapps.isGood\": \"0\",\n    \"com.apple.proapps.dataSize\": \"A�#��\",\n    \"com.apple.proapps.displayFormat\": \"XF-MPEG FHD 23.98P\",\n    \"com.apple.proapps.shootingRate\": \"@8\",\n    \"com.apple.proapps.videoBitrate\": \"0\",\n    \"com.apple.proapps.originalFormat\": \"XF-MPEG\",\n    \"com.apple.proapps.pulldown\": \"1\",\n    \"com.apple.proapps.mediaRate\": \"@7��G�\\u0014{\",\n    \"com.apple.proapps.timecodeFormat\": \"2\",\n    \"com.apple.proapps.numberOfAudioChannels\": \"0\",\n    \"com.apple.proapps.sampleRate\": \"0\",\n    \"com.apple.proapps.bitsPerSample\": \"0\",\n    \"com.apple.quicktime.creationdate\": \"2017-08-14T09:23:59-0400\",\n    \"com.apple.proapps.lastupdatedate\": \"2017-08-14 09:24:22 -0400\",\n    \"com.apple.proapps.manufacturer\": \"CANON\",\n    \"com.apple.proapps.modelname\": \"EOS C300\",\n    \"com.apple.proapps.serialno\": \"882233900027\",\n    \"com.apple.proapps.clipFileName\": \"CC0322\",\n    \"com.apple.proapps.clipID\": \"0D2F75C4-7979-0580-0000-8500025A2C08\",\n    \"com.apple.proapps.RADSDKVersion\": \"3.1\",\n    \"com.apple.proapps.cameraID\": \"CANON_882233900027\",\n    \"com.apple.proapps.cameraName\": \"CANON XF\",\n    \"com.apple.proapps.ingestDate.description\": \"2017-09-09 10:19:44 -0400\",\n    \"com.apple.quicktime.make\": \"Apple\",\n    \"com.apple.quicktime.model\": \"iMac17,1\",\n    \"com.apple.quicktime.software\": \"Mac OS X 10.12.6 (16G29)\"\n  }\n}",
+        "formatTagsCreationTime": "2017-09-09T14:19:44.000000Z",
+        "width": 1920,
+        "height": 1080,
+        "codec_time_base": "1001/24000",
+        "time_base": "1/24000",
+        "codec_long_name": "MPEG-2 video",
+        "duration": "23.523500",
+        "bit_rate": "50000002",
+        "nb_frames": "564",
+        "startTc": "09:19:36:12",
+        "actualCreationDate": "2017-08-14T09:23:59-0400",
+        "duration_ts": 564564,
+        "start_ts": 806641836,
+        "end_ts": 807206400,
+        "creationDate": "2017-09-09T14:19:44.000Z",
+        "utcCrStartMill": 1504966784000,
+        "utcTcStartDate": "2017-12-01T14:19:36.000Z",
+        "utcTcStartMill": 1512137976000,
+        "codec_time_base_numerator": "1",
+        "codec_time_base_denominator": "24000",
+        "frameDuration": "1001/24000s",
+        "fcpxml": {
+            "format": {
+                "_attr": {
+                    "frameDuration": "1001/24000s",
+                    "width": 1920,
+                    "height": 1080
+                }
+            },
+            "asset": {
+                "_attr": {
+                    "name": "20171201_001_Test_Test_C300b_002.mov",
+                    "src": "file:///Volumes/mk2/test_shoots/20171201_001_Test_Test/C300b/20171201_001_Test_Test_C300b_002.mov",
+                    "start": "806641836/24000s",
+                    "duration": "564564/24000s",
+                    "hasVideo": 1,
+                    "hasAudio": 1,
+                    "audioSources": 1,
+                    "audioChannels": 2,
+                    "audioRate": "48000"
+                }
+            },
+            "assetClip": [
+                {
+                    "_attr": {
+                        "name": "20171201_001_Test_Test_C300b_002",
+                        "audioRole": "dialogue",
+                        "tcFormat": "NDF",
+                        "start": "806641836/24000s",
+                        "duration": "564564/24000s",
+                        "modDate": "2018-01-15 21:35:29 -0500"
+                    }
+                },
+                {
+                    "keyword": {
+                        "_attr": {
+                            "start": "806641836/24000s",
+                            "duration": "564564/24000s",
+                            "value": "20171201_001_Test_Test, C300b"
+                        }
+                    }
+                },
+                {
+                    "keyword": {
+                        "_attr": {
+                            "start": "806641836/24000s",
+                            "duration": "24024/24000s",
+                            "value": "first 24 frames"
+                        }
+                    }
+                }
+            ],
+            "mcAssetClip": [
+                {
+                    "_attr": {
+                        "name": "20171201_001_Test_Test_C300b_002.mov",
+                        "offset": "mcStart - thisStart",
+                        "ref": "same as assetClip",
+                        "audioRole": "dialogue",
+                        "tcFormat": "NDF",
+                        "format": "insertFORMAThere",
+                        "start": "806641836/24000s",
+                        "duration": "564564/24000s"
+                    }
+                },
+                {
+                    "audio-channel-source": {
+                        "_attr": {
+                            "role": "dialogue.dialogue-1",
+                            "srcCh": "1"
+                        }
+                    }
+                },
+                {
+                    "audio-channel-source": {
+                        "_attr": {
+                            "role": "dialogue.dialogue-2",
+                            "srcCh": "2"
+                        }
+                    }
+                }
+            ]
+        },
+        "halfway": 12,
+        "tempStillFilePath": "/Users/mk/Development/thelocalworkflow/public/images/temp/rename/still12.png",
+        "relativeTempStileFilePath": "/images/temp/rename/still12.png"
+    },
+    "firstMcAngle": "C300b",
+    "mcStartTc": "09:19:36:12",
+    "mcStartTs": 806641836,
+    "mcEndTs": 810833023,
+    "totalDurationTs": 2246244,
+    "totalDuration": 93.59349999999999,
+    "mcDuration": 4191187,
+    "startCrDate": "2017-09-09T14:19:44.000Z",
+    "startTcDate": "2017-12-01T14:19:36.000Z",
+    "tcOffset": 7171192000,
+    "tcFramesOffset": 171936671.32867134
+}

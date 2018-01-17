@@ -1,0 +1,1576 @@
+{
+    "shootPath": "/Volumes/mk2/test_shoots/20171018_003_Test_JustStudio",
+    "people": [],
+    "cameraArray": [
+        "C300a",
+        "C300b",
+        "C300c",
+        "GH4"
+    ],
+    "clipArray": [
+        {
+            "thelocalworkflowIngestTime": "2018-01-16 02-35-28",
+            "thelocalworkflowFcpxmlTime": "2018-01-15 21:35:28 -0500",
+            "oldBasenameExt": "20171018_003_Test_JustStudio_C300a_001.mov",
+            "oldPath": "/Volumes/mk2/test_shoots/20171018_003_Test_JustStudio/C300a/20171018_003_Test_JustStudio_C300a_001.mov",
+            "cameraFolder": "C300a",
+            "shootId": "20171018_003_Test_JustStudio",
+            "counter": "001",
+            "ffprobeOutput": "{\n    \"streams\": [\n        {\n            \"index\": 0,\n            \"codec_name\": \"mpeg2video\",\n            \"codec_long_name\": \"MPEG-2 video\",\n            \"profile\": \"4:2:2\",\n            \"codec_type\": \"video\",\n            \"codec_time_base\": \"1001/24000\",\n            \"codec_tag_string\": \"xd5d\",\n            \"codec_tag\": \"0x64356478\",\n            \"width\": 1920,\n            \"height\": 1080,\n            \"coded_width\": 0,\n            \"coded_height\": 0,\n            \"has_b_frames\": 1,\n            \"sample_aspect_ratio\": \"1:1\",\n            \"display_aspect_ratio\": \"16:9\",\n            \"pix_fmt\": \"yuv422p\",\n            \"level\": 2,\n            \"color_range\": \"tv\",\n            \"color_space\": \"bt709\",\n            \"color_transfer\": \"bt709\",\n            \"color_primaries\": \"bt709\",\n            \"chroma_location\": \"topleft\",\n            \"field_order\": \"progressive\",\n            \"refs\": 1,\n            \"r_frame_rate\": \"24000/1001\",\n            \"avg_frame_rate\": \"24000/1001\",\n            \"time_base\": \"1/24000\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 44475431,\n            \"duration\": \"1853.142958\",\n            \"bit_rate\": \"50000025\",\n            \"nb_frames\": \"44448\",\n            \"disposition\": {\n                \"default\": 1,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0,\n                \"timed_thumbnails\": 0\n            },\n            \"tags\": {\n                \"creation_time\": \"2017-10-19T10:39:27.000000Z\",\n                \"language\": \"und\",\n                \"handler_name\": \"Core Media Data Handler\",\n                \"encoder\": \"XF-MPEG 422 50Mbps\",\n                \"timecode\": \"13:10:48:11\"\n            }\n        },\n        {\n            \"index\": 1,\n            \"codec_name\": \"pcm_s16le\",\n            \"codec_long_name\": \"PCM signed 16-bit little-endian\",\n            \"codec_type\": \"audio\",\n            \"codec_time_base\": \"1/48000\",\n            \"codec_tag_string\": \"sowt\",\n            \"codec_tag\": \"0x74776f73\",\n            \"sample_fmt\": \"s16\",\n            \"sample_rate\": \"48000\",\n            \"channels\": 2,\n            \"channel_layout\": \"stereo\",\n            \"bits_per_sample\": 16,\n            \"r_frame_rate\": \"0/0\",\n            \"avg_frame_rate\": \"0/0\",\n            \"time_base\": \"1/48000\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 88950862,\n            \"duration\": \"1853.142958\",\n            \"bit_rate\": \"1536000\",\n            \"nb_frames\": \"88984896\",\n            \"disposition\": {\n                \"default\": 1,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0,\n                \"timed_thumbnails\": 0\n            },\n            \"tags\": {\n                \"creation_time\": \"2017-10-19T10:39:27.000000Z\",\n                \"language\": \"und\",\n                \"handler_name\": \"Core Media Data Handler\"\n            }\n        },\n        {\n            \"index\": 2,\n            \"codec_type\": \"data\",\n            \"codec_tag_string\": \"tmcd\",\n            \"codec_tag\": \"0x64636d74\",\n            \"r_frame_rate\": \"0/0\",\n            \"avg_frame_rate\": \"24/1\",\n            \"time_base\": \"1/24000\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 44475431,\n            \"duration\": \"1853.142958\",\n            \"bit_rate\": \"767\",\n            \"nb_frames\": \"44448\",\n            \"disposition\": {\n                \"default\": 0,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0,\n                \"timed_thumbnails\": 0\n            },\n            \"tags\": {\n                \"creation_time\": \"2017-10-19T10:39:27.000000Z\",\n                \"language\": \"und\",\n                \"handler_name\": \"Core Media Data Handler\",\n                \"timecode\": \"13:10:48:11\"\n            }\n        }\n    ],\n    \"format\": {\n        \"filename\": \"/Volumes/mk2/test_shoots/20171018_003_Test_JustStudio/C300a/20171018_003_Test_JustStudio_C300a_001.mov\",\n        \"nb_streams\": 3,\n        \"nb_programs\": 0,\n        \"format_name\": \"mov,mp4,m4a,3gp,3g2,mj2\",\n        \"format_long_name\": \"QuickTime / MOV\",\n        \"start_time\": \"0.000000\",\n        \"duration\": \"1853.142958\",\n        \"size\": \"11973921050\",\n        \"bit_rate\": \"51691299\",\n        \"probe_score\": 100,\n        \"tags\": {\n            \"major_brand\": \"qt  \",\n            \"minor_version\": \"0\",\n            \"compatible_brands\": \"qt  \",\n            \"creation_time\": \"2017-10-19T10:39:27.000000Z\",\n            \"com.apple.proapps.isGood\": \"0\",\n            \"com.apple.proapps.dataSize\": \"B\\u0013r\\u0019Ő\",\n            \"com.apple.proapps.displayFormat\": \"XF-MPEG FHD 23.98P\",\n            \"com.apple.proapps.shootingRate\": \"@8\",\n            \"com.apple.proapps.videoBitrate\": \"0\",\n            \"com.apple.proapps.originalFormat\": \"XF-MPEG\",\n            \"com.apple.proapps.pulldown\": \"1\",\n            \"com.apple.proapps.mediaRate\": \"@7��G�\\u0014{\",\n            \"com.apple.proapps.timecodeFormat\": \"2\",\n            \"com.apple.proapps.numberOfAudioChannels\": \"0\",\n            \"com.apple.proapps.sampleRate\": \"0\",\n            \"com.apple.proapps.bitsPerSample\": \"0\",\n            \"com.apple.quicktime.creationdate\": \"2017-10-18T12:55:03-0400\",\n            \"com.apple.proapps.lastupdatedate\": \"2017-10-18 13:48:51 -0400\",\n            \"com.apple.proapps.manufacturer\": \"CANON\",\n            \"com.apple.proapps.modelname\": \"EOS C300\",\n            \"com.apple.proapps.serialno\": \"532851500030\",\n            \"com.apple.proapps.clipFileName\": \"AA0717\",\n            \"com.apple.proapps.clipID\": \"0D3B0DE4-4480-0580-0000-8500025A208F\",\n            \"com.apple.proapps.RADSDKVersion\": \"3.1\",\n            \"com.apple.proapps.cameraID\": \"CANON_532851500030\",\n            \"com.apple.proapps.cameraName\": \"CANON XF\",\n            \"com.apple.proapps.ingestDate.description\": \"2017-10-19 06:39:27 -0400\",\n            \"com.apple.quicktime.make\": \"Apple\",\n            \"com.apple.quicktime.model\": \"MacBookPro13,3\",\n            \"com.apple.quicktime.software\": \"Mac OS X 10.13 (17A405)\"\n        }\n    }\n}\n",
+            "ext": ".mov",
+            "newBasename": "20171018_003_Test_JustStudio_C300a_001",
+            "newBasenameExt": "20171018_003_Test_JustStudio_C300a_001.mov",
+            "newPath": "/Volumes/mk2/test_shoots/20171018_003_Test_JustStudio/C300a/20171018_003_Test_JustStudio_C300a_001.mov",
+            "videoStreamJson": {
+                "index": 0,
+                "codec_name": "mpeg2video",
+                "codec_long_name": "MPEG-2 video",
+                "profile": "4:2:2",
+                "codec_type": "video",
+                "codec_time_base": "1001/24000",
+                "codec_tag_string": "xd5d",
+                "codec_tag": "0x64356478",
+                "width": 1920,
+                "height": 1080,
+                "coded_width": 0,
+                "coded_height": 0,
+                "has_b_frames": 1,
+                "sample_aspect_ratio": "1:1",
+                "display_aspect_ratio": "16:9",
+                "pix_fmt": "yuv422p",
+                "level": 2,
+                "color_range": "tv",
+                "color_space": "bt709",
+                "color_transfer": "bt709",
+                "color_primaries": "bt709",
+                "chroma_location": "topleft",
+                "field_order": "progressive",
+                "refs": 1,
+                "r_frame_rate": "24000/1001",
+                "avg_frame_rate": "24000/1001",
+                "time_base": "1/24000",
+                "start_pts": 0,
+                "start_time": "0.000000",
+                "duration_ts": 44475431,
+                "duration": "1853.142958",
+                "bit_rate": "50000025",
+                "nb_frames": "44448",
+                "disposition": {
+                    "default": 1,
+                    "dub": 0,
+                    "original": 0,
+                    "comment": 0,
+                    "lyrics": 0,
+                    "karaoke": 0,
+                    "forced": 0,
+                    "hearing_impaired": 0,
+                    "visual_impaired": 0,
+                    "clean_effects": 0,
+                    "attached_pic": 0,
+                    "timed_thumbnails": 0
+                },
+                "tags": {
+                    "creation_time": "2017-10-19T10:39:27.000000Z",
+                    "language": "und",
+                    "handler_name": "Core Media Data Handler",
+                    "encoder": "XF-MPEG 422 50Mbps",
+                    "timecode": "13:10:48:11"
+                }
+            },
+            "audioStreamJson": {
+                "index": 1,
+                "codec_name": "pcm_s16le",
+                "codec_long_name": "PCM signed 16-bit little-endian",
+                "codec_type": "audio",
+                "codec_time_base": "1/48000",
+                "codec_tag_string": "sowt",
+                "codec_tag": "0x74776f73",
+                "sample_fmt": "s16",
+                "sample_rate": "48000",
+                "channels": 2,
+                "channel_layout": "stereo",
+                "bits_per_sample": 16,
+                "r_frame_rate": "0/0",
+                "avg_frame_rate": "0/0",
+                "time_base": "1/48000",
+                "start_pts": 0,
+                "start_time": "0.000000",
+                "duration_ts": 88950862,
+                "duration": "1853.142958",
+                "bit_rate": "1536000",
+                "nb_frames": "88984896",
+                "disposition": {
+                    "default": 1,
+                    "dub": 0,
+                    "original": 0,
+                    "comment": 0,
+                    "lyrics": 0,
+                    "karaoke": 0,
+                    "forced": 0,
+                    "hearing_impaired": 0,
+                    "visual_impaired": 0,
+                    "clean_effects": 0,
+                    "attached_pic": 0,
+                    "timed_thumbnails": 0
+                },
+                "tags": {
+                    "creation_time": "2017-10-19T10:39:27.000000Z",
+                    "language": "und",
+                    "handler_name": "Core Media Data Handler"
+                }
+            },
+            "dataStreamJson": {
+                "index": 2,
+                "codec_type": "data",
+                "codec_tag_string": "tmcd",
+                "codec_tag": "0x64636d74",
+                "r_frame_rate": "0/0",
+                "avg_frame_rate": "24/1",
+                "time_base": "1/24000",
+                "start_pts": 0,
+                "start_time": "0.000000",
+                "duration_ts": 44475431,
+                "duration": "1853.142958",
+                "bit_rate": "767",
+                "nb_frames": "44448",
+                "disposition": {
+                    "default": 0,
+                    "dub": 0,
+                    "original": 0,
+                    "comment": 0,
+                    "lyrics": 0,
+                    "karaoke": 0,
+                    "forced": 0,
+                    "hearing_impaired": 0,
+                    "visual_impaired": 0,
+                    "clean_effects": 0,
+                    "attached_pic": 0,
+                    "timed_thumbnails": 0
+                },
+                "tags": {
+                    "creation_time": "2017-10-19T10:39:27.000000Z",
+                    "language": "und",
+                    "handler_name": "Core Media Data Handler",
+                    "timecode": "13:10:48:11"
+                }
+            },
+            "formatJson": "{\n  \"filename\": \"/Volumes/mk2/test_shoots/20171018_003_Test_JustStudio/C300a/20171018_003_Test_JustStudio_C300a_001.mov\",\n  \"nb_streams\": 3,\n  \"nb_programs\": 0,\n  \"format_name\": \"mov,mp4,m4a,3gp,3g2,mj2\",\n  \"format_long_name\": \"QuickTime / MOV\",\n  \"start_time\": \"0.000000\",\n  \"duration\": \"1853.142958\",\n  \"size\": \"11973921050\",\n  \"bit_rate\": \"51691299\",\n  \"probe_score\": 100,\n  \"tags\": {\n    \"major_brand\": \"qt  \",\n    \"minor_version\": \"0\",\n    \"compatible_brands\": \"qt  \",\n    \"creation_time\": \"2017-10-19T10:39:27.000000Z\",\n    \"com.apple.proapps.isGood\": \"0\",\n    \"com.apple.proapps.dataSize\": \"B\\u0013r\\u0019Ő\",\n    \"com.apple.proapps.displayFormat\": \"XF-MPEG FHD 23.98P\",\n    \"com.apple.proapps.shootingRate\": \"@8\",\n    \"com.apple.proapps.videoBitrate\": \"0\",\n    \"com.apple.proapps.originalFormat\": \"XF-MPEG\",\n    \"com.apple.proapps.pulldown\": \"1\",\n    \"com.apple.proapps.mediaRate\": \"@7��G�\\u0014{\",\n    \"com.apple.proapps.timecodeFormat\": \"2\",\n    \"com.apple.proapps.numberOfAudioChannels\": \"0\",\n    \"com.apple.proapps.sampleRate\": \"0\",\n    \"com.apple.proapps.bitsPerSample\": \"0\",\n    \"com.apple.quicktime.creationdate\": \"2017-10-18T12:55:03-0400\",\n    \"com.apple.proapps.lastupdatedate\": \"2017-10-18 13:48:51 -0400\",\n    \"com.apple.proapps.manufacturer\": \"CANON\",\n    \"com.apple.proapps.modelname\": \"EOS C300\",\n    \"com.apple.proapps.serialno\": \"532851500030\",\n    \"com.apple.proapps.clipFileName\": \"AA0717\",\n    \"com.apple.proapps.clipID\": \"0D3B0DE4-4480-0580-0000-8500025A208F\",\n    \"com.apple.proapps.RADSDKVersion\": \"3.1\",\n    \"com.apple.proapps.cameraID\": \"CANON_532851500030\",\n    \"com.apple.proapps.cameraName\": \"CANON XF\",\n    \"com.apple.proapps.ingestDate.description\": \"2017-10-19 06:39:27 -0400\",\n    \"com.apple.quicktime.make\": \"Apple\",\n    \"com.apple.quicktime.model\": \"MacBookPro13,3\",\n    \"com.apple.quicktime.software\": \"Mac OS X 10.13 (17A405)\"\n  }\n}",
+            "formatTagsCreationTime": "2017-10-19T10:39:27.000000Z",
+            "width": 1920,
+            "height": 1080,
+            "codec_time_base": "1001/24000",
+            "time_base": "1/24000",
+            "codec_long_name": "MPEG-2 video",
+            "duration": "1853.142958",
+            "bit_rate": "50000025",
+            "nb_frames": "44448",
+            "startTc": "13:10:48:11",
+            "actualCreationDate": "2017-10-18T12:55:03-0400",
+            "duration_ts": 44475431,
+            "start_ts": 1139901763,
+            "end_ts": 1184377194,
+            "creationDate": "2017-10-19T10:39:27.000Z",
+            "utcCrStartMill": 1508409567000,
+            "utcTcStartDate": "2017-10-18T17:10:48.000Z",
+            "utcTcStartMill": 1508346648000,
+            "codec_time_base_numerator": "1",
+            "codec_time_base_denominator": "24000",
+            "frameDuration": "1001/24000s",
+            "fcpxml": {
+                "format": {
+                    "_attr": {
+                        "frameDuration": "1001/24000s",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                },
+                "asset": {
+                    "_attr": {
+                        "name": "20171018_003_Test_JustStudio_C300a_001.mov",
+                        "src": "file:///Volumes/mk2/test_shoots/20171018_003_Test_JustStudio/C300a/20171018_003_Test_JustStudio_C300a_001.mov",
+                        "start": "1139901763/24000s",
+                        "duration": "44475431/24000s",
+                        "hasVideo": 1,
+                        "hasAudio": 1,
+                        "audioSources": 1,
+                        "audioChannels": 2,
+                        "audioRate": "48000"
+                    }
+                },
+                "assetClip": [
+                    {
+                        "_attr": {
+                            "name": "20171018_003_Test_JustStudio_C300a_001",
+                            "audioRole": "dialogue",
+                            "tcFormat": "NDF",
+                            "start": "1139901763/24000s",
+                            "duration": "44475431/24000s",
+                            "modDate": "2018-01-15 21:35:28 -0500"
+                        }
+                    },
+                    {
+                        "keyword": {
+                            "_attr": {
+                                "start": "1139901763/24000s",
+                                "duration": "44475431/24000s",
+                                "value": "20171018_003_Test_JustStudio, C300a"
+                            }
+                        }
+                    },
+                    {
+                        "keyword": {
+                            "_attr": {
+                                "start": "1139901763/24000s",
+                                "duration": "24024/24000s",
+                                "value": "first 24 frames"
+                            }
+                        }
+                    }
+                ],
+                "mcAssetClip": [
+                    {
+                        "_attr": {
+                            "name": "20171018_003_Test_JustStudio_C300a_001.mov",
+                            "offset": "mcStart - thisStart",
+                            "ref": "same as assetClip",
+                            "audioRole": "dialogue",
+                            "tcFormat": "NDF",
+                            "format": "insertFORMAThere",
+                            "start": "1139901763/24000s",
+                            "duration": "44475431/24000s"
+                        }
+                    },
+                    {
+                        "audio-channel-source": {
+                            "_attr": {
+                                "role": "dialogue.dialogue-1",
+                                "srcCh": "1"
+                            }
+                        }
+                    },
+                    {
+                        "audio-channel-source": {
+                            "_attr": {
+                                "role": "dialogue.dialogue-2",
+                                "srcCh": "2"
+                            }
+                        }
+                    }
+                ]
+            },
+            "halfway": 927,
+            "tempStillFilePath": "/Users/mk/Development/thelocalworkflow/public/images/temp/rename/still927.png",
+            "relativeTempStileFilePath": "/images/temp/rename/still927.png"
+        },
+        {
+            "thelocalworkflowIngestTime": "2018-01-16 02-35-28",
+            "thelocalworkflowFcpxmlTime": "2018-01-15 21:35:28 -0500",
+            "oldBasenameExt": "20171018_003_Test_JustStudio_C300b_001.mov",
+            "oldPath": "/Volumes/mk2/test_shoots/20171018_003_Test_JustStudio/C300b/20171018_003_Test_JustStudio_C300b_001.mov",
+            "cameraFolder": "C300b",
+            "shootId": "20171018_003_Test_JustStudio",
+            "counter": "001",
+            "ffprobeOutput": "{\n    \"streams\": [\n        {\n            \"index\": 0,\n            \"codec_name\": \"mpeg2video\",\n            \"codec_long_name\": \"MPEG-2 video\",\n            \"profile\": \"4:2:2\",\n            \"codec_type\": \"video\",\n            \"codec_time_base\": \"1001/24000\",\n            \"codec_tag_string\": \"xd5d\",\n            \"codec_tag\": \"0x64356478\",\n            \"width\": 1920,\n            \"height\": 1080,\n            \"coded_width\": 0,\n            \"coded_height\": 0,\n            \"has_b_frames\": 1,\n            \"sample_aspect_ratio\": \"1:1\",\n            \"display_aspect_ratio\": \"16:9\",\n            \"pix_fmt\": \"yuv422p\",\n            \"level\": 2,\n            \"color_range\": \"tv\",\n            \"color_space\": \"bt709\",\n            \"color_transfer\": \"bt709\",\n            \"color_primaries\": \"bt709\",\n            \"chroma_location\": \"topleft\",\n            \"field_order\": \"progressive\",\n            \"refs\": 1,\n            \"r_frame_rate\": \"24000/1001\",\n            \"avg_frame_rate\": \"24000/1001\",\n            \"time_base\": \"1/24000\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 39999960,\n            \"duration\": \"1666.665000\",\n            \"bit_rate\": \"50000033\",\n            \"nb_frames\": \"39960\",\n            \"disposition\": {\n                \"default\": 1,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0,\n                \"timed_thumbnails\": 0\n            },\n            \"tags\": {\n                \"creation_time\": \"2017-10-19T10:49:01.000000Z\",\n                \"language\": \"und\",\n                \"handler_name\": \"Core Media Data Handler\",\n                \"encoder\": \"XF-MPEG 422 50Mbps\",\n                \"timecode\": \"13:13:53:01\"\n            }\n        },\n        {\n            \"index\": 1,\n            \"codec_name\": \"pcm_s16le\",\n            \"codec_long_name\": \"PCM signed 16-bit little-endian\",\n            \"codec_type\": \"audio\",\n            \"codec_time_base\": \"1/48000\",\n            \"codec_tag_string\": \"sowt\",\n            \"codec_tag\": \"0x74776f73\",\n            \"sample_fmt\": \"s16\",\n            \"sample_rate\": \"48000\",\n            \"channels\": 2,\n            \"channel_layout\": \"stereo\",\n            \"bits_per_sample\": 16,\n            \"r_frame_rate\": \"0/0\",\n            \"avg_frame_rate\": \"0/0\",\n            \"time_base\": \"1/48000\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 79999920,\n            \"duration\": \"1666.665000\",\n            \"bit_rate\": \"1536000\",\n            \"nb_frames\": \"79999920\",\n            \"disposition\": {\n                \"default\": 1,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0,\n                \"timed_thumbnails\": 0\n            },\n            \"tags\": {\n                \"creation_time\": \"2017-10-19T10:49:01.000000Z\",\n                \"language\": \"und\",\n                \"handler_name\": \"Core Media Data Handler\"\n            }\n        },\n        {\n            \"index\": 2,\n            \"codec_type\": \"data\",\n            \"codec_tag_string\": \"tmcd\",\n            \"codec_tag\": \"0x64636d74\",\n            \"r_frame_rate\": \"0/0\",\n            \"avg_frame_rate\": \"24/1\",\n            \"time_base\": \"1/24000\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 39999960,\n            \"duration\": \"1666.665000\",\n            \"bit_rate\": \"767\",\n            \"nb_frames\": \"39960\",\n            \"disposition\": {\n                \"default\": 0,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0,\n                \"timed_thumbnails\": 0\n            },\n            \"tags\": {\n                \"creation_time\": \"2017-10-19T10:49:01.000000Z\",\n                \"language\": \"und\",\n                \"handler_name\": \"Core Media Data Handler\",\n                \"timecode\": \"13:13:53:01\"\n            }\n        }\n    ],\n    \"format\": {\n        \"filename\": \"/Volumes/mk2/test_shoots/20171018_003_Test_JustStudio/C300b/20171018_003_Test_JustStudio_C300b_001.mov\",\n        \"nb_streams\": 3,\n        \"nb_programs\": 0,\n        \"format_name\": \"mov,mp4,m4a,3gp,3g2,mj2\",\n        \"format_long_name\": \"QuickTime / MOV\",\n        \"start_time\": \"0.000000\",\n        \"duration\": \"1666.665000\",\n        \"size\": \"10764887630\",\n        \"bit_rate\": \"51671512\",\n        \"probe_score\": 100,\n        \"tags\": {\n            \"major_brand\": \"qt  \",\n            \"minor_version\": \"0\",\n            \"compatible_brands\": \"qt  \",\n            \"creation_time\": \"2017-10-19T10:49:01.000000Z\",\n            \"com.apple.proapps.isGood\": \"0\",\n            \"com.apple.proapps.dataSize\": \"B\\u0004\\u0013m�`\",\n            \"com.apple.proapps.displayFormat\": \"XF-MPEG FHD 23.98P\",\n            \"com.apple.proapps.shootingRate\": \"@8\",\n            \"com.apple.proapps.videoBitrate\": \"0\",\n            \"com.apple.proapps.originalFormat\": \"XF-MPEG\",\n            \"com.apple.proapps.pulldown\": \"1\",\n            \"com.apple.proapps.mediaRate\": \"@7��G�\\u0014{\",\n            \"com.apple.proapps.timecodeFormat\": \"2\",\n            \"com.apple.proapps.numberOfAudioChannels\": \"0\",\n            \"com.apple.proapps.sampleRate\": \"0\",\n            \"com.apple.proapps.bitsPerSample\": \"0\",\n            \"com.apple.quicktime.creationdate\": \"2017-10-18T13:21:04-0400\",\n            \"com.apple.proapps.lastupdatedate\": \"2017-10-18 13:48:50 -0400\",\n            \"com.apple.proapps.manufacturer\": \"CANON\",\n            \"com.apple.proapps.modelname\": \"EOS C300\",\n            \"com.apple.proapps.serialno\": \"882891500172\",\n            \"com.apple.proapps.clipFileName\": \"BB0623\",\n            \"com.apple.proapps.clipID\": \"0D3C7BC0-4480-0580-0000-8500025A23B2\",\n            \"com.apple.proapps.RADSDKVersion\": \"3.1\",\n            \"com.apple.proapps.cameraID\": \"CANON_882891500172\",\n            \"com.apple.proapps.cameraName\": \"CANON XF\",\n            \"com.apple.proapps.ingestDate.description\": \"2017-10-19 06:49:01 -0400\",\n            \"com.apple.quicktime.make\": \"Apple\",\n            \"com.apple.quicktime.model\": \"MacBookPro13,3\",\n            \"com.apple.quicktime.software\": \"Mac OS X 10.13 (17A405)\"\n        }\n    }\n}\n",
+            "ext": ".mov",
+            "newBasename": "20171018_003_Test_JustStudio_C300b_001",
+            "newBasenameExt": "20171018_003_Test_JustStudio_C300b_001.mov",
+            "newPath": "/Volumes/mk2/test_shoots/20171018_003_Test_JustStudio/C300b/20171018_003_Test_JustStudio_C300b_001.mov",
+            "videoStreamJson": {
+                "index": 0,
+                "codec_name": "mpeg2video",
+                "codec_long_name": "MPEG-2 video",
+                "profile": "4:2:2",
+                "codec_type": "video",
+                "codec_time_base": "1001/24000",
+                "codec_tag_string": "xd5d",
+                "codec_tag": "0x64356478",
+                "width": 1920,
+                "height": 1080,
+                "coded_width": 0,
+                "coded_height": 0,
+                "has_b_frames": 1,
+                "sample_aspect_ratio": "1:1",
+                "display_aspect_ratio": "16:9",
+                "pix_fmt": "yuv422p",
+                "level": 2,
+                "color_range": "tv",
+                "color_space": "bt709",
+                "color_transfer": "bt709",
+                "color_primaries": "bt709",
+                "chroma_location": "topleft",
+                "field_order": "progressive",
+                "refs": 1,
+                "r_frame_rate": "24000/1001",
+                "avg_frame_rate": "24000/1001",
+                "time_base": "1/24000",
+                "start_pts": 0,
+                "start_time": "0.000000",
+                "duration_ts": 39999960,
+                "duration": "1666.665000",
+                "bit_rate": "50000033",
+                "nb_frames": "39960",
+                "disposition": {
+                    "default": 1,
+                    "dub": 0,
+                    "original": 0,
+                    "comment": 0,
+                    "lyrics": 0,
+                    "karaoke": 0,
+                    "forced": 0,
+                    "hearing_impaired": 0,
+                    "visual_impaired": 0,
+                    "clean_effects": 0,
+                    "attached_pic": 0,
+                    "timed_thumbnails": 0
+                },
+                "tags": {
+                    "creation_time": "2017-10-19T10:49:01.000000Z",
+                    "language": "und",
+                    "handler_name": "Core Media Data Handler",
+                    "encoder": "XF-MPEG 422 50Mbps",
+                    "timecode": "13:13:53:01"
+                }
+            },
+            "audioStreamJson": {
+                "index": 1,
+                "codec_name": "pcm_s16le",
+                "codec_long_name": "PCM signed 16-bit little-endian",
+                "codec_type": "audio",
+                "codec_time_base": "1/48000",
+                "codec_tag_string": "sowt",
+                "codec_tag": "0x74776f73",
+                "sample_fmt": "s16",
+                "sample_rate": "48000",
+                "channels": 2,
+                "channel_layout": "stereo",
+                "bits_per_sample": 16,
+                "r_frame_rate": "0/0",
+                "avg_frame_rate": "0/0",
+                "time_base": "1/48000",
+                "start_pts": 0,
+                "start_time": "0.000000",
+                "duration_ts": 79999920,
+                "duration": "1666.665000",
+                "bit_rate": "1536000",
+                "nb_frames": "79999920",
+                "disposition": {
+                    "default": 1,
+                    "dub": 0,
+                    "original": 0,
+                    "comment": 0,
+                    "lyrics": 0,
+                    "karaoke": 0,
+                    "forced": 0,
+                    "hearing_impaired": 0,
+                    "visual_impaired": 0,
+                    "clean_effects": 0,
+                    "attached_pic": 0,
+                    "timed_thumbnails": 0
+                },
+                "tags": {
+                    "creation_time": "2017-10-19T10:49:01.000000Z",
+                    "language": "und",
+                    "handler_name": "Core Media Data Handler"
+                }
+            },
+            "dataStreamJson": {
+                "index": 2,
+                "codec_type": "data",
+                "codec_tag_string": "tmcd",
+                "codec_tag": "0x64636d74",
+                "r_frame_rate": "0/0",
+                "avg_frame_rate": "24/1",
+                "time_base": "1/24000",
+                "start_pts": 0,
+                "start_time": "0.000000",
+                "duration_ts": 39999960,
+                "duration": "1666.665000",
+                "bit_rate": "767",
+                "nb_frames": "39960",
+                "disposition": {
+                    "default": 0,
+                    "dub": 0,
+                    "original": 0,
+                    "comment": 0,
+                    "lyrics": 0,
+                    "karaoke": 0,
+                    "forced": 0,
+                    "hearing_impaired": 0,
+                    "visual_impaired": 0,
+                    "clean_effects": 0,
+                    "attached_pic": 0,
+                    "timed_thumbnails": 0
+                },
+                "tags": {
+                    "creation_time": "2017-10-19T10:49:01.000000Z",
+                    "language": "und",
+                    "handler_name": "Core Media Data Handler",
+                    "timecode": "13:13:53:01"
+                }
+            },
+            "formatJson": "{\n  \"filename\": \"/Volumes/mk2/test_shoots/20171018_003_Test_JustStudio/C300b/20171018_003_Test_JustStudio_C300b_001.mov\",\n  \"nb_streams\": 3,\n  \"nb_programs\": 0,\n  \"format_name\": \"mov,mp4,m4a,3gp,3g2,mj2\",\n  \"format_long_name\": \"QuickTime / MOV\",\n  \"start_time\": \"0.000000\",\n  \"duration\": \"1666.665000\",\n  \"size\": \"10764887630\",\n  \"bit_rate\": \"51671512\",\n  \"probe_score\": 100,\n  \"tags\": {\n    \"major_brand\": \"qt  \",\n    \"minor_version\": \"0\",\n    \"compatible_brands\": \"qt  \",\n    \"creation_time\": \"2017-10-19T10:49:01.000000Z\",\n    \"com.apple.proapps.isGood\": \"0\",\n    \"com.apple.proapps.dataSize\": \"B\\u0004\\u0013m�`\",\n    \"com.apple.proapps.displayFormat\": \"XF-MPEG FHD 23.98P\",\n    \"com.apple.proapps.shootingRate\": \"@8\",\n    \"com.apple.proapps.videoBitrate\": \"0\",\n    \"com.apple.proapps.originalFormat\": \"XF-MPEG\",\n    \"com.apple.proapps.pulldown\": \"1\",\n    \"com.apple.proapps.mediaRate\": \"@7��G�\\u0014{\",\n    \"com.apple.proapps.timecodeFormat\": \"2\",\n    \"com.apple.proapps.numberOfAudioChannels\": \"0\",\n    \"com.apple.proapps.sampleRate\": \"0\",\n    \"com.apple.proapps.bitsPerSample\": \"0\",\n    \"com.apple.quicktime.creationdate\": \"2017-10-18T13:21:04-0400\",\n    \"com.apple.proapps.lastupdatedate\": \"2017-10-18 13:48:50 -0400\",\n    \"com.apple.proapps.manufacturer\": \"CANON\",\n    \"com.apple.proapps.modelname\": \"EOS C300\",\n    \"com.apple.proapps.serialno\": \"882891500172\",\n    \"com.apple.proapps.clipFileName\": \"BB0623\",\n    \"com.apple.proapps.clipID\": \"0D3C7BC0-4480-0580-0000-8500025A23B2\",\n    \"com.apple.proapps.RADSDKVersion\": \"3.1\",\n    \"com.apple.proapps.cameraID\": \"CANON_882891500172\",\n    \"com.apple.proapps.cameraName\": \"CANON XF\",\n    \"com.apple.proapps.ingestDate.description\": \"2017-10-19 06:49:01 -0400\",\n    \"com.apple.quicktime.make\": \"Apple\",\n    \"com.apple.quicktime.model\": \"MacBookPro13,3\",\n    \"com.apple.quicktime.software\": \"Mac OS X 10.13 (17A405)\"\n  }\n}",
+            "formatTagsCreationTime": "2017-10-19T10:49:01.000000Z",
+            "width": 1920,
+            "height": 1080,
+            "codec_time_base": "1001/24000",
+            "time_base": "1/24000",
+            "codec_long_name": "MPEG-2 video",
+            "duration": "1666.665000",
+            "bit_rate": "50000033",
+            "nb_frames": "39960",
+            "startTc": "13:13:53:01",
+            "actualCreationDate": "2017-10-18T13:21:04-0400",
+            "duration_ts": 39999960,
+            "start_ts": 1144336193,
+            "end_ts": 1184336153,
+            "creationDate": "2017-10-19T10:49:01.000Z",
+            "utcCrStartMill": 1508410141000,
+            "utcTcStartDate": "2017-10-18T17:13:53.000Z",
+            "utcTcStartMill": 1508346833000,
+            "codec_time_base_numerator": "1",
+            "codec_time_base_denominator": "24000",
+            "frameDuration": "1001/24000s",
+            "fcpxml": {
+                "format": {
+                    "_attr": {
+                        "frameDuration": "1001/24000s",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                },
+                "asset": {
+                    "_attr": {
+                        "name": "20171018_003_Test_JustStudio_C300b_001.mov",
+                        "src": "file:///Volumes/mk2/test_shoots/20171018_003_Test_JustStudio/C300b/20171018_003_Test_JustStudio_C300b_001.mov",
+                        "start": "1144336193/24000s",
+                        "duration": "39999960/24000s",
+                        "hasVideo": 1,
+                        "hasAudio": 1,
+                        "audioSources": 1,
+                        "audioChannels": 2,
+                        "audioRate": "48000"
+                    }
+                },
+                "assetClip": [
+                    {
+                        "_attr": {
+                            "name": "20171018_003_Test_JustStudio_C300b_001",
+                            "audioRole": "dialogue",
+                            "tcFormat": "NDF",
+                            "start": "1144336193/24000s",
+                            "duration": "39999960/24000s",
+                            "modDate": "2018-01-15 21:35:28 -0500"
+                        }
+                    },
+                    {
+                        "keyword": {
+                            "_attr": {
+                                "start": "1144336193/24000s",
+                                "duration": "39999960/24000s",
+                                "value": "20171018_003_Test_JustStudio, C300b"
+                            }
+                        }
+                    },
+                    {
+                        "keyword": {
+                            "_attr": {
+                                "start": "1144336193/24000s",
+                                "duration": "24024/24000s",
+                                "value": "first 24 frames"
+                            }
+                        }
+                    }
+                ],
+                "mcAssetClip": [
+                    {
+                        "_attr": {
+                            "name": "20171018_003_Test_JustStudio_C300b_001.mov",
+                            "offset": "mcStart - thisStart",
+                            "ref": "same as assetClip",
+                            "audioRole": "dialogue",
+                            "tcFormat": "NDF",
+                            "format": "insertFORMAThere",
+                            "start": "1144336193/24000s",
+                            "duration": "39999960/24000s"
+                        }
+                    },
+                    {
+                        "audio-channel-source": {
+                            "_attr": {
+                                "role": "dialogue.dialogue-1",
+                                "srcCh": "1"
+                            }
+                        }
+                    },
+                    {
+                        "audio-channel-source": {
+                            "_attr": {
+                                "role": "dialogue.dialogue-2",
+                                "srcCh": "2"
+                            }
+                        }
+                    }
+                ]
+            },
+            "halfway": 833,
+            "tempStillFilePath": "/Users/mk/Development/thelocalworkflow/public/images/temp/rename/still833.png",
+            "relativeTempStileFilePath": "/images/temp/rename/still833.png"
+        },
+        {
+            "thelocalworkflowIngestTime": "2018-01-16 02-35-29",
+            "thelocalworkflowFcpxmlTime": "2018-01-15 21:35:29 -0500",
+            "oldBasenameExt": "20171018_003_Test_JustStudio_C300c_001.mov",
+            "oldPath": "/Volumes/mk2/test_shoots/20171018_003_Test_JustStudio/C300c/20171018_003_Test_JustStudio_C300c_001.mov",
+            "cameraFolder": "C300c",
+            "shootId": "20171018_003_Test_JustStudio",
+            "counter": "001",
+            "ffprobeOutput": "{\n    \"streams\": [\n        {\n            \"index\": 0,\n            \"codec_name\": \"mpeg2video\",\n            \"codec_long_name\": \"MPEG-2 video\",\n            \"profile\": \"4:2:2\",\n            \"codec_type\": \"video\",\n            \"codec_time_base\": \"1001/24000\",\n            \"codec_tag_string\": \"xd5d\",\n            \"codec_tag\": \"0x64356478\",\n            \"width\": 1920,\n            \"height\": 1080,\n            \"coded_width\": 0,\n            \"coded_height\": 0,\n            \"has_b_frames\": 1,\n            \"sample_aspect_ratio\": \"1:1\",\n            \"display_aspect_ratio\": \"16:9\",\n            \"pix_fmt\": \"yuv422p\",\n            \"level\": 2,\n            \"color_range\": \"tv\",\n            \"color_space\": \"bt709\",\n            \"color_transfer\": \"bt709\",\n            \"color_primaries\": \"bt709\",\n            \"chroma_location\": \"topleft\",\n            \"field_order\": \"progressive\",\n            \"refs\": 1,\n            \"r_frame_rate\": \"24000/1001\",\n            \"avg_frame_rate\": \"24000/1001\",\n            \"time_base\": \"1/24000\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 43698655,\n            \"duration\": \"1820.777292\",\n            \"bit_rate\": \"49999999\",\n            \"nb_frames\": \"43668\",\n            \"disposition\": {\n                \"default\": 1,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0,\n                \"timed_thumbnails\": 0\n            },\n            \"tags\": {\n                \"creation_time\": \"2017-10-19T10:55:30.000000Z\",\n                \"language\": \"und\",\n                \"handler_name\": \"Core Media Data Handler\",\n                \"encoder\": \"XF-MPEG 422 50Mbps\",\n                \"timecode\": \"13:11:22:12\"\n            }\n        },\n        {\n            \"index\": 1,\n            \"codec_name\": \"pcm_s16le\",\n            \"codec_long_name\": \"PCM signed 16-bit little-endian\",\n            \"codec_type\": \"audio\",\n            \"codec_time_base\": \"1/48000\",\n            \"codec_tag_string\": \"sowt\",\n            \"codec_tag\": \"0x74776f73\",\n            \"sample_fmt\": \"s16\",\n            \"sample_rate\": \"48000\",\n            \"channels\": 2,\n            \"channel_layout\": \"stereo\",\n            \"bits_per_sample\": 16,\n            \"r_frame_rate\": \"0/0\",\n            \"avg_frame_rate\": \"0/0\",\n            \"time_base\": \"1/48000\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 87397310,\n            \"duration\": \"1820.777292\",\n            \"bit_rate\": \"1536000\",\n            \"nb_frames\": \"87423336\",\n            \"disposition\": {\n                \"default\": 1,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0,\n                \"timed_thumbnails\": 0\n            },\n            \"tags\": {\n                \"creation_time\": \"2017-10-19T10:55:30.000000Z\",\n                \"language\": \"und\",\n                \"handler_name\": \"Core Media Data Handler\"\n            }\n        },\n        {\n            \"index\": 2,\n            \"codec_type\": \"data\",\n            \"codec_tag_string\": \"tmcd\",\n            \"codec_tag\": \"0x64636d74\",\n            \"r_frame_rate\": \"0/0\",\n            \"avg_frame_rate\": \"24/1\",\n            \"time_base\": \"1/24000\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 43698655,\n            \"duration\": \"1820.777292\",\n            \"bit_rate\": \"767\",\n            \"nb_frames\": \"43668\",\n            \"disposition\": {\n                \"default\": 0,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0,\n                \"timed_thumbnails\": 0\n            },\n            \"tags\": {\n                \"creation_time\": \"2017-10-19T10:55:30.000000Z\",\n                \"language\": \"und\",\n                \"handler_name\": \"Core Media Data Handler\",\n                \"timecode\": \"13:11:22:12\"\n            }\n        }\n    ],\n    \"format\": {\n        \"filename\": \"/Volumes/mk2/test_shoots/20171018_003_Test_JustStudio/C300c/20171018_003_Test_JustStudio_C300c_001.mov\",\n        \"nb_streams\": 3,\n        \"nb_programs\": 0,\n        \"format_name\": \"mov,mp4,m4a,3gp,3g2,mj2\",\n        \"format_long_name\": \"QuickTime / MOV\",\n        \"start_time\": \"0.000000\",\n        \"duration\": \"1820.777292\",\n        \"size\": \"11762880462\",\n        \"bit_rate\": \"51682896\",\n        \"probe_score\": 100,\n        \"tags\": {\n            \"major_brand\": \"qt  \",\n            \"minor_version\": \"0\",\n            \"compatible_brands\": \"qt  \",\n            \"creation_time\": \"2017-10-19T10:55:30.000000Z\",\n            \"com.apple.proapps.isGood\": \"0\",\n            \"com.apple.proapps.dataSize\": \"B\\u0013q)\\u0005�\",\n            \"com.apple.proapps.displayFormat\": \"XF-MPEG FHD 23.98P\",\n            \"com.apple.proapps.shootingRate\": \"@8\",\n            \"com.apple.proapps.videoBitrate\": \"0\",\n            \"com.apple.proapps.originalFormat\": \"XF-MPEG\",\n            \"com.apple.proapps.pulldown\": \"1\",\n            \"com.apple.proapps.mediaRate\": \"@7��G�\\u0014{\",\n            \"com.apple.proapps.timecodeFormat\": \"2\",\n            \"com.apple.proapps.numberOfAudioChannels\": \"0\",\n            \"com.apple.proapps.sampleRate\": \"0\",\n            \"com.apple.proapps.bitsPerSample\": \"0\",\n            \"com.apple.quicktime.creationdate\": \"2017-10-18T12:56:40-0400\",\n            \"com.apple.proapps.lastupdatedate\": \"2017-10-18 13:50:27 -0400\",\n            \"com.apple.proapps.manufacturer\": \"CANON\",\n            \"com.apple.proapps.modelname\": \"EOS C300\",\n            \"com.apple.proapps.serialno\": \"882233900044\",\n            \"com.apple.proapps.clipFileName\": \"DD0100\",\n            \"com.apple.proapps.clipID\": \"0D3B24A0-4480-0580-0000-8500025A2BF2\",\n            \"com.apple.proapps.RADSDKVersion\": \"3.1\",\n            \"com.apple.proapps.cameraID\": \"CANON_882233900044\",\n            \"com.apple.proapps.cameraName\": \"CANON XF\",\n            \"com.apple.proapps.ingestDate.description\": \"2017-10-19 06:55:30 -0400\",\n            \"com.apple.quicktime.make\": \"Apple\",\n            \"com.apple.quicktime.model\": \"MacBookPro13,3\",\n            \"com.apple.quicktime.software\": \"Mac OS X 10.13 (17A405)\"\n        }\n    }\n}\n",
+            "ext": ".mov",
+            "newBasename": "20171018_003_Test_JustStudio_C300c_001",
+            "newBasenameExt": "20171018_003_Test_JustStudio_C300c_001.mov",
+            "newPath": "/Volumes/mk2/test_shoots/20171018_003_Test_JustStudio/C300c/20171018_003_Test_JustStudio_C300c_001.mov",
+            "videoStreamJson": {
+                "index": 0,
+                "codec_name": "mpeg2video",
+                "codec_long_name": "MPEG-2 video",
+                "profile": "4:2:2",
+                "codec_type": "video",
+                "codec_time_base": "1001/24000",
+                "codec_tag_string": "xd5d",
+                "codec_tag": "0x64356478",
+                "width": 1920,
+                "height": 1080,
+                "coded_width": 0,
+                "coded_height": 0,
+                "has_b_frames": 1,
+                "sample_aspect_ratio": "1:1",
+                "display_aspect_ratio": "16:9",
+                "pix_fmt": "yuv422p",
+                "level": 2,
+                "color_range": "tv",
+                "color_space": "bt709",
+                "color_transfer": "bt709",
+                "color_primaries": "bt709",
+                "chroma_location": "topleft",
+                "field_order": "progressive",
+                "refs": 1,
+                "r_frame_rate": "24000/1001",
+                "avg_frame_rate": "24000/1001",
+                "time_base": "1/24000",
+                "start_pts": 0,
+                "start_time": "0.000000",
+                "duration_ts": 43698655,
+                "duration": "1820.777292",
+                "bit_rate": "49999999",
+                "nb_frames": "43668",
+                "disposition": {
+                    "default": 1,
+                    "dub": 0,
+                    "original": 0,
+                    "comment": 0,
+                    "lyrics": 0,
+                    "karaoke": 0,
+                    "forced": 0,
+                    "hearing_impaired": 0,
+                    "visual_impaired": 0,
+                    "clean_effects": 0,
+                    "attached_pic": 0,
+                    "timed_thumbnails": 0
+                },
+                "tags": {
+                    "creation_time": "2017-10-19T10:55:30.000000Z",
+                    "language": "und",
+                    "handler_name": "Core Media Data Handler",
+                    "encoder": "XF-MPEG 422 50Mbps",
+                    "timecode": "13:11:22:12"
+                }
+            },
+            "audioStreamJson": {
+                "index": 1,
+                "codec_name": "pcm_s16le",
+                "codec_long_name": "PCM signed 16-bit little-endian",
+                "codec_type": "audio",
+                "codec_time_base": "1/48000",
+                "codec_tag_string": "sowt",
+                "codec_tag": "0x74776f73",
+                "sample_fmt": "s16",
+                "sample_rate": "48000",
+                "channels": 2,
+                "channel_layout": "stereo",
+                "bits_per_sample": 16,
+                "r_frame_rate": "0/0",
+                "avg_frame_rate": "0/0",
+                "time_base": "1/48000",
+                "start_pts": 0,
+                "start_time": "0.000000",
+                "duration_ts": 87397310,
+                "duration": "1820.777292",
+                "bit_rate": "1536000",
+                "nb_frames": "87423336",
+                "disposition": {
+                    "default": 1,
+                    "dub": 0,
+                    "original": 0,
+                    "comment": 0,
+                    "lyrics": 0,
+                    "karaoke": 0,
+                    "forced": 0,
+                    "hearing_impaired": 0,
+                    "visual_impaired": 0,
+                    "clean_effects": 0,
+                    "attached_pic": 0,
+                    "timed_thumbnails": 0
+                },
+                "tags": {
+                    "creation_time": "2017-10-19T10:55:30.000000Z",
+                    "language": "und",
+                    "handler_name": "Core Media Data Handler"
+                }
+            },
+            "dataStreamJson": {
+                "index": 2,
+                "codec_type": "data",
+                "codec_tag_string": "tmcd",
+                "codec_tag": "0x64636d74",
+                "r_frame_rate": "0/0",
+                "avg_frame_rate": "24/1",
+                "time_base": "1/24000",
+                "start_pts": 0,
+                "start_time": "0.000000",
+                "duration_ts": 43698655,
+                "duration": "1820.777292",
+                "bit_rate": "767",
+                "nb_frames": "43668",
+                "disposition": {
+                    "default": 0,
+                    "dub": 0,
+                    "original": 0,
+                    "comment": 0,
+                    "lyrics": 0,
+                    "karaoke": 0,
+                    "forced": 0,
+                    "hearing_impaired": 0,
+                    "visual_impaired": 0,
+                    "clean_effects": 0,
+                    "attached_pic": 0,
+                    "timed_thumbnails": 0
+                },
+                "tags": {
+                    "creation_time": "2017-10-19T10:55:30.000000Z",
+                    "language": "und",
+                    "handler_name": "Core Media Data Handler",
+                    "timecode": "13:11:22:12"
+                }
+            },
+            "formatJson": "{\n  \"filename\": \"/Volumes/mk2/test_shoots/20171018_003_Test_JustStudio/C300c/20171018_003_Test_JustStudio_C300c_001.mov\",\n  \"nb_streams\": 3,\n  \"nb_programs\": 0,\n  \"format_name\": \"mov,mp4,m4a,3gp,3g2,mj2\",\n  \"format_long_name\": \"QuickTime / MOV\",\n  \"start_time\": \"0.000000\",\n  \"duration\": \"1820.777292\",\n  \"size\": \"11762880462\",\n  \"bit_rate\": \"51682896\",\n  \"probe_score\": 100,\n  \"tags\": {\n    \"major_brand\": \"qt  \",\n    \"minor_version\": \"0\",\n    \"compatible_brands\": \"qt  \",\n    \"creation_time\": \"2017-10-19T10:55:30.000000Z\",\n    \"com.apple.proapps.isGood\": \"0\",\n    \"com.apple.proapps.dataSize\": \"B\\u0013q)\\u0005�\",\n    \"com.apple.proapps.displayFormat\": \"XF-MPEG FHD 23.98P\",\n    \"com.apple.proapps.shootingRate\": \"@8\",\n    \"com.apple.proapps.videoBitrate\": \"0\",\n    \"com.apple.proapps.originalFormat\": \"XF-MPEG\",\n    \"com.apple.proapps.pulldown\": \"1\",\n    \"com.apple.proapps.mediaRate\": \"@7��G�\\u0014{\",\n    \"com.apple.proapps.timecodeFormat\": \"2\",\n    \"com.apple.proapps.numberOfAudioChannels\": \"0\",\n    \"com.apple.proapps.sampleRate\": \"0\",\n    \"com.apple.proapps.bitsPerSample\": \"0\",\n    \"com.apple.quicktime.creationdate\": \"2017-10-18T12:56:40-0400\",\n    \"com.apple.proapps.lastupdatedate\": \"2017-10-18 13:50:27 -0400\",\n    \"com.apple.proapps.manufacturer\": \"CANON\",\n    \"com.apple.proapps.modelname\": \"EOS C300\",\n    \"com.apple.proapps.serialno\": \"882233900044\",\n    \"com.apple.proapps.clipFileName\": \"DD0100\",\n    \"com.apple.proapps.clipID\": \"0D3B24A0-4480-0580-0000-8500025A2BF2\",\n    \"com.apple.proapps.RADSDKVersion\": \"3.1\",\n    \"com.apple.proapps.cameraID\": \"CANON_882233900044\",\n    \"com.apple.proapps.cameraName\": \"CANON XF\",\n    \"com.apple.proapps.ingestDate.description\": \"2017-10-19 06:55:30 -0400\",\n    \"com.apple.quicktime.make\": \"Apple\",\n    \"com.apple.quicktime.model\": \"MacBookPro13,3\",\n    \"com.apple.quicktime.software\": \"Mac OS X 10.13 (17A405)\"\n  }\n}",
+            "formatTagsCreationTime": "2017-10-19T10:55:30.000000Z",
+            "width": 1920,
+            "height": 1080,
+            "codec_time_base": "1001/24000",
+            "time_base": "1/24000",
+            "codec_long_name": "MPEG-2 video",
+            "duration": "1820.777292",
+            "bit_rate": "49999999",
+            "nb_frames": "43668",
+            "startTc": "13:11:22:12",
+            "actualCreationDate": "2017-10-18T12:56:40-0400",
+            "duration_ts": 43698655,
+            "start_ts": 1140719580,
+            "end_ts": 1184418235,
+            "creationDate": "2017-10-19T10:55:30.000Z",
+            "utcCrStartMill": 1508410530000,
+            "utcTcStartDate": "2017-10-18T17:11:22.000Z",
+            "utcTcStartMill": 1508346682000,
+            "codec_time_base_numerator": "1",
+            "codec_time_base_denominator": "24000",
+            "frameDuration": "1001/24000s",
+            "fcpxml": {
+                "format": {
+                    "_attr": {
+                        "frameDuration": "1001/24000s",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                },
+                "asset": {
+                    "_attr": {
+                        "name": "20171018_003_Test_JustStudio_C300c_001.mov",
+                        "src": "file:///Volumes/mk2/test_shoots/20171018_003_Test_JustStudio/C300c/20171018_003_Test_JustStudio_C300c_001.mov",
+                        "start": "1140719580/24000s",
+                        "duration": "43698655/24000s",
+                        "hasVideo": 1,
+                        "hasAudio": 1,
+                        "audioSources": 1,
+                        "audioChannels": 2,
+                        "audioRate": "48000"
+                    }
+                },
+                "assetClip": [
+                    {
+                        "_attr": {
+                            "name": "20171018_003_Test_JustStudio_C300c_001",
+                            "audioRole": "dialogue",
+                            "tcFormat": "NDF",
+                            "start": "1140719580/24000s",
+                            "duration": "43698655/24000s",
+                            "modDate": "2018-01-15 21:35:29 -0500"
+                        }
+                    },
+                    {
+                        "keyword": {
+                            "_attr": {
+                                "start": "1140719580/24000s",
+                                "duration": "43698655/24000s",
+                                "value": "20171018_003_Test_JustStudio, C300c"
+                            }
+                        }
+                    },
+                    {
+                        "keyword": {
+                            "_attr": {
+                                "start": "1140719580/24000s",
+                                "duration": "24024/24000s",
+                                "value": "first 24 frames"
+                            }
+                        }
+                    }
+                ],
+                "mcAssetClip": [
+                    {
+                        "_attr": {
+                            "name": "20171018_003_Test_JustStudio_C300c_001.mov",
+                            "offset": "mcStart - thisStart",
+                            "ref": "same as assetClip",
+                            "audioRole": "dialogue",
+                            "tcFormat": "NDF",
+                            "format": "insertFORMAThere",
+                            "start": "1140719580/24000s",
+                            "duration": "43698655/24000s"
+                        }
+                    },
+                    {
+                        "audio-channel-source": {
+                            "_attr": {
+                                "role": "dialogue.dialogue-1",
+                                "srcCh": "1"
+                            }
+                        }
+                    },
+                    {
+                        "audio-channel-source": {
+                            "_attr": {
+                                "role": "dialogue.dialogue-2",
+                                "srcCh": "2"
+                            }
+                        }
+                    }
+                ]
+            },
+            "halfway": 910,
+            "tempStillFilePath": "/Users/mk/Development/thelocalworkflow/public/images/temp/rename/still910.png",
+            "relativeTempStileFilePath": "/images/temp/rename/still910.png"
+        },
+        {
+            "thelocalworkflowIngestTime": "2018-01-16 02-35-29",
+            "thelocalworkflowFcpxmlTime": "2018-01-15 21:35:29 -0500",
+            "oldBasenameExt": "20171018_003_Test_JustStudio_GH4_001.mov",
+            "oldPath": "/Volumes/mk2/test_shoots/20171018_003_Test_JustStudio/GH4/20171018_003_Test_JustStudio_GH4_001.mov",
+            "cameraFolder": "GH4",
+            "shootId": "20171018_003_Test_JustStudio",
+            "counter": "001",
+            "ffprobeOutput": "{\n    \"streams\": [\n        {\n            \"index\": 0,\n            \"codec_name\": \"pcm_s24le\",\n            \"codec_long_name\": \"PCM signed 24-bit little-endian\",\n            \"codec_type\": \"audio\",\n            \"codec_time_base\": \"1/48000\",\n            \"codec_tag_string\": \"in24\",\n            \"codec_tag\": \"0x34326e69\",\n            \"sample_fmt\": \"s32\",\n            \"sample_rate\": \"48000\",\n            \"channels\": 2,\n            \"bits_per_sample\": 24,\n            \"r_frame_rate\": \"0/0\",\n            \"avg_frame_rate\": \"0/0\",\n            \"time_base\": \"1/48000\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 80090010,\n            \"duration\": \"1668.541875\",\n            \"bit_rate\": \"2304000\",\n            \"bits_per_raw_sample\": \"24\",\n            \"nb_frames\": \"80090010\",\n            \"disposition\": {\n                \"default\": 1,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0,\n                \"timed_thumbnails\": 0\n            },\n            \"tags\": {\n                \"creation_time\": \"2017-10-18T13:29:51.000000Z\",\n                \"language\": \"eng\"\n            }\n        },\n        {\n            \"index\": 1,\n            \"codec_name\": \"prores\",\n            \"codec_long_name\": \"Apple ProRes (iCodec Pro)\",\n            \"codec_type\": \"video\",\n            \"codec_time_base\": \"1001/24000\",\n            \"codec_tag_string\": \"apcn\",\n            \"codec_tag\": \"0x6e637061\",\n            \"width\": 1920,\n            \"height\": 1080,\n            \"coded_width\": 1920,\n            \"coded_height\": 1080,\n            \"has_b_frames\": 0,\n            \"sample_aspect_ratio\": \"1:1\",\n            \"display_aspect_ratio\": \"16:9\",\n            \"pix_fmt\": \"yuv422p10le\",\n            \"level\": -99,\n            \"color_space\": \"bt709\",\n            \"color_transfer\": \"bt709\",\n            \"color_primaries\": \"bt709\",\n            \"field_order\": \"progressive\",\n            \"refs\": 1,\n            \"r_frame_rate\": \"24000/1001\",\n            \"avg_frame_rate\": \"24000/1001\",\n            \"time_base\": \"1/24000\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 40045005,\n            \"duration\": \"1668.541875\",\n            \"bit_rate\": \"115758013\",\n            \"bits_per_raw_sample\": \"10\",\n            \"nb_frames\": \"40005\",\n            \"disposition\": {\n                \"default\": 1,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0,\n                \"timed_thumbnails\": 0\n            },\n            \"tags\": {\n                \"creation_time\": \"2017-10-18T13:29:51.000000Z\",\n                \"language\": \"eng\",\n                \"encoder\": \"Apple ProRes 422\"\n            }\n        },\n        {\n            \"index\": 2,\n            \"codec_type\": \"data\",\n            \"codec_tag_string\": \"tmcd\",\n            \"codec_tag\": \"0x64636d74\",\n            \"r_frame_rate\": \"0/0\",\n            \"avg_frame_rate\": \"24/1\",\n            \"time_base\": \"1/24000\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 40045005,\n            \"duration\": \"1668.541875\",\n            \"nb_frames\": \"1\",\n            \"disposition\": {\n                \"default\": 1,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0,\n                \"timed_thumbnails\": 0\n            },\n            \"tags\": {\n                \"creation_time\": \"2017-10-18T13:29:51.000000Z\",\n                \"language\": \"eng\",\n                \"timecode\": \"13:13:48:22\"\n            }\n        }\n    ],\n    \"format\": {\n        \"filename\": \"/Volumes/mk2/test_shoots/20171018_003_Test_JustStudio/GH4/20171018_003_Test_JustStudio_GH4_001.mov\",\n        \"nb_streams\": 3,\n        \"nb_programs\": 0,\n        \"format_name\": \"mov,mp4,m4a,3gp,3g2,mj2\",\n        \"format_long_name\": \"QuickTime / MOV\",\n        \"start_time\": \"0.000000\",\n        \"duration\": \"1668.541875\",\n        \"size\": \"24624983552\",\n        \"bit_rate\": \"118067080\",\n        \"probe_score\": 100,\n        \"tags\": {\n            \"major_brand\": \"qt  \",\n            \"minor_version\": \"537199360\",\n            \"compatible_brands\": \"qt  \",\n            \"creation_time\": \"2017-10-18T13:29:51.000000Z\",\n            \"make\": \"Atomos\",\n            \"make-eng\": \"Atomos\",\n            \"encoder\": \"ShogunStudio - 6.8  \",\n            \"encoder-eng\": \"ShogunStudio - 6.8  \",\n            \"timecode\": \"13:13:48:22\"\n        }\n    }\n}\n",
+            "ext": ".mov",
+            "newBasename": "20171018_003_Test_JustStudio_GH4_001",
+            "newBasenameExt": "20171018_003_Test_JustStudio_GH4_001.mov",
+            "newPath": "/Volumes/mk2/test_shoots/20171018_003_Test_JustStudio/GH4/20171018_003_Test_JustStudio_GH4_001.mov",
+            "audioStreamJson": {
+                "index": 0,
+                "codec_name": "pcm_s24le",
+                "codec_long_name": "PCM signed 24-bit little-endian",
+                "codec_type": "audio",
+                "codec_time_base": "1/48000",
+                "codec_tag_string": "in24",
+                "codec_tag": "0x34326e69",
+                "sample_fmt": "s32",
+                "sample_rate": "48000",
+                "channels": 2,
+                "bits_per_sample": 24,
+                "r_frame_rate": "0/0",
+                "avg_frame_rate": "0/0",
+                "time_base": "1/48000",
+                "start_pts": 0,
+                "start_time": "0.000000",
+                "duration_ts": 80090010,
+                "duration": "1668.541875",
+                "bit_rate": "2304000",
+                "bits_per_raw_sample": "24",
+                "nb_frames": "80090010",
+                "disposition": {
+                    "default": 1,
+                    "dub": 0,
+                    "original": 0,
+                    "comment": 0,
+                    "lyrics": 0,
+                    "karaoke": 0,
+                    "forced": 0,
+                    "hearing_impaired": 0,
+                    "visual_impaired": 0,
+                    "clean_effects": 0,
+                    "attached_pic": 0,
+                    "timed_thumbnails": 0
+                },
+                "tags": {
+                    "creation_time": "2017-10-18T13:29:51.000000Z",
+                    "language": "eng"
+                }
+            },
+            "videoStreamJson": {
+                "index": 1,
+                "codec_name": "prores",
+                "codec_long_name": "Apple ProRes (iCodec Pro)",
+                "codec_type": "video",
+                "codec_time_base": "1001/24000",
+                "codec_tag_string": "apcn",
+                "codec_tag": "0x6e637061",
+                "width": 1920,
+                "height": 1080,
+                "coded_width": 1920,
+                "coded_height": 1080,
+                "has_b_frames": 0,
+                "sample_aspect_ratio": "1:1",
+                "display_aspect_ratio": "16:9",
+                "pix_fmt": "yuv422p10le",
+                "level": -99,
+                "color_space": "bt709",
+                "color_transfer": "bt709",
+                "color_primaries": "bt709",
+                "field_order": "progressive",
+                "refs": 1,
+                "r_frame_rate": "24000/1001",
+                "avg_frame_rate": "24000/1001",
+                "time_base": "1/24000",
+                "start_pts": 0,
+                "start_time": "0.000000",
+                "duration_ts": 40045005,
+                "duration": "1668.541875",
+                "bit_rate": "115758013",
+                "bits_per_raw_sample": "10",
+                "nb_frames": "40005",
+                "disposition": {
+                    "default": 1,
+                    "dub": 0,
+                    "original": 0,
+                    "comment": 0,
+                    "lyrics": 0,
+                    "karaoke": 0,
+                    "forced": 0,
+                    "hearing_impaired": 0,
+                    "visual_impaired": 0,
+                    "clean_effects": 0,
+                    "attached_pic": 0,
+                    "timed_thumbnails": 0
+                },
+                "tags": {
+                    "creation_time": "2017-10-18T13:29:51.000000Z",
+                    "language": "eng",
+                    "encoder": "Apple ProRes 422"
+                }
+            },
+            "dataStreamJson": {
+                "index": 2,
+                "codec_type": "data",
+                "codec_tag_string": "tmcd",
+                "codec_tag": "0x64636d74",
+                "r_frame_rate": "0/0",
+                "avg_frame_rate": "24/1",
+                "time_base": "1/24000",
+                "start_pts": 0,
+                "start_time": "0.000000",
+                "duration_ts": 40045005,
+                "duration": "1668.541875",
+                "nb_frames": "1",
+                "disposition": {
+                    "default": 1,
+                    "dub": 0,
+                    "original": 0,
+                    "comment": 0,
+                    "lyrics": 0,
+                    "karaoke": 0,
+                    "forced": 0,
+                    "hearing_impaired": 0,
+                    "visual_impaired": 0,
+                    "clean_effects": 0,
+                    "attached_pic": 0,
+                    "timed_thumbnails": 0
+                },
+                "tags": {
+                    "creation_time": "2017-10-18T13:29:51.000000Z",
+                    "language": "eng",
+                    "timecode": "13:13:48:22"
+                }
+            },
+            "formatJson": "{\n  \"filename\": \"/Volumes/mk2/test_shoots/20171018_003_Test_JustStudio/GH4/20171018_003_Test_JustStudio_GH4_001.mov\",\n  \"nb_streams\": 3,\n  \"nb_programs\": 0,\n  \"format_name\": \"mov,mp4,m4a,3gp,3g2,mj2\",\n  \"format_long_name\": \"QuickTime / MOV\",\n  \"start_time\": \"0.000000\",\n  \"duration\": \"1668.541875\",\n  \"size\": \"24624983552\",\n  \"bit_rate\": \"118067080\",\n  \"probe_score\": 100,\n  \"tags\": {\n    \"major_brand\": \"qt  \",\n    \"minor_version\": \"537199360\",\n    \"compatible_brands\": \"qt  \",\n    \"creation_time\": \"2017-10-18T13:29:51.000000Z\",\n    \"make\": \"Atomos\",\n    \"make-eng\": \"Atomos\",\n    \"encoder\": \"ShogunStudio - 6.8  \",\n    \"encoder-eng\": \"ShogunStudio - 6.8  \",\n    \"timecode\": \"13:13:48:22\"\n  }\n}",
+            "formatTagsCreationTime": "2017-10-18T13:29:51.000000Z",
+            "width": 1920,
+            "height": 1080,
+            "codec_time_base": "1001/24000",
+            "time_base": "1/24000",
+            "codec_long_name": "Apple ProRes (iCodec Pro)",
+            "duration": "1668.541875",
+            "bit_rate": "115758013",
+            "nb_frames": "40005",
+            "startTc": "13:13:48:22",
+            "duration_ts": 40045005,
+            "start_ts": 1144237094,
+            "end_ts": 1184282099,
+            "creationDate": "2017-10-18T13:29:51.000Z",
+            "utcCrStartMill": 1508333391000,
+            "utcTcStartDate": "2017-10-18T17:13:48.000Z",
+            "utcTcStartMill": 1508346828000,
+            "codec_time_base_numerator": "1",
+            "codec_time_base_denominator": "24000",
+            "frameDuration": "1001/24000s",
+            "fcpxml": {
+                "format": {
+                    "_attr": {
+                        "frameDuration": "1001/24000s",
+                        "width": 1920,
+                        "height": 1080
+                    }
+                },
+                "asset": {
+                    "_attr": {
+                        "name": "20171018_003_Test_JustStudio_GH4_001.mov",
+                        "src": "file:///Volumes/mk2/test_shoots/20171018_003_Test_JustStudio/GH4/20171018_003_Test_JustStudio_GH4_001.mov",
+                        "start": "1144237094/24000s",
+                        "duration": "40045005/24000s",
+                        "hasVideo": 1,
+                        "hasAudio": 1,
+                        "audioSources": 1,
+                        "audioChannels": 2,
+                        "audioRate": "48000"
+                    }
+                },
+                "assetClip": [
+                    {
+                        "_attr": {
+                            "name": "20171018_003_Test_JustStudio_GH4_001",
+                            "audioRole": "dialogue",
+                            "tcFormat": "NDF",
+                            "start": "1144237094/24000s",
+                            "duration": "40045005/24000s",
+                            "modDate": "2018-01-15 21:35:29 -0500"
+                        }
+                    },
+                    {
+                        "keyword": {
+                            "_attr": {
+                                "start": "1144237094/24000s",
+                                "duration": "40045005/24000s",
+                                "value": "20171018_003_Test_JustStudio, GH4"
+                            }
+                        }
+                    },
+                    {
+                        "keyword": {
+                            "_attr": {
+                                "start": "1144237094/24000s",
+                                "duration": "24024/24000s",
+                                "value": "first 24 frames"
+                            }
+                        }
+                    }
+                ],
+                "mcAssetClip": [
+                    {
+                        "_attr": {
+                            "name": "20171018_003_Test_JustStudio_GH4_001.mov",
+                            "offset": "mcStart - thisStart",
+                            "ref": "same as assetClip",
+                            "audioRole": "dialogue",
+                            "tcFormat": "NDF",
+                            "format": "insertFORMAThere",
+                            "start": "1144237094/24000s",
+                            "duration": "40045005/24000s"
+                        }
+                    },
+                    {
+                        "audio-channel-source": {
+                            "_attr": {
+                                "role": "dialogue.dialogue-1",
+                                "srcCh": "1"
+                            }
+                        }
+                    },
+                    {
+                        "audio-channel-source": {
+                            "_attr": {
+                                "role": "dialogue.dialogue-2",
+                                "srcCh": "2"
+                            }
+                        }
+                    }
+                ]
+            },
+            "halfway": 834,
+            "tempStillFilePath": "/Users/mk/Development/thelocalworkflow/public/images/temp/rename/still834.png",
+            "relativeTempStileFilePath": "/images/temp/rename/still834.png"
+        }
+    ],
+    "shootId": "20171018_003_Test_JustStudio",
+    "shootIdDate": "20171018",
+    "shootCounter": "003",
+    "projectId": "Test",
+    "subId": "JustStudio",
+    "fcpxml": {
+        "motionEffectA": {
+            "effect": {
+                "_attr": {
+                    "id": "empty",
+                    "name": "2.5_A",
+                    "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef",
+                    "src": "file:///Users/mk/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef"
+                }
+            }
+        },
+        "motionEffectC": {
+            "effect": {
+                "_attr": {
+                    "id": "empty",
+                    "name": "2.5_C",
+                    "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_C/2.5_C.moef",
+                    "src": "file:///Users/mk/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_C/2.5_C.moef"
+                }
+            }
+        },
+        "motionEffectB": {
+            "effect": {
+                "_attr": {
+                    "id": "empty",
+                    "name": "2.5_B",
+                    "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef",
+                    "src": "file:///Users/mk/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef"
+                }
+            }
+        }
+    },
+    "startClip": {
+        "thelocalworkflowIngestTime": "2018-01-16 02-35-28",
+        "thelocalworkflowFcpxmlTime": "2018-01-15 21:35:28 -0500",
+        "oldBasenameExt": "20171018_003_Test_JustStudio_C300a_001.mov",
+        "oldPath": "/Volumes/mk2/test_shoots/20171018_003_Test_JustStudio/C300a/20171018_003_Test_JustStudio_C300a_001.mov",
+        "cameraFolder": "C300a",
+        "shootId": "20171018_003_Test_JustStudio",
+        "counter": "001",
+        "ffprobeOutput": "{\n    \"streams\": [\n        {\n            \"index\": 0,\n            \"codec_name\": \"mpeg2video\",\n            \"codec_long_name\": \"MPEG-2 video\",\n            \"profile\": \"4:2:2\",\n            \"codec_type\": \"video\",\n            \"codec_time_base\": \"1001/24000\",\n            \"codec_tag_string\": \"xd5d\",\n            \"codec_tag\": \"0x64356478\",\n            \"width\": 1920,\n            \"height\": 1080,\n            \"coded_width\": 0,\n            \"coded_height\": 0,\n            \"has_b_frames\": 1,\n            \"sample_aspect_ratio\": \"1:1\",\n            \"display_aspect_ratio\": \"16:9\",\n            \"pix_fmt\": \"yuv422p\",\n            \"level\": 2,\n            \"color_range\": \"tv\",\n            \"color_space\": \"bt709\",\n            \"color_transfer\": \"bt709\",\n            \"color_primaries\": \"bt709\",\n            \"chroma_location\": \"topleft\",\n            \"field_order\": \"progressive\",\n            \"refs\": 1,\n            \"r_frame_rate\": \"24000/1001\",\n            \"avg_frame_rate\": \"24000/1001\",\n            \"time_base\": \"1/24000\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 44475431,\n            \"duration\": \"1853.142958\",\n            \"bit_rate\": \"50000025\",\n            \"nb_frames\": \"44448\",\n            \"disposition\": {\n                \"default\": 1,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0,\n                \"timed_thumbnails\": 0\n            },\n            \"tags\": {\n                \"creation_time\": \"2017-10-19T10:39:27.000000Z\",\n                \"language\": \"und\",\n                \"handler_name\": \"Core Media Data Handler\",\n                \"encoder\": \"XF-MPEG 422 50Mbps\",\n                \"timecode\": \"13:10:48:11\"\n            }\n        },\n        {\n            \"index\": 1,\n            \"codec_name\": \"pcm_s16le\",\n            \"codec_long_name\": \"PCM signed 16-bit little-endian\",\n            \"codec_type\": \"audio\",\n            \"codec_time_base\": \"1/48000\",\n            \"codec_tag_string\": \"sowt\",\n            \"codec_tag\": \"0x74776f73\",\n            \"sample_fmt\": \"s16\",\n            \"sample_rate\": \"48000\",\n            \"channels\": 2,\n            \"channel_layout\": \"stereo\",\n            \"bits_per_sample\": 16,\n            \"r_frame_rate\": \"0/0\",\n            \"avg_frame_rate\": \"0/0\",\n            \"time_base\": \"1/48000\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 88950862,\n            \"duration\": \"1853.142958\",\n            \"bit_rate\": \"1536000\",\n            \"nb_frames\": \"88984896\",\n            \"disposition\": {\n                \"default\": 1,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0,\n                \"timed_thumbnails\": 0\n            },\n            \"tags\": {\n                \"creation_time\": \"2017-10-19T10:39:27.000000Z\",\n                \"language\": \"und\",\n                \"handler_name\": \"Core Media Data Handler\"\n            }\n        },\n        {\n            \"index\": 2,\n            \"codec_type\": \"data\",\n            \"codec_tag_string\": \"tmcd\",\n            \"codec_tag\": \"0x64636d74\",\n            \"r_frame_rate\": \"0/0\",\n            \"avg_frame_rate\": \"24/1\",\n            \"time_base\": \"1/24000\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 44475431,\n            \"duration\": \"1853.142958\",\n            \"bit_rate\": \"767\",\n            \"nb_frames\": \"44448\",\n            \"disposition\": {\n                \"default\": 0,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0,\n                \"timed_thumbnails\": 0\n            },\n            \"tags\": {\n                \"creation_time\": \"2017-10-19T10:39:27.000000Z\",\n                \"language\": \"und\",\n                \"handler_name\": \"Core Media Data Handler\",\n                \"timecode\": \"13:10:48:11\"\n            }\n        }\n    ],\n    \"format\": {\n        \"filename\": \"/Volumes/mk2/test_shoots/20171018_003_Test_JustStudio/C300a/20171018_003_Test_JustStudio_C300a_001.mov\",\n        \"nb_streams\": 3,\n        \"nb_programs\": 0,\n        \"format_name\": \"mov,mp4,m4a,3gp,3g2,mj2\",\n        \"format_long_name\": \"QuickTime / MOV\",\n        \"start_time\": \"0.000000\",\n        \"duration\": \"1853.142958\",\n        \"size\": \"11973921050\",\n        \"bit_rate\": \"51691299\",\n        \"probe_score\": 100,\n        \"tags\": {\n            \"major_brand\": \"qt  \",\n            \"minor_version\": \"0\",\n            \"compatible_brands\": \"qt  \",\n            \"creation_time\": \"2017-10-19T10:39:27.000000Z\",\n            \"com.apple.proapps.isGood\": \"0\",\n            \"com.apple.proapps.dataSize\": \"B\\u0013r\\u0019Ő\",\n            \"com.apple.proapps.displayFormat\": \"XF-MPEG FHD 23.98P\",\n            \"com.apple.proapps.shootingRate\": \"@8\",\n            \"com.apple.proapps.videoBitrate\": \"0\",\n            \"com.apple.proapps.originalFormat\": \"XF-MPEG\",\n            \"com.apple.proapps.pulldown\": \"1\",\n            \"com.apple.proapps.mediaRate\": \"@7��G�\\u0014{\",\n            \"com.apple.proapps.timecodeFormat\": \"2\",\n            \"com.apple.proapps.numberOfAudioChannels\": \"0\",\n            \"com.apple.proapps.sampleRate\": \"0\",\n            \"com.apple.proapps.bitsPerSample\": \"0\",\n            \"com.apple.quicktime.creationdate\": \"2017-10-18T12:55:03-0400\",\n            \"com.apple.proapps.lastupdatedate\": \"2017-10-18 13:48:51 -0400\",\n            \"com.apple.proapps.manufacturer\": \"CANON\",\n            \"com.apple.proapps.modelname\": \"EOS C300\",\n            \"com.apple.proapps.serialno\": \"532851500030\",\n            \"com.apple.proapps.clipFileName\": \"AA0717\",\n            \"com.apple.proapps.clipID\": \"0D3B0DE4-4480-0580-0000-8500025A208F\",\n            \"com.apple.proapps.RADSDKVersion\": \"3.1\",\n            \"com.apple.proapps.cameraID\": \"CANON_532851500030\",\n            \"com.apple.proapps.cameraName\": \"CANON XF\",\n            \"com.apple.proapps.ingestDate.description\": \"2017-10-19 06:39:27 -0400\",\n            \"com.apple.quicktime.make\": \"Apple\",\n            \"com.apple.quicktime.model\": \"MacBookPro13,3\",\n            \"com.apple.quicktime.software\": \"Mac OS X 10.13 (17A405)\"\n        }\n    }\n}\n",
+        "ext": ".mov",
+        "newBasename": "20171018_003_Test_JustStudio_C300a_001",
+        "newBasenameExt": "20171018_003_Test_JustStudio_C300a_001.mov",
+        "newPath": "/Volumes/mk2/test_shoots/20171018_003_Test_JustStudio/C300a/20171018_003_Test_JustStudio_C300a_001.mov",
+        "videoStreamJson": {
+            "index": 0,
+            "codec_name": "mpeg2video",
+            "codec_long_name": "MPEG-2 video",
+            "profile": "4:2:2",
+            "codec_type": "video",
+            "codec_time_base": "1001/24000",
+            "codec_tag_string": "xd5d",
+            "codec_tag": "0x64356478",
+            "width": 1920,
+            "height": 1080,
+            "coded_width": 0,
+            "coded_height": 0,
+            "has_b_frames": 1,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "16:9",
+            "pix_fmt": "yuv422p",
+            "level": 2,
+            "color_range": "tv",
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "chroma_location": "topleft",
+            "field_order": "progressive",
+            "refs": 1,
+            "r_frame_rate": "24000/1001",
+            "avg_frame_rate": "24000/1001",
+            "time_base": "1/24000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 44475431,
+            "duration": "1853.142958",
+            "bit_rate": "50000025",
+            "nb_frames": "44448",
+            "disposition": {
+                "default": 1,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0
+            },
+            "tags": {
+                "creation_time": "2017-10-19T10:39:27.000000Z",
+                "language": "und",
+                "handler_name": "Core Media Data Handler",
+                "encoder": "XF-MPEG 422 50Mbps",
+                "timecode": "13:10:48:11"
+            }
+        },
+        "audioStreamJson": {
+            "index": 1,
+            "codec_name": "pcm_s16le",
+            "codec_long_name": "PCM signed 16-bit little-endian",
+            "codec_type": "audio",
+            "codec_time_base": "1/48000",
+            "codec_tag_string": "sowt",
+            "codec_tag": "0x74776f73",
+            "sample_fmt": "s16",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 16,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 88950862,
+            "duration": "1853.142958",
+            "bit_rate": "1536000",
+            "nb_frames": "88984896",
+            "disposition": {
+                "default": 1,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0
+            },
+            "tags": {
+                "creation_time": "2017-10-19T10:39:27.000000Z",
+                "language": "und",
+                "handler_name": "Core Media Data Handler"
+            }
+        },
+        "dataStreamJson": {
+            "index": 2,
+            "codec_type": "data",
+            "codec_tag_string": "tmcd",
+            "codec_tag": "0x64636d74",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "24/1",
+            "time_base": "1/24000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 44475431,
+            "duration": "1853.142958",
+            "bit_rate": "767",
+            "nb_frames": "44448",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0
+            },
+            "tags": {
+                "creation_time": "2017-10-19T10:39:27.000000Z",
+                "language": "und",
+                "handler_name": "Core Media Data Handler",
+                "timecode": "13:10:48:11"
+            }
+        },
+        "formatJson": "{\n  \"filename\": \"/Volumes/mk2/test_shoots/20171018_003_Test_JustStudio/C300a/20171018_003_Test_JustStudio_C300a_001.mov\",\n  \"nb_streams\": 3,\n  \"nb_programs\": 0,\n  \"format_name\": \"mov,mp4,m4a,3gp,3g2,mj2\",\n  \"format_long_name\": \"QuickTime / MOV\",\n  \"start_time\": \"0.000000\",\n  \"duration\": \"1853.142958\",\n  \"size\": \"11973921050\",\n  \"bit_rate\": \"51691299\",\n  \"probe_score\": 100,\n  \"tags\": {\n    \"major_brand\": \"qt  \",\n    \"minor_version\": \"0\",\n    \"compatible_brands\": \"qt  \",\n    \"creation_time\": \"2017-10-19T10:39:27.000000Z\",\n    \"com.apple.proapps.isGood\": \"0\",\n    \"com.apple.proapps.dataSize\": \"B\\u0013r\\u0019Ő\",\n    \"com.apple.proapps.displayFormat\": \"XF-MPEG FHD 23.98P\",\n    \"com.apple.proapps.shootingRate\": \"@8\",\n    \"com.apple.proapps.videoBitrate\": \"0\",\n    \"com.apple.proapps.originalFormat\": \"XF-MPEG\",\n    \"com.apple.proapps.pulldown\": \"1\",\n    \"com.apple.proapps.mediaRate\": \"@7��G�\\u0014{\",\n    \"com.apple.proapps.timecodeFormat\": \"2\",\n    \"com.apple.proapps.numberOfAudioChannels\": \"0\",\n    \"com.apple.proapps.sampleRate\": \"0\",\n    \"com.apple.proapps.bitsPerSample\": \"0\",\n    \"com.apple.quicktime.creationdate\": \"2017-10-18T12:55:03-0400\",\n    \"com.apple.proapps.lastupdatedate\": \"2017-10-18 13:48:51 -0400\",\n    \"com.apple.proapps.manufacturer\": \"CANON\",\n    \"com.apple.proapps.modelname\": \"EOS C300\",\n    \"com.apple.proapps.serialno\": \"532851500030\",\n    \"com.apple.proapps.clipFileName\": \"AA0717\",\n    \"com.apple.proapps.clipID\": \"0D3B0DE4-4480-0580-0000-8500025A208F\",\n    \"com.apple.proapps.RADSDKVersion\": \"3.1\",\n    \"com.apple.proapps.cameraID\": \"CANON_532851500030\",\n    \"com.apple.proapps.cameraName\": \"CANON XF\",\n    \"com.apple.proapps.ingestDate.description\": \"2017-10-19 06:39:27 -0400\",\n    \"com.apple.quicktime.make\": \"Apple\",\n    \"com.apple.quicktime.model\": \"MacBookPro13,3\",\n    \"com.apple.quicktime.software\": \"Mac OS X 10.13 (17A405)\"\n  }\n}",
+        "formatTagsCreationTime": "2017-10-19T10:39:27.000000Z",
+        "width": 1920,
+        "height": 1080,
+        "codec_time_base": "1001/24000",
+        "time_base": "1/24000",
+        "codec_long_name": "MPEG-2 video",
+        "duration": "1853.142958",
+        "bit_rate": "50000025",
+        "nb_frames": "44448",
+        "startTc": "13:10:48:11",
+        "actualCreationDate": "2017-10-18T12:55:03-0400",
+        "duration_ts": 44475431,
+        "start_ts": 1139901763,
+        "end_ts": 1184377194,
+        "creationDate": "2017-10-19T10:39:27.000Z",
+        "utcCrStartMill": 1508409567000,
+        "utcTcStartDate": "2017-10-18T17:10:48.000Z",
+        "utcTcStartMill": 1508346648000,
+        "codec_time_base_numerator": "1",
+        "codec_time_base_denominator": "24000",
+        "frameDuration": "1001/24000s",
+        "fcpxml": {
+            "format": {
+                "_attr": {
+                    "frameDuration": "1001/24000s",
+                    "width": 1920,
+                    "height": 1080
+                }
+            },
+            "asset": {
+                "_attr": {
+                    "name": "20171018_003_Test_JustStudio_C300a_001.mov",
+                    "src": "file:///Volumes/mk2/test_shoots/20171018_003_Test_JustStudio/C300a/20171018_003_Test_JustStudio_C300a_001.mov",
+                    "start": "1139901763/24000s",
+                    "duration": "44475431/24000s",
+                    "hasVideo": 1,
+                    "hasAudio": 1,
+                    "audioSources": 1,
+                    "audioChannels": 2,
+                    "audioRate": "48000"
+                }
+            },
+            "assetClip": [
+                {
+                    "_attr": {
+                        "name": "20171018_003_Test_JustStudio_C300a_001",
+                        "audioRole": "dialogue",
+                        "tcFormat": "NDF",
+                        "start": "1139901763/24000s",
+                        "duration": "44475431/24000s",
+                        "modDate": "2018-01-15 21:35:28 -0500"
+                    }
+                },
+                {
+                    "keyword": {
+                        "_attr": {
+                            "start": "1139901763/24000s",
+                            "duration": "44475431/24000s",
+                            "value": "20171018_003_Test_JustStudio, C300a"
+                        }
+                    }
+                },
+                {
+                    "keyword": {
+                        "_attr": {
+                            "start": "1139901763/24000s",
+                            "duration": "24024/24000s",
+                            "value": "first 24 frames"
+                        }
+                    }
+                }
+            ],
+            "mcAssetClip": [
+                {
+                    "_attr": {
+                        "name": "20171018_003_Test_JustStudio_C300a_001.mov",
+                        "offset": "mcStart - thisStart",
+                        "ref": "same as assetClip",
+                        "audioRole": "dialogue",
+                        "tcFormat": "NDF",
+                        "format": "insertFORMAThere",
+                        "start": "1139901763/24000s",
+                        "duration": "44475431/24000s"
+                    }
+                },
+                {
+                    "audio-channel-source": {
+                        "_attr": {
+                            "role": "dialogue.dialogue-1",
+                            "srcCh": "1"
+                        }
+                    }
+                },
+                {
+                    "audio-channel-source": {
+                        "_attr": {
+                            "role": "dialogue.dialogue-2",
+                            "srcCh": "2"
+                        }
+                    }
+                }
+            ]
+        },
+        "halfway": 927,
+        "tempStillFilePath": "/Users/mk/Development/thelocalworkflow/public/images/temp/rename/still927.png",
+        "relativeTempStileFilePath": "/images/temp/rename/still927.png"
+    },
+    "tsStartClip": {
+        "thelocalworkflowIngestTime": "2018-01-16 02-35-28",
+        "thelocalworkflowFcpxmlTime": "2018-01-15 21:35:28 -0500",
+        "oldBasenameExt": "20171018_003_Test_JustStudio_C300a_001.mov",
+        "oldPath": "/Volumes/mk2/test_shoots/20171018_003_Test_JustStudio/C300a/20171018_003_Test_JustStudio_C300a_001.mov",
+        "cameraFolder": "C300a",
+        "shootId": "20171018_003_Test_JustStudio",
+        "counter": "001",
+        "ffprobeOutput": "{\n    \"streams\": [\n        {\n            \"index\": 0,\n            \"codec_name\": \"mpeg2video\",\n            \"codec_long_name\": \"MPEG-2 video\",\n            \"profile\": \"4:2:2\",\n            \"codec_type\": \"video\",\n            \"codec_time_base\": \"1001/24000\",\n            \"codec_tag_string\": \"xd5d\",\n            \"codec_tag\": \"0x64356478\",\n            \"width\": 1920,\n            \"height\": 1080,\n            \"coded_width\": 0,\n            \"coded_height\": 0,\n            \"has_b_frames\": 1,\n            \"sample_aspect_ratio\": \"1:1\",\n            \"display_aspect_ratio\": \"16:9\",\n            \"pix_fmt\": \"yuv422p\",\n            \"level\": 2,\n            \"color_range\": \"tv\",\n            \"color_space\": \"bt709\",\n            \"color_transfer\": \"bt709\",\n            \"color_primaries\": \"bt709\",\n            \"chroma_location\": \"topleft\",\n            \"field_order\": \"progressive\",\n            \"refs\": 1,\n            \"r_frame_rate\": \"24000/1001\",\n            \"avg_frame_rate\": \"24000/1001\",\n            \"time_base\": \"1/24000\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 44475431,\n            \"duration\": \"1853.142958\",\n            \"bit_rate\": \"50000025\",\n            \"nb_frames\": \"44448\",\n            \"disposition\": {\n                \"default\": 1,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0,\n                \"timed_thumbnails\": 0\n            },\n            \"tags\": {\n                \"creation_time\": \"2017-10-19T10:39:27.000000Z\",\n                \"language\": \"und\",\n                \"handler_name\": \"Core Media Data Handler\",\n                \"encoder\": \"XF-MPEG 422 50Mbps\",\n                \"timecode\": \"13:10:48:11\"\n            }\n        },\n        {\n            \"index\": 1,\n            \"codec_name\": \"pcm_s16le\",\n            \"codec_long_name\": \"PCM signed 16-bit little-endian\",\n            \"codec_type\": \"audio\",\n            \"codec_time_base\": \"1/48000\",\n            \"codec_tag_string\": \"sowt\",\n            \"codec_tag\": \"0x74776f73\",\n            \"sample_fmt\": \"s16\",\n            \"sample_rate\": \"48000\",\n            \"channels\": 2,\n            \"channel_layout\": \"stereo\",\n            \"bits_per_sample\": 16,\n            \"r_frame_rate\": \"0/0\",\n            \"avg_frame_rate\": \"0/0\",\n            \"time_base\": \"1/48000\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 88950862,\n            \"duration\": \"1853.142958\",\n            \"bit_rate\": \"1536000\",\n            \"nb_frames\": \"88984896\",\n            \"disposition\": {\n                \"default\": 1,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0,\n                \"timed_thumbnails\": 0\n            },\n            \"tags\": {\n                \"creation_time\": \"2017-10-19T10:39:27.000000Z\",\n                \"language\": \"und\",\n                \"handler_name\": \"Core Media Data Handler\"\n            }\n        },\n        {\n            \"index\": 2,\n            \"codec_type\": \"data\",\n            \"codec_tag_string\": \"tmcd\",\n            \"codec_tag\": \"0x64636d74\",\n            \"r_frame_rate\": \"0/0\",\n            \"avg_frame_rate\": \"24/1\",\n            \"time_base\": \"1/24000\",\n            \"start_pts\": 0,\n            \"start_time\": \"0.000000\",\n            \"duration_ts\": 44475431,\n            \"duration\": \"1853.142958\",\n            \"bit_rate\": \"767\",\n            \"nb_frames\": \"44448\",\n            \"disposition\": {\n                \"default\": 0,\n                \"dub\": 0,\n                \"original\": 0,\n                \"comment\": 0,\n                \"lyrics\": 0,\n                \"karaoke\": 0,\n                \"forced\": 0,\n                \"hearing_impaired\": 0,\n                \"visual_impaired\": 0,\n                \"clean_effects\": 0,\n                \"attached_pic\": 0,\n                \"timed_thumbnails\": 0\n            },\n            \"tags\": {\n                \"creation_time\": \"2017-10-19T10:39:27.000000Z\",\n                \"language\": \"und\",\n                \"handler_name\": \"Core Media Data Handler\",\n                \"timecode\": \"13:10:48:11\"\n            }\n        }\n    ],\n    \"format\": {\n        \"filename\": \"/Volumes/mk2/test_shoots/20171018_003_Test_JustStudio/C300a/20171018_003_Test_JustStudio_C300a_001.mov\",\n        \"nb_streams\": 3,\n        \"nb_programs\": 0,\n        \"format_name\": \"mov,mp4,m4a,3gp,3g2,mj2\",\n        \"format_long_name\": \"QuickTime / MOV\",\n        \"start_time\": \"0.000000\",\n        \"duration\": \"1853.142958\",\n        \"size\": \"11973921050\",\n        \"bit_rate\": \"51691299\",\n        \"probe_score\": 100,\n        \"tags\": {\n            \"major_brand\": \"qt  \",\n            \"minor_version\": \"0\",\n            \"compatible_brands\": \"qt  \",\n            \"creation_time\": \"2017-10-19T10:39:27.000000Z\",\n            \"com.apple.proapps.isGood\": \"0\",\n            \"com.apple.proapps.dataSize\": \"B\\u0013r\\u0019Ő\",\n            \"com.apple.proapps.displayFormat\": \"XF-MPEG FHD 23.98P\",\n            \"com.apple.proapps.shootingRate\": \"@8\",\n            \"com.apple.proapps.videoBitrate\": \"0\",\n            \"com.apple.proapps.originalFormat\": \"XF-MPEG\",\n            \"com.apple.proapps.pulldown\": \"1\",\n            \"com.apple.proapps.mediaRate\": \"@7��G�\\u0014{\",\n            \"com.apple.proapps.timecodeFormat\": \"2\",\n            \"com.apple.proapps.numberOfAudioChannels\": \"0\",\n            \"com.apple.proapps.sampleRate\": \"0\",\n            \"com.apple.proapps.bitsPerSample\": \"0\",\n            \"com.apple.quicktime.creationdate\": \"2017-10-18T12:55:03-0400\",\n            \"com.apple.proapps.lastupdatedate\": \"2017-10-18 13:48:51 -0400\",\n            \"com.apple.proapps.manufacturer\": \"CANON\",\n            \"com.apple.proapps.modelname\": \"EOS C300\",\n            \"com.apple.proapps.serialno\": \"532851500030\",\n            \"com.apple.proapps.clipFileName\": \"AA0717\",\n            \"com.apple.proapps.clipID\": \"0D3B0DE4-4480-0580-0000-8500025A208F\",\n            \"com.apple.proapps.RADSDKVersion\": \"3.1\",\n            \"com.apple.proapps.cameraID\": \"CANON_532851500030\",\n            \"com.apple.proapps.cameraName\": \"CANON XF\",\n            \"com.apple.proapps.ingestDate.description\": \"2017-10-19 06:39:27 -0400\",\n            \"com.apple.quicktime.make\": \"Apple\",\n            \"com.apple.quicktime.model\": \"MacBookPro13,3\",\n            \"com.apple.quicktime.software\": \"Mac OS X 10.13 (17A405)\"\n        }\n    }\n}\n",
+        "ext": ".mov",
+        "newBasename": "20171018_003_Test_JustStudio_C300a_001",
+        "newBasenameExt": "20171018_003_Test_JustStudio_C300a_001.mov",
+        "newPath": "/Volumes/mk2/test_shoots/20171018_003_Test_JustStudio/C300a/20171018_003_Test_JustStudio_C300a_001.mov",
+        "videoStreamJson": {
+            "index": 0,
+            "codec_name": "mpeg2video",
+            "codec_long_name": "MPEG-2 video",
+            "profile": "4:2:2",
+            "codec_type": "video",
+            "codec_time_base": "1001/24000",
+            "codec_tag_string": "xd5d",
+            "codec_tag": "0x64356478",
+            "width": 1920,
+            "height": 1080,
+            "coded_width": 0,
+            "coded_height": 0,
+            "has_b_frames": 1,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "16:9",
+            "pix_fmt": "yuv422p",
+            "level": 2,
+            "color_range": "tv",
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "chroma_location": "topleft",
+            "field_order": "progressive",
+            "refs": 1,
+            "r_frame_rate": "24000/1001",
+            "avg_frame_rate": "24000/1001",
+            "time_base": "1/24000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 44475431,
+            "duration": "1853.142958",
+            "bit_rate": "50000025",
+            "nb_frames": "44448",
+            "disposition": {
+                "default": 1,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0
+            },
+            "tags": {
+                "creation_time": "2017-10-19T10:39:27.000000Z",
+                "language": "und",
+                "handler_name": "Core Media Data Handler",
+                "encoder": "XF-MPEG 422 50Mbps",
+                "timecode": "13:10:48:11"
+            }
+        },
+        "audioStreamJson": {
+            "index": 1,
+            "codec_name": "pcm_s16le",
+            "codec_long_name": "PCM signed 16-bit little-endian",
+            "codec_type": "audio",
+            "codec_time_base": "1/48000",
+            "codec_tag_string": "sowt",
+            "codec_tag": "0x74776f73",
+            "sample_fmt": "s16",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 16,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 88950862,
+            "duration": "1853.142958",
+            "bit_rate": "1536000",
+            "nb_frames": "88984896",
+            "disposition": {
+                "default": 1,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0
+            },
+            "tags": {
+                "creation_time": "2017-10-19T10:39:27.000000Z",
+                "language": "und",
+                "handler_name": "Core Media Data Handler"
+            }
+        },
+        "dataStreamJson": {
+            "index": 2,
+            "codec_type": "data",
+            "codec_tag_string": "tmcd",
+            "codec_tag": "0x64636d74",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "24/1",
+            "time_base": "1/24000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 44475431,
+            "duration": "1853.142958",
+            "bit_rate": "767",
+            "nb_frames": "44448",
+            "disposition": {
+                "default": 0,
+                "dub": 0,
+                "original": 0,
+                "comment": 0,
+                "lyrics": 0,
+                "karaoke": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "visual_impaired": 0,
+                "clean_effects": 0,
+                "attached_pic": 0,
+                "timed_thumbnails": 0
+            },
+            "tags": {
+                "creation_time": "2017-10-19T10:39:27.000000Z",
+                "language": "und",
+                "handler_name": "Core Media Data Handler",
+                "timecode": "13:10:48:11"
+            }
+        },
+        "formatJson": "{\n  \"filename\": \"/Volumes/mk2/test_shoots/20171018_003_Test_JustStudio/C300a/20171018_003_Test_JustStudio_C300a_001.mov\",\n  \"nb_streams\": 3,\n  \"nb_programs\": 0,\n  \"format_name\": \"mov,mp4,m4a,3gp,3g2,mj2\",\n  \"format_long_name\": \"QuickTime / MOV\",\n  \"start_time\": \"0.000000\",\n  \"duration\": \"1853.142958\",\n  \"size\": \"11973921050\",\n  \"bit_rate\": \"51691299\",\n  \"probe_score\": 100,\n  \"tags\": {\n    \"major_brand\": \"qt  \",\n    \"minor_version\": \"0\",\n    \"compatible_brands\": \"qt  \",\n    \"creation_time\": \"2017-10-19T10:39:27.000000Z\",\n    \"com.apple.proapps.isGood\": \"0\",\n    \"com.apple.proapps.dataSize\": \"B\\u0013r\\u0019Ő\",\n    \"com.apple.proapps.displayFormat\": \"XF-MPEG FHD 23.98P\",\n    \"com.apple.proapps.shootingRate\": \"@8\",\n    \"com.apple.proapps.videoBitrate\": \"0\",\n    \"com.apple.proapps.originalFormat\": \"XF-MPEG\",\n    \"com.apple.proapps.pulldown\": \"1\",\n    \"com.apple.proapps.mediaRate\": \"@7��G�\\u0014{\",\n    \"com.apple.proapps.timecodeFormat\": \"2\",\n    \"com.apple.proapps.numberOfAudioChannels\": \"0\",\n    \"com.apple.proapps.sampleRate\": \"0\",\n    \"com.apple.proapps.bitsPerSample\": \"0\",\n    \"com.apple.quicktime.creationdate\": \"2017-10-18T12:55:03-0400\",\n    \"com.apple.proapps.lastupdatedate\": \"2017-10-18 13:48:51 -0400\",\n    \"com.apple.proapps.manufacturer\": \"CANON\",\n    \"com.apple.proapps.modelname\": \"EOS C300\",\n    \"com.apple.proapps.serialno\": \"532851500030\",\n    \"com.apple.proapps.clipFileName\": \"AA0717\",\n    \"com.apple.proapps.clipID\": \"0D3B0DE4-4480-0580-0000-8500025A208F\",\n    \"com.apple.proapps.RADSDKVersion\": \"3.1\",\n    \"com.apple.proapps.cameraID\": \"CANON_532851500030\",\n    \"com.apple.proapps.cameraName\": \"CANON XF\",\n    \"com.apple.proapps.ingestDate.description\": \"2017-10-19 06:39:27 -0400\",\n    \"com.apple.quicktime.make\": \"Apple\",\n    \"com.apple.quicktime.model\": \"MacBookPro13,3\",\n    \"com.apple.quicktime.software\": \"Mac OS X 10.13 (17A405)\"\n  }\n}",
+        "formatTagsCreationTime": "2017-10-19T10:39:27.000000Z",
+        "width": 1920,
+        "height": 1080,
+        "codec_time_base": "1001/24000",
+        "time_base": "1/24000",
+        "codec_long_name": "MPEG-2 video",
+        "duration": "1853.142958",
+        "bit_rate": "50000025",
+        "nb_frames": "44448",
+        "startTc": "13:10:48:11",
+        "actualCreationDate": "2017-10-18T12:55:03-0400",
+        "duration_ts": 44475431,
+        "start_ts": 1139901763,
+        "end_ts": 1184377194,
+        "creationDate": "2017-10-19T10:39:27.000Z",
+        "utcCrStartMill": 1508409567000,
+        "utcTcStartDate": "2017-10-18T17:10:48.000Z",
+        "utcTcStartMill": 1508346648000,
+        "codec_time_base_numerator": "1",
+        "codec_time_base_denominator": "24000",
+        "frameDuration": "1001/24000s",
+        "fcpxml": {
+            "format": {
+                "_attr": {
+                    "frameDuration": "1001/24000s",
+                    "width": 1920,
+                    "height": 1080
+                }
+            },
+            "asset": {
+                "_attr": {
+                    "name": "20171018_003_Test_JustStudio_C300a_001.mov",
+                    "src": "file:///Volumes/mk2/test_shoots/20171018_003_Test_JustStudio/C300a/20171018_003_Test_JustStudio_C300a_001.mov",
+                    "start": "1139901763/24000s",
+                    "duration": "44475431/24000s",
+                    "hasVideo": 1,
+                    "hasAudio": 1,
+                    "audioSources": 1,
+                    "audioChannels": 2,
+                    "audioRate": "48000"
+                }
+            },
+            "assetClip": [
+                {
+                    "_attr": {
+                        "name": "20171018_003_Test_JustStudio_C300a_001",
+                        "audioRole": "dialogue",
+                        "tcFormat": "NDF",
+                        "start": "1139901763/24000s",
+                        "duration": "44475431/24000s",
+                        "modDate": "2018-01-15 21:35:28 -0500"
+                    }
+                },
+                {
+                    "keyword": {
+                        "_attr": {
+                            "start": "1139901763/24000s",
+                            "duration": "44475431/24000s",
+                            "value": "20171018_003_Test_JustStudio, C300a"
+                        }
+                    }
+                },
+                {
+                    "keyword": {
+                        "_attr": {
+                            "start": "1139901763/24000s",
+                            "duration": "24024/24000s",
+                            "value": "first 24 frames"
+                        }
+                    }
+                }
+            ],
+            "mcAssetClip": [
+                {
+                    "_attr": {
+                        "name": "20171018_003_Test_JustStudio_C300a_001.mov",
+                        "offset": "mcStart - thisStart",
+                        "ref": "same as assetClip",
+                        "audioRole": "dialogue",
+                        "tcFormat": "NDF",
+                        "format": "insertFORMAThere",
+                        "start": "1139901763/24000s",
+                        "duration": "44475431/24000s"
+                    }
+                },
+                {
+                    "audio-channel-source": {
+                        "_attr": {
+                            "role": "dialogue.dialogue-1",
+                            "srcCh": "1"
+                        }
+                    }
+                },
+                {
+                    "audio-channel-source": {
+                        "_attr": {
+                            "role": "dialogue.dialogue-2",
+                            "srcCh": "2"
+                        }
+                    }
+                }
+            ]
+        },
+        "halfway": 927,
+        "tempStillFilePath": "/Users/mk/Development/thelocalworkflow/public/images/temp/rename/still927.png",
+        "relativeTempStileFilePath": "/images/temp/rename/still927.png"
+    },
+    "firstMcAngle": "C300a",
+    "mcStartTc": "13:10:48:11",
+    "mcStartTs": 1139901763,
+    "mcEndTs": 1184418235,
+    "totalDurationTs": 168219051,
+    "totalDuration": 7009.127125,
+    "mcDuration": 44516472,
+    "startCrDate": "2017-10-19T10:39:27.000Z",
+    "startTcDate": "2017-10-18T17:10:48.000Z",
+    "tcOffset": -62919000,
+    "tcFramesOffset": -1508547.4525474526
+}

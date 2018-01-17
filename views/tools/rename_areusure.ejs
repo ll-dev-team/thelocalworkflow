@@ -52,6 +52,75 @@
           <button type="submit" name="confirmation" value="no">Try Again</button>
         </fieldset>
     </form>
+    <div>
+      <% for (var j = 0; j < shootObjects.length; j++) { %>
+        <div>
+          <h3><%= shootObjects[j].shootId %></h3>
+          <table style="width:80%">
+            <tr>
+              <th>
+                camera
+              </th>
+              <th>
+                filename
+              </th>
+              <th>
+                duration
+              </th>
+              <th>
+                halfway thumbnail
+              </th>
+            </tr>
+            <% for (var k = 0; k < shootObjects[j].clipArray.length; k++) { %>
+              <tr>
+                <td>
+                  <%= (k+1) %>
+                </td>
+                <td>
+                  <%= shootObjects[j].clipArray[k].newBasenameExt %>
+                </td>
+                <td>
+                  <%= shootObjects[j].clipArray[k].duration %>
+                </td>
+                <td>
+                  <img src=
+                  <%= shootObjects[j].clipArray[k].relativeTempStileFilePath %>
+                    class="img-fluid" alt="Responsive image">
+                </td>
+              </tr>
+            <% } %>
+          </table>
+        </div>
+      <% } %>
+    </div>
+    <div>
+      <% for (var j = 0; j < shootObjects.length; j++) { %>
+        <div>
+          <h3><%= shootObjects[j].shootId %></h3>
+
+            <% for (var k = 0; k < shootObjects[j].clipArray.length; k++) { %>
+
+
+
+
+              <div class="card col-4">
+                <h4 class="card-title" style="font-size: 1rem">
+                  <%= shootObjects[j].clipArray[k].newBasenameExt %>
+                </h4>
+                <img class="card-img-top col-12" src= <%= shootObjects[j].clipArray[k].relativeTempStileFilePath %> alt="Card image cap">
+                <div class="card-block">
+                  <p class="card-text">Duration: <%= shootObjects[j].clipArray[k].duration %>.</p>
+                </div>
+              </div>
+
+            <% } %>
+          </table>
+        </div>
+      <% } %>
+    </div>
+
+
+
   </div>
 
 <% include ../partials/foot.ejs %>

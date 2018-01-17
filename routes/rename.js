@@ -33,34 +33,38 @@ router.post('/run_rename', function(req, res, next){
   shootFolderCandidates.forEach(function(shootFolder){
     if (fs.statSync(path.join(req.body.folderPath, shootFolder)).isDirectory()) {
       console.log(shootFolder + " is a Directory");
-      var testThisShoot = investigate(path.join(req.body.folderPath, shootFolder));
-      console.log("\n\n\n\n\n\n++++++++++++++++++\n\n\n\n\n");
-      console.log(JSON.stringify(testThisShoot, null, 4));
-      var thisShoot = {shootId: "insert", clips: []}
-      var cameraFolderCandidates = fs.readdirSync(path.join(req.body.folderPath, shootFolder));
-      cameraFolderCandidates.forEach(function(cameraFolder){
-        if (fs.statSync(path.join(req.body.folderPath, shootFolder, cameraFolder)).isDirectory()){
-          console.log(cameraFolder + " is a Directory");
-          var theClipFiles = fs.readdirSync(path.join(req.body.folderPath, shootFolder, cameraFolder));
-          theClipFiles.forEach(function(file){
-            if (re.test(file)) {
-              console.log(file + " passes re test");
-            }
-            else {
-              console.log(file + " does not pass re test");
-              var filePath = path.join(req.body.folderPath, shootFolder, cameraFolder, file);
-              console.log("running ffprobe on " + filePath);
-              var theFfprobeResult = ffprobeSync(filePath);
-              console.log();
-              theShootJsons.push(theFfprobeResult.json);
-              theShootObjects.push(theFfprobeResult.obj)
-            }
-          })
-        }
-        else {
-          console.log(cameraFolder + " is not a Directory");
-        }
-      })
+      // var thisShoot = {shootId: "insert", clips: []}
+      // var cameraFolderCandidates = fs.readdirSync(path.join(req.body.folderPath, shootFolder));
+      // cameraFolderCandidates.forEach(function(cameraFolder){
+      //   if (fs.statSync(path.join(req.body.folderPath, shootFolder, cameraFolder)).isDirectory()  && cameraFolder!="_notes"){
+      //     console.log(cameraFolder + " is a Directory");
+      //     var theClipFiles = fs.readdirSync(path.join(req.body.folderPath, shootFolder, cameraFolder));
+      //     theClipFiles.forEach(function(file){
+      //       if (re.test(file)) {
+      //         console.log(file + " passes re test");
+      //       }
+      //       else {
+      //         console.log(file + " does not pass re test");
+      //         var filePath = path.join(req.body.folderPath, shootFolder, cameraFolder, file);
+      //         console.log("running ffprobe on " + filePath);
+      //         var theFfprobeResult = ffprobeSync(filePath);
+      //         console.log();
+      //         theShootJsons.push(theFfprobeResult.json);
+      //         theShootObjects.push(theFfprobeResult.obj)
+      //       }
+      //     })
+      //   }
+      //   else {
+      //     console.log(cameraFolder + " is not a Directory  or is _notes");
+      //   }
+      // })
+      var investigatedShoot = investigate(path.join(req.body.folderPath, shootFolder));
+      // console.log("\n\n\n\n\n\n++++++++++++++++++\n\n\n\n\n");
+      // console.log(JSON.stringify(investigatedShoot, null, 4));
+      theShootObjects.push(investigatedShoot);
+      var textForFile = JSON.stringify(investigatedShoot, null, 4);
+      var pathForFile = path.join('/Users/mk/Development/thelocalworkflow/tools/tests/output/json', (investigatedShoot.shootId + ".txt"));
+      fs.writeFileSync(pathForFile, textForFile);
     }
     else {
       console.log(shootFolder + " is not a Directory");
@@ -69,6 +73,7 @@ router.post('/run_rename', function(req, res, next){
   // TODO: structure clip data
   // TODO: grab a thumbnail from the center of each angle
   // TODO: maybe grab a thumbnail of each clip
+  // console.log("\n\n\n\n\n\n\n\n\nhere is what we're sending to the ejs template: \n\n" + JSON.stringify(theShootObjects, null, 4));
   res.render('tools/rename_areusure', { tabTitle: 'rename confirmation', title: 'the Rename Form', folderPath: req.body.folderPath, people: req.body.people, shootObjects: theShootObjects })
 });
 

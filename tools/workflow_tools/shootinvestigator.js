@@ -5,6 +5,9 @@ var fs = require("fs");
 var path = require("path");
 const Clip = require("./workflowobjects").Clip;
 const Shoot = require("./workflowobjects").Shoot;
+const cp = require('child_process');
+var psBoost001 = "curves=psfile='/Users/mk/Development/thelocalworkflow/tools/curves/boost.acv'";
+var gh4Boost_001 = "curves=psfile='/Users/mk/Development/thelocalworkflow/tools/curves/boost.acv'";
 
 var logLocation = '/Users/mk/Development/_tests/calcSize';
 
@@ -20,7 +23,7 @@ function investigate(folderPath) {
   var folders = fs.readdirSync(folderPath);
   folders.forEach(function(camFolder){
     // check if this is actually a folder, if so, push folder's name as a camera to .cameraArray and start looping files in it
-    if (fs.statSync(path.join(folderPath,camFolder)).isDirectory()) {
+    if (fs.statSync(path.join(folderPath,camFolder)).isDirectory() && camFolder!="_notes") {
       thisShoot.cameraArray.push(camFolder);
       // introducing this offset to make sure that we don't count hidden files when enumerating to get the file names.
       // there is probably a better way to do this
@@ -35,13 +38,22 @@ function investigate(folderPath) {
           // this constructor takes the whole path in chunks plus that counter we're calculating with the offsetForIndex
           var thisClip = new Clip(folderPath, camFolder, path.basename(file), (index - offsetForIndex));
           // add the clip to the array of clip objects
-          theseClipObjects.push(thisClip);
           // TODO: toggle this on and off to avoid renaming while testing:
           fs.renameSync(thisClip.oldPath, thisClip.newPath);
+          thisClip.halfway = (Math.round(thisClip.duration/2));
+          console.log(thisClip.halfway);
+          thisClip.tempStillFilePath = path.join('/Users/mk/Development/thelocalworkflow/public/images/temp/rename', ("still" + thisClip.halfway + ".png") );
+          thisClip.relativeTempStileFilePath = path.join('/images/temp/rename', ("still" + thisClip.halfway + ".png"))
+          console.log(thisClip.tempStillFilePath + "\n)))))))))))))))))))))))))))))))))))))))))");
+          cp.spawnSync(process.env.FFMPEG_PATH, ['-ss', thisClip.halfway, '-i', thisClip.newPath, '-vframes', '1',
+          // '-vf', gh4Boost_001,
+          thisClip.tempStillFilePath]);
+          theseClipObjects.push(thisClip);
         }
       });
     }
     else {
+      console.log(camFolder + " isn't a camFolder--this is from the shootinvestigator module");
     }
   });
   // store theseClipObjects array in thisShoot.clipArray
