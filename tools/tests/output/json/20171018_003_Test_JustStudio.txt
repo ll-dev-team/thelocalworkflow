@@ -9,8 +9,8 @@
     ],
     "clipArray": [
         {
-            "thelocalworkflowIngestTime": "2018-01-16 02-35-28",
-            "thelocalworkflowFcpxmlTime": "2018-01-15 21:35:28 -0500",
+            "thelocalworkflowIngestTime": "2018-01-17 14-31-16",
+            "thelocalworkflowFcpxmlTime": "2018-01-17 09:31:16 -0500",
             "oldBasenameExt": "20171018_003_Test_JustStudio_C300a_001.mov",
             "oldPath": "/Volumes/mk2/test_shoots/20171018_003_Test_JustStudio/C300a/20171018_003_Test_JustStudio_C300a_001.mov",
             "cameraFolder": "C300a",
@@ -205,7 +205,7 @@
                             "tcFormat": "NDF",
                             "start": "1139901763/24000s",
                             "duration": "44475431/24000s",
-                            "modDate": "2018-01-15 21:35:28 -0500"
+                            "modDate": "2018-01-17 09:31:16 -0500"
                         }
                     },
                     {
@@ -263,8 +263,8 @@
             "relativeTempStileFilePath": "/images/temp/rename/still927.png"
         },
         {
-            "thelocalworkflowIngestTime": "2018-01-16 02-35-28",
-            "thelocalworkflowFcpxmlTime": "2018-01-15 21:35:28 -0500",
+            "thelocalworkflowIngestTime": "2018-01-17 14-31-16",
+            "thelocalworkflowFcpxmlTime": "2018-01-17 09:31:16 -0500",
             "oldBasenameExt": "20171018_003_Test_JustStudio_C300b_001.mov",
             "oldPath": "/Volumes/mk2/test_shoots/20171018_003_Test_JustStudio/C300b/20171018_003_Test_JustStudio_C300b_001.mov",
             "cameraFolder": "C300b",
@@ -459,7 +459,7 @@
                             "tcFormat": "NDF",
                             "start": "1144336193/24000s",
                             "duration": "39999960/24000s",
-                            "modDate": "2018-01-15 21:35:28 -0500"
+                            "modDate": "2018-01-17 09:31:16 -0500"
                         }
                     },
                     {
@@ -517,8 +517,8 @@
             "relativeTempStileFilePath": "/images/temp/rename/still833.png"
         },
         {
-            "thelocalworkflowIngestTime": "2018-01-16 02-35-29",
-            "thelocalworkflowFcpxmlTime": "2018-01-15 21:35:29 -0500",
+            "thelocalworkflowIngestTime": "2018-01-17 14-31-16",
+            "thelocalworkflowFcpxmlTime": "2018-01-17 09:31:16 -0500",
             "oldBasenameExt": "20171018_003_Test_JustStudio_C300c_001.mov",
             "oldPath": "/Volumes/mk2/test_shoots/20171018_003_Test_JustStudio/C300c/20171018_003_Test_JustStudio_C300c_001.mov",
             "cameraFolder": "C300c",
@@ -713,7 +713,7 @@
                             "tcFormat": "NDF",
                             "start": "1140719580/24000s",
                             "duration": "43698655/24000s",
-                            "modDate": "2018-01-15 21:35:29 -0500"
+                            "modDate": "2018-01-17 09:31:16 -0500"
                         }
                     },
                     {
@@ -771,8 +771,8 @@
             "relativeTempStileFilePath": "/images/temp/rename/still910.png"
         },
         {
-            "thelocalworkflowIngestTime": "2018-01-16 02-35-29",
-            "thelocalworkflowFcpxmlTime": "2018-01-15 21:35:29 -0500",
+            "thelocalworkflowIngestTime": "2018-01-17 14-31-16",
+            "thelocalworkflowFcpxmlTime": "2018-01-17 09:31:16 -0500",
             "oldBasenameExt": "20171018_003_Test_JustStudio_GH4_001.mov",
             "oldPath": "/Volumes/mk2/test_shoots/20171018_003_Test_JustStudio/GH4/20171018_003_Test_JustStudio_GH4_001.mov",
             "cameraFolder": "GH4",
@@ -959,7 +959,7 @@
                             "tcFormat": "NDF",
                             "start": "1144237094/24000s",
                             "duration": "40045005/24000s",
-                            "modDate": "2018-01-15 21:35:29 -0500"
+                            "modDate": "2018-01-17 09:31:16 -0500"
                         }
                     },
                     {
@@ -1055,8 +1055,8 @@
         }
     },
     "startClip": {
-        "thelocalworkflowIngestTime": "2018-01-16 02-35-28",
-        "thelocalworkflowFcpxmlTime": "2018-01-15 21:35:28 -0500",
+        "thelocalworkflowIngestTime": "2018-01-17 14-31-16",
+        "thelocalworkflowFcpxmlTime": "2018-01-17 09:31:16 -0500",
         "oldBasenameExt": "20171018_003_Test_JustStudio_C300a_001.mov",
         "oldPath": "/Volumes/mk2/test_shoots/20171018_003_Test_JustStudio/C300a/20171018_003_Test_JustStudio_C300a_001.mov",
         "cameraFolder": "C300a",
@@ -1251,7 +1251,7 @@
                         "tcFormat": "NDF",
                         "start": "1139901763/24000s",
                         "duration": "44475431/24000s",
-                        "modDate": "2018-01-15 21:35:28 -0500"
+                        "modDate": "2018-01-17 09:31:16 -0500"
                     }
                 },
                 {
@@ -1309,8 +1309,8 @@
         "relativeTempStileFilePath": "/images/temp/rename/still927.png"
     },
     "tsStartClip": {
-        "thelocalworkflowIngestTime": "2018-01-16 02-35-28",
-        "thelocalworkflowFcpxmlTime": "2018-01-15 21:35:28 -0500",
+        "thelocalworkflowIngestTime": "2018-01-17 14-31-16",
+        "thelocalworkflowFcpxmlTime": "2018-01-17 09:31:16 -0500",
         "oldBasenameExt": "20171018_003_Test_JustStudio_C300a_001.mov",
         "oldPath": "/Volumes/mk2/test_shoots/20171018_003_Test_JustStudio/C300a/20171018_003_Test_JustStudio_C300a_001.mov",
         "cameraFolder": "C300a",
@@ -1505,7 +1505,7 @@
                         "tcFormat": "NDF",
                         "start": "1139901763/24000s",
                         "duration": "44475431/24000s",
-                        "modDate": "2018-01-15 21:35:28 -0500"
+                        "modDate": "2018-01-17 09:31:16 -0500"
                     }
                 },
                 {

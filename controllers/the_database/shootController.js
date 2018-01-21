@@ -8,7 +8,7 @@ exports.shoot_list = function(req, res, next) {
     Shoot.find({})
       .exec(function (err, list_shoots) {
         if (err) { return next(err); }
-        console.log(JSON.stringify(list_shoots, null, 4));
+        // console.log(JSON.stringify(list_shoots, null, 4));
         res.render('database/shoot_list', { title: 'Shoot List', tabTitle: "Shoot List", shoot_list: list_shoots });
       });
 }

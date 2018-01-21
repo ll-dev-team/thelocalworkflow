@@ -7,8 +7,8 @@
     ],
     "clipArray": [
         {
-            "thelocalworkflowIngestTime": "2018-01-16 02-35-29",
-            "thelocalworkflowFcpxmlTime": "2018-01-15 21:35:29 -0500",
+            "thelocalworkflowIngestTime": "2018-01-17 14-31-16",
+            "thelocalworkflowFcpxmlTime": "2018-01-17 09:31:16 -0500",
             "oldBasenameExt": "20171201_001_Test_Test_C300a_001.mov",
             "oldPath": "/Volumes/mk2/test_shoots/20171201_001_Test_Test/C300a/20171201_001_Test_Test_C300a_001.mov",
             "cameraFolder": "C300a",
@@ -203,7 +203,7 @@
                             "tcFormat": "NDF",
                             "start": "809583775/24000s",
                             "duration": "648648/24000s",
-                            "modDate": "2018-01-15 21:35:29 -0500"
+                            "modDate": "2018-01-17 09:31:16 -0500"
                         }
                     },
                     {
@@ -261,8 +261,8 @@
             "relativeTempStileFilePath": "/images/temp/rename/still14.png"
         },
         {
-            "thelocalworkflowIngestTime": "2018-01-16 02-35-29",
-            "thelocalworkflowFcpxmlTime": "2018-01-15 21:35:29 -0500",
+            "thelocalworkflowIngestTime": "2018-01-17 14-31-16",
+            "thelocalworkflowFcpxmlTime": "2018-01-17 09:31:16 -0500",
             "oldBasenameExt": "20171201_001_Test_Test_C300b_001.mov",
             "oldPath": "/Volumes/mk2/test_shoots/20171201_001_Test_Test/C300b/20171201_001_Test_Test_C300b_001.mov",
             "cameraFolder": "C300b",
@@ -457,7 +457,7 @@
                             "tcFormat": "NDF",
                             "start": "809799991/24000s",
                             "duration": "1033032/24000s",
-                            "modDate": "2018-01-15 21:35:29 -0500"
+                            "modDate": "2018-01-17 09:31:16 -0500"
                         }
                     },
                     {
@@ -515,8 +515,8 @@
             "relativeTempStileFilePath": "/images/temp/rename/still22.png"
         },
         {
-            "thelocalworkflowIngestTime": "2018-01-16 02-35-29",
-            "thelocalworkflowFcpxmlTime": "2018-01-15 21:35:29 -0500",
+            "thelocalworkflowIngestTime": "2018-01-17 14-31-16",
+            "thelocalworkflowFcpxmlTime": "2018-01-17 09:31:16 -0500",
             "oldBasenameExt": "20171201_001_Test_Test_C300b_002.mov",
             "oldPath": "/Volumes/mk2/test_shoots/20171201_001_Test_Test/C300b/20171201_001_Test_Test_C300b_002.mov",
             "cameraFolder": "C300b",
@@ -711,7 +711,7 @@
                             "tcFormat": "NDF",
                             "start": "806641836/24000s",
                             "duration": "564564/24000s",
-                            "modDate": "2018-01-15 21:35:29 -0500"
+                            "modDate": "2018-01-17 09:31:16 -0500"
                         }
                     },
                     {
@@ -807,8 +807,8 @@
         }
     },
     "startClip": {
-        "thelocalworkflowIngestTime": "2018-01-16 02-35-29",
-        "thelocalworkflowFcpxmlTime": "2018-01-15 21:35:29 -0500",
+        "thelocalworkflowIngestTime": "2018-01-17 14-31-16",
+        "thelocalworkflowFcpxmlTime": "2018-01-17 09:31:16 -0500",
         "oldBasenameExt": "20171201_001_Test_Test_C300b_002.mov",
         "oldPath": "/Volumes/mk2/test_shoots/20171201_001_Test_Test/C300b/20171201_001_Test_Test_C300b_002.mov",
         "cameraFolder": "C300b",
@@ -1003,7 +1003,7 @@
                         "tcFormat": "NDF",
                         "start": "806641836/24000s",
                         "duration": "564564/24000s",
-                        "modDate": "2018-01-15 21:35:29 -0500"
+                        "modDate": "2018-01-17 09:31:16 -0500"
                     }
                 },
                 {
@@ -1061,8 +1061,8 @@
         "relativeTempStileFilePath": "/images/temp/rename/still12.png"
     },
     "tsStartClip": {
-        "thelocalworkflowIngestTime": "2018-01-16 02-35-29",
-        "thelocalworkflowFcpxmlTime": "2018-01-15 21:35:29 -0500",
+        "thelocalworkflowIngestTime": "2018-01-17 14-31-16",
+        "thelocalworkflowFcpxmlTime": "2018-01-17 09:31:16 -0500",
         "oldBasenameExt": "20171201_001_Test_Test_C300b_002.mov",
         "oldPath": "/Volumes/mk2/test_shoots/20171201_001_Test_Test/C300b/20171201_001_Test_Test_C300b_002.mov",
         "cameraFolder": "C300b",
@@ -1257,7 +1257,7 @@
                         "tcFormat": "NDF",
                         "start": "806641836/24000s",
                         "duration": "564564/24000s",
-                        "modDate": "2018-01-15 21:35:29 -0500"
+                        "modDate": "2018-01-17 09:31:16 -0500"
                     }
                 },
                 {

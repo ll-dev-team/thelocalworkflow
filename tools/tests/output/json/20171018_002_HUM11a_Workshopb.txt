@@ -13,8 +13,8 @@
     ],
     "clipArray": [
         {
-            "thelocalworkflowIngestTime": "2018-01-16 02-35-26",
-            "thelocalworkflowFcpxmlTime": "2018-01-15 21:35:26 -0500",
+            "thelocalworkflowIngestTime": "2018-01-17 14-31-13",
+            "thelocalworkflowFcpxmlTime": "2018-01-17 09:31:13 -0500",
             "oldBasenameExt": "20171018_002_HUM11a_Workshopb_5Da_001.mov",
             "oldPath": "/Volumes/mk2/test_shoots/20171018_002_HUM11a_Workshopb/5Da/20171018_002_HUM11a_Workshopb_5Da_001.mov",
             "cameraFolder": "5Da",
@@ -210,7 +210,7 @@
                             "tcFormat": "NDF",
                             "start": "1146107963/24000s",
                             "duration": "901901/24000s",
-                            "modDate": "2018-01-15 21:35:26 -0500"
+                            "modDate": "2018-01-17 09:31:13 -0500"
                         }
                     },
                     {
@@ -268,8 +268,8 @@
             "relativeTempStileFilePath": "/images/temp/rename/still19.png"
         },
         {
-            "thelocalworkflowIngestTime": "2018-01-16 02-35-26",
-            "thelocalworkflowFcpxmlTime": "2018-01-15 21:35:26 -0500",
+            "thelocalworkflowIngestTime": "2018-01-17 14-31-13",
+            "thelocalworkflowFcpxmlTime": "2018-01-17 09:31:13 -0500",
             "oldBasenameExt": "20171018_002_HUM11a_Workshopb_5Da_002.mov",
             "oldPath": "/Volumes/mk2/test_shoots/20171018_002_HUM11a_Workshopb/5Da/20171018_002_HUM11a_Workshopb_5Da_002.mov",
             "cameraFolder": "5Da",
@@ -465,7 +465,7 @@
                             "tcFormat": "NDF",
                             "start": "1189286098/24000s",
                             "duration": "309309/24000s",
-                            "modDate": "2018-01-15 21:35:26 -0500"
+                            "modDate": "2018-01-17 09:31:13 -0500"
                         }
                     },
                     {
@@ -523,8 +523,8 @@
             "relativeTempStileFilePath": "/images/temp/rename/still6.png"
         },
         {
-            "thelocalworkflowIngestTime": "2018-01-16 02-35-26",
-            "thelocalworkflowFcpxmlTime": "2018-01-15 21:35:26 -0500",
+            "thelocalworkflowIngestTime": "2018-01-17 14-31-14",
+            "thelocalworkflowFcpxmlTime": "2018-01-17 09:31:14 -0500",
             "oldBasenameExt": "20171018_002_HUM11a_Workshopb_5Da_003.mov",
             "oldPath": "/Volumes/mk2/test_shoots/20171018_002_HUM11a_Workshopb/5Da/20171018_002_HUM11a_Workshopb_5Da_003.mov",
             "cameraFolder": "5Da",
@@ -720,7 +720,7 @@
                             "tcFormat": "NDF",
                             "start": "1189808620/24000s",
                             "duration": "445445/24000s",
-                            "modDate": "2018-01-15 21:35:26 -0500"
+                            "modDate": "2018-01-17 09:31:14 -0500"
                         }
                     },
                     {
@@ -778,8 +778,8 @@
             "relativeTempStileFilePath": "/images/temp/rename/still9.png"
         },
         {
-            "thelocalworkflowIngestTime": "2018-01-16 02-35-26",
-            "thelocalworkflowFcpxmlTime": "2018-01-15 21:35:26 -0500",
+            "thelocalworkflowIngestTime": "2018-01-17 14-31-14",
+            "thelocalworkflowFcpxmlTime": "2018-01-17 09:31:14 -0500",
             "oldBasenameExt": "20171018_002_HUM11a_Workshopb_C100a_001.mov",
             "oldPath": "/Volumes/mk2/test_shoots/20171018_002_HUM11a_Workshopb/C100a/20171018_002_HUM11a_Workshopb_C100a_001.mov",
             "cameraFolder": "C100a",
@@ -976,7 +976,7 @@
                             "tcFormat": "NDF",
                             "start": "1148692545/72000s",
                             "duration": "121225104/72000s",
-                            "modDate": "2018-01-15 21:35:26 -0500"
+                            "modDate": "2018-01-17 09:31:14 -0500"
                         }
                     },
                     {
@@ -1034,8 +1034,8 @@
             "relativeTempStileFilePath": "/images/temp/rename/still842.png"
         },
         {
-            "thelocalworkflowIngestTime": "2018-01-16 02-35-27",
-            "thelocalworkflowFcpxmlTime": "2018-01-15 21:35:27 -0500",
+            "thelocalworkflowIngestTime": "2018-01-17 14-31-14",
+            "thelocalworkflowFcpxmlTime": "2018-01-17 09:31:14 -0500",
             "oldBasenameExt": "20171018_002_HUM11a_Workshopb_C100b_001.mov",
             "oldPath": "/Volumes/mk2/test_shoots/20171018_002_HUM11a_Workshopb/C100b/20171018_002_HUM11a_Workshopb_C100b_001.mov",
             "cameraFolder": "C100b",
@@ -1232,7 +1232,7 @@
                             "tcFormat": "NDF",
                             "start": "1115406292/72000s",
                             "duration": "120360240/72000s",
-                            "modDate": "2018-01-15 21:35:27 -0500"
+                            "modDate": "2018-01-17 09:31:14 -0500"
                         }
                     },
                     {
@@ -1290,8 +1290,8 @@
             "relativeTempStileFilePath": "/images/temp/rename/still836.png"
         },
         {
-            "thelocalworkflowIngestTime": "2018-01-16 02-35-27",
-            "thelocalworkflowFcpxmlTime": "2018-01-15 21:35:27 -0500",
+            "thelocalworkflowIngestTime": "2018-01-17 14-31-15",
+            "thelocalworkflowFcpxmlTime": "2018-01-17 09:31:15 -0500",
             "oldBasenameExt": "20171018_002_HUM11a_Workshopb_C100c_001.mov",
             "oldPath": "/Volumes/mk2/test_shoots/20171018_002_HUM11a_Workshopb/C100c/20171018_002_HUM11a_Workshopb_C100c_001.mov",
             "cameraFolder": "C100c",
@@ -1488,7 +1488,7 @@
                             "tcFormat": "NDF",
                             "start": "1107341235/72000s",
                             "duration": "2702700/72000s",
-                            "modDate": "2018-01-15 21:35:27 -0500"
+                            "modDate": "2018-01-17 09:31:15 -0500"
                         }
                     },
                     {
@@ -1546,8 +1546,8 @@
             "relativeTempStileFilePath": "/images/temp/rename/still19.png"
         },
         {
-            "thelocalworkflowIngestTime": "2018-01-16 02-35-28",
-            "thelocalworkflowFcpxmlTime": "2018-01-15 21:35:28 -0500",
+            "thelocalworkflowIngestTime": "2018-01-17 14-31-15",
+            "thelocalworkflowFcpxmlTime": "2018-01-17 09:31:15 -0500",
             "oldBasenameExt": "20171018_002_HUM11a_Workshopb_C100c_002.mov",
             "oldPath": "/Volumes/mk2/test_shoots/20171018_002_HUM11a_Workshopb/C100c/20171018_002_HUM11a_Workshopb_C100c_002.mov",
             "cameraFolder": "C100c",
@@ -1744,7 +1744,7 @@
                             "tcFormat": "NDF",
                             "start": "1145807663/72000s",
                             "duration": "120576456/72000s",
-                            "modDate": "2018-01-15 21:35:28 -0500"
+                            "modDate": "2018-01-17 09:31:15 -0500"
                         }
                     },
                     {
@@ -1802,8 +1802,8 @@
             "relativeTempStileFilePath": "/images/temp/rename/still837.png"
         },
         {
-            "thelocalworkflowIngestTime": "2018-01-16 02-35-28",
-            "thelocalworkflowFcpxmlTime": "2018-01-15 21:35:28 -0500",
+            "thelocalworkflowIngestTime": "2018-01-17 14-31-15",
+            "thelocalworkflowFcpxmlTime": "2018-01-17 09:31:15 -0500",
             "oldBasenameExt": "20171018_002_HUM11a_Workshopb_C300a_001.mov",
             "oldPath": "/Volumes/mk2/test_shoots/20171018_002_HUM11a_Workshopb/C300a/20171018_002_HUM11a_Workshopb_C300a_001.mov",
             "cameraFolder": "C300a",
@@ -1998,7 +1998,7 @@
                             "tcFormat": "NDF",
                             "start": "1139901763/24000s",
                             "duration": "44475431/24000s",
-                            "modDate": "2018-01-15 21:35:28 -0500"
+                            "modDate": "2018-01-17 09:31:15 -0500"
                         }
                     },
                     {
@@ -2056,8 +2056,8 @@
             "relativeTempStileFilePath": "/images/temp/rename/still927.png"
         },
         {
-            "thelocalworkflowIngestTime": "2018-01-16 02-35-28",
-            "thelocalworkflowFcpxmlTime": "2018-01-15 21:35:28 -0500",
+            "thelocalworkflowIngestTime": "2018-01-17 14-31-16",
+            "thelocalworkflowFcpxmlTime": "2018-01-17 09:31:16 -0500",
             "oldBasenameExt": "20171018_002_HUM11a_Workshopb_C300b_001.mov",
             "oldPath": "/Volumes/mk2/test_shoots/20171018_002_HUM11a_Workshopb/C300b/20171018_002_HUM11a_Workshopb_C300b_001.mov",
             "cameraFolder": "C300b",
@@ -2252,7 +2252,7 @@
                             "tcFormat": "NDF",
                             "start": "1144336193/24000s",
                             "duration": "39999960/24000s",
-                            "modDate": "2018-01-15 21:35:28 -0500"
+                            "modDate": "2018-01-17 09:31:16 -0500"
                         }
                     },
                     {
@@ -2310,8 +2310,8 @@
             "relativeTempStileFilePath": "/images/temp/rename/still833.png"
         },
         {
-            "thelocalworkflowIngestTime": "2018-01-16 02-35-28",
-            "thelocalworkflowFcpxmlTime": "2018-01-15 21:35:28 -0500",
+            "thelocalworkflowIngestTime": "2018-01-17 14-31-16",
+            "thelocalworkflowFcpxmlTime": "2018-01-17 09:31:16 -0500",
             "oldBasenameExt": "20171018_002_HUM11a_Workshopb_C300c_001.mov",
             "oldPath": "/Volumes/mk2/test_shoots/20171018_002_HUM11a_Workshopb/C300c/20171018_002_HUM11a_Workshopb_C300c_001.mov",
             "cameraFolder": "C300c",
@@ -2506,7 +2506,7 @@
                             "tcFormat": "NDF",
                             "start": "1140719580/24000s",
                             "duration": "43698655/24000s",
-                            "modDate": "2018-01-15 21:35:28 -0500"
+                            "modDate": "2018-01-17 09:31:16 -0500"
                         }
                     },
                     {
@@ -2564,8 +2564,8 @@
             "relativeTempStileFilePath": "/images/temp/rename/still910.png"
         },
         {
-            "thelocalworkflowIngestTime": "2018-01-16 02-35-28",
-            "thelocalworkflowFcpxmlTime": "2018-01-15 21:35:28 -0500",
+            "thelocalworkflowIngestTime": "2018-01-17 14-31-16",
+            "thelocalworkflowFcpxmlTime": "2018-01-17 09:31:16 -0500",
             "oldBasenameExt": "20171018_002_HUM11a_Workshopb_GH4_001.mov",
             "oldPath": "/Volumes/mk2/test_shoots/20171018_002_HUM11a_Workshopb/GH4/20171018_002_HUM11a_Workshopb_GH4_001.mov",
             "cameraFolder": "GH4",
@@ -2752,7 +2752,7 @@
                             "tcFormat": "NDF",
                             "start": "1144237094/24000s",
                             "duration": "40045005/24000s",
-                            "modDate": "2018-01-15 21:35:28 -0500"
+                            "modDate": "2018-01-17 09:31:16 -0500"
                         }
                     },
                     {
@@ -2848,8 +2848,8 @@
         }
     },
     "startClip": {
-        "thelocalworkflowIngestTime": "2018-01-16 02-35-27",
-        "thelocalworkflowFcpxmlTime": "2018-01-15 21:35:27 -0500",
+        "thelocalworkflowIngestTime": "2018-01-17 14-31-15",
+        "thelocalworkflowFcpxmlTime": "2018-01-17 09:31:15 -0500",
         "oldBasenameExt": "20171018_002_HUM11a_Workshopb_C100c_001.mov",
         "oldPath": "/Volumes/mk2/test_shoots/20171018_002_HUM11a_Workshopb/C100c/20171018_002_HUM11a_Workshopb_C100c_001.mov",
         "cameraFolder": "C100c",
@@ -3046,7 +3046,7 @@
                         "tcFormat": "NDF",
                         "start": "1107341235/72000s",
                         "duration": "2702700/72000s",
-                        "modDate": "2018-01-15 21:35:27 -0500"
+                        "modDate": "2018-01-17 09:31:15 -0500"
                     }
                 },
                 {
@@ -3104,8 +3104,8 @@
         "relativeTempStileFilePath": "/images/temp/rename/still19.png"
     },
     "tsStartClip": {
-        "thelocalworkflowIngestTime": "2018-01-16 02-35-27",
-        "thelocalworkflowFcpxmlTime": "2018-01-15 21:35:27 -0500",
+        "thelocalworkflowIngestTime": "2018-01-17 14-31-15",
+        "thelocalworkflowFcpxmlTime": "2018-01-17 09:31:15 -0500",
         "oldBasenameExt": "20171018_002_HUM11a_Workshopb_C100c_001.mov",
         "oldPath": "/Volumes/mk2/test_shoots/20171018_002_HUM11a_Workshopb/C100c/20171018_002_HUM11a_Workshopb_C100c_001.mov",
         "cameraFolder": "C100c",
@@ -3302,7 +3302,7 @@
                         "tcFormat": "NDF",
                         "start": "1107341235/72000s",
                         "duration": "2702700/72000s",
-                        "modDate": "2018-01-15 21:35:27 -0500"
+                        "modDate": "2018-01-17 09:31:15 -0500"
                     }
                 },
                 {
