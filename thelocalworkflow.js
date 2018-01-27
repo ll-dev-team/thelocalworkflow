@@ -21,11 +21,11 @@ const csv=require('csvtojson')
 require('dotenv').config();
 var mongoDB = process.env.MONGODB_URL;
 // var mongoDB = process.env.MONGODB_URL_DEV;
-mongoose.connect(mongoDB);
-var db = mongoose.connection;
+// mongoose.connect(mongoDB);
+// var db = mongoose.connection;
 
 // Bind connection to error event (to get notification of connection errors)
-db.on('error', console.error.bind(console, 'MongoDB connection error:'));
+// db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 
 function printHelp() {
   console.log("thelocalworkflow.js (c) Marlon Kuzmick");

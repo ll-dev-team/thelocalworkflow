@@ -9,7 +9,7 @@ const MongoClient = require("mongodb").MongoClient, assert = require('assert');
 
 const destinationFolder = "/Users/mk/Development/thelocalworkflow/public/images"
 // const destinationFolder = "/Users/mk/Development/_tests/output/m2s";
-const logFolder = "/Users/mk/Development/_tests/output/logs";
+const logFolder = "/Users/mk/Development/thelocalworkflow/tools/tests/output/logs";
 var psBoost001 = "curves=psfile='/Users/mk/Development/thelocalworkflow/tools/curves/boost.acv'";
 var gh4Boost_001 = "curves=psfile='/Users/mk/Development/thelocalworkflow/tools/curves/boost.acv'";
 
@@ -41,7 +41,7 @@ function Still(tsElements, videoFilePath, m2sPath){
 }
 
 function toMongo(stillArray){
-  MongoClient.connect(process.env.MONGODB_PATH, function(err, db) {
+  MongoClient.connect(process.env.MONGODB_URL_DEV, function(err, db) {
     assert.equal(null, err);
     stillArray.forEach(function(still){
       db.collection('stills').insertOne({still});
@@ -94,7 +94,11 @@ function fcpxmlFileToStills(thisXmlPath){
               console.log("there is an asset-clip");
               for (var i = 0; i < theProject.sequence[0].spine[0]["asset-clip"].length; i++) {
                 var videoFileName = theProject.sequence[0].spine[0]["asset-clip"][i].$.name;
-                var videoFileStartTs = theProject.sequence[0].spine[0]["asset-clip"][i].$.start;
+                var videoFileStartTs = "0/24000s";
+                if (theProject.sequence[0].spine[0]["asset-clip"][i].$.start) {
+                  videoFileStartTs = theProject.sequence[0].spine[0]["asset-clip"][i].$.start;
+                }
+                console.log("videoFileStartTs for " + videoFileName + " is " + videoFileStartTs);
                 var theClip = result.fcpxml.resources[0].asset.filter(function(clip){
                   return clip.$.id === theProject.sequence[0].spine[0]["asset-clip"][i].$.ref
                 });
@@ -110,7 +114,10 @@ function fcpxmlFileToStills(thisXmlPath){
               for (var i = 0; i < theProject.sequence[0].spine[0]["clip"].length; i++) {
                 console.log("step " + i);
                 var videoFileName = theProject.sequence[0].spine[0]["clip"][i].$.name;
-                var videoFileStartTs = theProject.sequence[0].spine[0]["clip"][i].$.start;
+                var videoFileStartTs = "0/24000s";
+                if (theProject.sequence[0].spine[0]["clip"][i].$.start){
+                    videoFileStartTs = theProject.sequence[0].spine[0]["clip"][i].$.start;
+                }
                 var theClip = result.fcpxml.resources[0].asset.filter(function(possibleClip){
                   return possibleClip.$.id === theProject.sequence[0].spine[0].clip[i].video[0].$.ref
                 });
