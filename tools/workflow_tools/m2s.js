@@ -180,7 +180,10 @@ function markersToStills(folderPath) {
           }
           for (var i = 0; i < theProject.sequence[0].spine[0]["asset-clip"].length; i++) {
             var videoFileName = theProject.sequence[0].spine[0]["asset-clip"][i].$.name;
-            var videoFileStartTs = theProject.sequence[0].spine[0]["asset-clip"][i].$.start;
+            var videoFileStartTs = "0/24000s";
+            if (theProject.sequence[0].spine[0]["asset-clip"][i].$.start) {
+              videoFileStartTs = theProject.sequence[0].spine[0]["asset-clip"][i].$.start;
+            }
             var theClip = result.fcpxml.resources[0].asset.filter(function(clip){
               return clip.$.id === theProject.sequence[0].spine[0]["asset-clip"][i].$.ref
             });
