@@ -5,6 +5,7 @@ var fs = require("fs");
 var path = require("path");
 const Clip = require("./workflowobjects").Clip;
 const Shoot = require("./workflowobjects").Shoot;
+const Still = require("./workflowobjects").Still;
 
 var logLocation = '/Users/mk/Development/_tests/calcSize';
 
@@ -20,7 +21,25 @@ function rename(folderPath) {
   var folders = fs.readdirSync(folderPath);
   folders.forEach(function(camFolder){
     // check if this is actually a folder, if so, push folder's name as a camera to .cameraArray and start looping files in it
-    if (fs.statSync(path.join(folderPath,camFolder)).isDirectory()) {
+    if (camFolder == "Still" || camFolder == "Stills") {
+      thisShoot.stillArray = [];
+      var offsetForIndex = 0;
+      fs.readdirSync(path.join(folderPath,camFolder)).forEach(function(file, index) {
+        if (re.test(file)) {
+          // if this is a hidden file, don't bother with it, but increment that offset so that we don't misnumber the actual clip files
+          offsetForIndex++;
+        }
+        else {
+          var thisStill = new Still(folderPath, camFolder, path.basename(file), (index - offsetForIndex));
+          // add the clip to the array of clip objects
+          // TODO: toggle this on and off to avoid renaming while testing:
+          fs.renameSync(thisStill.oldPath, thisStill.newPath);
+          thisShoot.stillArray.push(thisStill);
+
+        }
+      });
+    }
+    else if (fs.statSync(path.join(folderPath,camFolder)).isDirectory()) {
       thisShoot.cameraArray.push(camFolder);
       // introducing this offset to make sure that we don't count hidden files when enumerating to get the file names.
       // there is probably a better way to do this
@@ -51,6 +70,11 @@ function rename(folderPath) {
   thisShoot.clipArray.forEach(function(clip, index){
     shootNotes=(shootNotes+(index+1)+". Renamed " + clip.oldBasenameExt + " to " + clip.newBasenameExt + "\n" )
   });
+  if (thisShoot.stillArray) {
+    thisShoot.stillArray.forEach(function(still, index){
+      shootNotes=(shootNotes+(index+1+thisShoot.clipArray.length)+". Renamed " + still.oldBasenameExt + " to " + still.newBasenameExt + "\n" )
+    })
+  }
   // find the first clip by CLOCK time stored in creation_time
   var minUtcCrStartMillTs = Math.min.apply(Math,thisShoot.clipArray.map(function(o){return o.utcTcStartMill;}));
   // find the clip that has this start time and define it as thisShoot's startClip

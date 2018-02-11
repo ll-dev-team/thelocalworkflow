@@ -29,11 +29,13 @@ function printHelp() {
   console.log("--help            print help");
   console.log("--m2s             m2s for fcpxml in {FOLDER}");
   console.log("--m2sf            m2s for fcpxml in {FILE}");
-  console.log("--rename          rename files in {FOLDER}");
-  console.log("--transcode       transcode files in {FOLDER}");
+  console.log("--rename          rename files in {FOLDER} and generate fcpxml");
+  console.log("--simplerename    rename files in {FOLDER}");
+  console.log("--transcode       transcode files in {FOLDER} with ffmpeg");
+  console.log("--compress        transcode files in {FOLDER} with compressor");
 }
 
-if (args.help || !(args.m2s || args.rename || args.compress ||
+if (args.help || !(args.m2s || args.rename || args.simplerename || args.compress ||
     args.m2sf || args.shootdata || args.transcode || args.io2s ||
       args.populate)) {
         printHelp();
@@ -79,14 +81,32 @@ if (args.rename) {
   console.log("\n\n\nstarting________________________________________________\n\n\n");
   var theResult = shootprocessor.rename(args.rename);
   console.log("\n\ncomplete________________________________________________\n\n");
+  var theResourceXml = fcpxml.makeFcpxml(theResult);
+  console.log("\n\ncomplete________________________________________________\n\n");
   var pathForJson = (theResult.shootPath + "/_notes/" + theResult.shootId + "_shootObject.json");
   var shootObjectJson = JSON.stringify(theResult, null, 2);
   fs.writeFileSync(pathForJson, shootObjectJson);
   var thePayload = 'payload={"channel": "#ll-tests", "username": "theworkflow-bot", "text": "<@marlon>: the shoot with id ' + theResult.shootId + ' has been ingested and renamed.", "icon_emoji": ":desktop_computer:"}';
-
   cp.spawnSync("curl", ['-X', 'POST', '--data-urlencode', thePayload, process.env.SLACK_WEBHOOK_URL]);
+  MongoClient.connect(process.env.MONGODB_URL, function(err, db) {
+    assert.equal(null, err);
+    console.log("Connected successfully to server");
+    db.collection('shoots').insertOne({theResult});
+    db.close();
+  });
+  console.log("\n\ndone.\n");
+}
 
-  MongoClient.connect(process.env.MONGODB_PATH, function(err, db) {
+if (args.simplerename) {
+  console.log("\n\n\nstarting________________________________________________\n\n\n");
+  var theResult = shootprocessor.rename(args.simplerename);
+  console.log("\n\ncomplete________________________________________________\n\n");
+  var pathForJson = (theResult.shootPath + "/_notes/" + theResult.shootId + "_shootObject.json");
+  var shootObjectJson = JSON.stringify(theResult, null, 2);
+  fs.writeFileSync(pathForJson, shootObjectJson);
+  var thePayload = 'payload={"channel": "#ll-tests", "username": "theworkflow-bot", "text": "<@marlon>: the shoot with id ' + theResult.shootId + ' has been ingested and renamed.", "icon_emoji": ":desktop_computer:"}';
+  cp.spawnSync("curl", ['-X', 'POST', '--data-urlencode', thePayload, process.env.SLACK_WEBHOOK_URL]);
+  MongoClient.connect(process.env.MONGODB_URL, function(err, db) {
     assert.equal(null, err);
     console.log("Connected successfully to server");
     db.collection('shoots').insertOne({theResult});
