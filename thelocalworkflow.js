@@ -9,12 +9,14 @@ const MongoClient = require("mongodb").MongoClient, assert = require('assert');
 const cp = require('child_process');
 const path = require('path');
 const transcode = require("./tools/scripts/transcode_sync").transcode;
+const gifMachine = require("./tools/workflow_tools/gif_machine");
 const io2s = require("./tools/scripts/io2s").io2s;
 const popFcpxml = require("./tools/scripts/populate_fcpxml");
 // var reHidden = /^\./;
 var theDate = new Date;
 require('dotenv').config();
 var mongoDB = process.env.MONGODB_URL;
+const colors = require('colors/safe');
 // var mongoDB = process.env.MONGODB_URL_DEV;
 // mongoose.connect(mongoDB);
 // var db = mongoose.connection;
@@ -35,12 +37,23 @@ function printHelp() {
   console.log("--compress        transcode files in {FOLDER} with compressor");
 }
 
-if (args.help || !(args.m2s || args.rename || args.simplerename || args.compress ||
-    args.m2sf || args.shootdata || args.transcode || args.io2s ||
-      args.populate)) {
+if (args.help ||
+    !(args.m2s
+      || args.rename
+      || args.simplerename
+      || args.compress
+      || args.m2sf
+      || args.shootdata
+      || args.transcode
+      || args.io2s
+      || args.populate
+      || args.gif
+      || args.fcpxmlToGif
+      || args.io2gif)
+  ) {
         printHelp();
         process.exit(1);
-}
+    }
 
 if (args.io2s) {
   var theJson = require(args.json);
@@ -158,7 +171,7 @@ if (args.populate) {
 
 if (args.transcode) {
   // var destRoot = '/Volumes/06_01/Proxy_Footage/2017_12_Proxy'
-  var destRoot = '/Volumes/mk2/_test_materials/test_output'
+  var destRoot = '/Volumes/mk2/test_output'
   console.log(JSON.stringify(args, null, 8));
   var crfVal = 23
   if (args.crf) {
@@ -209,4 +222,19 @@ if (args.transcode) {
     // transcode(args.transcode, crfVal);
   }
 
+}
+
+if (args.gif) {
+  gifMachine.makeGif(args.gif, 960);
+  console.log(colors.green('done.'));
+}
+
+if (args.io2gif) {
+  gifMachine.io2gif(args.io2gif, 2.3, 6.43, 960);
+  console.log(colors.green('done.'));
+}
+
+if (args.fcpxmlToGif) {
+  console.log("starting fcpxmlToGif");
+  gifMachine.fcpxmlToGif(args.fcpxmlToGif)
 }
