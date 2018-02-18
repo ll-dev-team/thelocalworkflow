@@ -14,7 +14,7 @@ const io2s = require("./tools/scripts/io2s").io2s;
 const popFcpxml = require("./tools/scripts/populate_fcpxml");
 // var reHidden = /^\./;
 var theDate = new Date;
-require('dotenv').config();
+  require('dotenv').config();
 var mongoDB = process.env.MONGODB_URL;
 const colors = require('colors/safe');
 // var mongoDB = process.env.MONGODB_URL_DEV;
@@ -49,6 +49,8 @@ if (args.help ||
       || args.populate
       || args.gif
       || args.fcpxmlToGif
+      || args.makeGifFromPngs
+      || args.folderToGifs
       || args.io2gif)
   ) {
         printHelp();
@@ -235,6 +237,16 @@ if (args.io2gif) {
 }
 
 if (args.fcpxmlToGif) {
-  console.log("starting fcpxmlToGif");
+  console.log("starting fcpxmlToGif--warning, this is SLOW and not optimized yet.");
   gifMachine.fcpxmlToGif(args.fcpxmlToGif)
+}
+
+if (args.folderToGifs) {
+  console.log("starting folderToGifs--warning, this is SLOW and not optimized yet.");
+  gifMachine.folderToGifs(args.folderToGifs, 480)
+}
+
+if (args.makeGifFromPngs) {
+  console.log("starting makeGifFromPngs--warning, this is SLOW and not optimized yet.");
+  gifMachine.makeGifFromPngs(args.makeGifFromPngs, 480)
 }
