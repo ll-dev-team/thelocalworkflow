@@ -1,0 +1,34 @@
+
+<style>
+  body {
+    background-color: black;
+  }
+  h1 {
+    color: rgba(255,255,255,0.7);
+    font-family: "Avenir Next";
+    font-weight: 300;
+    font-size: 40px;
+    margin: auto;
+    text-align: center;
+
+  }
+  div.video {
+    position: fixed;
+    top: 0;
+    width: 300px;
+    margin: auto;
+    z-index: -100;  
+  }
+  video {
+    text-align: center;
+  }
+</style>
+<h1>video loop tests</h1>
+<div class="video">
+
+<video autoplay loop width="100%">
+  <source src="/videos/mk_mermaid.mov" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+</div>
