@@ -7,6 +7,7 @@ const shootprocessor = require("./shootprocessor");
 const dateFormat = require('dateformat');
 
 var now = new Date();
+var syncCameras = ["C300a", "C300b", "C300c", "GH4a", "GH4"];
 
 function makeFcpxml(shootObject){
   // define key variables for fcpxml---mainly container arrays for the clip, format and mc or cc resources to come.
@@ -22,7 +23,6 @@ function makeFcpxml(shootObject){
   var keywordsToAdd = [];
   var keywordArray = [];
   var stillsProjectArray = [];
-
   shootObject.clipArray.forEach(function(clip, index){
     var theCounter=theResourceXml.resources.length + 1;
     clip.fcpxml.asset._attr.id = ("r"+theCounter);
@@ -43,10 +43,9 @@ function makeFcpxml(shootObject){
           keywordArray.push(theKeyword);
         }
       }
+      stillsProjectArray.push(clipXmlForStillsProject);
+      // console.log(JSON.stringify(stillsProjectArray, null, 4));
     }
-
-    stillsProjectArray.push(clipXmlForStillsProject);
-    // console.log(JSON.stringify(stillsProjectArray, null, 4));
   });
   // loop through keywordArray to build keyword-collection elements for library
   var mcR = (theResourceXml.resources.length + 1);
@@ -205,8 +204,9 @@ function makeFormats(shootObject){
 }
 
 function resourceMediaMulticam(shootObject, mcR){
-  var cameras = shootObject.cameraArray;
+  var cameras = shootObject.cameraArray.filter(cam => syncCameras.includes(cam));
   console.log(shootObject.cameraArray + " is the shootObject.cameraArray");
+  console.log("but the sync array is " + cameras);
   // TODO: always define as "r1" and always define r1 as 1080x1920, 23.98?
   var anglesArray = [];
   // build angles array
@@ -279,7 +279,7 @@ function threeCamCc(shootObject, ccR, theResMc){
                 {"mc-source": [
                   {_attr:{angleID: ("0000"+shootObject.cameraArray[0]), srcEnable:"all"}},
                   {"filter-video":[
-                    {_attr:{ref:shootObject.fcpxml.motionEffectA.effect._attr.id, name:"2.5_A"}},
+                    {_attr:{ref:shootObject.fcpxml.motionEffectA.effect._attr.id, name:"2.5-cam-A-2018"}},
                     {param:{_attr: {
                       name:"Position",
                       key:"9999/32385/10619/1/100/101",
@@ -331,19 +331,62 @@ function threeCamCc(shootObject, ccR, theResMc){
 
   //hardcoding all layers of CC for now
   //add second element of CC
-  theResCcXml.media[1].sequence[1].spine[0]["mc-clip"].push({"mc-clip":
-  [{_attr:{name: (shootObject.shootId + "_MC"), lane:"-2", offset:(shootObject.startClip.start_ts + "/24000s"), ref:shootObject.resourceMcCounterR, duration:(shootObject.mcDuration +"/24000s"), start:(shootObject.startClip.start_ts + "/24000s")}},
-  {"adjust-volume":{_attr:{amount:"-96dB"}}},
-  {"mc-source": {_attr:{angleID: ("0000"+shootObject.cameraArray[0]), srcEnable:"audio"}}},
-  {"mc-source": [{_attr:{angleID: ("0000"+shootObject.cameraArray[1]), srcEnable:"video"}}, {"filter-video": {_attr:{ref: shootObject.fcpxml.motionEffectC.effect._attr.id, name:"2.5_C"}}}]}
-  ]});
-  //add third element of CC
-  theResCcXml.media[1].sequence[1].spine[0]["mc-clip"].push({"mc-clip":
-  [{_attr:{name: (shootObject.shootId + "_MC"), lane:"-1", offset:(shootObject.startClip.start_ts + "/24000s"), ref:shootObject.resourceMcCounterR, duration:(shootObject.mcDuration +"/24000s"), start:(shootObject.startClip.start_ts + "/24000s")}},
-  {"adjust-volume":{_attr:{amount:"-96dB"}}},
-  {"mc-source": {_attr:{angleID: ("0000"+shootObject.cameraArray[0]), srcEnable:"audio"}}},
-  {"mc-source": [{_attr:{angleID: ("0000"+shootObject.cameraArray[2]), srcEnable:"video"}}, {"filter-video": {_attr:{ref: shootObject.fcpxml.motionEffectB.effect._attr.id, name:"2.5_B"}}}]}
-  ]});
+  var anglesToAdd = shootObject.cameraArray.filter(function(e){return syncCameras.includes(e)});
+  console.log("trying to reorder cameras here with this Array: " + anglesToAdd);
+
+  if (anglesToAdd.includes('GH4')) {
+    theResCcXml.media[1].sequence[1].spine[0]["mc-clip"].push({"mc-clip":
+    [{_attr:{name: (shootObject.shootId + "_MC"), lane:"1", offset:(shootObject.startClip.start_ts + "/24000s"), ref:shootObject.resourceMcCounterR, duration:(shootObject.mcDuration +"/24000s"), start:(shootObject.startClip.start_ts + "/24000s")}},
+    {"adjust-volume":{_attr:{amount:"-96dB"}}},
+    {"mc-source": {_attr:{angleID: ("0000"+shootObject.cameraArray[0]), srcEnable:"audio"}}},
+    {"mc-source": [{_attr:{angleID: "0000GH4", srcEnable:"video"}}, {"filter-video": {_attr:{ref: shootObject.fcpxml.motionEffectB.effect._attr.id, name:"2.5-cam-B-2018"}}}]}
+    ]});
+    var filteredArray = anglesToAdd.filter(function(e) {return e !== "GH4"});
+    if (filteredArray.length > 1) {
+      theResCcXml.media[1].sequence[1].spine[0]["mc-clip"].push({"mc-clip":
+      [{_attr:{name: (shootObject.shootId + "_MC"), lane:"2", offset:(shootObject.startClip.start_ts + "/24000s"), ref:shootObject.resourceMcCounterR, duration:(shootObject.mcDuration +"/24000s"), start:(shootObject.startClip.start_ts + "/24000s")}},
+      {"adjust-volume":{_attr:{amount:"-96dB"}}},
+      {"mc-source": {_attr:{angleID: ("0000"+shootObject.cameraArray[0]), srcEnable:"audio"}}},
+      {"mc-source": [{_attr:{angleID: ("0000"+filteredArray[1]), srcEnable:"video"}}, {"filter-video": {_attr:{ref: shootObject.fcpxml.motionEffectC.effect._attr.id, name:"2.5-cam-C-2018"}}}]}
+      ]});
+    }
+  }
+  else if (anglesToAdd.includes('GH4a')) {
+    if (anglesToAdd.includes('GH4')) {
+      theResCcXml.media[1].sequence[1].spine[0]["mc-clip"].push({"mc-clip":
+      [{_attr:{name: (shootObject.shootId + "_MC"), lane:"1", offset:(shootObject.startClip.start_ts + "/24000s"), ref:shootObject.resourceMcCounterR, duration:(shootObject.mcDuration +"/24000s"), start:(shootObject.startClip.start_ts + "/24000s")}},
+      {"adjust-volume":{_attr:{amount:"-96dB"}}},
+      {"mc-source": {_attr:{angleID: ("0000"+shootObject.cameraArray[0]), srcEnable:"audio"}}},
+      {"mc-source": [{_attr:{angleID: "0000GH4a", srcEnable:"video"}}, {"filter-video": {_attr:{ref: shootObject.fcpxml.motionEffectB.effect._attr.id, name:"2.5-cam-B-2018"}}}]}
+      ]});
+      var filteredArray = anglesToAdd.filter(function(e) {return e !== "GH4a"});
+      if (filteredArray.length > 1) {
+        theResCcXml.media[1].sequence[1].spine[0]["mc-clip"].push({"mc-clip":
+        [{_attr:{name: (shootObject.shootId + "_MC"), lane:"2", offset:(shootObject.startClip.start_ts + "/24000s"), ref:shootObject.resourceMcCounterR, duration:(shootObject.mcDuration +"/24000s"), start:(shootObject.startClip.start_ts + "/24000s")}},
+        {"adjust-volume":{_attr:{amount:"-96dB"}}},
+        {"mc-source": {_attr:{angleID: ("0000"+shootObject.cameraArray[0]), srcEnable:"audio"}}},
+        {"mc-source": [{_attr:{angleID: ("0000"+filteredArray[1]), srcEnable:"video"}}, {"filter-video": {_attr:{ref: shootObject.fcpxml.motionEffectC.effect._attr.id, name:"2.5-cam-C-2018"}}}]}
+        ]});
+      }
+    }
+  }
+  else {
+    theResCcXml.media[1].sequence[1].spine[0]["mc-clip"].push({"mc-clip":
+    [{_attr:{name: (shootObject.shootId + "_MC"), lane:"2", offset:(shootObject.startClip.start_ts + "/24000s"), ref:shootObject.resourceMcCounterR, duration:(shootObject.mcDuration +"/24000s"), start:(shootObject.startClip.start_ts + "/24000s")}},
+    {"adjust-volume":{_attr:{amount:"-96dB"}}},
+    {"mc-source": {_attr:{angleID: ("0000"+shootObject.cameraArray[0]), srcEnable:"audio"}}},
+    {"mc-source": [{_attr:{angleID: ("0000"+anglesToAdd[1]), srcEnable:"video"}}, {"filter-video": {_attr:{ref: shootObject.fcpxml.motionEffectB.effect._attr.id, name:"2.5-cam-B-2018"}}}]}
+    ]});
+    //add third element of CC
+    if (anglesToAdd.length>2) {
+      theResCcXml.media[1].sequence[1].spine[0]["mc-clip"].push({"mc-clip":
+      [{_attr:{name: (shootObject.shootId + "_MC"), lane:"1", offset:(shootObject.startClip.start_ts + "/24000s"), ref:shootObject.resourceMcCounterR, duration:(shootObject.mcDuration +"/24000s"), start:(shootObject.startClip.start_ts + "/24000s")}},
+      {"adjust-volume":{_attr:{amount:"-96dB"}}},
+      {"mc-source": {_attr:{angleID: ("0000"+shootObject.cameraArray[0]), srcEnable:"audio"}}},
+      {"mc-source": [{_attr:{angleID: ("0000"+anglesToAdd[2]), srcEnable:"video"}}, {"filter-video": {_attr:{ref: shootObject.fcpxml.motionEffectC.effect._attr.id, name:"2.5-cam-C-2018"}}}]}
+      ]});
+    }
+  }
 
   // console.log("number of elements in theResMc.media = " + theResMc.media[1].multicam.length);
   for (var i = 0; i < theResMc.media[1].multicam.length; i++) {
@@ -383,7 +426,6 @@ function makeProject(shootObject, ccR){
     };
   return projectXml;
 }
-
 
 // function makeStillsProject(shootObject){
 //   // calculate stillsProjectDuration

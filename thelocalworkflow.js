@@ -14,7 +14,7 @@ const io2s = require("./tools/scripts/io2s").io2s;
 const popFcpxml = require("./tools/scripts/populate_fcpxml");
 // var reHidden = /^\./;
 var theDate = new Date;
-  require('dotenv').config();
+require('dotenv').config();
 var mongoDB = process.env.MONGODB_URL;
 const colors = require('colors/safe');
 // var mongoDB = process.env.MONGODB_URL_DEV;
@@ -51,11 +51,16 @@ if (args.help ||
       || args.fcpxmlToGif
       || args.makeGifFromPngs
       || args.folderToGifs
-      || args.io2gif)
+      || args.io2gif
+      || args.test)
   ) {
         printHelp();
         process.exit(1);
     }
+
+if (args.test) {
+  console.log(__basedir + "the rest");
+}
 
 if (args.io2s) {
   var theJson = require(args.json);
@@ -173,7 +178,7 @@ if (args.populate) {
 
 if (args.transcode) {
   // var destRoot = '/Volumes/06_01/Proxy_Footage/2017_12_Proxy'
-  var destRoot = '/Volumes/mk2/test_output'
+  var destRoot = '/Users/mk/Development/test_materials/exports'
   console.log(JSON.stringify(args, null, 8));
   var crfVal = 23
   if (args.crf) {

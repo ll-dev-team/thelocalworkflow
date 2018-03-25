@@ -3,12 +3,9 @@ const path = require('path');
 const cp = require('child_process');
 var colors = require('colors/safe');
 const parseXmlString = require('xml2js').parseString;
-
 require('dotenv').config();
-console.log(process.env.FFMPEG_PATH);
-console.log(process.env.BASEDIR);
-const workingDir = path.join(process.env.BASEDIR, 'public/images/temp/video');
-const gifDir = path.join(process.env.BASEDIR, 'public/images/gif');
+const workingDir = path.join(process.env.ROOT_DIR, 'public/images/temp/video');
+const gifDir = path.join(process.env.ROOT_DIR, 'public/images/gif');
 
 function ffprobeVideoSync(videoFilePath){
   // this is equivalent of running "ffprobe -v quiet -print_format json -show_format -show_streams [file]"
@@ -45,7 +42,6 @@ function makeGif(filePath, outputWidth){
       {encoding:'utf8'});
   fs.unlinkSync((path.join(gifDir, (fileName + '-palette.png'))))
 }
-
 
 function makeGifFromPngs(filePath, outputWidth){
   console.log("\n\n . . . starting the makeGif function . . . \n\n");

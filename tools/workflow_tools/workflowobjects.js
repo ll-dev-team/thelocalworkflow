@@ -35,8 +35,8 @@ function Clip(folderPath, camFolder, file, theIndex){
     }
   };
   this.formatJson = JSON.stringify(theFfprobeObject.format, null, 2);
-  console.log("\n\nhere is the json for " + this.newBasename +
-  ": \n" + this.formatJson);
+  // console.log("\n\nhere is the json for " + this.newBasename +
+  // ": \n" + this.formatJson);
   if (theFfprobeObject.format.tags.creation_time) {
     this.formatTagsCreationTime = theFfprobeObject.format.tags.creation_time;
   }
@@ -146,9 +146,10 @@ function Shoot(shootPath){
   this.projectId = this.shootId.split('_')[2];
   this.subId = this.shootId.split('_')[3];
   this.fcpxml = {};
-  this.fcpxml.motionEffectA = {effect: {_attr:{id:"empty", name:"2.5_A", uid:"~/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef", src:"file:///Users/mk/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef"}}};
-  this.fcpxml.motionEffectC = {effect: {_attr:{id:"empty", name:"2.5_C", uid:"~/Effects.localized/thelocalworkflow/2.5/2.5_C/2.5_C.moef", src:"file:///Users/mk/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_C/2.5_C.moef"}}};
-  this.fcpxml.motionEffectB = {effect: {_attr:{id:"empty", name:"2.5_B", uid:"~/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef", src:"file:///Users/mk/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef"}}};
+  this.fcpxml.motionEffectA = {effect: {_attr:{id:"empty", name:"2.5-cam-A-2018", uid:"~/Effects.localized/ll-2018/multicam/2.5-cam-A-2018/2.5-cam-A-2018.moef", src:("file://" + process.env.ROOT_DIR + "/tools/motion_templates/ll-2018/multicam/2.5-cam-A-2018/2.5-cam-A-2018.moef")}}};
+  this.fcpxml.motionEffectB = {effect: {_attr:{id:"empty", name:"2.5-cam-B-2018", uid:"~/Effects.localized/ll-2018/multicam/2.5-cam-B-2018/2.5-cam-B-2018.moef", src:("file://" + process.env.ROOT_DIR + "/tools/motion_templates/ll-2018/multicam/2.5-cam-B-2018/2.5-cam-B-2018.moef")}}};
+  this.fcpxml.motionEffectC = {effect: {_attr:{id:"empty", name:"2.5-cam-C-2018", uid:"~/Effects.localized/ll-2018/multicam/2.5-cam-C-2018/2.5-cam-C-2018.moef", src:("file://" + process.env.ROOT_DIR + "/tools/motion_templates/ll-2018/multicam/1-cam-C-2018/1-cam-C-2018.moef")}}};
+
 };
 
 var workflowTools = {

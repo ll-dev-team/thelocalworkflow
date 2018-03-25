@@ -6,6 +6,7 @@ var path = require("path");
 const Clip = require("./workflowobjects").Clip;
 const Shoot = require("./workflowobjects").Shoot;
 const Still = require("./workflowobjects").Still;
+var syncCameras = ["C300a", "C300b", "C300c", "GH4a", "GH4"];
 
 var logLocation = '/Users/mk/Development/_tests/calcSize';
 
@@ -77,8 +78,12 @@ function rename(folderPath) {
   }
   // find the first clip by CLOCK time stored in creation_time
   var minUtcCrStartMillTs = Math.min.apply(Math,thisShoot.clipArray.map(function(o){return o.utcTcStartMill;}));
+  var syncClipArray = thisShoot.clipArray.filter(clip => {
+    return syncCameras.includes(clip.cameraFolder);
+  })
+  console.log(thisShoot.clipArray.length + " total clips.  And " + syncClipArray.length + " clips that can be synchronized.");
   // find the clip that has this start time and define it as thisShoot's startClip
-  thisShoot.startClip = thisShoot.clipArray.find(function(o){ return o.utcTcStartMill == minUtcCrStartMillTs; })
+  thisShoot.startClip = syncClipArray.find(function(o){ return o.utcTcStartMill == minUtcCrStartMillTs; })
   // find the very first clip in start_ts terms (this is important for fcpx)
   var minStartTs = Math.min.apply(Math,thisShoot.clipArray.map(function(o){return o.start_ts;}));
   thisShoot.tsStartClip = thisShoot.clipArray.find(function(o){ return o.start_ts == minStartTs; });
@@ -161,12 +166,18 @@ function getShootInfo(folderPath) {
   });
   // store theseClipObjects array in thisShoot.clipArray
   thisShoot.clipArray = theseClipObjects;
+  // TODO: need to loop clips twice: once for clock time beginning, once for TC beginning of synchronizable cameras.
   // create shootNotes by looping through all clips and logging old name and new name.
   // find the first clip by CLOCK time stored in creation_time
   var minUtcCrStartMillTs = Math.min.apply(Math,thisShoot.clipArray.map(function(o){return o.utcTcStartMill;}));
   // find the clip that has this start time and define it as thisShoot's startClip
+  var syncClipArray = thisShoot.clipArray.filter(clip => {
+    return syncCameras.contains(clip.cameraFolder);
+  })
+  console.log(thisShoot.clipArray.length + " total clips.  And " + syncClipArray.length + " clips that can be synchronized.");
   thisShoot.startClip = thisShoot.clipArray.find(function(o){ return o.utcTcStartMill == minUtcCrStartMillTs; })
   // find the very first clip in start_ts terms (this is important for fcpx)
+  // // TODO: but currently we are using UTC instead.  Is this a problem?
   var minStartTs = Math.min.apply(Math,thisShoot.clipArray.map(function(o){return o.start_ts;}));
   thisShoot.tsStartClip = thisShoot.clipArray.find(function(o){ return o.start_ts == minStartTs; });
   var maxEndTs = Math.max.apply(Math,thisShoot.clipArray.map(function(o){return o.end_ts;}));
