@@ -234,7 +234,7 @@
 	<displayEffects>1</displayEffects>
 	<videoVerticalZoom>1.5555555555555556</videoVerticalZoom>
 	<audioVerticalZoom>1.5555555820465088</audioVerticalZoom>
-	<displayRange in="-1480781067 2082031250 3 0" out="25736219384 1000000000 3 0"/>
+	<displayRange in="-43043 60520 3 0" out="1557556 60520 3 0"/>
 </timeline>
 
 <curveeditor>
@@ -242,8 +242,8 @@
 	<snapping>0</snapping>
 	<displayAudioWaveform>0</displayAudioWaveform>
 	<lockKeyframesInTime>0</lockKeyframesInTime>
-	<displayRange in="-1480781067 2082031250 3 0" out="25736219384 1000000000 3 0"/>
-	<currentviewvolume originx="-0.71121942430018759" originy="-62.5" width="26.447438808000001" height="125"/>
+	<displayRange in="-43043 60520 3 0" out="1557556 60520 3 0"/>
+	<currentviewvolume originx="-0.71121943159286183" originy="-62.5" width="26.447438863185724" height="125"/>
 	<snapshotChannels>0</snapshotChannels>
 </curveeditor>
 
@@ -290,8 +290,8 @@
 		<target object="32796" channel="./2/353/113/141" name="Fill Opacity"/>
 	</publishSettings>
 	<currentFrame>0 1 1 0</currentFrame>
-	<currentObject>32796</currentObject>
-	<activeLayer>10003</activeLayer>
+	<currentObject>10051</currentObject>
+	<activeLayer>32385</activeLayer>
 	<timeRange offset="0 1 1 0" duration="3003000 120000 1 0"/>
 	<playRange offset="0 1 1 0" duration="3003000 120000 1 0"/>
 	<flags>1</flags>
@@ -445,7 +445,7 @@
 				<parameter name="Auto-Shrink" id="370" flags="8590032912" default="0" value="0"/>
 				<parameter name="Crop At Margins" id="372" flags="8589967376" default="0" value="0"/>
 				<parameter name="Basic" id="2000" flags="12884938770" factoryID="0">
-					<parameter name="Substance" id="32685" flags="12884906002" factoryID="0">
+					<parameter name="Substance" id="32816" flags="12884906002" factoryID="0">
 						<parameter name="Color" id="1" flags="4295004162">
 							<foldFlags>15</foldFlags>
 						</parameter>
@@ -587,7 +587,7 @@ and notes</text>
 				<parameter name="Auto-Shrink" id="370" flags="8590032912" default="0" value="0"/>
 				<parameter name="Crop At Margins" id="372" flags="8589967376" default="0" value="0"/>
 				<parameter name="Basic" id="2000" flags="12884938770" factoryID="0">
-					<parameter name="Substance" id="32695" flags="12884906002" factoryID="0">
+					<parameter name="Substance" id="32826" flags="12884906002" factoryID="0">
 						<parameter name="Color" id="1" flags="4295004162">
 							<foldFlags>15</foldFlags>
 						</parameter>
@@ -718,7 +718,7 @@ and notes</text>
 				<parameter name="Auto-Shrink" id="370" flags="8590032912" default="0" value="0"/>
 				<parameter name="Crop At Margins" id="372" flags="8589967376" default="0" value="0"/>
 				<parameter name="Basic" id="2000" flags="12884938770" factoryID="0">
-					<parameter name="Substance" id="32705" flags="12884906002" factoryID="0">
+					<parameter name="Substance" id="32836" flags="12884906002" factoryID="0">
 						<parameter name="Color" id="1" flags="4295004162">
 							<foldFlags>15</foldFlags>
 						</parameter>
@@ -796,7 +796,7 @@ and notes</text>
 			<flags>0</flags>
 			<timing in="0 1 1 0" out="2997995 120000 1 0" offset="0 1 1 0"/>
 			<foldFlags>0</foldFlags>
-			<baseFlags>34078736</baseFlags>
+			<baseFlags>302514193</baseFlags>
 			<parameter name="Properties" id="1" flags="8589938704">
 				<parameter name="Transform" id="100" flags="8589938704">
 					<parameter name="Position" id="101" flags="8589938704">
@@ -836,11 +836,15 @@ and notes</text>
 						<parameter name="Alignment" id="401" flags="8590000144" default="0" value="1"/>
 					</parameter>
 				</parameter>
+				<parameter name="Background Color" id="374" flags="8589938704">
+					<foldFlags>11</foldFlags>
+					<parameter name="Opacity" id="4" flags="8589934608" default="1" value="0"/>
+				</parameter>
 				<parameter name="Timecode" id="507" flags="8589938704">
 					<parameter name="Label" id="505" flags="8590000128"/>
 				</parameter>
 				<parameter name="Basic" id="2000" flags="12884938770" factoryID="0">
-					<parameter name="Substance" id="32714" flags="12884906002" factoryID="0">
+					<parameter name="Substance" id="32845" flags="12884906002" factoryID="0">
 						<parameter name="Color" id="1" flags="4295004162">
 							<foldFlags>15</foldFlags>
 						</parameter>
@@ -1037,15 +1041,8 @@ and notes</text>
 			<flags>0</flags>
 			<timing in="-10010 120000 1 0" out="2997995 120000 1 0" offset="820820 120000 1 0"/>
 			<foldFlags>0</foldFlags>
-			<baseFlags>524305</baseFlags>
+			<baseFlags>524304</baseFlags>
 			<parameter name="Properties" id="1" flags="8589938704">
-				<parameter name="Transform" id="100" flags="8589938704">
-					<parameter name="Position" id="101" flags="8589938704">
-						<foldFlags>15</foldFlags>
-						<parameter name="X" id="1" flags="8589934608" default="0" value="1.3046875"/>
-						<parameter name="Y" id="2" flags="8589934608" default="0" value="-0.6171875"/>
-					</parameter>
-				</parameter>
 				<parameter name="Lighting" id="230" flags="8589938706">
 					<foldFlags>15</foldFlags>
 				</parameter>
@@ -1069,9 +1066,9 @@ and notes</text>
 						<foldFlags>131072</foldFlags>
 						<parameter name="Fill Color" id="111" flags="12884906000">
 							<foldFlags>15</foldFlags>
-							<parameter name="Red" id="1" flags="8589934608" default="1" value="0"/>
-							<parameter name="Green" id="2" flags="8589934608" default="1" value="0"/>
-							<parameter name="Blue" id="3" flags="8589934608" default="1" value="0"/>
+							<parameter name="Red" id="1" flags="8606711824" default="1" value="0"/>
+							<parameter name="Green" id="2" flags="8606711824" default="1" value="0"/>
+							<parameter name="Blue" id="3" flags="8606711824" default="1" value="0"/>
 						</parameter>
 					</parameter>
 					<parameter name="Outline" id="108" flags="8589971472">
@@ -1125,8 +1122,8 @@ and notes</text>
 					</parameter>
 					<parameter name="Size" id="160" flags="8589938704">
 						<foldFlags>8388619</foldFlags>
-						<parameter name="Width" id="1" flags="12884901904" default="1919.625" value="1920"/>
-						<parameter name="Height" id="2" flags="12884901904" default="1083.0625" value="1080"/>
+						<parameter name="Width" id="1" flags="12901679120" default="1919.625" value="1920"/>
+						<parameter name="Height" id="2" flags="12901679120" default="1083.0625" value="1080"/>
 					</parameter>
 					<parameter name="Completed" id="157" flags="8589934610" default="0" value="1"/>
 				</parameter>
