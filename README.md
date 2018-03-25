@@ -6,7 +6,7 @@ Use at your own risk.  These are internal workflow tools that don't all work, an
 
 For our staff, the best place to get started learning is actually [thesimpleworkflow](https://github.com/learninglab-dev/thesimpleworkflow). But when you want to get `thelocalworkflow` running on one of our machines, here are the steps:
 
-1. make sure your machine has node and git installed (should be no problem if on one of the LL machines)
+1. make sure your machine has ffmpeg, ffprobe, node and git installed (should be no problem if on one of the LL machines)
 2. open up Terminal and get into your Development folder if you have one (type `cd ~/Development`)
 3. type `git clone https://github.com/ll-dev-team/thelocalworkflow.git` to clone the repository--it will create a new folder for thesimpleworkflow.  (Alternatively, if you have your own github account you can click the "fork" icon to fork thesimpleworkflow and work on this fork)
 4. type `cd thelocalworkflow` to change directories and get into the root of `thelocalworkflow` app
