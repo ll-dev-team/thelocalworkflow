@@ -177,8 +177,7 @@ if (args.populate) {
 }
 
 if (args.transcode) {
-  // var destRoot = '/Volumes/06_01/Proxy_Footage/2017_12_Proxy'
-  var destRoot = '/Users/mk/Development/test_materials/exports'
+  var destRoot = process.env.BASE_DIR
   console.log(JSON.stringify(args, null, 8));
   var crfVal = 23
   if (args.crf) {
