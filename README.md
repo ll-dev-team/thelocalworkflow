@@ -18,7 +18,7 @@ For our staff, the best place to get started learning is actually [thesimplework
 
 ## things to discover
 
-We are a professional video team rather than a software development team, so everything here is pretty experimental, but if you want to team with us we can on building some useful tools together.
+We are a professional video team rather than a software development team, so everything here is pretty experimental.  But we are happy to team up with friends to build useful tools together (if not necessarily ready-for-primetime products).
 Here are some of the elements of `thelocalworkflow` you might want to use or explore:
 
 ### Markers to Stills
@@ -49,3 +49,7 @@ Our gif scripts are new and underdeveloped (and obviously not quite as essential
 2. To create a whole bunch of GIFs from a folder of short video files, use the command `node the localworkflow --folderToGifs [your path]`.
 
 Take a look at the code we have for `io2gif` and `fcpxmlToGif`---this is pretty experimental and broken, but the basic idea of `io2gif` is to be able to request a gif by identifying a segment of a longer video file, and the idea behind `fcpxmlToGif` is to be able to parse an xml file, look for any FCPX range selections with the keyword "gif", and then export each of these segments in animated gif form.
+
+### transcoding with ffmpeg
+
+Compressor frequently causes us trouble, and we haven't had a crazy amount of luck automating large batches with it.  So in `/tools/scripts/transcode_sync` you'll find the code we use to run transcoding operations.
