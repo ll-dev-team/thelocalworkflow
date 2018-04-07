@@ -25,5 +25,12 @@ function ffprobeSync(videoFilePath){
   // console.log(video_meta.streams[0].codec_long_name);
 }
 
+function ffprobeSyncSimple(videoFilePath, options){
+  options.push(videoFilePath);
+  var output = cp.spawnSync(process.env.FFPROBE_PATH, options, { encoding : 'utf8' });
+  return output.stdout;
+}
+
 module.exports.ffprobe = ffprobe;
 module.exports.ffprobeSync = ffprobeSync;
+module.exports.ffprobeSyncSimple = ffprobeSyncSimple;

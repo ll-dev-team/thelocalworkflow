@@ -12,6 +12,7 @@ const transcode = require("./tools/scripts/transcode_sync").transcode;
 const gifMachine = require("./tools/workflow_tools/gif_machine");
 const io2s = require("./tools/scripts/io2s").io2s;
 const popFcpxml = require("./tools/scripts/populate_fcpxml");
+const ffprobetools = require("./tools/workflow_tools/ffprobetools");
 // var reHidden = /^\./;
 var theDate = new Date;
 require('dotenv').config();
@@ -59,7 +60,9 @@ if (args.help ||
     }
 
 if (args.test) {
-  console.log(__basedir + "the rest");
+  var options = ['-v', 'error', '-print_format', 'json', '-select_streams', 'v:0', '-show_entries', 'stream=width,height'];
+  var output = JSON.parse(ffprobetools.ffprobeSyncSimple(args.test, options));
+  console.log(output.streams[0].width + " is the width");
 }
 
 if (args.io2s) {
