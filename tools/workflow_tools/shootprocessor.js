@@ -11,22 +11,18 @@ var syncCameras = ["C300a", "C300b", "C300c", "GH4a", "GH4"];
 var logLocation = '/Users/mk/Development/_tests/calcSize';
 
 function rename(folderPath) {
-  // regex to cope with hidden files
-  var additionalOperations=[];
-  var re = /^\./;
-  // construct new Shoot object using the Shoot object constructor we required from workflowobjects
-  var thisShoot = new Shoot(folderPath);
   // start arrays for clips and cameras that we'll add to as we loop through the folders and files
+  var additionalOperations=[];
   var theseClipObjects = [];
   var cameraArray = [];
+  var re = /^\./; // regex to cope with hidden files
+  var hiddenRe = /^_/; // regex for folders to skip
+  var thisShoot = new Shoot(folderPath);
   // get list of folders
   var folders = fs.readdirSync(folderPath);
-  var hiddenRe = /^_/;
   folders.forEach(function(camFolder){
     // check if this is actually a folder, if so, push folder's name as a camera to .cameraArray and start looping files in it
     if (hiddenRe.test(camFolder)) {
-      console.log("hidden folder test positive for " + camFolder);
-      console.log("do you want to rename?  Enter YES or NO:\n");
       var offsetForIndex = 0;
       fs.readdirSync(path.join(folderPath,camFolder)).forEach(function(file, index) {
         if (re.test(file)) {
@@ -167,6 +163,7 @@ function rename(folderPath) {
   })
   return thisShoot;
 }
+
 
 function getShootInfo(folderPath) {
   // regex to cope with hidden files
