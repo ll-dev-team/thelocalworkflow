@@ -8,7 +8,7 @@ const m2sf = require("./tools/workflow_tools/m2s").fcpxmlFileToStills;
 const MongoClient = require("mongodb").MongoClient, assert = require('assert');
 const cp = require('child_process');
 const path = require('path');
-const transcode = require("./tools/scripts/transcode_sync").transcode;
+const transcoder = require("./tools/workflow_tools/transcoder");
 const gifMachine = require("./tools/workflow_tools/gif_machine");
 const io2s = require("./tools/scripts/io2s").io2s;
 const popFcpxml = require("./tools/scripts/populate_fcpxml");
@@ -213,7 +213,8 @@ if (args.transcode) {
           if ((/\.(mov|MOV|mp4|m4v|mts)$/i).test(videoFilePath)) {
             console.log("we think this is a video: " + videoFilePath);
             console.log("and it's destination will be " + vfDestinationPath);
-            transcode(videoFilePath, vfDestinationPath, crfVal)
+            var dimensions = transcoder.getDesiredDimensions(videoFilePath);
+            transcoder.transcode(videoFilePath, vfDestinationPath, crfVal, dimensions.outputWidth, dimensions.outputHeight);
           }
           else {
             console.log("we don't think this is a video: " + videoFilePath);
@@ -224,13 +225,11 @@ if (args.transcode) {
         console.log("we don't think that this is a directory: " + path.join(args.folder, camfoldersToTranscode[i]));
       }
     }
-
   }
   else {
     console.log("didn't get expected input.  you have to add a folder with the --folder flag");
     // transcode(args.transcode, crfVal);
   }
-
 }
 
 if (args.gif) {
