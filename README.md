@@ -25,7 +25,7 @@ You'll need to make sure certain things are installed before going any further.
 4. make sure you have git installed (do you see anything when you type `git --version`?)--you can find it [here](https://git-scm.com/download/mac).
 
 ### clone thelocalworkflow
-5. open up Terminal and get into your Development folder if you have one (type `cd ~/Development`)
+1. open up Terminal and get into your Development folder if you have one (type `cd ~/Development`)
 6. type `git clone https://github.com/ll-dev-team/thelocalworkflow.git` to clone the repository--it will create a new folder for thesimpleworkflow.  (Alternatively, if you have your own github account you can click the "fork" icon to fork thesimpleworkflow and work on this fork)
 4. type `cd thelocalworkflow` to change directories and get into the root of `thelocalworkflow` app
 5. type `npm install` to install all the npm dependencies you'll need
