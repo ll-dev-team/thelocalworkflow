@@ -25,12 +25,27 @@ You'll need to make sure certain things are installed before going any further.
 4. make sure you have git installed (do you see anything when you type `git --version`?)--you can find it [here](https://git-scm.com/download/mac).
 
 ### clone thelocalworkflow
-1. open up Terminal and get into your Development folder if you have one (type `cd ~/Development`)
-6. type `git clone https://github.com/ll-dev-team/thelocalworkflow.git` to clone the repository--it will create a new folder for thesimpleworkflow.  (Alternatively, if you have your own github account you can click the "fork" icon to fork thesimpleworkflow and work on this fork)
+1. open up Terminal and get into your Development folder if you have one (type `cd ~/Development`)--if you don't have one, type
+    ```
+    cd ~
+    mkdir Development
+    cd Development
+    ```
+2. type `git clone https://github.com/ll-dev-team/thelocalworkflow.git` to clone the repository--it will create a new folder for thesimpleworkflow.  (Alternatively, if you have your own github account you can click the "fork" icon to fork thesimpleworkflow and work on this fork--definitely do this if you want to play around with making changes)
 4. type `cd thelocalworkflow` to change directories and get into the root of `thelocalworkflow` app
 5. type `npm install` to install all the npm dependencies you'll need
 5. type `atom .` to open up the root folder and all of its contents in Atom (this will only work if you have Atom command line tools installed, but you should do this if you haven't already)
-6. create a file in the root directory of thesimpleworkflow called `.env` and add all your secret stuff (like `SLACK_TOKEN=XXXXXXXXXXXX` and `MONGODB_URL=XXXXXXXXXX` etc.)--ask MK for more info on this that we can't put up on GitHub
+6. create a file in the root directory of thesimpleworkflow called `.env` and add all your secret and machine-specific stuff, at a bare minimum, you'll need
+    ```
+    ROOT_DIR=/Users/XXX/Development/thelocalworkflow(orWhatever)
+    BASE_DIR=/Users/XXX/Development/_output(orWhatever)
+    FFPROBE_PATH=ffprobe(orWhatever)
+    FFMPEG_PATH=ffmpeg(orWhatever)
+    MONGODB_URL=GET_THE_URL_FOR_MONGODB_AND_ENTER_HERE
+    MONGODB_URL_DEV=DB_URL_FOR_LOCAL_DEV
+    SLACK_WEBHOOK_URL=GET_THE_URL_FOR_SLACK_WEBHOOK_AND_ENTER_HERE
+    ```
+    We don't want to share this stuff on github, so once you have the DB and SLACK urls, don't add them elsewhere in the code.  The `.env` file is special, as it won't be tracked by git (which is why you need to recreate it, unlike everything else, which is all contained in the github repository).
 7. most currently existing functions are available by typing `node thelocalworkflow` + an argument or two.  For example, `node thelocalworkflow --rename` + a folder name will rename all of your footage (if you've organized your folders according to our conventions), and it will generate .fcpxml that syncs all footage from our 4 main cameras.  (Everything else just gets renamed).  For more on the functions available through the command line, check out `thelocalworkflow.js`, which you'll find in the root directory.
 8. we are in the process of making some of these functions available through an html-interface (all running locally on `localhost:3000`).  To play around with this, type `npm start` and then open a browser.  One really useful page that's up and running is the [markers-to-stills page](http://localhost:3000/m2s), which will take in an `.fcpxml` file formatted according to the LL specs and send you back well-named stills, serving them up as a web preview for you and storing them in the public folder.
 
