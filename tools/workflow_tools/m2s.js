@@ -7,12 +7,11 @@ const parseXmlString = require('xml2js').parseString;
 const cp = require('child_process');
 const MongoClient = require("mongodb").MongoClient, assert = require('assert');
 
-const destinationFolder = "/Users/mk/Development/thelocalworkflow/public/images"
+const destinationFolder = (process.env.ROOT_DIR + "/public/images")
 // const destinationFolder = "/Users/mk/Development/_tests/output/m2s";
-const logFolder = "/Users/mk/Development/thelocalworkflow/tools/tests/output/logs";
-var psBoost001 = "curves=psfile='/Users/mk/Development/thelocalworkflow/tools/curves/boost.acv'";
-var gh4Boost_001 = "curves=psfile='/Users/mk/Development/thelocalworkflow/tools/curves/boost.acv'";
-
+const logFolder = (process.env.ROOT_DIR + "/tools/logs");
+var psBoost001 = "curves=psfile='" + process.env.ROOT_DIR + "/tools/curves/boost.acv'";
+var gh4Boost_001 = "curves=psfile='" + process.env.ROOT_DIR + "/tools/curves/boost.acv'";
 
 function Still(tsElements, videoFilePath, m2sPath){
   this.tsElements = tsElements
@@ -41,7 +40,7 @@ function Still(tsElements, videoFilePath, m2sPath){
 }
 
 function toMongo(stillArray){
-  MongoClient.connect(process.env.MONGODB_URL_DEV, function(err, db) {
+  MongoClient.connect(process.env.MONGODB_URL, function(err, db) {
     assert.equal(null, err);
     stillArray.forEach(function(still){
       db.collection('stills').insertOne({still});

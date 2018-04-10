@@ -101,7 +101,7 @@ if (args.compress) {
 }
 
 if (args.rename) {
-  console.log("\n\n\nstarting________________________________________________\n\n\n");
+  console.log("\n\n\nstarting________________________________________________\n\n\nwith " + args.rename);
   var theResult = shootprocessor.rename(args.rename);
   console.log("\n\ncomplete________________________________________________\n\n");
   var theResourceXml = fcpxml.makeFcpxml(theResult);
