@@ -5,6 +5,7 @@ const dateFormat = require('dateformat');
 const xml2js = require('xml2js');
 const parseXmlString = require('xml2js').parseString;
 const cp = require('child_process');
+require('dotenv').config();
 const MongoClient = require("mongodb").MongoClient, assert = require('assert');
 
 const destinationFolder = (process.env.ROOT_DIR + "/public/images")
@@ -64,6 +65,9 @@ function fcpxmlFileToStills(thisXmlPath){
         {
           // even if not using this path to store things, we need to use it to check whether the files are where they're supposed to be
           // TODO: if files aren't there, give user the option to identify shootFolderPath--or path that the shootfolder is in?
+          if (!fs.existsSync(logFolder)) {
+            fs.mkdirSync(logFolder)
+          }
           fs.writeFileSync(path.join(logFolder, "whole_json.txt"), JSON.stringify(result, null, 4));
           extrasFilePathString = result.fcpxml.resources[0].asset[0].$.src.replace('file:///','/');
           filePathStringElements = extrasFilePathString.split('/').slice(1, -2);
