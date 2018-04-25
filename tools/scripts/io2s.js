@@ -22,6 +22,7 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
     var jsonFolderPath = path.dirname(pathForXml);
     var wholeJsonPath = path.join (jsonFolderPath, "wholeJsonRef.json")
     fs.writeFileSync(wholeJsonPath, (JSON.stringify(data.fcpxml.library[0].event, null, 4)))
+    // fs.writeFileSync(wholeJsonPath, (JSON.stringify(data.fcpxml, null, 4))) -- test file for checking out full json for fcpxml
     theMulticlips = [];
     // loop through all segments to find all MCs referened and push to theMulticlips
     segmentArray.forEach((segment)=>{
@@ -53,6 +54,7 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
     segmentArray.forEach((segment, index)=>{
         if (shootIdRe.test(segment.shootId)) {
           console.log(index);
+          console.log(JSON.stringify(segment, null, 4));
           console.log("we think that " + segment.shootId + " is actually a clip.");
           // console.log("testing " + segment.shootId);
           var thisFile = (segment.shootId.split("_MC_")[0] + "_MC");
@@ -66,25 +68,105 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
               break;
             }
           }
+
+          //handle any leading 0s converted to strings by CSVtoJSON
+          if (typeof segment.inFrame === 'string'){
+            segment.inFrame = parseInt(segment.inFrame, 10)
+            console.log('accessed the parseInt function');
+          }
+          if (typeof segment.inSec === 'string'){
+            segment.inSec = parseInt(segment.inSec, 10)
+          }
+          if (typeof segment.inMin === 'string'){
+            segment.inMin = parseInt(segment.inMin, 10)
+          }
+          if (typeof segment.inHr === 'string'){
+            segment.inHr = parseInt(segment.inHr, 10)
+          }
+          if (typeof segment.outFrame === 'string'){
+            segment.outFrame = parseInt(segment.outFrame, 10)
+          }
+          if (typeof segment.outSec === 'string'){
+            segment.outSec = parseInt(segment.outSec, 10)
+          }
+          if (typeof segment.outMin === 'string'){
+            segment.outMin = parseInt(segment.outMin, 10)
+          }
+          if (typeof segment.outHr === 'string'){
+            segment.outHr = parseInt(segment.outHr, 10)
+          }
+
+
           var inTcFcpxml = 1001*((segment.inFrame)+(24*(segment.inSec+(60*(segment.inMin+(60*segment.inHr))))));
-          // console.log("inTcFcpxml is " + inTcFcpxml);
+          console.log("inTcFcpxml is " + inTcFcpxml);
           var outTcFcpxml = 1001*((segment.outFrame)+(24*(segment.outSec+(60*(segment.outMin+(60*segment.outHr))))));
-          // console.log("outTcFcpxml is " + outTcFcpxml);
+          console.log("outTcFcpxml is " + outTcFcpxml);
           var camera = "";
+          var audioAngleID = "";
           if (!segment.camAngle || segment.camAngle=="A") {
             camera = "0000C300a";
+            //new check for angleIDs matching camera names -- this code is overly complicated, could just straight set camera to angleID, but I wanted to be able to log out when there's a discrepancy
+            for (var i = 0; i < data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"].length; i++) {
+              if (camera.substr(-5) == data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.name) {
+                if (camera != data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.angleID) {
+                  camera = data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.angleID
+                  audioAngleID = data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.angleID
+                  console.log("We've updated the angleIDs to match the fcpxml export.");
+              }
+            }
+            };
           }
           else if (segment.camAngle=="B") {
             camera = "0000C300b";
+            for (var i = 0; i < data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"].length; i++) {
+              if (camera.substr(-5) == data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.name) {
+                if (camera != data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.angleID) {
+                  camera = data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.angleID
+                  console.log("We've updated the angleIDs to match the fcpxml export.");
+              }
+            }
+            };
           }
           else if (segment.camAngle=="C") {
             camera = "0000C300c";
+            for (var i = 0; i < data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"].length; i++) {
+              if (camera.substr(-5) == data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.name) {
+                if (camera != data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.angleID) {
+                  camera = data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.angleID
+                  console.log("We've updated the angleIDs to match the fcpxml export.");
+              }
+            }
+            };
           }
           else if (segment.camAngle=="D") {
             camera = "0000GH4";
+            for (var i = 0; i < data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"].length; i++) {
+              if (camera.substr(-3) == data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.name) {
+                if (camera != data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.angleID) {
+                  camera = data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.angleID
+                  console.log("We've updated the angleIDs to match the fcpxml export.");
+
+              }
+            }
+            };
           }
           else {
             camera = "0000C300a";
+            for (var i = 0; i < data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"].length; i++) {
+              if (camera.substr(-5) == data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.name) {
+                if (camera != data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.angleID) {
+                  camera = data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.angleID
+              }
+            }
+            };
+          }
+          //updates audio angleID if video is not C300a
+          if (!audioAngleID) {
+            for (var i = 0; i < data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"].length; i++) {
+              if ('c300a' == data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.name) {
+                  audioAngleID = data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.angleID
+              }
+            };
           }
           // console.log("camera is " + camera);
           var duration = (outTcFcpxml - inTcFcpxml)+1001;
@@ -95,7 +177,7 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
                   {name: thisFile, offset:fcpxmlFormat(offset), ref:theR, duration:fcpxmlFormat(duration), start:fcpxmlFormat(inTcFcpxml)}
                 },
                 {"mc-source":
-                  {_attr:{angleID: "0000C300a", srcEnable:"audio"}}
+                  {_attr:{angleID: audioAngleID, srcEnable:"audio"}}
                 },
                 {"mc-source": {_attr:{angleID: camera, srcEnable:"video"}}
                 }
@@ -107,7 +189,7 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
                     {name: thisFile, offset:fcpxmlFormat(offset), ref:theR, duration:fcpxmlFormat(duration), start:fcpxmlFormat(inTcFcpxml)}
                   },
                   {"mc-source":
-                    {_attr:{angleID: "0000C300a", srcEnable:"audio"}}
+                    {_attr:{angleID: audioAngleID, srcEnable:"audio"}}
                   },
                   {"mc-source": {_attr:{angleID: camera, srcEnable:"video"}}
                   }
@@ -154,7 +236,7 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
                   {sequence:
                     [
                       {_attr:
-                        {duration: fcpxmlFormat(offset), format: 'r1', renderColorSpace:"Rec. 709", tcStart:"0s", tcFormat:"0s", tcFormat: "NDF", audioLayout:"stereo", audioRate:"48k"}},
+                        {duration: fcpxmlFormat(offset), format: data.fcpxml.resources[0].format[0].$.id, tcStart:"0s", tcFormat:"0s", tcFormat: "NDF", audioLayout:"stereo", audioRate:"48k"}}, //removed hard coded r# for format; also removed colorspace parameter
                       {spine: theSpineArray}
                     ]
                   }
