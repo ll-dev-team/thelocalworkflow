@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+
+<fcpxml version="1.7">
+    <resources>
+        <asset id="r1" name="20171213_010_HUM11A_Dincer_C300a_001" uid="182B2D63DF9D8FA2978378B50CB35AA0" src="file:///Volumes/mk2/_tests/20171213_010_HUM11A/C300a/20171213_010_HUM11A_Dincer_C300a_001.mov" start="1387274889/24000s" duration="38589551/24000s" hasVideo="1" format="r2" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <bookmark>Ym9vazwEAAAAAAQQMAAAAHBqyYFprtOSbg4Qjpa420ggzHHSYSX+nBmpJ6t8sODIOAMAAAQAAAADAwAAABgAKAcAAAABAQAAVm9sdW1lcwADAAAAAQEAAG1rMgAGAAAAAQEAAF90ZXN0cwAAEwAAAAEBAAAyMDE3MTIxM18wMTBfSFVNMTFBAAUAAAABAQAAQzMwMGEAAAAoAAAAAQEAADIwMTcxMjEzXzAxMF9IVU0xMUFfRGluY2VyX0MzMDBhXzAwMS5tb3YYAAAAAQYAABAAAAAgAAAALAAAADwAAABYAAAAaAAAAAgAAAAEAwAAossJAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAAD1OQEAAAAAAAgAAAAEAwAAqXsBAAAAAAAIAAAABAMAAKp7AQAAAAAACAAAAAQDAAAtewEAAAAAABgAAAABBgAAuAAAAMgAAADYAAAA6AAAAPgAAAAIAQAACAAAAAAEAABBv/4fZQAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAEFAAAEAAAAAwMAAAUAAAAEAAAAAwMAAAQAAAAUAAAAAQkAAGZpbGU6Ly8vVm9sdW1lcy9tazIvCAAAAAQDAAAA4AHj6AAAAAgAAAAABAAAQcAPX7PbTLckAAAAAQEAAEE5RTg5NjczLTQ0MEUtNDg3RS1CODhGLUVDN0VGMTRDQzJFRhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAADAAAAAEBAAAvVm9sdW1lcy9tazIIAAAAAQkAAGZpbGU6Ly8vAwAAAAEBAABtazEACAAAAAAEAABBwA9frF+nGyQAAAABAQAANTBCOTQ2QUItMEUxMC00MDczLTlCMUYtRTgxOUYxMjIzRURGAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAAfAIAAAAAAAAFIAAAJAIAAAAAAAAQIAAANAIAAAAAAAARIAAAUAIAAAAAAAASIAAApAEAAAAAAAATIAAAQAIAAAAAAAAgIAAA8AEAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAcAAAAAQYAAPACAAD8AgAACAMAAPwCAAD8AgAA/AIAAPwCAADMAAAA/v///wEAAACIAgAAEAAAAAQQAACYAAAAAAAAAAUQAAAYAQAAAAAAABAQAABIAQAAAAAAAEAQAAA4AQAAAAAAAFQQAABwAQAAAAAAAFUQAAB8AQAAAAAAAFYQAABoAQAAAAAAAAAgAAAUAwAAAAAAAAIgAAAQAgAAAAAAAAUgAACIAQAAAAAAABAgAAAgAAAAAAAAABEgAADEAQAAAAAAABIgAACkAQAAAAAAABMgAAC0AQAAAAAAACAgAADwAQAAAAAAABDQAAAEAAAAAAAAAA==</bookmark>
+        </asset>
+        <format id="r2" name="FFVideoFormat1080p2398" frameDuration="1001/24000s" width="1920" height="1080" colorSpace="1-1-1 (Rec. 709)"/>
+        <asset id="r3" name="20171213_010_HUM11A_Dincer_C300b_001" uid="1940C5E441409DCD847876B2D8BE856E" src="file:///Volumes/mk2/_tests/20171213_010_HUM11A/C300b/20171213_010_HUM11A_Dincer_C300b_001.mov" start="1377288913/24000s" duration="48287239/24000s" hasVideo="1" format="r2" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <bookmark>Ym9vazwEAAAAAAQQMAAAAI8VYdzwW9SGvyzDfI2igM/FwuUMpLSOHuo1anghuiiBOAMAAAQAAAADAwAAABgAKAcAAAABAQAAVm9sdW1lcwADAAAAAQEAAG1rMgAGAAAAAQEAAF90ZXN0cwAAEwAAAAEBAAAyMDE3MTIxM18wMTBfSFVNMTFBAAUAAAABAQAAQzMwMGIAAAAoAAAAAQEAADIwMTcxMjEzXzAxMF9IVU0xMUFfRGluY2VyX0MzMDBiXzAwMS5tb3YYAAAAAQYAABAAAAAgAAAALAAAADwAAABYAAAAaAAAAAgAAAAEAwAAossJAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAAD1OQEAAAAAAAgAAAAEAwAAqXsBAAAAAAAIAAAABAMAAKt7AQAAAAAACAAAAAQDAAAuewEAAAAAABgAAAABBgAAuAAAAMgAAADYAAAA6AAAAPgAAAAIAQAACAAAAAAEAABBv/4hLAAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAEFAAAEAAAAAwMAAAUAAAAEAAAAAwMAAAQAAAAUAAAAAQkAAGZpbGU6Ly8vVm9sdW1lcy9tazIvCAAAAAQDAAAA4AHj6AAAAAgAAAAABAAAQcAPX7PbTLckAAAAAQEAAEE5RTg5NjczLTQ0MEUtNDg3RS1CODhGLUVDN0VGMTRDQzJFRhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAADAAAAAEBAAAvVm9sdW1lcy9tazIIAAAAAQkAAGZpbGU6Ly8vAwAAAAEBAABtazEACAAAAAAEAABBwA9frF+nGyQAAAABAQAANTBCOTQ2QUItMEUxMC00MDczLTlCMUYtRTgxOUYxMjIzRURGAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAAfAIAAAAAAAAFIAAAJAIAAAAAAAAQIAAANAIAAAAAAAARIAAAUAIAAAAAAAASIAAApAEAAAAAAAATIAAAQAIAAAAAAAAgIAAA8AEAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAcAAAAAQYAAPACAAD8AgAACAMAAPwCAAD8AgAA/AIAAPwCAADMAAAA/v///wEAAACIAgAAEAAAAAQQAACYAAAAAAAAAAUQAAAYAQAAAAAAABAQAABIAQAAAAAAAEAQAAA4AQAAAAAAAFQQAABwAQAAAAAAAFUQAAB8AQAAAAAAAFYQAABoAQAAAAAAAAAgAAAUAwAAAAAAAAIgAAAQAgAAAAAAAAUgAACIAQAAAAAAABAgAAAgAAAAAAAAABEgAADEAQAAAAAAABIgAACkAQAAAAAAABMgAAC0AQAAAAAAACAgAADwAQAAAAAAABDQAAAEAAAAAAAAAA==</bookmark>
+        </asset>
+        <asset id="r4" name="20171213_010_HUM11A_Dincer_GH4_001" uid="9945A9CD4B6EDA4ECC4D1157D027FD38" src="file:///Volumes/mk2/_tests/20171213_010_HUM11A/GH4/20171213_010_HUM11A_Dincer_GH4_001.mov" start="1375783409/24000s" duration="51223172/24000s" hasVideo="1" format="r2" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000">
+            <bookmark>Ym9vazgEAAAAAAQQMAAAAFx38ikRPWEZEHEyLNQILAgLtNDbK+mygr5WzLBVDLyiNAMAAAQAAAADAwAAABgAKAcAAAABAQAAVm9sdW1lcwADAAAAAQEAAG1rMgAGAAAAAQEAAF90ZXN0cwAAEwAAAAEBAAAyMDE3MTIxM18wMTBfSFVNMTFBAAMAAAABAQAAR0g0ACYAAAABAQAAMjAxNzEyMTNfMDEwX0hVTTExQV9EaW5jZXJfR0g0XzAwMS5tb3YAABgAAAABBgAAEAAAACAAAAAsAAAAPAAAAFgAAABkAAAACAAAAAQDAACiywkAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAAPU5AQAAAAAACAAAAAQDAACpewEAAAAAAAgAAAAEAwAArXsBAAAAAAAIAAAABAMAAC97AQAAAAAAGAAAAAEGAAC0AAAAxAAAANQAAADkAAAA9AAAAAQBAAAIAAAAAAQAAEG//iNlAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABQAAAAQAAAADAwAABAAAABQAAAABCQAAZmlsZTovLy9Wb2x1bWVzL21rMi8IAAAABAMAAADgAePoAAAACAAAAAAEAABBwA9fs9tMtyQAAAABAQAAQTlFODk2NzMtNDQwRS00ODdFLUI4OEYtRUM3RUYxNENDMkVGGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAAMAAAAAQEAAC9Wb2x1bWVzL21rMggAAAABCQAAZmlsZTovLy8DAAAAAQEAAG1rMQAIAAAAAAQAAEHAD1+sX6cbJAAAAAEBAAA1MEI5NDZBQi0wRTEwLTQwNzMtOUIxRi1FODE5RjEyMjNFREYBAAAAAQEAAC8AAABgAAAA/v///wDwAAAAAAAABwAAAAIgAAB4AgAAAAAAAAUgAAAgAgAAAAAAABAgAAAwAgAAAAAAABEgAABMAgAAAAAAABIgAACgAQAAAAAAABMgAAA8AgAAAAAAACAgAADsAQAAAAAAAAQAAAADAwAAAPAAAAQAAAADAwAAAAAAAAQAAAADAwAAAQAAABwAAAABBgAA7AIAAPgCAAAEAwAA+AIAAPgCAAD4AgAA+AIAAMwAAAD+////AQAAAIQCAAAQAAAABBAAAJQAAAAAAAAABRAAABQBAAAAAAAAEBAAAEQBAAAAAAAAQBAAADQBAAAAAAAAVBAAAGwBAAAAAAAAVRAAAHgBAAAAAAAAVhAAAGQBAAAAAAAAACAAABADAAAAAAAAAiAAAAwCAAAAAAAABSAAAIQBAAAAAAAAECAAACAAAAAAAAAAESAAAMABAAAAAAAAEiAAAKABAAAAAAAAEyAAALABAAAAAAAAICAAAOwBAAAAAAAAENAAAAQAAAAAAAAA</bookmark>
+        </asset>
+        <media id="r5" name="20171213_010_HUM11A_Dincer_MC" uid="RkJAF8CvSjCJ6fGKCYUH5A" modDate="2018-04-24 13:35:18 -0400">
+            <multicam format="r2" tcStart="1387274889/24000s" tcFormat="NDF">
+                <mc-angle name="C300a" angleID="wYWcPqfZTfOyyT3hk+Z05Q">
+                    <asset-clip name="20171213_010_HUM11A_Dincer_C300a_001" offset="0s" ref="r1" duration="38589551/24000s" start="1387274889/24000s" audioRole="dialogue" tcFormat="NDF">
+                        <keyword start="462424963/8000s" duration="38589551/24000s" value="20171213_010_HUM11A, C300a"/>
+                        <audio-channel-source role="dialogue.dialogue-1" srcCh="1"/>
+                        <audio-channel-source role="dialogue.dialogue-2" srcCh="2"/>
+                    </asset-clip>
+                </mc-angle>
+                <mc-angle name="C300b" angleID="pn4BZW3fTeqA5RHZFPiy3g">
+                    <asset-clip name="20171213_010_HUM11A_Dincer_C300b_001" offset="0s" ref="r3" duration="38300262/24000s" start="1387275890/24000s" audioRole="dialogue" tcFormat="NDF">
+                        <keyword start="1377288913/24000s" duration="48287239/24000s" value="20171213_010_HUM11A, C300b"/>
+                    </asset-clip>
+                </mc-angle>
+                <mc-angle name="GH4" angleID="Ze9cmLXMSJOSMbAGGYMpAQ">
+                    <asset-clip name="20171213_010_HUM11A_Dincer_GH4_001" offset="0s" ref="r4" duration="39729690/24000s" start="1387276891/24000s" audioRole="dialogue" tcFormat="NDF">
+                        <keyword start="1375783409/24000s" duration="51223172/24000s" value="20171213_010_HUM11A, GH4"/>
+                    </asset-clip>
+                </mc-angle>
+            </multicam>
+        </media>
+    </resources>
+    <library location="file:///Volumes/mk2/_tests/io2s_source.fcpbundle/">
+        <event name="20171213_010_HUM11A_Dincer" uid="B56620CA-8356-4D96-AA59-0CA6AB4F306F">
+            <asset-clip name="20171213_010_HUM11A_Dincer_C300a_001" ref="r1" duration="38589551/24000s" start="1387274889/24000s" audioRole="dialogue" format="r2" tcFormat="NDF" modDate="2018-04-24 13:32:23 -0400">
+                <keyword start="462424963/8000s" duration="38589551/24000s" value="20171213_010_HUM11A, C300a"/>
+            </asset-clip>
+            <asset-clip name="20171213_010_HUM11A_Dincer_C300b_001" ref="r3" duration="48287239/24000s" start="1377288913/24000s" audioRole="dialogue" format="r2" tcFormat="NDF" modDate="2018-04-24 13:32:23 -0400">
+                <keyword start="1377288913/24000s" duration="48287239/24000s" value="20171213_010_HUM11A, C300b"/>
+            </asset-clip>
+            <asset-clip name="20171213_010_HUM11A_Dincer_GH4_001" ref="r4" duration="51223172/24000s" start="1375783409/24000s" audioRole="dialogue" format="r2" tcFormat="NDF" modDate="2018-04-24 13:32:23 -0400">
+                <keyword start="1375783409/24000s" duration="51223172/24000s" value="20171213_010_HUM11A, GH4"/>
+            </asset-clip>
+            <mc-clip name="20171213_010_HUM11A_Dincer_MC" ref="r5" duration="39729690/24000s" start="1387274889/24000s" modDate="2018-04-24 13:35:18 -0400">
+                <mc-source angleID="wYWcPqfZTfOyyT3hk+Z05Q" srcEnable="all"/>
+            </mc-clip>
+            <keyword-collection name="C300b"/>
+            <keyword-collection name="20171213_010_HUM11A"/>
+            <keyword-collection name="GH4"/>
+            <keyword-collection name="C300a"/>
+        </event>
+        <event name="Projects_Test" uid="96E083BC-7F69-426B-8916-249AB0C174E4">
+            <project name="io2s_example" uid="FECF6663-18BD-4729-BF0E-77FC5A3416E3" modDate="2018-04-24 13:35:18 -0400">
+                <sequence duration="3889886/24000s" format="r2" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+                    <spine>
+                        <mc-clip name="20171213_010_HUM11A_Dincer_MC" offset="0s" ref="r5" duration="320320/24000s" start="1396147753/24000s">
+                            <mc-source angleID="wYWcPqfZTfOyyT3hk+Z05Q" srcEnable="all"/>
+                        </mc-clip>
+                        <mc-clip name="20171213_010_HUM11A_Dincer_MC" offset="320320/24000s" ref="r5" duration="480480/24000s" start="1396468073/24000s">
+                            <mc-source angleID="pn4BZW3fTeqA5RHZFPiy3g" srcEnable="video"/>
+                            <mc-source angleID="wYWcPqfZTfOyyT3hk+Z05Q" srcEnable="audio"/>
+                        </mc-clip>
+                        <mc-clip name="20171213_010_HUM11A_Dincer_MC" offset="800800/24000s" ref="r5" duration="521521/24000s" start="1396948553/24000s">
+                            <mc-source angleID="Ze9cmLXMSJOSMbAGGYMpAQ" srcEnable="video"/>
+                            <mc-source angleID="wYWcPqfZTfOyyT3hk+Z05Q" srcEnable="audio"/>
+                        </mc-clip>
+                        <mc-clip name="20171213_010_HUM11A_Dincer_MC" offset="1322321/24000s" ref="r5" duration="490490/24000s" start="1397470074/24000s">
+                            <mc-source angleID="wYWcPqfZTfOyyT3hk+Z05Q" srcEnable="all"/>
+                        </mc-clip>
+                        <mc-clip name="20171213_010_HUM11A_Dincer_MC" offset="1812811/24000s" ref="r5" duration="2077075/24000s" start="1401457057/24000s">
+                            <mc-source angleID="wYWcPqfZTfOyyT3hk+Z05Q" srcEnable="all"/>
+                        </mc-clip>
+                    </spine>
+                </sequence>
+            </project>
+        </event>
+        <smart-collection name="Projects" match="all">
+            <match-clip rule="is" type="project"/>
+        </smart-collection>
+        <smart-collection name="All Video" match="any">
+            <match-media rule="is" type="videoOnly"/>
+            <match-media rule="is" type="videoWithAudio"/>
+        </smart-collection>
+        <smart-collection name="Audio Only" match="all">
+            <match-media rule="is" type="audioOnly"/>
+        </smart-collection>
+        <smart-collection name="Stills" match="all">
+            <match-media rule="is" type="stills"/>
+        </smart-collection>
+        <smart-collection name="Favorites" match="all">
+            <match-ratings value="favorites"/>
+        </smart-collection>
+    </library>
+</fcpxml>

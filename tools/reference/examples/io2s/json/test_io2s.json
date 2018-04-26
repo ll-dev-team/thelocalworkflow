@@ -1,0 +1,62 @@
+[
+  {
+    "shootId": "20171213_010_HUM11A_Dincer",
+    "inHr": 16,
+    "inMin": 8,
+    "inSec": 34,
+    "inFrame": 17,
+    "outHr": 16,
+    "outMin": 8,
+    "outSec": 48,
+    "outFrame": 1,
+    "angle": "A"
+  },
+  {
+    "shootId": "20171213_010_HUM11A_Dincer",
+    "inHr": 16,
+    "inMin": 8,
+    "inSec": 48,
+    "inFrame": 1,
+    "outHr": 16,
+    "outMin": 9,
+    "outSec": 8,
+    "outFrame": 1,
+    "angle": "B"
+  },
+  {
+    "shootId": "20171213_010_HUM11A_Dincer",
+    "inHr": 16,
+    "inMin": 9,
+    "inSec": 8,
+    "inFrame": 1,
+    "outHr": 16,
+    "outMin": 9,
+    "outSec": 29,
+    "outFrame": 18,
+    "angle": "C"
+  },
+  {
+    "shootId": "20171213_010_HUM11A_Dincer",
+    "inHr": 16,
+    "inMin": 9,
+    "inSec": 29,
+    "inFrame": 18,
+    "outHr": 16,
+    "outMin": 9,
+    "outSec": 50,
+    "outFrame": 4,
+    "angle": "A"
+  },
+  {
+    "shootId": "20171213_010_HUM11A_Dincer",
+    "inHr": 16,
+    "inMin": 12,
+    "inSec": 15,
+    "inFrame": 17,
+    "outHr": 16,
+    "outMin": 13,
+    "outSec": 42,
+    "outFrame": 4,
+    "angle": "A"
+  }
+]

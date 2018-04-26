@@ -2,9 +2,12 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var fcpxmlSchema = new Schema({
-    shoot_id : String,
+    shootId : String,
+    shootIdRoot: String,
     fcpxml : String,
-    unescapedFcpxml: String,
+    fcpxmlObj : {},
+    fcpxmlAsJson: String,
+    ts: Number
 }, {strict: false});
 
 module.exports = mongoose.model('fcpxml', fcpxmlSchema );

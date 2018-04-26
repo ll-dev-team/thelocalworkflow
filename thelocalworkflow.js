@@ -5,12 +5,13 @@ const fcpxml = require("./tools/workflow_tools/fcpxml");
 const compressor = require("./tools/workflow_tools/compressor");
 const m2s = require("./tools/workflow_tools/m2s").markersToStills;
 const m2sf = require("./tools/workflow_tools/m2s").fcpxmlFileToStills;
-const MongoClient = require("mongodb").MongoClient, assert = require('assert');
+// const MongoClient = require("mongodb").MongoClient, assert = require('assert');
 const cp = require('child_process');
 const path = require('path');
 const transcoder = require("./tools/workflow_tools/transcoder");
 const gifMachine = require("./tools/workflow_tools/gif_machine");
-const io2s = require("./tools/scripts/io2s").io2s;
+const io2s = require("./tools/workflow_tools/io2s").io2s;
+const io2s_cli = require("./tools/scripts/io2s_cli").io2s;
 const popFcpxml = require("./tools/scripts/populate_fcpxml");
 const ffprobetools = require("./tools/workflow_tools/ffprobetools");
 // var reHidden = /^\./;
@@ -47,6 +48,7 @@ if (args.help ||
       || args.shootdata
       || args.transcode
       || args.io2s
+      || args.io2s_cli
       || args.populate
       || args.gif
       || args.fcpxmlToGif
@@ -65,12 +67,18 @@ if (args.test) {
   console.log(output.streams[0].width + " is the width");
 }
 
-if (args.io2s) {
+if (args.io2s_cli) {
   var theJson = require(args.json);
   var pathForXml = (args.json.split('.')[0] + '_' + theDate.getTime() + '.fcpxml');
   var pathForJson = (args.json.split('.')[0] + '_' + theDate.getTime() + '.json');
   console.log("starting io2s");
-  io2s(theJson, args.xml, pathForXml, pathForJson, args.title);
+  io2s_cli(theJson, args.xml, pathForXml, pathForJson, args.title);
+}
+
+if (args.io2s) {
+  // JUST the csv passed in (title of CSV = title of video
+  console.log("starting io2s");
+  io2s(args.io2s);
 }
 
 if (args.m2s) {
@@ -173,7 +181,7 @@ if (args.populate) {
   }
   else {
     console.log("input a file or a folder");
-    db.close();
+    // db.close();
   }
   // if (args.fcpxml) {
   //   popFcpxml(args.fcpxml);

@@ -1,0 +1,709 @@
+{
+    "fcpxml": {
+        "_attr": {
+            "version": "1.6"
+        },
+        "resources": [
+            {
+                "asset": [
+                    {
+                        "_attr": {
+                            "id": "r1",
+                            "name": "20170720_006_Week5_LLUFTestDiscussion_C300a_001",
+                            "uid": "6FC374314996449E46ADA84830D81167",
+                            "src": "file:///Users/mk/Development/test_materials/20170720_006_Week5_LLUFTestDiscussion_h264/C300a/20170720_006_Week5_LLUFTestDiscussion_C300a_001.mov",
+                            "start": "1374857484/24000s",
+                            "duration": "34510476/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va4QDAAAAAAQQMAAAAJt94VkesbtneegmXf2/9G1JTShbaWK9D7pyAsA5WwVqgAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMAAAACAAAAAQEAAG1rAAALAAAAAQEAAERldmVsb3BtZW50AA4AAAABAQAAdGVzdF9tYXRlcmlhbHMAACoAAAABAQAAMjAxNzA3MjBfMDA2X1dlZWs1X0xMVUZUZXN0RGlzY3Vzc2lvbl9oMjY0AAAFAAAAAQEAAEMzMDBhAAAAMwAAAAEBAAAyMDE3MDcyMF8wMDZfV2VlazVfTExVRlRlc3REaXNjdXNzaW9uX0MzMDBhXzAwMS5tb3YAHAAAAAEGAAAQAAAAIAAAACwAAABAAAAAWAAAAIwAAACcAAAACAAAAAQDAAAtMAYAAAAAAAgAAAAEAwAAg4EGAAAAAAAIAAAABAMAAISKQgEAAAAACAAAAAQDAADfcEgBAAAAAAgAAAAEAwAA3zFdAQAAAAAIAAAABAMAAOExXQEAAAAACAAAAAQDAADiMV0BAAAAABwAAAABBgAA/AAAAAwBAAAcAQAALAEAADwBAABMAQAAXAEAAAgAAAAABAAAQb9Et+EAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPUBAAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEBAABta18xMTBfMDIxMzgIAAAABAMAAADQt5rRAAAACAAAAAAEAABBvSIGWQAAACQAAAABAQAANEU3NzAxOTMtREI3Ri0zQkU3LTkxODMtRjg1MjdBRTA5RTQ4GAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAAAAAAAAAQUAAMwAAAD+////AQAAAAAAAAAQAAAABBAAANgAAAAAAAAABRAAAGwBAAAAAAAAEBAAAKABAAAAAAAAQBAAAJABAAAAAAAAAiAAAGwCAAAAAAAABSAAANwBAAAAAAAAECAAAOwBAAAAAAAAESAAACACAAAAAAAAEiAAAAACAAAAAAAAEyAAABACAAAAAAAAICAAAEwCAAAAAAAAMCAAAHgCAAAAAAAAAcAAAMABAAAAAAAAEcAAACAAAAAAAAAAEsAAANABAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r3",
+                            "name": "20170720_006_Week5_LLUFTestDiscussion_C300b_001",
+                            "uid": "822294758726CB41987781A0EF95C04F",
+                            "src": "file:///Users/mk/Development/test_materials/20170720_006_Week5_LLUFTestDiscussion_h264/C300b/20170720_006_Week5_LLUFTestDiscussion_C300b_001.mov",
+                            "start": "1374949576/24000s",
+                            "duration": "34378344/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va4QDAAAAAAQQMAAAAOghGjh1zXlQZpEuDKjMn2yKKe55a553gIbEjfkJcjDdgAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMAAAACAAAAAQEAAG1rAAALAAAAAQEAAERldmVsb3BtZW50AA4AAAABAQAAdGVzdF9tYXRlcmlhbHMAACoAAAABAQAAMjAxNzA3MjBfMDA2X1dlZWs1X0xMVUZUZXN0RGlzY3Vzc2lvbl9oMjY0AAAFAAAAAQEAAEMzMDBiAAAAMwAAAAEBAAAyMDE3MDcyMF8wMDZfV2VlazVfTExVRlRlc3REaXNjdXNzaW9uX0MzMDBiXzAwMS5tb3YAHAAAAAEGAAAQAAAAIAAAACwAAABAAAAAWAAAAIwAAACcAAAACAAAAAQDAAAtMAYAAAAAAAgAAAAEAwAAg4EGAAAAAAAIAAAABAMAAISKQgEAAAAACAAAAAQDAADfcEgBAAAAAAgAAAAEAwAA3zFdAQAAAAAIAAAABAMAAOMxXQEAAAAACAAAAAQDAADkMV0BAAAAABwAAAABBgAA/AAAAAwBAAAcAQAALAEAADwBAABMAQAAXAEAAAgAAAAABAAAQb9EudgAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPUBAAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEBAABta18xMTBfMDIxMzgIAAAABAMAAADQt5rRAAAACAAAAAAEAABBvSIGWQAAACQAAAABAQAANEU3NzAxOTMtREI3Ri0zQkU3LTkxODMtRjg1MjdBRTA5RTQ4GAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAAAAAAAAAQUAAMwAAAD+////AQAAAAAAAAAQAAAABBAAANgAAAAAAAAABRAAAGwBAAAAAAAAEBAAAKABAAAAAAAAQBAAAJABAAAAAAAAAiAAAGwCAAAAAAAABSAAANwBAAAAAAAAECAAAOwBAAAAAAAAESAAACACAAAAAAAAEiAAAAACAAAAAAAAEyAAABACAAAAAAAAICAAAEwCAAAAAAAAMCAAAHgCAAAAAAAAAcAAAMABAAAAAAAAEcAAACAAAAAAAAAAEsAAANABAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r4",
+                            "name": "20170720_006_Week5_LLUFTestDiscussion_C300c_001",
+                            "uid": "519E2EFE74B7F3686D1D6197B761B639",
+                            "src": "file:///Users/mk/Development/test_materials/20170720_006_Week5_LLUFTestDiscussion_h264/C300c/20170720_006_Week5_LLUFTestDiscussion_C300c_001.mov",
+                            "start": "1376533158/24000s",
+                            "duration": "34174140/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va4QDAAAAAAQQMAAAABhQkMEkQNTfr+75aczXj1sv1NY+UOQBY1Jv1H8CYzh0gAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMAAAACAAAAAQEAAG1rAAALAAAAAQEAAERldmVsb3BtZW50AA4AAAABAQAAdGVzdF9tYXRlcmlhbHMAACoAAAABAQAAMjAxNzA3MjBfMDA2X1dlZWs1X0xMVUZUZXN0RGlzY3Vzc2lvbl9oMjY0AAAFAAAAAQEAAEMzMDBjAAAAMwAAAAEBAAAyMDE3MDcyMF8wMDZfV2VlazVfTExVRlRlc3REaXNjdXNzaW9uX0MzMDBjXzAwMS5tb3YAHAAAAAEGAAAQAAAAIAAAACwAAABAAAAAWAAAAIwAAACcAAAACAAAAAQDAAAtMAYAAAAAAAgAAAAEAwAAg4EGAAAAAAAIAAAABAMAAISKQgEAAAAACAAAAAQDAADfcEgBAAAAAAgAAAAEAwAA3zFdAQAAAAAIAAAABAMAAOUxXQEAAAAACAAAAAQDAADmMV0BAAAAABwAAAABBgAA/AAAAAwBAAAcAQAALAEAADwBAABMAQAAXAEAAAgAAAAABAAAQb9Eu9QAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPUBAAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEBAABta18xMTBfMDIxMzgIAAAABAMAAADQt5rRAAAACAAAAAAEAABBvSIGWQAAACQAAAABAQAANEU3NzAxOTMtREI3Ri0zQkU3LTkxODMtRjg1MjdBRTA5RTQ4GAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAAAAAAAAAQUAAMwAAAD+////AQAAAAAAAAAQAAAABBAAANgAAAAAAAAABRAAAGwBAAAAAAAAEBAAAKABAAAAAAAAQBAAAJABAAAAAAAAAiAAAGwCAAAAAAAABSAAANwBAAAAAAAAECAAAOwBAAAAAAAAESAAACACAAAAAAAAEiAAAAACAAAAAAAAEyAAABACAAAAAAAAICAAAEwCAAAAAAAAMCAAAHgCAAAAAAAAAcAAAMABAAAAAAAAEcAAACAAAAAAAAAAEsAAANABAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r5",
+                            "name": "20170720_006_Week5_LLUFTestDiscussion_GH4_001",
+                            "uid": "28280830C4E7FD5EC72D22E2555B4588",
+                            "src": "file:///Users/mk/Development/test_materials/20170720_006_Week5_LLUFTestDiscussion_h264/GH4/20170720_006_Week5_LLUFTestDiscussion_GH4_001.mov",
+                            "start": "1375220847/24000s",
+                            "duration": "34223189/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va4ADAAAAAAQQMAAAAEAkUDRWcjDOPsdhDfX2eU2NYGuP/hsG1uvl29xLg01DfAIAAAQAAAADAwAAAAgAKAUAAAABAQAAVXNlcnMAAAACAAAAAQEAAG1rAAALAAAAAQEAAERldmVsb3BtZW50AA4AAAABAQAAdGVzdF9tYXRlcmlhbHMAACoAAAABAQAAMjAxNzA3MjBfMDA2X1dlZWs1X0xMVUZUZXN0RGlzY3Vzc2lvbl9oMjY0AAADAAAAAQEAAEdINAAxAAAAAQEAADIwMTcwNzIwXzAwNl9XZWVrNV9MTFVGVGVzdERpc2N1c3Npb25fR0g0XzAwMS5tb3YAAAAcAAAAAQYAABAAAAAgAAAALAAAAEAAAABYAAAAjAAAAJgAAAAIAAAABAMAAC0wBgAAAAAACAAAAAQDAACDgQYAAAAAAAgAAAAEAwAAhIpCAQAAAAAIAAAABAMAAN9wSAEAAAAACAAAAAQDAADfMV0BAAAAAAgAAAAEAwAA5zFdAQAAAAAIAAAABAMAAOgxXQEAAAAAHAAAAAEGAAD4AAAACAEAABgBAAAoAQAAOAEAAEgBAABYAQAACAAAAAAEAABBv0S9vgAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAACAAAAAQDAAAFAAAAAAAAAAQAAAADAwAA9QEAAAgAAAABCQAAZmlsZTovLy8MAAAAAQEAAG1rXzExMF8wMjEzOAgAAAAEAwAAANC3mtEAAAAIAAAAAAQAAEG9IgZZAAAAJAAAAAEBAAA0RTc3MDE5My1EQjdGLTNCRTctOTE4My1GODUyN0FFMDlFNDgYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAAzAAAAP7///8BAAAAAAAAABAAAAAEEAAA1AAAAAAAAAAFEAAAaAEAAAAAAAAQEAAAnAEAAAAAAABAEAAAjAEAAAAAAAACIAAAaAIAAAAAAAAFIAAA2AEAAAAAAAAQIAAA6AEAAAAAAAARIAAAHAIAAAAAAAASIAAA/AEAAAAAAAATIAAADAIAAAAAAAAgIAAASAIAAAAAAAAwIAAAdAIAAAAAAAABwAAAvAEAAAAAAAARwAAAIAAAAAAAAAASwAAAzAEAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    }
+                ],
+                "format": [
+                    {
+                        "_attr": {
+                            "id": "r2",
+                            "name": "FFVideoFormat960x540p2398",
+                            "frameDuration": "1001/24000s",
+                            "width": "960",
+                            "height": "540"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r7",
+                            "name": "FFVideoFormat1080p2398",
+                            "frameDuration": "1001/24000s",
+                            "width": "1920",
+                            "height": "1080"
+                        }
+                    }
+                ],
+                "media": [
+                    {
+                        "_attr": {
+                            "id": "r6",
+                            "name": "20170720_006_Week5_LLUFTestDiscussion_MC",
+                            "uid": "8/74w92tRvOyfMMRhZOlVg",
+                            "modDate": "2017-08-26 20:51:17 -0400"
+                        },
+                        "multicam": [
+                            {
+                                "_attr": {
+                                    "format": "r7",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "1374857484/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "mc-angle": [
+                                    {
+                                        "_attr": {
+                                            "name": "C300a",
+                                            "angleID": "0000C300a"
+                                        },
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20170720_006_Week5_LLUFTestDiscussion_C300a_001",
+                                                    "offset": "0s",
+                                                    "ref": "r1",
+                                                    "duration": "34510476/24000s",
+                                                    "start": "1374857484/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "format": "r2",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "C300b",
+                                            "angleID": "0000C300b"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "92092/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20170720_006_Week5_LLUFTestDiscussion_C300b_001",
+                                                    "offset": "92092/24000s",
+                                                    "ref": "r3",
+                                                    "duration": "34378344/24000s",
+                                                    "start": "1374949576/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "format": "r2",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "C300c",
+                                            "angleID": "0000C300c"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "1675674/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20170720_006_Week5_LLUFTestDiscussion_C300c_001",
+                                                    "offset": "1675674/24000s",
+                                                    "ref": "r4",
+                                                    "duration": "34174140/24000s",
+                                                    "start": "1376533158/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "format": "r2",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "GH4",
+                                            "angleID": "0000GH4"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "363363/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20170720_006_Week5_LLUFTestDiscussion_GH4_001",
+                                                    "offset": "363363/24000s",
+                                                    "ref": "r5",
+                                                    "duration": "34223189/24000s",
+                                                    "start": "1375220847/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "format": "r2",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r8",
+                            "name": "20170720_006_Week5_LLUFTestDiscussion_MC_CC",
+                            "uid": "K1nvn3c+RweaPSmEw99n9Q",
+                            "modDate": "2017-08-26 20:52:50 -0400"
+                        },
+                        "sequence": [
+                            {
+                                "_attr": {
+                                    "duration": "35849814/24000s",
+                                    "format": "r7",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "1374857484/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "spine": [
+                                    {
+                                        "mc-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20170720_006_Week5_LLUFTestDiscussion_MC",
+                                                    "offset": "1374857484/24000s",
+                                                    "ref": "r6",
+                                                    "duration": "35849814/24000s",
+                                                    "start": "1374857484/24000s"
+                                                },
+                                                "mc-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "angleID": "0000C300a",
+                                                            "srcEnable": "all"
+                                                        },
+                                                        "filter-video": [
+                                                            {
+                                                                "_attr": {
+                                                                    "ref": "r9",
+                                                                    "name": "2.5-cam-A-2017"
+                                                                },
+                                                                "param": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/10619/1/100/101",
+                                                                            "value": "-19.3779 -232"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/10619/2/354/32504/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Line Spacing",
+                                                                            "key": "9999/32385/10619/2/354/32504/404",
+                                                                            "value": "-2"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/10619/2/369",
+                                                                            "value": " "
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20673/1/100/101",
+                                                                            "value": "-16.824 -180"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20673/2/354/32502/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20673/2/369",
+                                                                            "value": "Week5"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20837/1/100/101",
+                                                                            "value": "-443.584 -395"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20837/2/354/32506/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20837/2/369",
+                                                                            "value": "20170720:"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "mc-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20170720_006_Week5_LLUFTestDiscussion_MC",
+                                                            "lane": "-3",
+                                                            "offset": "1374857484/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "35849814/24000s",
+                                                            "start": "1374857484/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300c",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "adjust-blend": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "amount": "0.217621"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000GH4",
+                                                                    "srcEnable": "none"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r10",
+                                                                            "name": "2.5-cam-B-2017"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20170720_006_Week5_LLUFTestDiscussion_MC",
+                                                            "lane": "-2",
+                                                            "offset": "1374857484/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "35849814/24000s",
+                                                            "start": "1374857484/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000GH4",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r10",
+                                                                            "name": "2.5-cam-B-2017"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20170720_006_Week5_LLUFTestDiscussion_MC",
+                                                            "lane": "-1",
+                                                            "offset": "1374857484/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "35849814/24000s",
+                                                            "start": "1374857484/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300b",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r11",
+                                                                            "name": "2.5-cam-C-2017"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "effect": [
+                    {
+                        "_attr": {
+                            "id": "r9",
+                            "name": "2.5-cam-A-2017",
+                            "uid": "~/Effects.localized/layout-2017/layout-theme-2017/2.5-cam-A-2017/2.5-cam-A-2017.moef",
+                            "src": "file:///Users/mk/Movies/Motion%20Templates.localized/Effects.localized/layout-2017/layout-theme-2017/2.5-cam-A-2017/2.5-cam-A-2017.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r10",
+                            "name": "2.5-cam-B-2017",
+                            "uid": "~/Effects.localized/layout-2017/layout-theme-2017/2.5-cam-B-2017/2.5-cam-B-2017.moef",
+                            "src": "file:///Users/mk/Movies/Motion%20Templates.localized/Effects.localized/layout-2017/layout-theme-2017/2.5-cam-B-2017/2.5-cam-B-2017.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r11",
+                            "name": "2.5-cam-C-2017",
+                            "uid": "~/Effects.localized/layout-2017/layout-theme-2017/2.5-cam-C-2017/2.5-cam-C-2017.moef",
+                            "src": "file:///Users/mk/Movies/Motion%20Templates.localized/Effects.localized/layout-2017/layout-theme-2017/2.5-cam-C-2017/2.5-cam-C-2017.moef"
+                        }
+                    }
+                ]
+            }
+        ],
+        "library": [
+            {
+                "_attr": {
+                    "location": "file:///Users/mk/Development/test_materials/test_20170720_20170826.fcpbundle/"
+                },
+                "event": [
+                    {
+                        "_attr": {
+                            "name": "20170720_006_Week5_LLUFTestDiscussion",
+                            "uid": "2194D0BB-FA12-453C-9C30-9C3C529CCD88"
+                        },
+                        "asset-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20170720_006_Week5_LLUFTestDiscussion_C300a_001",
+                                    "ref": "r1",
+                                    "duration": "34510476/24000s",
+                                    "start": "1374857484/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-08-26 20:51:17 -0400"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20170720_006_Week5_LLUFTestDiscussion_C300b_001",
+                                    "ref": "r3",
+                                    "duration": "34378344/24000s",
+                                    "start": "1374949576/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-08-26 20:51:17 -0400"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20170720_006_Week5_LLUFTestDiscussion_C300c_001",
+                                    "ref": "r4",
+                                    "duration": "34174140/24000s",
+                                    "start": "1376533158/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-08-26 20:51:17 -0400"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20170720_006_Week5_LLUFTestDiscussion_GH4_001",
+                                    "ref": "r5",
+                                    "duration": "34223189/24000s",
+                                    "start": "1375220847/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-08-26 20:51:17 -0400"
+                                }
+                            }
+                        ],
+                        "mc-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20170720_006_Week5_LLUFTestDiscussion_MC",
+                                    "ref": "r6",
+                                    "duration": "35849814/24000s",
+                                    "start": "1374857484/24000s",
+                                    "modDate": "2017-08-26 20:51:17 -0400"
+                                },
+                                "mc-source": [
+                                    {
+                                        "_attr": {
+                                            "angleID": "0000C300a",
+                                            "srcEnable": "all"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "ref-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20170720_006_Week5_LLUFTestDiscussion_MC_CC",
+                                    "ref": "r8",
+                                    "duration": "35849814/24000s",
+                                    "start": "1374857484/24000s",
+                                    "modDate": "2017-08-26 20:52:50 -0400"
+                                }
+                            }
+                        ],
+                        "project": [
+                            {
+                                "_attr": {
+                                    "name": "20170720_006_Week5_LLUFTestDiscussion_MC_CC_Ex",
+                                    "uid": "55B9AC71-CF84-4BD9-A89F-6FEBE33571F0",
+                                    "modDate": "2017-08-26 20:52:50 -0400"
+                                },
+                                "sequence": [
+                                    {
+                                        "_attr": {
+                                            "duration": "35849814/24000s",
+                                            "format": "r7",
+                                            "renderColorSpace": "Rec. 709",
+                                            "tcStart": "1374857484/24000s",
+                                            "tcFormat": "NDF",
+                                            "audioLayout": "stereo",
+                                            "audioRate": "48k"
+                                        },
+                                        "spine": [
+                                            {
+                                                "ref-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20170720_006_Week5_LLUFTestDiscussion_MC_CC",
+                                                            "offset": "1374857484/24000s",
+                                                            "ref": "r8",
+                                                            "duration": "35849814/24000s",
+                                                            "start": "1374857484/24000s"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
