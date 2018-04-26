@@ -163,7 +163,7 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
           //updates audio angleID if video is not C300a
           if (!audioAngleID) {
             for (var i = 0; i < data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"].length; i++) {
-              if ('c300a' == data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.name) {
+              if ('C300a' == data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.name) {
                   audioAngleID = data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.angleID
               }
             };
