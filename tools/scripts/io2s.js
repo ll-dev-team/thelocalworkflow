@@ -245,18 +245,25 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
             ]
           };
           var theXml = xml(theEventObject, true);
-          data.fcpxml.library.push(theEventObject);
-          // console.log(JSON.stringify(data.fcpxml.library, null, 4));
-          // var newXml = xml(data.fcpxml.library, true);
                 var newIoProject = new ioRequest({fcpxml: theXml, submissionTs: postTs});
                 newIoProject.save((err)=> {
                   // console.log("saved result:\n" + JSON.stringify(newIoProject, null, 5));
               mongoose.connection.close();
             });
       // console.log(theXml);
-
       fs.writeFileSync(pathForXml, theXml);
       console.log("done");
+
+      data.fcpxml.library.push(theEventObject);
+      var io2sInsertPath = path.join (jsonFolderPath, "io2sInsert.json")
+      fs.writeFileSync(io2sInsertPath, JSON.stringify(data, null, 4));
+      // console.log(JSON.stringify(data.fcpxml.library, null, 4));
+
+      //Writing makeIo2sXml function to call here
+      // makeIo2sXml()
+      var newXml = xml(data, true);
+      var newXmlPath = path.join (jsonFolderPath, "newXml.fcpxml")
+      fs.writeFileSync(newXmlPath, newXml);
 
   });
 }
