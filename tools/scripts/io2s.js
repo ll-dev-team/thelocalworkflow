@@ -21,7 +21,7 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
   parseXmlString(xmlData, (err, data)=>{
     var jsonFolderPath = path.dirname(pathForXml);
     var wholeJsonPath = path.join (jsonFolderPath, "wholeJsonRef.json")
-    fs.writeFileSync(wholeJsonPath, (JSON.stringify(data.fcpxml.library[0].event, null, 4)))
+    fs.writeFileSync(wholeJsonPath, (JSON.stringify(data, null, 4)))
     // fs.writeFileSync(wholeJsonPath, (JSON.stringify(data.fcpxml, null, 4))) -- test file for checking out full json for fcpxml
     theMulticlips = [];
     // loop through all segments to find all MCs referened and push to theMulticlips
@@ -245,6 +245,9 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
             ]
           };
           var theXml = xml(theEventObject, true);
+          data.fcpxml.library.push(theEventObject);
+          // console.log(JSON.stringify(data.fcpxml.library, null, 4));
+          // var newXml = xml(data.fcpxml.library, true);
                 var newIoProject = new ioRequest({fcpxml: theXml, submissionTs: postTs});
                 newIoProject.save((err)=> {
                   // console.log("saved result:\n" + JSON.stringify(newIoProject, null, 5));
@@ -254,6 +257,7 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
 
       fs.writeFileSync(pathForXml, theXml);
       console.log("done");
+
   });
 }
 
