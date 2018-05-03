@@ -2,13 +2,20 @@ const fs = require('fs');
 const xml = require('xml');
 const path = require('path');
 const cp = require('child_process');
+var args = require('minimist')(process.argv.slice(2));
 
 var outputFolderPath = "/Users/laurendavidson/Development/io2s\ Testing";
+var xmlData = fs.readFileSync(sourceFcpxmlPath, "utf-8");
 
-makeIo2sXml(args.event, args.xmlObject, outputFolderPath)
+var theEventObject = JSON.parse(args.event);
+var inputXmlObject = JSON.parse(args.xmlObject);
+
+makeIo2sXml(theEventObject, inputXmlObject, outputFolderPath)
 
 
 function makeIo2sXml(theEventObject, inputXmlObject, jsonFolderPath){
+
+console.log("here is the object: " + inputXmlObject);
 
   var fcpxmlAttr = {_attr:{version:'1.7'}};
 
