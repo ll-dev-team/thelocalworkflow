@@ -27,8 +27,12 @@ Now download your spreadsheet data as a .csv file. In google sheets, File>Downlo
 ## Step 4: Run the script
 Alright, now that you have the inputs, let's run this thing! Open Terminal and navigate to whatever folder you have script saved in. Then enter this:
 ```
-node thelocalworkflow --io2s --xml [path to your xml] --json [path to your json] --title [give the project a title]
+node thelocalworkflow --io2s --xml [path to your xml] --json [path to your json] --title [your title]
 ```
-For the paths, you can drag the files in from a Finder window. For the title, avoid spaces or special characters. You can always change this later in FCPX.
+For the paths, you can drag the files in from a Finder window. For the title, what you input here will appear as the project name in FCPX. Avoid spaces or special characters. You can always change this later in FCPX.
 
 ## Step 5: Insert io2s Event in XML
+
+[I'm hoping this step will soon not be required... working on a script that constructs the xml for you.]
+
+Finally, in Atom open both the xml you exported in Step 3 and the new xml created by io2s. Copy the entire contents of the new xml -- It should begin with an **<event>** tag and end with a **</event>** tag. Paste this event into the xml export. It goes in toward the bottom, between the last **</event>** and the **</library>**. Save this xml, and then open with FCPX to verify that it relinks and export the video.

@@ -6,6 +6,7 @@ const ioRequest = require('../../models/io2s');
 const Fcpxml = require('../../models/fcpxml');
 const path = require('path');
 const parseXmlString = require('xml2js').parseString;
+const makeIo2sXml = require("./make_io2s_xml").makeIo2sXml;
 var mongoose = require('mongoose');
 
 // require shootprocessor?
@@ -254,16 +255,11 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
       fs.writeFileSync(pathForXml, theXml);
       console.log("done");
 
-      data.fcpxml.library.push(theEventObject);
-      var io2sInsertPath = path.join (jsonFolderPath, "io2sInsert.json")
-      fs.writeFileSync(io2sInsertPath, JSON.stringify(data, null, 4));
-      // console.log(JSON.stringify(data.fcpxml.library, null, 4));
+      var io2sInsertPath = path.join (jsonFolderPath, "io2sInsert_test.fcpxml")
 
       //Writing makeIo2sXml function to call here
-      // makeIo2sXml()
-      var newXml = xml(data, true);
-      var newXmlPath = path.join (jsonFolderPath, "newXml.fcpxml")
-      fs.writeFileSync(newXmlPath, newXml);
+      makeIo2sXml(theEventObject, data, io2sInsertPath);
+
 
   });
 }

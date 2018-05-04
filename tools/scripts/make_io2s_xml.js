@@ -4,18 +4,18 @@ const path = require('path');
 const cp = require('child_process');
 var args = require('minimist')(process.argv.slice(2));
 
-var outputFolderPath = "/Users/laurendavidson/Development/io2s\ Testing";
-var xmlData = fs.readFileSync(sourceFcpxmlPath, "utf-8");
+//grabbing stuff from the CL for testing, but will call this function in io2s eventually
+// var outputFolderPath = "/Users/laurendavidson/Development/io2s\ Testing";
 
-var theEventObject = JSON.parse(args.event);
-var inputXmlObject = JSON.parse(args.xmlObject);
+// var theEventObject = require(args.event);
+// var inputXmlObject = require(args.xmlObject);
 
-makeIo2sXml(theEventObject, inputXmlObject, outputFolderPath)
+// makeIo2sXml(theEventObject, inputXmlObject, outputFolderPath)
 
 
 function makeIo2sXml(theEventObject, inputXmlObject, jsonFolderPath){
 
-console.log("here is the object: " + inputXmlObject);
+// console.log("here is the object: " + inputXmlObject);
 
   var fcpxmlAttr = {_attr:{version:'1.7'}};
 
@@ -29,8 +29,7 @@ console.log("here is the object: " + inputXmlObject);
   fcpxObject = {fcpxml:[fcpxmlAttr, theResourceXml, libraryXml]}
   theXmlHeader = '<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE fcpxml>\n'
   var theXml = (theXmlHeader + (xml(fcpxObject, {indent:'\t'})));
-  var theXmlPath = path.join (jsonFolderPath, "newXml.fcpxml") //put in a better name here when finished
-  fs.writeFileSync(theXmlPath, theXml);
+  fs.writeFileSync(jsonFolderPath, theXml);
 
 return theXml;
 }
@@ -44,7 +43,8 @@ function makeResources(inputXmlObject){
                         {_attr:
                           {
                             id: inputXmlObject.fcpxml.resources[0].format[0].$.id,
-                            name: inputXmlObject.fcpxml.resources[0].format[0].$.name, frameDuration:inputXmlObject.fcpxml.resources[0].format[0].$.frameDuration,
+                            name: inputXmlObject.fcpxml.resources[0].format[0].$.name,
+                            frameDuration:inputXmlObject.fcpxml.resources[0].format[0].$.frameDuration,
                             width: inputXmlObject.fcpxml.resources[0].format[0].$.width,
                             height: inputXmlObject.fcpxml.resources[0].format[0].$.height,
                             colorSpace: inputXmlObject.fcpxml.resources[0].format[0].$.colorSpace
@@ -71,14 +71,23 @@ function makeResources(inputXmlObject){
                         audioChannels: inputXmlObject.fcpxml.resources[0].asset[i].$.audioChannels,
                         audioRate: inputXmlObject.fcpxml.resources[0].asset[i].$.audioRate
                       }
+                      metadata:
+                      [
+                        {
+
+                        }
+                      ]
+
                     };
       assets.asset.push(thisAsset);
   }
 
   resourceXml.resources.push(assets);
 
-
+console.log(JSON.stringify(resourceXml, null, 4));
 
 
   return resourceXml;
 }
+
+module.exports.makeIo2sXml = makeIo2sXml;
