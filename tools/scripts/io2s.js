@@ -6,7 +6,8 @@ const ioRequest = require('../../models/io2s');
 const Fcpxml = require('../../models/fcpxml');
 const path = require('path');
 const parseXmlString = require('xml2js').parseString;
-const makeIo2sXml = require("./make_io2s_xml").makeIo2sXml;
+// const makeIo2sXml = require("./make_io2s_xml").makeIo2sXml;
+var parser = new xml2js.Parser({attrkey: "_attr"});
 var mongoose = require('mongoose');
 
 // require shootprocessor?
@@ -19,7 +20,7 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
   var theSpineArray = [];
   var xmlData = fs.readFileSync(sourceFcpxmlPath, "utf-8");
   // console.log(xmlData);
-  parseXmlString(xmlData, (err, data)=>{
+  parser.parseString(xmlData, (err, data)=>{
     var jsonFolderPath = path.dirname(pathForXml);
     var wholeJsonPath = path.join (jsonFolderPath, "wholeJsonRef.json")
     fs.writeFileSync(wholeJsonPath, (JSON.stringify(data, null, 4)))
@@ -39,10 +40,10 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
     theMulticlips.forEach((mc)=>{
       console.log("working on " + mc);
       for (var i = 0; i < data.fcpxml.resources[0].media.length; i++) {
-        console.log("getting this from data.fcpxml.resources . . . " + data.fcpxml.resources[0].media[i].$.name);
-        if (mc==data.fcpxml.resources[0].media[i].$.name) {
-          mcArray.push({name: mc, rNumber: data.fcpxml.resources[0].media[i].$.id});
-          console.log("pushing in " + mc + " and " + data.fcpxml.resources[0].media[i].$.id);
+        console.log("getting this from data.fcpxml.resources . . . " + data.fcpxml.resources[0].media[i]._attr.name);
+        if (mc==data.fcpxml.resources[0].media[i]._attr.name) {
+          mcArray.push({name: mc, rNumber: data.fcpxml.resources[0].media[i]._attr.id});
+          console.log("pushing in " + mc + " and " + data.fcpxml.resources[0].media[i]._attr.id);
           break;
         }
       }
@@ -108,10 +109,10 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
             camera = "0000C300a";
             //new check for angleIDs matching camera names -- this code is overly complicated, could just straight set camera to angleID, but I wanted to be able to log out when there's a discrepancy
             for (var i = 0; i < data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"].length; i++) {
-              if (camera.substr(-5) == data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.name) {
-                if (camera != data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.angleID) {
-                  camera = data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.angleID
-                  audioAngleID = data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.angleID
+              if (camera.substr(-5) == data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i]._attr.name) {
+                if (camera != data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i]._attr.angleID) {
+                  camera = data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i]._attr.angleID
+                  audioAngleID = data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i]._attr.angleID
                   console.log("We've updated the angleIDs to match the fcpxml export.");
               }
             }
@@ -120,9 +121,9 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
           else if (segment.camAngle=="B") {
             camera = "0000C300b";
             for (var i = 0; i < data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"].length; i++) {
-              if (camera.substr(-5) == data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.name) {
-                if (camera != data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.angleID) {
-                  camera = data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.angleID
+              if (camera.substr(-5) == data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i]._attr.name) {
+                if (camera != data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i]._attr.angleID) {
+                  camera = data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i]._attr.angleID
                   console.log("We've updated the angleIDs to match the fcpxml export.");
               }
             }
@@ -131,9 +132,9 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
           else if (segment.camAngle=="C") {
             camera = "0000C300c";
             for (var i = 0; i < data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"].length; i++) {
-              if (camera.substr(-5) == data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.name) {
-                if (camera != data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.angleID) {
-                  camera = data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.angleID
+              if (camera.substr(-5) == data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i]._attr.name) {
+                if (camera != data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i]._attr.angleID) {
+                  camera = data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i]._attr.angleID
                   console.log("We've updated the angleIDs to match the fcpxml export.");
               }
             }
@@ -142,9 +143,9 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
           else if (segment.camAngle=="D") {
             camera = "0000GH4";
             for (var i = 0; i < data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"].length; i++) {
-              if (camera.substr(-3) == data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.name) {
-                if (camera != data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.angleID) {
-                  camera = data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.angleID
+              if (camera.substr(-3) == data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i]._attr.name) {
+                if (camera != data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i]._attr.angleID) {
+                  camera = data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i]._attr.angleID
                   console.log("We've updated the angleIDs to match the fcpxml export.");
 
               }
@@ -154,9 +155,9 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
           else {
             camera = "0000C300a";
             for (var i = 0; i < data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"].length; i++) {
-              if (camera.substr(-5) == data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.name) {
-                if (camera != data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.angleID) {
-                  camera = data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.angleID
+              if (camera.substr(-5) == data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i]._attr.name) {
+                if (camera != data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i]._attr.angleID) {
+                  camera = data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i]._attr.angleID
               }
             }
             };
@@ -164,8 +165,8 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
           //updates audio angleID if video is not C300a
           if (!audioAngleID) {
             for (var i = 0; i < data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"].length; i++) {
-              if ('C300a' == data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.name) {
-                  audioAngleID = data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i].$.angleID
+              if ('C300a' == data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i]._attr.name) {
+                  audioAngleID = data.fcpxml.resources[0].media[0].multicam[0]["mc-angle"][i]._attr.angleID
               }
             };
           }
@@ -186,7 +187,7 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
             };
             var thisClipXML2 = {"mc-clip":
                 [
-                  {$:
+                  {_attr:
                     {name: thisFile, offset:fcpxmlFormat(offset), ref:theR, duration:fcpxmlFormat(duration), start:fcpxmlFormat(inTcFcpxml)}
                   },
                   {"mc-source":
@@ -212,7 +213,7 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
             };
           var thisClipXML2 = {"gap":
               [
-                {$:
+                {_attr:
                   {name: "Gap", offset:fcpxmlFormat(offset), duration:fcpxmlFormat(duration), start:"86400314/24000s"}
                 }
 
@@ -237,7 +238,7 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
                   {sequence:
                     [
                       {_attr:
-                        {duration: fcpxmlFormat(offset), format: data.fcpxml.resources[0].format[0].$.id, tcStart:"0s", tcFormat:"0s", tcFormat: "NDF", audioLayout:"stereo", audioRate:"48k"}}, //removed hard coded r# for format; also removed colorspace parameter
+                        {duration: fcpxmlFormat(offset), format: data.fcpxml.resources[0].format[0]._attr.id, tcStart:"0s", tcFormat:"0s", tcFormat: "NDF", audioLayout:"stereo", audioRate:"48k"}}, //removed hard coded r# for format; also removed colorspace parameter
                       {spine: theSpineArray}
                     ]
                   }
@@ -255,10 +256,13 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
       fs.writeFileSync(pathForXml, theXml);
       console.log("done");
 
+      data.fcpxml.library.push(theEventObject);
+      var newXml = xml(data, true);
       var io2sInsertPath = path.join (jsonFolderPath, "io2sInsert_test.fcpxml")
+      fs.writeFileSync(io2sInsertPath, newXml);
 
       //Writing makeIo2sXml function to call here
-      makeIo2sXml(theEventObject, data, io2sInsertPath);
+      // makeIo2sXml(theEventObject, data, io2sInsertPath);
 
 
   });
