@@ -363,7 +363,7 @@ function threeCamCc(shootObject, ccR, theResMc){
       {"mc-source": [{_attr:{angleID: ("0000"+anglesToAdd[2]), srcEnable:"video"}}, {"filter-video": {_attr:{ref: shootObject.fcpxml.motionEffectC.effect._attr.id, name:"2.5-cam-C-2018"}}}]}
       ]});
     }
-  
+
 
   // console.log("number of elements in theResMc.media = " + theResMc.media[1].multicam.length);
   for (var i = 0; i < theResMc.media[1].multicam.length; i++) {
