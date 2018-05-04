@@ -1,0 +1,809 @@
+{
+    "fcpxml": {
+        "_attr": {
+            "version": "1.6"
+        },
+        "resources": [
+            {
+                "asset": [
+                    {
+                        "_attr": {
+                            "id": "r1",
+                            "name": "20171207_002_ANTH1683_Artiststatement_C300a_001",
+                            "uid": "8B9A9FF7DE0A99A3F201AF882E7ED906",
+                            "src": "file:///Volumes/131_2050/20171207/20171207_002_ANTH1683_Artiststatement/C300a/20171207_002_ANTH1683_Artiststatement_C300a_001.mov",
+                            "start": "887628742/24000s",
+                            "duration": "58654596/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va6wEAAAAAAQQMAAAAHtEtcUq+cYU1F8PEgELwUpT/3zvmNRW09p+2uT6tKcKqAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAIAAAAAQEAADEzMV8yMDUwCAAAAAEBAAAyMDE3MTIwNyUAAAABAQAAMjAxNzEyMDdfMDAyX0FOVEgxNjgzX0FydGlzdHN0YXRlbWVudAAAAAUAAAABAQAAQzMwMGEAAAAzAAAAAQEAADIwMTcxMjA3XzAwMl9BTlRIMTY4M19BcnRpc3RzdGF0ZW1lbnRfQzMwMGFfMDAxLm1vdgAYAAAAAQYAABAAAAAgAAAAMAAAAEAAAABwAAAAgAAAAAgAAAAEAwAApmcGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAADThQAAAAAAAAgAAAAEAwAA2YUAAAAAAAAIAAAABAMAAN+FAAAAAAAACAAAAAQDAACzhQAAAAAAABgAAAABBgAA3AAAAOwAAAD8AAAADAEAABwBAAAsAQAACAAAAAAEAABBv9mhKAAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAEFAAAEAAAAAwMAAAYAAAAEAAAAAwMAAAUAAAAZAAAAAQkAAGZpbGU6Ly8vVm9sdW1lcy8xMzFfMjA1MC8AAAAIAAAABAMAAABAYFHdAQAACAAAAAAEAABBvvrXlAAAACQAAAABAQAARkI3RjY5OTQtOUE3Ri0zMTcwLTgyOTItNDc3Nzg3RTAzQzZGGAAAAAECAAABAQAAAQAAAO8TAAABAAAAAAAAAAAAAAARAAAAAQEAAC9Wb2x1bWVzLzEzMV8yMDUwAAAACAAAAAEJAABmaWxlOi8vLw0AAAABAQAATExfUHJvZHVjdGlvbgAAAAgAAAAEAwAAAHCiR3QAAAAIAAAAAAQAAEG/PjyNAAAAJAAAAAEBAABGOENFMTlBNS01RjkwLTNDOTctOEYwMy1FN0UwQzBFRDM4RDIYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAOwCAAAAAAAABSAAAFgCAAAAAAAAECAAAGgCAAAAAAAAESAAAKACAAAAAAAAEiAAAIACAAAAAAAAEyAAAJACAAAAAAAAICAAAMwCAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAHAAAAAEGAABgAwAAbAMAAHgDAABsAwAAbAMAAGwDAABsAwAAzAAAAP7///8BAAAA+AIAABAAAAAEEAAAvAAAAAAAAAAFEAAAPAEAAAAAAAAQEAAAbAEAAAAAAABAEAAAXAEAAAAAAABUEAAAlAEAAAAAAABVEAAAoAEAAAAAAABWEAAAjAEAAAAAAAAAIAAAhAMAAAAAAAACIAAAPAIAAAAAAAAFIAAArAEAAAAAAAAQIAAAIAAAAAAAAAARIAAA8AEAAAAAAAASIAAA0AEAAAAAAAATIAAA4AEAAAAAAAAgIAAAHAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r3",
+                            "name": "20171207_002_ANTH1683_Artiststatement_C300b_001",
+                            "uid": "53550FC55B4ADF25D2E891CF917192F3",
+                            "src": "file:///Volumes/131_2050/20171207/20171207_002_ANTH1683_Artiststatement/C300b/20171207_002_ANTH1683_Artiststatement_C300b_001.mov",
+                            "start": "887807921/24000s",
+                            "duration": "58498440/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va6wEAAAAAAQQMAAAAOTjvWh7Yig43TtklUqnrfmY4SMP1nUmawIdTAnsMyhLqAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAIAAAAAQEAADEzMV8yMDUwCAAAAAEBAAAyMDE3MTIwNyUAAAABAQAAMjAxNzEyMDdfMDAyX0FOVEgxNjgzX0FydGlzdHN0YXRlbWVudAAAAAUAAAABAQAAQzMwMGIAAAAzAAAAAQEAADIwMTcxMjA3XzAwMl9BTlRIMTY4M19BcnRpc3RzdGF0ZW1lbnRfQzMwMGJfMDAxLm1vdgAYAAAAAQYAABAAAAAgAAAAMAAAAEAAAABwAAAAgAAAAAgAAAAEAwAApmcGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAADThQAAAAAAAAgAAAAEAwAA2YUAAAAAAAAIAAAABAMAAOGFAAAAAAAACAAAAAQDAADGhQAAAAAAABgAAAABBgAA3AAAAOwAAAD8AAAADAEAABwBAAAsAQAACAAAAAAEAABBv9mhMwAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAEFAAAEAAAAAwMAAAYAAAAEAAAAAwMAAAUAAAAZAAAAAQkAAGZpbGU6Ly8vVm9sdW1lcy8xMzFfMjA1MC8AAAAIAAAABAMAAABAYFHdAQAACAAAAAAEAABBvvrXlAAAACQAAAABAQAARkI3RjY5OTQtOUE3Ri0zMTcwLTgyOTItNDc3Nzg3RTAzQzZGGAAAAAECAAABAQAAAQAAAO8TAAABAAAAAAAAAAAAAAARAAAAAQEAAC9Wb2x1bWVzLzEzMV8yMDUwAAAACAAAAAEJAABmaWxlOi8vLw0AAAABAQAATExfUHJvZHVjdGlvbgAAAAgAAAAEAwAAAHCiR3QAAAAIAAAAAAQAAEG/PjyNAAAAJAAAAAEBAABGOENFMTlBNS01RjkwLTNDOTctOEYwMy1FN0UwQzBFRDM4RDIYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAOwCAAAAAAAABSAAAFgCAAAAAAAAECAAAGgCAAAAAAAAESAAAKACAAAAAAAAEiAAAIACAAAAAAAAEyAAAJACAAAAAAAAICAAAMwCAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAHAAAAAEGAABgAwAAbAMAAHgDAABsAwAAbAMAAGwDAABsAwAAzAAAAP7///8BAAAA+AIAABAAAAAEEAAAvAAAAAAAAAAFEAAAPAEAAAAAAAAQEAAAbAEAAAAAAABAEAAAXAEAAAAAAABUEAAAlAEAAAAAAABVEAAAoAEAAAAAAABWEAAAjAEAAAAAAAAAIAAAhAMAAAAAAAACIAAAPAIAAAAAAAAFIAAArAEAAAAAAAAQIAAAIAAAAAAAAAARIAAA8AEAAAAAAAASIAAA0AEAAAAAAAATIAAA4AEAAAAAAAAgIAAAHAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r4",
+                            "name": "20171207_002_ANTH1683_Artiststatement_C300c_001",
+                            "uid": "84D8094060CFB66F03A09C56F13E23B4",
+                            "src": "file:///Volumes/131_2050/20171207/20171207_002_ANTH1683_Artiststatement/C300c/20171207_002_ANTH1683_Artiststatement_C300c_001.mov",
+                            "start": "887657771/24000s",
+                            "duration": "58678620/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va6wEAAAAAAQQMAAAAMncAWgf9OCaJM0v4wqAo515U5gRii1zcIwdK31GITp6qAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAIAAAAAQEAADEzMV8yMDUwCAAAAAEBAAAyMDE3MTIwNyUAAAABAQAAMjAxNzEyMDdfMDAyX0FOVEgxNjgzX0FydGlzdHN0YXRlbWVudAAAAAUAAAABAQAAQzMwMGMAAAAzAAAAAQEAADIwMTcxMjA3XzAwMl9BTlRIMTY4M19BcnRpc3RzdGF0ZW1lbnRfQzMwMGNfMDAxLm1vdgAYAAAAAQYAABAAAAAgAAAAMAAAAEAAAABwAAAAgAAAAAgAAAAEAwAApmcGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAADThQAAAAAAAAgAAAAEAwAA2YUAAAAAAAAIAAAABAMAAOKFAAAAAAAACAAAAAQDAABihQAAAAAAABgAAAABBgAA3AAAAOwAAAD8AAAADAEAABwBAAAsAQAACAAAAAAEAABBv9mhgQAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAEFAAAEAAAAAwMAAAYAAAAEAAAAAwMAAAUAAAAZAAAAAQkAAGZpbGU6Ly8vVm9sdW1lcy8xMzFfMjA1MC8AAAAIAAAABAMAAABAYFHdAQAACAAAAAAEAABBvvrXlAAAACQAAAABAQAARkI3RjY5OTQtOUE3Ri0zMTcwLTgyOTItNDc3Nzg3RTAzQzZGGAAAAAECAAABAQAAAQAAAO8TAAABAAAAAAAAAAAAAAARAAAAAQEAAC9Wb2x1bWVzLzEzMV8yMDUwAAAACAAAAAEJAABmaWxlOi8vLw0AAAABAQAATExfUHJvZHVjdGlvbgAAAAgAAAAEAwAAAHCiR3QAAAAIAAAAAAQAAEG/PjyNAAAAJAAAAAEBAABGOENFMTlBNS01RjkwLTNDOTctOEYwMy1FN0UwQzBFRDM4RDIYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAOwCAAAAAAAABSAAAFgCAAAAAAAAECAAAGgCAAAAAAAAESAAAKACAAAAAAAAEiAAAIACAAAAAAAAEyAAAJACAAAAAAAAICAAAMwCAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAHAAAAAEGAABgAwAAbAMAAHgDAABsAwAAbAMAAGwDAABsAwAAzAAAAP7///8BAAAA+AIAABAAAAAEEAAAvAAAAAAAAAAFEAAAPAEAAAAAAAAQEAAAbAEAAAAAAABAEAAAXAEAAAAAAABUEAAAlAEAAAAAAABVEAAAoAEAAAAAAABWEAAAjAEAAAAAAAAAIAAAhAMAAAAAAAACIAAAPAIAAAAAAAAFIAAArAEAAAAAAAAQIAAAIAAAAAAAAAARIAAA8AEAAAAAAAASIAAA0AEAAAAAAAATIAAA4AEAAAAAAAAgIAAAHAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r5",
+                            "name": "20171207_002_ANTH1683_Artiststatement_GH4_001",
+                            "uid": "88DC87D1FA4827BEE06ECC574A007384",
+                            "src": "file:///Volumes/131_2050/20171207/20171207_002_ANTH1683_Artiststatement/GH4/20171207_002_ANTH1683_Artiststatement_GH4_001.MOV",
+                            "start": "888186299/24000s",
+                            "duration": "58050993/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va6gEAAAAAAQQMAAAAITPq6+tphItecj9b/V9bIpJNQD+D4FTlE6m7zrd555PpAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAIAAAAAQEAADEzMV8yMDUwCAAAAAEBAAAyMDE3MTIwNyUAAAABAQAAMjAxNzEyMDdfMDAyX0FOVEgxNjgzX0FydGlzdHN0YXRlbWVudAAAAAMAAAABAQAAR0g0ADEAAAABAQAAMjAxNzEyMDdfMDAyX0FOVEgxNjgzX0FydGlzdHN0YXRlbWVudF9HSDRfMDAxLk1PVgAAABgAAAABBgAAEAAAACAAAAAwAAAAQAAAAHAAAAB8AAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAANOFAAAAAAAACAAAAAQDAADZhQAAAAAAAAgAAAAEAwAA44UAAAAAAAAIAAAABAMAACmGAAAAAAAAGAAAAAEGAADYAAAA6AAAAPgAAAAIAQAAGAEAACgBAAAIAAAAAAQAAEG/2aPWAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAAAQAAAADAwAABQAAABkAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzEzMV8yMDUwLwAAAAgAAAAEAwAAAEBgUd0BAAAIAAAAAAQAAEG++teUAAAAJAAAAAEBAABGQjdGNjk5NC05QTdGLTMxNzAtODI5Mi00Nzc3ODdFMDNDNkYYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABEAAAABAQAAL1ZvbHVtZXMvMTMxXzIwNTAAAAAIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA6AIAAAAAAAAFIAAAVAIAAAAAAAAQIAAAZAIAAAAAAAARIAAAnAIAAAAAAAASIAAAfAIAAAAAAAATIAAAjAIAAAAAAAAgIAAAyAIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAcAAAAAQYAAFwDAABoAwAAdAMAAGgDAABoAwAAaAMAAGgDAADMAAAA/v///wEAAAD0AgAAEAAAAAQQAAC4AAAAAAAAAAUQAAA4AQAAAAAAABAQAABoAQAAAAAAAEAQAABYAQAAAAAAAFQQAACQAQAAAAAAAFUQAACcAQAAAAAAAFYQAACIAQAAAAAAAAAgAACAAwAAAAAAAAIgAAA4AgAAAAAAAAUgAACoAQAAAAAAABAgAAAgAAAAAAAAABEgAADsAQAAAAAAABIgAADMAQAAAAAAABMgAADcAQAAAAAAACAgAAAYAgAAAAAAABDQAAAEAAAAAAAAAA=="
+                        ]
+                    }
+                ],
+                "format": [
+                    {
+                        "_attr": {
+                            "id": "r2",
+                            "name": "FFVideoFormat1080p2398",
+                            "frameDuration": "1001/24000s",
+                            "width": "1920",
+                            "height": "1080"
+                        }
+                    }
+                ],
+                "media": [
+                    {
+                        "_attr": {
+                            "id": "r6",
+                            "name": "20171207_002_ANTH1683_Artiststatement_MC",
+                            "uid": "yXxAy07FRPakoMd5uOkl+g",
+                            "modDate": "2017-12-07 15:31:52 -0500"
+                        },
+                        "multicam": [
+                            {
+                                "_attr": {
+                                    "format": "r2",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "887628742/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "mc-angle": [
+                                    {
+                                        "_attr": {
+                                            "name": "C300a",
+                                            "angleID": "0000C300a"
+                                        },
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171207_002_ANTH1683_Artiststatement_C300a_001.mov",
+                                                    "offset": "0s",
+                                                    "ref": "r1",
+                                                    "duration": "58654596/24000s",
+                                                    "start": "887628742/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "C300b",
+                                            "angleID": "0000C300b"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "179179/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171207_002_ANTH1683_Artiststatement_C300b_001.mov",
+                                                    "offset": "179179/24000s",
+                                                    "ref": "r3",
+                                                    "duration": "58498440/24000s",
+                                                    "start": "887807921/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "C300c",
+                                            "angleID": "0000C300c"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "29029/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171207_002_ANTH1683_Artiststatement_C300c_001.mov",
+                                                    "offset": "29029/24000s",
+                                                    "ref": "r4",
+                                                    "duration": "58678620/24000s",
+                                                    "start": "887657771/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "GH4",
+                                            "angleID": "0000GH4"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "557557/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171207_002_ANTH1683_Artiststatement_GH4_001.MOV",
+                                                    "offset": "557557/24000s",
+                                                    "ref": "r5",
+                                                    "duration": "58050993/24000s",
+                                                    "start": "888186299/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r7",
+                            "name": "20171207_002_ANTH1683_Artiststatement_MC_CC",
+                            "uid": "/zJCquZ6SVKfeOCNcIlBKQ",
+                            "modDate": "2017-12-07 15:33:01 -0500"
+                        },
+                        "sequence": [
+                            {
+                                "_attr": {
+                                    "duration": "58707649/24000s",
+                                    "format": "r2",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "887628742/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "spine": [
+                                    {
+                                        "mc-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171207_002_ANTH1683_Artiststatement_MC",
+                                                    "offset": "887628742/24000s",
+                                                    "ref": "r6",
+                                                    "duration": "58707649/24000s",
+                                                    "start": "887628742/24000s"
+                                                },
+                                                "mc-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "angleID": "0000C300a",
+                                                            "srcEnable": "all"
+                                                        },
+                                                        "filter-video": [
+                                                            {
+                                                                "_attr": {
+                                                                    "ref": "r8",
+                                                                    "name": "2.5_A"
+                                                                },
+                                                                "param": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/10619/1/100/101",
+                                                                            "value": "-19.3779 -232"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/10619/2/354/36868/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Line Spacing",
+                                                                            "key": "9999/32385/10619/2/354/36868/404",
+                                                                            "value": "-2"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/10619/2/369",
+                                                                            "value": "20171207_002_ANTH1683_Artiststatement"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20673/1/100/101",
+                                                                            "value": "-16.824 -180"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20673/2/354/36866/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20673/2/369",
+                                                                            "value": "ANTH1683: Artiststatement"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20837/1/100/101",
+                                                                            "value": "-443.584 -395"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20837/2/354/36870/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20837/2/369",
+                                                                            "value": "20171207:"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "mc-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171207_002_ANTH1683_Artiststatement_MC",
+                                                            "lane": "-3",
+                                                            "offset": "887628742/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "58707649/24000s",
+                                                            "start": "887628742/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300b",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r9",
+                                                                            "name": "C300b_New"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171207_002_ANTH1683_Artiststatement_MC",
+                                                            "lane": "-2",
+                                                            "offset": "887628742/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "58707649/24000s",
+                                                            "start": "887628742/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300c",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r10",
+                                                                            "name": "C300c_New"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171207_002_ANTH1683_Artiststatement_MC",
+                                                            "lane": "-1",
+                                                            "offset": "887628742/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "58707649/24000s",
+                                                            "start": "887628742/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300c",
+                                                                    "srcEnable": "none"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r11",
+                                                                            "name": "2.5_B"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000GH4",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r12",
+                                                                            "name": "GH4a_New"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "effect": [
+                    {
+                        "_attr": {
+                            "id": "r8",
+                            "name": "2.5_A",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r9",
+                            "name": "C300b_New",
+                            "uid": "~/Effects.localized/layouts-2018-NEW/layouts-2018/C300b_New/C300b_New.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/layouts-2018-NEW/layouts-2018/C300b_New/C300b_New.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r10",
+                            "name": "C300c_New",
+                            "uid": "~/Effects.localized/layouts-2018-NEW/layouts-2018/C300c_New/C300c_New.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/layouts-2018-NEW/layouts-2018/C300c_New/C300c_New.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r11",
+                            "name": "2.5_B",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r12",
+                            "name": "GH4a_New",
+                            "uid": "~/Effects.localized/layouts-2018-NEW/layouts-2018/GH4a_New/GH4a_New.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/layouts-2018-NEW/layouts-2018/GH4a_New/GH4a_New.moef"
+                        }
+                    }
+                ]
+            }
+        ],
+        "library": [
+            {
+                "_attr": {
+                    "location": "file:///Volumes/131_2050/20171207_MC_CC_Ex.fcpbundle/"
+                },
+                "event": [
+                    {
+                        "_attr": {
+                            "name": "20171207_002_ANTH1683_Artiststatement",
+                            "uid": "6F5B8582-11E4-4EE2-A4D1-3B771EF95EB1"
+                        },
+                        "asset-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171207_002_ANTH1683_Artiststatement_C300a_001",
+                                    "ref": "r1",
+                                    "duration": "58654596/24000s",
+                                    "start": "887628742/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-07 15:29:32 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "443814371/12000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "8.87629e+08s",
+                                            "duration": "58654596/24000s",
+                                            "value": "20171207_002_ANTH1683_Artiststatement, C300a"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171207_002_ANTH1683_Artiststatement_C300b_001",
+                                    "ref": "r3",
+                                    "duration": "58498440/24000s",
+                                    "start": "887807921/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-07 15:29:32 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "887807921/24000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "8.87808e+08s",
+                                            "duration": "58498440/24000s",
+                                            "value": "20171207_002_ANTH1683_Artiststatement, C300b"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171207_002_ANTH1683_Artiststatement_C300c_001",
+                                    "ref": "r4",
+                                    "duration": "58678620/24000s",
+                                    "start": "887657771/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-07 15:29:32 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "887657771/24000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "8.87658e+08s",
+                                            "duration": "58678620/24000s",
+                                            "value": "20171207_002_ANTH1683_Artiststatement, C300c"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171207_002_ANTH1683_Artiststatement_GH4_001",
+                                    "ref": "r5",
+                                    "duration": "58050993/24000s",
+                                    "start": "888186299/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-07 15:29:32 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "888186299/24000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "8.88186e+08s",
+                                            "duration": "58050993/24000s",
+                                            "value": "20171207_002_ANTH1683_Artiststatement, GH4"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "mc-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171207_002_ANTH1683_Artiststatement_MC",
+                                    "ref": "r6",
+                                    "duration": "58707649/24000s",
+                                    "start": "887628742/24000s",
+                                    "modDate": "2017-12-07 15:29:31 -0500"
+                                },
+                                "mc-source": [
+                                    {
+                                        "_attr": {
+                                            "angleID": "0000C300a",
+                                            "srcEnable": "all"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "ref-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171207_002_ANTH1683_Artiststatement_MC_CC",
+                                    "ref": "r7",
+                                    "duration": "58707649/24000s",
+                                    "start": "887628742/24000s",
+                                    "modDate": "2017-12-07 15:33:01 -0500"
+                                }
+                            }
+                        ],
+                        "project": [
+                            {
+                                "_attr": {
+                                    "name": "20171207_002_ANTH1683_Artiststatement_MC_CC_Ex",
+                                    "uid": "368406B0-C5F9-4CB1-9558-73F2222E669E",
+                                    "modDate": "2017-12-07 15:33:01 -0500"
+                                },
+                                "sequence": [
+                                    {
+                                        "_attr": {
+                                            "duration": "58707649/24000s",
+                                            "format": "r2",
+                                            "renderColorSpace": "Rec. 709",
+                                            "tcStart": "0s",
+                                            "tcFormat": "NDF",
+                                            "audioLayout": "stereo",
+                                            "audioRate": "48k"
+                                        },
+                                        "spine": [
+                                            {
+                                                "ref-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171207_002_ANTH1683_Artiststatement_MC_CC",
+                                                            "offset": "0s",
+                                                            "ref": "r7",
+                                                            "duration": "58707649/24000s",
+                                                            "start": "887628742/24000s"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "keyword-collection": [
+                            {
+                                "_attr": {
+                                    "name": "20171207_002_ANTH1683_Artiststatement"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300a"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "first 24 frames"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300b"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300c"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "GH4"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

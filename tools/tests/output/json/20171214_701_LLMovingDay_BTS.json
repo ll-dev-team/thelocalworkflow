@@ -1,0 +1,800 @@
+{
+    "fcpxml": {
+        "_attr": {
+            "version": "1.7"
+        },
+        "resources": [
+            {
+                "asset": [
+                    {
+                        "_attr": {
+                            "id": "r1",
+                            "name": "20171214_701_LLMovingDay_BTS_5Da_001",
+                            "uid": "D693D4B3A48847984F3E6194D9CA519C",
+                            "src": "file:///Volumes/517_Thursday/Footage/20171214/20171214_701_LLMovingDay_BTS/5Da/20171214_701_LLMovingDay_BTS_5Da_001.MOV",
+                            "start": "3273150881/24000s",
+                            "duration": "479479/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7wEAAAAAAQQMAAAAPprLUY3wa2XxFPRvMIZ/JA5lMgzKCha1j4q1vlCgCYzuAMAAAQAAAADAwAAABgAKAcAAAABAQAAVm9sdW1lcwAMAAAAAQEAADUxN19UaHVyc2RheQcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjE0HAAAAAEBAAAyMDE3MTIxNF83MDFfTExNb3ZpbmdEYXlfQlRTAwAAAAEBAAA1RGEAKAAAAAEBAAAyMDE3MTIxNF83MDFfTExNb3ZpbmdEYXlfQlRTXzVEYV8wMDEuTU9WHAAAAAEGAAAQAAAAIAAAADQAAABEAAAAVAAAAHgAAACEAAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAACMqCAAAAAAACAAAAAQDAAB5fQgAAAAAAAgAAAAEAwAARH4IAAAAAAAIAAAABAMAAEV+CAAAAAAACAAAAAQDAABHfggAAAAAABwAAAABBgAA2AAAAOgAAAD4AAAACAEAABgBAAAoAQAAOAEAAAgAAAAABAAAQb/i/5kAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAGAAAAHQAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvNTE3X1RodXJzZGF5LwAAAAgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG8X8zKAAAAJAAAAAEBAAA2MUNCQjY0My1FM0MyLTNGQ0YtODQxOS1DMTE5M0VDOTQwMEQYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABUAAAABAQAAL1ZvbHVtZXMvNTE3X1RodXJzZGF5AAAACAAAAAEJAABmaWxlOi8vLw0AAAABAQAATExfUHJvZHVjdGlvbgAAAAgAAAAEAwAAAHCiR3QAAAAIAAAAAAQAAEG/PjyNAAAAJAAAAAEBAABGOENFMTlBNS01RjkwLTNDOTctOEYwMy1FN0UwQzBFRDM4RDIYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAPgCAAAAAAAABSAAAGQCAAAAAAAAECAAAHQCAAAAAAAAESAAAKwCAAAAAAAAEiAAAIwCAAAAAAAAEyAAAJwCAAAAAAAAICAAANgCAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAIAAAAAEGAABsAwAAeAMAAIQDAAB4AwAAeAMAAHgDAAB4AwAAeAMAAMwAAAD+////AQAAAAQDAAAQAAAABBAAALQAAAAAAAAABRAAAEgBAAAAAAAAEBAAAHwBAAAAAAAAQBAAAGwBAAAAAAAAVBAAAKQBAAAAAAAAVRAAAKQBAAAAAAAAVhAAAJwBAAAAAAAAACAAAJADAAAAAAAAAiAAAEQCAAAAAAAABSAAALABAAAAAAAAECAAACAAAAAAAAAAESAAAPgBAAAAAAAAEiAAANgBAAAAAAAAEyAAAOgBAAAAAAAAICAAACQCAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r3",
+                            "name": "20171214_701_LLMovingDay_BTS_5Da_002",
+                            "uid": "D8A2514E72F46913B4E22D562E72B73D",
+                            "src": "file:///Volumes/517_Thursday/Footage/20171214/20171214_701_LLMovingDay_BTS/5Da/20171214_701_LLMovingDay_BTS_5Da_002.MOV",
+                            "start": "3273715445/24000s",
+                            "duration": "136136/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7wEAAAAAAQQMAAAAKcY011pCtpc+WTPYF1F6H3mqsTI7nm5XziNmXTd8f+fuAMAAAQAAAADAwAAABgAKAcAAAABAQAAVm9sdW1lcwAMAAAAAQEAADUxN19UaHVyc2RheQcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjE0HAAAAAEBAAAyMDE3MTIxNF83MDFfTExNb3ZpbmdEYXlfQlRTAwAAAAEBAAA1RGEAKAAAAAEBAAAyMDE3MTIxNF83MDFfTExNb3ZpbmdEYXlfQlRTXzVEYV8wMDIuTU9WHAAAAAEGAAAQAAAAIAAAADQAAABEAAAAVAAAAHgAAACEAAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAACMqCAAAAAAACAAAAAQDAAB5fQgAAAAAAAgAAAAEAwAARH4IAAAAAAAIAAAABAMAAEV+CAAAAAAACAAAAAQDAABIfggAAAAAABwAAAABBgAA2AAAAOgAAAD4AAAACAEAABgBAAAoAQAAOAEAAAgAAAAABAAAQb/i/6IAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAGAAAAHQAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvNTE3X1RodXJzZGF5LwAAAAgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG8X8zKAAAAJAAAAAEBAAA2MUNCQjY0My1FM0MyLTNGQ0YtODQxOS1DMTE5M0VDOTQwMEQYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABUAAAABAQAAL1ZvbHVtZXMvNTE3X1RodXJzZGF5AAAACAAAAAEJAABmaWxlOi8vLw0AAAABAQAATExfUHJvZHVjdGlvbgAAAAgAAAAEAwAAAHCiR3QAAAAIAAAAAAQAAEG/PjyNAAAAJAAAAAEBAABGOENFMTlBNS01RjkwLTNDOTctOEYwMy1FN0UwQzBFRDM4RDIYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAPgCAAAAAAAABSAAAGQCAAAAAAAAECAAAHQCAAAAAAAAESAAAKwCAAAAAAAAEiAAAIwCAAAAAAAAEyAAAJwCAAAAAAAAICAAANgCAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAIAAAAAEGAABsAwAAeAMAAIQDAAB4AwAAeAMAAHgDAAB4AwAAeAMAAMwAAAD+////AQAAAAQDAAAQAAAABBAAALQAAAAAAAAABRAAAEgBAAAAAAAAEBAAAHwBAAAAAAAAQBAAAGwBAAAAAAAAVBAAAKQBAAAAAAAAVRAAAKQBAAAAAAAAVhAAAJwBAAAAAAAAACAAAJADAAAAAAAAAiAAAEQCAAAAAAAABSAAALABAAAAAAAAECAAACAAAAAAAAAAESAAAPgBAAAAAAAAEiAAANgBAAAAAAAAEyAAAOgBAAAAAAAAICAAACQCAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r4",
+                            "name": "20171214_701_LLMovingDay_BTS_5Da_003",
+                            "uid": "56B5D25AECB4BB3F6343578BBA610A3D",
+                            "src": "file:///Volumes/517_Thursday/Footage/20171214/20171214_701_LLMovingDay_BTS/5Da/20171214_701_LLMovingDay_BTS_5Da_003.MOV",
+                            "start": "3273913643/24000s",
+                            "duration": "345345/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7wEAAAAAAQQMAAAAI4FOXaZySdPnUvzO5AxAm3lw137xVTM+gH8NgQVgu0ouAMAAAQAAAADAwAAABgAKAcAAAABAQAAVm9sdW1lcwAMAAAAAQEAADUxN19UaHVyc2RheQcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjE0HAAAAAEBAAAyMDE3MTIxNF83MDFfTExNb3ZpbmdEYXlfQlRTAwAAAAEBAAA1RGEAKAAAAAEBAAAyMDE3MTIxNF83MDFfTExNb3ZpbmdEYXlfQlRTXzVEYV8wMDMuTU9WHAAAAAEGAAAQAAAAIAAAADQAAABEAAAAVAAAAHgAAACEAAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAACMqCAAAAAAACAAAAAQDAAB5fQgAAAAAAAgAAAAEAwAARH4IAAAAAAAIAAAABAMAAEV+CAAAAAAACAAAAAQDAABJfggAAAAAABwAAAABBgAA2AAAAOgAAAD4AAAACAEAABgBAAAoAQAAOAEAAAgAAAAABAAAQb/i/7MAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAGAAAAHQAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvNTE3X1RodXJzZGF5LwAAAAgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG8X8zKAAAAJAAAAAEBAAA2MUNCQjY0My1FM0MyLTNGQ0YtODQxOS1DMTE5M0VDOTQwMEQYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABUAAAABAQAAL1ZvbHVtZXMvNTE3X1RodXJzZGF5AAAACAAAAAEJAABmaWxlOi8vLw0AAAABAQAATExfUHJvZHVjdGlvbgAAAAgAAAAEAwAAAHCiR3QAAAAIAAAAAAQAAEG/PjyNAAAAJAAAAAEBAABGOENFMTlBNS01RjkwLTNDOTctOEYwMy1FN0UwQzBFRDM4RDIYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAPgCAAAAAAAABSAAAGQCAAAAAAAAECAAAHQCAAAAAAAAESAAAKwCAAAAAAAAEiAAAIwCAAAAAAAAEyAAAJwCAAAAAAAAICAAANgCAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAIAAAAAEGAABsAwAAeAMAAIQDAAB4AwAAeAMAAHgDAAB4AwAAeAMAAMwAAAD+////AQAAAAQDAAAQAAAABBAAALQAAAAAAAAABRAAAEgBAAAAAAAAEBAAAHwBAAAAAAAAQBAAAGwBAAAAAAAAVBAAAKQBAAAAAAAAVRAAAKQBAAAAAAAAVhAAAJwBAAAAAAAAACAAAJADAAAAAAAAAiAAAEQCAAAAAAAABSAAALABAAAAAAAAECAAACAAAAAAAAAAESAAAPgBAAAAAAAAEiAAANgBAAAAAAAAEyAAAOgBAAAAAAAAICAAACQCAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r5",
+                            "name": "20171214_701_LLMovingDay_BTS_5Da_004",
+                            "uid": "5E1E477B9A30B4D8DDBCD398A9DB5524",
+                            "src": "file:///Volumes/517_Thursday/Footage/20171214/20171214_701_LLMovingDay_BTS/5Da/20171214_701_LLMovingDay_BTS_5Da_004.MOV",
+                            "start": "3274394123/24000s",
+                            "duration": "196196/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7wEAAAAAAQQMAAAADqgp9yg83LtPPAM3kZ8oMyLHdjjmRC7SU7Mi/OYiYTFuAMAAAQAAAADAwAAABgAKAcAAAABAQAAVm9sdW1lcwAMAAAAAQEAADUxN19UaHVyc2RheQcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjE0HAAAAAEBAAAyMDE3MTIxNF83MDFfTExNb3ZpbmdEYXlfQlRTAwAAAAEBAAA1RGEAKAAAAAEBAAAyMDE3MTIxNF83MDFfTExNb3ZpbmdEYXlfQlRTXzVEYV8wMDQuTU9WHAAAAAEGAAAQAAAAIAAAADQAAABEAAAAVAAAAHgAAACEAAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAACMqCAAAAAAACAAAAAQDAAB5fQgAAAAAAAgAAAAEAwAARH4IAAAAAAAIAAAABAMAAEV+CAAAAAAACAAAAAQDAABKfggAAAAAABwAAAABBgAA2AAAAOgAAAD4AAAACAEAABgBAAAoAQAAOAEAAAgAAAAABAAAQb/i/8EAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAGAAAAHQAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvNTE3X1RodXJzZGF5LwAAAAgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG8X8zKAAAAJAAAAAEBAAA2MUNCQjY0My1FM0MyLTNGQ0YtODQxOS1DMTE5M0VDOTQwMEQYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABUAAAABAQAAL1ZvbHVtZXMvNTE3X1RodXJzZGF5AAAACAAAAAEJAABmaWxlOi8vLw0AAAABAQAATExfUHJvZHVjdGlvbgAAAAgAAAAEAwAAAHCiR3QAAAAIAAAAAAQAAEG/PjyNAAAAJAAAAAEBAABGOENFMTlBNS01RjkwLTNDOTctOEYwMy1FN0UwQzBFRDM4RDIYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAPgCAAAAAAAABSAAAGQCAAAAAAAAECAAAHQCAAAAAAAAESAAAKwCAAAAAAAAEiAAAIwCAAAAAAAAEyAAAJwCAAAAAAAAICAAANgCAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAIAAAAAEGAABsAwAAeAMAAIQDAAB4AwAAeAMAAHgDAAB4AwAAeAMAAMwAAAD+////AQAAAAQDAAAQAAAABBAAALQAAAAAAAAABRAAAEgBAAAAAAAAEBAAAHwBAAAAAAAAQBAAAGwBAAAAAAAAVBAAAKQBAAAAAAAAVRAAAKQBAAAAAAAAVhAAAJwBAAAAAAAAACAAAJADAAAAAAAAAiAAAEQCAAAAAAAABSAAALABAAAAAAAAECAAACAAAAAAAAAAESAAAPgBAAAAAAAAEiAAANgBAAAAAAAAEyAAAOgBAAAAAAAAICAAACQCAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r6",
+                            "name": "20171214_701_LLMovingDay_BTS_5Da_005",
+                            "uid": "E29E0D359A79CF1BBA15E68ABF02BD3B",
+                            "src": "file:///Volumes/517_Thursday/Footage/20171214/20171214_701_LLMovingDay_BTS/5Da/20171214_701_LLMovingDay_BTS_5Da_005.MOV",
+                            "start": "3274686415/24000s",
+                            "duration": "458458/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7wEAAAAAAQQMAAAAJFx8x/2Lu0CO0TGZtfGyYDrwthTrlVs+JizEFUJ34QvuAMAAAQAAAADAwAAABgAKAcAAAABAQAAVm9sdW1lcwAMAAAAAQEAADUxN19UaHVyc2RheQcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjE0HAAAAAEBAAAyMDE3MTIxNF83MDFfTExNb3ZpbmdEYXlfQlRTAwAAAAEBAAA1RGEAKAAAAAEBAAAyMDE3MTIxNF83MDFfTExNb3ZpbmdEYXlfQlRTXzVEYV8wMDUuTU9WHAAAAAEGAAAQAAAAIAAAADQAAABEAAAAVAAAAHgAAACEAAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAACMqCAAAAAAACAAAAAQDAAB5fQgAAAAAAAgAAAAEAwAARH4IAAAAAAAIAAAABAMAAEV+CAAAAAAACAAAAAQDAABLfggAAAAAABwAAAABBgAA2AAAAOgAAAD4AAAACAEAABgBAAAoAQAAOAEAAAgAAAAABAAAQb/i/9kAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAGAAAAHQAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvNTE3X1RodXJzZGF5LwAAAAgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG8X8zKAAAAJAAAAAEBAAA2MUNCQjY0My1FM0MyLTNGQ0YtODQxOS1DMTE5M0VDOTQwMEQYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABUAAAABAQAAL1ZvbHVtZXMvNTE3X1RodXJzZGF5AAAACAAAAAEJAABmaWxlOi8vLw0AAAABAQAATExfUHJvZHVjdGlvbgAAAAgAAAAEAwAAAHCiR3QAAAAIAAAAAAQAAEG/PjyNAAAAJAAAAAEBAABGOENFMTlBNS01RjkwLTNDOTctOEYwMy1FN0UwQzBFRDM4RDIYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAPgCAAAAAAAABSAAAGQCAAAAAAAAECAAAHQCAAAAAAAAESAAAKwCAAAAAAAAEiAAAIwCAAAAAAAAEyAAAJwCAAAAAAAAICAAANgCAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAIAAAAAEGAABsAwAAeAMAAIQDAAB4AwAAeAMAAHgDAAB4AwAAeAMAAMwAAAD+////AQAAAAQDAAAQAAAABBAAALQAAAAAAAAABRAAAEgBAAAAAAAAEBAAAHwBAAAAAAAAQBAAAGwBAAAAAAAAVBAAAKQBAAAAAAAAVRAAAKQBAAAAAAAAVhAAAJwBAAAAAAAAACAAAJADAAAAAAAAAiAAAEQCAAAAAAAABSAAALABAAAAAAAAECAAACAAAAAAAAAAESAAAPgBAAAAAAAAEiAAANgBAAAAAAAAEyAAAOgBAAAAAAAAICAAACQCAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r7",
+                            "name": "20171214_701_LLMovingDay_BTS_5Da_006",
+                            "uid": "E6D1CBE675FE7B5AC2F301C9EA7859EE",
+                            "src": "file:///Volumes/517_Thursday/Footage/20171214/20171214_701_LLMovingDay_BTS/5Da/20171214_701_LLMovingDay_BTS_5Da_006.MOV",
+                            "start": "3275641369/24000s",
+                            "duration": "249249/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7wEAAAAAAQQMAAAAHuXUtOG9rzhCWrszJapmzc94gxUDlLbEgiXN189T84uuAMAAAQAAAADAwAAABgAKAcAAAABAQAAVm9sdW1lcwAMAAAAAQEAADUxN19UaHVyc2RheQcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjE0HAAAAAEBAAAyMDE3MTIxNF83MDFfTExNb3ZpbmdEYXlfQlRTAwAAAAEBAAA1RGEAKAAAAAEBAAAyMDE3MTIxNF83MDFfTExNb3ZpbmdEYXlfQlRTXzVEYV8wMDYuTU9WHAAAAAEGAAAQAAAAIAAAADQAAABEAAAAVAAAAHgAAACEAAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAACMqCAAAAAAACAAAAAQDAAB5fQgAAAAAAAgAAAAEAwAARH4IAAAAAAAIAAAABAMAAEV+CAAAAAAACAAAAAQDAABMfggAAAAAABwAAAABBgAA2AAAAOgAAAD4AAAACAEAABgBAAAoAQAAOAEAAAgAAAAABAAAQb/i//cAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAGAAAAHQAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvNTE3X1RodXJzZGF5LwAAAAgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG8X8zKAAAAJAAAAAEBAAA2MUNCQjY0My1FM0MyLTNGQ0YtODQxOS1DMTE5M0VDOTQwMEQYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABUAAAABAQAAL1ZvbHVtZXMvNTE3X1RodXJzZGF5AAAACAAAAAEJAABmaWxlOi8vLw0AAAABAQAATExfUHJvZHVjdGlvbgAAAAgAAAAEAwAAAHCiR3QAAAAIAAAAAAQAAEG/PjyNAAAAJAAAAAEBAABGOENFMTlBNS01RjkwLTNDOTctOEYwMy1FN0UwQzBFRDM4RDIYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAPgCAAAAAAAABSAAAGQCAAAAAAAAECAAAHQCAAAAAAAAESAAAKwCAAAAAAAAEiAAAIwCAAAAAAAAEyAAAJwCAAAAAAAAICAAANgCAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAIAAAAAEGAABsAwAAeAMAAIQDAAB4AwAAeAMAAHgDAAB4AwAAeAMAAMwAAAD+////AQAAAAQDAAAQAAAABBAAALQAAAAAAAAABRAAAEgBAAAAAAAAEBAAAHwBAAAAAAAAQBAAAGwBAAAAAAAAVBAAAKQBAAAAAAAAVRAAAKQBAAAAAAAAVhAAAJwBAAAAAAAAACAAAJADAAAAAAAAAiAAAEQCAAAAAAAABSAAALABAAAAAAAAECAAACAAAAAAAAAAESAAAPgBAAAAAAAAEiAAANgBAAAAAAAAEyAAAOgBAAAAAAAAICAAACQCAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r8",
+                            "name": "20171214_701_LLMovingDay_BTS_5Da_007",
+                            "uid": "AC05EC1E7914B2512BC6436D6677E071",
+                            "src": "file:///Volumes/517_Thursday/Footage/20171214/20171214_701_LLMovingDay_BTS/5Da/20171214_701_LLMovingDay_BTS_5Da_007.MOV",
+                            "start": "3276177905/24000s",
+                            "duration": "607607/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7wEAAAAAAQQMAAAADvo7Hgn3hw/3ANxOAI5yU+mG05IAfGwDpQI9vDyApv+uAMAAAQAAAADAwAAABgAKAcAAAABAQAAVm9sdW1lcwAMAAAAAQEAADUxN19UaHVyc2RheQcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjE0HAAAAAEBAAAyMDE3MTIxNF83MDFfTExNb3ZpbmdEYXlfQlRTAwAAAAEBAAA1RGEAKAAAAAEBAAAyMDE3MTIxNF83MDFfTExNb3ZpbmdEYXlfQlRTXzVEYV8wMDcuTU9WHAAAAAEGAAAQAAAAIAAAADQAAABEAAAAVAAAAHgAAACEAAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAACMqCAAAAAAACAAAAAQDAAB5fQgAAAAAAAgAAAAEAwAARH4IAAAAAAAIAAAABAMAAEV+CAAAAAAACAAAAAQDAABNfggAAAAAABwAAAABBgAA2AAAAOgAAAD4AAAACAEAABgBAAAoAQAAOAEAAAgAAAAABAAAQb/jABwAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAGAAAAHQAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvNTE3X1RodXJzZGF5LwAAAAgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG8X8zKAAAAJAAAAAEBAAA2MUNCQjY0My1FM0MyLTNGQ0YtODQxOS1DMTE5M0VDOTQwMEQYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABUAAAABAQAAL1ZvbHVtZXMvNTE3X1RodXJzZGF5AAAACAAAAAEJAABmaWxlOi8vLw0AAAABAQAATExfUHJvZHVjdGlvbgAAAAgAAAAEAwAAAHCiR3QAAAAIAAAAAAQAAEG/PjyNAAAAJAAAAAEBAABGOENFMTlBNS01RjkwLTNDOTctOEYwMy1FN0UwQzBFRDM4RDIYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAPgCAAAAAAAABSAAAGQCAAAAAAAAECAAAHQCAAAAAAAAESAAAKwCAAAAAAAAEiAAAIwCAAAAAAAAEyAAAJwCAAAAAAAAICAAANgCAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAIAAAAAEGAABsAwAAeAMAAIQDAAB4AwAAeAMAAHgDAAB4AwAAeAMAAMwAAAD+////AQAAAAQDAAAQAAAABBAAALQAAAAAAAAABRAAAEgBAAAAAAAAEBAAAHwBAAAAAAAAQBAAAGwBAAAAAAAAVBAAAKQBAAAAAAAAVRAAAKQBAAAAAAAAVhAAAJwBAAAAAAAAACAAAJADAAAAAAAAAiAAAEQCAAAAAAAABSAAALABAAAAAAAAECAAACAAAAAAAAAAESAAAPgBAAAAAAAAEiAAANgBAAAAAAAAEyAAAOgBAAAAAAAAICAAACQCAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r9",
+                            "name": "20171214_701_LLMovingDay_BTS_5Da_008",
+                            "uid": "93F2B21045624DCAD1E0A5DC30EF4FB2",
+                            "src": "file:///Volumes/517_Thursday/Footage/20171214/20171214_701_LLMovingDay_BTS/5Da/20171214_701_LLMovingDay_BTS_5Da_008.MOV",
+                            "start": "3277927653/24000s",
+                            "duration": "139139/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7wEAAAAAAQQMAAAAJuNun+uqTF/l+ORq6sDUxc/1GSCBFuk6kjlcbTWw8WUuAMAAAQAAAADAwAAABgAKAcAAAABAQAAVm9sdW1lcwAMAAAAAQEAADUxN19UaHVyc2RheQcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjE0HAAAAAEBAAAyMDE3MTIxNF83MDFfTExNb3ZpbmdEYXlfQlRTAwAAAAEBAAA1RGEAKAAAAAEBAAAyMDE3MTIxNF83MDFfTExNb3ZpbmdEYXlfQlRTXzVEYV8wMDguTU9WHAAAAAEGAAAQAAAAIAAAADQAAABEAAAAVAAAAHgAAACEAAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAACMqCAAAAAAACAAAAAQDAAB5fQgAAAAAAAgAAAAEAwAARH4IAAAAAAAIAAAABAMAAEV+CAAAAAAACAAAAAQDAABOfggAAAAAABwAAAABBgAA2AAAAOgAAAD4AAAACAEAABgBAAAoAQAAOAEAAAgAAAAABAAAQb/jAFIAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAGAAAAHQAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvNTE3X1RodXJzZGF5LwAAAAgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG8X8zKAAAAJAAAAAEBAAA2MUNCQjY0My1FM0MyLTNGQ0YtODQxOS1DMTE5M0VDOTQwMEQYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABUAAAABAQAAL1ZvbHVtZXMvNTE3X1RodXJzZGF5AAAACAAAAAEJAABmaWxlOi8vLw0AAAABAQAATExfUHJvZHVjdGlvbgAAAAgAAAAEAwAAAHCiR3QAAAAIAAAAAAQAAEG/PjyNAAAAJAAAAAEBAABGOENFMTlBNS01RjkwLTNDOTctOEYwMy1FN0UwQzBFRDM4RDIYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAPgCAAAAAAAABSAAAGQCAAAAAAAAECAAAHQCAAAAAAAAESAAAKwCAAAAAAAAEiAAAIwCAAAAAAAAEyAAAJwCAAAAAAAAICAAANgCAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAIAAAAAEGAABsAwAAeAMAAIQDAAB4AwAAeAMAAHgDAAB4AwAAeAMAAMwAAAD+////AQAAAAQDAAAQAAAABBAAALQAAAAAAAAABRAAAEgBAAAAAAAAEBAAAHwBAAAAAAAAQBAAAGwBAAAAAAAAVBAAAKQBAAAAAAAAVRAAAKQBAAAAAAAAVhAAAJwBAAAAAAAAACAAAJADAAAAAAAAAiAAAEQCAAAAAAAABSAAALABAAAAAAAAECAAACAAAAAAAAAAESAAAPgBAAAAAAAAEiAAANgBAAAAAAAAEyAAAOgBAAAAAAAAICAAACQCAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r10",
+                            "name": "20171214_701_LLMovingDay_BTS_5Da_009",
+                            "uid": "9CECE4545616279997AF39A6CCEA4AA3",
+                            "src": "file:///Volumes/517_Thursday/Footage/20171214/20171214_701_LLMovingDay_BTS/5Da/20171214_701_LLMovingDay_BTS_5Da_009.MOV",
+                            "start": "3318167853/24000s",
+                            "duration": "225225/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7wEAAAAAAQQMAAAAJcE4hgxtjHgbAFUJF8UgJvpNbSxG+qyYqMZvXH7OkpiuAMAAAQAAAADAwAAABgAKAcAAAABAQAAVm9sdW1lcwAMAAAAAQEAADUxN19UaHVyc2RheQcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjE0HAAAAAEBAAAyMDE3MTIxNF83MDFfTExNb3ZpbmdEYXlfQlRTAwAAAAEBAAA1RGEAKAAAAAEBAAAyMDE3MTIxNF83MDFfTExNb3ZpbmdEYXlfQlRTXzVEYV8wMDkuTU9WHAAAAAEGAAAQAAAAIAAAADQAAABEAAAAVAAAAHgAAACEAAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAACMqCAAAAAAACAAAAAQDAAB5fQgAAAAAAAgAAAAEAwAARH4IAAAAAAAIAAAABAMAAEV+CAAAAAAACAAAAAQDAABPfggAAAAAABwAAAABBgAA2AAAAOgAAAD4AAAACAEAABgBAAAoAQAAOAEAAAgAAAAABAAAQb/jBuEAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAGAAAAHQAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvNTE3X1RodXJzZGF5LwAAAAgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG8X8zKAAAAJAAAAAEBAAA2MUNCQjY0My1FM0MyLTNGQ0YtODQxOS1DMTE5M0VDOTQwMEQYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABUAAAABAQAAL1ZvbHVtZXMvNTE3X1RodXJzZGF5AAAACAAAAAEJAABmaWxlOi8vLw0AAAABAQAATExfUHJvZHVjdGlvbgAAAAgAAAAEAwAAAHCiR3QAAAAIAAAAAAQAAEG/PjyNAAAAJAAAAAEBAABGOENFMTlBNS01RjkwLTNDOTctOEYwMy1FN0UwQzBFRDM4RDIYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAPgCAAAAAAAABSAAAGQCAAAAAAAAECAAAHQCAAAAAAAAESAAAKwCAAAAAAAAEiAAAIwCAAAAAAAAEyAAAJwCAAAAAAAAICAAANgCAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAIAAAAAEGAABsAwAAeAMAAIQDAAB4AwAAeAMAAHgDAAB4AwAAeAMAAMwAAAD+////AQAAAAQDAAAQAAAABBAAALQAAAAAAAAABRAAAEgBAAAAAAAAEBAAAHwBAAAAAAAAQBAAAGwBAAAAAAAAVBAAAKQBAAAAAAAAVRAAAKQBAAAAAAAAVhAAAJwBAAAAAAAAACAAAJADAAAAAAAAAiAAAEQCAAAAAAAABSAAALABAAAAAAAAECAAACAAAAAAAAAAESAAAPgBAAAAAAAAEiAAANgBAAAAAAAAEyAAAOgBAAAAAAAAICAAACQCAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r11",
+                            "name": "20171214_701_LLMovingDay_BTS_5Da_010",
+                            "uid": "01CCE35331EF3787636662D7989D5546",
+                            "src": "file:///Volumes/517_Thursday/Footage/20171214/20171214_701_LLMovingDay_BTS/5Da/20171214_701_LLMovingDay_BTS_5Da_010.MOV",
+                            "start": "3318598283/24000s",
+                            "duration": "80080/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7wEAAAAAAQQMAAAAHmiOaPZpaFdOPxOKjG3ruyg1gNLnmndTdwy5qxe4fbouAMAAAQAAAADAwAAABgAKAcAAAABAQAAVm9sdW1lcwAMAAAAAQEAADUxN19UaHVyc2RheQcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjE0HAAAAAEBAAAyMDE3MTIxNF83MDFfTExNb3ZpbmdEYXlfQlRTAwAAAAEBAAA1RGEAKAAAAAEBAAAyMDE3MTIxNF83MDFfTExNb3ZpbmdEYXlfQlRTXzVEYV8wMTAuTU9WHAAAAAEGAAAQAAAAIAAAADQAAABEAAAAVAAAAHgAAACEAAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAACMqCAAAAAAACAAAAAQDAAB5fQgAAAAAAAgAAAAEAwAARH4IAAAAAAAIAAAABAMAAEV+CAAAAAAACAAAAAQDAABQfggAAAAAABwAAAABBgAA2AAAAOgAAAD4AAAACAEAABgBAAAoAQAAOAEAAAgAAAAABAAAQb/jBuwAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAGAAAAHQAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvNTE3X1RodXJzZGF5LwAAAAgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG8X8zKAAAAJAAAAAEBAAA2MUNCQjY0My1FM0MyLTNGQ0YtODQxOS1DMTE5M0VDOTQwMEQYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABUAAAABAQAAL1ZvbHVtZXMvNTE3X1RodXJzZGF5AAAACAAAAAEJAABmaWxlOi8vLw0AAAABAQAATExfUHJvZHVjdGlvbgAAAAgAAAAEAwAAAHCiR3QAAAAIAAAAAAQAAEG/PjyNAAAAJAAAAAEBAABGOENFMTlBNS01RjkwLTNDOTctOEYwMy1FN0UwQzBFRDM4RDIYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAPgCAAAAAAAABSAAAGQCAAAAAAAAECAAAHQCAAAAAAAAESAAAKwCAAAAAAAAEiAAAIwCAAAAAAAAEyAAAJwCAAAAAAAAICAAANgCAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAIAAAAAEGAABsAwAAeAMAAIQDAAB4AwAAeAMAAHgDAAB4AwAAeAMAAMwAAAD+////AQAAAAQDAAAQAAAABBAAALQAAAAAAAAABRAAAEgBAAAAAAAAEBAAAHwBAAAAAAAAQBAAAGwBAAAAAAAAVBAAAKQBAAAAAAAAVRAAAKQBAAAAAAAAVhAAAJwBAAAAAAAAACAAAJADAAAAAAAAAiAAAEQCAAAAAAAABSAAALABAAAAAAAAECAAACAAAAAAAAAAESAAAPgBAAAAAAAAEiAAANgBAAAAAAAAEyAAAOgBAAAAAAAAICAAACQCAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    }
+                ],
+                "format": [
+                    {
+                        "_attr": {
+                            "id": "r2",
+                            "name": "FFVideoFormat1080p2398",
+                            "frameDuration": "1001/24000s",
+                            "width": "1920",
+                            "height": "1080",
+                            "colorSpace": "1-1-1 (Rec. 709)"
+                        }
+                    }
+                ],
+                "media": [
+                    {
+                        "_attr": {
+                            "id": "r12",
+                            "name": "20171214_701_LLMovingDay_BTS_CC",
+                            "uid": "XWpvW1TjTSmNimTLPb7ZGg",
+                            "modDate": "2017-12-18 09:18:01 -0500"
+                        },
+                        "sequence": [
+                            {
+                                "_attr": {
+                                    "duration": "233353120/1920000s",
+                                    "format": "r2",
+                                    "tcStart": "95798182480/1920000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "spine": [
+                                    {
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171214_701_LLMovingDay_BTS_5Da_001",
+                                                    "offset": "95798182480/1920000s",
+                                                    "ref": "r1",
+                                                    "duration": "38358320/1920000s",
+                                                    "start": "261852070480/1920000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "keyword": [
+                                                    {
+                                                        "_attr": {
+                                                            "start": "3273150881/24000s",
+                                                            "duration": "479479/24000s",
+                                                            "value": "5Da"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "20171214_701_LLMovingDay_BTS_5Da_002",
+                                                    "offset": "95836540800/1920000s",
+                                                    "ref": "r3",
+                                                    "duration": "136136/24000s",
+                                                    "start": "3273715445/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "keyword": [
+                                                    {
+                                                        "_attr": {
+                                                            "start": "654743089/4800s",
+                                                            "duration": "136136/24000s",
+                                                            "value": "5Da"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "20171214_701_LLMovingDay_BTS_5Da_003",
+                                                    "offset": "95847431680/1920000s",
+                                                    "ref": "r4",
+                                                    "duration": "345345/24000s",
+                                                    "start": "3273913643/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "keyword": [
+                                                    {
+                                                        "_attr": {
+                                                            "start": "3273913643/24000s",
+                                                            "duration": "345345/24000s",
+                                                            "value": "5Da"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "20171214_701_LLMovingDay_BTS_5Da_004",
+                                                    "offset": "95875059280/1920000s",
+                                                    "ref": "r5",
+                                                    "duration": "196196/24000s",
+                                                    "start": "3274394123/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "keyword": [
+                                                    {
+                                                        "_attr": {
+                                                            "start": "3274394123/24000s",
+                                                            "duration": "196196/24000s",
+                                                            "value": "5Da"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "20171214_701_LLMovingDay_BTS_5Da_005",
+                                                    "offset": "95890754960/1920000s",
+                                                    "ref": "r6",
+                                                    "duration": "458458/24000s",
+                                                    "start": "3274686415/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "keyword": [
+                                                    {
+                                                        "_attr": {
+                                                            "start": "654937283/4800s",
+                                                            "duration": "458458/24000s",
+                                                            "value": "5Da"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "20171214_701_LLMovingDay_BTS_5Da_006",
+                                                    "offset": "95927431600/1920000s",
+                                                    "ref": "r7",
+                                                    "duration": "249249/24000s",
+                                                    "start": "3275641369/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "keyword": [
+                                                    {
+                                                        "_attr": {
+                                                            "start": "3275641369/24000s",
+                                                            "duration": "249249/24000s",
+                                                            "value": "5Da"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "20171214_701_LLMovingDay_BTS_5Da_007",
+                                                    "offset": "95947371520/1920000s",
+                                                    "ref": "r8",
+                                                    "duration": "607607/24000s",
+                                                    "start": "3276177905/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "keyword": [
+                                                    {
+                                                        "_attr": {
+                                                            "start": "655235581/4800s",
+                                                            "duration": "607607/24000s",
+                                                            "value": "5Da"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "20171214_701_LLMovingDay_BTS_5Da_008",
+                                                    "offset": "95995980080/1920000s",
+                                                    "ref": "r9",
+                                                    "duration": "139139/24000s",
+                                                    "start": "3277927653/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "keyword": [
+                                                    {
+                                                        "_attr": {
+                                                            "start": "1092642551/8000s",
+                                                            "duration": "139139/24000s",
+                                                            "value": "5Da"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "20171214_701_LLMovingDay_BTS_5Da_009",
+                                                    "offset": "96007111200/1920000s",
+                                                    "ref": "r10",
+                                                    "duration": "225225/24000s",
+                                                    "start": "3318167853/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "keyword": [
+                                                    {
+                                                        "_attr": {
+                                                            "start": "1106055951/8000s",
+                                                            "duration": "225225/24000s",
+                                                            "value": "5Da"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "20171214_701_LLMovingDay_BTS_5Da_010",
+                                                    "offset": "96025129200/1920000s",
+                                                    "ref": "r11",
+                                                    "duration": "80080/24000s",
+                                                    "start": "3318598283/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "keyword": [
+                                                    {
+                                                        "_attr": {
+                                                            "start": "3318598283/24000s",
+                                                            "duration": "80080/24000s",
+                                                            "value": "5Da"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "effect": [
+                    {
+                        "_attr": {
+                            "id": "r13",
+                            "name": "Single-cam-2018",
+                            "uid": "~/Effects.localized/layouts-2018-NEW/Single-cam-2018/Single-cam-2018.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/layouts-2018-NEW/Single-cam-2018/Single-cam-2018.moef"
+                        }
+                    }
+                ]
+            }
+        ],
+        "library": [
+            {
+                "_attr": {
+                    "location": "file:///Users/ll-201-macpro/Movies/20171214_MC_CC_Ex.fcpbundle/"
+                },
+                "event": [
+                    {
+                        "_attr": {
+                            "name": "20171214_701_LLMovingDay_BTS",
+                            "uid": "1D44E4A9-F5A2-429A-9ED1-5429CEAABE07"
+                        },
+                        "asset-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171214_701_LLMovingDay_BTS_5Da_001",
+                                    "ref": "r1",
+                                    "duration": "479479/24000s",
+                                    "start": "3273150881/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-18 09:13:57 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "3273150881/24000s",
+                                            "duration": "479479/24000s",
+                                            "value": "5Da"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171214_701_LLMovingDay_BTS_5Da_002",
+                                    "ref": "r3",
+                                    "duration": "136136/24000s",
+                                    "start": "3273715445/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-18 09:13:57 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "654743089/4800s",
+                                            "duration": "136136/24000s",
+                                            "value": "5Da"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171214_701_LLMovingDay_BTS_5Da_003",
+                                    "ref": "r4",
+                                    "duration": "345345/24000s",
+                                    "start": "3273913643/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-18 09:13:57 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "3273913643/24000s",
+                                            "duration": "345345/24000s",
+                                            "value": "5Da"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171214_701_LLMovingDay_BTS_5Da_004",
+                                    "ref": "r5",
+                                    "duration": "196196/24000s",
+                                    "start": "3274394123/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-18 09:13:57 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "3274394123/24000s",
+                                            "duration": "196196/24000s",
+                                            "value": "5Da"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171214_701_LLMovingDay_BTS_5Da_005",
+                                    "ref": "r6",
+                                    "duration": "458458/24000s",
+                                    "start": "3274686415/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-18 09:13:57 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "654937283/4800s",
+                                            "duration": "458458/24000s",
+                                            "value": "5Da"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171214_701_LLMovingDay_BTS_5Da_006",
+                                    "ref": "r7",
+                                    "duration": "249249/24000s",
+                                    "start": "3275641369/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-18 09:13:57 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "3275641369/24000s",
+                                            "duration": "249249/24000s",
+                                            "value": "5Da"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171214_701_LLMovingDay_BTS_5Da_007",
+                                    "ref": "r8",
+                                    "duration": "607607/24000s",
+                                    "start": "3276177905/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-18 09:13:57 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "655235581/4800s",
+                                            "duration": "607607/24000s",
+                                            "value": "5Da"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171214_701_LLMovingDay_BTS_5Da_008",
+                                    "ref": "r9",
+                                    "duration": "139139/24000s",
+                                    "start": "3277927653/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-18 09:13:57 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "1092642551/8000s",
+                                            "duration": "139139/24000s",
+                                            "value": "5Da"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171214_701_LLMovingDay_BTS_5Da_009",
+                                    "ref": "r10",
+                                    "duration": "225225/24000s",
+                                    "start": "3318167853/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-18 09:13:57 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "1106055951/8000s",
+                                            "duration": "225225/24000s",
+                                            "value": "5Da"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171214_701_LLMovingDay_BTS_5Da_010",
+                                    "ref": "r11",
+                                    "duration": "80080/24000s",
+                                    "start": "3318598283/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-18 09:13:57 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "3318598283/24000s",
+                                            "duration": "80080/24000s",
+                                            "value": "5Da"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "ref-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171214_701_LLMovingDay_BTS_CC",
+                                    "ref": "r12",
+                                    "duration": "233353120/1920000s",
+                                    "start": "95798182480/1920000s",
+                                    "useAudioSubroles": "1",
+                                    "modDate": "2017-12-18 09:18:01 -0500"
+                                }
+                            }
+                        ],
+                        "project": [
+                            {
+                                "_attr": {
+                                    "name": "20171214_701_LLMovingDay_BTS_CC_Ex",
+                                    "uid": "905D80BC-8DE7-4698-BAFF-AB21BEE8E7FE",
+                                    "modDate": "2017-12-18 09:18:01 -0500"
+                                },
+                                "sequence": [
+                                    {
+                                        "_attr": {
+                                            "duration": "2916914/24000s",
+                                            "format": "r2",
+                                            "tcStart": "0s",
+                                            "tcFormat": "NDF",
+                                            "audioLayout": "stereo",
+                                            "audioRate": "48k"
+                                        },
+                                        "spine": [
+                                            {
+                                                "ref-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171214_701_LLMovingDay_BTS_CC",
+                                                            "offset": "0s",
+                                                            "ref": "r12",
+                                                            "duration": "2916914/24000s",
+                                                            "start": "1197477281/24000s",
+                                                            "useAudioSubroles": "1"
+                                                        },
+                                                        "filter-video": [
+                                                            {
+                                                                "_attr": {
+                                                                    "ref": "r13",
+                                                                    "name": "Single-cam-2018"
+                                                                },
+                                                                "param": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/10619/1/100/101",
+                                                                            "value": "700.341 473.047"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Line Spacing",
+                                                                            "key": "9999/32385/10619/2/354/10624/404",
+                                                                            "value": "-2"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Line Spacing",
+                                                                            "key": "9999/32385/10619/2/354/35895/404",
+                                                                            "value": "-2"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Line Spacing",
+                                                                            "key": "9999/32385/10619/2/354/35984/404",
+                                                                            "value": "-2"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/10619/2/369",
+                                                                            "value": "20171214_\nLLMovingDay\nBTS"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20837/1/100/101",
+                                                                            "value": "246.942 -502.831"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20837/2/354/20838/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20837/2/369",
+                                                                            "value": "20171214:"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "keyword-collection": [
+                            {
+                                "_attr": {
+                                    "name": "5Da"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

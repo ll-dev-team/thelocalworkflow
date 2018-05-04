@@ -1,0 +1,468 @@
+{
+    "fcpxml": {
+        "_attr": {
+            "version": "1.6"
+        },
+        "resources": [
+            {
+                "asset": [
+                    {
+                        "_attr": {
+                            "id": "r1",
+                            "name": "20171205_008_mMusic_DrumCircle_C100a_001",
+                            "uid": "F1D097423B018F24CAC6CA641DFC8BB1",
+                            "src": "file:///Volumes/105_1TB/20171205/20171205_008_mMusic_DrumCircle/C100a/20171205_008_mMusic_DrumCircle_C100a_001.mov",
+                            "start": "4662559902/72000s",
+                            "duration": "216684468/72000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va1AEAAAAAAQQMAAAAGEnrOua2cuI/VwvztPqpYZesdhyQfEZlBQHgIpj8AdEcAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAHAAAAAQEAADEwNV8xVEIACAAAAAEBAAAyMDE3MTIwNR4AAAABAQAAMjAxNzEyMDVfMDA4X21NdXNpY19EcnVtQ2lyY2xlAAAFAAAAAQEAAEMxMDBhAAAALAAAAAEBAAAyMDE3MTIwNV8wMDhfbU11c2ljX0RydW1DaXJjbGVfQzEwMGFfMDAxLm1vdhgAAAABBgAAEAAAACAAAAAwAAAAQAAAAGgAAAB4AAAACAAAAAQDAACeKgYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAAH/ZCAAAAAAACAAAAAQDAADo2QgAAAAAAAgAAAAEAwAA7NkIAAAAAAAIAAAABAMAANjZCAAAAAAAGAAAAAEGAADMAAAA3AAAAOwAAAD8AAAADAEAABwBAAAIAAAAAAQAAEG/12vwAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAYAAAAAQkAAGZpbGU6Ly8vVm9sdW1lcy8xMDVfMVRCLwgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG9iDNtAAAAJAAAAAEBAAAxNjJDRTc0MC1GOEVFLTNEN0YtQjQyOC1FNDhEMTJFOUI4RjUYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABAAAAABAQAAL1ZvbHVtZXMvMTA1XzFUQggAAAABCQAAZmlsZTovLy8NAAAAAQEAAE1pa2VfMjA3X2lNYWMAAAAIAAAABAMAAAAAhjzVAgAACAAAAAAEAABBu9Mq4QAAACQAAAABAQAANkQwQkYyQzQtNzU5My0zMjlCLTlERjItRDkzNzA4MzYzQ0RGGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAABgAAAA/v///wDwAAAAAAAABwAAAAIgAAC0AgAAAAAAAAUgAAAgAgAAAAAAABAgAAAwAgAAAAAAABEgAABoAgAAAAAAABIgAABIAgAAAAAAABMgAABYAgAAAAAAACAgAACUAgAAAAAAAAQAAAADAwAAAPAAAAQAAAADAwAAAAAAAAQAAAADAwAAAQAAABwAAAABBgAAKAMAADQDAABAAwAANAMAADQDAAA0AwAANAMAAKgAAAD+////AQAAAMACAAANAAAABBAAAKwAAAAAAAAABRAAACwBAAAAAAAAEBAAAFwBAAAAAAAAQBAAAEwBAAAAAAAAACAAAEwDAAAAAAAAAiAAAAgCAAAAAAAABSAAAHwBAAAAAAAAECAAACAAAAAAAAAAESAAALwBAAAAAAAAEiAAAJwBAAAAAAAAEyAAAKwBAAAAAAAAICAAAOgBAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r3",
+                            "name": "20171205_008_mMusic_DrumCircle_GH4_001",
+                            "uid": "DB1DDC46AFA60807E700F3CED4C206CD",
+                            "src": "file:///Volumes/105_1TB/20171205/20171205_008_mMusic_DrumCircle/GH4/20171205_008_mMusic_DrumCircle_GH4_001.MOV",
+                            "start": "1494244752/24000s",
+                            "duration": "73828755/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va0wEAAAAAAQQMAAAAA0ekkq49RrpdQijhDdbNRaHs8XqkENt3YLwqZLxjhLebAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAHAAAAAQEAADEwNV8xVEIACAAAAAEBAAAyMDE3MTIwNR4AAAABAQAAMjAxNzEyMDVfMDA4X21NdXNpY19EcnVtQ2lyY2xlAAADAAAAAQEAAEdINAAqAAAAAQEAADIwMTcxMjA1XzAwOF9tTXVzaWNfRHJ1bUNpcmNsZV9HSDRfMDAxLk1PVgAAGAAAAAEGAAAQAAAAIAAAADAAAABAAAAAaAAAAHQAAAAIAAAABAMAAJ4qBgAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAf9kIAAAAAAAIAAAABAMAAOjZCAAAAAAACAAAAAQDAADp2QgAAAAAAAgAAAAEAwAA69kIAAAAAAAYAAAAAQYAAMgAAADYAAAA6AAAAPgAAAAIAQAAGAEAAAgAAAAABAAAQb/XUkYAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAABgAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzEwNV8xVEIvCAAAAAQDAAAAwCRj7gAAAAgAAAAABAAAQb2IM20AAAAkAAAAAQEAADE2MkNFNzQwLUY4RUUtM0Q3Ri1CNDI4LUU0OEQxMkU5QjhGNRgAAAABAgAAAQEAAAEAAADvEwAAAQAAAAAAAAAAAAAAEAAAAAEBAAAvVm9sdW1lcy8xMDVfMVRCCAAAAAEJAABmaWxlOi8vLw0AAAABAQAATWlrZV8yMDdfaU1hYwAAAAgAAAAEAwAAAACGPNUCAAAIAAAAAAQAAEG70yrhAAAAJAAAAAEBAAA2RDBCRjJDNC03NTkzLTMyOUItOURGMi1EOTM3MDgzNjNDREYYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAALACAAAAAAAABSAAABwCAAAAAAAAECAAACwCAAAAAAAAESAAAGQCAAAAAAAAEiAAAEQCAAAAAAAAEyAAAFQCAAAAAAAAICAAAJACAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAHAAAAAEGAAAkAwAAMAMAADwDAAAwAwAAMAMAADADAAAwAwAAqAAAAP7///8BAAAAvAIAAA0AAAAEEAAAqAAAAAAAAAAFEAAAKAEAAAAAAAAQEAAAWAEAAAAAAABAEAAASAEAAAAAAAAAIAAASAMAAAAAAAACIAAABAIAAAAAAAAFIAAAeAEAAAAAAAAQIAAAIAAAAAAAAAARIAAAuAEAAAAAAAASIAAAmAEAAAAAAAATIAAAqAEAAAAAAAAgIAAA5AEAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    }
+                ],
+                "format": [
+                    {
+                        "_attr": {
+                            "id": "r2",
+                            "name": "FFVideoFormat1080p2398",
+                            "frameDuration": "3003/72000s",
+                            "width": "1920",
+                            "height": "1080"
+                        }
+                    }
+                ],
+                "media": [
+                    {
+                        "_attr": {
+                            "id": "r4",
+                            "name": "20171205_008_mMusic_DrumCircle_MC",
+                            "uid": "Y0qWyrPST0mDTbiQfunElg",
+                            "modDate": "2017-12-05 19:34:18 -0500"
+                        },
+                        "multicam": [
+                            {
+                                "_attr": {
+                                    "format": "r2",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "4662559902/72000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "mc-angle": [
+                                    {
+                                        "_attr": {
+                                            "name": "C100a",
+                                            "angleID": "gs0f4MwLS76OgyN5RpKudA"
+                                        },
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171205_008_mMusic_DrumCircle_C100a_001",
+                                                    "offset": "0s",
+                                                    "ref": "r1",
+                                                    "duration": "216684468/72000s",
+                                                    "start": "4662559902/72000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "keyword": [
+                                                    {
+                                                        "_attr": {
+                                                            "start": "777093317/12000s",
+                                                            "duration": "216684468/72000s",
+                                                            "value": "C100a"
+                                                        }
+                                                    }
+                                                ],
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "GH4",
+                                            "angleID": "W0C+nWLIQIu/WbH4z+zBlw"
+                                        },
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171205_008_mMusic_DrumCircle_GH4_001",
+                                                    "offset": "0s",
+                                                    "ref": "r3",
+                                                    "duration": "72477405/24000s",
+                                                    "start": "1495596102/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "keyword": [
+                                                    {
+                                                        "_attr": {
+                                                            "start": "31130099/500s",
+                                                            "duration": "73828755/24000s",
+                                                            "value": "GH4"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r5",
+                            "name": "20171205_008_mMusic_DrumCircle_MC_CC",
+                            "uid": "Lzg8xHoGRf+odkJdjVOfaw",
+                            "modDate": "2017-12-05 19:35:10 -0500"
+                        },
+                        "sequence": [
+                            {
+                                "_attr": {
+                                    "duration": "72228156/24000s",
+                                    "format": "r2",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "1554186634/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "spine": [
+                                    {
+                                        "mc-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171205_008_mMusic_DrumCircle_MC",
+                                                    "offset": "1554186634/24000s",
+                                                    "ref": "r4",
+                                                    "duration": "72228156/24000s",
+                                                    "start": "1554186634/24000s"
+                                                },
+                                                "mc-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "angleID": "gs0f4MwLS76OgyN5RpKudA",
+                                                            "srcEnable": "all"
+                                                        },
+                                                        "filter-video": [
+                                                            {
+                                                                "_attr": {
+                                                                    "ref": "r6",
+                                                                    "name": "2.5_A"
+                                                                },
+                                                                "param": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/10619/1/100/101",
+                                                                            "value": "-19.3779 -232"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/10619/2/354/10624/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Line Spacing",
+                                                                            "key": "9999/32385/10619/2/354/10624/404",
+                                                                            "value": "-2"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/10619/2/369",
+                                                                            "value": ""
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20673/1/100/101",
+                                                                            "value": "-16.824 -180"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20673/2/354/20674/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20673/2/369",
+                                                                            "value": "mMusic_DrumCircle"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20837/1/100/101",
+                                                                            "value": "-443.584 -395"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20837/2/354/20838/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20837/2/369",
+                                                                            "value": "20171205:"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "mc-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171205_008_mMusic_DrumCircle_MC",
+                                                            "lane": "-1",
+                                                            "offset": "1554186634/24000s",
+                                                            "ref": "r4",
+                                                            "duration": "72228156/24000s",
+                                                            "start": "1554186634/24000s"
+                                                        },
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "W0C+nWLIQIu/WbH4z+zBlw",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r7",
+                                                                            "name": "2.5_B"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "gs0f4MwLS76OgyN5RpKudA",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "effect": [
+                    {
+                        "_attr": {
+                            "id": "r6",
+                            "name": "2.5_A",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef",
+                            "src": "file:///Users/Mike_207_iMac/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r7",
+                            "name": "2.5_B",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef",
+                            "src": "file:///Users/Mike_207_iMac/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef"
+                        }
+                    }
+                ]
+            }
+        ],
+        "library": [
+            {
+                "_attr": {
+                    "location": "file:///Users/Mike_207_iMac/Movies/20171205_MC_CC_Ex.fcpbundle/"
+                },
+                "event": [
+                    {
+                        "_attr": {
+                            "name": "20171205_008_mMusic_DrumCircle",
+                            "uid": "CBD8C76E-D4C7-40F2-871C-5650680876A0"
+                        },
+                        "asset-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171205_008_mMusic_DrumCircle_C100a_001",
+                                    "ref": "r1",
+                                    "duration": "216684468/72000s",
+                                    "start": "4662559902/72000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-05 19:33:12 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "777093317/12000s",
+                                            "duration": "216684468/72000s",
+                                            "value": "C100a"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171205_008_mMusic_DrumCircle_GH4_001",
+                                    "ref": "r3",
+                                    "duration": "73828755/24000s",
+                                    "start": "1494244752/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-05 19:33:12 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "31130099/500s",
+                                            "duration": "73828755/24000s",
+                                            "value": "GH4"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "mc-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171205_008_mMusic_DrumCircle_MC",
+                                    "ref": "r4",
+                                    "duration": "217432215/72000s",
+                                    "start": "4662559902/72000s",
+                                    "modDate": "2017-12-05 19:34:18 -0500"
+                                },
+                                "mc-source": [
+                                    {
+                                        "_attr": {
+                                            "angleID": "gs0f4MwLS76OgyN5RpKudA",
+                                            "srcEnable": "all"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "ref-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171205_008_mMusic_DrumCircle_MC_CC",
+                                    "ref": "r5",
+                                    "duration": "72228156/24000s",
+                                    "start": "1554186634/24000s",
+                                    "useAudioSubroles": "1",
+                                    "modDate": "2017-12-05 19:35:10 -0500"
+                                }
+                            }
+                        ],
+                        "project": [
+                            {
+                                "_attr": {
+                                    "name": "20171205_008_mMusic_DrumCircle_MC_CC_Ex",
+                                    "uid": "FCE82025-164D-4834-B9BE-45975C8BF9CA",
+                                    "modDate": "2017-12-05 19:35:26 -0500"
+                                },
+                                "sequence": [
+                                    {
+                                        "_attr": {
+                                            "duration": "70537467/24000s",
+                                            "format": "r2",
+                                            "renderColorSpace": "Rec. 709",
+                                            "tcStart": "0s",
+                                            "tcFormat": "NDF",
+                                            "audioLayout": "stereo",
+                                            "audioRate": "48k"
+                                        },
+                                        "spine": [
+                                            {
+                                                "ref-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171205_008_mMusic_DrumCircle_MC_CC",
+                                                            "offset": "0s",
+                                                            "ref": "r5",
+                                                            "duration": "70537467/24000s",
+                                                            "start": "1554186634/24000s",
+                                                            "useAudioSubroles": "1"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "keyword-collection": [
+                            {
+                                "_attr": {
+                                    "name": "GH4"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C100a"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

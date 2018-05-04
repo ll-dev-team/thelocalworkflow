@@ -1,0 +1,890 @@
+{
+    "fcpxml": {
+        "_attr": {
+            "version": "1.6"
+        },
+        "resources": [
+            {
+                "asset": [
+                    {
+                        "_attr": {
+                            "id": "r1",
+                            "name": "20171212_007_HUM11A_Obuobi_C300a_001",
+                            "uid": "0D007BBD0EE237F83DA77C05696467E3",
+                            "src": "file:///Volumes/515_Tuesday/Footage/20171212/20171212_007_HUM11A_Obuobi/C300a/20171212_007_HUM11A_Obuobi_C300a_001.mov",
+                            "start": "1236945710/24000s",
+                            "duration": "44228184/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7gEAAAAAAQQMAAAAO3Exl7Dsax7pNd/M8pnOB9VsXeY1TGN6yFHLQbiJtjztAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwALAAAAAQEAADUxNV9UdWVzZGF5AAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjEyGgAAAAEBAAAyMDE3MTIxMl8wMDdfSFVNMTFBX09idW9iaQAABQAAAAEBAABDMzAwYQAAACgAAAABAQAAMjAxNzEyMTJfMDA3X0hVTTExQV9PYnVvYmlfQzMwMGFfMDAxLm1vdhwAAAABBgAAEAAAACAAAAA0AAAARAAAAFQAAAB4AAAAiAAAAAgAAAAEAwAApmcGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAAC5fgYAAAAAAAgAAAAEAwAAsr0GAAAAAAAIAAAABAMAAKLDBgAAAAAACAAAAAQDAAC6wwYAAAAAAAgAAAAEAwAAxsMGAAAAAAAcAAAAAQYAANwAAADsAAAA/AAAAAwBAAAcAQAALAEAADwBAAAIAAAAAAQAAEG/4HMIAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAABwAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzUxNV9UdWVzZGF5LwgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG8EzDVAAAAJAAAAAEBAABERTJCRkYxOC1BNDY3LTM4NDYtOUYyOC01OUQ3QTZEM0U5ODYYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABQAAAABAQAAL1ZvbHVtZXMvNTE1X1R1ZXNkYXkIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA9AIAAAAAAAAFIAAAYAIAAAAAAAAQIAAAcAIAAAAAAAARIAAAqAIAAAAAAAASIAAAiAIAAAAAAAATIAAAmAIAAAAAAAAgIAAA1AIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAgAAAAAQYAAGgDAAB0AwAAgAMAAHQDAAB0AwAAdAMAAHQDAAB0AwAAzAAAAP7///8BAAAAAAMAABAAAAAEEAAAuAAAAAAAAAAFEAAATAEAAAAAAAAQEAAAgAEAAAAAAABAEAAAcAEAAAAAAABUEAAAqAEAAAAAAABVEAAAqAEAAAAAAABWEAAAoAEAAAAAAAAAIAAAjAMAAAAAAAACIAAARAIAAAAAAAAFIAAAtAEAAAAAAAAQIAAAIAAAAAAAAAARIAAA+AEAAAAAAAASIAAA2AEAAAAAAAATIAAA6AEAAAAAAAAgIAAAJAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r3",
+                            "name": "20171212_007_HUM11A_Obuobi_C300b_001",
+                            "uid": "8304F7F80040BE129B576D9C7F0E2BAA",
+                            "src": "file:///Volumes/515_Tuesday/Footage/20171212/20171212_007_HUM11A_Obuobi/C300b/20171212_007_HUM11A_Obuobi_C300b_001.mov",
+                            "start": "1236972737/24000s",
+                            "duration": "44156112/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7gEAAAAAAQQMAAAADfF6JQutGgjKsvO96/EJW1VS0UmQWkPS5BwyTc6WqVCtAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwALAAAAAQEAADUxNV9UdWVzZGF5AAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjEyGgAAAAEBAAAyMDE3MTIxMl8wMDdfSFVNMTFBX09idW9iaQAABQAAAAEBAABDMzAwYgAAACgAAAABAQAAMjAxNzEyMTJfMDA3X0hVTTExQV9PYnVvYmlfQzMwMGJfMDAxLm1vdhwAAAABBgAAEAAAACAAAAA0AAAARAAAAFQAAAB4AAAAiAAAAAgAAAAEAwAApmcGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAAC5fgYAAAAAAAgAAAAEAwAAsr0GAAAAAAAIAAAABAMAAKLDBgAAAAAACAAAAAQDAAC7wwYAAAAAAAgAAAAEAwAAY8QGAAAAAAAcAAAAAQYAANwAAADsAAAA/AAAAAwBAAAcAQAALAEAADwBAAAIAAAAAAQAAEG/4HMNAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAABwAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzUxNV9UdWVzZGF5LwgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG8EzDVAAAAJAAAAAEBAABERTJCRkYxOC1BNDY3LTM4NDYtOUYyOC01OUQ3QTZEM0U5ODYYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABQAAAABAQAAL1ZvbHVtZXMvNTE1X1R1ZXNkYXkIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA9AIAAAAAAAAFIAAAYAIAAAAAAAAQIAAAcAIAAAAAAAARIAAAqAIAAAAAAAASIAAAiAIAAAAAAAATIAAAmAIAAAAAAAAgIAAA1AIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAgAAAAAQYAAGgDAAB0AwAAgAMAAHQDAAB0AwAAdAMAAHQDAAB0AwAAzAAAAP7///8BAAAAAAMAABAAAAAEEAAAuAAAAAAAAAAFEAAATAEAAAAAAAAQEAAAgAEAAAAAAABAEAAAcAEAAAAAAABUEAAAqAEAAAAAAABVEAAAqAEAAAAAAABWEAAAoAEAAAAAAAAAIAAAjAMAAAAAAAACIAAARAIAAAAAAAAFIAAAtAEAAAAAAAAQIAAAIAAAAAAAAAARIAAA+AEAAAAAAAASIAAA2AEAAAAAAAATIAAA6AEAAAAAAAAgIAAAJAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r4",
+                            "name": "20171212_007_HUM11A_Obuobi_C300c_001",
+                            "uid": "6A9CF437F38DAB447C9B5EA059D689B3",
+                            "src": "file:///Volumes/515_Tuesday/Footage/20171212/20171212_007_HUM11A_Obuobi/C300c/20171212_007_HUM11A_Obuobi_C300c_001.mov",
+                            "start": "1236921686/24000s",
+                            "duration": "44288244/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7gEAAAAAAQQMAAAACrCdhrLbwAr5tljqG7qBOYiOTohbS2Jp0LpcFAvdOgutAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwALAAAAAQEAADUxNV9UdWVzZGF5AAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjEyGgAAAAEBAAAyMDE3MTIxMl8wMDdfSFVNMTFBX09idW9iaQAABQAAAAEBAABDMzAwYwAAACgAAAABAQAAMjAxNzEyMTJfMDA3X0hVTTExQV9PYnVvYmlfQzMwMGNfMDAxLm1vdhwAAAABBgAAEAAAACAAAAA0AAAARAAAAFQAAAB4AAAAiAAAAAgAAAAEAwAApmcGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAAC5fgYAAAAAAAgAAAAEAwAAsr0GAAAAAAAIAAAABAMAAKLDBgAAAAAACAAAAAQDAAC9wwYAAAAAAAgAAAAEAwAA1sIGAAAAAAAcAAAAAQYAANwAAADsAAAA/AAAAAwBAAAcAQAALAEAADwBAAAIAAAAAAQAAEG/4HNeAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAABwAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzUxNV9UdWVzZGF5LwgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG8EzDVAAAAJAAAAAEBAABERTJCRkYxOC1BNDY3LTM4NDYtOUYyOC01OUQ3QTZEM0U5ODYYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABQAAAABAQAAL1ZvbHVtZXMvNTE1X1R1ZXNkYXkIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA9AIAAAAAAAAFIAAAYAIAAAAAAAAQIAAAcAIAAAAAAAARIAAAqAIAAAAAAAASIAAAiAIAAAAAAAATIAAAmAIAAAAAAAAgIAAA1AIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAgAAAAAQYAAGgDAAB0AwAAgAMAAHQDAAB0AwAAdAMAAHQDAAB0AwAAzAAAAP7///8BAAAAAAMAABAAAAAEEAAAuAAAAAAAAAAFEAAATAEAAAAAAAAQEAAAgAEAAAAAAABAEAAAcAEAAAAAAABUEAAAqAEAAAAAAABVEAAAqAEAAAAAAABWEAAAoAEAAAAAAAAAIAAAjAMAAAAAAAACIAAARAIAAAAAAAAFIAAAtAEAAAAAAAAQIAAAIAAAAAAAAAARIAAA+AEAAAAAAAASIAAA2AEAAAAAAAATIAAA6AEAAAAAAAAgIAAAJAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r5",
+                            "name": "20171212_007_HUM11A_Obuobi_GH4_001",
+                            "uid": "51741E569EB70890F48A61356463DE40",
+                            "src": "file:///Volumes/515_Tuesday/Footage/20171212/20171212_007_HUM11A_Obuobi/GH4/20171212_007_HUM11A_Obuobi_GH4_001.MOV",
+                            "start": "1237054819/24000s",
+                            "duration": "43971928/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7QEAAAAAAQQMAAAAIMX1n8n0zCWcZEgYqC1KR+P+fyChjHx4O21KS5+HsThsAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwALAAAAAQEAADUxNV9UdWVzZGF5AAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjEyGgAAAAEBAAAyMDE3MTIxMl8wMDdfSFVNMTFBX09idW9iaQAAAwAAAAEBAABHSDQAJgAAAAEBAAAyMDE3MTIxMl8wMDdfSFVNMTFBX09idW9iaV9HSDRfMDAxLk1PVgAAHAAAAAEGAAAQAAAAIAAAADQAAABEAAAAVAAAAHgAAACEAAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAALl+BgAAAAAACAAAAAQDAACyvQYAAAAAAAgAAAAEAwAAosMGAAAAAAAIAAAABAMAAL7DBgAAAAAACAAAAAQDAABVwwYAAAAAABwAAAABBgAA2AAAAOgAAAD4AAAACAEAABgBAAAoAQAAOAEAAAgAAAAABAAAQb/gdbIAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAGAAAAHAAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvNTE1X1R1ZXNkYXkvCAAAAAQDAAAAwCRj7gAAAAgAAAAABAAAQbwTMNUAAAAkAAAAAQEAAERFMkJGRjE4LUE0NjctMzg0Ni05RjI4LTU5RDdBNkQzRTk4NhgAAAABAgAAAQEAAAEAAADvEwAAAQAAAAAAAAAAAAAAFAAAAAEBAAAvVm9sdW1lcy81MTVfVHVlc2RheQgAAAABCQAAZmlsZTovLy8NAAAAAQEAAExMX1Byb2R1Y3Rpb24AAAAIAAAABAMAAABwokd0AAAACAAAAAAEAABBvz48jQAAACQAAAABAQAARjhDRTE5QTUtNUY5MC0zQzk3LThGMDMtRTdFMEMwRUQzOEQyGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAABgAAAA/v///wDwAAAAAAAABwAAAAIgAADwAgAAAAAAAAUgAABcAgAAAAAAABAgAABsAgAAAAAAABEgAACkAgAAAAAAABIgAACEAgAAAAAAABMgAACUAgAAAAAAACAgAADQAgAAAAAAAAQAAAADAwAAAPAAAAQAAAADAwAAAAAAAAQAAAADAwAAAQAAACAAAAABBgAAZAMAAHADAAB8AwAAcAMAAHADAABwAwAAcAMAAHADAADMAAAA/v///wEAAAD8AgAAEAAAAAQQAAC0AAAAAAAAAAUQAABIAQAAAAAAABAQAAB8AQAAAAAAAEAQAABsAQAAAAAAAFQQAACkAQAAAAAAAFUQAACkAQAAAAAAAFYQAACcAQAAAAAAAAAgAACIAwAAAAAAAAIgAABAAgAAAAAAAAUgAACwAQAAAAAAABAgAAAgAAAAAAAAABEgAAD0AQAAAAAAABIgAADUAQAAAAAAABMgAADkAQAAAAAAACAgAAAgAgAAAAAAABDQAAAEAAAAAAAAAA=="
+                        ]
+                    }
+                ],
+                "format": [
+                    {
+                        "_attr": {
+                            "id": "r2",
+                            "name": "FFVideoFormat1080p2398",
+                            "frameDuration": "1001/24000s",
+                            "width": "1920",
+                            "height": "1080"
+                        }
+                    }
+                ],
+                "media": [
+                    {
+                        "_attr": {
+                            "id": "r6",
+                            "name": "20171212_007_HUM11A_Obuobi_MC",
+                            "uid": "IszgPh7eQNuPewUDLJyZrw",
+                            "modDate": "2017-12-13 10:37:06 -0500"
+                        },
+                        "multicam": [
+                            {
+                                "_attr": {
+                                    "format": "r2",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "1236921686/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "mc-angle": [
+                                    {
+                                        "_attr": {
+                                            "name": "C300a",
+                                            "angleID": "0000C300a"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "24024/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171212_007_HUM11A_Obuobi_C300a_001.mov",
+                                                    "offset": "24024/24000s",
+                                                    "ref": "r1",
+                                                    "duration": "44228184/24000s",
+                                                    "start": "1236945710/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "C300b",
+                                            "angleID": "0000C300b"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "51051/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171212_007_HUM11A_Obuobi_C300b_001.mov",
+                                                    "offset": "51051/24000s",
+                                                    "ref": "r3",
+                                                    "duration": "44156112/24000s",
+                                                    "start": "1236972737/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "C300c",
+                                            "angleID": "0000C300c"
+                                        },
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171212_007_HUM11A_Obuobi_C300c_001.mov",
+                                                    "offset": "0s",
+                                                    "ref": "r4",
+                                                    "duration": "44288244/24000s",
+                                                    "start": "1236921686/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "GH4",
+                                            "angleID": "0000GH4"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "133133/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171212_007_HUM11A_Obuobi_GH4_001.MOV",
+                                                    "offset": "133133/24000s",
+                                                    "ref": "r5",
+                                                    "duration": "43971928/24000s",
+                                                    "start": "1237054819/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r7",
+                            "name": "20171212_007_HUM11A_Obuobi_MC_CC",
+                            "uid": "5MectZjSTGWH6DFIzJndlQ",
+                            "modDate": "2017-12-13 10:37:58 -0500"
+                        },
+                        "sequence": [
+                            {
+                                "_attr": {
+                                    "duration": "44288244/24000s",
+                                    "format": "r2",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "1236921686/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "spine": [
+                                    {
+                                        "mc-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171212_007_HUM11A_Obuobi_MC",
+                                                    "offset": "1236921686/24000s",
+                                                    "ref": "r6",
+                                                    "duration": "44288244/24000s",
+                                                    "start": "1236921686/24000s"
+                                                },
+                                                "mc-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "angleID": "0000C300a",
+                                                            "srcEnable": "all"
+                                                        },
+                                                        "filter-video": [
+                                                            {
+                                                                "_attr": {
+                                                                    "ref": "r8",
+                                                                    "name": "2.5_A"
+                                                                },
+                                                                "param": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/10619/1/100/101",
+                                                                            "value": "-19.3779 -232"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/10619/2/354/41038/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Line Spacing",
+                                                                            "key": "9999/32385/10619/2/354/41038/404",
+                                                                            "value": "-2"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/10619/2/369",
+                                                                            "value": "20171212_007_HUM11A_Obuobi"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20673/1/100/101",
+                                                                            "value": "-16.824 -180"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20673/2/354/41036/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20673/2/369",
+                                                                            "value": "HUM11A: Obuobi"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20837/1/100/101",
+                                                                            "value": "-443.584 -395"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20837/2/354/41040/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20837/2/369",
+                                                                            "value": "20171212:"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "mc-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171212_007_HUM11A_Obuobi_MC",
+                                                            "lane": "-2",
+                                                            "offset": "1236921686/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "44288244/24000s",
+                                                            "start": "1236921686/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300b",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r9",
+                                                                            "name": "2.5_C"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171212_007_HUM11A_Obuobi_MC",
+                                                            "lane": "-1",
+                                                            "offset": "1236921686/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "44288244/24000s",
+                                                            "start": "1236921686/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300c",
+                                                                    "srcEnable": "none"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r10",
+                                                                            "name": "2.5_B"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000GH4",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r11",
+                                                                            "name": "C300b-cam-2018-master"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171212_007_HUM11A_Obuobi_MC",
+                                                            "lane": "1",
+                                                            "offset": "1236921686/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "44288244/24000s",
+                                                            "start": "1236921686/24000s"
+                                                        },
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r8",
+                                                                            "name": "2.5_A"
+                                                                        },
+                                                                        "param": [
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Position",
+                                                                                    "key": "9999/32385/10619/1/100/101",
+                                                                                    "value": "-19.3779 -232"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Alignment",
+                                                                                    "key": "9999/32385/10619/2/354/41038/401",
+                                                                                    "value": "2 (Right)"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Line Spacing",
+                                                                                    "key": "9999/32385/10619/2/354/41038/404",
+                                                                                    "value": "-2"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Text",
+                                                                                    "key": "9999/32385/10619/2/369",
+                                                                                    "value": "20171212_007_HUM11A_Obuobi"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Position",
+                                                                                    "key": "9999/32385/20673/1/100/101",
+                                                                                    "value": "-16.824 -180"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Alignment",
+                                                                                    "key": "9999/32385/20673/2/354/41036/401",
+                                                                                    "value": "2 (Right)"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Text",
+                                                                                    "key": "9999/32385/20673/2/369",
+                                                                                    "value": "HUM11A: Obuobi"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Position",
+                                                                                    "key": "9999/32385/20837/1/100/101",
+                                                                                    "value": "-443.584 -395"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Alignment",
+                                                                                    "key": "9999/32385/20837/2/354/41040/401",
+                                                                                    "value": "2 (Right)"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Text",
+                                                                                    "key": "9999/32385/20837/2/369",
+                                                                                    "value": "20171212:"
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300c",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "adjust-transform": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "position": "5.08333 0.185185",
+                                                                            "scale": "0.94 0.94"
+                                                                        }
+                                                                    }
+                                                                ],
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r12",
+                                                                            "name": "C300c-cam-2018-master-BROKEN"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "effect": [
+                    {
+                        "_attr": {
+                            "id": "r8",
+                            "name": "2.5_A",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r9",
+                            "name": "2.5_C",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_C/2.5_C.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_C/2.5_C.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r10",
+                            "name": "2.5_B",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r11",
+                            "name": "C300b-cam-2018-master",
+                            "uid": "~/Effects.localized/layouts-2018/C300b-cam-2018-master/C300b-cam-2018-master.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/layouts-2018/C300b-cam-2018-master/C300b-cam-2018-master.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r12",
+                            "name": "C300c-cam-2018-master-BROKEN",
+                            "uid": "~/Effects.localized/layouts-2018/C300c-cam-2018-master/C300c-cam-2018-master-BROKEN.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/layouts-2018/C300c-cam-2018-master/C300c-cam-2018-master-BROKEN.moef"
+                        }
+                    }
+                ]
+            }
+        ],
+        "library": [
+            {
+                "_attr": {
+                    "location": "file:///Volumes/515_Tuesday/FCP_Libs/20171212_MC_CC_Ex.fcpbundle/"
+                },
+                "event": [
+                    {
+                        "_attr": {
+                            "name": "20171212_007_HUM11A_Obuobi",
+                            "uid": "BE2B186C-E994-4ED6-A759-1F7C461ED9A7"
+                        },
+                        "asset-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171212_007_HUM11A_Obuobi_C300a_001",
+                                    "ref": "r1",
+                                    "duration": "44228184/24000s",
+                                    "start": "1236945710/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-13 09:52:10 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "123694571/2400s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.23695e+09s",
+                                            "duration": "44228184/24000s",
+                                            "value": "20171212_007_HUM11A_Obuobi, C300a"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171212_007_HUM11A_Obuobi_C300b_001",
+                                    "ref": "r3",
+                                    "duration": "44156112/24000s",
+                                    "start": "1236972737/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-13 09:52:10 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "1236972737/24000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.23697e+09s",
+                                            "duration": "44156112/24000s",
+                                            "value": "20171212_007_HUM11A_Obuobi, C300b"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171212_007_HUM11A_Obuobi_C300c_001",
+                                    "ref": "r4",
+                                    "duration": "44288244/24000s",
+                                    "start": "1236921686/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-13 09:52:11 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "618460843/12000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.23692e+09s",
+                                            "duration": "44288244/24000s",
+                                            "value": "20171212_007_HUM11A_Obuobi, C300c"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171212_007_HUM11A_Obuobi_GH4_001",
+                                    "ref": "r5",
+                                    "duration": "43971928/24000s",
+                                    "start": "1237054819/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-13 09:52:11 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "1237054819/24000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.23705e+09s",
+                                            "duration": "43971928/24000s",
+                                            "value": "20171212_007_HUM11A_Obuobi, GH4"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "mc-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171212_007_HUM11A_Obuobi_MC",
+                                    "ref": "r6",
+                                    "duration": "44288244/24000s",
+                                    "start": "1236921686/24000s",
+                                    "modDate": "2017-12-13 09:52:10 -0500"
+                                },
+                                "mc-source": [
+                                    {
+                                        "_attr": {
+                                            "angleID": "0000C300a",
+                                            "srcEnable": "all"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "ref-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171212_007_HUM11A_Obuobi_MC_CC",
+                                    "ref": "r7",
+                                    "duration": "44288244/24000s",
+                                    "start": "1236921686/24000s",
+                                    "modDate": "2017-12-13 10:37:58 -0500"
+                                }
+                            }
+                        ],
+                        "project": [
+                            {
+                                "_attr": {
+                                    "name": "20171212_007_HUM11A_Obuobi_MC_CC_Ex",
+                                    "uid": "7ACFFC68-9FC6-48DC-8B6E-BD8D3F89774B",
+                                    "modDate": "2017-12-13 10:37:58 -0500"
+                                },
+                                "sequence": [
+                                    {
+                                        "_attr": {
+                                            "duration": "44288244/24000s",
+                                            "format": "r2",
+                                            "renderColorSpace": "Rec. 709",
+                                            "tcStart": "0s",
+                                            "tcFormat": "NDF",
+                                            "audioLayout": "stereo",
+                                            "audioRate": "48k"
+                                        },
+                                        "spine": [
+                                            {
+                                                "ref-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171212_007_HUM11A_Obuobi_MC_CC",
+                                                            "offset": "0s",
+                                                            "ref": "r7",
+                                                            "duration": "44288244/24000s",
+                                                            "start": "1236921686/24000s"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "keyword-collection": [
+                            {
+                                "_attr": {
+                                    "name": "20171212_007_HUM11A_Obuobi"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300a"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "first 24 frames"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300b"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300c"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "GH4"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

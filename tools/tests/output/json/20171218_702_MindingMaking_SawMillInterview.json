@@ -1,0 +1,1459 @@
+{
+    "fcpxml": {
+        "_attr": {
+            "version": "1.5"
+        },
+        "resources": [
+            {
+                "format": [
+                    {
+                        "_attr": {
+                            "id": "r1",
+                            "name": "FFVideoFormat1080p2398",
+                            "frameDuration": "1001/24000s",
+                            "width": "1920",
+                            "height": "1080"
+                        }
+                    }
+                ],
+                "asset": [
+                    {
+                        "_attr": {
+                            "id": "r2",
+                            "name": "20171218_702_MindingMaking_SawMillInterview_5Da_001",
+                            "uid": "B36709D0FD6A6DC6FE396DA0F07A92C0",
+                            "src": "file:///Volumes/515_Tuesday/Footage/20171218/20171218_702_MindingMaking_SawMillInterview/5Da/20171218_702_MindingMaking_SawMillInterview_5Da_001.MOV",
+                            "start": "1955630677/24000s",
+                            "duration": "8912904/24000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va5gEAAAAAAQQMAAAAEGPDQMOJEL9ro41wygFGXj2CCqXbL2eqcda9ozI4ZxxuAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwALAAAAAQEAADUxNV9UdWVzZGF5AAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjE4KwAAAAEBAAAyMDE3MTIxOF83MDJfTWluZGluZ01ha2luZ19TYXdNaWxsSW50ZXJ2aWV3AAMAAAABAQAANURhADcAAAABAQAAMjAxNzEyMThfNzAyX01pbmRpbmdNYWtpbmdfU2F3TWlsbEludGVydmlld181RGFfMDAxLk1PVgAcAAAAAQYAABAAAAAgAAAANAAAAEQAAABUAAAAiAAAAJQAAAAIAAAABAMAAKZhBgAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAuX4GAAAAAAAIAAAABAMAAFHLBgAAAAAACAAAAAQDAAApzQYAAAAAAAgAAAAEAwAALM0GAAAAAAAIAAAABAMAAKLLBgAAAAAAHAAAAAEGAAD4AAAACAEAABgBAAAoAQAAOAEAAEgBAABYAQAACAAAAAAEAABBv+gn+AAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAHAAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvNTE1X1R1ZXNkYXkvCAAAAAQDAAAAwCRj7gAAAAgAAAAABAAAQbwTMNUAAAAkAAAAAQEAAERFMkJGRjE4LUE0NjctMzg0Ni05RjI4LTU5RDdBNkQzRTk4NhgAAAABAgAAAQEAAAEAAADvEwAAAQAAAAAAAAAAAAAAFAAAAAEBAAAvVm9sdW1lcy81MTVfVHVlc2RheQgAAAABCQAAZmlsZTovLy8LAAAAAQEAAExMLTIwMTctMTA5AAgAAAAEAwAAAAAiD9UCAAAIAAAAAAQAAEG+snxgAAAAJAAAAAEBAAA3MERBQTk0NC1GRjkxLTMwMTAtOTM4Ri03MzQ2NDZCNkY3RTMYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAPgCAAAAAAAABSAAAGgCAAAAAAAAECAAAHgCAAAAAAAAESAAAKwCAAAAAAAAEiAAAIwCAAAAAAAAEyAAAJwCAAAAAAAAICAAANgCAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAIAAAAAEGAABsAwAAeAMAAIQDAAB4AwAAeAMAAHgDAAB4AwAAeAMAAKgAAAD+////AQAAAAQDAAANAAAABBAAANQAAAAAAAAABRAAAGgBAAAAAAAAEBAAAJwBAAAAAAAAQBAAAIwBAAAAAAAAACAAAJADAAAAAAAAAiAAAEwCAAAAAAAABSAAALwBAAAAAAAAECAAACAAAAAAAAAAESAAAAACAAAAAAAAEiAAAOABAAAAAAAAEyAAAPABAAAAAAAAICAAACwCAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r3",
+                            "name": "20171218_702_MindingMaking_SawMillInterview_5Da_002",
+                            "uid": "804EB29AD6232B10BBBC229AAAA8A6A9",
+                            "src": "file:///Volumes/515_Tuesday/Footage/20171218/20171218_702_MindingMaking_SawMillInterview/5Da/20171218_702_MindingMaking_SawMillInterview_5Da_002.MOV",
+                            "start": "1964543581/24000s",
+                            "duration": "8912904/24000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va5gEAAAAAAQQMAAAABip8659p0hlbTB5cP9y4XNiiWXTYbvgdp1OjAyLevMUuAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwALAAAAAQEAADUxNV9UdWVzZGF5AAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjE4KwAAAAEBAAAyMDE3MTIxOF83MDJfTWluZGluZ01ha2luZ19TYXdNaWxsSW50ZXJ2aWV3AAMAAAABAQAANURhADcAAAABAQAAMjAxNzEyMThfNzAyX01pbmRpbmdNYWtpbmdfU2F3TWlsbEludGVydmlld181RGFfMDAyLk1PVgAcAAAAAQYAABAAAAAgAAAANAAAAEQAAABUAAAAiAAAAJQAAAAIAAAABAMAAKZhBgAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAuX4GAAAAAAAIAAAABAMAAFHLBgAAAAAACAAAAAQDAAApzQYAAAAAAAgAAAAEAwAALM0GAAAAAAAIAAAABAMAAKPLBgAAAAAAHAAAAAEGAAD4AAAACAEAABgBAAAoAQAAOAEAAEgBAABYAQAACAAAAAAEAABBv+gpbAAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAHAAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvNTE1X1R1ZXNkYXkvCAAAAAQDAAAAwCRj7gAAAAgAAAAABAAAQbwTMNUAAAAkAAAAAQEAAERFMkJGRjE4LUE0NjctMzg0Ni05RjI4LTU5RDdBNkQzRTk4NhgAAAABAgAAAQEAAAEAAADvEwAAAQAAAAAAAAAAAAAAFAAAAAEBAAAvVm9sdW1lcy81MTVfVHVlc2RheQgAAAABCQAAZmlsZTovLy8LAAAAAQEAAExMLTIwMTctMTA5AAgAAAAEAwAAAAAiD9UCAAAIAAAAAAQAAEG+snxgAAAAJAAAAAEBAAA3MERBQTk0NC1GRjkxLTMwMTAtOTM4Ri03MzQ2NDZCNkY3RTMYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAPgCAAAAAAAABSAAAGgCAAAAAAAAECAAAHgCAAAAAAAAESAAAKwCAAAAAAAAEiAAAIwCAAAAAAAAEyAAAJwCAAAAAAAAICAAANgCAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAIAAAAAEGAABsAwAAeAMAAIQDAAB4AwAAeAMAAHgDAAB4AwAAeAMAAKgAAAD+////AQAAAAQDAAANAAAABBAAANQAAAAAAAAABRAAAGgBAAAAAAAAEBAAAJwBAAAAAAAAQBAAAIwBAAAAAAAAACAAAJADAAAAAAAAAiAAAEwCAAAAAAAABSAAALwBAAAAAAAAECAAACAAAAAAAAAAESAAAAACAAAAAAAAEiAAAOABAAAAAAAAEyAAAPABAAAAAAAAICAAACwCAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r4",
+                            "name": "20171218_702_MindingMaking_SawMillInterview_5Da_003",
+                            "uid": "6BC44CD371E6D5ACB38CDFF7848CD259",
+                            "src": "file:///Volumes/515_Tuesday/Footage/20171218/20171218_702_MindingMaking_SawMillInterview/5Da/20171218_702_MindingMaking_SawMillInterview_5Da_003.MOV",
+                            "start": "1973456485/24000s",
+                            "duration": "8912904/24000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va5gEAAAAAAQQMAAAAHcnHZDW3wEbbyNYhLCrKMccd6xThMRx1VMBfI8gjP7puAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwALAAAAAQEAADUxNV9UdWVzZGF5AAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjE4KwAAAAEBAAAyMDE3MTIxOF83MDJfTWluZGluZ01ha2luZ19TYXdNaWxsSW50ZXJ2aWV3AAMAAAABAQAANURhADcAAAABAQAAMjAxNzEyMThfNzAyX01pbmRpbmdNYWtpbmdfU2F3TWlsbEludGVydmlld181RGFfMDAzLk1PVgAcAAAAAQYAABAAAAAgAAAANAAAAEQAAABUAAAAiAAAAJQAAAAIAAAABAMAAKZhBgAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAuX4GAAAAAAAIAAAABAMAAFHLBgAAAAAACAAAAAQDAAApzQYAAAAAAAgAAAAEAwAALM0GAAAAAAAIAAAABAMAAKTLBgAAAAAAHAAAAAEGAAD4AAAACAEAABgBAAAoAQAAOAEAAEgBAABYAQAACAAAAAAEAABBv+gq4AAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAHAAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvNTE1X1R1ZXNkYXkvCAAAAAQDAAAAwCRj7gAAAAgAAAAABAAAQbwTMNUAAAAkAAAAAQEAAERFMkJGRjE4LUE0NjctMzg0Ni05RjI4LTU5RDdBNkQzRTk4NhgAAAABAgAAAQEAAAEAAADvEwAAAQAAAAAAAAAAAAAAFAAAAAEBAAAvVm9sdW1lcy81MTVfVHVlc2RheQgAAAABCQAAZmlsZTovLy8LAAAAAQEAAExMLTIwMTctMTA5AAgAAAAEAwAAAAAiD9UCAAAIAAAAAAQAAEG+snxgAAAAJAAAAAEBAAA3MERBQTk0NC1GRjkxLTMwMTAtOTM4Ri03MzQ2NDZCNkY3RTMYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAPgCAAAAAAAABSAAAGgCAAAAAAAAECAAAHgCAAAAAAAAESAAAKwCAAAAAAAAEiAAAIwCAAAAAAAAEyAAAJwCAAAAAAAAICAAANgCAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAIAAAAAEGAABsAwAAeAMAAIQDAAB4AwAAeAMAAHgDAAB4AwAAeAMAAKgAAAD+////AQAAAAQDAAANAAAABBAAANQAAAAAAAAABRAAAGgBAAAAAAAAEBAAAJwBAAAAAAAAQBAAAIwBAAAAAAAAACAAAJADAAAAAAAAAiAAAEwCAAAAAAAABSAAALwBAAAAAAAAECAAACAAAAAAAAAAESAAAAACAAAAAAAAEiAAAOABAAAAAAAAEyAAAPABAAAAAAAAICAAACwCAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r5",
+                            "name": "20171218_702_MindingMaking_SawMillInterview_5Da_004",
+                            "uid": "73508319B1FF2654D63A002F6D4D0110",
+                            "src": "file:///Volumes/515_Tuesday/Footage/20171218/20171218_702_MindingMaking_SawMillInterview/5Da/20171218_702_MindingMaking_SawMillInterview_5Da_004.MOV",
+                            "start": "1982369389/24000s",
+                            "duration": "8924916/24000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va5gEAAAAAAQQMAAAALjMxWVlLg59qC/VSXdMYFRreZjOqeTJRRdFUixY2dMMuAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwALAAAAAQEAADUxNV9UdWVzZGF5AAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjE4KwAAAAEBAAAyMDE3MTIxOF83MDJfTWluZGluZ01ha2luZ19TYXdNaWxsSW50ZXJ2aWV3AAMAAAABAQAANURhADcAAAABAQAAMjAxNzEyMThfNzAyX01pbmRpbmdNYWtpbmdfU2F3TWlsbEludGVydmlld181RGFfMDA0Lk1PVgAcAAAAAQYAABAAAAAgAAAANAAAAEQAAABUAAAAiAAAAJQAAAAIAAAABAMAAKZhBgAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAuX4GAAAAAAAIAAAABAMAAFHLBgAAAAAACAAAAAQDAAApzQYAAAAAAAgAAAAEAwAALM0GAAAAAAAIAAAABAMAAKXLBgAAAAAAHAAAAAEGAAD4AAAACAEAABgBAAAoAQAAOAEAAEgBAABYAQAACAAAAAAEAABBv+gsVAAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAHAAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvNTE1X1R1ZXNkYXkvCAAAAAQDAAAAwCRj7gAAAAgAAAAABAAAQbwTMNUAAAAkAAAAAQEAAERFMkJGRjE4LUE0NjctMzg0Ni05RjI4LTU5RDdBNkQzRTk4NhgAAAABAgAAAQEAAAEAAADvEwAAAQAAAAAAAAAAAAAAFAAAAAEBAAAvVm9sdW1lcy81MTVfVHVlc2RheQgAAAABCQAAZmlsZTovLy8LAAAAAQEAAExMLTIwMTctMTA5AAgAAAAEAwAAAAAiD9UCAAAIAAAAAAQAAEG+snxgAAAAJAAAAAEBAAA3MERBQTk0NC1GRjkxLTMwMTAtOTM4Ri03MzQ2NDZCNkY3RTMYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAPgCAAAAAAAABSAAAGgCAAAAAAAAECAAAHgCAAAAAAAAESAAAKwCAAAAAAAAEiAAAIwCAAAAAAAAEyAAAJwCAAAAAAAAICAAANgCAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAIAAAAAEGAABsAwAAeAMAAIQDAAB4AwAAeAMAAHgDAAB4AwAAeAMAAKgAAAD+////AQAAAAQDAAANAAAABBAAANQAAAAAAAAABRAAAGgBAAAAAAAAEBAAAJwBAAAAAAAAQBAAAIwBAAAAAAAAACAAAJADAAAAAAAAAiAAAEwCAAAAAAAABSAAALwBAAAAAAAAECAAACAAAAAAAAAAESAAAAACAAAAAAAAEiAAAOABAAAAAAAAEyAAAPABAAAAAAAAICAAACwCAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r6",
+                            "name": "20171218_702_MindingMaking_SawMillInterview_5Da_005",
+                            "uid": "6C25BD92A702625188458AA45AA7E46B",
+                            "src": "file:///Volumes/515_Tuesday/Footage/20171218/20171218_702_MindingMaking_SawMillInterview/5Da/20171218_702_MindingMaking_SawMillInterview_5Da_005.MOV",
+                            "start": "1991294305/24000s",
+                            "duration": "7514507/24000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va5gEAAAAAAQQMAAAAOtQSpKhUW/Yp2S1XwiF0Q5Xs7XmUY5fDlduf4l4gVh1uAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwALAAAAAQEAADUxNV9UdWVzZGF5AAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjE4KwAAAAEBAAAyMDE3MTIxOF83MDJfTWluZGluZ01ha2luZ19TYXdNaWxsSW50ZXJ2aWV3AAMAAAABAQAANURhADcAAAABAQAAMjAxNzEyMThfNzAyX01pbmRpbmdNYWtpbmdfU2F3TWlsbEludGVydmlld181RGFfMDA1Lk1PVgAcAAAAAQYAABAAAAAgAAAANAAAAEQAAABUAAAAiAAAAJQAAAAIAAAABAMAAKZhBgAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAuX4GAAAAAAAIAAAABAMAAFHLBgAAAAAACAAAAAQDAAApzQYAAAAAAAgAAAAEAwAALM0GAAAAAAAIAAAABAMAAKbLBgAAAAAAHAAAAAEGAAD4AAAACAEAABgBAAAoAQAAOAEAAEgBAABYAQAACAAAAAAEAABBv+gtjAAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAHAAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvNTE1X1R1ZXNkYXkvCAAAAAQDAAAAwCRj7gAAAAgAAAAABAAAQbwTMNUAAAAkAAAAAQEAAERFMkJGRjE4LUE0NjctMzg0Ni05RjI4LTU5RDdBNkQzRTk4NhgAAAABAgAAAQEAAAEAAADvEwAAAQAAAAAAAAAAAAAAFAAAAAEBAAAvVm9sdW1lcy81MTVfVHVlc2RheQgAAAABCQAAZmlsZTovLy8LAAAAAQEAAExMLTIwMTctMTA5AAgAAAAEAwAAAAAiD9UCAAAIAAAAAAQAAEG+snxgAAAAJAAAAAEBAAA3MERBQTk0NC1GRjkxLTMwMTAtOTM4Ri03MzQ2NDZCNkY3RTMYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAPgCAAAAAAAABSAAAGgCAAAAAAAAECAAAHgCAAAAAAAAESAAAKwCAAAAAAAAEiAAAIwCAAAAAAAAEyAAAJwCAAAAAAAAICAAANgCAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAIAAAAAEGAABsAwAAeAMAAIQDAAB4AwAAeAMAAHgDAAB4AwAAeAMAAKgAAAD+////AQAAAAQDAAANAAAABBAAANQAAAAAAAAABRAAAGgBAAAAAAAAEBAAAJwBAAAAAAAAQBAAAIwBAAAAAAAAACAAAJADAAAAAAAAAiAAAEwCAAAAAAAABSAAALwBAAAAAAAAECAAACAAAAAAAAAAESAAAAACAAAAAAAAEiAAAOABAAAAAAAAEyAAAPABAAAAAAAAICAAACwCAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r7",
+                            "name": "20171218_702_MindingMaking_SawMillInterview_5Da_006",
+                            "uid": "403CB1D622E4037741502D689610E650",
+                            "src": "file:///Volumes/515_Tuesday/Footage/20171218/20171218_702_MindingMaking_SawMillInterview/5Da/20171218_702_MindingMaking_SawMillInterview_5Da_006.MOV",
+                            "start": "1998808812/24000s",
+                            "duration": "8924916/24000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va5gEAAAAAAQQMAAAAAu2tGEG1zeqTEuRyCejARi0AyzwJ7zki1Am4asgUV0AuAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwALAAAAAQEAADUxNV9UdWVzZGF5AAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjE4KwAAAAEBAAAyMDE3MTIxOF83MDJfTWluZGluZ01ha2luZ19TYXdNaWxsSW50ZXJ2aWV3AAMAAAABAQAANURhADcAAAABAQAAMjAxNzEyMThfNzAyX01pbmRpbmdNYWtpbmdfU2F3TWlsbEludGVydmlld181RGFfMDA2Lk1PVgAcAAAAAQYAABAAAAAgAAAANAAAAEQAAABUAAAAiAAAAJQAAAAIAAAABAMAAKZhBgAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAuX4GAAAAAAAIAAAABAMAAFHLBgAAAAAACAAAAAQDAAApzQYAAAAAAAgAAAAEAwAALM0GAAAAAAAIAAAABAMAAKfLBgAAAAAAHAAAAAEGAAD4AAAACAEAABgBAAAoAQAAOAEAAEgBAABYAQAACAAAAAAEAABBv+gvGAAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAHAAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvNTE1X1R1ZXNkYXkvCAAAAAQDAAAAwCRj7gAAAAgAAAAABAAAQbwTMNUAAAAkAAAAAQEAAERFMkJGRjE4LUE0NjctMzg0Ni05RjI4LTU5RDdBNkQzRTk4NhgAAAABAgAAAQEAAAEAAADvEwAAAQAAAAAAAAAAAAAAFAAAAAEBAAAvVm9sdW1lcy81MTVfVHVlc2RheQgAAAABCQAAZmlsZTovLy8LAAAAAQEAAExMLTIwMTctMTA5AAgAAAAEAwAAAAAiD9UCAAAIAAAAAAQAAEG+snxgAAAAJAAAAAEBAAA3MERBQTk0NC1GRjkxLTMwMTAtOTM4Ri03MzQ2NDZCNkY3RTMYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAPgCAAAAAAAABSAAAGgCAAAAAAAAECAAAHgCAAAAAAAAESAAAKwCAAAAAAAAEiAAAIwCAAAAAAAAEyAAAJwCAAAAAAAAICAAANgCAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAIAAAAAEGAABsAwAAeAMAAIQDAAB4AwAAeAMAAHgDAAB4AwAAeAMAAKgAAAD+////AQAAAAQDAAANAAAABBAAANQAAAAAAAAABRAAAGgBAAAAAAAAEBAAAJwBAAAAAAAAQBAAAIwBAAAAAAAAACAAAJADAAAAAAAAAiAAAEwCAAAAAAAABSAAALwBAAAAAAAAECAAACAAAAAAAAAAESAAAAACAAAAAAAAEiAAAOABAAAAAAAAEyAAAPABAAAAAAAAICAAACwCAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r8",
+                            "name": "20171218_702_MindingMaking_SawMillInterview_5Da_007",
+                            "uid": "746658DBF30F0FA26641551F9A7B8CEC",
+                            "src": "file:///Volumes/515_Tuesday/Footage/20171218/20171218_702_MindingMaking_SawMillInterview/5Da/20171218_702_MindingMaking_SawMillInterview_5Da_007.MOV",
+                            "start": "2007733728/24000s",
+                            "duration": "4869865/24000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va5gEAAAAAAQQMAAAAMHdW64bl9vdygp1t4+1emfJbWZvWsLth/hyTyGwccIeuAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwALAAAAAQEAADUxNV9UdWVzZGF5AAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjE4KwAAAAEBAAAyMDE3MTIxOF83MDJfTWluZGluZ01ha2luZ19TYXdNaWxsSW50ZXJ2aWV3AAMAAAABAQAANURhADcAAAABAQAAMjAxNzEyMThfNzAyX01pbmRpbmdNYWtpbmdfU2F3TWlsbEludGVydmlld181RGFfMDA3Lk1PVgAcAAAAAQYAABAAAAAgAAAANAAAAEQAAABUAAAAiAAAAJQAAAAIAAAABAMAAKZhBgAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAuX4GAAAAAAAIAAAABAMAAFHLBgAAAAAACAAAAAQDAAApzQYAAAAAAAgAAAAEAwAALM0GAAAAAAAIAAAABAMAAKjLBgAAAAAAHAAAAAEGAAD4AAAACAEAABgBAAAoAQAAOAEAAEgBAABYAQAACAAAAAAEAABBv+gv4gAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAHAAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvNTE1X1R1ZXNkYXkvCAAAAAQDAAAAwCRj7gAAAAgAAAAABAAAQbwTMNUAAAAkAAAAAQEAAERFMkJGRjE4LUE0NjctMzg0Ni05RjI4LTU5RDdBNkQzRTk4NhgAAAABAgAAAQEAAAEAAADvEwAAAQAAAAAAAAAAAAAAFAAAAAEBAAAvVm9sdW1lcy81MTVfVHVlc2RheQgAAAABCQAAZmlsZTovLy8LAAAAAQEAAExMLTIwMTctMTA5AAgAAAAEAwAAAAAiD9UCAAAIAAAAAAQAAEG+snxgAAAAJAAAAAEBAAA3MERBQTk0NC1GRjkxLTMwMTAtOTM4Ri03MzQ2NDZCNkY3RTMYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAPgCAAAAAAAABSAAAGgCAAAAAAAAECAAAHgCAAAAAAAAESAAAKwCAAAAAAAAEiAAAIwCAAAAAAAAEyAAAJwCAAAAAAAAICAAANgCAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAIAAAAAEGAABsAwAAeAMAAIQDAAB4AwAAeAMAAHgDAAB4AwAAeAMAAKgAAAD+////AQAAAAQDAAANAAAABBAAANQAAAAAAAAABRAAAGgBAAAAAAAAEBAAAJwBAAAAAAAAQBAAAIwBAAAAAAAAACAAAJADAAAAAAAAAiAAAEwCAAAAAAAABSAAALwBAAAAAAAAECAAACAAAAAAAAAAESAAAAACAAAAAAAAEiAAAOABAAAAAAAAEyAAAPABAAAAAAAAICAAACwCAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r9",
+                            "name": "20171218_702_MindingMaking_SawMillInterview_5Da_008",
+                            "uid": "10B77DDC6A9A163978136A5814212097",
+                            "src": "file:///Volumes/515_Tuesday/Footage/20171218/20171218_702_MindingMaking_SawMillInterview/5Da/20171218_702_MindingMaking_SawMillInterview_5Da_008.MOV",
+                            "start": "2012603593/24000s",
+                            "duration": "5744739/24000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va5gEAAAAAAQQMAAAAAb4l/1TM6K7hqBAL4+eJjZXR1dTeB/Q8pd3bt4wG47IuAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwALAAAAAQEAADUxNV9UdWVzZGF5AAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjE4KwAAAAEBAAAyMDE3MTIxOF83MDJfTWluZGluZ01ha2luZ19TYXdNaWxsSW50ZXJ2aWV3AAMAAAABAQAANURhADcAAAABAQAAMjAxNzEyMThfNzAyX01pbmRpbmdNYWtpbmdfU2F3TWlsbEludGVydmlld181RGFfMDA4Lk1PVgAcAAAAAQYAABAAAAAgAAAANAAAAEQAAABUAAAAiAAAAJQAAAAIAAAABAMAAKZhBgAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAuX4GAAAAAAAIAAAABAMAAFHLBgAAAAAACAAAAAQDAAApzQYAAAAAAAgAAAAEAwAALM0GAAAAAAAIAAAABAMAAKnLBgAAAAAAHAAAAAEGAAD4AAAACAEAABgBAAAoAQAAOAEAAEgBAABYAQAACAAAAAAEAABBv+gxAAAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAHAAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvNTE1X1R1ZXNkYXkvCAAAAAQDAAAAwCRj7gAAAAgAAAAABAAAQbwTMNUAAAAkAAAAAQEAAERFMkJGRjE4LUE0NjctMzg0Ni05RjI4LTU5RDdBNkQzRTk4NhgAAAABAgAAAQEAAAEAAADvEwAAAQAAAAAAAAAAAAAAFAAAAAEBAAAvVm9sdW1lcy81MTVfVHVlc2RheQgAAAABCQAAZmlsZTovLy8LAAAAAQEAAExMLTIwMTctMTA5AAgAAAAEAwAAAAAiD9UCAAAIAAAAAAQAAEG+snxgAAAAJAAAAAEBAAA3MERBQTk0NC1GRjkxLTMwMTAtOTM4Ri03MzQ2NDZCNkY3RTMYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAPgCAAAAAAAABSAAAGgCAAAAAAAAECAAAHgCAAAAAAAAESAAAKwCAAAAAAAAEiAAAIwCAAAAAAAAEyAAAJwCAAAAAAAAICAAANgCAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAIAAAAAEGAABsAwAAeAMAAIQDAAB4AwAAeAMAAHgDAAB4AwAAeAMAAKgAAAD+////AQAAAAQDAAANAAAABBAAANQAAAAAAAAABRAAAGgBAAAAAAAAEBAAAJwBAAAAAAAAQBAAAIwBAAAAAAAAACAAAJADAAAAAAAAAiAAAEwCAAAAAAAABSAAALwBAAAAAAAAECAAACAAAAAAAAAAESAAAAACAAAAAAAAEiAAAOABAAAAAAAAEyAAAPABAAAAAAAAICAAACwCAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r10",
+                            "name": "20171218_702_MindingMaking_SawMillInterview_C100a_001",
+                            "uid": "912E1CD95F0A082DA013724934762780",
+                            "src": "file:///Volumes/515_Tuesday/Footage/20171218/20171218_702_MindingMaking_SawMillInterview/C100a/20171218_702_MindingMaking_SawMillInterview_C100a_001.mov",
+                            "start": "3265819557/72000s",
+                            "duration": "172071900/72000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va6AEAAAAAAQQMAAAAGug+283qgWX7WqgWBnAz7VElnwlxouyk48RUlXOmO0iwAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwALAAAAAQEAADUxNV9UdWVzZGF5AAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjE4KwAAAAEBAAAyMDE3MTIxOF83MDJfTWluZGluZ01ha2luZ19TYXdNaWxsSW50ZXJ2aWV3AAUAAAABAQAAQzEwMGEAAAA5AAAAAQEAADIwMTcxMjE4XzcwMl9NaW5kaW5nTWFraW5nX1Nhd01pbGxJbnRlcnZpZXdfQzEwMGFfMDAxLm1vdgAAABwAAAABBgAAEAAAACAAAAA0AAAARAAAAFQAAACIAAAAmAAAAAgAAAAEAwAApmEGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAAC5fgYAAAAAAAgAAAAEAwAAUcsGAAAAAAAIAAAABAMAACnNBgAAAAAACAAAAAQDAAAqzQYAAAAAAAgAAAAEAwAAYswGAAAAAAAcAAAAAQYAAAABAAAQAQAAIAEAADABAABAAQAAUAEAAGABAAAIAAAAAAQAAEG/6HtBAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAcAAAAAQkAAGZpbGU6Ly8vVm9sdW1lcy81MTVfVHVlc2RheS8IAAAABAMAAADAJGPuAAAACAAAAAAEAABBvBMw1QAAACQAAAABAQAAREUyQkZGMTgtQTQ2Ny0zODQ2LTlGMjgtNTlEN0E2RDNFOTg2GAAAAAECAAABAQAAAQAAAO8TAAABAAAAAAAAAAAAAAAUAAAAAQEAAC9Wb2x1bWVzLzUxNV9UdWVzZGF5CAAAAAEJAABmaWxlOi8vLwsAAAABAQAATEwtMjAxNy0xMDkACAAAAAQDAAAAACIP1QIAAAgAAAAABAAAQb6yfGAAAAAkAAAAAQEAADcwREFBOTQ0LUZGOTEtMzAxMC05MzhGLTczNDY0NkI2RjdFMxgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAAAAMAAAAAAAAFIAAAcAIAAAAAAAAQIAAAgAIAAAAAAAARIAAAtAIAAAAAAAASIAAAlAIAAAAAAAATIAAApAIAAAAAAAAgIAAA4AIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAgAAAAAQYAAHQDAACAAwAAjAMAAIADAACAAwAAgAMAAIADAACAAwAAqAAAAP7///8BAAAADAMAAA0AAAAEEAAA3AAAAAAAAAAFEAAAcAEAAAAAAAAQEAAApAEAAAAAAABAEAAAlAEAAAAAAAAAIAAAmAMAAAAAAAACIAAAVAIAAAAAAAAFIAAAxAEAAAAAAAAQIAAAIAAAAAAAAAARIAAACAIAAAAAAAASIAAA6AEAAAAAAAATIAAA+AEAAAAAAAAgIAAANAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r11",
+                            "name": "20171218_702_MindingMaking_SawMillInterview_C100a_002",
+                            "uid": "ED22F6AA30C560DBC002ABF988415E2C",
+                            "src": "file:///Volumes/515_Tuesday/Footage/20171218/20171218_702_MindingMaking_SawMillInterview/C100a/20171218_702_MindingMaking_SawMillInterview_C100a_002.mov",
+                            "start": "3441675237/72000s",
+                            "duration": "16720704/72000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va6AEAAAAAAQQMAAAAKMK8cuRcJTZjmJhCutmHdF2DUdMUSgZ055L7rwsuJC1wAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwALAAAAAQEAADUxNV9UdWVzZGF5AAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjE4KwAAAAEBAAAyMDE3MTIxOF83MDJfTWluZGluZ01ha2luZ19TYXdNaWxsSW50ZXJ2aWV3AAUAAAABAQAAQzEwMGEAAAA5AAAAAQEAADIwMTcxMjE4XzcwMl9NaW5kaW5nTWFraW5nX1Nhd01pbGxJbnRlcnZpZXdfQzEwMGFfMDAyLm1vdgAAABwAAAABBgAAEAAAACAAAAA0AAAARAAAAFQAAACIAAAAmAAAAAgAAAAEAwAApmEGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAAC5fgYAAAAAAAgAAAAEAwAAUcsGAAAAAAAIAAAABAMAACnNBgAAAAAACAAAAAQDAAAqzQYAAAAAAAgAAAAEAwAAZswGAAAAAAAcAAAAAQYAAAABAAAQAQAAIAEAADABAABAAQAAUAEAAGABAAAIAAAAAAQAAEG/6ITMAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAcAAAAAQkAAGZpbGU6Ly8vVm9sdW1lcy81MTVfVHVlc2RheS8IAAAABAMAAADAJGPuAAAACAAAAAAEAABBvBMw1QAAACQAAAABAQAAREUyQkZGMTgtQTQ2Ny0zODQ2LTlGMjgtNTlEN0E2RDNFOTg2GAAAAAECAAABAQAAAQAAAO8TAAABAAAAAAAAAAAAAAAUAAAAAQEAAC9Wb2x1bWVzLzUxNV9UdWVzZGF5CAAAAAEJAABmaWxlOi8vLwsAAAABAQAATEwtMjAxNy0xMDkACAAAAAQDAAAAACIP1QIAAAgAAAAABAAAQb6yfGAAAAAkAAAAAQEAADcwREFBOTQ0LUZGOTEtMzAxMC05MzhGLTczNDY0NkI2RjdFMxgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAAAAMAAAAAAAAFIAAAcAIAAAAAAAAQIAAAgAIAAAAAAAARIAAAtAIAAAAAAAASIAAAlAIAAAAAAAATIAAApAIAAAAAAAAgIAAA4AIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAgAAAAAQYAAHQDAACAAwAAjAMAAIADAACAAwAAgAMAAIADAACAAwAAqAAAAP7///8BAAAADAMAAA0AAAAEEAAA3AAAAAAAAAAFEAAAcAEAAAAAAAAQEAAApAEAAAAAAABAEAAAlAEAAAAAAAAAIAAAmAMAAAAAAAACIAAAVAIAAAAAAAAFIAAAxAEAAAAAAAAQIAAAIAAAAAAAAAARIAAACAIAAAAAAAASIAAA6AEAAAAAAAATIAAA+AEAAAAAAAAgIAAANAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    }
+                ],
+                "media": [
+                    {
+                        "_attr": {
+                            "id": "r12",
+                            "name": "20171218_702_MindingMaking_SawMillInterview_MC",
+                            "uid": "31oucnSWTLGVqchv9JY9lQ"
+                        },
+                        "multicam": [
+                            {
+                                "_attr": {
+                                    "format": "r1",
+                                    "tcStart": "3265819557/72000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "mc-angle": [
+                                    {
+                                        "_attr": {
+                                            "name": "C100a",
+                                            "angleID": "w8hOXLmAQrmeQGivc/oGnA"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "84084/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "172324152/72000s",
+                                                    "duration": "3531528/72000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171218_702_MindingMaking_SawMillInterview_C100a_001",
+                                                    "offset": "252252/72000s",
+                                                    "duration": "172071900/72000s",
+                                                    "start": "3265819557/72000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "_attr": {
+                                                            "offset": "3265819557/72000s",
+                                                            "ref": "r10",
+                                                            "duration": "172071900/72000s",
+                                                            "start": "3265819557/72000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "_attr": {
+                                                                    "lane": "-1",
+                                                                    "offset": "32658195570/720000s",
+                                                                    "ref": "r10",
+                                                                    "duration": "1720719000/720000s",
+                                                                    "start": "32658195570/720000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "keyword": [
+                                                    {
+                                                        "_attr": {
+                                                            "start": "1088606519/24000s",
+                                                            "duration": "172071900/72000s",
+                                                            "value": "C100a"
+                                                        }
+                                                    }
+                                                ],
+                                                "audio-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1",
+                                                            "enabled": "0"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "20171218_702_MindingMaking_SawMillInterview_C100a_002",
+                                                    "offset": "175855680/72000s",
+                                                    "duration": "16720704/72000s",
+                                                    "start": "3441675237/72000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "_attr": {
+                                                            "offset": "3441675237/72000s",
+                                                            "ref": "r11",
+                                                            "duration": "16720704/72000s",
+                                                            "start": "3441675237/72000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "_attr": {
+                                                                    "lane": "-1",
+                                                                    "offset": "34416752370/720000s",
+                                                                    "ref": "r11",
+                                                                    "duration": "167207040/720000s",
+                                                                    "start": "34416752370/720000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "keyword": [
+                                                    {
+                                                        "_attr": {
+                                                            "start": "1147225079/24000s",
+                                                            "duration": "16720704/72000s",
+                                                            "value": "C100a"
+                                                        }
+                                                    }
+                                                ],
+                                                "audio-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1",
+                                                            "enabled": "0"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "5Da",
+                                            "angleID": "ePlL6kXkSPeo6pc4PcH1jg"
+                                        },
+                                        "clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171218_702_MindingMaking_SawMillInterview_5Da_001",
+                                                    "offset": "0s",
+                                                    "duration": "8911903/24000s",
+                                                    "start": "1955630677/24000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "_attr": {
+                                                            "offset": "1955630677/24000s",
+                                                            "ref": "r2",
+                                                            "duration": "8912904/24000s",
+                                                            "start": "1955630677/24000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "_attr": {
+                                                                    "lane": "-1",
+                                                                    "offset": "58668920310/720000s",
+                                                                    "ref": "r2",
+                                                                    "duration": "267387120/720000s",
+                                                                    "start": "58668920310/720000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "keyword": [
+                                                    {
+                                                        "_attr": {
+                                                            "start": "1955630677/24000s",
+                                                            "duration": "8912904/24000s",
+                                                            "value": "5Da"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "20171218_702_MindingMaking_SawMillInterview_5Da_002",
+                                                    "offset": "8912904/24000s",
+                                                    "duration": "8912904/24000s",
+                                                    "start": "1964543581/24000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "_attr": {
+                                                            "offset": "1964543581/24000s",
+                                                            "ref": "r3",
+                                                            "duration": "8912904/24000s",
+                                                            "start": "1964543581/24000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "_attr": {
+                                                                    "lane": "-1",
+                                                                    "offset": "58936307430/720000s",
+                                                                    "ref": "r3",
+                                                                    "duration": "267387120/720000s",
+                                                                    "start": "58936307430/720000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "keyword": [
+                                                    {
+                                                        "_attr": {
+                                                            "start": "1964543581/24000s",
+                                                            "duration": "8912904/24000s",
+                                                            "value": "5Da"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "20171218_702_MindingMaking_SawMillInterview_5Da_003",
+                                                    "offset": "17825808/24000s",
+                                                    "duration": "8912904/24000s",
+                                                    "start": "1973456485/24000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "_attr": {
+                                                            "offset": "1973456485/24000s",
+                                                            "ref": "r4",
+                                                            "duration": "8912904/24000s",
+                                                            "start": "1973456485/24000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "_attr": {
+                                                                    "lane": "-1",
+                                                                    "offset": "59203694550/720000s",
+                                                                    "ref": "r4",
+                                                                    "duration": "267387120/720000s",
+                                                                    "start": "59203694550/720000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "keyword": [
+                                                    {
+                                                        "_attr": {
+                                                            "start": "394691297/4800s",
+                                                            "duration": "8912904/24000s",
+                                                            "value": "5Da"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "20171218_702_MindingMaking_SawMillInterview_5Da_004",
+                                                    "offset": "26739713/24000s",
+                                                    "duration": "8924916/24000s",
+                                                    "start": "1982369389/24000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "_attr": {
+                                                            "offset": "1982369389/24000s",
+                                                            "ref": "r5",
+                                                            "duration": "8924916/24000s",
+                                                            "start": "1982369389/24000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "_attr": {
+                                                                    "lane": "-1",
+                                                                    "offset": "59471081670/720000s",
+                                                                    "ref": "r5",
+                                                                    "duration": "267747480/720000s",
+                                                                    "start": "59471081670/720000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "keyword": [
+                                                    {
+                                                        "_attr": {
+                                                            "start": "1982369389/24000s",
+                                                            "duration": "8924916/24000s",
+                                                            "value": "5Da"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "20171218_702_MindingMaking_SawMillInterview_5Da_005",
+                                                    "offset": "35664629/24000s",
+                                                    "duration": "7514507/24000s",
+                                                    "start": "1991294305/24000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "_attr": {
+                                                            "offset": "1991294305/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "7514507/24000s",
+                                                            "start": "1991294305/24000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "_attr": {
+                                                                    "lane": "-1",
+                                                                    "offset": "59738829150/720000s",
+                                                                    "ref": "r6",
+                                                                    "duration": "225435210/720000s",
+                                                                    "start": "59738829150/720000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "keyword": [
+                                                    {
+                                                        "_attr": {
+                                                            "start": "398258861/4800s",
+                                                            "duration": "7514507/24000s",
+                                                            "value": "5Da"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "20171218_702_MindingMaking_SawMillInterview_5Da_006",
+                                                    "offset": "43746703/24000s",
+                                                    "duration": "8924916/24000s",
+                                                    "start": "1998808812/24000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "_attr": {
+                                                            "offset": "1998808812/24000s",
+                                                            "ref": "r7",
+                                                            "duration": "8924916/24000s",
+                                                            "start": "1998808812/24000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "_attr": {
+                                                                    "lane": "-1",
+                                                                    "offset": "59964264360/720000s",
+                                                                    "ref": "r7",
+                                                                    "duration": "267747480/720000s",
+                                                                    "start": "59964264360/720000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "keyword": [
+                                                    {
+                                                        "_attr": {
+                                                            "start": "166567401/2000s",
+                                                            "duration": "8924916/24000s",
+                                                            "value": "5Da"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "20171218_702_MindingMaking_SawMillInterview_5Da_007",
+                                                    "offset": "52671619/24000s",
+                                                    "duration": "4869865/24000s",
+                                                    "start": "2007733728/24000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "_attr": {
+                                                            "offset": "2007733728/24000s",
+                                                            "ref": "r8",
+                                                            "duration": "4869865/24000s",
+                                                            "start": "2007733728/24000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "_attr": {
+                                                                    "lane": "-1",
+                                                                    "offset": "60232011840/720000s",
+                                                                    "ref": "r8",
+                                                                    "duration": "146095950/720000s",
+                                                                    "start": "60232011840/720000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "keyword": [
+                                                    {
+                                                        "_attr": {
+                                                            "start": "20913893/250s",
+                                                            "duration": "4869865/24000s",
+                                                            "value": "5Da"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "20171218_702_MindingMaking_SawMillInterview_5Da_008",
+                                                    "offset": "58552494/24000s",
+                                                    "duration": "5744739/24000s",
+                                                    "start": "2012603593/24000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "_attr": {
+                                                            "offset": "2012603593/24000s",
+                                                            "ref": "r9",
+                                                            "duration": "5744739/24000s",
+                                                            "start": "2012603593/24000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "_attr": {
+                                                                    "lane": "-1",
+                                                                    "offset": "60378107790/720000s",
+                                                                    "ref": "r9",
+                                                                    "duration": "172342170/720000s",
+                                                                    "start": "60378107790/720000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "keyword": [
+                                                    {
+                                                        "_attr": {
+                                                            "start": "2012603593/24000s",
+                                                            "duration": "5744739/24000s",
+                                                            "value": "5Da"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "8911903/24000s",
+                                                    "duration": "1001/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "26738712/24000s",
+                                                    "duration": "1001/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "43179136/24000s",
+                                                    "duration": "567567/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "57541484/24000s",
+                                                    "duration": "1011010/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r13",
+                            "name": "20171218_702_MindingMaking_SawMillInterview_MC_CC",
+                            "uid": "Ywwr07p1Qd2ykVO2BB4enw"
+                        },
+                        "sequence": [
+                            {
+                                "_attr": {
+                                    "duration": "64297233/24000s",
+                                    "format": "r1",
+                                    "tcStart": "1088606519/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "spine": [
+                                    {
+                                        "mc-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171218_702_MindingMaking_SawMillInterview_MC",
+                                                    "offset": "1088606519/24000s",
+                                                    "ref": "r12",
+                                                    "duration": "64297233/24000s",
+                                                    "start": "1088606519/24000s"
+                                                },
+                                                "mc-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "angleID": "w8hOXLmAQrmeQGivc/oGnA",
+                                                            "srcEnable": "all"
+                                                        },
+                                                        "filter-video": [
+                                                            {
+                                                                "_attr": {
+                                                                    "ref": "r14",
+                                                                    "name": "2.5_A"
+                                                                },
+                                                                "param": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/10619/1/100/101",
+                                                                            "value": "-19.3779 -232"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/10619/2/354/10624/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Line Spacing",
+                                                                            "key": "9999/32385/10619/2/354/10624/404",
+                                                                            "value": "-2"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/10619/2/369",
+                                                                            "value": "Interview"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20673/1/100/101",
+                                                                            "value": "-16.824 -180"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20673/2/354/20674/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20673/2/369",
+                                                                            "value": "MindingMaking_SawMill"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20837/1/100/101",
+                                                                            "value": "-443.584 -395"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20837/2/354/20838/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20837/2/369",
+                                                                            "value": "20171218:"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "ref": "r15",
+                                                                    "name": "Color Correction"
+                                                                },
+                                                                "param": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "exposure_highlight",
+                                                                            "key": "2009",
+                                                                            "value": "0.560779"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "exposure_midtone",
+                                                                            "key": "2010",
+                                                                            "value": "0.523147"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "exposure_shadow",
+                                                                            "key": "2011",
+                                                                            "value": "0.498627"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "mc-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171218_702_MindingMaking_SawMillInterview_MC",
+                                                            "lane": "-1",
+                                                            "offset": "1088606519/24000s",
+                                                            "ref": "r12",
+                                                            "duration": "64297233/24000s",
+                                                            "start": "1088606519/24000s"
+                                                        },
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "ePlL6kXkSPeo6pc4PcH1jg",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r16",
+                                                                            "name": "2.5_B"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "w8hOXLmAQrmeQGivc/oGnA",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "effect": [
+                    {
+                        "_attr": {
+                            "id": "r14",
+                            "name": "2.5_A",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r15",
+                            "name": "Color Correction",
+                            "uid": "FFColorCorrectionEffect"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r16",
+                            "name": "2.5_B",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef"
+                        }
+                    }
+                ]
+            }
+        ],
+        "library": [
+            {
+                "_attr": {
+                    "location": "file:///Volumes/515_Tuesday/FCP_Libs/20171218_MC_CC_Ex.fcpbundle/"
+                },
+                "event": [
+                    {
+                        "_attr": {
+                            "name": "20171218_702_MindingMaking_SawMillInterview",
+                            "uid": "7CEA0B0E-72B2-4419-A755-A29C423B2FDA"
+                        },
+                        "clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171218_702_MindingMaking_SawMillInterview_5Da_001",
+                                    "duration": "8912904/24000s",
+                                    "start": "1955630677/24000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF"
+                                },
+                                "video": [
+                                    {
+                                        "_attr": {
+                                            "offset": "1955630677/24000s",
+                                            "ref": "r2",
+                                            "duration": "8912904/24000s",
+                                            "start": "1955630677/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "58668920310/720000s",
+                                                    "ref": "r2",
+                                                    "duration": "267387120/720000s",
+                                                    "start": "58668920310/720000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "1955630677/24000s",
+                                            "duration": "8912904/24000s",
+                                            "value": "5Da"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171218_702_MindingMaking_SawMillInterview_5Da_002",
+                                    "duration": "8912904/24000s",
+                                    "start": "1964543581/24000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF"
+                                },
+                                "video": [
+                                    {
+                                        "_attr": {
+                                            "offset": "1964543581/24000s",
+                                            "ref": "r3",
+                                            "duration": "8912904/24000s",
+                                            "start": "1964543581/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "58936307430/720000s",
+                                                    "ref": "r3",
+                                                    "duration": "267387120/720000s",
+                                                    "start": "58936307430/720000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "1964543581/24000s",
+                                            "duration": "8912904/24000s",
+                                            "value": "5Da"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171218_702_MindingMaking_SawMillInterview_5Da_003",
+                                    "duration": "8912904/24000s",
+                                    "start": "1973456485/24000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF"
+                                },
+                                "video": [
+                                    {
+                                        "_attr": {
+                                            "offset": "1973456485/24000s",
+                                            "ref": "r4",
+                                            "duration": "8912904/24000s",
+                                            "start": "1973456485/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "59203694550/720000s",
+                                                    "ref": "r4",
+                                                    "duration": "267387120/720000s",
+                                                    "start": "59203694550/720000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "394691297/4800s",
+                                            "duration": "8912904/24000s",
+                                            "value": "5Da"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171218_702_MindingMaking_SawMillInterview_5Da_004",
+                                    "duration": "8924916/24000s",
+                                    "start": "1982369389/24000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF"
+                                },
+                                "video": [
+                                    {
+                                        "_attr": {
+                                            "offset": "1982369389/24000s",
+                                            "ref": "r5",
+                                            "duration": "8924916/24000s",
+                                            "start": "1982369389/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "59471081670/720000s",
+                                                    "ref": "r5",
+                                                    "duration": "267747480/720000s",
+                                                    "start": "59471081670/720000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "1982369389/24000s",
+                                            "duration": "8924916/24000s",
+                                            "value": "5Da"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171218_702_MindingMaking_SawMillInterview_5Da_005",
+                                    "duration": "7514507/24000s",
+                                    "start": "1991294305/24000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF"
+                                },
+                                "video": [
+                                    {
+                                        "_attr": {
+                                            "offset": "1991294305/24000s",
+                                            "ref": "r6",
+                                            "duration": "7514507/24000s",
+                                            "start": "1991294305/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "59738829150/720000s",
+                                                    "ref": "r6",
+                                                    "duration": "225435210/720000s",
+                                                    "start": "59738829150/720000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "398258861/4800s",
+                                            "duration": "7514507/24000s",
+                                            "value": "5Da"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171218_702_MindingMaking_SawMillInterview_5Da_006",
+                                    "duration": "8924916/24000s",
+                                    "start": "1998808812/24000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF"
+                                },
+                                "video": [
+                                    {
+                                        "_attr": {
+                                            "offset": "1998808812/24000s",
+                                            "ref": "r7",
+                                            "duration": "8924916/24000s",
+                                            "start": "1998808812/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "59964264360/720000s",
+                                                    "ref": "r7",
+                                                    "duration": "267747480/720000s",
+                                                    "start": "59964264360/720000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "166567401/2000s",
+                                            "duration": "8924916/24000s",
+                                            "value": "5Da"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171218_702_MindingMaking_SawMillInterview_5Da_007",
+                                    "duration": "4869865/24000s",
+                                    "start": "2007733728/24000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF"
+                                },
+                                "video": [
+                                    {
+                                        "_attr": {
+                                            "offset": "2007733728/24000s",
+                                            "ref": "r8",
+                                            "duration": "4869865/24000s",
+                                            "start": "2007733728/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "60232011840/720000s",
+                                                    "ref": "r8",
+                                                    "duration": "146095950/720000s",
+                                                    "start": "60232011840/720000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "20913893/250s",
+                                            "duration": "4869865/24000s",
+                                            "value": "5Da"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171218_702_MindingMaking_SawMillInterview_5Da_008",
+                                    "duration": "5744739/24000s",
+                                    "start": "2012603593/24000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF"
+                                },
+                                "video": [
+                                    {
+                                        "_attr": {
+                                            "offset": "2012603593/24000s",
+                                            "ref": "r9",
+                                            "duration": "5744739/24000s",
+                                            "start": "2012603593/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "60378107790/720000s",
+                                                    "ref": "r9",
+                                                    "duration": "172342170/720000s",
+                                                    "start": "60378107790/720000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "2012603593/24000s",
+                                            "duration": "5744739/24000s",
+                                            "value": "5Da"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171218_702_MindingMaking_SawMillInterview_C100a_001",
+                                    "duration": "172071900/72000s",
+                                    "start": "3265819557/72000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF"
+                                },
+                                "video": [
+                                    {
+                                        "_attr": {
+                                            "offset": "3265819557/72000s",
+                                            "ref": "r10",
+                                            "duration": "172071900/72000s",
+                                            "start": "3265819557/72000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "32658195570/720000s",
+                                                    "ref": "r10",
+                                                    "duration": "1720719000/720000s",
+                                                    "start": "32658195570/720000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "1088606519/24000s",
+                                            "duration": "172071900/72000s",
+                                            "value": "C100a"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171218_702_MindingMaking_SawMillInterview_C100a_002",
+                                    "duration": "16720704/72000s",
+                                    "start": "3441675237/72000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF"
+                                },
+                                "video": [
+                                    {
+                                        "_attr": {
+                                            "offset": "3441675237/72000s",
+                                            "ref": "r11",
+                                            "duration": "16720704/72000s",
+                                            "start": "3441675237/72000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "34416752370/720000s",
+                                                    "ref": "r11",
+                                                    "duration": "167207040/720000s",
+                                                    "start": "34416752370/720000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "1147225079/24000s",
+                                            "duration": "16720704/72000s",
+                                            "value": "C100a"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "mc-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171218_702_MindingMaking_SawMillInterview_MC",
+                                    "ref": "r12",
+                                    "duration": "192891699/72000s",
+                                    "start": "3265819557/72000s"
+                                },
+                                "mc-source": [
+                                    {
+                                        "_attr": {
+                                            "angleID": "w8hOXLmAQrmeQGivc/oGnA",
+                                            "srcEnable": "all"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "ref-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171218_702_MindingMaking_SawMillInterview_MC_CC",
+                                    "ref": "r13",
+                                    "duration": "64297233/24000s",
+                                    "start": "1088606519/24000s"
+                                }
+                            }
+                        ],
+                        "project": [
+                            {
+                                "_attr": {
+                                    "name": "20171218_702_MindingMaking_SawMillInterview_MC_CC_Ex",
+                                    "uid": "C271F5A0-8C4B-49DA-8B05-87E4CC33FC43"
+                                },
+                                "sequence": [
+                                    {
+                                        "_attr": {
+                                            "duration": "63270207/24000s",
+                                            "format": "r1",
+                                            "tcStart": "0s",
+                                            "tcFormat": "NDF",
+                                            "audioLayout": "stereo",
+                                            "audioRate": "48k"
+                                        },
+                                        "spine": [
+                                            {
+                                                "ref-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171218_702_MindingMaking_SawMillInterview_MC_CC",
+                                                            "offset": "0s",
+                                                            "ref": "r13",
+                                                            "duration": "57566509/24000s",
+                                                            "start": "1088606519/24000s"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171218_702_MindingMaking_SawMillInterview_MC_CC",
+                                                            "offset": "57566509/24000s",
+                                                            "ref": "r13",
+                                                            "duration": "5703698/24000s",
+                                                            "start": "1147200054/24000s"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "keyword-collection": [
+                            {
+                                "_attr": {
+                                    "name": "5Da"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C100a"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

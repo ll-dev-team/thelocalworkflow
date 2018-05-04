@@ -1,0 +1,492 @@
+{
+    "fcpxml": {
+        "_attr": {
+            "version": "1.6"
+        },
+        "resources": [
+            {
+                "asset": [
+                    {
+                        "_attr": {
+                            "id": "r1",
+                            "name": "20171206_004_MCB81_Gracehopper_C100a_001",
+                            "uid": "2F18297ED1DE3323432CD8F7FB95A101",
+                            "src": "file:///Volumes/105_1TB/20171206/20171206_004_MCB81_Gracehopper/C100a/20171206_004_MCB81_Gracehopper_C100a_001.mov",
+                            "start": "2874958086/72000s",
+                            "duration": "45225180/72000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va5QEAAAAAAQQMAAAALZYMdSIhYdHBp1EDEuV4JiCqRftQVnGok9CzO51I9zckAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAHAAAAAQEAADEwNV8xVEIACAAAAAEBAAAyMDE3MTIwNh4AAAABAQAAMjAxNzEyMDZfMDA0X01DQjgxX0dyYWNlaG9wcGVyAAAFAAAAAQEAAEMxMDBhAAAALAAAAAEBAAAyMDE3MTIwNl8wMDRfTUNCODFfR3JhY2Vob3BwZXJfQzEwMGFfMDAxLm1vdhgAAAABBgAAEAAAACAAAAAwAAAAQAAAAGgAAAB4AAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAACXaCAAAAAAACAAAAAQDAAAm2ggAAAAAAAgAAAAEAwAAKNoIAAAAAAAIAAAABAMAAA/aCAAAAAAAGAAAAAEGAADMAAAA3AAAAOwAAAD8AAAADAEAABwBAAAIAAAAAAQAAEG/2IVNAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAAAQAAAADAwAABQAAABgAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzEwNV8xVEIvCAAAAAQDAAAAwCRj7gAAAAgAAAAABAAAQb2IM20AAAAkAAAAAQEAADE2MkNFNzQwLUY4RUUtM0Q3Ri1CNDI4LUU0OEQxMkU5QjhGNRgAAAABAgAAAQEAAAEAAADvEwAAAQAAAAAAAAAAAAAAEAAAAAEBAAAvVm9sdW1lcy8xMDVfMVRCCAAAAAEJAABmaWxlOi8vLw0AAAABAQAATExfUHJvZHVjdGlvbgAAAAgAAAAEAwAAAHCiR3QAAAAIAAAAAAQAAEG/PjyNAAAAJAAAAAEBAABGOENFMTlBNS01RjkwLTNDOTctOEYwMy1FN0UwQzBFRDM4RDIYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAANQCAAAAAAAABSAAAEACAAAAAAAAECAAAFACAAAAAAAAESAAAIgCAAAAAAAAEiAAAGgCAAAAAAAAEyAAAHgCAAAAAAAAICAAALQCAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAHAAAAAEGAABIAwAAVAMAAGADAABUAwAAVAMAAFQDAABUAwAAzAAAAP7///8BAAAA4AIAABAAAAAEEAAArAAAAAAAAAAFEAAALAEAAAAAAAAQEAAAXAEAAAAAAABAEAAATAEAAAAAAABUEAAAhAEAAAAAAABVEAAAkAEAAAAAAABWEAAAfAEAAAAAAAAAIAAAbAMAAAAAAAACIAAAKAIAAAAAAAAFIAAAnAEAAAAAAAAQIAAAIAAAAAAAAAARIAAA3AEAAAAAAAASIAAAvAEAAAAAAAATIAAAzAEAAAAAAAAgIAAACAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r3",
+                            "name": "20171206_004_MCB81_Gracehopper_GH4_001",
+                            "uid": "018AA8A9CA80CE182DCE06CE3832C961",
+                            "src": "file:///Volumes/105_1TB/20171206/20171206_004_MCB81_Gracehopper/GH4/20171206_004_MCB81_Gracehopper_GH4_001.MOV",
+                            "start": "959614656/24000s",
+                            "duration": "14958944/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va5AEAAAAAAQQMAAAAEONKcT5Qu4dKCC+W9faeMOLQ40VOkYkZ9F2ftKAYb+UjAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAHAAAAAQEAADEwNV8xVEIACAAAAAEBAAAyMDE3MTIwNh4AAAABAQAAMjAxNzEyMDZfMDA0X01DQjgxX0dyYWNlaG9wcGVyAAADAAAAAQEAAEdINAAqAAAAAQEAADIwMTcxMjA2XzAwNF9NQ0I4MV9HcmFjZWhvcHBlcl9HSDRfMDAxLk1PVgAAGAAAAAEGAAAQAAAAIAAAADAAAABAAAAAaAAAAHQAAAAIAAAABAMAAKZnBgAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAJdoIAAAAAAAIAAAABAMAACbaCAAAAAAACAAAAAQDAAAq2ggAAAAAAAgAAAAEAwAAMtoIAAAAAAAYAAAAAQYAAMgAAADYAAAA6AAAAPgAAAAIAQAAGAEAAAgAAAAABAAAQb/YTNgAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAGAAAABAAAAAMDAAAFAAAAGAAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvMTA1XzFUQi8IAAAABAMAAADAJGPuAAAACAAAAAAEAABBvYgzbQAAACQAAAABAQAAMTYyQ0U3NDAtRjhFRS0zRDdGLUI0MjgtRTQ4RDEyRTlCOEY1GAAAAAECAAABAQAAAQAAAO8TAAABAAAAAAAAAAAAAAAQAAAAAQEAAC9Wb2x1bWVzLzEwNV8xVEIIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA0AIAAAAAAAAFIAAAPAIAAAAAAAAQIAAATAIAAAAAAAARIAAAhAIAAAAAAAASIAAAZAIAAAAAAAATIAAAdAIAAAAAAAAgIAAAsAIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAcAAAAAQYAAEQDAABQAwAAXAMAAFADAABQAwAAUAMAAFADAADMAAAA/v///wEAAADcAgAAEAAAAAQQAACoAAAAAAAAAAUQAAAoAQAAAAAAABAQAABYAQAAAAAAAEAQAABIAQAAAAAAAFQQAACAAQAAAAAAAFUQAACMAQAAAAAAAFYQAAB4AQAAAAAAAAAgAABoAwAAAAAAAAIgAAAkAgAAAAAAAAUgAACYAQAAAAAAABAgAAAgAAAAAAAAABEgAADYAQAAAAAAABIgAAC4AQAAAAAAABMgAADIAQAAAAAAACAgAAAEAgAAAAAAABDQAAAEAAAAAAAAAA=="
+                        ]
+                    }
+                ],
+                "format": [
+                    {
+                        "_attr": {
+                            "id": "r2",
+                            "name": "FFVideoFormat1080p2398",
+                            "frameDuration": "3003/72000s",
+                            "width": "1920",
+                            "height": "1080"
+                        }
+                    }
+                ],
+                "media": [
+                    {
+                        "_attr": {
+                            "id": "r4",
+                            "name": "20171206_004_MCB81_Gracehopper_MC",
+                            "uid": "8LCWt6vHSaydA67ItYJKxA",
+                            "modDate": "2017-12-06 18:04:23 -0500"
+                        },
+                        "multicam": [
+                            {
+                                "_attr": {
+                                    "format": "r2",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "2874958086/72000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "mc-angle": [
+                                    {
+                                        "_attr": {
+                                            "name": "C100a",
+                                            "angleID": "8OrhyggaTB+apRdvqvuR2w"
+                                        },
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171206_004_MCB81_Gracehopper_C100a_001",
+                                                    "offset": "0s",
+                                                    "ref": "r1",
+                                                    "duration": "45225180/72000s",
+                                                    "start": "2874958086/72000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "keyword": [
+                                                    {
+                                                        "_attr": {
+                                                            "start": "479159681/12000s",
+                                                            "duration": "45225180/72000s",
+                                                            "value": "C100a"
+                                                        }
+                                                    }
+                                                ],
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "GH4",
+                                            "angleID": "lY2HtplVQgK53ZskMcOFMQ"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "714714/72000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171206_004_MCB81_Gracehopper_GH4_001",
+                                                    "offset": "714714/72000s",
+                                                    "ref": "r3",
+                                                    "duration": "14958944/24000s",
+                                                    "start": "959614656/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "keyword": [
+                                                    {
+                                                        "_attr": {
+                                                            "start": "4997993/125s",
+                                                            "duration": "14958944/24000s",
+                                                            "value": "GH4"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r5",
+                            "name": "20171206_004_MCB81_Gracehopper_MC_CC",
+                            "uid": "66Naw/paTZ+p0ks157exzg",
+                            "modDate": "2017-12-06 18:05:42 -0500"
+                        },
+                        "sequence": [
+                            {
+                                "_attr": {
+                                    "duration": "15075060/24000s",
+                                    "format": "r2",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "958319362/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "spine": [
+                                    {
+                                        "mc-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171206_004_MCB81_Gracehopper_MC",
+                                                    "offset": "958319362/24000s",
+                                                    "ref": "r4",
+                                                    "duration": "15075060/24000s",
+                                                    "start": "958319362/24000s"
+                                                },
+                                                "adjust-volume": [
+                                                    {
+                                                        "_attr": {
+                                                            "amount": "-2dB"
+                                                        }
+                                                    }
+                                                ],
+                                                "mc-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "angleID": "8OrhyggaTB+apRdvqvuR2w",
+                                                            "srcEnable": "all"
+                                                        },
+                                                        "filter-video": [
+                                                            {
+                                                                "_attr": {
+                                                                    "ref": "r6",
+                                                                    "name": "2.5_A"
+                                                                },
+                                                                "param": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/10619/1/100/101",
+                                                                            "value": "-19.3779 -232"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/10619/2/354/10624/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Line Spacing",
+                                                                            "key": "9999/32385/10619/2/354/10624/404",
+                                                                            "value": "-2"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/10619/2/369",
+                                                                            "value": ""
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20673/1/100/101",
+                                                                            "value": "-16.824 -180"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20673/2/354/20674/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20673/2/369",
+                                                                            "value": "MCB81_GraceHopper"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20837/1/100/101",
+                                                                            "value": "-443.584 -395"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20837/2/354/20838/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20837/2/369",
+                                                                            "value": "20171206:"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "mc-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171206_004_MCB81_Gracehopper_MC",
+                                                            "lane": "-1",
+                                                            "offset": "958319362/24000s",
+                                                            "ref": "r4",
+                                                            "duration": "15075060/24000s",
+                                                            "start": "958319362/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "8OrhyggaTB+apRdvqvuR2w",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "lY2HtplVQgK53ZskMcOFMQ",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r7",
+                                                                            "name": "2.5_B"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "effect": [
+                    {
+                        "_attr": {
+                            "id": "r6",
+                            "name": "2.5_A",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r7",
+                            "name": "2.5_B",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef"
+                        }
+                    }
+                ]
+            }
+        ],
+        "library": [
+            {
+                "_attr": {
+                    "location": "file:///Users/ll-201-macpro/Movies/20171206_MC_CC_Ex.fcpbundle/"
+                },
+                "event": [
+                    {
+                        "_attr": {
+                            "name": "20171206_004_MCB81_Gracehopper",
+                            "uid": "E69DC812-5DE2-4901-BA5F-CC5F8439BFAF"
+                        },
+                        "asset-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171206_004_MCB81_Gracehopper_C100a_001",
+                                    "ref": "r1",
+                                    "duration": "45225180/72000s",
+                                    "start": "2874958086/72000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-06 18:03:22 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "479159681/12000s",
+                                            "duration": "45225180/72000s",
+                                            "value": "C100a"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171206_004_MCB81_Gracehopper_GH4_001",
+                                    "ref": "r3",
+                                    "duration": "14958944/24000s",
+                                    "start": "959614656/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-06 18:03:22 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "4997993/125s",
+                                            "duration": "14958944/24000s",
+                                            "value": "GH4"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "mc-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171206_004_MCB81_Gracehopper_MC",
+                                    "ref": "r4",
+                                    "duration": "45591546/72000s",
+                                    "start": "2874958086/72000s",
+                                    "modDate": "2017-12-06 18:04:23 -0500"
+                                },
+                                "mc-source": [
+                                    {
+                                        "_attr": {
+                                            "angleID": "8OrhyggaTB+apRdvqvuR2w",
+                                            "srcEnable": "all"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "ref-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171206_004_MCB81_Gracehopper_MC_CC",
+                                    "ref": "r5",
+                                    "duration": "15075060/24000s",
+                                    "start": "958319362/24000s",
+                                    "useAudioSubroles": "1",
+                                    "modDate": "2017-12-06 18:05:42 -0500"
+                                }
+                            }
+                        ],
+                        "project": [
+                            {
+                                "_attr": {
+                                    "name": "20171206_004_MCB81_Gracehopper_MC_CC_Ex",
+                                    "uid": "CE63B9FF-F8AF-4311-948D-66C238345D10",
+                                    "modDate": "2017-12-06 18:05:53 -0500"
+                                },
+                                "sequence": [
+                                    {
+                                        "_attr": {
+                                            "duration": "14276262/24000s",
+                                            "format": "r2",
+                                            "renderColorSpace": "Rec. 709",
+                                            "tcStart": "0s",
+                                            "tcFormat": "NDF",
+                                            "audioLayout": "stereo",
+                                            "audioRate": "48k"
+                                        },
+                                        "spine": [
+                                            {
+                                                "ref-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171206_004_MCB81_Gracehopper_MC_CC",
+                                                            "offset": "0s",
+                                                            "ref": "r5",
+                                                            "duration": "14276262/24000s",
+                                                            "start": "958319362/24000s",
+                                                            "useAudioSubroles": "1"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "keyword-collection": [
+                            {
+                                "_attr": {
+                                    "name": "GH4"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C100a"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,485 @@
+{
+    "fcpxml": {
+        "_attr": {
+            "version": "1.6"
+        },
+        "resources": [
+            {
+                "asset": [
+                    {
+                        "_attr": {
+                            "id": "r1",
+                            "name": "20171206_008_ArtOfLooking_StudentProject_C100a_001",
+                            "uid": "20A39419E008D598DF293168D2D6B3EB",
+                            "src": "file:///Volumes/105_1TB/20171206/20171206_008_ArtOfLooking_StudentProject/C100a/20171206_008_ArtOfLooking_StudentProject_C100a_001.mov",
+                            "start": "3180324147/72000s",
+                            "duration": "307351044/72000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va6gEAAAAAAQQMAAAAKdxUDDlKXg6KQP7p5iwpx4S+1vMlUuxYUVtdUZ/CX/WpAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAHAAAAAQEAADEwNV8xVEIACAAAAAEBAAAyMDE3MTIwNigAAAABAQAAMjAxNzEyMDZfMDA4X0FydE9mTG9va2luZ19TdHVkZW50UHJvamVjdAUAAAABAQAAQzEwMGEAAAA2AAAAAQEAADIwMTcxMjA2XzAwOF9BcnRPZkxvb2tpbmdfU3R1ZGVudFByb2plY3RfQzEwMGFfMDAxLm1vdgAAGAAAAAEGAAAQAAAAIAAAADAAAABAAAAAcAAAAIAAAAAIAAAABAMAAKZnBgAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAJdoIAAAAAAAIAAAABAMAACvaCAAAAAAACAAAAAQDAAAt2ggAAAAAAAgAAAAEAwAAENoIAAAAAAAYAAAAAQYAAOAAAADwAAAAAAEAABABAAAgAQAAMAEAAAgAAAAABAAAQb/YhWEAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAGAAAABAAAAAMDAAAFAAAAGAAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvMTA1XzFUQi8IAAAABAMAAADAJGPuAAAACAAAAAAEAABBvYgzbQAAACQAAAABAQAAMTYyQ0U3NDAtRjhFRS0zRDdGLUI0MjgtRTQ4RDEyRTlCOEY1GAAAAAECAAABAQAAAQAAAO8TAAABAAAAAAAAAAAAAAAQAAAAAQEAAC9Wb2x1bWVzLzEwNV8xVEIIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA6AIAAAAAAAAFIAAAVAIAAAAAAAAQIAAAZAIAAAAAAAARIAAAnAIAAAAAAAASIAAAfAIAAAAAAAATIAAAjAIAAAAAAAAgIAAAyAIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAcAAAAAQYAAFwDAABoAwAAdAMAAGgDAABoAwAAaAMAAGgDAADMAAAA/v///wEAAAD0AgAAEAAAAAQQAADAAAAAAAAAAAUQAABAAQAAAAAAABAQAABwAQAAAAAAAEAQAABgAQAAAAAAAFQQAACYAQAAAAAAAFUQAACkAQAAAAAAAFYQAACQAQAAAAAAAAAgAACAAwAAAAAAAAIgAAA8AgAAAAAAAAUgAACwAQAAAAAAABAgAAAgAAAAAAAAABEgAADwAQAAAAAAABIgAADQAQAAAAAAABMgAADgAQAAAAAAACAgAAAcAgAAAAAAABDQAAAEAAAAAAAAAA=="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r3",
+                            "name": "20171206_008_ArtOfLooking_StudentProject_GH4_001",
+                            "uid": "4B406F3ED8232398F1F433504DA82BBE",
+                            "src": "file:///Volumes/105_1TB/20171206/20171206_008_ArtOfLooking_StudentProject/GH4/20171206_008_ArtOfLooking_StudentProject_GH4_001.MOV",
+                            "start": "1061380320/24000s",
+                            "duration": "102553451/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va6AEAAAAAAQQMAAAAJQvHylQIwDBtN8FivT56gRjL1FAgJNm7Wq6GqRtq80KnAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAHAAAAAQEAADEwNV8xVEIACAAAAAEBAAAyMDE3MTIwNigAAAABAQAAMjAxNzEyMDZfMDA4X0FydE9mTG9va2luZ19TdHVkZW50UHJvamVjdAMAAAABAQAAR0g0ADQAAAABAQAAMjAxNzEyMDZfMDA4X0FydE9mTG9va2luZ19TdHVkZW50UHJvamVjdF9HSDRfMDAxLk1PVhgAAAABBgAAEAAAACAAAAAwAAAAQAAAAHAAAAB8AAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAACXaCAAAAAAACAAAAAQDAAAr2ggAAAAAAAgAAAAEAwAAL9oIAAAAAAAIAAAABAMAADHaCAAAAAAAGAAAAAEGAADYAAAA6AAAAPgAAAAIAQAAGAEAACgBAAAIAAAAAAQAAEG/2F1kAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAAAQAAAADAwAABQAAABgAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzEwNV8xVEIvCAAAAAQDAAAAwCRj7gAAAAgAAAAABAAAQb2IM20AAAAkAAAAAQEAADE2MkNFNzQwLUY4RUUtM0Q3Ri1CNDI4LUU0OEQxMkU5QjhGNRgAAAABAgAAAQEAAAEAAADvEwAAAQAAAAAAAAAAAAAAEAAAAAEBAAAvVm9sdW1lcy8xMDVfMVRCCAAAAAEJAABmaWxlOi8vLw0AAAABAQAATExfUHJvZHVjdGlvbgAAAAgAAAAEAwAAAHCiR3QAAAAIAAAAAAQAAEG/PjyNAAAAJAAAAAEBAABGOENFMTlBNS01RjkwLTNDOTctOEYwMy1FN0UwQzBFRDM4RDIYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAOACAAAAAAAABSAAAEwCAAAAAAAAECAAAFwCAAAAAAAAESAAAJQCAAAAAAAAEiAAAHQCAAAAAAAAEyAAAIQCAAAAAAAAICAAAMACAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAHAAAAAEGAABUAwAAYAMAAGwDAABgAwAAYAMAAGADAABgAwAAzAAAAP7///8BAAAA7AIAABAAAAAEEAAAuAAAAAAAAAAFEAAAOAEAAAAAAAAQEAAAaAEAAAAAAABAEAAAWAEAAAAAAABUEAAAkAEAAAAAAABVEAAAnAEAAAAAAABWEAAAiAEAAAAAAAAAIAAAeAMAAAAAAAACIAAANAIAAAAAAAAFIAAAqAEAAAAAAAAQIAAAIAAAAAAAAAARIAAA6AEAAAAAAAASIAAAyAEAAAAAAAATIAAA2AEAAAAAAAAgIAAAFAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    }
+                ],
+                "format": [
+                    {
+                        "_attr": {
+                            "id": "r2",
+                            "name": "FFVideoFormat1080p2398",
+                            "frameDuration": "3003/72000s",
+                            "width": "1920",
+                            "height": "1080"
+                        }
+                    }
+                ],
+                "media": [
+                    {
+                        "_attr": {
+                            "id": "r4",
+                            "name": "20171206_008_ArtOfLooking_StudentProject_MC",
+                            "uid": "Goy1Agi4Seqcw+X2VgtSlw",
+                            "modDate": "2017-12-06 18:24:14 -0500"
+                        },
+                        "multicam": [
+                            {
+                                "_attr": {
+                                    "format": "r2",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "3180324147/72000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "mc-angle": [
+                                    {
+                                        "_attr": {
+                                            "name": "C100a",
+                                            "angleID": "uFzQKVSQR8yeyd8AhKwHdg"
+                                        },
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171206_008_ArtOfLooking_StudentProject_C100a_001",
+                                                    "offset": "0s",
+                                                    "ref": "r1",
+                                                    "duration": "307351044/72000s",
+                                                    "start": "3180324147/72000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "keyword": [
+                                                    {
+                                                        "_attr": {
+                                                            "start": "1060108049/24000s",
+                                                            "duration": "307351044/72000s",
+                                                            "value": "C100a"
+                                                        }
+                                                    }
+                                                ],
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "GH4",
+                                            "angleID": "hi/PerOqSamGVXwsUXbo7w"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "134134/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171206_008_ArtOfLooking_StudentProject_GH4_001",
+                                                    "offset": "134134/24000s",
+                                                    "ref": "r3",
+                                                    "duration": "102553451/24000s",
+                                                    "start": "1061380320/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "keyword": [
+                                                    {
+                                                        "_attr": {
+                                                            "start": "2211209/50s",
+                                                            "duration": "102553451/24000s",
+                                                            "value": "GH4"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r5",
+                            "name": "20171206_008_ArtOfLooking_StudentProject_MC_CC",
+                            "uid": "ynFYwrTgSXaEe6PpesQugw",
+                            "modDate": "2017-12-06 18:24:56 -0500"
+                        },
+                        "sequence": [
+                            {
+                                "_attr": {
+                                    "duration": "102450348/24000s",
+                                    "format": "r2",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "1060108049/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "spine": [
+                                    {
+                                        "mc-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171206_008_ArtOfLooking_StudentProject_MC",
+                                                    "offset": "1060108049/24000s",
+                                                    "ref": "r4",
+                                                    "duration": "102450348/24000s",
+                                                    "start": "1060108049/24000s"
+                                                },
+                                                "mc-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "angleID": "uFzQKVSQR8yeyd8AhKwHdg",
+                                                            "srcEnable": "all"
+                                                        },
+                                                        "filter-video": [
+                                                            {
+                                                                "_attr": {
+                                                                    "ref": "r6",
+                                                                    "name": "2.5_A"
+                                                                },
+                                                                "param": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/10619/1/100/101",
+                                                                            "value": "-19.3779 -232"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/10619/2/354/10624/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Line Spacing",
+                                                                            "key": "9999/32385/10619/2/354/10624/404",
+                                                                            "value": "-2"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/10619/2/369",
+                                                                            "value": ""
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20673/1/100/101",
+                                                                            "value": "-16.824 -180"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20673/2/354/20674/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20673/2/354/93425/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20673/2/369",
+                                                                            "value": "ArtOfLooking_Student\nProject"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20837/1/100/101",
+                                                                            "value": "-443.584 -395"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20837/2/354/20838/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20837/2/369",
+                                                                            "value": "20171206:"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "mc-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171206_008_ArtOfLooking_StudentProject_MC",
+                                                            "lane": "-1",
+                                                            "offset": "1060108049/24000s",
+                                                            "ref": "r4",
+                                                            "duration": "102450348/24000s",
+                                                            "start": "1060108049/24000s"
+                                                        },
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "hi/PerOqSamGVXwsUXbo7w",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r7",
+                                                                            "name": "2.5_B"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "uFzQKVSQR8yeyd8AhKwHdg",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "effect": [
+                    {
+                        "_attr": {
+                            "id": "r6",
+                            "name": "2.5_A",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r7",
+                            "name": "2.5_B",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef"
+                        }
+                    }
+                ]
+            }
+        ],
+        "library": [
+            {
+                "_attr": {
+                    "location": "file:///Users/ll-201-macpro/Movies/20171206_MC_CC_Ex.fcpbundle/"
+                },
+                "event": [
+                    {
+                        "_attr": {
+                            "name": "20171206_008_ArtOfLooking_StudentProject",
+                            "uid": "261F95D9-49BE-4008-ABCA-9C926115319A"
+                        },
+                        "asset-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171206_008_ArtOfLooking_StudentProject_C100a_001",
+                                    "ref": "r1",
+                                    "duration": "307351044/72000s",
+                                    "start": "3180324147/72000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-06 18:22:53 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "1060108049/24000s",
+                                            "duration": "307351044/72000s",
+                                            "value": "C100a"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171206_008_ArtOfLooking_StudentProject_GH4_001",
+                                    "ref": "r3",
+                                    "duration": "102553451/24000s",
+                                    "start": "1061380320/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-06 18:22:53 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "2211209/50s",
+                                            "duration": "102553451/24000s",
+                                            "value": "GH4"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "mc-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171206_008_ArtOfLooking_StudentProject_MC",
+                                    "ref": "r4",
+                                    "duration": "308062755/72000s",
+                                    "start": "3180324147/72000s",
+                                    "modDate": "2017-12-06 18:24:14 -0500"
+                                },
+                                "mc-source": [
+                                    {
+                                        "_attr": {
+                                            "angleID": "uFzQKVSQR8yeyd8AhKwHdg",
+                                            "srcEnable": "all"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "ref-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171206_008_ArtOfLooking_StudentProject_MC_CC",
+                                    "ref": "r5",
+                                    "duration": "102450348/24000s",
+                                    "start": "1060108049/24000s",
+                                    "useAudioSubroles": "1",
+                                    "modDate": "2017-12-06 18:24:56 -0500"
+                                }
+                            }
+                        ],
+                        "project": [
+                            {
+                                "_attr": {
+                                    "name": "20171206_008_ArtOfLooking_StudentProject_MC_CC_Ex",
+                                    "uid": "A4CA4336-08F3-48FB-817E-3348A3E73D20",
+                                    "modDate": "2017-12-06 18:25:01 -0500"
+                                },
+                                "sequence": [
+                                    {
+                                        "_attr": {
+                                            "duration": "102450348/24000s",
+                                            "format": "r2",
+                                            "renderColorSpace": "Rec. 709",
+                                            "tcStart": "0s",
+                                            "tcFormat": "NDF",
+                                            "audioLayout": "stereo",
+                                            "audioRate": "48k"
+                                        },
+                                        "spine": [
+                                            {
+                                                "ref-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171206_008_ArtOfLooking_StudentProject_MC_CC",
+                                                            "offset": "0s",
+                                                            "ref": "r5",
+                                                            "duration": "102450348/24000s",
+                                                            "start": "1060108049/24000s",
+                                                            "useAudioSubroles": "1"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "keyword-collection": [
+                            {
+                                "_attr": {
+                                    "name": "C100a"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "GH4"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

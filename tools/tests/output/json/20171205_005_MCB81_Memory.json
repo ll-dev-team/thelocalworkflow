@@ -1,0 +1,763 @@
+{
+    "fcpxml": {
+        "_attr": {
+            "version": "1.5"
+        },
+        "resources": [
+            {
+                "format": [
+                    {
+                        "_attr": {
+                            "id": "r1",
+                            "name": "FFVideoFormat1080p2398",
+                            "frameDuration": "1001/24000s",
+                            "width": "1920",
+                            "height": "1080"
+                        }
+                    }
+                ],
+                "asset": [
+                    {
+                        "_attr": {
+                            "id": "r2",
+                            "name": "20171205_005_MCB81_Memory_C300a_001",
+                            "uid": "57DB2C18F2F160BD0BD1DECA67FB9385",
+                            "src": "file:///Volumes/578_500GB/_footage/20171205_005_MCB81_Memory/C300a/20171205_005_MCB81_Memory_C300a_001.mov",
+                            "start": "1296424129/24000s",
+                            "duration": "84161077/24000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9vawgEAAAAAAQQMAAAADJ5zgGaQszaWV3XaA6CRdV1jvYJk4/VJL8IxVf3VBiSKAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAJAAAAAQEAADU3OF81MDBHQgAAAAgAAAABAQAAX2Zvb3RhZ2UZAAAAAQEAADIwMTcxMjA1XzAwNV9NQ0I4MV9NZW1vcnkAAAAFAAAAAQEAAEMzMDBhAAAAJwAAAAEBAAAyMDE3MTIwNV8wMDVfTUNCODFfTWVtb3J5X0MzMDBhXzAwMS5tb3YAGAAAAAEGAAAQAAAAIAAAADQAAABEAAAAaAAAAHgAAAAIAAAABAMAAKZhBgAAAAAAAAAAAAEKAAAYAAAAAQYAAMgAAADYAAAA2AAAANgAAADYAAAA2AAAAAgAAAAABAAAQb/XP/EAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAABoAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzU3OF81MDBHQi8AAAgAAAAEAwAAAAASO3cAAAAIAAAAAAQAAMHNJ+RAAAAAJAAAAAEBAAA0OUEzMzdBMC1DM0E1LTNGOUUtQTAwQi03Njk2NzcyQkIyRjIYAAAAAQIAAAEBAAAAAAAA7xMAAAEAAAAAAAAAAAAAABIAAAABAQAAL1ZvbHVtZXMvNTc4XzUwMEdCAAAIAAAAAQkAAGZpbGU6Ly8vCwAAAAEBAABMTC0yMDE3LTEwOQAIAAAABAMAAAAAIg/VAgAACAAAAAAEAABBvrJ8YAAAACQAAAABAQAANzBEQUE5NDQtRkY5MS0zMDEwLTkzOEYtNzM0NjQ2QjZGN0UzGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAABgAAAA/v///wDwAAAAAAAABwAAAAIgAABsAgAAAAAAAAUgAADcAQAAAAAAABAgAADsAQAAAAAAABEgAAAgAgAAAAAAABIgAAAAAgAAAAAAABMgAAAQAgAAAAAAACAgAABMAgAAAAAAAAQAAAADAwAAAPAAAAQAAAADAwAAAAAAAAQAAAADAwAAAQAAABwAAAABBgAA4AIAAOwCAAD4AgAA7AIAAOwCAADsAgAA7AIAAKgAAAD+////AQAAAHgCAAANAAAABBAAAKgAAAAAAAAABRAAAOAAAAAAAAAAEBAAABABAAAAAAAAQBAAAAABAAAAAAAAACAAAAQDAAAAAAAAAiAAAMABAAAAAAAABSAAADABAAAAAAAAECAAACAAAAAAAAAAESAAAHQBAAAAAAAAEiAAAFQBAAAAAAAAEyAAAGQBAAAAAAAAICAAAKABAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r3",
+                            "name": "20171205_005_MCB81_Memory_C300b_001",
+                            "uid": "5ED2B66B8150CC42858323483FA5E552",
+                            "src": "file:///Volumes/578_500GB/_footage/20171205_005_MCB81_Memory/C300b/20171205_005_MCB81_Memory_C300b_001.mov",
+                            "start": "1296772477/24000s",
+                            "duration": "84047964/24000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9vawgEAAAAAAQQMAAAAJjRukNsiM99hqbu8D0fGNw7fHmlL9U3m9Vovz4L512DKAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAJAAAAAQEAADU3OF81MDBHQgAAAAgAAAABAQAAX2Zvb3RhZ2UZAAAAAQEAADIwMTcxMjA1XzAwNV9NQ0I4MV9NZW1vcnkAAAAFAAAAAQEAAEMzMDBiAAAAJwAAAAEBAAAyMDE3MTIwNV8wMDVfTUNCODFfTWVtb3J5X0MzMDBiXzAwMS5tb3YAGAAAAAEGAAAQAAAAIAAAADQAAABEAAAAaAAAAHgAAAAIAAAABAMAAKZhBgAAAAAAAAAAAAEKAAAYAAAAAQYAAMgAAADYAAAA2AAAANgAAADYAAAA2AAAAAgAAAAABAAAQb/XQAIAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAABoAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzU3OF81MDBHQi8AAAgAAAAEAwAAAAASO3cAAAAIAAAAAAQAAMHNJ+RAAAAAJAAAAAEBAAA0OUEzMzdBMC1DM0E1LTNGOUUtQTAwQi03Njk2NzcyQkIyRjIYAAAAAQIAAAEBAAAAAAAA7xMAAAEAAAAAAAAAAAAAABIAAAABAQAAL1ZvbHVtZXMvNTc4XzUwMEdCAAAIAAAAAQkAAGZpbGU6Ly8vCwAAAAEBAABMTC0yMDE3LTEwOQAIAAAABAMAAAAAIg/VAgAACAAAAAAEAABBvrJ8YAAAACQAAAABAQAANzBEQUE5NDQtRkY5MS0zMDEwLTkzOEYtNzM0NjQ2QjZGN0UzGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAABgAAAA/v///wDwAAAAAAAABwAAAAIgAABsAgAAAAAAAAUgAADcAQAAAAAAABAgAADsAQAAAAAAABEgAAAgAgAAAAAAABIgAAAAAgAAAAAAABMgAAAQAgAAAAAAACAgAABMAgAAAAAAAAQAAAADAwAAAPAAAAQAAAADAwAAAAAAAAQAAAADAwAAAQAAABwAAAABBgAA4AIAAOwCAAD4AgAA7AIAAOwCAADsAgAA7AIAAKgAAAD+////AQAAAHgCAAANAAAABBAAAKgAAAAAAAAABRAAAOAAAAAAAAAAEBAAABABAAAAAAAAQBAAAAABAAAAAAAAACAAAAQDAAAAAAAAAiAAAMABAAAAAAAABSAAADABAAAAAAAAECAAACAAAAAAAAAAESAAAHQBAAAAAAAAEiAAAFQBAAAAAAAAEyAAAGQBAAAAAAAAICAAAKABAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r4",
+                            "name": "20171205_005_MCB81_Memory_GH4_001",
+                            "uid": "6B1C56B369C2523DC66254E3D9705E96",
+                            "src": "file:///Volumes/578_500GB/_footage/20171205_005_MCB81_Memory/GH4/20171205_005_MCB81_Memory_GH4_001.MOV",
+                            "start": "1296899604/24000s",
+                            "duration": "85647562/24000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9vawQEAAAAAAQQMAAAAMJKumX2exkGDOOGoFaAlfwpTn0lPkJaHWnijUV+qnFwJAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAJAAAAAQEAADU3OF81MDBHQgAAAAgAAAABAQAAX2Zvb3RhZ2UZAAAAAQEAADIwMTcxMjA1XzAwNV9NQ0I4MV9NZW1vcnkAAAADAAAAAQEAAEdINAAlAAAAAQEAADIwMTcxMjA1XzAwNV9NQ0I4MV9NZW1vcnlfR0g0XzAwMS5NT1YAAAAYAAAAAQYAABAAAAAgAAAANAAAAEQAAABoAAAAdAAAAAgAAAAEAwAApmEGAAAAAAAAAAAAAQoAABgAAAABBgAAxAAAANQAAADUAAAA1AAAANQAAADUAAAACAAAAAAEAABBv9dCmAAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAGgAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvNTc4XzUwMEdCLwAACAAAAAQDAAAAABI7dwAAAAgAAAAABAAAwc0n5EAAAAAkAAAAAQEAADQ5QTMzN0EwLUMzQTUtM0Y5RS1BMDBCLTc2OTY3NzJCQjJGMhgAAAABAgAAAQEAAAAAAADvEwAAAQAAAAAAAAAAAAAAEgAAAAEBAAAvVm9sdW1lcy81NzhfNTAwR0IAAAgAAAABCQAAZmlsZTovLy8LAAAAAQEAAExMLTIwMTctMTA5AAgAAAAEAwAAAAAiD9UCAAAIAAAAAAQAAEG+snxgAAAAJAAAAAEBAAA3MERBQTk0NC1GRjkxLTMwMTAtOTM4Ri03MzQ2NDZCNkY3RTMYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAGgCAAAAAAAABSAAANgBAAAAAAAAECAAAOgBAAAAAAAAESAAABwCAAAAAAAAEiAAAPwBAAAAAAAAEyAAAAwCAAAAAAAAICAAAEgCAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAHAAAAAEGAADcAgAA6AIAAPQCAADoAgAA6AIAAOgCAADoAgAAqAAAAP7///8BAAAAdAIAAA0AAAAEEAAApAAAAAAAAAAFEAAA3AAAAAAAAAAQEAAADAEAAAAAAABAEAAA/AAAAAAAAAAAIAAAAAMAAAAAAAACIAAAvAEAAAAAAAAFIAAALAEAAAAAAAAQIAAAIAAAAAAAAAARIAAAcAEAAAAAAAASIAAAUAEAAAAAAAATIAAAYAEAAAAAAAAgIAAAnAEAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    }
+                ],
+                "media": [
+                    {
+                        "_attr": {
+                            "id": "r5",
+                            "name": "20171205_005_MCB81_Memory_MC",
+                            "uid": "HFa18bAnTp6o8eoX+2Iv9Q"
+                        },
+                        "multicam": [
+                            {
+                                "_attr": {
+                                    "format": "r1",
+                                    "tcStart": "1296424129/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "mc-angle": [
+                                    {
+                                        "_attr": {
+                                            "name": "C300a",
+                                            "angleID": "0000C300a"
+                                        },
+                                        "clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171205_005_MCB81_Memory_C300a_001.mov",
+                                                    "offset": "0s",
+                                                    "duration": "84161077/24000s",
+                                                    "start": "1296424129/24000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171205_005_MCB81_Memory_C300a_001 - v1",
+                                                            "offset": "1296424129/24000s",
+                                                            "ref": "r2",
+                                                            "duration": "84161077/24000s",
+                                                            "start": "1296424129/24000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "_attr": {
+                                                                    "name": "20171205_005_MCB81_Memory_C300a_001 - a1",
+                                                                    "lane": "-1",
+                                                                    "offset": "38892723870/720000s",
+                                                                    "ref": "r2",
+                                                                    "duration": "2524832310/720000s",
+                                                                    "start": "38892723870/720000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "audio-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "C300b",
+                                            "angleID": "0000C300b"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "348348/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171205_005_MCB81_Memory_C300b_001.mov",
+                                                    "offset": "348348/24000s",
+                                                    "duration": "84047964/24000s",
+                                                    "start": "1296772477/24000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171205_005_MCB81_Memory_C300b_001 - v1",
+                                                            "offset": "1296772477/24000s",
+                                                            "ref": "r3",
+                                                            "duration": "84047964/24000s",
+                                                            "start": "1296772477/24000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "_attr": {
+                                                                    "name": "20171205_005_MCB81_Memory_C300b_001 - a1",
+                                                                    "lane": "-1",
+                                                                    "offset": "38903174310/720000s",
+                                                                    "ref": "r3",
+                                                                    "duration": "2521438920/720000s",
+                                                                    "start": "38903174310/720000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "audio-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "GH4",
+                                            "angleID": "0000GH4"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "475475/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171205_005_MCB81_Memory_GH4_001.MOV",
+                                                    "offset": "475475/24000s",
+                                                    "duration": "85647562/24000s",
+                                                    "start": "1296899604/24000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171205_005_MCB81_Memory_GH4_001 - v1",
+                                                            "offset": "1296899604/24000s",
+                                                            "ref": "r4",
+                                                            "duration": "85647562/24000s",
+                                                            "start": "1296899604/24000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "_attr": {
+                                                                    "name": "20171205_005_MCB81_Memory_GH4_001 - a1",
+                                                                    "lane": "-1",
+                                                                    "offset": "38906988120/720000s",
+                                                                    "ref": "r4",
+                                                                    "duration": "2569426860/720000s",
+                                                                    "start": "38906988120/720000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "audio-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r6",
+                            "name": "20171205_005_MCB81_Memory_MC_CC",
+                            "uid": "SpnSNnT/Rzyi2ZYefMR4wA"
+                        },
+                        "sequence": [
+                            {
+                                "_attr": {
+                                    "duration": "86123037/24000s",
+                                    "format": "r1",
+                                    "tcStart": "1296424129/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "spine": [
+                                    {
+                                        "mc-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171205_005_MCB81_Memory_MC",
+                                                    "offset": "1296424129/24000s",
+                                                    "ref": "r5",
+                                                    "duration": "86123037/24000s",
+                                                    "start": "1296424129/24000s"
+                                                },
+                                                "mc-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "angleID": "0000C300a",
+                                                            "srcEnable": "all"
+                                                        },
+                                                        "filter-video": [
+                                                            {
+                                                                "_attr": {
+                                                                    "ref": "r7",
+                                                                    "name": "2.5_A"
+                                                                },
+                                                                "param": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/10619/1/100/101",
+                                                                            "value": "-19.3779 -232"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/10619/2/354/1455908/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Line Spacing",
+                                                                            "key": "9999/32385/10619/2/354/1455908/404",
+                                                                            "value": "-2"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/10619/2/369",
+                                                                            "value": "20171205_005_MCB81_Memory"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20673/1/100/101",
+                                                                            "value": "-16.824 -180"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20673/2/354/1455906/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20673/2/369",
+                                                                            "value": "MCB81: Memory"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20837/1/100/101",
+                                                                            "value": "-443.584 -395"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20837/2/354/1455910/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20837/2/369",
+                                                                            "value": "20171205:"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "mc-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171205_005_MCB81_Memory_MC",
+                                                            "lane": "-2",
+                                                            "offset": "1296424129/24000s",
+                                                            "ref": "r5",
+                                                            "duration": "86123037/24000s",
+                                                            "start": "1296424129/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300b",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r8",
+                                                                            "name": "2.5_C"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171205_005_MCB81_Memory_MC",
+                                                            "lane": "-1",
+                                                            "offset": "1296424129/24000s",
+                                                            "ref": "r5",
+                                                            "duration": "86123037/24000s",
+                                                            "start": "1296424129/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000GH4",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r9",
+                                                                            "name": "2.5_B"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "effect": [
+                    {
+                        "_attr": {
+                            "id": "r7",
+                            "name": "2.5_A",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r8",
+                            "name": "2.5_C",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_C/2.5_C.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r9",
+                            "name": "2.5_B",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef"
+                        }
+                    }
+                ]
+            }
+        ],
+        "library": [
+            {
+                "_attr": {
+                    "location": "file:///Users/ll/Movies/mc_cc_ex.fcpbundle/"
+                },
+                "event": [
+                    {
+                        "_attr": {
+                            "name": "20171205_005_MCB81_Memory",
+                            "uid": "E9536BAC-E286-4518-99F4-0E48940F30C6"
+                        },
+                        "clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171205_005_MCB81_Memory_C300a_001",
+                                    "duration": "84161077/24000s",
+                                    "start": "1296424129/24000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF"
+                                },
+                                "video": [
+                                    {
+                                        "_attr": {
+                                            "offset": "1296424129/24000s",
+                                            "ref": "r2",
+                                            "duration": "84161077/24000s",
+                                            "start": "1296424129/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "38892723870/720000s",
+                                                    "ref": "r2",
+                                                    "duration": "2524832310/720000s",
+                                                    "start": "38892723870/720000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "1296424129/24000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.29642e+09s",
+                                            "duration": "84161077/24000s",
+                                            "value": "20171205_005_MCB81_Memory, C300a"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171205_005_MCB81_Memory_C300b_001",
+                                    "duration": "84047964/24000s",
+                                    "start": "1296772477/24000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF"
+                                },
+                                "video": [
+                                    {
+                                        "_attr": {
+                                            "offset": "1296772477/24000s",
+                                            "ref": "r3",
+                                            "duration": "84047964/24000s",
+                                            "start": "1296772477/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "38903174310/720000s",
+                                                    "ref": "r3",
+                                                    "duration": "2521438920/720000s",
+                                                    "start": "38903174310/720000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "1296772477/24000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.29677e+09s",
+                                            "duration": "84047964/24000s",
+                                            "value": "20171205_005_MCB81_Memory, C300b"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171205_005_MCB81_Memory_GH4_001",
+                                    "duration": "85647562/24000s",
+                                    "start": "1296899604/24000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF"
+                                },
+                                "video": [
+                                    {
+                                        "_attr": {
+                                            "offset": "1296899604/24000s",
+                                            "ref": "r4",
+                                            "duration": "85647562/24000s",
+                                            "start": "1296899604/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "38906988120/720000s",
+                                                    "ref": "r4",
+                                                    "duration": "2569426860/720000s",
+                                                    "start": "38906988120/720000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "108074967/2000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.2969e+09s",
+                                            "duration": "85647562/24000s",
+                                            "value": "20171205_005_MCB81_Memory, GH4"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "mc-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171205_005_MCB81_Memory_MC",
+                                    "ref": "r5",
+                                    "duration": "86123037/24000s",
+                                    "start": "1296424129/24000s"
+                                },
+                                "mc-source": [
+                                    {
+                                        "_attr": {
+                                            "angleID": "0000C300a",
+                                            "srcEnable": "all"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "ref-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171205_005_MCB81_Memory_MC_CC",
+                                    "ref": "r6",
+                                    "duration": "86123037/24000s",
+                                    "start": "1296424129/24000s"
+                                }
+                            }
+                        ],
+                        "project": [
+                            {
+                                "_attr": {
+                                    "name": "20171205_005_MCB81_Memory_MC_CC_Ex",
+                                    "uid": "984A28EC-AE17-466B-9B02-40123587D789"
+                                },
+                                "sequence": [
+                                    {
+                                        "_attr": {
+                                            "duration": "83028946/24000s",
+                                            "format": "r1",
+                                            "tcStart": "0s",
+                                            "tcFormat": "NDF",
+                                            "audioLayout": "stereo",
+                                            "audioRate": "48k"
+                                        },
+                                        "spine": [
+                                            {
+                                                "ref-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171205_005_MCB81_Memory_MC_CC",
+                                                            "offset": "0s",
+                                                            "ref": "r6",
+                                                            "duration": "83028946/24000s",
+                                                            "start": "1297692396/24000s"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "keyword-collection": [
+                            {
+                                "_attr": {
+                                    "name": "20171205_005_MCB81_Memory"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300a"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "first 24 frames"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300b"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "GH4"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

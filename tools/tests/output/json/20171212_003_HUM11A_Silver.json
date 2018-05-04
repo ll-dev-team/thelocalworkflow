@@ -1,0 +1,809 @@
+{
+    "fcpxml": {
+        "_attr": {
+            "version": "1.6"
+        },
+        "resources": [
+            {
+                "asset": [
+                    {
+                        "_attr": {
+                            "id": "r1",
+                            "name": "20171212_003_HUM11A_Silver_C300a_001",
+                            "uid": "6F98837C43D51003DE142D6C568BC19B",
+                            "src": "file:///Volumes/515_Tuesday/Footage/20171212/20171212_003_HUM11A_Silver/C300a/20171212_003_HUM11A_Silver_C300a_001.mov",
+                            "start": "970299330/24000s",
+                            "duration": "30810780/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7gEAAAAAAQQMAAAAPXTwNKHQFu7T2PZKz6qc2eZKUNb6uHf79EiTXTokVRLtAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwALAAAAAQEAADUxNV9UdWVzZGF5AAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjEyGgAAAAEBAAAyMDE3MTIxMl8wMDNfSFVNMTFBX1NpbHZlcgAABQAAAAEBAABDMzAwYQAAACgAAAABAQAAMjAxNzEyMTJfMDAzX0hVTTExQV9TaWx2ZXJfQzMwMGFfMDAxLm1vdhwAAAABBgAAEAAAACAAAAA0AAAARAAAAFQAAAB4AAAAiAAAAAgAAAAEAwAApmcGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAAC5fgYAAAAAAAgAAAAEAwAAsr0GAAAAAAAIAAAABAMAACG+BgAAAAAACAAAAAQDAAApvgYAAAAAAAgAAAAEAwAAAr4GAAAAAAAcAAAAAQYAANwAAADsAAAA/AAAAAwBAAAcAQAALAEAADwBAAAIAAAAAAQAAEG/4EXrAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAABwAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzUxNV9UdWVzZGF5LwgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG8EzDVAAAAJAAAAAEBAABERTJCRkYxOC1BNDY3LTM4NDYtOUYyOC01OUQ3QTZEM0U5ODYYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABQAAAABAQAAL1ZvbHVtZXMvNTE1X1R1ZXNkYXkIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA9AIAAAAAAAAFIAAAYAIAAAAAAAAQIAAAcAIAAAAAAAARIAAAqAIAAAAAAAASIAAAiAIAAAAAAAATIAAAmAIAAAAAAAAgIAAA1AIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAgAAAAAQYAAGgDAAB0AwAAgAMAAHQDAAB0AwAAdAMAAHQDAAB0AwAAzAAAAP7///8BAAAAAAMAABAAAAAEEAAAuAAAAAAAAAAFEAAATAEAAAAAAAAQEAAAgAEAAAAAAABAEAAAcAEAAAAAAABUEAAAqAEAAAAAAABVEAAAqAEAAAAAAABWEAAAoAEAAAAAAAAAIAAAjAMAAAAAAAACIAAARAIAAAAAAAAFIAAAtAEAAAAAAAAQIAAAIAAAAAAAAAARIAAA+AEAAAAAAAASIAAA2AEAAAAAAAATIAAA6AEAAAAAAAAgIAAAJAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r3",
+                            "name": "20171212_003_HUM11A_Silver_C300b_001",
+                            "uid": "0D331BF900218179E7D6DAB6B47A9198",
+                            "src": "file:///Volumes/515_Tuesday/Footage/20171212/20171212_003_HUM11A_Silver/C300b/20171212_003_HUM11A_Silver_C300b_001.mov",
+                            "start": "970334365/24000s",
+                            "duration": "30798768/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7gEAAAAAAQQMAAAAGHBLJB1WIdJgepeWEQgaaABZSfHlSRxNK3MHiCKmic6tAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwALAAAAAQEAADUxNV9UdWVzZGF5AAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjEyGgAAAAEBAAAyMDE3MTIxMl8wMDNfSFVNMTFBX1NpbHZlcgAABQAAAAEBAABDMzAwYgAAACgAAAABAQAAMjAxNzEyMTJfMDAzX0hVTTExQV9TaWx2ZXJfQzMwMGJfMDAxLm1vdhwAAAABBgAAEAAAACAAAAA0AAAARAAAAFQAAAB4AAAAiAAAAAgAAAAEAwAApmcGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAAC5fgYAAAAAAAgAAAAEAwAAsr0GAAAAAAAIAAAABAMAACG+BgAAAAAACAAAAAQDAAArvgYAAAAAAAgAAAAEAwAAtb0GAAAAAAAcAAAAAQYAANwAAADsAAAA/AAAAAwBAAAcAQAALAEAADwBAAAIAAAAAAQAAEG/4EIjAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAABwAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzUxNV9UdWVzZGF5LwgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG8EzDVAAAAJAAAAAEBAABERTJCRkYxOC1BNDY3LTM4NDYtOUYyOC01OUQ3QTZEM0U5ODYYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABQAAAABAQAAL1ZvbHVtZXMvNTE1X1R1ZXNkYXkIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA9AIAAAAAAAAFIAAAYAIAAAAAAAAQIAAAcAIAAAAAAAARIAAAqAIAAAAAAAASIAAAiAIAAAAAAAATIAAAmAIAAAAAAAAgIAAA1AIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAgAAAAAQYAAGgDAAB0AwAAgAMAAHQDAAB0AwAAdAMAAHQDAAB0AwAAzAAAAP7///8BAAAAAAMAABAAAAAEEAAAuAAAAAAAAAAFEAAATAEAAAAAAAAQEAAAgAEAAAAAAABAEAAAcAEAAAAAAABUEAAAqAEAAAAAAABVEAAAqAEAAAAAAABWEAAAoAEAAAAAAAAAIAAAjAMAAAAAAAACIAAARAIAAAAAAAAFIAAAtAEAAAAAAAAQIAAAIAAAAAAAAAARIAAA+AEAAAAAAAASIAAA2AEAAAAAAAATIAAA6AEAAAAAAAAgIAAAJAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r4",
+                            "name": "20171212_003_HUM11A_Silver_C300c_001",
+                            "uid": "978E3A9904E56CA3DC9B98E79A4FFC85",
+                            "src": "file:///Volumes/515_Tuesday/Footage/20171212/20171212_003_HUM11A_Silver/C300c/20171212_003_HUM11A_Silver_C300c_001.mov",
+                            "start": "970275306/24000s",
+                            "duration": "30762732/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7gEAAAAAAQQMAAAALoZ0HqlLZYk/81rB6GVW+pznF2NYpYMmZLBNFfO8mRytAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwALAAAAAQEAADUxNV9UdWVzZGF5AAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjEyGgAAAAEBAAAyMDE3MTIxMl8wMDNfSFVNMTFBX1NpbHZlcgAABQAAAAEBAABDMzAwYwAAACgAAAABAQAAMjAxNzEyMTJfMDAzX0hVTTExQV9TaWx2ZXJfQzMwMGNfMDAxLm1vdhwAAAABBgAAEAAAACAAAAA0AAAARAAAAFQAAAB4AAAAiAAAAAgAAAAEAwAApmcGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAAC5fgYAAAAAAAgAAAAEAwAAsr0GAAAAAAAIAAAABAMAACG+BgAAAAAACAAAAAQDAAAsvgYAAAAAAAgAAAAEAwAAxL0GAAAAAAAcAAAAAQYAANwAAADsAAAA/AAAAAwBAAAcAQAALAEAADwBAAAIAAAAAAQAAEG/4EMNAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAABwAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzUxNV9UdWVzZGF5LwgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG8EzDVAAAAJAAAAAEBAABERTJCRkYxOC1BNDY3LTM4NDYtOUYyOC01OUQ3QTZEM0U5ODYYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABQAAAABAQAAL1ZvbHVtZXMvNTE1X1R1ZXNkYXkIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA9AIAAAAAAAAFIAAAYAIAAAAAAAAQIAAAcAIAAAAAAAARIAAAqAIAAAAAAAASIAAAiAIAAAAAAAATIAAAmAIAAAAAAAAgIAAA1AIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAgAAAAAQYAAGgDAAB0AwAAgAMAAHQDAAB0AwAAdAMAAHQDAAB0AwAAzAAAAP7///8BAAAAAAMAABAAAAAEEAAAuAAAAAAAAAAFEAAATAEAAAAAAAAQEAAAgAEAAAAAAABAEAAAcAEAAAAAAABUEAAAqAEAAAAAAABVEAAAqAEAAAAAAABWEAAAoAEAAAAAAAAAIAAAjAMAAAAAAAACIAAARAIAAAAAAAAFIAAAtAEAAAAAAAAQIAAAIAAAAAAAAAARIAAA+AEAAAAAAAASIAAA2AEAAAAAAAATIAAA6AEAAAAAAAAgIAAAJAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r5",
+                            "name": "20171212_003_HUM11A_Silver_GH4_001",
+                            "uid": "8DF67FF520F9F85802021E2BC074068C",
+                            "src": "file:///Volumes/515_Tuesday/Footage/20171212/20171212_003_HUM11A_Silver/GH4/20171212_003_HUM11A_Silver_GH4_001.MOV",
+                            "start": "970386417/24000s",
+                            "duration": "30806776/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7QEAAAAAAQQMAAAAPt4LqUlVXROWdEnFFnkETpoD7QsnHuwRK+dXus+UPZUsAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwALAAAAAQEAADUxNV9UdWVzZGF5AAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjEyGgAAAAEBAAAyMDE3MTIxMl8wMDNfSFVNMTFBX1NpbHZlcgAAAwAAAAEBAABHSDQAJgAAAAEBAAAyMDE3MTIxMl8wMDNfSFVNMTFBX1NpbHZlcl9HSDRfMDAxLk1PVgAAHAAAAAEGAAAQAAAAIAAAADQAAABEAAAAVAAAAHgAAACEAAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAALl+BgAAAAAACAAAAAQDAACyvQYAAAAAAAgAAAAEAwAAIb4GAAAAAAAIAAAABAMAAC2+BgAAAAAACAAAAAQDAACxvQYAAAAAABwAAAABBgAA2AAAAOgAAAD4AAAACAEAABgBAAAoAQAAOAEAAAgAAAAABAAAQb/gSkwAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAGAAAAHAAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvNTE1X1R1ZXNkYXkvCAAAAAQDAAAAwCRj7gAAAAgAAAAABAAAQbwTMNUAAAAkAAAAAQEAAERFMkJGRjE4LUE0NjctMzg0Ni05RjI4LTU5RDdBNkQzRTk4NhgAAAABAgAAAQEAAAEAAADvEwAAAQAAAAAAAAAAAAAAFAAAAAEBAAAvVm9sdW1lcy81MTVfVHVlc2RheQgAAAABCQAAZmlsZTovLy8NAAAAAQEAAExMX1Byb2R1Y3Rpb24AAAAIAAAABAMAAABwokd0AAAACAAAAAAEAABBvz48jQAAACQAAAABAQAARjhDRTE5QTUtNUY5MC0zQzk3LThGMDMtRTdFMEMwRUQzOEQyGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAABgAAAA/v///wDwAAAAAAAABwAAAAIgAADwAgAAAAAAAAUgAABcAgAAAAAAABAgAABsAgAAAAAAABEgAACkAgAAAAAAABIgAACEAgAAAAAAABMgAACUAgAAAAAAACAgAADQAgAAAAAAAAQAAAADAwAAAPAAAAQAAAADAwAAAAAAAAQAAAADAwAAAQAAACAAAAABBgAAZAMAAHADAAB8AwAAcAMAAHADAABwAwAAcAMAAHADAADMAAAA/v///wEAAAD8AgAAEAAAAAQQAAC0AAAAAAAAAAUQAABIAQAAAAAAABAQAAB8AQAAAAAAAEAQAABsAQAAAAAAAFQQAACkAQAAAAAAAFUQAACkAQAAAAAAAFYQAACcAQAAAAAAAAAgAACIAwAAAAAAAAIgAABAAgAAAAAAAAUgAACwAQAAAAAAABAgAAAgAAAAAAAAABEgAAD0AQAAAAAAABIgAADUAQAAAAAAABMgAADkAQAAAAAAACAgAAAgAgAAAAAAABDQAAAEAAAAAAAAAA=="
+                        ]
+                    }
+                ],
+                "format": [
+                    {
+                        "_attr": {
+                            "id": "r2",
+                            "name": "FFVideoFormat1080p2398",
+                            "frameDuration": "1001/24000s",
+                            "width": "1920",
+                            "height": "1080"
+                        }
+                    }
+                ],
+                "media": [
+                    {
+                        "_attr": {
+                            "id": "r6",
+                            "name": "20171212_003_HUM11A_Silver_MC",
+                            "uid": "tKQSpJhFRKWwMmY2U+lIfg",
+                            "modDate": "2017-12-12 12:30:47 -0500"
+                        },
+                        "multicam": [
+                            {
+                                "_attr": {
+                                    "format": "r2",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "970275306/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "mc-angle": [
+                                    {
+                                        "_attr": {
+                                            "name": "C300a",
+                                            "angleID": "0000C300a"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "24024/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171212_003_HUM11A_Silver_C300a_001.mov",
+                                                    "offset": "24024/24000s",
+                                                    "ref": "r1",
+                                                    "duration": "30810780/24000s",
+                                                    "start": "970299330/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "C300b",
+                                            "angleID": "0000C300b"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "59059/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171212_003_HUM11A_Silver_C300b_001.mov",
+                                                    "offset": "59059/24000s",
+                                                    "ref": "r3",
+                                                    "duration": "30798768/24000s",
+                                                    "start": "970334365/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "C300c",
+                                            "angleID": "0000C300c"
+                                        },
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171212_003_HUM11A_Silver_C300c_001.mov",
+                                                    "offset": "0s",
+                                                    "ref": "r4",
+                                                    "duration": "30762732/24000s",
+                                                    "start": "970275306/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "GH4",
+                                            "angleID": "0000GH4"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "111111/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171212_003_HUM11A_Silver_GH4_001.MOV",
+                                                    "offset": "111111/24000s",
+                                                    "ref": "r5",
+                                                    "duration": "30806776/24000s",
+                                                    "start": "970386417/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r7",
+                            "name": "20171212_003_HUM11A_Silver_MC_CC",
+                            "uid": "fbLRN9saT9yA52r9tkVJUg",
+                            "modDate": "2017-12-12 12:31:32 -0500"
+                        },
+                        "sequence": [
+                            {
+                                "_attr": {
+                                    "duration": "30917887/24000s",
+                                    "format": "r2",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "970275306/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "spine": [
+                                    {
+                                        "mc-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171212_003_HUM11A_Silver_MC",
+                                                    "offset": "970275306/24000s",
+                                                    "ref": "r6",
+                                                    "duration": "30917887/24000s",
+                                                    "start": "970275306/24000s"
+                                                },
+                                                "mc-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "angleID": "0000C300a",
+                                                            "srcEnable": "all"
+                                                        },
+                                                        "filter-video": [
+                                                            {
+                                                                "_attr": {
+                                                                    "ref": "r8",
+                                                                    "name": "2.5_A"
+                                                                },
+                                                                "param": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/10619/1/100/101",
+                                                                            "value": "-19.3779 -232"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/10619/2/354/37955/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Line Spacing",
+                                                                            "key": "9999/32385/10619/2/354/37955/404",
+                                                                            "value": "-2"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/10619/2/369",
+                                                                            "value": "20171212_003_HUM11A_Silver"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20673/1/100/101",
+                                                                            "value": "-16.824 -180"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20673/2/354/37953/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20673/2/369",
+                                                                            "value": "HUM11A: Silver"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20837/1/100/101",
+                                                                            "value": "-443.584 -395"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20837/2/354/37957/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20837/2/369",
+                                                                            "value": "20171212:"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "mc-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171212_003_HUM11A_Silver_MC",
+                                                            "lane": "-3",
+                                                            "offset": "970275306/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "30917887/24000s",
+                                                            "start": "970275306/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300b",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r9",
+                                                                            "name": "C300b_New"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171212_003_HUM11A_Silver_MC",
+                                                            "lane": "-2",
+                                                            "offset": "970275306/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "30917887/24000s",
+                                                            "start": "970275306/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300c",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r10",
+                                                                            "name": "C300c_New"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171212_003_HUM11A_Silver_MC",
+                                                            "lane": "-1",
+                                                            "offset": "970275306/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "30917887/24000s",
+                                                            "start": "970275306/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300c",
+                                                                    "srcEnable": "none"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r11",
+                                                                            "name": "2.5_B"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000GH4",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r12",
+                                                                            "name": "GH4a_New"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "effect": [
+                    {
+                        "_attr": {
+                            "id": "r8",
+                            "name": "2.5_A",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r9",
+                            "name": "C300b_New",
+                            "uid": "~/Effects.localized/layouts-2018-NEW/layouts-2018/C300b_New/C300b_New.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/layouts-2018-NEW/layouts-2018/C300b_New/C300b_New.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r10",
+                            "name": "C300c_New",
+                            "uid": "~/Effects.localized/layouts-2018-NEW/layouts-2018/C300c_New/C300c_New.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/layouts-2018-NEW/layouts-2018/C300c_New/C300c_New.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r11",
+                            "name": "2.5_B",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r12",
+                            "name": "GH4a_New",
+                            "uid": "~/Effects.localized/layouts-2018-NEW/layouts-2018/GH4a_New/GH4a_New.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/layouts-2018-NEW/layouts-2018/GH4a_New/GH4a_New.moef"
+                        }
+                    }
+                ]
+            }
+        ],
+        "library": [
+            {
+                "_attr": {
+                    "location": "file:///Volumes/515_Tuesday/FCP_Libs/20171212_MC_CC_Ex.fcpbundle/"
+                },
+                "event": [
+                    {
+                        "_attr": {
+                            "name": "20171212_003_HUM11A_Silver",
+                            "uid": "DB4FCEFE-38A4-4739-A1BC-0351A12E7BF9"
+                        },
+                        "asset-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171212_003_HUM11A_Silver_C300a_001",
+                                    "ref": "r1",
+                                    "duration": "30810780/24000s",
+                                    "start": "970299330/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-12 12:24:59 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "32343311/800s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "9.70299e+08s",
+                                            "duration": "30810780/24000s",
+                                            "value": "20171212_003_HUM11A_Silver, C300a"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171212_003_HUM11A_Silver_C300b_001",
+                                    "ref": "r3",
+                                    "duration": "30798768/24000s",
+                                    "start": "970334365/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-12 12:24:59 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "194066873/4800s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "9.70334e+08s",
+                                            "duration": "30798768/24000s",
+                                            "value": "20171212_003_HUM11A_Silver, C300b"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171212_003_HUM11A_Silver_C300c_001",
+                                    "ref": "r4",
+                                    "duration": "30762732/24000s",
+                                    "start": "970275306/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-12 12:24:59 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "161712551/4000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "9.70275e+08s",
+                                            "duration": "30762732/24000s",
+                                            "value": "20171212_003_HUM11A_Silver, C300c"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171212_003_HUM11A_Silver_GH4_001",
+                                    "ref": "r5",
+                                    "duration": "30806776/24000s",
+                                    "start": "970386417/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-12 12:24:59 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "323462139/8000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "9.70386e+08s",
+                                            "duration": "30806776/24000s",
+                                            "value": "20171212_003_HUM11A_Silver, GH4"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "mc-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171212_003_HUM11A_Silver_MC",
+                                    "ref": "r6",
+                                    "duration": "30917887/24000s",
+                                    "start": "970275306/24000s",
+                                    "modDate": "2017-12-12 12:24:59 -0500"
+                                },
+                                "mc-source": [
+                                    {
+                                        "_attr": {
+                                            "angleID": "0000C300a",
+                                            "srcEnable": "all"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "ref-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171212_003_HUM11A_Silver_MC_CC",
+                                    "ref": "r7",
+                                    "duration": "30917887/24000s",
+                                    "start": "970275306/24000s",
+                                    "modDate": "2017-12-12 12:31:32 -0500"
+                                }
+                            }
+                        ],
+                        "project": [
+                            {
+                                "_attr": {
+                                    "name": "20171212_003_HUM11A_Silver_MC_CC_Ex",
+                                    "uid": "80F4BD56-6BD2-4AE6-9BCE-A84AA087EA3A",
+                                    "modDate": "2017-12-12 12:31:32 -0500"
+                                },
+                                "sequence": [
+                                    {
+                                        "_attr": {
+                                            "duration": "30917887/24000s",
+                                            "format": "r2",
+                                            "renderColorSpace": "Rec. 709",
+                                            "tcStart": "0s",
+                                            "tcFormat": "NDF",
+                                            "audioLayout": "stereo",
+                                            "audioRate": "48k"
+                                        },
+                                        "spine": [
+                                            {
+                                                "ref-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171212_003_HUM11A_Silver_MC_CC",
+                                                            "offset": "0s",
+                                                            "ref": "r7",
+                                                            "duration": "30917887/24000s",
+                                                            "start": "970275306/24000s"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "keyword-collection": [
+                            {
+                                "_attr": {
+                                    "name": "20171212_003_HUM11A_Silver"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300a"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "first 24 frames"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300b"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300c"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "GH4"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

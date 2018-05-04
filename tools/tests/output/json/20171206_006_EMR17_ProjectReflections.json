@@ -1,0 +1,817 @@
+{
+    "fcpxml": {
+        "_attr": {
+            "version": "1.6"
+        },
+        "resources": [
+            {
+                "asset": [
+                    {
+                        "_attr": {
+                            "id": "r1",
+                            "name": "20171206_006_EMR17_ProjectReflections_C300a_001",
+                            "uid": "FE771E76A48B7385F58BB11575C64790",
+                            "src": "file:///Volumes/RAID_5_007_15/2017_12/20171206_006_EMR17_ProjectReflections/C300a/20171206_006_EMR17_ProjectReflections_C300a_001.mov",
+                            "start": "1215264050/24000s",
+                            "duration": "32288256/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7wEAAAAAAQQMAAAAH6Y1qT9rJVYS+wHl1HI1ceAnaEf3/qdT7d0nReDntRyuAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwANAAAAAQEAAFJBSURfNV8wMDdfMTUAAAAHAAAAAQEAADIwMTdfMTIAJQAAAAEBAAAyMDE3MTIwNl8wMDZfRU1SMTdfUHJvamVjdFJlZmxlY3Rpb25zAAAABQAAAAEBAABDMzAwYQAAADMAAAABAQAAMjAxNzEyMDZfMDA2X0VNUjE3X1Byb2plY3RSZWZsZWN0aW9uc19DMzAwYV8wMDEubW92ABgAAAABBgAAEAAAACAAAAA4AAAASAAAAHgAAACIAAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAAGh/GgAAAAAACAAAAAQDAABjkBoAAAAAAAgAAAAEAwAAfZAaAAAAAAAIAAAABAMAAH6QGgAAAAAAGAAAAAEGAADkAAAA9AAAAAQBAAAUAQAAJAEAADQBAAAIAAAAAAQAAEG/2ISbAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAAAQAAAADAwAABQAAAB4AAAABCQAAZmlsZTovLy9Wb2x1bWVzL1JBSURfNV8wMDdfMTUvAAAIAAAABAMAAADA3eWkDQAACAAAAAAEAABBu1fSfQAAACQAAAABAQAAOTJCNzY2NDYtNEZEQS0zMkNBLTk0RUYtMDRBRjA2NTdGNjc4GAAAAAECAAABAAAAAQAAAO8TAAABAAAAAAAAAAAAAAAWAAAAAQEAAC9Wb2x1bWVzL1JBSURfNV8wMDdfMTUAAAgAAAABCQAAZmlsZTovLy8NAAAAAQEAAExMX1Byb2R1Y3Rpb24AAAAIAAAABAMAAABwokd0AAAACAAAAAAEAABBvz48jQAAACQAAAABAQAARjhDRTE5QTUtNUY5MC0zQzk3LThGMDMtRTdFMEMwRUQzOEQyGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAABgAAAA/v///wDwAAAAAAAABwAAAAIgAAD8AgAAAAAAAAUgAABoAgAAAAAAABAgAAB4AgAAAAAAABEgAACwAgAAAAAAABIgAACQAgAAAAAAABMgAACgAgAAAAAAACAgAADcAgAAAAAAAAQAAAADAwAAAPAAAAQAAAADAwAAAAAAAAQAAAADAwAAAQAAABwAAAABBgAAcAMAAHwDAACIAwAAfAMAAHwDAAB8AwAAfAMAAMwAAAD+////AQAAAAgDAAAQAAAABBAAAMQAAAAAAAAABRAAAEQBAAAAAAAAEBAAAHQBAAAAAAAAQBAAAGQBAAAAAAAAVBAAAJwBAAAAAAAAVRAAAKgBAAAAAAAAVhAAAJQBAAAAAAAAACAAAJQDAAAAAAAAAiAAAEgCAAAAAAAABSAAALQBAAAAAAAAECAAACAAAAAAAAAAESAAAPwBAAAAAAAAEiAAANwBAAAAAAAAEyAAAOwBAAAAAAAAICAAACgCAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r3",
+                            "name": "20171206_006_EMR17_ProjectReflections_C300b_001",
+                            "uid": "EE16896E575C415F6EEF46151B22BF03",
+                            "src": "file:///Volumes/RAID_5_007_15/2017_12/20171206_006_EMR17_ProjectReflections/C300b/20171206_006_EMR17_ProjectReflections_C300b_001.mov",
+                            "start": "1215333119/24000s",
+                            "duration": "32216184/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7wEAAAAAAQQMAAAAP4jqrIF93p5Gv1+lc05Uy2b0bZRrY7ndzbrlVsmFBlyuAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwANAAAAAQEAAFJBSURfNV8wMDdfMTUAAAAHAAAAAQEAADIwMTdfMTIAJQAAAAEBAAAyMDE3MTIwNl8wMDZfRU1SMTdfUHJvamVjdFJlZmxlY3Rpb25zAAAABQAAAAEBAABDMzAwYgAAADMAAAABAQAAMjAxNzEyMDZfMDA2X0VNUjE3X1Byb2plY3RSZWZsZWN0aW9uc19DMzAwYl8wMDEubW92ABgAAAABBgAAEAAAACAAAAA4AAAASAAAAHgAAACIAAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAAGh/GgAAAAAACAAAAAQDAABjkBoAAAAAAAgAAAAEAwAAf5AaAAAAAAAIAAAABAMAAICQGgAAAAAAGAAAAAEGAADkAAAA9AAAAAQBAAAUAQAAJAEAADQBAAAIAAAAAAQAAEG/2IShAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAAAQAAAADAwAABQAAAB4AAAABCQAAZmlsZTovLy9Wb2x1bWVzL1JBSURfNV8wMDdfMTUvAAAIAAAABAMAAADA3eWkDQAACAAAAAAEAABBu1fSfQAAACQAAAABAQAAOTJCNzY2NDYtNEZEQS0zMkNBLTk0RUYtMDRBRjA2NTdGNjc4GAAAAAECAAABAAAAAQAAAO8TAAABAAAAAAAAAAAAAAAWAAAAAQEAAC9Wb2x1bWVzL1JBSURfNV8wMDdfMTUAAAgAAAABCQAAZmlsZTovLy8NAAAAAQEAAExMX1Byb2R1Y3Rpb24AAAAIAAAABAMAAABwokd0AAAACAAAAAAEAABBvz48jQAAACQAAAABAQAARjhDRTE5QTUtNUY5MC0zQzk3LThGMDMtRTdFMEMwRUQzOEQyGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAABgAAAA/v///wDwAAAAAAAABwAAAAIgAAD8AgAAAAAAAAUgAABoAgAAAAAAABAgAAB4AgAAAAAAABEgAACwAgAAAAAAABIgAACQAgAAAAAAABMgAACgAgAAAAAAACAgAADcAgAAAAAAAAQAAAADAwAAAPAAAAQAAAADAwAAAAAAAAQAAAADAwAAAQAAABwAAAABBgAAcAMAAHwDAACIAwAAfAMAAHwDAAB8AwAAfAMAAMwAAAD+////AQAAAAgDAAAQAAAABBAAAMQAAAAAAAAABRAAAEQBAAAAAAAAEBAAAHQBAAAAAAAAQBAAAGQBAAAAAAAAVBAAAJwBAAAAAAAAVRAAAKgBAAAAAAAAVhAAAJQBAAAAAAAAACAAAJQDAAAAAAAAAiAAAEgCAAAAAAAABSAAALQBAAAAAAAAECAAACAAAAAAAAAAESAAAPwBAAAAAAAAEiAAANwBAAAAAAAAEyAAAOwBAAAAAAAAICAAACgCAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r4",
+                            "name": "20171206_006_EMR17_ProjectReflections_C300c_001",
+                            "uid": "A0386BCB07B568EE20E0821D0E938AAD",
+                            "src": "file:///Volumes/RAID_5_007_15/2017_12/20171206_006_EMR17_ProjectReflections/C300c/20171206_006_EMR17_ProjectReflections_C300c_001.mov",
+                            "start": "1215185972/24000s",
+                            "duration": "32384352/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7wEAAAAAAQQMAAAAJK11xr/94qV9pboO3/EsvpFR12I+5WCkQef4JitTs18uAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwANAAAAAQEAAFJBSURfNV8wMDdfMTUAAAAHAAAAAQEAADIwMTdfMTIAJQAAAAEBAAAyMDE3MTIwNl8wMDZfRU1SMTdfUHJvamVjdFJlZmxlY3Rpb25zAAAABQAAAAEBAABDMzAwYwAAADMAAAABAQAAMjAxNzEyMDZfMDA2X0VNUjE3X1Byb2plY3RSZWZsZWN0aW9uc19DMzAwY18wMDEubW92ABgAAAABBgAAEAAAACAAAAA4AAAASAAAAHgAAACIAAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAAGh/GgAAAAAACAAAAAQDAABjkBoAAAAAAAgAAAAEAwAAgZAaAAAAAAAIAAAABAMAAIKQGgAAAAAAGAAAAAEGAADkAAAA9AAAAAQBAAAUAQAAJAEAADQBAAAIAAAAAAQAAEG/2ITvAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAAAQAAAADAwAABQAAAB4AAAABCQAAZmlsZTovLy9Wb2x1bWVzL1JBSURfNV8wMDdfMTUvAAAIAAAABAMAAADA3eWkDQAACAAAAAAEAABBu1fSfQAAACQAAAABAQAAOTJCNzY2NDYtNEZEQS0zMkNBLTk0RUYtMDRBRjA2NTdGNjc4GAAAAAECAAABAAAAAQAAAO8TAAABAAAAAAAAAAAAAAAWAAAAAQEAAC9Wb2x1bWVzL1JBSURfNV8wMDdfMTUAAAgAAAABCQAAZmlsZTovLy8NAAAAAQEAAExMX1Byb2R1Y3Rpb24AAAAIAAAABAMAAABwokd0AAAACAAAAAAEAABBvz48jQAAACQAAAABAQAARjhDRTE5QTUtNUY5MC0zQzk3LThGMDMtRTdFMEMwRUQzOEQyGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAABgAAAA/v///wDwAAAAAAAABwAAAAIgAAD8AgAAAAAAAAUgAABoAgAAAAAAABAgAAB4AgAAAAAAABEgAACwAgAAAAAAABIgAACQAgAAAAAAABMgAACgAgAAAAAAACAgAADcAgAAAAAAAAQAAAADAwAAAPAAAAQAAAADAwAAAAAAAAQAAAADAwAAAQAAABwAAAABBgAAcAMAAHwDAACIAwAAfAMAAHwDAAB8AwAAfAMAAMwAAAD+////AQAAAAgDAAAQAAAABBAAAMQAAAAAAAAABRAAAEQBAAAAAAAAEBAAAHQBAAAAAAAAQBAAAGQBAAAAAAAAVBAAAJwBAAAAAAAAVRAAAKgBAAAAAAAAVhAAAJQBAAAAAAAAACAAAJQDAAAAAAAAAiAAAEgCAAAAAAAABSAAALQBAAAAAAAAECAAACAAAAAAAAAAESAAAPwBAAAAAAAAEiAAANwBAAAAAAAAEyAAAOwBAAAAAAAAICAAACgCAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r5",
+                            "name": "20171206_006_EMR17_ProjectReflections_GH4_001",
+                            "uid": "492BDD2CC6DFE680B1F8986A7B3540C3",
+                            "src": "file:///Volumes/RAID_5_007_15/2017_12/20171206_006_EMR17_ProjectReflections/GH4/20171206_006_EMR17_ProjectReflections_GH4_001.mov",
+                            "start": "1224406183/24000s",
+                            "duration": "14491477/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7gEAAAAAAQQMAAAAJ6IZO0tzF2nimoBj9H9+lWc9lXtyCkEIU4aSZdqvWaJtAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwANAAAAAQEAAFJBSURfNV8wMDdfMTUAAAAHAAAAAQEAADIwMTdfMTIAJQAAAAEBAAAyMDE3MTIwNl8wMDZfRU1SMTdfUHJvamVjdFJlZmxlY3Rpb25zAAAAAwAAAAEBAABHSDQAMQAAAAEBAAAyMDE3MTIwNl8wMDZfRU1SMTdfUHJvamVjdFJlZmxlY3Rpb25zX0dINF8wMDEubW92AAAAGAAAAAEGAAAQAAAAIAAAADgAAABIAAAAeAAAAIQAAAAIAAAABAMAAKZnBgAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAaH8aAAAAAAAIAAAABAMAAGOQGgAAAAAACAAAAAQDAACMkBoAAAAAAAgAAAAEAwAAjZAaAAAAAAAYAAAAAQYAAOAAAADwAAAAAAEAABABAAAgAQAAMAEAAAgAAAAABAAAQb/Zi2oAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAGAAAABAAAAAMDAAAFAAAAHgAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvUkFJRF81XzAwN18xNS8AAAgAAAAEAwAAAMDd5aQNAAAIAAAAAAQAAEG7V9J9AAAAJAAAAAEBAAA5MkI3NjY0Ni00RkRBLTMyQ0EtOTRFRi0wNEFGMDY1N0Y2NzgYAAAAAQIAAAEAAAABAAAA7xMAAAEAAAAAAAAAAAAAABYAAAABAQAAL1ZvbHVtZXMvUkFJRF81XzAwN18xNQAACAAAAAEJAABmaWxlOi8vLw0AAAABAQAATExfUHJvZHVjdGlvbgAAAAgAAAAEAwAAAHCiR3QAAAAIAAAAAAQAAEG/PjyNAAAAJAAAAAEBAABGOENFMTlBNS01RjkwLTNDOTctOEYwMy1FN0UwQzBFRDM4RDIYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAPgCAAAAAAAABSAAAGQCAAAAAAAAECAAAHQCAAAAAAAAESAAAKwCAAAAAAAAEiAAAIwCAAAAAAAAEyAAAJwCAAAAAAAAICAAANgCAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAHAAAAAEGAABsAwAAeAMAAIQDAAB4AwAAeAMAAHgDAAB4AwAAzAAAAP7///8BAAAABAMAABAAAAAEEAAAwAAAAAAAAAAFEAAAQAEAAAAAAAAQEAAAcAEAAAAAAABAEAAAYAEAAAAAAABUEAAAmAEAAAAAAABVEAAApAEAAAAAAABWEAAAkAEAAAAAAAAAIAAAkAMAAAAAAAACIAAARAIAAAAAAAAFIAAAsAEAAAAAAAAQIAAAIAAAAAAAAAARIAAA+AEAAAAAAAASIAAA2AEAAAAAAAATIAAA6AEAAAAAAAAgIAAAJAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    }
+                ],
+                "format": [
+                    {
+                        "_attr": {
+                            "id": "r2",
+                            "name": "FFVideoFormat1080p2398",
+                            "frameDuration": "1001/24000s",
+                            "width": "1920",
+                            "height": "1080"
+                        }
+                    }
+                ],
+                "media": [
+                    {
+                        "_attr": {
+                            "id": "r6",
+                            "name": "20171206_006_EMR17_ProjectReflections_MC",
+                            "uid": "w6w2aTHRSOiAH8rIiyFPSw",
+                            "modDate": "2017-12-11 12:30:10 -0500"
+                        },
+                        "multicam": [
+                            {
+                                "_attr": {
+                                    "format": "r2",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "1215185972/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "mc-angle": [
+                                    {
+                                        "_attr": {
+                                            "name": "C300a",
+                                            "angleID": "0000C300a"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "78078/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171206_006_EMR17_ProjectReflections_C300a_001.mov",
+                                                    "offset": "78078/24000s",
+                                                    "ref": "r1",
+                                                    "duration": "32288256/24000s",
+                                                    "start": "1215264050/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "C300b",
+                                            "angleID": "0000C300b"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "147147/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171206_006_EMR17_ProjectReflections_C300b_001.mov",
+                                                    "offset": "147147/24000s",
+                                                    "ref": "r3",
+                                                    "duration": "32216184/24000s",
+                                                    "start": "1215333119/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "C300c",
+                                            "angleID": "0000C300c"
+                                        },
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171206_006_EMR17_ProjectReflections_C300c_001.mov",
+                                                    "offset": "0s",
+                                                    "ref": "r4",
+                                                    "duration": "32384352/24000s",
+                                                    "start": "1215185972/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "GH4",
+                                            "angleID": "0000GH4"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "9216207/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171206_006_EMR17_ProjectReflections_GH4_001.mov",
+                                                    "offset": "9216207/24000s",
+                                                    "ref": "r5",
+                                                    "duration": "14491477/24000s",
+                                                    "start": "1224406183/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r7",
+                            "name": "20171206_006_EMR17_ProjectReflections_MC_CC",
+                            "uid": "2fYDFgcaTSK7WzSznxS2Pw",
+                            "modDate": "2017-12-11 12:31:40 -0500"
+                        },
+                        "sequence": [
+                            {
+                                "_attr": {
+                                    "duration": "32384352/24000s",
+                                    "format": "r2",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "1215185972/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "spine": [
+                                    {
+                                        "mc-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171206_006_EMR17_ProjectReflections_MC",
+                                                    "offset": "1215185972/24000s",
+                                                    "ref": "r6",
+                                                    "duration": "32384352/24000s",
+                                                    "start": "1215185972/24000s"
+                                                },
+                                                "mc-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "angleID": "0000C300a",
+                                                            "srcEnable": "all"
+                                                        },
+                                                        "filter-video": [
+                                                            {
+                                                                "_attr": {
+                                                                    "ref": "r8",
+                                                                    "name": "2.5_A"
+                                                                },
+                                                                "param": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/10619/1/100/101",
+                                                                            "value": "-19.3779 -232"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/10619/2/354/3509805/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Line Spacing",
+                                                                            "key": "9999/32385/10619/2/354/3509805/404",
+                                                                            "value": "-2"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/10619/2/369",
+                                                                            "value": "20171206_006_EMR17_ProjectReflections"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20673/1/100/101",
+                                                                            "value": "-16.824 -180"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20673/2/354/3509803/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20673/2/369",
+                                                                            "value": "EMR17: ProjectReflections"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20837/1/100/101",
+                                                                            "value": "-443.584 -395"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20837/2/354/3509807/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20837/2/369",
+                                                                            "value": "20171206:"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "mc-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171206_006_EMR17_ProjectReflections_MC",
+                                                            "lane": "-3",
+                                                            "offset": "1215185972/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "32384352/24000s",
+                                                            "start": "1215185972/24000s"
+                                                        },
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300c",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r9",
+                                                                            "name": "cam_c_test"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171206_006_EMR17_ProjectReflections_MC",
+                                                            "lane": "-2",
+                                                            "offset": "1215185972/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "32384352/24000s",
+                                                            "start": "1215185972/24000s"
+                                                        },
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000GH4",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "enabled": "0",
+                                                                            "ref": "r10",
+                                                                            "name": "GH4-cam-2018-master"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "enabled": "0",
+                                                                            "ref": "r11",
+                                                                            "name": "GH4a_New"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "enabled": "0",
+                                                                            "ref": "r12",
+                                                                            "name": "C300b_New"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r11",
+                                                                            "name": "GH4a_New"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171206_006_EMR17_ProjectReflections_MC",
+                                                            "lane": "-1",
+                                                            "offset": "1215185972/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "32384352/24000s",
+                                                            "start": "1215185972/24000s"
+                                                        },
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300b",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "enabled": "0",
+                                                                            "ref": "r13",
+                                                                            "name": "C300b-cam-2018-master"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "enabled": "0",
+                                                                            "ref": "r11",
+                                                                            "name": "GH4a_New"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r12",
+                                                                            "name": "C300b_New"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "effect": [
+                    {
+                        "_attr": {
+                            "id": "r8",
+                            "name": "2.5_A",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r9",
+                            "name": "cam_c_test",
+                            "uid": "~/Effects.localized/layouts-2018/layouts-2018/cam_c_test/cam_c_test.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/layouts-2018/layouts-2018/cam_c_test/cam_c_test.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r10",
+                            "name": "GH4-cam-2018-master",
+                            "uid": "~/Effects.localized/layouts-2018/GH4-cam-2018-master/GH4-cam-2018-master.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/layouts-2018/GH4-cam-2018-master/GH4-cam-2018-master.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r11",
+                            "name": "GH4a_New",
+                            "uid": "~/Effects.localized/layouts-2018-NEW/layouts-2018/GH4a_New/GH4a_New.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/layouts-2018-NEW/layouts-2018/GH4a_New/GH4a_New.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r12",
+                            "name": "C300b_New",
+                            "uid": "~/Effects.localized/layouts-2018-NEW/layouts-2018/C300b_New/C300b_New.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/layouts-2018-NEW/layouts-2018/C300b_New/C300b_New.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r13",
+                            "name": "C300b-cam-2018-master",
+                            "uid": "~/Effects.localized/layouts-2018/C300b-cam-2018-master/C300b-cam-2018-master.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/layouts-2018/C300b-cam-2018-master/C300b-cam-2018-master.moef"
+                        }
+                    }
+                ]
+            }
+        ],
+        "library": [
+            {
+                "_attr": {
+                    "location": "file:///Users/ll-201-macpro/Movies/201711_m2s.fcpbundle/"
+                },
+                "event": [
+                    {
+                        "_attr": {
+                            "name": "20171206_006_EMR17_ProjectReflections",
+                            "uid": "1AC17392-0E59-481D-A59E-D141C8B20F8F"
+                        },
+                        "asset-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171206_006_EMR17_ProjectReflections_C300a_001",
+                                    "ref": "r1",
+                                    "duration": "32288256/24000s",
+                                    "start": "1215264050/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-11 12:30:10 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "1s",
+                                            "duration": "32288256/24000s",
+                                            "value": "20171206_006_EMR17_ProjectReflections, C300a"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "24305281/480s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171206_006_EMR17_ProjectReflections_C300b_001",
+                                    "ref": "r3",
+                                    "duration": "32216184/24000s",
+                                    "start": "1215333119/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-11 12:30:10 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "1s",
+                                            "duration": "32216184/24000s",
+                                            "value": "20171206_006_EMR17_ProjectReflections, C300b"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1215333119/24000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171206_006_EMR17_ProjectReflections_C300c_001",
+                                    "ref": "r4",
+                                    "duration": "32384352/24000s",
+                                    "start": "1215185972/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-11 12:30:10 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "1s",
+                                            "duration": "32384352/24000s",
+                                            "value": "20171206_006_EMR17_ProjectReflections, C300c"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "303796493/6000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171206_006_EMR17_ProjectReflections_GH4_001",
+                                    "ref": "r5",
+                                    "duration": "14491477/24000s",
+                                    "start": "1224406183/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-11 12:30:10 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "1s",
+                                            "duration": "14491477/24000s",
+                                            "value": "20171206_006_EMR17_ProjectReflections, GH4"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1224406183/24000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "mc-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171206_006_EMR17_ProjectReflections_MC",
+                                    "ref": "r6",
+                                    "duration": "32384352/24000s",
+                                    "start": "1215185972/24000s",
+                                    "modDate": "2017-12-11 12:30:11 -0500"
+                                },
+                                "mc-source": [
+                                    {
+                                        "_attr": {
+                                            "angleID": "0000C300a",
+                                            "srcEnable": "all"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "ref-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171206_006_EMR17_ProjectReflections_MC_CC",
+                                    "ref": "r7",
+                                    "duration": "32384352/24000s",
+                                    "start": "1215185972/24000s",
+                                    "modDate": "2017-12-11 12:31:40 -0500"
+                                }
+                            }
+                        ],
+                        "project": [
+                            {
+                                "_attr": {
+                                    "name": "20171206_006_EMR17_ProjectReflections_MC_CC_Ex",
+                                    "uid": "09F223AE-532C-4E90-8FAA-82BF7331647E",
+                                    "modDate": "2017-12-11 12:32:40 -0500"
+                                },
+                                "sequence": [
+                                    {
+                                        "_attr": {
+                                            "duration": "32384352/24000s",
+                                            "format": "r2",
+                                            "renderColorSpace": "Rec. 709",
+                                            "tcStart": "0s",
+                                            "tcFormat": "NDF",
+                                            "audioLayout": "stereo",
+                                            "audioRate": "48k"
+                                        },
+                                        "spine": [
+                                            {
+                                                "ref-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171206_006_EMR17_ProjectReflections_MC_CC",
+                                                            "offset": "0s",
+                                                            "ref": "r7",
+                                                            "duration": "32384352/24000s",
+                                                            "start": "1215185972/24000s"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "keyword-collection": [
+                            {
+                                "_attr": {
+                                    "name": "20171206_006_EMR17_ProjectReflections"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300a"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "first 24 frames"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300b"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300c"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "GH4"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

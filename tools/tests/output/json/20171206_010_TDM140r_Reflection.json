@@ -1,0 +1,763 @@
+{
+    "fcpxml": {
+        "_attr": {
+            "version": "1.5"
+        },
+        "resources": [
+            {
+                "format": [
+                    {
+                        "_attr": {
+                            "id": "r1",
+                            "name": "FFVideoFormat1080p2398",
+                            "frameDuration": "1001/24000s",
+                            "width": "1920",
+                            "height": "1080"
+                        }
+                    }
+                ],
+                "asset": [
+                    {
+                        "_attr": {
+                            "id": "r2",
+                            "name": "20171206_010_TDM140r_Reflection_C300a_001",
+                            "uid": "B64CC46FDA22E6000EAA2C1AEF004454",
+                            "src": "file:///Volumes/516_Wednesday/_footage/20171206/20171206_010_TDM140r_Reflection/C300a/20171206_010_TDM140r_Reflection_C300a_001.mov",
+                            "start": "1420048630/24000s",
+                            "duration": "62594532/24000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va5QEAAAAAAQQMAAAANTLsMu74p2tXJxWbnpypSeBtc5SVU/ZoVC43TH0akyntAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwANAAAAAQEAADUxNl9XZWRuZXNkYXkAAAAIAAAAAQEAAF9mb290YWdlCAAAAAEBAAAyMDE3MTIwNh8AAAABAQAAMjAxNzEyMDZfMDEwX1RETTE0MHJfUmVmbGVjdGlvbgAFAAAAAQEAAEMzMDBhAAAALQAAAAEBAAAyMDE3MTIwNl8wMTBfVERNMTQwcl9SZWZsZWN0aW9uX0MzMDBhXzAwMS5tb3YAAAAcAAAAAQYAABAAAAAgAAAAOAAAAEgAAABYAAAAgAAAAJAAAAAIAAAABAMAAKZhBgAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAQ94HAAAAAAAIAAAABAMAAHJaCAAAAAAACAAAAAQDAAA+XggAAAAAAAgAAAAEAwAAP14IAAAAAAAIAAAABAMAAABeCAAAAAAAHAAAAAEGAADsAAAA/AAAAAwBAAAcAQAALAEAADwBAABMAQAACAAAAAAEAABBv9il7wAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAHgAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvNTE2X1dlZG5lc2RheS8AAAgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG8X833AAAAJAAAAAEBAABEM0ZGODFDNi01RTgwLTNEQTItOTUwNi02M0MwRTRCOUVDMjIYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABYAAAABAQAAL1ZvbHVtZXMvNTE2X1dlZG5lc2RheQAACAAAAAEJAABmaWxlOi8vLwsAAAABAQAATEwtMjAxNy0xMDkACAAAAAQDAAAAACIP1QIAAAgAAAAABAAAQb6yfGAAAAAkAAAAAQEAADcwREFBOTQ0LUZGOTEtMzAxMC05MzhGLTczNDY0NkI2RjdFMxgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA9AIAAAAAAAAFIAAAZAIAAAAAAAAQIAAAdAIAAAAAAAARIAAAqAIAAAAAAAASIAAAiAIAAAAAAAATIAAAmAIAAAAAAAAgIAAA1AIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAgAAAAAQYAAGgDAAB0AwAAgAMAAHQDAAB0AwAAdAMAAHQDAAB0AwAAqAAAAP7///8BAAAAAAMAAA0AAAAEEAAAyAAAAAAAAAAFEAAAXAEAAAAAAAAQEAAAkAEAAAAAAABAEAAAgAEAAAAAAAAAIAAAjAMAAAAAAAACIAAARAIAAAAAAAAFIAAAsAEAAAAAAAAQIAAAIAAAAAAAAAARIAAA+AEAAAAAAAASIAAA2AEAAAAAAAATIAAA6AEAAAAAAAAgIAAAJAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r3",
+                            "name": "20171206_010_TDM140r_Reflection_C300b_001",
+                            "uid": "51D3AF4CCEC8FE143C7123C656F1AF6D",
+                            "src": "file:///Volumes/516_Wednesday/_footage/20171206/20171206_010_TDM140r_Reflection/C300b/20171206_010_TDM140r_Reflection_C300b_001.mov",
+                            "start": "1420125707/24000s",
+                            "duration": "62594532/24000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va5QEAAAAAAQQMAAAAHmhGhI4nd9I4JhKU6Ue0YrS3GI4tMFRZPjfqK4rVmpltAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwANAAAAAQEAADUxNl9XZWRuZXNkYXkAAAAIAAAAAQEAAF9mb290YWdlCAAAAAEBAAAyMDE3MTIwNh8AAAABAQAAMjAxNzEyMDZfMDEwX1RETTE0MHJfUmVmbGVjdGlvbgAFAAAAAQEAAEMzMDBiAAAALQAAAAEBAAAyMDE3MTIwNl8wMTBfVERNMTQwcl9SZWZsZWN0aW9uX0MzMDBiXzAwMS5tb3YAAAAcAAAAAQYAABAAAAAgAAAAOAAAAEgAAABYAAAAgAAAAJAAAAAIAAAABAMAAKZhBgAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAQ94HAAAAAAAIAAAABAMAAHJaCAAAAAAACAAAAAQDAAA+XggAAAAAAAgAAAAEAwAAQl4IAAAAAAAIAAAABAMAAG1dCAAAAAAAHAAAAAEGAADsAAAA/AAAAAwBAAAcAQAALAEAADwBAABMAQAACAAAAAAEAABBv9il9gAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAHgAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvNTE2X1dlZG5lc2RheS8AAAgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG8X833AAAAJAAAAAEBAABEM0ZGODFDNi01RTgwLTNEQTItOTUwNi02M0MwRTRCOUVDMjIYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABYAAAABAQAAL1ZvbHVtZXMvNTE2X1dlZG5lc2RheQAACAAAAAEJAABmaWxlOi8vLwsAAAABAQAATEwtMjAxNy0xMDkACAAAAAQDAAAAACIP1QIAAAgAAAAABAAAQb6yfGAAAAAkAAAAAQEAADcwREFBOTQ0LUZGOTEtMzAxMC05MzhGLTczNDY0NkI2RjdFMxgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA9AIAAAAAAAAFIAAAZAIAAAAAAAAQIAAAdAIAAAAAAAARIAAAqAIAAAAAAAASIAAAiAIAAAAAAAATIAAAmAIAAAAAAAAgIAAA1AIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAgAAAAAQYAAGgDAAB0AwAAgAMAAHQDAAB0AwAAdAMAAHQDAAB0AwAAqAAAAP7///8BAAAAAAMAAA0AAAAEEAAAyAAAAAAAAAAFEAAAXAEAAAAAAAAQEAAAkAEAAAAAAABAEAAAgAEAAAAAAAAAIAAAjAMAAAAAAAACIAAARAIAAAAAAAAFIAAAsAEAAAAAAAAQIAAAIAAAAAAAAAARIAAA+AEAAAAAAAASIAAA2AEAAAAAAAATIAAA6AEAAAAAAAAgIAAAJAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r4",
+                            "name": "20171206_010_TDM140r_Reflection_C300c_001",
+                            "uid": "503577FAD08EFE963F3FA75BE3635D57",
+                            "src": "file:///Volumes/516_Wednesday/_footage/20171206/20171206_010_TDM140r_Reflection/C300c/20171206_010_TDM140r_Reflection_C300c_001.mov",
+                            "start": "1420094676/24000s",
+                            "duration": "62570508/24000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va5QEAAAAAAQQMAAAADlGxhxQxof0rHWih3nRs1ZEApD92NPBDN1qiNTDYcz1tAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwANAAAAAQEAADUxNl9XZWRuZXNkYXkAAAAIAAAAAQEAAF9mb290YWdlCAAAAAEBAAAyMDE3MTIwNh8AAAABAQAAMjAxNzEyMDZfMDEwX1RETTE0MHJfUmVmbGVjdGlvbgAFAAAAAQEAAEMzMDBjAAAALQAAAAEBAAAyMDE3MTIwNl8wMTBfVERNMTQwcl9SZWZsZWN0aW9uX0MzMDBjXzAwMS5tb3YAAAAcAAAAAQYAABAAAAAgAAAAOAAAAEgAAABYAAAAgAAAAJAAAAAIAAAABAMAAKZhBgAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAQ94HAAAAAAAIAAAABAMAAHJaCAAAAAAACAAAAAQDAAA+XggAAAAAAAgAAAAEAwAAQ14IAAAAAAAIAAAABAMAAE5eCAAAAAAAHAAAAAEGAADsAAAA/AAAAAwBAAAcAQAALAEAADwBAABMAQAACAAAAAAEAABBv9imSQAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAHgAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvNTE2X1dlZG5lc2RheS8AAAgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG8X833AAAAJAAAAAEBAABEM0ZGODFDNi01RTgwLTNEQTItOTUwNi02M0MwRTRCOUVDMjIYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABYAAAABAQAAL1ZvbHVtZXMvNTE2X1dlZG5lc2RheQAACAAAAAEJAABmaWxlOi8vLwsAAAABAQAATEwtMjAxNy0xMDkACAAAAAQDAAAAACIP1QIAAAgAAAAABAAAQb6yfGAAAAAkAAAAAQEAADcwREFBOTQ0LUZGOTEtMzAxMC05MzhGLTczNDY0NkI2RjdFMxgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA9AIAAAAAAAAFIAAAZAIAAAAAAAAQIAAAdAIAAAAAAAARIAAAqAIAAAAAAAASIAAAiAIAAAAAAAATIAAAmAIAAAAAAAAgIAAA1AIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAgAAAAAQYAAGgDAAB0AwAAgAMAAHQDAAB0AwAAdAMAAHQDAAB0AwAAqAAAAP7///8BAAAAAAMAAA0AAAAEEAAAyAAAAAAAAAAFEAAAXAEAAAAAAAAQEAAAkAEAAAAAAABAEAAAgAEAAAAAAAAAIAAAjAMAAAAAAAACIAAARAIAAAAAAAAFIAAAsAEAAAAAAAAQIAAAIAAAAAAAAAARIAAA+AEAAAAAAAASIAAA2AEAAAAAAAATIAAA6AEAAAAAAAAgIAAAJAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    }
+                ],
+                "media": [
+                    {
+                        "_attr": {
+                            "id": "r5",
+                            "name": "20171206_010_TDM140r_Reflection_MC",
+                            "uid": "sQSPhFRvSOaFCI1JV9Gbdw"
+                        },
+                        "multicam": [
+                            {
+                                "_attr": {
+                                    "format": "r1",
+                                    "tcStart": "1420048630/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "mc-angle": [
+                                    {
+                                        "_attr": {
+                                            "name": "C300a",
+                                            "angleID": "0000C300a"
+                                        },
+                                        "clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171206_010_TDM140r_Reflection_C300a_001.mov",
+                                                    "offset": "0s",
+                                                    "duration": "62594532/24000s",
+                                                    "start": "1420048630/24000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171206_010_TDM140r_Reflection_C300a_001 - v1",
+                                                            "offset": "1420048630/24000s",
+                                                            "ref": "r2",
+                                                            "duration": "62594532/24000s",
+                                                            "start": "1420048630/24000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "_attr": {
+                                                                    "name": "20171206_010_TDM140r_Reflection_C300a_001 - a1",
+                                                                    "lane": "-1",
+                                                                    "offset": "42601458900/720000s",
+                                                                    "ref": "r2",
+                                                                    "duration": "1877835960/720000s",
+                                                                    "start": "42601458900/720000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "audio-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "C300b",
+                                            "angleID": "0000C300b"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "77077/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171206_010_TDM140r_Reflection_C300b_001.mov",
+                                                    "offset": "77077/24000s",
+                                                    "duration": "62594532/24000s",
+                                                    "start": "1420125707/24000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171206_010_TDM140r_Reflection_C300b_001 - v1",
+                                                            "offset": "1420125707/24000s",
+                                                            "ref": "r3",
+                                                            "duration": "62594532/24000s",
+                                                            "start": "1420125707/24000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "_attr": {
+                                                                    "name": "20171206_010_TDM140r_Reflection_C300b_001 - a1",
+                                                                    "lane": "-1",
+                                                                    "offset": "42603771210/720000s",
+                                                                    "ref": "r3",
+                                                                    "duration": "1877835960/720000s",
+                                                                    "start": "42603771210/720000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "audio-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "C300c",
+                                            "angleID": "0000C300c"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "46046/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171206_010_TDM140r_Reflection_C300c_001.mov",
+                                                    "offset": "46046/24000s",
+                                                    "duration": "62570508/24000s",
+                                                    "start": "1420094676/24000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171206_010_TDM140r_Reflection_C300c_001 - v1",
+                                                            "offset": "1420094676/24000s",
+                                                            "ref": "r4",
+                                                            "duration": "62570508/24000s",
+                                                            "start": "1420094676/24000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "_attr": {
+                                                                    "name": "20171206_010_TDM140r_Reflection_C300c_001 - a1",
+                                                                    "lane": "-1",
+                                                                    "offset": "42602840280/720000s",
+                                                                    "ref": "r4",
+                                                                    "duration": "1877115240/720000s",
+                                                                    "start": "42602840280/720000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "audio-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r6",
+                            "name": "20171206_010_TDM140r_Reflection_MC_CC",
+                            "uid": "HFGRbwwOT2ub5GJ0jkf4dA"
+                        },
+                        "sequence": [
+                            {
+                                "_attr": {
+                                    "duration": "62671609/24000s",
+                                    "format": "r1",
+                                    "tcStart": "1420048630/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "spine": [
+                                    {
+                                        "mc-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171206_010_TDM140r_Reflection_MC",
+                                                    "offset": "1420048630/24000s",
+                                                    "ref": "r5",
+                                                    "duration": "62671609/24000s",
+                                                    "start": "1420048630/24000s"
+                                                },
+                                                "mc-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "angleID": "0000C300a",
+                                                            "srcEnable": "all"
+                                                        },
+                                                        "filter-video": [
+                                                            {
+                                                                "_attr": {
+                                                                    "ref": "r7",
+                                                                    "name": "2.5_A"
+                                                                },
+                                                                "param": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/10619/1/100/101",
+                                                                            "value": "-19.3779 -232"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/10619/2/354/43132/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Line Spacing",
+                                                                            "key": "9999/32385/10619/2/354/43132/404",
+                                                                            "value": "-2"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/10619/2/369",
+                                                                            "value": "20171206_010_TDM140r_Reflection"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20673/1/100/101",
+                                                                            "value": "-16.824 -180"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20673/2/354/43130/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20673/2/369",
+                                                                            "value": "TDM140r: Reflection"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20837/1/100/101",
+                                                                            "value": "-443.584 -395"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20837/2/354/43134/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20837/2/369",
+                                                                            "value": "20171206:"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "mc-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171206_010_TDM140r_Reflection_MC",
+                                                            "lane": "-2",
+                                                            "offset": "1420048630/24000s",
+                                                            "ref": "r5",
+                                                            "duration": "62671609/24000s",
+                                                            "start": "1420048630/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300b",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r8",
+                                                                            "name": "C300b-cam-2018-master"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171206_010_TDM140r_Reflection_MC",
+                                                            "lane": "-1",
+                                                            "offset": "1420048630/24000s",
+                                                            "ref": "r5",
+                                                            "duration": "62671609/24000s",
+                                                            "start": "1420048630/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300c",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r9",
+                                                                            "name": "GH4-cam-2018-master"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "effect": [
+                    {
+                        "_attr": {
+                            "id": "r7",
+                            "name": "2.5_A",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r8",
+                            "name": "C300b-cam-2018-master",
+                            "uid": "~/Effects.localized/layouts-2018/C300b-cam-2018-master/C300b-cam-2018-master.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r9",
+                            "name": "GH4-cam-2018-master",
+                            "uid": "~/Effects.localized/layouts-2018/GH4-cam-2018-master/GH4-cam-2018-master.moef"
+                        }
+                    }
+                ]
+            }
+        ],
+        "library": [
+            {
+                "_attr": {
+                    "location": "file:///Volumes/516_Wednesday/_libraries/20171206_MC_CC_Ex.fcpbundle/"
+                },
+                "event": [
+                    {
+                        "_attr": {
+                            "name": "20171206_010_TDM140r_Reflection",
+                            "uid": "70C808DA-C506-4217-B4BB-A9CAA043569A"
+                        },
+                        "clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171206_010_TDM140r_Reflection_C300a_001",
+                                    "duration": "62594532/24000s",
+                                    "start": "1420048630/24000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF"
+                                },
+                                "video": [
+                                    {
+                                        "_attr": {
+                                            "offset": "1420048630/24000s",
+                                            "ref": "r2",
+                                            "duration": "62594532/24000s",
+                                            "start": "1420048630/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "42601458900/720000s",
+                                                    "ref": "r2",
+                                                    "duration": "1877835960/720000s",
+                                                    "start": "42601458900/720000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "142004863/2400s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.42005e+09s",
+                                            "duration": "62594532/24000s",
+                                            "value": "20171206_010_TDM140r_Reflection, C300a"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171206_010_TDM140r_Reflection_C300b_001",
+                                    "duration": "62594532/24000s",
+                                    "start": "1420125707/24000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF"
+                                },
+                                "video": [
+                                    {
+                                        "_attr": {
+                                            "offset": "1420125707/24000s",
+                                            "ref": "r3",
+                                            "duration": "62594532/24000s",
+                                            "start": "1420125707/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "42603771210/720000s",
+                                                    "ref": "r3",
+                                                    "duration": "1877835960/720000s",
+                                                    "start": "42603771210/720000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "1420125707/24000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.42013e+09s",
+                                            "duration": "62594532/24000s",
+                                            "value": "20171206_010_TDM140r_Reflection, C300b"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171206_010_TDM140r_Reflection_C300c_001",
+                                    "duration": "62570508/24000s",
+                                    "start": "1420094676/24000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF"
+                                },
+                                "video": [
+                                    {
+                                        "_attr": {
+                                            "offset": "1420094676/24000s",
+                                            "ref": "r4",
+                                            "duration": "62570508/24000s",
+                                            "start": "1420094676/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "42602840280/720000s",
+                                                    "ref": "r4",
+                                                    "duration": "1877115240/720000s",
+                                                    "start": "42602840280/720000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "118341223/2000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.42009e+09s",
+                                            "duration": "62570508/24000s",
+                                            "value": "20171206_010_TDM140r_Reflection, C300c"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "mc-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171206_010_TDM140r_Reflection_MC",
+                                    "ref": "r5",
+                                    "duration": "62671609/24000s",
+                                    "start": "1420048630/24000s"
+                                },
+                                "mc-source": [
+                                    {
+                                        "_attr": {
+                                            "angleID": "0000C300a",
+                                            "srcEnable": "all"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "ref-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171206_010_TDM140r_Reflection_MC_CC",
+                                    "ref": "r6",
+                                    "duration": "62671609/24000s",
+                                    "start": "1420048630/24000s"
+                                }
+                            }
+                        ],
+                        "project": [
+                            {
+                                "_attr": {
+                                    "name": "20171206_010_TDM140r_Reflection_MC_CC_Ex",
+                                    "uid": "5D696478-10E4-460C-A799-043B61F5AE0B"
+                                },
+                                "sequence": [
+                                    {
+                                        "_attr": {
+                                            "duration": "62671609/24000s",
+                                            "format": "r1",
+                                            "tcStart": "0s",
+                                            "tcFormat": "NDF",
+                                            "audioLayout": "stereo",
+                                            "audioRate": "48k"
+                                        },
+                                        "spine": [
+                                            {
+                                                "ref-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171206_010_TDM140r_Reflection_MC_CC",
+                                                            "offset": "0s",
+                                                            "ref": "r6",
+                                                            "duration": "62671609/24000s",
+                                                            "start": "1420048630/24000s"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "keyword-collection": [
+                            {
+                                "_attr": {
+                                    "name": "20171206_010_TDM140r_Reflection"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300a"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "first 24 frames"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300b"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300c"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

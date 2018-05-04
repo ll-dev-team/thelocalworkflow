@@ -17,17 +17,17 @@ function csvToJson(file) {
   return parsedCsv;
 }
 
-function findOnMongo(theShoot, cb){
-  mongoose.connect(process.env.MONGODB_URL);
+async function findOnMongo(theShoot, cb){
+  // mongoose.connect(process.env.MONGODB_URL);
   Fcpxml.find({'shootId': theShoot}, function(err, data){
-    console.log("in the find function: ");
+    console.log("in the find function for shootId " + data.shootIdRoot);
     console.log(JSON.stringify(data, null, 4));
     cb(data);
-    mongoose.connection.close();
+    // mongoose.connection.close();
   })
 }
 
-function io2s(csvFile){
+async function io2s(csvFile){
   // mongoose.connect(process.env.MONGODB_URL);
   var theJob = {};
   var io2sRequest = csvToJson(csvFile);
@@ -48,12 +48,16 @@ function io2s(csvFile){
   });
   console.log(JSON.stringify(theJob, null, 4));
   var theNecessaryFcpxmlObjs = [];
+  mongoose.connect(process.env.MONGODB_URL);
+  xmlOptions = [];
   for (var i = 0; i < theJob.xmlsRequired.length; i++) {
-    findOnMongo(theJob.xmlsRequired[i], function(data){
+    var newFcpxml = await findOnMongo(theJob.xmlsRequired[i], function(data){
       console.log("received " + data.length + " results.");
       console.log(data[0].shootId + " for one");
       console.log(data[0].ts);
+      console.log(data.length);
     });
+
   }
 }
 

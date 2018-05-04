@@ -1,0 +1,787 @@
+{
+    "fcpxml": {
+        "_attr": {
+            "version": "1.6"
+        },
+        "resources": [
+            {
+                "asset": [
+                    {
+                        "_attr": {
+                            "id": "r1",
+                            "name": "20171212_001_HUM11A_Rushin_C300a_001",
+                            "uid": "E1C026688EF940E21866437C250E49EB",
+                            "src": "file:///Volumes/515_Tuesday/Footage/20171212/20171212_001_HUM11A_Rushin/C300a/20171212_001_HUM11A_Rushin_C300a_001.mov",
+                            "start": "844850006/24000s",
+                            "duration": "41249208/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7gEAAAAAAQQMAAAAOVvj3IuDz/fEGWQEHehvLxachYouyQx4htHqGRfO9z5tAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwALAAAAAQEAADUxNV9UdWVzZGF5AAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjEyGgAAAAEBAAAyMDE3MTIxMl8wMDFfSFVNMTFBX1J1c2hpbgAABQAAAAEBAABDMzAwYQAAACgAAAABAQAAMjAxNzEyMTJfMDAxX0hVTTExQV9SdXNoaW5fQzMwMGFfMDAxLm1vdhwAAAABBgAAEAAAACAAAAA0AAAARAAAAFQAAAB4AAAAiAAAAAgAAAAEAwAApmcGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAAC5fgYAAAAAAAgAAAAEAwAAsr0GAAAAAAAIAAAABAMAAPa9BgAAAAAACAAAAAQDAAD4vQYAAAAAAAgAAAAEAwAA9b0GAAAAAAAcAAAAAQYAANwAAADsAAAA/AAAAAwBAAAcAQAALAEAADwBAAAIAAAAAAQAAEG/4DM3AAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAABwAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzUxNV9UdWVzZGF5LwgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG8EzDVAAAAJAAAAAEBAABERTJCRkYxOC1BNDY3LTM4NDYtOUYyOC01OUQ3QTZEM0U5ODYYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABQAAAABAQAAL1ZvbHVtZXMvNTE1X1R1ZXNkYXkIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA9AIAAAAAAAAFIAAAYAIAAAAAAAAQIAAAcAIAAAAAAAARIAAAqAIAAAAAAAASIAAAiAIAAAAAAAATIAAAmAIAAAAAAAAgIAAA1AIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAgAAAAAQYAAGgDAAB0AwAAgAMAAHQDAAB0AwAAdAMAAHQDAAB0AwAAzAAAAP7///8BAAAAAAMAABAAAAAEEAAAuAAAAAAAAAAFEAAATAEAAAAAAAAQEAAAgAEAAAAAAABAEAAAcAEAAAAAAABUEAAAqAEAAAAAAABVEAAAqAEAAAAAAABWEAAAoAEAAAAAAAAAIAAAjAMAAAAAAAACIAAARAIAAAAAAAAFIAAAtAEAAAAAAAAQIAAAIAAAAAAAAAARIAAA+AEAAAAAAAASIAAA2AEAAAAAAAATIAAA6AEAAAAAAAAgIAAAJAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r3",
+                            "name": "20171212_001_HUM11A_Rushin_C300b_001",
+                            "uid": "962704A2F4D718263160CF4C2EE69217",
+                            "src": "file:///Volumes/515_Tuesday/Footage/20171212/20171212_001_HUM11A_Rushin/C300b/20171212_001_HUM11A_Rushin_C300b_001.mov",
+                            "start": "845525681/24000s",
+                            "duration": "40600560/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7gEAAAAAAQQMAAAAEtKwXZ7zN2Ku6EozuiGm4X8M0QcOkxFUUdLImYvRJ+LtAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwALAAAAAQEAADUxNV9UdWVzZGF5AAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjEyGgAAAAEBAAAyMDE3MTIxMl8wMDFfSFVNMTFBX1J1c2hpbgAABQAAAAEBAABDMzAwYgAAACgAAAABAQAAMjAxNzEyMTJfMDAxX0hVTTExQV9SdXNoaW5fQzMwMGJfMDAxLm1vdhwAAAABBgAAEAAAACAAAAA0AAAARAAAAFQAAAB4AAAAiAAAAAgAAAAEAwAApmcGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAAC5fgYAAAAAAAgAAAAEAwAAsr0GAAAAAAAIAAAABAMAAPa9BgAAAAAACAAAAAQDAAAFvgYAAAAAAAgAAAAEAwAAob0GAAAAAAAcAAAAAQYAANwAAADsAAAA/AAAAAwBAAAcAQAALAEAADwBAAAIAAAAAAQAAEG/4DNYAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAABwAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzUxNV9UdWVzZGF5LwgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG8EzDVAAAAJAAAAAEBAABERTJCRkYxOC1BNDY3LTM4NDYtOUYyOC01OUQ3QTZEM0U5ODYYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABQAAAABAQAAL1ZvbHVtZXMvNTE1X1R1ZXNkYXkIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA9AIAAAAAAAAFIAAAYAIAAAAAAAAQIAAAcAIAAAAAAAARIAAAqAIAAAAAAAASIAAAiAIAAAAAAAATIAAAmAIAAAAAAAAgIAAA1AIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAgAAAAAQYAAGgDAAB0AwAAgAMAAHQDAAB0AwAAdAMAAHQDAAB0AwAAzAAAAP7///8BAAAAAAMAABAAAAAEEAAAuAAAAAAAAAAFEAAATAEAAAAAAAAQEAAAgAEAAAAAAABAEAAAcAEAAAAAAABUEAAAqAEAAAAAAABVEAAAqAEAAAAAAABWEAAAoAEAAAAAAAAAIAAAjAMAAAAAAAACIAAARAIAAAAAAAAFIAAAtAEAAAAAAAAQIAAAIAAAAAAAAAARIAAA+AEAAAAAAAASIAAA2AEAAAAAAAATIAAA6AEAAAAAAAAgIAAAJAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r4",
+                            "name": "20171212_001_HUM11A_Rushin_C300c_001",
+                            "uid": "49FBECA835DE0F37905F61B9F4654701",
+                            "src": "file:///Volumes/515_Tuesday/Footage/20171212/20171212_001_HUM11A_Rushin/C300c/20171212_001_HUM11A_Rushin_C300c_001.mov",
+                            "start": "844825982/24000s",
+                            "duration": "41249208/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7gEAAAAAAQQMAAAAKa2o1cCWzBlt7qv40R5WYFxZRSGKxZrU9Asn03xdsW7tAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwALAAAAAQEAADUxNV9UdWVzZGF5AAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjEyGgAAAAEBAAAyMDE3MTIxMl8wMDFfSFVNMTFBX1J1c2hpbgAABQAAAAEBAABDMzAwYwAAACgAAAABAQAAMjAxNzEyMTJfMDAxX0hVTTExQV9SdXNoaW5fQzMwMGNfMDAxLm1vdhwAAAABBgAAEAAAACAAAAA0AAAARAAAAFQAAAB4AAAAiAAAAAgAAAAEAwAApmcGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAAC5fgYAAAAAAAgAAAAEAwAAsr0GAAAAAAAIAAAABAMAAPa9BgAAAAAACAAAAAQDAAAGvgYAAAAAAAgAAAAEAwAAur0GAAAAAAAcAAAAAQYAANwAAADsAAAA/AAAAAwBAAAcAQAALAEAADwBAAAIAAAAAAQAAEG/4DOOAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAABwAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzUxNV9UdWVzZGF5LwgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG8EzDVAAAAJAAAAAEBAABERTJCRkYxOC1BNDY3LTM4NDYtOUYyOC01OUQ3QTZEM0U5ODYYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABQAAAABAQAAL1ZvbHVtZXMvNTE1X1R1ZXNkYXkIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA9AIAAAAAAAAFIAAAYAIAAAAAAAAQIAAAcAIAAAAAAAARIAAAqAIAAAAAAAASIAAAiAIAAAAAAAATIAAAmAIAAAAAAAAgIAAA1AIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAgAAAAAQYAAGgDAAB0AwAAgAMAAHQDAAB0AwAAdAMAAHQDAAB0AwAAzAAAAP7///8BAAAAAAMAABAAAAAEEAAAuAAAAAAAAAAFEAAATAEAAAAAAAAQEAAAgAEAAAAAAABAEAAAcAEAAAAAAABUEAAAqAEAAAAAAABVEAAAqAEAAAAAAABWEAAAoAEAAAAAAAAAIAAAjAMAAAAAAAACIAAARAIAAAAAAAAFIAAAtAEAAAAAAAAQIAAAIAAAAAAAAAARIAAA+AEAAAAAAAASIAAA2AEAAAAAAAATIAAA6AEAAAAAAAAgIAAAJAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r5",
+                            "name": "20171212_001_HUM11A_Rushin_GH4_001",
+                            "uid": "E9C050A4BEAA9778BAA815AC6D899062",
+                            "src": "file:///Volumes/515_Tuesday/Footage/20171212/20171212_001_HUM11A_Rushin/GH4/20171212_001_HUM11A_Rushin_GH4_001.MOV",
+                            "start": "844945101/24000s",
+                            "duration": "41237196/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7QEAAAAAAQQMAAAAPDBBBlr1sXhuong5vThFbTOD4nRGBjULG8mqjPp8AOfsAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwALAAAAAQEAADUxNV9UdWVzZGF5AAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjEyGgAAAAEBAAAyMDE3MTIxMl8wMDFfSFVNMTFBX1J1c2hpbgAAAwAAAAEBAABHSDQAJgAAAAEBAAAyMDE3MTIxMl8wMDFfSFVNMTFBX1J1c2hpbl9HSDRfMDAxLk1PVgAAHAAAAAEGAAAQAAAAIAAAADQAAABEAAAAVAAAAHgAAACEAAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAALl+BgAAAAAACAAAAAQDAACyvQYAAAAAAAgAAAAEAwAA9r0GAAAAAAAIAAAABAMAAAe+BgAAAAAACAAAAAQDAACvvQYAAAAAABwAAAABBgAA2AAAAOgAAAD4AAAACAEAABgBAAAoAQAAOAEAAAgAAAAABAAAQb/gNeIAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAGAAAAHAAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvNTE1X1R1ZXNkYXkvCAAAAAQDAAAAwCRj7gAAAAgAAAAABAAAQbwTMNUAAAAkAAAAAQEAAERFMkJGRjE4LUE0NjctMzg0Ni05RjI4LTU5RDdBNkQzRTk4NhgAAAABAgAAAQEAAAEAAADvEwAAAQAAAAAAAAAAAAAAFAAAAAEBAAAvVm9sdW1lcy81MTVfVHVlc2RheQgAAAABCQAAZmlsZTovLy8NAAAAAQEAAExMX1Byb2R1Y3Rpb24AAAAIAAAABAMAAABwokd0AAAACAAAAAAEAABBvz48jQAAACQAAAABAQAARjhDRTE5QTUtNUY5MC0zQzk3LThGMDMtRTdFMEMwRUQzOEQyGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAABgAAAA/v///wDwAAAAAAAABwAAAAIgAADwAgAAAAAAAAUgAABcAgAAAAAAABAgAABsAgAAAAAAABEgAACkAgAAAAAAABIgAACEAgAAAAAAABMgAACUAgAAAAAAACAgAADQAgAAAAAAAAQAAAADAwAAAPAAAAQAAAADAwAAAAAAAAQAAAADAwAAAQAAACAAAAABBgAAZAMAAHADAAB8AwAAcAMAAHADAABwAwAAcAMAAHADAADMAAAA/v///wEAAAD8AgAAEAAAAAQQAAC0AAAAAAAAAAUQAABIAQAAAAAAABAQAAB8AQAAAAAAAEAQAABsAQAAAAAAAFQQAACkAQAAAAAAAFUQAACkAQAAAAAAAFYQAACcAQAAAAAAAAAgAACIAwAAAAAAAAIgAABAAgAAAAAAAAUgAACwAQAAAAAAABAgAAAgAAAAAAAAABEgAAD0AQAAAAAAABIgAADUAQAAAAAAABMgAADkAQAAAAAAACAgAAAgAgAAAAAAABDQAAAEAAAAAAAAAA=="
+                        ]
+                    }
+                ],
+                "format": [
+                    {
+                        "_attr": {
+                            "id": "r2",
+                            "name": "FFVideoFormat1080p2398",
+                            "frameDuration": "1001/24000s",
+                            "width": "1920",
+                            "height": "1080"
+                        }
+                    }
+                ],
+                "media": [
+                    {
+                        "_attr": {
+                            "id": "r6",
+                            "name": "20171212_001_HUM11A_Rushin_MC",
+                            "uid": "3sbgGRxoTBW127pdrrz+sA",
+                            "modDate": "2017-12-12 12:26:48 -0500"
+                        },
+                        "multicam": [
+                            {
+                                "_attr": {
+                                    "format": "r2",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "844825982/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "mc-angle": [
+                                    {
+                                        "_attr": {
+                                            "name": "C300a",
+                                            "angleID": "0000C300a"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "24024/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171212_001_HUM11A_Rushin_C300a_001.mov",
+                                                    "offset": "24024/24000s",
+                                                    "ref": "r1",
+                                                    "duration": "41249208/24000s",
+                                                    "start": "844850006/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "C300b",
+                                            "angleID": "0000C300b"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "699699/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171212_001_HUM11A_Rushin_C300b_001.mov",
+                                                    "offset": "699699/24000s",
+                                                    "ref": "r3",
+                                                    "duration": "40600560/24000s",
+                                                    "start": "845525681/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "C300c",
+                                            "angleID": "0000C300c"
+                                        },
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171212_001_HUM11A_Rushin_C300c_001.mov",
+                                                    "offset": "0s",
+                                                    "ref": "r4",
+                                                    "duration": "41249208/24000s",
+                                                    "start": "844825982/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "GH4",
+                                            "angleID": "0000GH4"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "119119/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171212_001_HUM11A_Rushin_GH4_001.MOV",
+                                                    "offset": "119119/24000s",
+                                                    "ref": "r5",
+                                                    "duration": "41237196/24000s",
+                                                    "start": "844945101/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r7",
+                            "name": "20171212_001_HUM11A_Rushin_MC_CC",
+                            "uid": "P2zYfnLCTc6aEewhiLcz6Q",
+                            "modDate": "2017-12-12 12:27:17 -0500"
+                        },
+                        "sequence": [
+                            {
+                                "_attr": {
+                                    "duration": "41356315/24000s",
+                                    "format": "r2",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "844825982/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "spine": [
+                                    {
+                                        "mc-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171212_001_HUM11A_Rushin_MC",
+                                                    "offset": "844825982/24000s",
+                                                    "ref": "r6",
+                                                    "duration": "41356315/24000s",
+                                                    "start": "844825982/24000s"
+                                                },
+                                                "mc-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "angleID": "0000C300a",
+                                                            "srcEnable": "all"
+                                                        },
+                                                        "filter-video": [
+                                                            {
+                                                                "_attr": {
+                                                                    "ref": "r8",
+                                                                    "name": "2.5_A"
+                                                                },
+                                                                "param": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/10619/1/100/101",
+                                                                            "value": "-19.3779 -232"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/10619/2/354/36282/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Line Spacing",
+                                                                            "key": "9999/32385/10619/2/354/36282/404",
+                                                                            "value": "-2"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/10619/2/369",
+                                                                            "value": "20171212_001_HUM11A_Rushin"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20673/1/100/101",
+                                                                            "value": "-16.824 -180"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20673/2/354/36280/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20673/2/369",
+                                                                            "value": "HUM11A: Rushin"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20837/1/100/101",
+                                                                            "value": "-443.584 -395"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20837/2/354/36284/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20837/2/369",
+                                                                            "value": "20171212:"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "mc-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171212_001_HUM11A_Rushin_MC",
+                                                            "lane": "-3",
+                                                            "offset": "844825982/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "41356315/24000s",
+                                                            "start": "844825982/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300b",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r9",
+                                                                            "name": "C300b_New"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171212_001_HUM11A_Rushin_MC",
+                                                            "lane": "-2",
+                                                            "offset": "844825982/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "41356315/24000s",
+                                                            "start": "844825982/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300c",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r10",
+                                                                            "name": "C300c_New"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171212_001_HUM11A_Rushin_MC",
+                                                            "lane": "-1",
+                                                            "offset": "844825982/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "41356315/24000s",
+                                                            "start": "844825982/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000GH4",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r11",
+                                                                            "name": "GH4a_New"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "effect": [
+                    {
+                        "_attr": {
+                            "id": "r8",
+                            "name": "2.5_A",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r9",
+                            "name": "C300b_New",
+                            "uid": "~/Effects.localized/layouts-2018-NEW/layouts-2018/C300b_New/C300b_New.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/layouts-2018-NEW/layouts-2018/C300b_New/C300b_New.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r10",
+                            "name": "C300c_New",
+                            "uid": "~/Effects.localized/layouts-2018-NEW/layouts-2018/C300c_New/C300c_New.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/layouts-2018-NEW/layouts-2018/C300c_New/C300c_New.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r11",
+                            "name": "GH4a_New",
+                            "uid": "~/Effects.localized/layouts-2018-NEW/layouts-2018/GH4a_New/GH4a_New.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/layouts-2018-NEW/layouts-2018/GH4a_New/GH4a_New.moef"
+                        }
+                    }
+                ]
+            }
+        ],
+        "library": [
+            {
+                "_attr": {
+                    "location": "file:///Volumes/515_Tuesday/FCP_Libs/20171212_MC_CC_Ex.fcpbundle/"
+                },
+                "event": [
+                    {
+                        "_attr": {
+                            "name": "20171212_001_HUM11A_Rushin",
+                            "uid": "A7428E95-5A2D-4218-B7B4-ECDD4A9B1182"
+                        },
+                        "asset-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171212_001_HUM11A_Rushin_C300a_001",
+                                    "ref": "r1",
+                                    "duration": "41249208/24000s",
+                                    "start": "844850006/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-12 12:24:16 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "422425003/12000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "8.4485e+08s",
+                                            "duration": "41249208/24000s",
+                                            "value": "20171212_001_HUM11A_Rushin, C300a"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171212_001_HUM11A_Rushin_C300b_001",
+                                    "ref": "r3",
+                                    "duration": "40600560/24000s",
+                                    "start": "845525681/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-12 12:24:17 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "845525681/24000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "8.45526e+08s",
+                                            "duration": "40600560/24000s",
+                                            "value": "20171212_001_HUM11A_Rushin, C300b"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171212_001_HUM11A_Rushin_C300c_001",
+                                    "ref": "r4",
+                                    "duration": "41249208/24000s",
+                                    "start": "844825982/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-12 12:24:17 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "422412991/12000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "8.44826e+08s",
+                                            "duration": "41249208/24000s",
+                                            "value": "20171212_001_HUM11A_Rushin, C300c"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171212_001_HUM11A_Rushin_GH4_001",
+                                    "ref": "r5",
+                                    "duration": "41237196/24000s",
+                                    "start": "844945101/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-12 12:24:17 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "281648367/8000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "8.44945e+08s",
+                                            "duration": "41237196/24000s",
+                                            "value": "20171212_001_HUM11A_Rushin, GH4"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "mc-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171212_001_HUM11A_Rushin_MC",
+                                    "ref": "r6",
+                                    "duration": "41356315/24000s",
+                                    "start": "844825982/24000s",
+                                    "modDate": "2017-12-12 12:24:16 -0500"
+                                },
+                                "mc-source": [
+                                    {
+                                        "_attr": {
+                                            "angleID": "0000C300a",
+                                            "srcEnable": "all"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "ref-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171212_001_HUM11A_Rushin_MC_CC",
+                                    "ref": "r7",
+                                    "duration": "41356315/24000s",
+                                    "start": "844825982/24000s",
+                                    "modDate": "2017-12-12 12:27:17 -0500"
+                                }
+                            }
+                        ],
+                        "project": [
+                            {
+                                "_attr": {
+                                    "name": "20171212_001_HUM11A_Rushin_MC_CC_Ex",
+                                    "uid": "0E2741F6-F8FD-4FE8-96B1-72DB5586569D",
+                                    "modDate": "2017-12-12 12:27:17 -0500"
+                                },
+                                "sequence": [
+                                    {
+                                        "_attr": {
+                                            "duration": "41356315/24000s",
+                                            "format": "r2",
+                                            "renderColorSpace": "Rec. 709",
+                                            "tcStart": "0s",
+                                            "tcFormat": "NDF",
+                                            "audioLayout": "stereo",
+                                            "audioRate": "48k"
+                                        },
+                                        "spine": [
+                                            {
+                                                "ref-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171212_001_HUM11A_Rushin_MC_CC",
+                                                            "offset": "0s",
+                                                            "ref": "r7",
+                                                            "duration": "41356315/24000s",
+                                                            "start": "844825982/24000s"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "keyword-collection": [
+                            {
+                                "_attr": {
+                                    "name": "20171212_001_HUM11A_Rushin"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300a"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "first 24 frames"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300b"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300c"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "GH4"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

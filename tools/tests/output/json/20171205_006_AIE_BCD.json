@@ -1,0 +1,479 @@
+{
+    "fcpxml": {
+        "_attr": {
+            "version": "1.6"
+        },
+        "resources": [
+            {
+                "asset": [
+                    {
+                        "_attr": {
+                            "id": "r1",
+                            "name": "20171205_006_AIE_BCD_C100a_001",
+                            "uid": "2CC4258E476900AF2DA0C04538DFB220",
+                            "src": "file:///Volumes/105_1TB/20171205/20171205_006_AIE_BCD/C100a/20171205_006_AIE_BCD_C100a_001.mov",
+                            "start": "4078920846/72000s",
+                            "duration": "498341844/72000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9vazwEAAAAAAQQMAAAAJGGGvaDb0y+Kjg1/2gJaL1QCq3xs0O3YmL4i5KdXm7AXAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAHAAAAAQEAADEwNV8xVEIACAAAAAEBAAAyMDE3MTIwNRQAAAABAQAAMjAxNzEyMDVfMDA2X0FJRV9CQ0QFAAAAAQEAAEMxMDBhAAAAIgAAAAEBAAAyMDE3MTIwNV8wMDZfQUlFX0JDRF9DMTAwYV8wMDEubW92AAAYAAAAAQYAABAAAAAgAAAAMAAAAEAAAABcAAAAbAAAAAgAAAAEAwAAnioGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAAB/2QgAAAAAAAgAAAAEAwAAhdkIAAAAAAAIAAAABAMAAInZCAAAAAAACAAAAAQDAABQ2QgAAAAAABgAAAABBgAAuAAAAMgAAADYAAAA6AAAAPgAAAAIAQAACAAAAAAEAABBv9dZVAAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAGAAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvMTA1XzFUQi8IAAAABAMAAADAJGPuAAAACAAAAAAEAABBvYgzbQAAACQAAAABAQAAMTYyQ0U3NDAtRjhFRS0zRDdGLUI0MjgtRTQ4RDEyRTlCOEY1GAAAAAECAAABAQAAAQAAAO8TAAABAAAAAAAAAAAAAAAQAAAAAQEAAC9Wb2x1bWVzLzEwNV8xVEIIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABNaWtlXzIwN19pTWFjAAAACAAAAAQDAAAAAIY81QIAAAgAAAAABAAAQbvTKuEAAAAkAAAAAQEAADZEMEJGMkM0LTc1OTMtMzI5Qi05REYyLUQ5MzcwODM2M0NERhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAAoAIAAAAAAAAFIAAADAIAAAAAAAAQIAAAHAIAAAAAAAARIAAAVAIAAAAAAAASIAAANAIAAAAAAAATIAAARAIAAAAAAAAgIAAAgAIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAcAAAAAQYAABQDAAAgAwAALAMAACADAAAgAwAAIAMAACADAACoAAAA/v///wEAAACsAgAADQAAAAQQAACYAAAAAAAAAAUQAAAYAQAAAAAAABAQAABIAQAAAAAAAEAQAAA4AQAAAAAAAAAgAAA4AwAAAAAAAAIgAAD0AQAAAAAAAAUgAABoAQAAAAAAABAgAAAgAAAAAAAAABEgAACoAQAAAAAAABIgAACIAQAAAAAAABMgAACYAQAAAAAAACAgAADUAQAAAAAAABDQAAAEAAAAAAAAAA=="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r3",
+                            "name": "20171205_006_AIE_BCD_GH4_001",
+                            "uid": "7DD4C1F10268CB02E7EA0355CFCE989E",
+                            "src": "file:///Volumes/105_1TB/20171205/20171205_006_AIE_BCD/GH4/20171205_006_AIE_BCD_GH4_001.MOV",
+                            "start": "1307602296/24000s",
+                            "duration": "159668509/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9vazQEAAAAAAQQMAAAAIU2qN6sk1AJ8ke8ZYj66OU+NipEc1K29uIe4edA495qVAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAHAAAAAQEAADEwNV8xVEIACAAAAAEBAAAyMDE3MTIwNRQAAAABAQAAMjAxNzEyMDVfMDA2X0FJRV9CQ0QDAAAAAQEAAEdINAAgAAAAAQEAADIwMTcxMjA1XzAwNl9BSUVfQkNEX0dINF8wMDEuTU9WGAAAAAEGAAAQAAAAIAAAADAAAABAAAAAXAAAAGgAAAAIAAAABAMAAJ4qBgAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAf9kIAAAAAAAIAAAABAMAAIXZCAAAAAAACAAAAAQDAACL2QgAAAAAAAgAAAAEAwAAjdkIAAAAAAAYAAAAAQYAALAAAADAAAAA0AAAAOAAAADwAAAAAAEAAAgAAAAABAAAQb/XM+wAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAABgAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzEwNV8xVEIvCAAAAAQDAAAAwCRj7gAAAAgAAAAABAAAQb2IM20AAAAkAAAAAQEAADE2MkNFNzQwLUY4RUUtM0Q3Ri1CNDI4LUU0OEQxMkU5QjhGNRgAAAABAgAAAQEAAAEAAADvEwAAAQAAAAAAAAAAAAAAEAAAAAEBAAAvVm9sdW1lcy8xMDVfMVRCCAAAAAEJAABmaWxlOi8vLw0AAAABAQAATWlrZV8yMDdfaU1hYwAAAAgAAAAEAwAAAACGPNUCAAAIAAAAAAQAAEG70yrhAAAAJAAAAAEBAAA2RDBCRjJDNC03NTkzLTMyOUItOURGMi1EOTM3MDgzNjNDREYYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAJgCAAAAAAAABSAAAAQCAAAAAAAAECAAABQCAAAAAAAAESAAAEwCAAAAAAAAEiAAACwCAAAAAAAAEyAAADwCAAAAAAAAICAAAHgCAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAHAAAAAEGAAAMAwAAGAMAACQDAAAYAwAAGAMAABgDAAAYAwAAqAAAAP7///8BAAAApAIAAA0AAAAEEAAAkAAAAAAAAAAFEAAAEAEAAAAAAAAQEAAAQAEAAAAAAABAEAAAMAEAAAAAAAAAIAAAMAMAAAAAAAACIAAA7AEAAAAAAAAFIAAAYAEAAAAAAAAQIAAAIAAAAAAAAAARIAAAoAEAAAAAAAASIAAAgAEAAAAAAAATIAAAkAEAAAAAAAAgIAAAzAEAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    }
+                ],
+                "format": [
+                    {
+                        "_attr": {
+                            "id": "r2",
+                            "name": "FFVideoFormat1080p2398",
+                            "frameDuration": "1001/24000s",
+                            "width": "1920",
+                            "height": "1080"
+                        }
+                    }
+                ],
+                "media": [
+                    {
+                        "_attr": {
+                            "id": "r4",
+                            "name": "20171205_006_AIE_BCD_MC",
+                            "uid": "rfSAVe/FR3GsKb4bzdmujg",
+                            "modDate": "2017-12-05 19:02:17 -0500"
+                        },
+                        "multicam": [
+                            {
+                                "_attr": {
+                                    "format": "r2",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "1307602296/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "mc-angle": [
+                                    {
+                                        "_attr": {
+                                            "name": "GH4",
+                                            "angleID": "6vYSjxmdTAOBnLHXppG5cA"
+                                        },
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171205_006_AIE_BCD_GH4_001",
+                                                    "offset": "0s",
+                                                    "ref": "r3",
+                                                    "duration": "159668509/24000s",
+                                                    "start": "1307602296/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "keyword": [
+                                                    {
+                                                        "_attr": {
+                                                            "start": "54483429/1000s",
+                                                            "duration": "159668509/24000s",
+                                                            "value": "GH4"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "C100a",
+                                            "angleID": "Jig62EUyTBCjyHJqim4ofw"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "1457456/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171205_006_AIE_BCD_C100a_001",
+                                                    "offset": "4372368/72000s",
+                                                    "ref": "r1",
+                                                    "duration": "473813340/72000s",
+                                                    "start": "4103449350/72000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "keyword": [
+                                                    {
+                                                        "_attr": {
+                                                            "start": "679820141/12000s",
+                                                            "duration": "498341844/72000s",
+                                                            "value": "C100a"
+                                                        }
+                                                    }
+                                                ],
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r5",
+                            "name": "20171205_006_AIE_BCD_MC_CC",
+                            "uid": "BvDLNpXcQ0WnxACG9xpM1Q",
+                            "modDate": "2017-12-05 19:03:47 -0500"
+                        },
+                        "sequence": [
+                            {
+                                "_attr": {
+                                    "duration": "159668509/24000s",
+                                    "format": "r2",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "1307602296/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "spine": [
+                                    {
+                                        "mc-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171205_006_AIE_BCD_MC",
+                                                    "offset": "1307602296/24000s",
+                                                    "ref": "r4",
+                                                    "duration": "159668509/24000s",
+                                                    "start": "1307602296/24000s"
+                                                },
+                                                "adjust-volume": [
+                                                    {
+                                                        "_attr": {
+                                                            "amount": "-96dB"
+                                                        }
+                                                    }
+                                                ],
+                                                "mc-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "angleID": "6vYSjxmdTAOBnLHXppG5cA",
+                                                            "srcEnable": "all"
+                                                        },
+                                                        "filter-video": [
+                                                            {
+                                                                "_attr": {
+                                                                    "ref": "r6",
+                                                                    "name": "2.5_B"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "mc-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171205_006_AIE_BCD_MC",
+                                                            "lane": "-1",
+                                                            "offset": "1307602296/24000s",
+                                                            "ref": "r4",
+                                                            "duration": "159668509/24000s",
+                                                            "start": "1307602296/24000s"
+                                                        },
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "Jig62EUyTBCjyHJqim4ofw",
+                                                                    "srcEnable": "all"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r7",
+                                                                            "name": "2.5_A"
+                                                                        },
+                                                                        "param": [
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Position",
+                                                                                    "key": "9999/32385/10619/1/100/101",
+                                                                                    "value": "-19.3779 -232"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Alignment",
+                                                                                    "key": "9999/32385/10619/2/354/10624/401",
+                                                                                    "value": "2 (Right)"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Line Spacing",
+                                                                                    "key": "9999/32385/10619/2/354/10624/404",
+                                                                                    "value": "-2"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Text",
+                                                                                    "key": "9999/32385/10619/2/369",
+                                                                                    "value": ""
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Position",
+                                                                                    "key": "9999/32385/20673/1/100/101",
+                                                                                    "value": "-16.824 -180"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Alignment",
+                                                                                    "key": "9999/32385/20673/2/354/20674/401",
+                                                                                    "value": "2 (Right)"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Text",
+                                                                                    "key": "9999/32385/20673/2/369",
+                                                                                    "value": "AID_BCD"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Position",
+                                                                                    "key": "9999/32385/20837/1/100/101",
+                                                                                    "value": "-443.584 -395"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Alignment",
+                                                                                    "key": "9999/32385/20837/2/354/20838/401",
+                                                                                    "value": "2 (Right)"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Text",
+                                                                                    "key": "9999/32385/20837/2/369",
+                                                                                    "value": "20171205:"
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "effect": [
+                    {
+                        "_attr": {
+                            "id": "r6",
+                            "name": "2.5_B",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef",
+                            "src": "file:///Users/Mike_207_iMac/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r7",
+                            "name": "2.5_A",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef",
+                            "src": "file:///Users/Mike_207_iMac/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef"
+                        }
+                    }
+                ]
+            }
+        ],
+        "library": [
+            {
+                "_attr": {
+                    "location": "file:///Users/Mike_207_iMac/Movies/20171205_MC_CC_Ex.fcpbundle/"
+                },
+                "event": [
+                    {
+                        "_attr": {
+                            "name": "20171205_006_AIE_BCD",
+                            "uid": "1508198C-2CB6-423A-8DE6-9BED671D1EA9"
+                        },
+                        "asset-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171205_006_AIE_BCD_C100a_001",
+                                    "ref": "r1",
+                                    "duration": "498341844/72000s",
+                                    "start": "4078920846/72000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-05 19:00:53 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "679820141/12000s",
+                                            "duration": "498341844/72000s",
+                                            "value": "C100a"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171205_006_AIE_BCD_GH4_001",
+                                    "ref": "r3",
+                                    "duration": "159668509/24000s",
+                                    "start": "1307602296/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-05 19:00:53 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "54483429/1000s",
+                                            "duration": "159668509/24000s",
+                                            "value": "GH4"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "mc-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171205_006_AIE_BCD_MC",
+                                    "ref": "r4",
+                                    "duration": "159668509/24000s",
+                                    "start": "1307602296/24000s",
+                                    "modDate": "2017-12-05 19:02:17 -0500"
+                                },
+                                "mc-source": [
+                                    {
+                                        "_attr": {
+                                            "angleID": "6vYSjxmdTAOBnLHXppG5cA",
+                                            "srcEnable": "all"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "ref-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171205_006_AIE_BCD_MC_CC",
+                                    "ref": "r5",
+                                    "duration": "159668509/24000s",
+                                    "start": "1307602296/24000s",
+                                    "useAudioSubroles": "1",
+                                    "modDate": "2017-12-05 19:03:47 -0500"
+                                }
+                            }
+                        ],
+                        "project": [
+                            {
+                                "_attr": {
+                                    "name": "20171205_006_AIE_BCD_MC_CC_Ex",
+                                    "uid": "8F104577-95D4-42CA-99FE-4F1B7DDD97ED",
+                                    "modDate": "2017-12-05 19:04:22 -0500"
+                                },
+                                "sequence": [
+                                    {
+                                        "_attr": {
+                                            "duration": "133694561/24000s",
+                                            "format": "r2",
+                                            "renderColorSpace": "Rec. 709",
+                                            "tcStart": "0s",
+                                            "tcFormat": "NDF",
+                                            "audioLayout": "stereo",
+                                            "audioRate": "48k"
+                                        },
+                                        "spine": [
+                                            {
+                                                "ref-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171205_006_AIE_BCD_MC_CC",
+                                                            "offset": "0s",
+                                                            "ref": "r5",
+                                                            "duration": "133694561/24000s",
+                                                            "start": "1333576244/24000s",
+                                                            "useAudioSubroles": "1"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "keyword-collection": [
+                            {
+                                "_attr": {
+                                    "name": "C100a"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "GH4"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

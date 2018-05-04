@@ -1,0 +1,809 @@
+{
+    "fcpxml": {
+        "_attr": {
+            "version": "1.6"
+        },
+        "resources": [
+            {
+                "asset": [
+                    {
+                        "_attr": {
+                            "id": "r1",
+                            "name": "20171211_003_Physics267_Lecture_C300a_001",
+                            "uid": "C4DBBF3C33E47B1E232B07CF77D517CB",
+                            "src": "file:///Volumes/514_Monday/Footage/20171211/20171211_003_Physics267_Lecture/C300a/20171211_003_Physics267_Lecture_C300a_001.mov",
+                            "start": "1089886798/24000s",
+                            "duration": "48852804/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va8QEAAAAAAQQMAAAAA3plRNF6Y0VuJo9xSIvd4TnTL3x+mnhtrcbLO3A+WduwAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAKAAAAAQEAADUxNF9Nb25kYXkAAAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjExHwAAAAEBAAAyMDE3MTIxMV8wMDNfUGh5c2ljczI2N19MZWN0dXJlAAUAAAABAQAAQzMwMGEAAAAtAAAAAQEAADIwMTcxMjExXzAwM19QaHlzaWNzMjY3X0xlY3R1cmVfQzMwMGFfMDAxLm1vdgAAABwAAAABBgAAEAAAACAAAAA0AAAARAAAAFQAAAB8AAAAjAAAAAgAAAAEAwAApmcGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAADQXQkAAAAAAAgAAAAEAwAAZ5oJAAAAAAAIAAAABAMAAJaaCQAAAAAACAAAAAQDAAANmwkAAAAAAAgAAAAEAwAAP5oJAAAAAAAcAAAAAQYAAOgAAAD4AAAACAEAABgBAAAoAQAAOAEAAEgBAAAIAAAAAAQAAEG/3wk1AAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAABsAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzUxNF9Nb25kYXkvAAgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG8VonRAAAAJAAAAAEBAAA1Q0E3M0QzOS1BRTk3LTNGNjctOUVDMS1FRTdEQjlDODQwRDAYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABMAAAABAQAAL1ZvbHVtZXMvNTE0X01vbmRheQAIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAAAAMAAAAAAAAFIAAAbAIAAAAAAAAQIAAAfAIAAAAAAAARIAAAtAIAAAAAAAASIAAAlAIAAAAAAAATIAAApAIAAAAAAAAgIAAA4AIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAgAAAAAQYAAHQDAACAAwAAjAMAAIADAACAAwAAgAMAAIADAACAAwAAzAAAAP7///8BAAAADAMAABAAAAAEEAAAxAAAAAAAAAAFEAAAWAEAAAAAAAAQEAAAjAEAAAAAAABAEAAAfAEAAAAAAABUEAAAtAEAAAAAAABVEAAAtAEAAAAAAABWEAAArAEAAAAAAAAAIAAAmAMAAAAAAAACIAAAUAIAAAAAAAAFIAAAwAEAAAAAAAAQIAAAIAAAAAAAAAARIAAABAIAAAAAAAASIAAA5AEAAAAAAAATIAAA9AEAAAAAAAAgIAAAMAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r3",
+                            "name": "20171211_003_Physics267_Lecture_C300b_001",
+                            "uid": "4143B8B257514316E41CEAFEB0013D14",
+                            "src": "file:///Volumes/514_Monday/Footage/20171211/20171211_003_Physics267_Lecture/C300b/20171211_003_Physics267_Lecture_C300b_001.mov",
+                            "start": "1089993905/24000s",
+                            "duration": "48756708/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va8QEAAAAAAQQMAAAAJ8XYJqgIdcmNZ7SMQUYB5U+zxVB53THG7EDNT4vTfxCwAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAKAAAAAQEAADUxNF9Nb25kYXkAAAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjExHwAAAAEBAAAyMDE3MTIxMV8wMDNfUGh5c2ljczI2N19MZWN0dXJlAAUAAAABAQAAQzMwMGIAAAAtAAAAAQEAADIwMTcxMjExXzAwM19QaHlzaWNzMjY3X0xlY3R1cmVfQzMwMGJfMDAxLm1vdgAAABwAAAABBgAAEAAAACAAAAA0AAAARAAAAFQAAAB8AAAAjAAAAAgAAAAEAwAApmcGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAADQXQkAAAAAAAgAAAAEAwAAZ5oJAAAAAAAIAAAABAMAAJaaCQAAAAAACAAAAAQDAAAPmwkAAAAAAAgAAAAEAwAALJoJAAAAAAAcAAAAAQYAAOgAAAD4AAAACAEAABgBAAAoAQAAOAEAAEgBAAAIAAAAAAQAAEG/3wk+AAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAABsAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzUxNF9Nb25kYXkvAAgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG8VonRAAAAJAAAAAEBAAA1Q0E3M0QzOS1BRTk3LTNGNjctOUVDMS1FRTdEQjlDODQwRDAYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABMAAAABAQAAL1ZvbHVtZXMvNTE0X01vbmRheQAIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAAAAMAAAAAAAAFIAAAbAIAAAAAAAAQIAAAfAIAAAAAAAARIAAAtAIAAAAAAAASIAAAlAIAAAAAAAATIAAApAIAAAAAAAAgIAAA4AIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAgAAAAAQYAAHQDAACAAwAAjAMAAIADAACAAwAAgAMAAIADAACAAwAAzAAAAP7///8BAAAADAMAABAAAAAEEAAAxAAAAAAAAAAFEAAAWAEAAAAAAAAQEAAAjAEAAAAAAABAEAAAfAEAAAAAAABUEAAAtAEAAAAAAABVEAAAtAEAAAAAAABWEAAArAEAAAAAAAAAIAAAmAMAAAAAAAACIAAAUAIAAAAAAAAFIAAAwAEAAAAAAAAQIAAAIAAAAAAAAAARIAAABAIAAAAAAAASIAAA5AEAAAAAAAATIAAA9AEAAAAAAAAgIAAAMAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r4",
+                            "name": "20171211_003_Physics267_Lecture_C300c_001",
+                            "uid": "9704D4C84E854910AF919C3A0E5AC3A8",
+                            "src": "file:///Volumes/514_Monday/Footage/20171211/20171211_003_Physics267_Lecture/C300c/20171211_003_Physics267_Lecture_C300c_001.mov",
+                            "start": "1090046958/24000s",
+                            "duration": "48720672/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va8QEAAAAAAQQMAAAAObrKx3liZjGRsbfX7o/5J1+2hgMOcf4/Voxa0lKQMfhwAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAKAAAAAQEAADUxNF9Nb25kYXkAAAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjExHwAAAAEBAAAyMDE3MTIxMV8wMDNfUGh5c2ljczI2N19MZWN0dXJlAAUAAAABAQAAQzMwMGMAAAAtAAAAAQEAADIwMTcxMjExXzAwM19QaHlzaWNzMjY3X0xlY3R1cmVfQzMwMGNfMDAxLm1vdgAAABwAAAABBgAAEAAAACAAAAA0AAAARAAAAFQAAAB8AAAAjAAAAAgAAAAEAwAApmcGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAADQXQkAAAAAAAgAAAAEAwAAZ5oJAAAAAAAIAAAABAMAAJaaCQAAAAAACAAAAAQDAAAQmwkAAAAAAAgAAAAEAwAAoZkJAAAAAAAcAAAAAQYAAOgAAAD4AAAACAEAABgBAAAoAQAAOAEAAEgBAAAIAAAAAAQAAEG/3wmUAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAABsAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzUxNF9Nb25kYXkvAAgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG8VonRAAAAJAAAAAEBAAA1Q0E3M0QzOS1BRTk3LTNGNjctOUVDMS1FRTdEQjlDODQwRDAYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABMAAAABAQAAL1ZvbHVtZXMvNTE0X01vbmRheQAIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAAAAMAAAAAAAAFIAAAbAIAAAAAAAAQIAAAfAIAAAAAAAARIAAAtAIAAAAAAAASIAAAlAIAAAAAAAATIAAApAIAAAAAAAAgIAAA4AIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAgAAAAAQYAAHQDAACAAwAAjAMAAIADAACAAwAAgAMAAIADAACAAwAAzAAAAP7///8BAAAADAMAABAAAAAEEAAAxAAAAAAAAAAFEAAAWAEAAAAAAAAQEAAAjAEAAAAAAABAEAAAfAEAAAAAAABUEAAAtAEAAAAAAABVEAAAtAEAAAAAAABWEAAArAEAAAAAAAAAIAAAmAMAAAAAAAACIAAAUAIAAAAAAAAFIAAAwAEAAAAAAAAQIAAAIAAAAAAAAAARIAAABAIAAAAAAAASIAAA5AEAAAAAAAATIAAA9AEAAAAAAAAgIAAAMAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r5",
+                            "name": "20171211_003_Physics267_Lecture_GH4_001",
+                            "uid": "34684093F9F0D294AC715DB82DD49B50",
+                            "src": "file:///Volumes/514_Monday/Footage/20171211/20171211_003_Physics267_Lecture/GH4/20171211_003_Physics267_Lecture_GH4_001.mov",
+                            "start": "1090236147/24000s",
+                            "duration": "45146101/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7wEAAAAAAQQMAAAAMMkeTUVm7IApsgBHBiCYY6jMeUljf3aSkXHInNlRJtEuAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAKAAAAAQEAADUxNF9Nb25kYXkAAAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjExHwAAAAEBAAAyMDE3MTIxMV8wMDNfUGh5c2ljczI2N19MZWN0dXJlAAMAAAABAQAAR0g0ACsAAAABAQAAMjAxNzEyMTFfMDAzX1BoeXNpY3MyNjdfTGVjdHVyZV9HSDRfMDAxLm1vdgAcAAAAAQYAABAAAAAgAAAANAAAAEQAAABUAAAAfAAAAIgAAAAIAAAABAMAAKZnBgAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAA0F0JAAAAAAAIAAAABAMAAGeaCQAAAAAACAAAAAQDAACWmgkAAAAAAAgAAAAEAwAAEZsJAAAAAAAIAAAABAMAAMCZCQAAAAAAHAAAAAEGAADgAAAA8AAAAAABAAAQAQAAIAEAADABAABAAQAACAAAAAAEAABBv+AjFQAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAEFAAAEAAAAAwMAAAYAAAAbAAAAAQkAAGZpbGU6Ly8vVm9sdW1lcy81MTRfTW9uZGF5LwAIAAAABAMAAADAJGPuAAAACAAAAAAEAABBvFaJ0QAAACQAAAABAQAANUNBNzNEMzktQUU5Ny0zRjY3LTlFQzEtRUU3REI5Qzg0MEQwGAAAAAECAAABAQAAAQAAAO8TAAABAAAAAAAAAAAAAAATAAAAAQEAAC9Wb2x1bWVzLzUxNF9Nb25kYXkACAAAAAEJAABmaWxlOi8vLw0AAAABAQAATExfUHJvZHVjdGlvbgAAAAgAAAAEAwAAAHCiR3QAAAAIAAAAAAQAAEG/PjyNAAAAJAAAAAEBAABGOENFMTlBNS01RjkwLTNDOTctOEYwMy1FN0UwQzBFRDM4RDIYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAPgCAAAAAAAABSAAAGQCAAAAAAAAECAAAHQCAAAAAAAAESAAAKwCAAAAAAAAEiAAAIwCAAAAAAAAEyAAAJwCAAAAAAAAICAAANgCAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAIAAAAAEGAABsAwAAeAMAAIQDAAB4AwAAeAMAAHgDAAB4AwAAeAMAAMwAAAD+////AQAAAAQDAAAQAAAABBAAALwAAAAAAAAABRAAAFABAAAAAAAAEBAAAIQBAAAAAAAAQBAAAHQBAAAAAAAAVBAAAKwBAAAAAAAAVRAAAKwBAAAAAAAAVhAAAKQBAAAAAAAAACAAAJADAAAAAAAAAiAAAEgCAAAAAAAABSAAALgBAAAAAAAAECAAACAAAAAAAAAAESAAAPwBAAAAAAAAEiAAANwBAAAAAAAAEyAAAOwBAAAAAAAAICAAACgCAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    }
+                ],
+                "format": [
+                    {
+                        "_attr": {
+                            "id": "r2",
+                            "name": "FFVideoFormat1080p2398",
+                            "frameDuration": "1001/24000s",
+                            "width": "1920",
+                            "height": "1080"
+                        }
+                    }
+                ],
+                "media": [
+                    {
+                        "_attr": {
+                            "id": "r6",
+                            "name": "20171211_003_Physics267_Lecture_MC",
+                            "uid": "Bsgio0asTIS9ufkqDZTREg",
+                            "modDate": "2017-12-12 10:51:41 -0500"
+                        },
+                        "multicam": [
+                            {
+                                "_attr": {
+                                    "format": "r2",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "1089886798/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "mc-angle": [
+                                    {
+                                        "_attr": {
+                                            "name": "C300a",
+                                            "angleID": "0000C300a"
+                                        },
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171211_003_Physics267_Lecture_C300a_001.mov",
+                                                    "offset": "0s",
+                                                    "ref": "r1",
+                                                    "duration": "48852804/24000s",
+                                                    "start": "1089886798/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "C300b",
+                                            "angleID": "0000C300b"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "107107/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171211_003_Physics267_Lecture_C300b_001.mov",
+                                                    "offset": "107107/24000s",
+                                                    "ref": "r3",
+                                                    "duration": "48756708/24000s",
+                                                    "start": "1089993905/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "C300c",
+                                            "angleID": "0000C300c"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "160160/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171211_003_Physics267_Lecture_C300c_001.mov",
+                                                    "offset": "160160/24000s",
+                                                    "ref": "r4",
+                                                    "duration": "48720672/24000s",
+                                                    "start": "1090046958/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "GH4",
+                                            "angleID": "0000GH4"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "349349/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171211_003_Physics267_Lecture_GH4_001.mov",
+                                                    "offset": "349349/24000s",
+                                                    "ref": "r5",
+                                                    "duration": "45146101/24000s",
+                                                    "start": "1090236147/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r7",
+                            "name": "20171211_003_Physics267_Lecture_MC_CC",
+                            "uid": "nIvrTjLvTUScUSZkn0Rdsg",
+                            "modDate": "2017-12-12 10:52:13 -0500"
+                        },
+                        "sequence": [
+                            {
+                                "_attr": {
+                                    "duration": "48880832/24000s",
+                                    "format": "r2",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "1089886798/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "spine": [
+                                    {
+                                        "mc-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171211_003_Physics267_Lecture_MC",
+                                                    "offset": "1089886798/24000s",
+                                                    "ref": "r6",
+                                                    "duration": "48880832/24000s",
+                                                    "start": "1089886798/24000s"
+                                                },
+                                                "mc-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "angleID": "0000C300a",
+                                                            "srcEnable": "all"
+                                                        },
+                                                        "filter-video": [
+                                                            {
+                                                                "_attr": {
+                                                                    "ref": "r8",
+                                                                    "name": "2.5_A"
+                                                                },
+                                                                "param": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/10619/1/100/101",
+                                                                            "value": "-19.3779 -232"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/10619/2/354/3001250100/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Line Spacing",
+                                                                            "key": "9999/32385/10619/2/354/3001250100/404",
+                                                                            "value": "-2"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/10619/2/369",
+                                                                            "value": "20171211_003_Physics267_Lecture"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20673/1/100/101",
+                                                                            "value": "-16.824 -180"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20673/2/354/3001250098/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20673/2/369",
+                                                                            "value": "Physics267: Lecture"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20837/1/100/101",
+                                                                            "value": "-443.584 -395"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20837/2/354/3001250102/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20837/2/369",
+                                                                            "value": "20171211:"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "mc-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171211_003_Physics267_Lecture_MC",
+                                                            "lane": "-3",
+                                                            "offset": "1089886798/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "48880832/24000s",
+                                                            "start": "1089886798/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300b",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r9",
+                                                                            "name": "C300b_New"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171211_003_Physics267_Lecture_MC",
+                                                            "lane": "-2",
+                                                            "offset": "1089886798/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "48880832/24000s",
+                                                            "start": "1089886798/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300c",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r10",
+                                                                            "name": "C300c_New"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171211_003_Physics267_Lecture_MC",
+                                                            "lane": "-1",
+                                                            "offset": "1089886798/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "48880832/24000s",
+                                                            "start": "1089886798/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300c",
+                                                                    "srcEnable": "none"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r11",
+                                                                            "name": "2.5_B"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000GH4",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r12",
+                                                                            "name": "GH4a_New"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "effect": [
+                    {
+                        "_attr": {
+                            "id": "r8",
+                            "name": "2.5_A",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r9",
+                            "name": "C300b_New",
+                            "uid": "~/Effects.localized/layouts-2018-NEW/layouts-2018/C300b_New/C300b_New.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/layouts-2018-NEW/layouts-2018/C300b_New/C300b_New.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r10",
+                            "name": "C300c_New",
+                            "uid": "~/Effects.localized/layouts-2018-NEW/layouts-2018/C300c_New/C300c_New.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/layouts-2018-NEW/layouts-2018/C300c_New/C300c_New.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r11",
+                            "name": "2.5_B",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r12",
+                            "name": "GH4a_New",
+                            "uid": "~/Effects.localized/layouts-2018-NEW/layouts-2018/GH4a_New/GH4a_New.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/layouts-2018-NEW/layouts-2018/GH4a_New/GH4a_New.moef"
+                        }
+                    }
+                ]
+            }
+        ],
+        "library": [
+            {
+                "_attr": {
+                    "location": "file:///Volumes/514_Monday/FCP%20Libs/20171211_MC_CC_Ex.fcpbundle/"
+                },
+                "event": [
+                    {
+                        "_attr": {
+                            "name": "20171211_003_Physics267_Lecture",
+                            "uid": "C119828B-9B43-49AE-81A6-0B185652E2FA"
+                        },
+                        "asset-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171211_003_Physics267_Lecture_C300a_001",
+                                    "ref": "r1",
+                                    "duration": "48852804/24000s",
+                                    "start": "1089886798/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-12 10:47:21 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "544943399/12000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.08989e+09s",
+                                            "duration": "48852804/24000s",
+                                            "value": "20171211_003_Physics267_Lecture, C300a"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171211_003_Physics267_Lecture_C300b_001",
+                                    "ref": "r3",
+                                    "duration": "48756708/24000s",
+                                    "start": "1089993905/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-12 10:47:21 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "217998781/4800s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.08999e+09s",
+                                            "duration": "48756708/24000s",
+                                            "value": "20171211_003_Physics267_Lecture, C300b"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171211_003_Physics267_Lecture_C300c_001",
+                                    "ref": "r4",
+                                    "duration": "48720672/24000s",
+                                    "start": "1090046958/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-12 10:47:21 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "181674493/4000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.09005e+09s",
+                                            "duration": "48720672/24000s",
+                                            "value": "20171211_003_Physics267_Lecture, C300c"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171211_003_Physics267_Lecture_GH4_001",
+                                    "ref": "r5",
+                                    "duration": "45146101/24000s",
+                                    "start": "1090236147/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-12 10:47:21 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "363412049/8000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.09024e+09s",
+                                            "duration": "45146101/24000s",
+                                            "value": "20171211_003_Physics267_Lecture, GH4"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "mc-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171211_003_Physics267_Lecture_MC",
+                                    "ref": "r6",
+                                    "duration": "48880832/24000s",
+                                    "start": "1089886798/24000s",
+                                    "modDate": "2017-12-12 10:47:21 -0500"
+                                },
+                                "mc-source": [
+                                    {
+                                        "_attr": {
+                                            "angleID": "0000C300a",
+                                            "srcEnable": "all"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "ref-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171211_003_Physics267_Lecture_MC_CC",
+                                    "ref": "r7",
+                                    "duration": "48880832/24000s",
+                                    "start": "1089886798/24000s",
+                                    "modDate": "2017-12-12 10:52:13 -0500"
+                                }
+                            }
+                        ],
+                        "project": [
+                            {
+                                "_attr": {
+                                    "name": "20171211_003_Physics267_Lecture_MC_CC_Ex",
+                                    "uid": "AFBB8FE1-2710-48C4-8F07-15F4E8195FC0",
+                                    "modDate": "2017-12-12 10:52:13 -0500"
+                                },
+                                "sequence": [
+                                    {
+                                        "_attr": {
+                                            "duration": "48880832/24000s",
+                                            "format": "r2",
+                                            "renderColorSpace": "Rec. 709",
+                                            "tcStart": "0s",
+                                            "tcFormat": "NDF",
+                                            "audioLayout": "stereo",
+                                            "audioRate": "48k"
+                                        },
+                                        "spine": [
+                                            {
+                                                "ref-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171211_003_Physics267_Lecture_MC_CC",
+                                                            "offset": "0s",
+                                                            "ref": "r7",
+                                                            "duration": "48880832/24000s",
+                                                            "start": "1089886798/24000s"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "keyword-collection": [
+                            {
+                                "_attr": {
+                                    "name": "20171211_003_Physics267_Lecture"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300a"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "first 24 frames"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300b"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300c"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "GH4"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

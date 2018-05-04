@@ -1,0 +1,968 @@
+{
+    "fcpxml": {
+        "_attr": {
+            "version": "1.5"
+        },
+        "resources": [
+            {
+                "format": [
+                    {
+                        "_attr": {
+                            "id": "r1",
+                            "name": "FFVideoFormat1080p2398",
+                            "frameDuration": "1001/24000s",
+                            "width": "1920",
+                            "height": "1080"
+                        }
+                    }
+                ],
+                "asset": [
+                    {
+                        "_attr": {
+                            "id": "r2",
+                            "name": "20171206_005_MCB81_Jambay_C300a_001",
+                            "uid": "91A80BB85DDDE8F95A625B417A33E74B",
+                            "src": "file:///Volumes/516_Wednesday/_footage/20171206/20171206_005_MCB81_Jambay/C300a/20171206_005_MCB81_Jambay_C300a_001.mov",
+                            "start": "1102439338/24000s",
+                            "duration": "106330224/24000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va4gEAAAAAAQQMAAAALTCMzaCjSpxoRa/4cgUG7ykiQGLoPZKjzHLZziUiRpSqAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwANAAAAAQEAADUxNl9XZWRuZXNkYXkAAAAIAAAAAQEAAF9mb290YWdlCAAAAAEBAAAyMDE3MTIwNhkAAAABAQAAMjAxNzEyMDZfMDA1X01DQjgxX0phbWJheQAAAAUAAAABAQAAQzMwMGEAAAAnAAAAAQEAADIwMTcxMjA2XzAwNV9NQ0I4MV9KYW1iYXlfQzMwMGFfMDAxLm1vdgAcAAAAAQYAABAAAAAgAAAAOAAAAEgAAABYAAAAfAAAAIwAAAAIAAAABAMAAKZhBgAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAQ94HAAAAAAAIAAAABAMAAHJaCAAAAAAACAAAAAQDAAAjXggAAAAAAAgAAAAEAwAAJV4IAAAAAAAIAAAABAMAAHJdCAAAAAAAHAAAAAEGAADgAAAA8AAAAAABAAAQAQAAIAEAADABAABAAQAACAAAAAAEAABBv9hyPgAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAHgAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvNTE2X1dlZG5lc2RheS8AAAgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG8X833AAAAJAAAAAEBAABEM0ZGODFDNi01RTgwLTNEQTItOTUwNi02M0MwRTRCOUVDMjIYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABYAAAABAQAAL1ZvbHVtZXMvNTE2X1dlZG5lc2RheQAACAAAAAEJAABmaWxlOi8vLwsAAAABAQAATEwtMjAxNy0xMDkACAAAAAQDAAAAACIP1QIAAAgAAAAABAAAQb6yfGAAAAAkAAAAAQEAADcwREFBOTQ0LUZGOTEtMzAxMC05MzhGLTczNDY0NkI2RjdFMxgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA6AIAAAAAAAAFIAAAWAIAAAAAAAAQIAAAaAIAAAAAAAARIAAAnAIAAAAAAAASIAAAfAIAAAAAAAATIAAAjAIAAAAAAAAgIAAAyAIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAgAAAAAQYAAFwDAABoAwAAdAMAAGgDAABoAwAAaAMAAGgDAABoAwAAqAAAAP7///8BAAAA9AIAAA0AAAAEEAAAvAAAAAAAAAAFEAAAUAEAAAAAAAAQEAAAhAEAAAAAAABAEAAAdAEAAAAAAAAAIAAAgAMAAAAAAAACIAAAOAIAAAAAAAAFIAAApAEAAAAAAAAQIAAAIAAAAAAAAAARIAAA7AEAAAAAAAASIAAAzAEAAAAAAAATIAAA3AEAAAAAAAAgIAAAGAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r3",
+                            "name": "20171206_005_MCB81_Jambay_C300b_001",
+                            "uid": "2A94B6C53EA40AA3F7F336387E10BCED",
+                            "src": "file:///Volumes/516_Wednesday/_footage/20171206/20171206_005_MCB81_Jambay/C300b/20171206_005_MCB81_Jambay_C300b_001.mov",
+                            "start": "1102500399/24000s",
+                            "duration": "106174068/24000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va4gEAAAAAAQQMAAAAGaKSz68rDbbF9ZafQKCP1AzRUZBDTZwWFPGDB+ENKqfqAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwANAAAAAQEAADUxNl9XZWRuZXNkYXkAAAAIAAAAAQEAAF9mb290YWdlCAAAAAEBAAAyMDE3MTIwNhkAAAABAQAAMjAxNzEyMDZfMDA1X01DQjgxX0phbWJheQAAAAUAAAABAQAAQzMwMGIAAAAnAAAAAQEAADIwMTcxMjA2XzAwNV9NQ0I4MV9KYW1iYXlfQzMwMGJfMDAxLm1vdgAcAAAAAQYAABAAAAAgAAAAOAAAAEgAAABYAAAAfAAAAIwAAAAIAAAABAMAAKZhBgAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAQ94HAAAAAAAIAAAABAMAAHJaCAAAAAAACAAAAAQDAAAjXggAAAAAAAgAAAAEAwAAJl4IAAAAAAAIAAAABAMAAF5dCAAAAAAAHAAAAAEGAADgAAAA8AAAAAABAAAQAQAAIAEAADABAABAAQAACAAAAAAEAABBv9hyRAAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAHgAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvNTE2X1dlZG5lc2RheS8AAAgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG8X833AAAAJAAAAAEBAABEM0ZGODFDNi01RTgwLTNEQTItOTUwNi02M0MwRTRCOUVDMjIYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABYAAAABAQAAL1ZvbHVtZXMvNTE2X1dlZG5lc2RheQAACAAAAAEJAABmaWxlOi8vLwsAAAABAQAATEwtMjAxNy0xMDkACAAAAAQDAAAAACIP1QIAAAgAAAAABAAAQb6yfGAAAAAkAAAAAQEAADcwREFBOTQ0LUZGOTEtMzAxMC05MzhGLTczNDY0NkI2RjdFMxgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA6AIAAAAAAAAFIAAAWAIAAAAAAAAQIAAAaAIAAAAAAAARIAAAnAIAAAAAAAASIAAAfAIAAAAAAAATIAAAjAIAAAAAAAAgIAAAyAIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAgAAAAAQYAAFwDAABoAwAAdAMAAGgDAABoAwAAaAMAAGgDAABoAwAAqAAAAP7///8BAAAA9AIAAA0AAAAEEAAAvAAAAAAAAAAFEAAAUAEAAAAAAAAQEAAAhAEAAAAAAABAEAAAdAEAAAAAAAAAIAAAgAMAAAAAAAACIAAAOAIAAAAAAAAFIAAApAEAAAAAAAAQIAAAIAAAAAAAAAARIAAA7AEAAAAAAAASIAAAzAEAAAAAAAATIAAA3AEAAAAAAAAgIAAAGAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r4",
+                            "name": "20171206_005_MCB81_Jambay_C300c_001",
+                            "uid": "6961D5A356F982C5084DDAF787AFE9B0",
+                            "src": "file:///Volumes/516_Wednesday/_footage/20171206/20171206_005_MCB81_Jambay/C300c/20171206_005_MCB81_Jambay_C300c_001.mov",
+                            "start": "1102473372/24000s",
+                            "duration": "106342236/24000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va4gEAAAAAAQQMAAAAMWSHE4KkxRt9DFRY6FTX3aImIixeKCyBzvbtIcDjpJsqAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwANAAAAAQEAADUxNl9XZWRuZXNkYXkAAAAIAAAAAQEAAF9mb290YWdlCAAAAAEBAAAyMDE3MTIwNhkAAAABAQAAMjAxNzEyMDZfMDA1X01DQjgxX0phbWJheQAAAAUAAAABAQAAQzMwMGMAAAAnAAAAAQEAADIwMTcxMjA2XzAwNV9NQ0I4MV9KYW1iYXlfQzMwMGNfMDAxLm1vdgAcAAAAAQYAABAAAAAgAAAAOAAAAEgAAABYAAAAfAAAAIwAAAAIAAAABAMAAKZhBgAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAQ94HAAAAAAAIAAAABAMAAHJaCAAAAAAACAAAAAQDAAAjXggAAAAAAAgAAAAEAwAAtl4IAAAAAAAIAAAABAMAAAdeCAAAAAAAHAAAAAEGAADgAAAA8AAAAAABAAAQAQAAIAEAADABAABAAQAACAAAAAAEAABBv9hylwAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAHgAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvNTE2X1dlZG5lc2RheS8AAAgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG8X833AAAAJAAAAAEBAABEM0ZGODFDNi01RTgwLTNEQTItOTUwNi02M0MwRTRCOUVDMjIYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABYAAAABAQAAL1ZvbHVtZXMvNTE2X1dlZG5lc2RheQAACAAAAAEJAABmaWxlOi8vLwsAAAABAQAATEwtMjAxNy0xMDkACAAAAAQDAAAAACIP1QIAAAgAAAAABAAAQb6yfGAAAAAkAAAAAQEAADcwREFBOTQ0LUZGOTEtMzAxMC05MzhGLTczNDY0NkI2RjdFMxgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA6AIAAAAAAAAFIAAAWAIAAAAAAAAQIAAAaAIAAAAAAAARIAAAnAIAAAAAAAASIAAAfAIAAAAAAAATIAAAjAIAAAAAAAAgIAAAyAIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAgAAAAAQYAAFwDAABoAwAAdAMAAGgDAABoAwAAaAMAAGgDAABoAwAAqAAAAP7///8BAAAA9AIAAA0AAAAEEAAAvAAAAAAAAAAFEAAAUAEAAAAAAAAQEAAAhAEAAAAAAABAEAAAdAEAAAAAAAAAIAAAgAMAAAAAAAACIAAAOAIAAAAAAAAFIAAApAEAAAAAAAAQIAAAIAAAAAAAAAARIAAA7AEAAAAAAAASIAAAzAEAAAAAAAATIAAA3AEAAAAAAAAgIAAAGAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r5",
+                            "name": "20171206_005_MCB81_Jambay_GH4_001",
+                            "uid": "0A9617B1258765FB60D31CF33874FC05",
+                            "src": "file:///Volumes/516_Wednesday/_footage/20171206/20171206_005_MCB81_Jambay/GH4/20171206_005_MCB81_Jambay_GH4_001.mov",
+                            "start": "1102559458/24000s",
+                            "duration": "106273167/24000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va4QEAAAAAAQQMAAAAHfUXATQwWsNmZV8xROKNRp6paXP3YuDhkzILaXixqJ2pAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwANAAAAAQEAADUxNl9XZWRuZXNkYXkAAAAIAAAAAQEAAF9mb290YWdlCAAAAAEBAAAyMDE3MTIwNhkAAAABAQAAMjAxNzEyMDZfMDA1X01DQjgxX0phbWJheQAAAAMAAAABAQAAR0g0ACUAAAABAQAAMjAxNzEyMDZfMDA1X01DQjgxX0phbWJheV9HSDRfMDAxLm1vdgAAABwAAAABBgAAEAAAACAAAAA4AAAASAAAAFgAAAB8AAAAiAAAAAgAAAAEAwAApmEGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAABD3gcAAAAAAAgAAAAEAwAAcloIAAAAAAAIAAAABAMAACNeCAAAAAAACAAAAAQDAAAoXggAAAAAAAgAAAAEAwAAkl0IAAAAAAAcAAAAAQYAANwAAADsAAAA/AAAAAwBAAAcAQAALAEAADwBAAAIAAAAAAQAAEG/2YnPAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAeAAAAAQkAAGZpbGU6Ly8vVm9sdW1lcy81MTZfV2VkbmVzZGF5LwAACAAAAAQDAAAAwCRj7gAAAAgAAAAABAAAQbxfzfcAAAAkAAAAAQEAAEQzRkY4MUM2LTVFODAtM0RBMi05NTA2LTYzQzBFNEI5RUMyMhgAAAABAgAAAQEAAAEAAADvEwAAAQAAAAAAAAAAAAAAFgAAAAEBAAAvVm9sdW1lcy81MTZfV2VkbmVzZGF5AAAIAAAAAQkAAGZpbGU6Ly8vCwAAAAEBAABMTC0yMDE3LTEwOQAIAAAABAMAAAAAIg/VAgAACAAAAAAEAABBvrJ8YAAAACQAAAABAQAANzBEQUE5NDQtRkY5MS0zMDEwLTkzOEYtNzM0NjQ2QjZGN0UzGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAABgAAAA/v///wDwAAAAAAAABwAAAAIgAADkAgAAAAAAAAUgAABUAgAAAAAAABAgAABkAgAAAAAAABEgAACYAgAAAAAAABIgAAB4AgAAAAAAABMgAACIAgAAAAAAACAgAADEAgAAAAAAAAQAAAADAwAAAPAAAAQAAAADAwAAAAAAAAQAAAADAwAAAQAAACAAAAABBgAAWAMAAGQDAABwAwAAZAMAAGQDAABkAwAAZAMAAGQDAACoAAAA/v///wEAAADwAgAADQAAAAQQAAC4AAAAAAAAAAUQAABMAQAAAAAAABAQAACAAQAAAAAAAEAQAABwAQAAAAAAAAAgAAB8AwAAAAAAAAIgAAA0AgAAAAAAAAUgAACgAQAAAAAAABAgAAAgAAAAAAAAABEgAADoAQAAAAAAABIgAADIAQAAAAAAABMgAADYAQAAAAAAACAgAAAUAgAAAAAAABDQAAAEAAAAAAAAAA=="
+                        ]
+                    }
+                ],
+                "media": [
+                    {
+                        "_attr": {
+                            "id": "r6",
+                            "name": "20171206_005_MCB81_Jambay_MC",
+                            "uid": "53hOLA9eT9Ob9zjW8arCQw"
+                        },
+                        "multicam": [
+                            {
+                                "_attr": {
+                                    "format": "r1",
+                                    "tcStart": "1102439338/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "mc-angle": [
+                                    {
+                                        "_attr": {
+                                            "name": "C300a",
+                                            "angleID": "0000C300a"
+                                        },
+                                        "clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171206_005_MCB81_Jambay_C300a_001.mov",
+                                                    "offset": "0s",
+                                                    "duration": "106330224/24000s",
+                                                    "start": "1102439338/24000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171206_005_MCB81_Jambay_C300a_001 - v1",
+                                                            "offset": "1102439338/24000s",
+                                                            "ref": "r2",
+                                                            "duration": "106330224/24000s",
+                                                            "start": "1102439338/24000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "_attr": {
+                                                                    "name": "20171206_005_MCB81_Jambay_C300a_001 - a1",
+                                                                    "lane": "-1",
+                                                                    "offset": "33073180140/720000s",
+                                                                    "ref": "r2",
+                                                                    "duration": "3189906720/720000s",
+                                                                    "start": "33073180140/720000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "audio-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "C300b",
+                                            "angleID": "0000C300b"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "60060/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171206_005_MCB81_Jambay_C300b_001.mov",
+                                                    "offset": "60060/24000s",
+                                                    "duration": "106174068/24000s",
+                                                    "start": "1102500399/24000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171206_005_MCB81_Jambay_C300b_001 - v1",
+                                                            "offset": "1102500399/24000s",
+                                                            "ref": "r3",
+                                                            "duration": "106174068/24000s",
+                                                            "start": "1102500399/24000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "_attr": {
+                                                                    "name": "20171206_005_MCB81_Jambay_C300b_001 - a1",
+                                                                    "lane": "-1",
+                                                                    "offset": "33075011970/720000s",
+                                                                    "ref": "r3",
+                                                                    "duration": "3185222040/720000s",
+                                                                    "start": "33075011970/720000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "audio-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "C300c",
+                                            "angleID": "0000C300c"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "34034/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171206_005_MCB81_Jambay_C300c_001.mov",
+                                                    "offset": "34034/24000s",
+                                                    "duration": "106342236/24000s",
+                                                    "start": "1102473372/24000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171206_005_MCB81_Jambay_C300c_001 - v1",
+                                                            "offset": "1102473372/24000s",
+                                                            "ref": "r4",
+                                                            "duration": "106342236/24000s",
+                                                            "start": "1102473372/24000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "_attr": {
+                                                                    "name": "20171206_005_MCB81_Jambay_C300c_001 - a1",
+                                                                    "lane": "-1",
+                                                                    "offset": "33074201160/720000s",
+                                                                    "ref": "r4",
+                                                                    "duration": "3190267080/720000s",
+                                                                    "start": "33074201160/720000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "audio-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "GH4",
+                                            "angleID": "0000GH4"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "117117/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171206_005_MCB81_Jambay_GH4_001.mov",
+                                                    "offset": "117117/24000s",
+                                                    "duration": "106273167/24000s",
+                                                    "start": "1102559458/24000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171206_005_MCB81_Jambay_GH4_001 - v1",
+                                                            "offset": "1102559458/24000s",
+                                                            "ref": "r5",
+                                                            "duration": "106273167/24000s",
+                                                            "start": "1102559458/24000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "_attr": {
+                                                                    "name": "20171206_005_MCB81_Jambay_GH4_001 - a1",
+                                                                    "lane": "-1",
+                                                                    "offset": "33076783740/720000s",
+                                                                    "ref": "r5",
+                                                                    "duration": "3188195010/720000s",
+                                                                    "start": "33076783740/720000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "audio-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r7",
+                            "name": "20171206_005_MCB81_Jambay_MC_CC",
+                            "uid": "fgjdhz1NTUC/R0mvQ1Qidw"
+                        },
+                        "sequence": [
+                            {
+                                "_attr": {
+                                    "duration": "106393287/24000s",
+                                    "format": "r1",
+                                    "tcStart": "1102439338/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "spine": [
+                                    {
+                                        "mc-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171206_005_MCB81_Jambay_MC",
+                                                    "offset": "1102439338/24000s",
+                                                    "ref": "r6",
+                                                    "duration": "106393287/24000s",
+                                                    "start": "1102439338/24000s"
+                                                },
+                                                "mc-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "angleID": "0000C300a",
+                                                            "srcEnable": "all"
+                                                        },
+                                                        "filter-video": [
+                                                            {
+                                                                "_attr": {
+                                                                    "ref": "r8",
+                                                                    "name": "2.5_A"
+                                                                },
+                                                                "param": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/10619/1/100/101",
+                                                                            "value": "-19.3779 -232"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/10619/2/354/35520/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Line Spacing",
+                                                                            "key": "9999/32385/10619/2/354/35520/404",
+                                                                            "value": "-2"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/10619/2/369",
+                                                                            "value": "20171206_005_MCB81_Jambay"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20673/1/100/101",
+                                                                            "value": "-16.824 -180"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20673/2/354/35518/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20673/2/369",
+                                                                            "value": "MCB81: Jambay"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20837/1/100/101",
+                                                                            "value": "-443.584 -395"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20837/2/354/35522/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20837/2/369",
+                                                                            "value": "20171206:"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "mc-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171206_005_MCB81_Jambay_MC",
+                                                            "lane": "-3",
+                                                            "offset": "1102439338/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "106393287/24000s",
+                                                            "start": "1102439338/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300b",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r9",
+                                                                            "name": "GH4-cam-2018-master"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171206_005_MCB81_Jambay_MC",
+                                                            "lane": "-2",
+                                                            "offset": "1102439338/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "106393287/24000s",
+                                                            "start": "1102439338/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300c",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r10",
+                                                                            "name": "cam_c_test"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171206_005_MCB81_Jambay_MC",
+                                                            "lane": "-1",
+                                                            "offset": "1102439338/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "106393287/24000s",
+                                                            "start": "1102439338/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300c",
+                                                                    "srcEnable": "none"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r11",
+                                                                            "name": "2.5_B"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000GH4",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r12",
+                                                                            "name": "C300b-cam-2018-master"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "effect": [
+                    {
+                        "_attr": {
+                            "id": "r8",
+                            "name": "2.5_A",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r9",
+                            "name": "GH4-cam-2018-master",
+                            "uid": "~/Effects.localized/layouts-2018/GH4-cam-2018-master/GH4-cam-2018-master.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r10",
+                            "name": "cam_c_test",
+                            "uid": "~/Effects.localized/layouts-2018/layouts-2018/cam_c_test/cam_c_test.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r11",
+                            "name": "2.5_B",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r12",
+                            "name": "C300b-cam-2018-master",
+                            "uid": "~/Effects.localized/layouts-2018/C300b-cam-2018-master/C300b-cam-2018-master.moef"
+                        }
+                    }
+                ]
+            }
+        ],
+        "library": [
+            {
+                "_attr": {
+                    "location": "file:///Volumes/516_Wednesday/_libraries/20171206_MC_CC_Ex.fcpbundle/"
+                },
+                "event": [
+                    {
+                        "_attr": {
+                            "name": "20171206_005_MCB81_Jambay",
+                            "uid": "BBE28E4C-A5A5-4451-817B-136467F47431"
+                        },
+                        "clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171206_005_MCB81_Jambay_C300a_001",
+                                    "duration": "106330224/24000s",
+                                    "start": "1102439338/24000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF"
+                                },
+                                "video": [
+                                    {
+                                        "_attr": {
+                                            "offset": "1102439338/24000s",
+                                            "ref": "r2",
+                                            "duration": "106330224/24000s",
+                                            "start": "1102439338/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "33073180140/720000s",
+                                                    "ref": "r2",
+                                                    "duration": "3189906720/720000s",
+                                                    "start": "33073180140/720000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "551219669/12000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.10244e+09s",
+                                            "duration": "106330224/24000s",
+                                            "value": "20171206_005_MCB81_Jambay, C300a"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171206_005_MCB81_Jambay_C300b_001",
+                                    "duration": "106174068/24000s",
+                                    "start": "1102500399/24000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF"
+                                },
+                                "video": [
+                                    {
+                                        "_attr": {
+                                            "offset": "1102500399/24000s",
+                                            "ref": "r3",
+                                            "duration": "106174068/24000s",
+                                            "start": "1102500399/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "33075011970/720000s",
+                                                    "ref": "r3",
+                                                    "duration": "3185222040/720000s",
+                                                    "start": "33075011970/720000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "367500133/8000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.1025e+09s",
+                                            "duration": "106174068/24000s",
+                                            "value": "20171206_005_MCB81_Jambay, C300b"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171206_005_MCB81_Jambay_C300c_001",
+                                    "duration": "106342236/24000s",
+                                    "start": "1102473372/24000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF"
+                                },
+                                "video": [
+                                    {
+                                        "_attr": {
+                                            "offset": "1102473372/24000s",
+                                            "ref": "r4",
+                                            "duration": "106342236/24000s",
+                                            "start": "1102473372/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "33074201160/720000s",
+                                                    "ref": "r4",
+                                                    "duration": "3190267080/720000s",
+                                                    "start": "33074201160/720000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "91872781/2000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.10247e+09s",
+                                            "duration": "106342236/24000s",
+                                            "value": "20171206_005_MCB81_Jambay, C300c"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171206_005_MCB81_Jambay_GH4_001",
+                                    "duration": "106273167/24000s",
+                                    "start": "1102559458/24000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF"
+                                },
+                                "video": [
+                                    {
+                                        "_attr": {
+                                            "offset": "1102559458/24000s",
+                                            "ref": "r5",
+                                            "duration": "106273167/24000s",
+                                            "start": "1102559458/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "33076783740/720000s",
+                                                    "ref": "r5",
+                                                    "duration": "3188195010/720000s",
+                                                    "start": "33076783740/720000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "551279729/12000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.10256e+09s",
+                                            "duration": "106273167/24000s",
+                                            "value": "20171206_005_MCB81_Jambay, GH4"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "mc-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171206_005_MCB81_Jambay_MC",
+                                    "ref": "r6",
+                                    "duration": "106390284/24000s",
+                                    "start": "1102439338/24000s"
+                                },
+                                "mc-source": [
+                                    {
+                                        "_attr": {
+                                            "angleID": "0000C300a",
+                                            "srcEnable": "all"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "ref-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171206_005_MCB81_Jambay_MC_CC",
+                                    "ref": "r7",
+                                    "duration": "106393287/24000s",
+                                    "start": "1102439338/24000s"
+                                }
+                            }
+                        ],
+                        "project": [
+                            {
+                                "_attr": {
+                                    "name": "20171206_005_MCB81_Jambay_MC_CC_Ex",
+                                    "uid": "A1B8A36C-8981-4077-A1A1-7F166C91F387"
+                                },
+                                "sequence": [
+                                    {
+                                        "_attr": {
+                                            "duration": "106393287/24000s",
+                                            "format": "r1",
+                                            "tcStart": "0s",
+                                            "tcFormat": "NDF",
+                                            "audioLayout": "stereo",
+                                            "audioRate": "48k"
+                                        },
+                                        "spine": [
+                                            {
+                                                "ref-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171206_005_MCB81_Jambay_MC_CC",
+                                                            "offset": "0s",
+                                                            "ref": "r7",
+                                                            "duration": "106393287/24000s",
+                                                            "start": "1102439338/24000s"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "keyword-collection": [
+                            {
+                                "_attr": {
+                                    "name": "20171206_005_MCB81_Jambay"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300a"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "first 24 frames"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300b"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300c"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "GH4"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

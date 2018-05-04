@@ -1,0 +1,856 @@
+{
+    "fcpxml": {
+        "_attr": {
+            "version": "1.6"
+        },
+        "resources": [
+            {
+                "asset": [
+                    {
+                        "_attr": {
+                            "id": "r1",
+                            "name": "20171206_009_ArtOfLooking_Assets_C100a_001",
+                            "uid": "35051CDF5E61DEFE709A7CF25E6B44A1",
+                            "src": "file:///Volumes/515_Tuesday/Footage/Wednesday20171106/20171206_009_ArtOfLooking_Assets/C100a/20171206_009_ArtOfLooking_Assets_C100a_001.mov",
+                            "start": "4126293171/72000s",
+                            "duration": "1081080/72000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va9AEAAAAAAQQMAAAAKMqmBvxuUDwEqjsBVlR+7pva9V+QiRlf6ohP4UNccO5zAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwALAAAAAQEAADUxNV9UdWVzZGF5AAcAAAABAQAARm9vdGFnZQARAAAAAQEAAFdlZG5lc2RheTIwMTcxMTA2AAAAIAAAAAEBAAAyMDE3MTIwNl8wMDlfQXJ0T2ZMb29raW5nX0Fzc2V0cwUAAAABAQAAQzEwMGEAAAAuAAAAAQEAADIwMTcxMjA2XzAwOV9BcnRPZkxvb2tpbmdfQXNzZXRzX0MxMDBhXzAwMS5tb3YAABwAAAABBgAAEAAAACAAAAA0AAAARAAAAGAAAACIAAAAmAAAAAgAAAAEAwAApmcGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAAC5fgYAAAAAAAgAAAAEAwAAqLkGAAAAAAAIAAAABAMAAKq5BgAAAAAACAAAAAQDAACuuQYAAAAAAAgAAAAEAwAAxrkGAAAAAAAcAAAAAQYAAPQAAAAEAQAAFAEAACQBAAA0AQAARAEAAFQBAAAIAAAAAAQAAEG/2I5RAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAABwAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzUxNV9UdWVzZGF5LwgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG8EzDVAAAAJAAAAAEBAABERTJCRkYxOC1BNDY3LTM4NDYtOUYyOC01OUQ3QTZEM0U5ODYYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABQAAAABAQAAL1ZvbHVtZXMvNTE1X1R1ZXNkYXkIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAADAMAAAAAAAAFIAAAeAIAAAAAAAAQIAAAiAIAAAAAAAARIAAAwAIAAAAAAAASIAAAoAIAAAAAAAATIAAAsAIAAAAAAAAgIAAA7AIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAgAAAAAQYAAIADAACMAwAAmAMAAIwDAACMAwAAjAMAAIwDAACMAwAAzAAAAP7///8BAAAAGAMAABAAAAAEEAAA0AAAAAAAAAAFEAAAZAEAAAAAAAAQEAAAmAEAAAAAAABAEAAAiAEAAAAAAABUEAAAwAEAAAAAAABVEAAAwAEAAAAAAABWEAAAuAEAAAAAAAAAIAAApAMAAAAAAAACIAAAXAIAAAAAAAAFIAAAzAEAAAAAAAAQIAAAIAAAAAAAAAARIAAAEAIAAAAAAAASIAAA8AEAAAAAAAATIAAAAAIAAAAAAAAgIAAAPAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r3",
+                            "name": "20171206_009_ArtOfLooking_Assets_C100a_002",
+                            "uid": "1B6B492EF6AEE8880ECF57002FAA593C",
+                            "src": "file:///Volumes/515_Tuesday/Footage/Wednesday20171106/20171206_009_ArtOfLooking_Assets/C100a/20171206_009_ArtOfLooking_Assets_C100a_002.mov",
+                            "start": "4130275149/72000s",
+                            "duration": "49801752/72000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va9AEAAAAAAQQMAAAAD636cKkx8Go4AIN6tvm/0D1wpWG1UByVdqnjBcYNNlRzAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwALAAAAAQEAADUxNV9UdWVzZGF5AAcAAAABAQAARm9vdGFnZQARAAAAAQEAAFdlZG5lc2RheTIwMTcxMTA2AAAAIAAAAAEBAAAyMDE3MTIwNl8wMDlfQXJ0T2ZMb29raW5nX0Fzc2V0cwUAAAABAQAAQzEwMGEAAAAuAAAAAQEAADIwMTcxMjA2XzAwOV9BcnRPZkxvb2tpbmdfQXNzZXRzX0MxMDBhXzAwMi5tb3YAABwAAAABBgAAEAAAACAAAAA0AAAARAAAAGAAAACIAAAAmAAAAAgAAAAEAwAApmcGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAAC5fgYAAAAAAAgAAAAEAwAAqLkGAAAAAAAIAAAABAMAAKq5BgAAAAAACAAAAAQDAACuuQYAAAAAAAgAAAAEAwAAx7kGAAAAAAAcAAAAAQYAAPQAAAAEAQAAFAEAACQBAAA0AQAARAEAAFQBAAAIAAAAAAQAAEG/2I5SAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAABwAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzUxNV9UdWVzZGF5LwgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG8EzDVAAAAJAAAAAEBAABERTJCRkYxOC1BNDY3LTM4NDYtOUYyOC01OUQ3QTZEM0U5ODYYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABQAAAABAQAAL1ZvbHVtZXMvNTE1X1R1ZXNkYXkIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAADAMAAAAAAAAFIAAAeAIAAAAAAAAQIAAAiAIAAAAAAAARIAAAwAIAAAAAAAASIAAAoAIAAAAAAAATIAAAsAIAAAAAAAAgIAAA7AIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAgAAAAAQYAAIADAACMAwAAmAMAAIwDAACMAwAAjAMAAIwDAACMAwAAzAAAAP7///8BAAAAGAMAABAAAAAEEAAA0AAAAAAAAAAFEAAAZAEAAAAAAAAQEAAAmAEAAAAAAABAEAAAiAEAAAAAAABUEAAAwAEAAAAAAABVEAAAwAEAAAAAAABWEAAAuAEAAAAAAAAAIAAApAMAAAAAAAACIAAAXAIAAAAAAAAFIAAAzAEAAAAAAAAQIAAAIAAAAAAAAAARIAAAEAIAAAAAAAASIAAA8AEAAAAAAAATIAAAAAIAAAAAAAAgIAAAPAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r4",
+                            "name": "20171206_009_ArtOfLooking_Assets_C100a_003",
+                            "uid": "830476A55C8EB5B4B9AF6C216BD02C80",
+                            "src": "file:///Volumes/515_Tuesday/Footage/Wednesday20171106/20171206_009_ArtOfLooking_Assets/C100a/20171206_009_ArtOfLooking_Assets_C100a_003.mov",
+                            "start": "4198542348/72000s",
+                            "duration": "100504404/72000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va9AEAAAAAAQQMAAAAGc+25dikNw96w5h/iM4kFYkWk/pVyW/1z6+Par8OnfuzAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwALAAAAAQEAADUxNV9UdWVzZGF5AAcAAAABAQAARm9vdGFnZQARAAAAAQEAAFdlZG5lc2RheTIwMTcxMTA2AAAAIAAAAAEBAAAyMDE3MTIwNl8wMDlfQXJ0T2ZMb29raW5nX0Fzc2V0cwUAAAABAQAAQzEwMGEAAAAuAAAAAQEAADIwMTcxMjA2XzAwOV9BcnRPZkxvb2tpbmdfQXNzZXRzX0MxMDBhXzAwMy5tb3YAABwAAAABBgAAEAAAACAAAAA0AAAARAAAAGAAAACIAAAAmAAAAAgAAAAEAwAApmcGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAAC5fgYAAAAAAAgAAAAEAwAAqLkGAAAAAAAIAAAABAMAAKq5BgAAAAAACAAAAAQDAACuuQYAAAAAAAgAAAAEAwAA57kGAAAAAAAcAAAAAQYAAPQAAAAEAQAAFAEAACQBAAA0AQAARAEAAFQBAAAIAAAAAAQAAEG/2I5wAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAABwAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzUxNV9UdWVzZGF5LwgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG8EzDVAAAAJAAAAAEBAABERTJCRkYxOC1BNDY3LTM4NDYtOUYyOC01OUQ3QTZEM0U5ODYYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABQAAAABAQAAL1ZvbHVtZXMvNTE1X1R1ZXNkYXkIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAADAMAAAAAAAAFIAAAeAIAAAAAAAAQIAAAiAIAAAAAAAARIAAAwAIAAAAAAAASIAAAoAIAAAAAAAATIAAAsAIAAAAAAAAgIAAA7AIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAgAAAAAQYAAIADAACMAwAAmAMAAIwDAACMAwAAjAMAAIwDAACMAwAAzAAAAP7///8BAAAAGAMAABAAAAAEEAAA0AAAAAAAAAAFEAAAZAEAAAAAAAAQEAAAmAEAAAAAAABAEAAAiAEAAAAAAABUEAAAwAEAAAAAAABVEAAAwAEAAAAAAABWEAAAuAEAAAAAAAAAIAAApAMAAAAAAAACIAAAXAIAAAAAAAAFIAAAzAEAAAAAAAAQIAAAIAAAAAAAAAARIAAAEAIAAAAAAAASIAAA8AEAAAAAAAATIAAAAAIAAAAAAAAgIAAAPAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r5",
+                            "name": "20171206_009_ArtOfLooking_Assets_GH4_001",
+                            "uid": "8D09B0D3599A76A1CADAC906C7F88531",
+                            "src": "file:///Volumes/515_Tuesday/Footage/Wednesday20171106/20171206_009_ArtOfLooking_Assets/GH4/20171206_009_ArtOfLooking_Assets_GH4_001.MOV",
+                            "start": "1318629312/24000s",
+                            "duration": "31445414/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va8gEAAAAAAQQMAAAAKe7xqGpiANOHuSHVw2FnqCa/8durYQNh3fac+GbgeBIxAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwALAAAAAQEAADUxNV9UdWVzZGF5AAcAAAABAQAARm9vdGFnZQARAAAAAQEAAFdlZG5lc2RheTIwMTcxMTA2AAAAIAAAAAEBAAAyMDE3MTIwNl8wMDlfQXJ0T2ZMb29raW5nX0Fzc2V0cwMAAAABAQAAR0g0ACwAAAABAQAAMjAxNzEyMDZfMDA5X0FydE9mTG9va2luZ19Bc3NldHNfR0g0XzAwMS5NT1YcAAAAAQYAABAAAAAgAAAANAAAAEQAAABgAAAAiAAAAJQAAAAIAAAABAMAAKZnBgAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAuX4GAAAAAAAIAAAABAMAAKi5BgAAAAAACAAAAAQDAACquQYAAAAAAAgAAAAEAwAArLkGAAAAAAAIAAAABAMAAK+5BgAAAAAAHAAAAAEGAADsAAAA/AAAAAwBAAAcAQAALAEAADwBAABMAQAACAAAAAAEAABBv9iHOAAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAEFAAAEAAAAAwMAAAYAAAAcAAAAAQkAAGZpbGU6Ly8vVm9sdW1lcy81MTVfVHVlc2RheS8IAAAABAMAAADAJGPuAAAACAAAAAAEAABBvBMw1QAAACQAAAABAQAAREUyQkZGMTgtQTQ2Ny0zODQ2LTlGMjgtNTlEN0E2RDNFOTg2GAAAAAECAAABAQAAAQAAAO8TAAABAAAAAAAAAAAAAAAUAAAAAQEAAC9Wb2x1bWVzLzUxNV9UdWVzZGF5CAAAAAEJAABmaWxlOi8vLw0AAAABAQAATExfUHJvZHVjdGlvbgAAAAgAAAAEAwAAAHCiR3QAAAAIAAAAAAQAAEG/PjyNAAAAJAAAAAEBAABGOENFMTlBNS01RjkwLTNDOTctOEYwMy1FN0UwQzBFRDM4RDIYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAAQDAAAAAAAABSAAAHACAAAAAAAAECAAAIACAAAAAAAAESAAALgCAAAAAAAAEiAAAJgCAAAAAAAAEyAAAKgCAAAAAAAAICAAAOQCAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAIAAAAAEGAAB4AwAAhAMAAJADAACEAwAAhAMAAIQDAACEAwAAhAMAAMwAAAD+////AQAAABADAAAQAAAABBAAAMgAAAAAAAAABRAAAFwBAAAAAAAAEBAAAJABAAAAAAAAQBAAAIABAAAAAAAAVBAAALgBAAAAAAAAVRAAALgBAAAAAAAAVhAAALABAAAAAAAAACAAAJwDAAAAAAAAAiAAAFQCAAAAAAAABSAAAMQBAAAAAAAAECAAACAAAAAAAAAAESAAAAgCAAAAAAAAEiAAAOgBAAAAAAAAEyAAAPgBAAAAAAAAICAAADQCAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    }
+                ],
+                "format": [
+                    {
+                        "_attr": {
+                            "id": "r2",
+                            "name": "FFVideoFormat1080p2398",
+                            "frameDuration": "3003/72000s",
+                            "width": "1920",
+                            "height": "1080"
+                        }
+                    }
+                ],
+                "media": [
+                    {
+                        "_attr": {
+                            "id": "r6",
+                            "name": "20171206_009_ArtOfLooking_Assets_MC",
+                            "uid": "syAhSNWWSJe/eYkRVpTCrg",
+                            "modDate": "2017-12-06 16:01:49 -0500"
+                        },
+                        "multicam": [
+                            {
+                                "_attr": {
+                                    "format": "r2",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "1318629312/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "mc-angle": [
+                                    {
+                                        "_attr": {
+                                            "name": "C100a",
+                                            "angleID": "0000C100a"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "1196195/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "51658607/24000s",
+                                                    "duration": "79688609/24000s",
+                                                    "start": "138058921/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171206_009_ArtOfLooking_Assets_C100a_001",
+                                                    "offset": "1196195/24000s",
+                                                    "ref": "r1",
+                                                    "duration": "360360/24000s",
+                                                    "start": "1375431057/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "keyword": [
+                                                    {
+                                                        "_attr": {
+                                                            "start": "152825673/8000s",
+                                                            "duration": "24024/24000s",
+                                                            "value": "first 24 frames"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "start": "1.37543e+09s",
+                                                            "duration": "1081080/72000s",
+                                                            "value": "20171206_009_ArtOfLooking_Assets, C100a"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "20171206_009_ArtOfLooking_Assets_C100a_002",
+                                                    "offset": "1556555/24000s",
+                                                    "ref": "r3",
+                                                    "duration": "16600584/24000s",
+                                                    "start": "1376758383/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "keyword": [
+                                                    {
+                                                        "_attr": {
+                                                            "start": "458919461/24000s",
+                                                            "duration": "24024/24000s",
+                                                            "value": "first 24 frames"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "start": "1.37676e+09s",
+                                                            "duration": "49801752/72000s",
+                                                            "value": "20171206_009_ArtOfLooking_Assets, C100a"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "20171206_009_ArtOfLooking_Assets_C100a_003",
+                                                    "offset": "18157139/24000s",
+                                                    "ref": "r4",
+                                                    "duration": "33501468/24000s",
+                                                    "start": "1399514116/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "keyword": [
+                                                    {
+                                                        "_attr": {
+                                                            "start": "349878529/18000s",
+                                                            "duration": "24024/24000s",
+                                                            "value": "first 24 frames"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "start": "1.39951e+09s",
+                                                            "duration": "100504404/72000s",
+                                                            "value": "20171206_009_ArtOfLooking_Assets, C100a"
+                                                        }
+                                                    }
+                                                ],
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "20171206_009_ArtOfLooking_Assets_C100a_003.mov",
+                                                    "offset": "131347216/24000s",
+                                                    "ref": "r4",
+                                                    "duration": "0s",
+                                                    "start": "1399514116/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "20171206_009_ArtOfLooking_Assets_C100a_002.mov",
+                                                    "offset": "131347216/24000s",
+                                                    "ref": "r3",
+                                                    "duration": "0s",
+                                                    "start": "1376758383/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "20171206_009_ArtOfLooking_Assets_C100a_001.mov",
+                                                    "offset": "131347216/24000s",
+                                                    "ref": "r1",
+                                                    "duration": "0s",
+                                                    "start": "1375431057/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "GH4",
+                                            "angleID": "0000GH4"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "20213193/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171206_009_ArtOfLooking_Assets_GH4_001.MOV",
+                                                    "offset": "20213193/24000s",
+                                                    "ref": "r5",
+                                                    "duration": "31445414/24000s",
+                                                    "start": "1318629312/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r7",
+                            "name": "20171206_009_ArtOfLooking_Assets_MC_CC",
+                            "uid": "kJhkReqyRp+3lvpcMPYdAA",
+                            "modDate": "2017-12-06 16:01:49 -0500"
+                        },
+                        "sequence": [
+                            {
+                                "_attr": {
+                                    "duration": "181389208/24000s",
+                                    "format": "r2",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "1318629312/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "spine": [
+                                    {
+                                        "mc-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171206_009_ArtOfLooking_Assets_MC",
+                                                    "offset": "1318629312/24000s",
+                                                    "ref": "r6",
+                                                    "duration": "54604550/24000s",
+                                                    "start": "1318629312/24000s"
+                                                },
+                                                "mc-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "angleID": "0000C100a",
+                                                            "srcEnable": "all"
+                                                        },
+                                                        "filter-video": [
+                                                            {
+                                                                "_attr": {
+                                                                    "ref": "r8",
+                                                                    "name": "2.5_A"
+                                                                },
+                                                                "param": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/10619/1/100/101",
+                                                                            "value": "-19.3779 -232"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/10619/2/354/36543/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Line Spacing",
+                                                                            "key": "9999/32385/10619/2/354/36543/404",
+                                                                            "value": "-2"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/10619/2/369",
+                                                                            "value": "Not synced"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20673/1/100/101",
+                                                                            "value": "-16.824 -180"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20673/2/354/36541/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20673/2/369",
+                                                                            "value": "ArtOfLooking: Assets"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20837/1/100/101",
+                                                                            "value": "-443.584 -395"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20837/2/354/36545/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20837/2/369",
+                                                                            "value": "20171206:"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "mc-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171206_009_ArtOfLooking_Assets_MC",
+                                                            "lane": "1",
+                                                            "offset": "1318629312/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "54604550/24000s",
+                                                            "start": "1318629312/24000s"
+                                                        },
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C100a",
+                                                                    "srcEnable": "audio"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r8",
+                                                                            "name": "2.5_A"
+                                                                        },
+                                                                        "param": [
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Position",
+                                                                                    "key": "9999/32385/10619/1/100/101",
+                                                                                    "value": "-19.3779 -232"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Alignment",
+                                                                                    "key": "9999/32385/10619/2/354/36543/401",
+                                                                                    "value": "2 (Right)"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Line Spacing",
+                                                                                    "key": "9999/32385/10619/2/354/36543/404",
+                                                                                    "value": "-2"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Text",
+                                                                                    "key": "9999/32385/10619/2/369",
+                                                                                    "value": "20171206_009_ArtOfLooking_Assets"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Position",
+                                                                                    "key": "9999/32385/20673/1/100/101",
+                                                                                    "value": "-16.824 -180"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Alignment",
+                                                                                    "key": "9999/32385/20673/2/354/36541/401",
+                                                                                    "value": "2 (Right)"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Text",
+                                                                                    "key": "9999/32385/20673/2/369",
+                                                                                    "value": "ArtOfLooking: Assets"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Position",
+                                                                                    "key": "9999/32385/20837/1/100/101",
+                                                                                    "value": "-443.584 -395"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Alignment",
+                                                                                    "key": "9999/32385/20837/2/354/36545/401",
+                                                                                    "value": "2 (Right)"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Text",
+                                                                                    "key": "9999/32385/20837/2/369",
+                                                                                    "value": "20171206:"
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000GH4",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r9",
+                                                                            "name": "C300b-cam-2018-master"
+                                                                        },
+                                                                        "param": [
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Position",
+                                                                                    "key": "9999/32385/20837/1/100/101",
+                                                                                    "value": "-443.584 -395"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Alignment",
+                                                                                    "key": "9999/32385/20837/2/354/20838/401",
+                                                                                    "value": "2 (Right)"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Text",
+                                                                                    "key": "9999/32385/20837/2/369",
+                                                                                    "value": "20161030: "
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "effect": [
+                    {
+                        "_attr": {
+                            "id": "r8",
+                            "name": "2.5_A",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r9",
+                            "name": "C300b-cam-2018-master",
+                            "uid": "~/Effects.localized/layouts-2018/C300b-cam-2018-master/C300b-cam-2018-master.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/layouts-2018/C300b-cam-2018-master/C300b-cam-2018-master.moef"
+                        }
+                    }
+                ]
+            }
+        ],
+        "library": [
+            {
+                "_attr": {
+                    "location": "file:///Users/ll-201-macpro/Movies/1206a.fcpbundle/"
+                },
+                "event": [
+                    {
+                        "_attr": {
+                            "name": "20171206_009_ArtOfLooking_Assets",
+                            "uid": "6B051633-CD87-4AAD-BADA-EDD8E6BBA20A"
+                        },
+                        "asset-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171206_009_ArtOfLooking_Assets_C100a_001",
+                                    "ref": "r1",
+                                    "duration": "1081080/72000s",
+                                    "start": "4126293171/72000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-06 15:48:34 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "152825673/8000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.37543e+09s",
+                                            "duration": "1081080/72000s",
+                                            "value": "20171206_009_ArtOfLooking_Assets, C100a"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171206_009_ArtOfLooking_Assets_C100a_002",
+                                    "ref": "r3",
+                                    "duration": "49801752/72000s",
+                                    "start": "4130275149/72000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-06 15:48:34 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "458919461/24000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.37676e+09s",
+                                            "duration": "49801752/72000s",
+                                            "value": "20171206_009_ArtOfLooking_Assets, C100a"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171206_009_ArtOfLooking_Assets_C100a_003",
+                                    "ref": "r4",
+                                    "duration": "100504404/72000s",
+                                    "start": "4198542348/72000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-06 15:48:34 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "349878529/18000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.39951e+09s",
+                                            "duration": "100504404/72000s",
+                                            "value": "20171206_009_ArtOfLooking_Assets, C100a"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171206_009_ArtOfLooking_Assets_GH4_001",
+                                    "ref": "r5",
+                                    "duration": "31445414/24000s",
+                                    "start": "1318629312/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-06 15:48:35 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "6867861/125s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.31863e+09s",
+                                            "duration": "31445414/24000s",
+                                            "value": "20171206_009_ArtOfLooking_Assets, GH4"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "mc-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171206_009_ArtOfLooking_Assets_MC",
+                                    "ref": "r6",
+                                    "duration": "131347216/24000s",
+                                    "start": "1318629312/24000s",
+                                    "modDate": "2017-12-06 16:01:49 -0500"
+                                },
+                                "mc-source": [
+                                    {
+                                        "_attr": {
+                                            "angleID": "0000C100a",
+                                            "srcEnable": "all"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "ref-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171206_009_ArtOfLooking_Assets_MC_CC",
+                                    "ref": "r7",
+                                    "duration": "181389208/24000s",
+                                    "start": "1318629312/24000s",
+                                    "modDate": "2017-12-06 16:01:49 -0500"
+                                }
+                            }
+                        ],
+                        "project": [
+                            {
+                                "_attr": {
+                                    "name": "20171206_009_ArtOfLooking_Assets_MC_CC_Ex",
+                                    "uid": "664E62E5-882F-43AC-804E-1369B99AFD0B",
+                                    "modDate": "2017-12-06 16:03:40 -0500"
+                                },
+                                "sequence": [
+                                    {
+                                        "_attr": {
+                                            "duration": "181389208/24000s",
+                                            "format": "r2",
+                                            "renderColorSpace": "Rec. 709",
+                                            "tcStart": "0s",
+                                            "tcFormat": "NDF",
+                                            "audioLayout": "stereo",
+                                            "audioRate": "48k"
+                                        },
+                                        "spine": [
+                                            {
+                                                "ref-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171206_009_ArtOfLooking_Assets_MC_CC",
+                                                            "offset": "0s",
+                                                            "ref": "r7",
+                                                            "duration": "181389208/24000s",
+                                                            "start": "1318629312/24000s"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "keyword-collection": [
+                            {
+                                "_attr": {
+                                    "name": "20171206_009_ArtOfLooking_Assets"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C100a"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "first 24 frames"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "GH4"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

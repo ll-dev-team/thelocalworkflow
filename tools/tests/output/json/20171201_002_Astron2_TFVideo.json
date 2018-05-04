@@ -1,0 +1,492 @@
+{
+    "fcpxml": {
+        "_attr": {
+            "version": "1.6"
+        },
+        "resources": [
+            {
+                "asset": [
+                    {
+                        "_attr": {
+                            "id": "r1",
+                            "name": "20171201_002_Astron2_TFVideo_C100a_001",
+                            "uid": "63B73E8A3AD8ACBD900A0673A015AEAD",
+                            "src": "file:///Volumes/701_Friday/Footage/20171201/20171201_002_Astron2_TFVideo/C100a/20171201_002_Astron2_TFVideo_C100a_001.mov",
+                            "start": "3354750399/72000s",
+                            "duration": "185297112/72000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7wEAAAAAAQQMAAAAEKF+fPvJWcej2AKkx6KdiDymB72k8Y5+eKfH3okG7UFuAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAKAAAAAQEAADcwMV9GcmlkYXkAAAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjAxHAAAAAEBAAAyMDE3MTIwMV8wMDJfQXN0cm9uMl9URlZpZGVvBQAAAAEBAABDMTAwYQAAACoAAAABAQAAMjAxNzEyMDFfMDAyX0FzdHJvbjJfVEZWaWRlb19DMTAwYV8wMDEubW92AAAcAAAAAQYAABAAAAAgAAAANAAAAEQAAABUAAAAeAAAAIgAAAAIAAAABAMAAKZnBgAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAA+OcLAAAAAAAIAAAABAMAAFXSDAAAAAAACAAAAAQDAADM0gwAAAAAAAgAAAAEAwAAz9IMAAAAAAAIAAAABAMAALvSDAAAAAAAHAAAAAEGAADgAAAA8AAAAAABAAAQAQAAIAEAADABAABAAQAACAAAAAAEAABBv9ILCwAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAEFAAAEAAAAAwMAAAYAAAAbAAAAAQkAAGZpbGU6Ly8vVm9sdW1lcy83MDFfRnJpZGF5LwAIAAAABAMAAADAWszoAAAACAAAAAAEAABBu5JqoQAAACQAAAABAQAAMjVCQ0FEMEQtMzQ2NC0zNDYyLUFFRDQtOTQzQjQ5ODE1NEQ2GAAAAAECAAABAQAAAQAAAO8TAAABAAAAAAAAAAAAAAATAAAAAQEAAC9Wb2x1bWVzLzcwMV9GcmlkYXkACAAAAAEJAABmaWxlOi8vLw0AAAABAQAATExfUHJvZHVjdGlvbgAAAAgAAAAEAwAAAHCiR3QAAAAIAAAAAAQAAEG/PjyNAAAAJAAAAAEBAABGOENFMTlBNS01RjkwLTNDOTctOEYwMy1FN0UwQzBFRDM4RDIYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAPgCAAAAAAAABSAAAGQCAAAAAAAAECAAAHQCAAAAAAAAESAAAKwCAAAAAAAAEiAAAIwCAAAAAAAAEyAAAJwCAAAAAAAAICAAANgCAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAIAAAAAEGAABsAwAAeAMAAIQDAAB4AwAAeAMAAHgDAAB4AwAAeAMAAMwAAAD+////AQAAAAQDAAAQAAAABBAAALwAAAAAAAAABRAAAFABAAAAAAAAEBAAAIQBAAAAAAAAQBAAAHQBAAAAAAAAVBAAAKwBAAAAAAAAVRAAAKwBAAAAAAAAVhAAAKQBAAAAAAAAACAAAJADAAAAAAAAAiAAAEgCAAAAAAAABSAAALgBAAAAAAAAECAAACAAAAAAAAAAESAAAPwBAAAAAAAAEiAAANwBAAAAAAAAEyAAAOwBAAAAAAAAICAAACgCAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r3",
+                            "name": "20171201_002_Astron2_TFVideo_GH4_001",
+                            "uid": "37CB9B3282D54992E1EED9FAC3BEB8CC",
+                            "src": "file:///Volumes/701_Friday/Footage/20171201/20171201_002_Astron2_TFVideo/GH4/20171201_002_Astron2_TFVideo_GH4_001.MOV",
+                            "start": "1052203152/24000s",
+                            "duration": "62511449/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7QEAAAAAAQQMAAAAMd/oKBlxqHghzRGkpldpOmAb+V0jFmEF5sBuLYYzLPTsAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAKAAAAAQEAADcwMV9GcmlkYXkAAAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjAxHAAAAAEBAAAyMDE3MTIwMV8wMDJfQXN0cm9uMl9URlZpZGVvAwAAAAEBAABHSDQAKAAAAAEBAAAyMDE3MTIwMV8wMDJfQXN0cm9uMl9URlZpZGVvX0dINF8wMDEuTU9WHAAAAAEGAAAQAAAAIAAAADQAAABEAAAAVAAAAHgAAACEAAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAAPjnCwAAAAAACAAAAAQDAABV0gwAAAAAAAgAAAAEAwAAzNIMAAAAAAAIAAAABAMAANDSDAAAAAAACAAAAAQDAADS0gwAAAAAABwAAAABBgAA2AAAAOgAAAD4AAAACAEAABgBAAAoAQAAOAEAAAgAAAAABAAAQb/RxGYAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAGAAAAGwAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvNzAxX0ZyaWRheS8ACAAAAAQDAAAAwFrM6AAAAAgAAAAABAAAQbuSaqEAAAAkAAAAAQEAADI1QkNBRDBELTM0NjQtMzQ2Mi1BRUQ0LTk0M0I0OTgxNTRENhgAAAABAgAAAQEAAAEAAADvEwAAAQAAAAAAAAAAAAAAEwAAAAEBAAAvVm9sdW1lcy83MDFfRnJpZGF5AAgAAAABCQAAZmlsZTovLy8NAAAAAQEAAExMX1Byb2R1Y3Rpb24AAAAIAAAABAMAAABwokd0AAAACAAAAAAEAABBvz48jQAAACQAAAABAQAARjhDRTE5QTUtNUY5MC0zQzk3LThGMDMtRTdFMEMwRUQzOEQyGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAABgAAAA/v///wDwAAAAAAAABwAAAAIgAADwAgAAAAAAAAUgAABcAgAAAAAAABAgAABsAgAAAAAAABEgAACkAgAAAAAAABIgAACEAgAAAAAAABMgAACUAgAAAAAAACAgAADQAgAAAAAAAAQAAAADAwAAAPAAAAQAAAADAwAAAAAAAAQAAAADAwAAAQAAACAAAAABBgAAZAMAAHADAAB8AwAAcAMAAHADAABwAwAAcAMAAHADAADMAAAA/v///wEAAAD8AgAAEAAAAAQQAAC0AAAAAAAAAAUQAABIAQAAAAAAABAQAAB8AQAAAAAAAEAQAABsAQAAAAAAAFQQAACkAQAAAAAAAFUQAACkAQAAAAAAAFYQAACcAQAAAAAAAAAgAACIAwAAAAAAAAIgAABAAgAAAAAAAAUgAACwAQAAAAAAABAgAAAgAAAAAAAAABEgAAD0AQAAAAAAABIgAADUAQAAAAAAABMgAADkAQAAAAAAACAgAAAgAgAAAAAAABDQAAAEAAAAAAAAAA=="
+                        ]
+                    }
+                ],
+                "format": [
+                    {
+                        "_attr": {
+                            "id": "r2",
+                            "name": "FFVideoFormat1080p2398",
+                            "frameDuration": "3003/72000s",
+                            "width": "1920",
+                            "height": "1080"
+                        }
+                    }
+                ],
+                "media": [
+                    {
+                        "_attr": {
+                            "id": "r4",
+                            "name": "20171201_002_Astron2_TFVideo_MC",
+                            "uid": "MQaK7OzXRTWvsTVfdUnxgA",
+                            "modDate": "2017-12-04 11:07:33 -0500"
+                        },
+                        "multicam": [
+                            {
+                                "_attr": {
+                                    "format": "r2",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "3354750399/72000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "mc-angle": [
+                                    {
+                                        "_attr": {
+                                            "name": "C100a",
+                                            "angleID": "2G+el58qQaKGSj21C+2dJg"
+                                        },
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171201_002_Astron2_TFVideo_C100a_001",
+                                                    "offset": "0s",
+                                                    "ref": "r1",
+                                                    "duration": "185297112/72000s",
+                                                    "start": "3354750399/72000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "keyword": [
+                                                    {
+                                                        "_attr": {
+                                                            "start": "1118250133/24000s",
+                                                            "duration": "185297112/72000s",
+                                                            "value": "C100a"
+                                                        }
+                                                    }
+                                                ],
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "GH4",
+                                            "angleID": "GCF+jCiKSGiMWmbaSNUL3Q"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "166166/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171201_002_Astron2_TFVideo_GH4_001",
+                                                    "offset": "166166/24000s",
+                                                    "ref": "r3",
+                                                    "duration": "62511449/24000s",
+                                                    "start": "1052203152/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "keyword": [
+                                                    {
+                                                        "_attr": {
+                                                            "start": "21920899/500s",
+                                                            "duration": "62511449/24000s",
+                                                            "value": "GH4"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r5",
+                            "name": "20171201_002_Astron2_TFVideo_MC_CC",
+                            "uid": "+ziKKz1bR5uGkecxacmJOA",
+                            "modDate": "2017-12-04 11:09:37 -0500"
+                        },
+                        "sequence": [
+                            {
+                                "_attr": {
+                                    "duration": "188032845/72000s",
+                                    "format": "r2",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "1118250133/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "spine": [
+                                    {
+                                        "mc-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171201_002_Astron2_TFVideo_MC",
+                                                    "offset": "3354750399/72000s",
+                                                    "ref": "r4",
+                                                    "duration": "188032845/72000s",
+                                                    "start": "3354750399/72000s"
+                                                },
+                                                "mc-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "angleID": "2G+el58qQaKGSj21C+2dJg",
+                                                            "srcEnable": "all"
+                                                        },
+                                                        "filter-video": [
+                                                            {
+                                                                "_attr": {
+                                                                    "ref": "r6",
+                                                                    "name": "2.5_A"
+                                                                },
+                                                                "param": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/10619/1/100/101",
+                                                                            "value": "-19.3779 -232"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/10619/2/354/10624/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Line Spacing",
+                                                                            "key": "9999/32385/10619/2/354/10624/404",
+                                                                            "value": "-2"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/10619/2/369",
+                                                                            "value": ""
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20673/1/100/101",
+                                                                            "value": "-16.824 -180"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20673/2/354/20674/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20673/2/369",
+                                                                            "value": "Astron2_TFVideo"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20837/1/100/101",
+                                                                            "value": "-443.584 -395"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20837/2/354/20838/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20837/2/369",
+                                                                            "value": "20171201:"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "mc-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171201_002_Astron2_TFVideo_MC",
+                                                            "lane": "-1",
+                                                            "offset": "3354750399/72000s",
+                                                            "ref": "r4",
+                                                            "duration": "62677615/24000s",
+                                                            "start": "3354750399/72000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "2G+el58qQaKGSj21C+2dJg",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "GCF+jCiKSGiMWmbaSNUL3Q",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r7",
+                                                                            "name": "2.5_B"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "effect": [
+                    {
+                        "_attr": {
+                            "id": "r6",
+                            "name": "2.5_A",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r7",
+                            "name": "2.5_B",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef"
+                        }
+                    }
+                ]
+            }
+        ],
+        "library": [
+            {
+                "_attr": {
+                    "location": "file:///Volumes/701_Friday/FCPX_Libs/20171204_MC_CC_Ex.fcpbundle/"
+                },
+                "event": [
+                    {
+                        "_attr": {
+                            "name": "20171201_002_Astron2_TFVideo",
+                            "uid": "4770B4B8-8FAC-4CBE-BABC-E837FBCEE262"
+                        },
+                        "asset-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171201_002_Astron2_TFVideo_C100a_001",
+                                    "ref": "r1",
+                                    "duration": "185297112/72000s",
+                                    "start": "3354750399/72000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-04 11:06:47 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "1118250133/24000s",
+                                            "duration": "185297112/72000s",
+                                            "value": "C100a"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171201_002_Astron2_TFVideo_GH4_001",
+                                    "ref": "r3",
+                                    "duration": "62511449/24000s",
+                                    "start": "1052203152/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-04 11:06:47 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "21920899/500s",
+                                            "duration": "62511449/24000s",
+                                            "value": "GH4"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "mc-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171201_002_Astron2_TFVideo_MC",
+                                    "ref": "r4",
+                                    "duration": "188032845/72000s",
+                                    "start": "3354750399/72000s",
+                                    "modDate": "2017-12-04 11:07:33 -0500"
+                                },
+                                "mc-source": [
+                                    {
+                                        "_attr": {
+                                            "angleID": "2G+el58qQaKGSj21C+2dJg",
+                                            "srcEnable": "all"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "ref-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171201_002_Astron2_TFVideo_MC_CC",
+                                    "ref": "r5",
+                                    "duration": "188032845/72000s",
+                                    "start": "1118250133/24000s",
+                                    "useAudioSubroles": "1",
+                                    "modDate": "2017-12-04 11:09:37 -0500"
+                                }
+                            }
+                        ],
+                        "project": [
+                            {
+                                "_attr": {
+                                    "name": "20171201_002_Astron2_TFVideo_MC_CC_Ex",
+                                    "uid": "50411E46-E08D-48A5-B1A0-47BE4574EBBC",
+                                    "modDate": "2017-12-04 11:10:09 -0500"
+                                },
+                                "sequence": [
+                                    {
+                                        "_attr": {
+                                            "duration": "61311250/24000s",
+                                            "format": "r2",
+                                            "renderColorSpace": "Rec. 709",
+                                            "tcStart": "0s",
+                                            "tcFormat": "NDF",
+                                            "audioLayout": "stereo",
+                                            "audioRate": "48k"
+                                        },
+                                        "spine": [
+                                            {
+                                                "ref-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171201_002_Astron2_TFVideo_MC_CC",
+                                                            "offset": "0s",
+                                                            "ref": "r5",
+                                                            "duration": "61311250/24000s",
+                                                            "start": "1118250133/24000s",
+                                                            "useAudioSubroles": "1"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-2dB"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "keyword-collection": [
+                            {
+                                "_attr": {
+                                    "name": "GH4"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C100a"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

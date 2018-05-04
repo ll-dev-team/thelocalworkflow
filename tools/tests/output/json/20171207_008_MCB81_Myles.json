@@ -1,0 +1,478 @@
+{
+    "fcpxml": {
+        "_attr": {
+            "version": "1.6"
+        },
+        "resources": [
+            {
+                "asset": [
+                    {
+                        "_attr": {
+                            "id": "r1",
+                            "name": "20171207_008_MCB81_Myles_C100a_001",
+                            "uid": "3A6EA3D715ACED5BCDCFD69B62DA69E6",
+                            "src": "file:///Volumes/105_1TB/_footage/20171207_008_MCB81_Myles/C100a/20171207_008_MCB81_Myles_C100a_001.mov",
+                            "start": "4136476344/72000s",
+                            "duration": "360468108/72000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va0QEAAAAAAQQMAAAAKq1mEjDRH+VNRaE5g8k7+snV6d8+BqAceLLPWwuEzQ9ZAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAHAAAAAQEAADEwNV8xVEIACAAAAAEBAABfZm9vdGFnZRgAAAABAQAAMjAxNzEyMDdfMDA4X01DQjgxX015bGVzBQAAAAEBAABDMTAwYQAAACYAAAABAQAAMjAxNzEyMDdfMDA4X01DQjgxX015bGVzX0MxMDBhXzAwMS5tb3YAABgAAAABBgAAEAAAACAAAAAwAAAAQAAAAGAAAABwAAAACAAAAAQDAACeKgYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAAF/bCAAAAAAACAAAAAQDAAB12wgAAAAAAAgAAAAEAwAAetsIAAAAAAAIAAAABAMAAGTbCAAAAAAAGAAAAAEGAADAAAAA0AAAAOAAAADwAAAAAAEAABABAAAIAAAAAAQAAEG/2inQAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAYAAAAAQkAAGZpbGU6Ly8vVm9sdW1lcy8xMDVfMVRCLwgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG9iDNtAAAAJAAAAAEBAAAxNjJDRTc0MC1GOEVFLTNEN0YtQjQyOC1FNDhEMTJFOUI4RjUYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABAAAAABAQAAL1ZvbHVtZXMvMTA1XzFUQggAAAABCQAAZmlsZTovLy8NAAAAAQEAAE1pa2VfMjA3X2lNYWMAAAAIAAAABAMAAAAAhjzVAgAACAAAAAAEAABBu9Mq4QAAACQAAAABAQAANkQwQkYyQzQtNzU5My0zMjlCLTlERjItRDkzNzA4MzYzQ0RGGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAABgAAAA/v///wDwAAAAAAAABwAAAAIgAACoAgAAAAAAAAUgAAAUAgAAAAAAABAgAAAkAgAAAAAAABEgAABcAgAAAAAAABIgAAA8AgAAAAAAABMgAABMAgAAAAAAACAgAACIAgAAAAAAAAQAAAADAwAAAPAAAAQAAAADAwAAAAAAAAQAAAADAwAAAQAAABwAAAABBgAAHAMAACgDAAA0AwAAKAMAACgDAAAoAwAAKAMAAKgAAAD+////AQAAALQCAAANAAAABBAAAKAAAAAAAAAABRAAACABAAAAAAAAEBAAAFABAAAAAAAAQBAAAEABAAAAAAAAACAAAEADAAAAAAAAAiAAAPwBAAAAAAAABSAAAHABAAAAAAAAECAAACAAAAAAAAAAESAAALABAAAAAAAAEiAAAJABAAAAAAAAEyAAAKABAAAAAAAAICAAANwBAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r5",
+                            "name": "20171207_008_MCB81_Myles_GH4_001",
+                            "uid": "1A8FA3BEFA85AE7083C4F67AE9410D07",
+                            "src": "file:///Volumes/105_1TB/_footage/20171207_008_MCB81_Myles/GH4/20171207_008_MCB81_Myles_GH4_001.MOV",
+                            "start": "1383085704/24000s",
+                            "duration": "119130011/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9vazwEAAAAAAQQMAAAAB2NxM92sMyFjNQWDpk44Ksvi3UPxsSDzQBRY6zgW18DXAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAHAAAAAQEAADEwNV8xVEIACAAAAAEBAABfZm9vdGFnZRgAAAABAQAAMjAxNzEyMDdfMDA4X01DQjgxX015bGVzAwAAAAEBAABHSDQAJAAAAAEBAAAyMDE3MTIwN18wMDhfTUNCODFfTXlsZXNfR0g0XzAwMS5NT1YYAAAAAQYAABAAAAAgAAAAMAAAAEAAAABgAAAAbAAAAAgAAAAEAwAAnioGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAABf2wgAAAAAAAgAAAAEAwAAddsIAAAAAAAIAAAABAMAAHfbCAAAAAAACAAAAAQDAAB52wgAAAAAABgAAAABBgAAuAAAAMgAAADYAAAA6AAAAPgAAAAIAQAACAAAAAAEAABBv9njMgAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAGAAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvMTA1XzFUQi8IAAAABAMAAADAJGPuAAAACAAAAAAEAABBvYgzbQAAACQAAAABAQAAMTYyQ0U3NDAtRjhFRS0zRDdGLUI0MjgtRTQ4RDEyRTlCOEY1GAAAAAECAAABAQAAAQAAAO8TAAABAAAAAAAAAAAAAAAQAAAAAQEAAC9Wb2x1bWVzLzEwNV8xVEIIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABNaWtlXzIwN19pTWFjAAAACAAAAAQDAAAAAIY81QIAAAgAAAAABAAAQbvTKuEAAAAkAAAAAQEAADZEMEJGMkM0LTc1OTMtMzI5Qi05REYyLUQ5MzcwODM2M0NERhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAAoAIAAAAAAAAFIAAADAIAAAAAAAAQIAAAHAIAAAAAAAARIAAAVAIAAAAAAAASIAAANAIAAAAAAAATIAAARAIAAAAAAAAgIAAAgAIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAcAAAAAQYAABQDAAAgAwAALAMAACADAAAgAwAAIAMAACADAACoAAAA/v///wEAAACsAgAADQAAAAQQAACYAAAAAAAAAAUQAAAYAQAAAAAAABAQAABIAQAAAAAAAEAQAAA4AQAAAAAAAAAgAAA4AwAAAAAAAAIgAAD0AQAAAAAAAAUgAABoAQAAAAAAABAgAAAgAAAAAAAAABEgAACoAQAAAAAAABIgAACIAQAAAAAAABMgAACYAQAAAAAAACAgAADUAQAAAAAAABDQAAAEAAAAAAAAAA=="
+                        ]
+                    }
+                ],
+                "format": [
+                    {
+                        "_attr": {
+                            "id": "r2",
+                            "name": "FFVideoFormat1080p2398",
+                            "frameDuration": "3003/72000s",
+                            "width": "1920",
+                            "height": "1080"
+                        }
+                    }
+                ],
+                "media": [
+                    {
+                        "_attr": {
+                            "id": "r3",
+                            "name": "20171207_008_MCB81_Myles_CC",
+                            "uid": "X4me5DolQqu1g53X1ZQqyg",
+                            "modDate": "2017-12-08 09:48:17 -0500"
+                        },
+                        "sequence": [
+                            {
+                                "_attr": {
+                                    "duration": "360468108/72000s",
+                                    "format": "r2",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "1378825448/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "spine": [
+                                    {
+                                        "mc-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171207_008_MCB81_Myles_MC",
+                                                    "offset": "4136476344/72000s",
+                                                    "ref": "r4",
+                                                    "duration": "360468108/72000s",
+                                                    "start": "4136476344/72000s"
+                                                },
+                                                "mc-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "angleID": "BDlShjJmRtCB/McWtzMkSA",
+                                                            "srcEnable": "audio"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "angleID": "sySa2uYiQ922WUD2MtC4VQ",
+                                                            "srcEnable": "video"
+                                                        },
+                                                        "filter-video": [
+                                                            {
+                                                                "_attr": {
+                                                                    "ref": "r6",
+                                                                    "name": "2.5_B"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "mc-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171207_008_MCB81_Myles_MC",
+                                                            "lane": "1",
+                                                            "offset": "4136476344/72000s",
+                                                            "ref": "r4",
+                                                            "duration": "120156036/24000s",
+                                                            "start": "4136476344/72000s"
+                                                        },
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "BDlShjJmRtCB/McWtzMkSA",
+                                                                    "srcEnable": "all"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r7",
+                                                                            "name": "2.5_A"
+                                                                        },
+                                                                        "param": [
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Position",
+                                                                                    "key": "9999/32385/10619/1/100/101",
+                                                                                    "value": "-19.3779 -232"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Alignment",
+                                                                                    "key": "9999/32385/10619/2/354/10624/401",
+                                                                                    "value": "2 (Right)"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Line Spacing",
+                                                                                    "key": "9999/32385/10619/2/354/10624/404",
+                                                                                    "value": "-2"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Text",
+                                                                                    "key": "9999/32385/10619/2/369",
+                                                                                    "value": ""
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Position",
+                                                                                    "key": "9999/32385/20673/1/100/101",
+                                                                                    "value": "-16.824 -180"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Alignment",
+                                                                                    "key": "9999/32385/20673/2/354/20674/401",
+                                                                                    "value": "2 (Right)"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Text",
+                                                                                    "key": "9999/32385/20673/2/369",
+                                                                                    "value": "MCB81_Myles"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Position",
+                                                                                    "key": "9999/32385/20837/1/100/101",
+                                                                                    "value": "-443.584 -395"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Alignment",
+                                                                                    "key": "9999/32385/20837/2/354/20838/401",
+                                                                                    "value": "2 (Right)"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Text",
+                                                                                    "key": "9999/32385/20837/2/369",
+                                                                                    "value": "20171207:"
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r4",
+                            "name": "20171207_008_MCB81_Myles_MC",
+                            "uid": "gTQDKcvaSSy1lVaz3yDEjQ",
+                            "modDate": "2017-12-08 09:47:59 -0500"
+                        },
+                        "multicam": [
+                            {
+                                "_attr": {
+                                    "format": "r2",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "4136476344/72000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "mc-angle": [
+                                    {
+                                        "_attr": {
+                                            "name": "C100a",
+                                            "angleID": "BDlShjJmRtCB/McWtzMkSA"
+                                        },
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171207_008_MCB81_Myles_C100a_001",
+                                                    "offset": "0s",
+                                                    "ref": "r1",
+                                                    "duration": "360468108/72000s",
+                                                    "start": "4136476344/72000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "keyword": [
+                                                    {
+                                                        "_attr": {
+                                                            "start": "172353181/3000s",
+                                                            "duration": "360468108/72000s",
+                                                            "value": "C100a"
+                                                        }
+                                                    }
+                                                ],
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "GH4",
+                                            "angleID": "sySa2uYiQ922WUD2MtC4VQ"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "238238/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171207_008_MCB81_Myles_GH4_001",
+                                                    "offset": "238238/24000s",
+                                                    "ref": "r5",
+                                                    "duration": "119130011/24000s",
+                                                    "start": "1383085704/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "keyword": [
+                                                    {
+                                                        "_attr": {
+                                                            "start": "57628571/1000s",
+                                                            "duration": "119130011/24000s",
+                                                            "value": "GH4"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "effect": [
+                    {
+                        "_attr": {
+                            "id": "r6",
+                            "name": "2.5_B",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef",
+                            "src": "file:///Users/Mike_207_iMac/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r7",
+                            "name": "2.5_A",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef",
+                            "src": "file:///Users/Mike_207_iMac/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef"
+                        }
+                    }
+                ]
+            }
+        ],
+        "library": [
+            {
+                "_attr": {
+                    "location": "file:///Users/Mike_207_iMac/Movies/20171205_MC_CC_Ex.fcpbundle/"
+                },
+                "event": [
+                    {
+                        "_attr": {
+                            "name": "20171207_008_MCB81_Myles",
+                            "uid": "B8058EB8-27F6-429B-B6D9-30FFDAA947D0"
+                        },
+                        "asset-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171207_008_MCB81_Myles_C100a_001",
+                                    "ref": "r1",
+                                    "duration": "360468108/72000s",
+                                    "start": "4136476344/72000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-08 09:47:28 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "172353181/3000s",
+                                            "duration": "360468108/72000s",
+                                            "value": "C100a"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171207_008_MCB81_Myles_GH4_001",
+                                    "ref": "r5",
+                                    "duration": "119130011/24000s",
+                                    "start": "1383085704/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-08 09:47:28 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "57628571/1000s",
+                                            "duration": "119130011/24000s",
+                                            "value": "GH4"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "ref-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171207_008_MCB81_Myles_CC",
+                                    "ref": "r3",
+                                    "duration": "360468108/72000s",
+                                    "start": "1378825448/24000s",
+                                    "useAudioSubroles": "1",
+                                    "modDate": "2017-12-08 09:48:17 -0500"
+                                }
+                            }
+                        ],
+                        "project": [
+                            {
+                                "_attr": {
+                                    "name": "20171207_008_MCB81_Myles_CC_Ex",
+                                    "uid": "39F15406-93F1-43B1-BBAB-78B0309A5D42",
+                                    "modDate": "2017-12-08 09:50:16 -0500"
+                                },
+                                "sequence": [
+                                    {
+                                        "_attr": {
+                                            "duration": "113575462/24000s",
+                                            "format": "r2",
+                                            "renderColorSpace": "Rec. 709",
+                                            "tcStart": "0s",
+                                            "tcFormat": "NDF",
+                                            "audioLayout": "stereo",
+                                            "audioRate": "48k"
+                                        },
+                                        "spine": [
+                                            {
+                                                "ref-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171207_008_MCB81_Myles_CC",
+                                                            "offset": "0s",
+                                                            "ref": "r3",
+                                                            "duration": "113575462/24000s",
+                                                            "start": "1378825448/24000s",
+                                                            "useAudioSubroles": "1"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "mc-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171207_008_MCB81_Myles_MC",
+                                    "ref": "r4",
+                                    "duration": "360468108/72000s",
+                                    "start": "4136476344/72000s",
+                                    "modDate": "2017-12-08 09:47:59 -0500"
+                                },
+                                "mc-source": [
+                                    {
+                                        "_attr": {
+                                            "angleID": "BDlShjJmRtCB/McWtzMkSA",
+                                            "srcEnable": "all"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "keyword-collection": [
+                            {
+                                "_attr": {
+                                    "name": "C100a"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "GH4"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

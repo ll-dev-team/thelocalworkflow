@@ -1,0 +1,734 @@
+{
+    "fcpxml": {
+        "_attr": {
+            "version": "1.6"
+        },
+        "resources": [
+            {
+                "asset": [
+                    {
+                        "_attr": {
+                            "id": "r1",
+                            "name": "20171206_007_MCB81_FinalFun_C300a_001",
+                            "uid": "B3BFA07D19CB38D1FB49BE4AB6B4CAA8",
+                            "src": "file:///Volumes/131_2050/20171206_007_MCB81_FinalFun/C300a/20171206_007_MCB81_FinalFun_C300a_001.mov",
+                            "start": "1312337026/24000s",
+                            "duration": "107531424/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9vaygEAAAAAAQQMAAAACrfv52/r4Ki/QNdnoGqH+rTb0x7OGVjNEsdJX4Ab8gySAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAIAAAAAQEAADEzMV8yMDUwGwAAAAEBAAAyMDE3MTIwNl8wMDdfTUNCODFfRmluYWxGdW4ABQAAAAEBAABDMzAwYQAAACkAAAABAQAAMjAxNzEyMDZfMDA3X01DQjgxX0ZpbmFsRnVuX0MzMDBhXzAwMS5tb3YAAAAUAAAAAQYAABAAAAAgAAAAMAAAAFQAAABkAAAACAAAAAQDAACeKgYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAAPCEAAAAAAAACAAAAAQDAAD3hAAAAAAAAAgAAAAEAwAA+IQAAAAAAAAUAAAAAQYAALQAAADEAAAA1AAAAOQAAAD0AAAACAAAAAAEAABBv9iUZwAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAGQAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvMTMxXzIwNTAvAAAACAAAAAQDAAAAQGBR3QEAAAgAAAAABAAAQb7615QAAAAkAAAAAQEAAEZCN0Y2OTk0LTlBN0YtMzE3MC04MjkyLTQ3Nzc4N0UwM0M2RhgAAAABAgAAAQEAAAEAAADvEwAAAQAAAAAAAAAAAAAAEQAAAAEBAAAvVm9sdW1lcy8xMzFfMjA1MAAAAAgAAAABCQAAZmlsZTovLy8NAAAAAQEAAE1pa2VfMjA3X2lNYWMAAAAIAAAABAMAAAAAhjzVAgAACAAAAAAEAABBu9Mq4QAAACQAAAABAQAANkQwQkYyQzQtNzU5My0zMjlCLTlERjItRDkzNzA4MzYzQ0RGGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAABgAAAA/v///wDwAAAAAAAABwAAAAIgAACQAgAAAAAAAAUgAAD8AQAAAAAAABAgAAAMAgAAAAAAABEgAABEAgAAAAAAABIgAAAkAgAAAAAAABMgAAA0AgAAAAAAACAgAABwAgAAAAAAAAQAAAADAwAAAPAAAAQAAAADAwAAAAAAAAQAAAADAwAAAQAAABgAAAABBgAABAMAABADAAAcAwAAEAMAABADAAAQAwAAqAAAAP7///8BAAAAnAIAAA0AAAAEEAAAmAAAAAAAAAAFEAAABAEAAAAAAAAQEAAAMAEAAAAAAABAEAAAIAEAAAAAAAAAIAAAKAMAAAAAAAACIAAA4AEAAAAAAAAFIAAAUAEAAAAAAAAQIAAAIAAAAAAAAAARIAAAlAEAAAAAAAASIAAAdAEAAAAAAAATIAAAhAEAAAAAAAAgIAAAwAEAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r3",
+                            "name": "20171206_007_MCB81_FinalFun_C300b_001",
+                            "uid": "2890A0DD7AB8AF69992565B55A803A55",
+                            "src": "file:///Volumes/131_2050/20171206_007_MCB81_FinalFun/C300b/20171206_007_MCB81_FinalFun_C300b_001.mov",
+                            "start": "1313298987/24000s",
+                            "duration": "106582476/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9vaygEAAAAAAQQMAAAAKSuf7NKjRTDeNA3KKibXfcH0CvzANcOgG3sw8XpMpCnSAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAIAAAAAQEAADEzMV8yMDUwGwAAAAEBAAAyMDE3MTIwNl8wMDdfTUNCODFfRmluYWxGdW4ABQAAAAEBAABDMzAwYgAAACkAAAABAQAAMjAxNzEyMDZfMDA3X01DQjgxX0ZpbmFsRnVuX0MzMDBiXzAwMS5tb3YAAAAUAAAAAQYAABAAAAAgAAAAMAAAAFQAAABkAAAACAAAAAQDAACeKgYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAAPCEAAAAAAAACAAAAAQDAAD5hAAAAAAAAAgAAAAEAwAA+oQAAAAAAAAUAAAAAQYAALQAAADEAAAA1AAAAOQAAAD0AAAACAAAAAAEAABBv9iUkwAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAGQAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvMTMxXzIwNTAvAAAACAAAAAQDAAAAQGBR3QEAAAgAAAAABAAAQb7615QAAAAkAAAAAQEAAEZCN0Y2OTk0LTlBN0YtMzE3MC04MjkyLTQ3Nzc4N0UwM0M2RhgAAAABAgAAAQEAAAEAAADvEwAAAQAAAAAAAAAAAAAAEQAAAAEBAAAvVm9sdW1lcy8xMzFfMjA1MAAAAAgAAAABCQAAZmlsZTovLy8NAAAAAQEAAE1pa2VfMjA3X2lNYWMAAAAIAAAABAMAAAAAhjzVAgAACAAAAAAEAABBu9Mq4QAAACQAAAABAQAANkQwQkYyQzQtNzU5My0zMjlCLTlERjItRDkzNzA4MzYzQ0RGGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAABgAAAA/v///wDwAAAAAAAABwAAAAIgAACQAgAAAAAAAAUgAAD8AQAAAAAAABAgAAAMAgAAAAAAABEgAABEAgAAAAAAABIgAAAkAgAAAAAAABMgAAA0AgAAAAAAACAgAABwAgAAAAAAAAQAAAADAwAAAPAAAAQAAAADAwAAAAAAAAQAAAADAwAAAQAAABgAAAABBgAABAMAABADAAAcAwAAEAMAABADAAAQAwAAqAAAAP7///8BAAAAnAIAAA0AAAAEEAAAmAAAAAAAAAAFEAAABAEAAAAAAAAQEAAAMAEAAAAAAABAEAAAIAEAAAAAAAAAIAAAKAMAAAAAAAACIAAA4AEAAAAAAAAFIAAAUAEAAAAAAAAQIAAAIAAAAAAAAAARIAAAlAEAAAAAAAASIAAAdAEAAAAAAAATIAAAhAEAAAAAAAAgIAAAwAEAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r4",
+                            "name": "20171206_007_MCB81_FinalFun_GH4_001",
+                            "uid": "6D176485AAFBF963D37146685AFD28EC",
+                            "src": "file:///Volumes/131_2050/20171206_007_MCB81_FinalFun/GH4/20171206_007_MCB81_FinalFun_GH4_001.mov",
+                            "start": "1320553234/24000s",
+                            "duration": "20195175/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9vayAEAAAAAAQQMAAAABh9TjhHLJ8Wy/CeFak4/rRHjBjHCgrujceUFoM3PgHLQAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAIAAAAAQEAADEzMV8yMDUwGwAAAAEBAAAyMDE3MTIwNl8wMDdfTUNCODFfRmluYWxGdW4AAwAAAAEBAABHSDQAJwAAAAEBAAAyMDE3MTIwNl8wMDdfTUNCODFfRmluYWxGdW5fR0g0XzAwMS5tb3YAFAAAAAEGAAAQAAAAIAAAADAAAABUAAAAYAAAAAgAAAAEAwAAnioGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAADwhAAAAAAAAAgAAAAEAwAA+4QAAAAAAAAIAAAABAMAAPyEAAAAAAAAFAAAAAEGAACsAAAAvAAAAMwAAADcAAAA7AAAAAgAAAAABAAAQb/ZjH4AAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAABkAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzEzMV8yMDUwLwAAAAgAAAAEAwAAAEBgUd0BAAAIAAAAAAQAAEG++teUAAAAJAAAAAEBAABGQjdGNjk5NC05QTdGLTMxNzAtODI5Mi00Nzc3ODdFMDNDNkYYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABEAAAABAQAAL1ZvbHVtZXMvMTMxXzIwNTAAAAAIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABNaWtlXzIwN19pTWFjAAAACAAAAAQDAAAAAIY81QIAAAgAAAAABAAAQbvTKuEAAAAkAAAAAQEAADZEMEJGMkM0LTc1OTMtMzI5Qi05REYyLUQ5MzcwODM2M0NERhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAAiAIAAAAAAAAFIAAA9AEAAAAAAAAQIAAABAIAAAAAAAARIAAAPAIAAAAAAAASIAAAHAIAAAAAAAATIAAALAIAAAAAAAAgIAAAaAIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAYAAAAAQYAAPwCAAAIAwAAFAMAAAgDAAAIAwAACAMAAKgAAAD+////AQAAAJQCAAANAAAABBAAAJAAAAAAAAAABRAAAPwAAAAAAAAAEBAAACgBAAAAAAAAQBAAABgBAAAAAAAAACAAACADAAAAAAAAAiAAANgBAAAAAAAABSAAAEgBAAAAAAAAECAAACAAAAAAAAAAESAAAIwBAAAAAAAAEiAAAGwBAAAAAAAAEyAAAHwBAAAAAAAAICAAALgBAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r5",
+                            "name": "20171206_007_MCB81_FinalFun_GH4_002",
+                            "uid": "C49FF778CE3CB757A8DC144B15E92D0A",
+                            "src": "file:///Volumes/131_2050/20171206_007_MCB81_FinalFun/GH4/20171206_007_MCB81_FinalFun_GH4_002.mov",
+                            "start": "1388757370/24000s",
+                            "duration": "27390363/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9vayAEAAAAAAQQMAAAAGMl+i3GWp2yFBWegP0fMC/Jb6bgwHFQAFO2zctVSdPZQAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAIAAAAAQEAADEzMV8yMDUwGwAAAAEBAAAyMDE3MTIwNl8wMDdfTUNCODFfRmluYWxGdW4AAwAAAAEBAABHSDQAJwAAAAEBAAAyMDE3MTIwNl8wMDdfTUNCODFfRmluYWxGdW5fR0g0XzAwMi5tb3YAFAAAAAEGAAAQAAAAIAAAADAAAABUAAAAYAAAAAgAAAAEAwAAnioGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAADwhAAAAAAAAAgAAAAEAwAA+4QAAAAAAAAIAAAABAMAAP2EAAAAAAAAFAAAAAEGAACsAAAAvAAAAMwAAADcAAAA7AAAAAgAAAAABAAAQb/ZkV8AAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAABkAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzEzMV8yMDUwLwAAAAgAAAAEAwAAAEBgUd0BAAAIAAAAAAQAAEG++teUAAAAJAAAAAEBAABGQjdGNjk5NC05QTdGLTMxNzAtODI5Mi00Nzc3ODdFMDNDNkYYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABEAAAABAQAAL1ZvbHVtZXMvMTMxXzIwNTAAAAAIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABNaWtlXzIwN19pTWFjAAAACAAAAAQDAAAAAIY81QIAAAgAAAAABAAAQbvTKuEAAAAkAAAAAQEAADZEMEJGMkM0LTc1OTMtMzI5Qi05REYyLUQ5MzcwODM2M0NERhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAAiAIAAAAAAAAFIAAA9AEAAAAAAAAQIAAABAIAAAAAAAARIAAAPAIAAAAAAAASIAAAHAIAAAAAAAATIAAALAIAAAAAAAAgIAAAaAIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAYAAAAAQYAAPwCAAAIAwAAFAMAAAgDAAAIAwAACAMAAKgAAAD+////AQAAAJQCAAANAAAABBAAAJAAAAAAAAAABRAAAPwAAAAAAAAAEBAAACgBAAAAAAAAQBAAABgBAAAAAAAAACAAACADAAAAAAAAAiAAANgBAAAAAAAABSAAAEgBAAAAAAAAECAAACAAAAAAAAAAESAAAIwBAAAAAAAAEiAAAGwBAAAAAAAAEyAAAHwBAAAAAAAAICAAALgBAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    }
+                ],
+                "format": [
+                    {
+                        "_attr": {
+                            "id": "r2",
+                            "name": "FFVideoFormat1080p2398",
+                            "frameDuration": "1001/24000s",
+                            "width": "1920",
+                            "height": "1080"
+                        }
+                    }
+                ],
+                "media": [
+                    {
+                        "_attr": {
+                            "id": "r6",
+                            "name": "20171206_007_MCB81_FinalFun_MC",
+                            "uid": "aWPU9n+8QGGiVyyQtJTajA",
+                            "modDate": "2017-12-07 11:50:50 -0500"
+                        },
+                        "multicam": [
+                            {
+                                "_attr": {
+                                    "format": "r2",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "1312337026/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "mc-angle": [
+                                    {
+                                        "_attr": {
+                                            "name": "C300a",
+                                            "angleID": "0000C300a"
+                                        },
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171206_007_MCB81_FinalFun_C300a_001.mov",
+                                                    "offset": "0s",
+                                                    "ref": "r1",
+                                                    "duration": "107531424/24000s",
+                                                    "start": "1312337026/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "C300b",
+                                            "angleID": "0000C300b"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "961961/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171206_007_MCB81_FinalFun_C300b_001.mov",
+                                                    "offset": "961961/24000s",
+                                                    "ref": "r3",
+                                                    "duration": "106582476/24000s",
+                                                    "start": "1313298987/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "GH4",
+                                            "angleID": "0000GH4"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "8216208/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "28411383/24000s",
+                                                    "duration": "48008961/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171206_007_MCB81_FinalFun_GH4_001.mov",
+                                                    "offset": "8216208/24000s",
+                                                    "ref": "r4",
+                                                    "duration": "20195175/24000s",
+                                                    "start": "1320553234/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "20171206_007_MCB81_FinalFun_GH4_002.mov",
+                                                    "offset": "76420344/24000s",
+                                                    "ref": "r5",
+                                                    "duration": "27390363/24000s",
+                                                    "start": "1388757370/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r7",
+                            "name": "20171206_007_MCB81_FinalFun_MC_CC",
+                            "uid": "IF1r53PaSd+FYbbptYGFIw",
+                            "modDate": "2017-12-07 11:50:50 -0500"
+                        },
+                        "sequence": [
+                            {
+                                "_attr": {
+                                    "duration": "107544437/24000s",
+                                    "format": "r2",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "1312337026/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "spine": [
+                                    {
+                                        "mc-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171206_007_MCB81_FinalFun_MC",
+                                                    "offset": "1312337026/24000s",
+                                                    "ref": "r6",
+                                                    "duration": "107544437/24000s",
+                                                    "start": "1312337026/24000s"
+                                                },
+                                                "mc-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "angleID": "0000C300a",
+                                                            "srcEnable": "all"
+                                                        },
+                                                        "filter-video": [
+                                                            {
+                                                                "_attr": {
+                                                                    "ref": "r8",
+                                                                    "name": "2.5_A"
+                                                                },
+                                                                "param": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/10619/1/100/101",
+                                                                            "value": "-19.3779 -232"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/10619/2/354/32504/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Line Spacing",
+                                                                            "key": "9999/32385/10619/2/354/32504/404",
+                                                                            "value": "-2"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/10619/2/369",
+                                                                            "value": "20171206_007_MCB81_FinalFun"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20673/1/100/101",
+                                                                            "value": "-16.824 -180"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20673/2/354/32502/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20673/2/369",
+                                                                            "value": "MCB81: FinalFun"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20837/1/100/101",
+                                                                            "value": "-443.584 -395"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20837/2/354/32506/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20837/2/369",
+                                                                            "value": "20171206:"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "mc-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171206_007_MCB81_FinalFun_MC",
+                                                            "lane": "-2",
+                                                            "offset": "1312337026/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "107544437/24000s",
+                                                            "start": "1312337026/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300b",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r9",
+                                                                            "name": "2.5_C"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171206_007_MCB81_FinalFun_MC",
+                                                            "lane": "-1",
+                                                            "offset": "1312337026/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "107544437/24000s",
+                                                            "start": "1312337026/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000GH4",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r10",
+                                                                            "name": "2.5_B"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "effect": [
+                    {
+                        "_attr": {
+                            "id": "r8",
+                            "name": "2.5_A",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef",
+                            "src": "file:///Users/Mike_207_iMac/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r9",
+                            "name": "2.5_C",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_C/2.5_C.moef",
+                            "src": "file:///Users/Mike_207_iMac/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_C/2.5_C.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r10",
+                            "name": "2.5_B",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef",
+                            "src": "file:///Users/Mike_207_iMac/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef"
+                        }
+                    }
+                ]
+            }
+        ],
+        "library": [
+            {
+                "_attr": {
+                    "location": "file:///Users/Mike_207_iMac/Movies/20171205_MC_CC_Ex.fcpbundle/"
+                },
+                "event": [
+                    {
+                        "_attr": {
+                            "name": "20171206_007_MCB81_FinalFun",
+                            "uid": "45A08526-576B-496C-82AF-0769CBA48717"
+                        },
+                        "asset-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171206_007_MCB81_FinalFun_C300a_001",
+                                    "ref": "r1",
+                                    "duration": "107531424/24000s",
+                                    "start": "1312337026/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-07 11:50:50 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "1s",
+                                            "duration": "107531424/24000s",
+                                            "value": "20171206_007_MCB81_FinalFun, C300a"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "656168513/12000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171206_007_MCB81_FinalFun_C300b_001",
+                                    "ref": "r3",
+                                    "duration": "106582476/24000s",
+                                    "start": "1313298987/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-07 11:50:50 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "1s",
+                                            "duration": "106582476/24000s",
+                                            "value": "20171206_007_MCB81_FinalFun, C300b"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "437766329/8000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171206_007_MCB81_FinalFun_GH4_001",
+                                    "ref": "r4",
+                                    "duration": "20195175/24000s",
+                                    "start": "1320553234/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-07 11:50:50 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "1s",
+                                            "duration": "20195175/24000s",
+                                            "value": "20171206_007_MCB81_FinalFun, GH4"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "660276617/12000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171206_007_MCB81_FinalFun_GH4_002",
+                                    "ref": "r5",
+                                    "duration": "27390363/24000s",
+                                    "start": "1388757370/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-07 11:50:50 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "1s",
+                                            "duration": "27390363/24000s",
+                                            "value": "20171206_007_MCB81_FinalFun, GH4"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "138875737/2400s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "mc-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171206_007_MCB81_FinalFun_MC",
+                                    "ref": "r6",
+                                    "duration": "107544437/24000s",
+                                    "start": "1312337026/24000s",
+                                    "modDate": "2017-12-07 11:50:50 -0500"
+                                },
+                                "mc-source": [
+                                    {
+                                        "_attr": {
+                                            "angleID": "0000C300a",
+                                            "srcEnable": "all"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "ref-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171206_007_MCB81_FinalFun_MC_CC",
+                                    "ref": "r7",
+                                    "duration": "107544437/24000s",
+                                    "start": "1312337026/24000s",
+                                    "modDate": "2017-12-07 11:50:53 -0500"
+                                }
+                            }
+                        ],
+                        "project": [
+                            {
+                                "_attr": {
+                                    "name": "20171206_007_MCB81_FinalFun_MC_CC_Ex",
+                                    "uid": "5466DD15-EB1E-4491-8269-3644C5985D3E",
+                                    "modDate": "2017-12-07 11:52:39 -0500"
+                                },
+                                "sequence": [
+                                    {
+                                        "_attr": {
+                                            "duration": "59252193/24000s",
+                                            "format": "r2",
+                                            "renderColorSpace": "Rec. 709",
+                                            "tcStart": "0s",
+                                            "tcFormat": "NDF",
+                                            "audioLayout": "stereo",
+                                            "audioRate": "48k"
+                                        },
+                                        "spine": [
+                                            {
+                                                "ref-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171206_007_MCB81_FinalFun_MC_CC",
+                                                            "offset": "0s",
+                                                            "ref": "r7",
+                                                            "duration": "34048014/24000s",
+                                                            "start": "1320491172/24000s"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171206_007_MCB81_FinalFun_MC_CC",
+                                                            "offset": "34048014/24000s",
+                                                            "ref": "r7",
+                                                            "duration": "25204179/24000s",
+                                                            "start": "1389433045/24000s"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "keyword-collection": [
+                            {
+                                "_attr": {
+                                    "name": "20171206_007_MCB81_FinalFun"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300a"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "first 24 frames"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300b"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "GH4"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

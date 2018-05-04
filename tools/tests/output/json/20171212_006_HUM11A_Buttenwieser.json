@@ -1,0 +1,883 @@
+{
+    "fcpxml": {
+        "_attr": {
+            "version": "1.6"
+        },
+        "resources": [
+            {
+                "asset": [
+                    {
+                        "_attr": {
+                            "id": "r1",
+                            "name": "20171212_006_HUM11A_Buttenwieser_C300a_001",
+                            "uid": "B35792E28CA39EEDFDE66AA04A16B41E",
+                            "src": "file:///Volumes/515_Tuesday/Footage/20171212/20171212_006_HUM11A_Buttenwieser/C300a/20171212_006_HUM11A_Buttenwieser_C300a_001.mov",
+                            "start": "1206279074/24000s",
+                            "duration": "28648620/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va8QEAAAAAAQQMAAAAP4Wqpj/EV4JIJve1MUb7SytCJ6nAf+xHLrUtR49NhQnwAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwALAAAAAQEAADUxNV9UdWVzZGF5AAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjEyIAAAAAEBAAAyMDE3MTIxMl8wMDZfSFVNMTFBX0J1dHRlbndpZXNlcgUAAAABAQAAQzMwMGEAAAAuAAAAAQEAADIwMTcxMjEyXzAwNl9IVU0xMUFfQnV0dGVud2llc2VyX0MzMDBhXzAwMS5tb3YAABwAAAABBgAAEAAAACAAAAA0AAAARAAAAFQAAAB8AAAAjAAAAAgAAAAEAwAApmcGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAAC5fgYAAAAAAAgAAAAEAwAAsr0GAAAAAAAIAAAABAMAAKPDBgAAAAAACAAAAAQDAAC1wwYAAAAAAAgAAAAEAwAAsMMGAAAAAAAcAAAAAQYAAOgAAAD4AAAACAEAABgBAAAoAQAAOAEAAEgBAAAIAAAAAAQAAEG/4G4KAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAABwAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzUxNV9UdWVzZGF5LwgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG8EzDVAAAAJAAAAAEBAABERTJCRkYxOC1BNDY3LTM4NDYtOUYyOC01OUQ3QTZEM0U5ODYYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABQAAAABAQAAL1ZvbHVtZXMvNTE1X1R1ZXNkYXkIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAAAAMAAAAAAAAFIAAAbAIAAAAAAAAQIAAAfAIAAAAAAAARIAAAtAIAAAAAAAASIAAAlAIAAAAAAAATIAAApAIAAAAAAAAgIAAA4AIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAgAAAAAQYAAHQDAACAAwAAjAMAAIADAACAAwAAgAMAAIADAACAAwAAzAAAAP7///8BAAAADAMAABAAAAAEEAAAxAAAAAAAAAAFEAAAWAEAAAAAAAAQEAAAjAEAAAAAAABAEAAAfAEAAAAAAABUEAAAtAEAAAAAAABVEAAAtAEAAAAAAABWEAAArAEAAAAAAAAAIAAAmAMAAAAAAAACIAAAUAIAAAAAAAAFIAAAwAEAAAAAAAAQIAAAIAAAAAAAAAARIAAABAIAAAAAAAASIAAA5AEAAAAAAAATIAAA9AEAAAAAAAAgIAAAMAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r3",
+                            "name": "20171212_006_HUM11A_Buttenwieser_C300b_001",
+                            "uid": "6B85C4CE474CA471C9B30AC1F7161FDC",
+                            "src": "file:///Volumes/515_Tuesday/Footage/20171212/20171212_006_HUM11A_Buttenwieser/C300b/20171212_006_HUM11A_Buttenwieser_C300b_001.mov",
+                            "start": "1206302097/24000s",
+                            "duration": "28648620/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va8QEAAAAAAQQMAAAAFvD6XxaBp5JDyahNfsTPG9EmMbECISDA4WCf4fhInnCwAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwALAAAAAQEAADUxNV9UdWVzZGF5AAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjEyIAAAAAEBAAAyMDE3MTIxMl8wMDZfSFVNMTFBX0J1dHRlbndpZXNlcgUAAAABAQAAQzMwMGIAAAAuAAAAAQEAADIwMTcxMjEyXzAwNl9IVU0xMUFfQnV0dGVud2llc2VyX0MzMDBiXzAwMS5tb3YAABwAAAABBgAAEAAAACAAAAA0AAAARAAAAFQAAAB8AAAAjAAAAAgAAAAEAwAApmcGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAAC5fgYAAAAAAAgAAAAEAwAAsr0GAAAAAAAIAAAABAMAAKPDBgAAAAAACAAAAAQDAAC2wwYAAAAAAAgAAAAEAwAAXsQGAAAAAAAcAAAAAQYAAOgAAAD4AAAACAEAABgBAAAoAQAAOAEAAEgBAAAIAAAAAAQAAEG/4G4PAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAABwAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzUxNV9UdWVzZGF5LwgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG8EzDVAAAAJAAAAAEBAABERTJCRkYxOC1BNDY3LTM4NDYtOUYyOC01OUQ3QTZEM0U5ODYYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABQAAAABAQAAL1ZvbHVtZXMvNTE1X1R1ZXNkYXkIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAAAAMAAAAAAAAFIAAAbAIAAAAAAAAQIAAAfAIAAAAAAAARIAAAtAIAAAAAAAASIAAAlAIAAAAAAAATIAAApAIAAAAAAAAgIAAA4AIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAgAAAAAQYAAHQDAACAAwAAjAMAAIADAACAAwAAgAMAAIADAACAAwAAzAAAAP7///8BAAAADAMAABAAAAAEEAAAxAAAAAAAAAAFEAAAWAEAAAAAAAAQEAAAjAEAAAAAAABAEAAAfAEAAAAAAABUEAAAtAEAAAAAAABVEAAAtAEAAAAAAABWEAAArAEAAAAAAAAAIAAAmAMAAAAAAAACIAAAUAIAAAAAAAAFIAAAwAEAAAAAAAAQIAAAIAAAAAAAAAARIAAABAIAAAAAAAASIAAA5AEAAAAAAAATIAAA9AEAAAAAAAAgIAAAMAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r4",
+                            "name": "20171212_006_HUM11A_Buttenwieser_C300c_001",
+                            "uid": "39AEAFECCC34FA85C2D2D1C294EAC9C4",
+                            "src": "file:///Volumes/515_Tuesday/Footage/20171212/20171212_006_HUM11A_Buttenwieser/C300c/20171212_006_HUM11A_Buttenwieser_C300c_001.mov",
+                            "start": "1206255050/24000s",
+                            "duration": "28648620/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va8QEAAAAAAQQMAAAAF8wQokSSLbz4BHMZsmj52DWSADmOvb2cqJfejqkPcQiwAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwALAAAAAQEAADUxNV9UdWVzZGF5AAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjEyIAAAAAEBAAAyMDE3MTIxMl8wMDZfSFVNMTFBX0J1dHRlbndpZXNlcgUAAAABAQAAQzMwMGMAAAAuAAAAAQEAADIwMTcxMjEyXzAwNl9IVU0xMUFfQnV0dGVud2llc2VyX0MzMDBjXzAwMS5tb3YAABwAAAABBgAAEAAAACAAAAA0AAAARAAAAFQAAAB8AAAAjAAAAAgAAAAEAwAApmcGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAAC5fgYAAAAAAAgAAAAEAwAAsr0GAAAAAAAIAAAABAMAAKPDBgAAAAAACAAAAAQDAAC4wwYAAAAAAAgAAAAEAwAA0sIGAAAAAAAcAAAAAQYAAOgAAAD4AAAACAEAABgBAAAoAQAAOAEAAEgBAAAIAAAAAAQAAEG/4G5hAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAABwAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzUxNV9UdWVzZGF5LwgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG8EzDVAAAAJAAAAAEBAABERTJCRkYxOC1BNDY3LTM4NDYtOUYyOC01OUQ3QTZEM0U5ODYYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABQAAAABAQAAL1ZvbHVtZXMvNTE1X1R1ZXNkYXkIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAAAAMAAAAAAAAFIAAAbAIAAAAAAAAQIAAAfAIAAAAAAAARIAAAtAIAAAAAAAASIAAAlAIAAAAAAAATIAAApAIAAAAAAAAgIAAA4AIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAgAAAAAQYAAHQDAACAAwAAjAMAAIADAACAAwAAgAMAAIADAACAAwAAzAAAAP7///8BAAAADAMAABAAAAAEEAAAxAAAAAAAAAAFEAAAWAEAAAAAAAAQEAAAjAEAAAAAAABAEAAAfAEAAAAAAABUEAAAtAEAAAAAAABVEAAAtAEAAAAAAABWEAAArAEAAAAAAAAAIAAAmAMAAAAAAAACIAAAUAIAAAAAAAAFIAAAwAEAAAAAAAAQIAAAIAAAAAAAAAARIAAABAIAAAAAAAASIAAA5AEAAAAAAAATIAAA9AEAAAAAAAAgIAAAMAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r5",
+                            "name": "20171212_006_HUM11A_Buttenwieser_GH4_001",
+                            "uid": "08580AC8CB157ADAB2222B6AFB70BF1E",
+                            "src": "file:///Volumes/515_Tuesday/Footage/20171212/20171212_006_HUM11A_Buttenwieser/GH4/20171212_006_HUM11A_Buttenwieser_GH4_001.MOV",
+                            "start": "1206351146/24000s",
+                            "duration": "28649621/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7wEAAAAAAQQMAAAALyALP77LOIgMLSOaWnLW1vTg6fd+qei+taxIbecm9oUuAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwALAAAAAQEAADUxNV9UdWVzZGF5AAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjEyIAAAAAEBAAAyMDE3MTIxMl8wMDZfSFVNMTFBX0J1dHRlbndpZXNlcgMAAAABAQAAR0g0ACwAAAABAQAAMjAxNzEyMTJfMDA2X0hVTTExQV9CdXR0ZW53aWVzZXJfR0g0XzAwMS5NT1YcAAAAAQYAABAAAAAgAAAANAAAAEQAAABUAAAAfAAAAIgAAAAIAAAABAMAAKZnBgAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAuX4GAAAAAAAIAAAABAMAALK9BgAAAAAACAAAAAQDAACjwwYAAAAAAAgAAAAEAwAAucMGAAAAAAAIAAAABAMAAFTDBgAAAAAAHAAAAAEGAADgAAAA8AAAAAABAAAQAQAAIAEAADABAABAAQAACAAAAAAEAABBv+BwtAAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAEFAAAEAAAAAwMAAAYAAAAcAAAAAQkAAGZpbGU6Ly8vVm9sdW1lcy81MTVfVHVlc2RheS8IAAAABAMAAADAJGPuAAAACAAAAAAEAABBvBMw1QAAACQAAAABAQAAREUyQkZGMTgtQTQ2Ny0zODQ2LTlGMjgtNTlEN0E2RDNFOTg2GAAAAAECAAABAQAAAQAAAO8TAAABAAAAAAAAAAAAAAAUAAAAAQEAAC9Wb2x1bWVzLzUxNV9UdWVzZGF5CAAAAAEJAABmaWxlOi8vLw0AAAABAQAATExfUHJvZHVjdGlvbgAAAAgAAAAEAwAAAHCiR3QAAAAIAAAAAAQAAEG/PjyNAAAAJAAAAAEBAABGOENFMTlBNS01RjkwLTNDOTctOEYwMy1FN0UwQzBFRDM4RDIYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAPgCAAAAAAAABSAAAGQCAAAAAAAAECAAAHQCAAAAAAAAESAAAKwCAAAAAAAAEiAAAIwCAAAAAAAAEyAAAJwCAAAAAAAAICAAANgCAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAIAAAAAEGAABsAwAAeAMAAIQDAAB4AwAAeAMAAHgDAAB4AwAAeAMAAMwAAAD+////AQAAAAQDAAAQAAAABBAAALwAAAAAAAAABRAAAFABAAAAAAAAEBAAAIQBAAAAAAAAQBAAAHQBAAAAAAAAVBAAAKwBAAAAAAAAVRAAAKwBAAAAAAAAVhAAAKQBAAAAAAAAACAAAJADAAAAAAAAAiAAAEgCAAAAAAAABSAAALgBAAAAAAAAECAAACAAAAAAAAAAESAAAPwBAAAAAAAAEiAAANwBAAAAAAAAEyAAAOwBAAAAAAAAICAAACgCAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    }
+                ],
+                "format": [
+                    {
+                        "_attr": {
+                            "id": "r2",
+                            "name": "FFVideoFormat1080p2398",
+                            "frameDuration": "1001/24000s",
+                            "width": "1920",
+                            "height": "1080"
+                        }
+                    }
+                ],
+                "media": [
+                    {
+                        "_attr": {
+                            "id": "r6",
+                            "name": "20171212_006_HUM11A_Buttenwieser_MC",
+                            "uid": "L9ZoyAHWS3KJvBRFexxCPw",
+                            "modDate": "2017-12-13 10:25:13 -0500"
+                        },
+                        "multicam": [
+                            {
+                                "_attr": {
+                                    "format": "r2",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "1206255050/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "mc-angle": [
+                                    {
+                                        "_attr": {
+                                            "name": "C300a",
+                                            "angleID": "0000C300a"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "24024/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171212_006_HUM11A_Buttenwieser_C300a_001.mov",
+                                                    "offset": "24024/24000s",
+                                                    "ref": "r1",
+                                                    "duration": "28648620/24000s",
+                                                    "start": "1206279074/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "C300b",
+                                            "angleID": "0000C300b"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "47047/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171212_006_HUM11A_Buttenwieser_C300b_001.mov",
+                                                    "offset": "47047/24000s",
+                                                    "ref": "r3",
+                                                    "duration": "28648620/24000s",
+                                                    "start": "1206302097/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "C300c",
+                                            "angleID": "0000C300c"
+                                        },
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171212_006_HUM11A_Buttenwieser_C300c_001.mov",
+                                                    "offset": "0s",
+                                                    "ref": "r4",
+                                                    "duration": "28648620/24000s",
+                                                    "start": "1206255050/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "GH4",
+                                            "angleID": "0000GH4"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "96096/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171212_006_HUM11A_Buttenwieser_GH4_001.MOV",
+                                                    "offset": "96096/24000s",
+                                                    "ref": "r5",
+                                                    "duration": "28649621/24000s",
+                                                    "start": "1206351146/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r7",
+                            "name": "20171212_006_HUM11A_Buttenwieser_MC_CC",
+                            "uid": "mHJuNjM6TC25eUAykyD2DQ",
+                            "modDate": "2017-12-13 10:36:28 -0500"
+                        },
+                        "sequence": [
+                            {
+                                "_attr": {
+                                    "duration": "28745717/24000s",
+                                    "format": "r2",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "1206255050/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "spine": [
+                                    {
+                                        "mc-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171212_006_HUM11A_Buttenwieser_MC",
+                                                    "offset": "1206255050/24000s",
+                                                    "ref": "r6",
+                                                    "duration": "28745717/24000s",
+                                                    "start": "1206255050/24000s"
+                                                },
+                                                "mc-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "angleID": "0000C300a",
+                                                            "srcEnable": "all"
+                                                        },
+                                                        "filter-video": [
+                                                            {
+                                                                "_attr": {
+                                                                    "ref": "r8",
+                                                                    "name": "2.5_A"
+                                                                },
+                                                                "param": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/10619/1/100/101",
+                                                                            "value": "-19.3779 -232"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/10619/2/354/39498/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Line Spacing",
+                                                                            "key": "9999/32385/10619/2/354/39498/404",
+                                                                            "value": "-2"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/10619/2/369",
+                                                                            "value": "20171212_006_HUM11A_Buttenwieser"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20673/1/100/101",
+                                                                            "value": "-16.824 -180"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20673/2/354/39496/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20673/2/369",
+                                                                            "value": "HUM11A: Buttenwieser"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20837/1/100/101",
+                                                                            "value": "-443.584 -395"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20837/2/354/39500/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20837/2/369",
+                                                                            "value": "20171212:"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "mc-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171212_006_HUM11A_Buttenwieser_MC",
+                                                            "lane": "-2",
+                                                            "offset": "1206255050/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "28745717/24000s",
+                                                            "start": "1206255050/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300b",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r9",
+                                                                            "name": "2.5_C"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171212_006_HUM11A_Buttenwieser_MC",
+                                                            "lane": "-1",
+                                                            "offset": "1206255050/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "28745717/24000s",
+                                                            "start": "1206255050/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300c",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "adjust-transform": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "position": "5.23148 0.444444",
+                                                                            "scale": "0.94 0.94"
+                                                                        }
+                                                                    }
+                                                                ],
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "enabled": "0",
+                                                                            "ref": "r10",
+                                                                            "name": "2.5_B"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r11",
+                                                                            "name": "C300c-cam-2018-master-BROKEN"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171212_006_HUM11A_Buttenwieser_MC",
+                                                            "lane": "1",
+                                                            "offset": "1206255050/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "28745717/24000s",
+                                                            "start": "1206255050/24000s"
+                                                        },
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r8",
+                                                                            "name": "2.5_A"
+                                                                        },
+                                                                        "param": [
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Position",
+                                                                                    "key": "9999/32385/10619/1/100/101",
+                                                                                    "value": "-19.3779 -232"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Alignment",
+                                                                                    "key": "9999/32385/10619/2/354/39498/401",
+                                                                                    "value": "2 (Right)"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Line Spacing",
+                                                                                    "key": "9999/32385/10619/2/354/39498/404",
+                                                                                    "value": "-2"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Text",
+                                                                                    "key": "9999/32385/10619/2/369",
+                                                                                    "value": "20171212_006_HUM11A_Buttenwieser"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Position",
+                                                                                    "key": "9999/32385/20673/1/100/101",
+                                                                                    "value": "-16.824 -180"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Alignment",
+                                                                                    "key": "9999/32385/20673/2/354/39496/401",
+                                                                                    "value": "2 (Right)"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Text",
+                                                                                    "key": "9999/32385/20673/2/369",
+                                                                                    "value": "HUM11A: Buttenwieser"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Position",
+                                                                                    "key": "9999/32385/20837/1/100/101",
+                                                                                    "value": "-443.584 -395"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Alignment",
+                                                                                    "key": "9999/32385/20837/2/354/39500/401",
+                                                                                    "value": "2 (Right)"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Text",
+                                                                                    "key": "9999/32385/20837/2/369",
+                                                                                    "value": "20171212:"
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000GH4",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r12",
+                                                                            "name": "C300b-cam-2018-master"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "effect": [
+                    {
+                        "_attr": {
+                            "id": "r8",
+                            "name": "2.5_A",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r9",
+                            "name": "2.5_C",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_C/2.5_C.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_C/2.5_C.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r10",
+                            "name": "2.5_B",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r11",
+                            "name": "C300c-cam-2018-master-BROKEN",
+                            "uid": "~/Effects.localized/layouts-2018/C300c-cam-2018-master/C300c-cam-2018-master-BROKEN.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/layouts-2018/C300c-cam-2018-master/C300c-cam-2018-master-BROKEN.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r12",
+                            "name": "C300b-cam-2018-master",
+                            "uid": "~/Effects.localized/layouts-2018/C300b-cam-2018-master/C300b-cam-2018-master.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/layouts-2018/C300b-cam-2018-master/C300b-cam-2018-master.moef"
+                        }
+                    }
+                ]
+            }
+        ],
+        "library": [
+            {
+                "_attr": {
+                    "location": "file:///Volumes/515_Tuesday/FCP_Libs/20171212_MC_CC_Ex.fcpbundle/"
+                },
+                "event": [
+                    {
+                        "_attr": {
+                            "name": "20171212_006_HUM11A_Buttenwieser",
+                            "uid": "EDC19EE6-D57D-499E-BD2C-9F8B7FC28AC0"
+                        },
+                        "asset-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171212_006_HUM11A_Buttenwieser_C300a_001",
+                                    "ref": "r1",
+                                    "duration": "28648620/24000s",
+                                    "start": "1206279074/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-13 09:51:20 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "603139537/12000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.20628e+09s",
+                                            "duration": "28648620/24000s",
+                                            "value": "20171212_006_HUM11A_Buttenwieser, C300a"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171212_006_HUM11A_Buttenwieser_C300b_001",
+                                    "ref": "r3",
+                                    "duration": "28648620/24000s",
+                                    "start": "1206302097/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-13 09:51:20 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "402100699/8000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.2063e+09s",
+                                            "duration": "28648620/24000s",
+                                            "value": "20171212_006_HUM11A_Buttenwieser, C300b"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171212_006_HUM11A_Buttenwieser_C300c_001",
+                                    "ref": "r4",
+                                    "duration": "28648620/24000s",
+                                    "start": "1206255050/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-13 09:51:20 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "24125101/480s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.20626e+09s",
+                                            "duration": "28648620/24000s",
+                                            "value": "20171212_006_HUM11A_Buttenwieser, C300c"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171212_006_HUM11A_Buttenwieser_GH4_001",
+                                    "ref": "r5",
+                                    "duration": "28649621/24000s",
+                                    "start": "1206351146/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-13 09:51:20 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "603175573/12000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.20635e+09s",
+                                            "duration": "28649621/24000s",
+                                            "value": "20171212_006_HUM11A_Buttenwieser, GH4"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "mc-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171212_006_HUM11A_Buttenwieser_MC",
+                                    "ref": "r6",
+                                    "duration": "28745717/24000s",
+                                    "start": "1206255050/24000s",
+                                    "modDate": "2017-12-13 09:51:20 -0500"
+                                },
+                                "mc-source": [
+                                    {
+                                        "_attr": {
+                                            "angleID": "0000C300a",
+                                            "srcEnable": "all"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "ref-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171212_006_HUM11A_Buttenwieser_MC_CC",
+                                    "ref": "r7",
+                                    "duration": "28745717/24000s",
+                                    "start": "1206255050/24000s",
+                                    "modDate": "2017-12-13 10:36:28 -0500"
+                                }
+                            }
+                        ],
+                        "project": [
+                            {
+                                "_attr": {
+                                    "name": "20171212_006_HUM11A_Buttenwieser_MC_CC_Ex",
+                                    "uid": "56227811-2376-4E9A-B094-DE4D468BBCE2",
+                                    "modDate": "2017-12-13 10:36:28 -0500"
+                                },
+                                "sequence": [
+                                    {
+                                        "_attr": {
+                                            "duration": "28745717/24000s",
+                                            "format": "r2",
+                                            "renderColorSpace": "Rec. 709",
+                                            "tcStart": "0s",
+                                            "tcFormat": "NDF",
+                                            "audioLayout": "stereo",
+                                            "audioRate": "48k"
+                                        },
+                                        "spine": [
+                                            {
+                                                "ref-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171212_006_HUM11A_Buttenwieser_MC_CC",
+                                                            "offset": "0s",
+                                                            "ref": "r7",
+                                                            "duration": "28745717/24000s",
+                                                            "start": "1206255050/24000s"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "keyword-collection": [
+                            {
+                                "_attr": {
+                                    "name": "20171212_006_HUM11A_Buttenwieser"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300a"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "first 24 frames"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300b"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300c"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "GH4"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

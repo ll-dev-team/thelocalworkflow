@@ -14,6 +14,7 @@ const io2s = require("./tools/workflow_tools/io2s").io2s;
 const io2s_cli = require("./tools/scripts/io2s_cli").io2s;
 const popFcpxml = require("./tools/scripts/populate_fcpxml");
 const ffprobetools = require("./tools/workflow_tools/ffprobetools");
+const asyncTest = require("./tools/tests/mongo_async").asyncTest;
 // var reHidden = /^\./;
 var theDate = new Date;
 require('dotenv').config();
@@ -62,9 +63,7 @@ if (args.help ||
     }
 
 if (args.test) {
-  var options = ['-v', 'error', '-print_format', 'json', '-select_streams', 'v:0', '-show_entries', 'stream=width,height'];
-  var output = JSON.parse(ffprobetools.ffprobeSyncSimple(args.test, options));
-  console.log(output.streams[0].width + " is the width");
+  asyncTest();
 }
 
 if (args.io2s_cli) {

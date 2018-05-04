@@ -1,0 +1,789 @@
+{
+    "fcpxml": {
+        "_attr": {
+            "version": "1.6"
+        },
+        "resources": [
+            {
+                "asset": [
+                    {
+                        "_attr": {
+                            "id": "r1",
+                            "name": "20171205_004_MCB81_Sugar_C300a_001",
+                            "uid": "A9B72087D2FE7279A29FB44BB6B7E1C8",
+                            "src": "file:///Volumes/515_Tuesday/Footage/20171205/20171205_004_MCB81_Sugar/C300a/20171205_004_MCB81_Sugar_C300a_001.mov",
+                            "start": "1091591501/24000s",
+                            "duration": "170882712/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7QEAAAAAAQQMAAAABGjpenG8L6iS02MP6XXwCeE1tnVIB/P5T/1GKDDX/VWsAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwALAAAAAQEAADUxNV9UdWVzZGF5AAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjA1GAAAAAEBAAAyMDE3MTIwNV8wMDRfTUNCODFfU3VnYXIFAAAAAQEAAEMzMDBhAAAAJgAAAAEBAAAyMDE3MTIwNV8wMDRfTUNCODFfU3VnYXJfQzMwMGFfMDAxLm1vdgAAHAAAAAEGAAAQAAAAIAAAADQAAABEAAAAVAAAAHQAAACEAAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAALl+BgAAAAAACAAAAAQDAACHtAYAAAAAAAgAAAAEAwAAe7UGAAAAAAAIAAAABAMAAH21BgAAAAAACAAAAAQDAADutAYAAAAAABwAAAABBgAA2AAAAOgAAAD4AAAACAEAABgBAAAoAQAAOAEAAAgAAAAABAAAQb/XHpsAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAGAAAAHAAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvNTE1X1R1ZXNkYXkvCAAAAAQDAAAAwCRj7gAAAAgAAAAABAAAQbwTMNUAAAAkAAAAAQEAAERFMkJGRjE4LUE0NjctMzg0Ni05RjI4LTU5RDdBNkQzRTk4NhgAAAABAgAAAQEAAAEAAADvEwAAAQAAAAAAAAAAAAAAFAAAAAEBAAAvVm9sdW1lcy81MTVfVHVlc2RheQgAAAABCQAAZmlsZTovLy8NAAAAAQEAAExMX1Byb2R1Y3Rpb24AAAAIAAAABAMAAABwokd0AAAACAAAAAAEAABBvz48jQAAACQAAAABAQAARjhDRTE5QTUtNUY5MC0zQzk3LThGMDMtRTdFMEMwRUQzOEQyGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAABgAAAA/v///wDwAAAAAAAABwAAAAIgAADwAgAAAAAAAAUgAABcAgAAAAAAABAgAABsAgAAAAAAABEgAACkAgAAAAAAABIgAACEAgAAAAAAABMgAACUAgAAAAAAACAgAADQAgAAAAAAAAQAAAADAwAAAPAAAAQAAAADAwAAAAAAAAQAAAADAwAAAQAAACAAAAABBgAAZAMAAHADAAB8AwAAcAMAAHADAABwAwAAcAMAAHADAADMAAAA/v///wEAAAD8AgAAEAAAAAQQAAC0AAAAAAAAAAUQAABIAQAAAAAAABAQAAB8AQAAAAAAAEAQAABsAQAAAAAAAFQQAACkAQAAAAAAAFUQAACkAQAAAAAAAFYQAACcAQAAAAAAAAAgAACIAwAAAAAAAAIgAABAAgAAAAAAAAUgAACwAQAAAAAAABAgAAAgAAAAAAAAABEgAAD0AQAAAAAAABIgAADUAQAAAAAAABMgAADkAQAAAAAAACAgAAAgAgAAAAAAABDQAAAEAAAAAAAAAA=="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r3",
+                            "name": "20171205_004_MCB81_Sugar_C300a_002",
+                            "uid": "11555C07E92E4FCA652763EFE8C7E2D2",
+                            "src": "file:///Volumes/515_Tuesday/Footage/20171205/20171205_004_MCB81_Sugar/C300a/20171205_004_MCB81_Sugar_C300a_002.mov",
+                            "start": "1262474213/24000s",
+                            "duration": "14005992/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7QEAAAAAAQQMAAAAOg3m15pu2S856WG/t4uwznr8U5cM+KdbDYFJIzytqdksAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwALAAAAAQEAADUxNV9UdWVzZGF5AAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjA1GAAAAAEBAAAyMDE3MTIwNV8wMDRfTUNCODFfU3VnYXIFAAAAAQEAAEMzMDBhAAAAJgAAAAEBAAAyMDE3MTIwNV8wMDRfTUNCODFfU3VnYXJfQzMwMGFfMDAyLm1vdgAAHAAAAAEGAAAQAAAAIAAAADQAAABEAAAAVAAAAHQAAACEAAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAALl+BgAAAAAACAAAAAQDAACHtAYAAAAAAAgAAAAEAwAAe7UGAAAAAAAIAAAABAMAAH21BgAAAAAACAAAAAQDAAAVtQYAAAAAABwAAAABBgAA2AAAAOgAAAD4AAAACAEAABgBAAAoAQAAOAEAAAgAAAAABAAAQb/XOmoAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAGAAAAHAAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvNTE1X1R1ZXNkYXkvCAAAAAQDAAAAwCRj7gAAAAgAAAAABAAAQbwTMNUAAAAkAAAAAQEAAERFMkJGRjE4LUE0NjctMzg0Ni05RjI4LTU5RDdBNkQzRTk4NhgAAAABAgAAAQEAAAEAAADvEwAAAQAAAAAAAAAAAAAAFAAAAAEBAAAvVm9sdW1lcy81MTVfVHVlc2RheQgAAAABCQAAZmlsZTovLy8NAAAAAQEAAExMX1Byb2R1Y3Rpb24AAAAIAAAABAMAAABwokd0AAAACAAAAAAEAABBvz48jQAAACQAAAABAQAARjhDRTE5QTUtNUY5MC0zQzk3LThGMDMtRTdFMEMwRUQzOEQyGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAABgAAAA/v///wDwAAAAAAAABwAAAAIgAADwAgAAAAAAAAUgAABcAgAAAAAAABAgAABsAgAAAAAAABEgAACkAgAAAAAAABIgAACEAgAAAAAAABMgAACUAgAAAAAAACAgAADQAgAAAAAAAAQAAAADAwAAAPAAAAQAAAADAwAAAAAAAAQAAAADAwAAAQAAACAAAAABBgAAZAMAAHADAAB8AwAAcAMAAHADAABwAwAAcAMAAHADAADMAAAA/v///wEAAAD8AgAAEAAAAAQQAAC0AAAAAAAAAAUQAABIAQAAAAAAABAQAAB8AQAAAAAAAEAQAABsAQAAAAAAAFQQAACkAQAAAAAAAFUQAACkAQAAAAAAAFYQAACcAQAAAAAAAAAgAACIAwAAAAAAAAIgAABAAgAAAAAAAAUgAACwAQAAAAAAABAgAAAgAAAAAAAAABEgAAD0AQAAAAAAABIgAADUAQAAAAAAABMgAADkAQAAAAAAACAgAAAgAgAAAAAAABDQAAAEAAAAAAAAAA=="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r4",
+                            "name": "20171205_004_MCB81_Sugar_C300b_001",
+                            "uid": "D3E985D3B61B17192725C47DAC531174",
+                            "src": "file:///Volumes/515_Tuesday/Footage/20171205/20171205_004_MCB81_Sugar/C300b/20171205_004_MCB81_Sugar_C300b_001.mov",
+                            "start": "1092948857/24000s",
+                            "duration": "171195024/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7QEAAAAAAQQMAAAAJoRvwxhn/kF9dvH4wQYv7YVjYWStdsasw45sXRfTrTMsAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwALAAAAAQEAADUxNV9UdWVzZGF5AAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjA1GAAAAAEBAAAyMDE3MTIwNV8wMDRfTUNCODFfU3VnYXIFAAAAAQEAAEMzMDBiAAAAJgAAAAEBAAAyMDE3MTIwNV8wMDRfTUNCODFfU3VnYXJfQzMwMGJfMDAxLm1vdgAAHAAAAAEGAAAQAAAAIAAAADQAAABEAAAAVAAAAHQAAACEAAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAALl+BgAAAAAACAAAAAQDAACHtAYAAAAAAAgAAAAEAwAAe7UGAAAAAAAIAAAABAMAAH+1BgAAAAAACAAAAAQDAAAHtQYAAAAAABwAAAABBgAA2AAAAOgAAAD4AAAACAEAABgBAAAoAQAAOAEAAAgAAAAABAAAQb/XHtYAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAGAAAAHAAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvNTE1X1R1ZXNkYXkvCAAAAAQDAAAAwCRj7gAAAAgAAAAABAAAQbwTMNUAAAAkAAAAAQEAAERFMkJGRjE4LUE0NjctMzg0Ni05RjI4LTU5RDdBNkQzRTk4NhgAAAABAgAAAQEAAAEAAADvEwAAAQAAAAAAAAAAAAAAFAAAAAEBAAAvVm9sdW1lcy81MTVfVHVlc2RheQgAAAABCQAAZmlsZTovLy8NAAAAAQEAAExMX1Byb2R1Y3Rpb24AAAAIAAAABAMAAABwokd0AAAACAAAAAAEAABBvz48jQAAACQAAAABAQAARjhDRTE5QTUtNUY5MC0zQzk3LThGMDMtRTdFMEMwRUQzOEQyGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAABgAAAA/v///wDwAAAAAAAABwAAAAIgAADwAgAAAAAAAAUgAABcAgAAAAAAABAgAABsAgAAAAAAABEgAACkAgAAAAAAABIgAACEAgAAAAAAABMgAACUAgAAAAAAACAgAADQAgAAAAAAAAQAAAADAwAAAPAAAAQAAAADAwAAAAAAAAQAAAADAwAAAQAAACAAAAABBgAAZAMAAHADAAB8AwAAcAMAAHADAABwAwAAcAMAAHADAADMAAAA/v///wEAAAD8AgAAEAAAAAQQAAC0AAAAAAAAAAUQAABIAQAAAAAAABAQAAB8AQAAAAAAAEAQAABsAQAAAAAAAFQQAACkAQAAAAAAAFUQAACkAQAAAAAAAFYQAACcAQAAAAAAAAAgAACIAwAAAAAAAAIgAABAAgAAAAAAAAUgAACwAQAAAAAAABAgAAAgAAAAAAAAABEgAAD0AQAAAAAAABIgAADUAQAAAAAAABMgAADkAQAAAAAAACAgAAAgAgAAAAAAABDQAAAEAAAAAAAAAA=="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r5",
+                            "name": "20171205_004_MCB81_Sugar_C300b_002",
+                            "uid": "A7E599FE8E58356DA35AEC3BA28EAB2A",
+                            "src": "file:///Volumes/515_Tuesday/Footage/20171205/20171205_004_MCB81_Sugar/C300b/20171205_004_MCB81_Sugar_C300b_002.mov",
+                            "start": "1264143881/24000s",
+                            "duration": "12288276/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va7QEAAAAAAQQMAAAAN7lSIRexGGhLkgMSVFGFZcmt+ZlwB6YHUlC+/0lQSxosAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwALAAAAAQEAADUxNV9UdWVzZGF5AAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjA1GAAAAAEBAAAyMDE3MTIwNV8wMDRfTUNCODFfU3VnYXIFAAAAAQEAAEMzMDBiAAAAJgAAAAEBAAAyMDE3MTIwNV8wMDRfTUNCODFfU3VnYXJfQzMwMGJfMDAyLm1vdgAAHAAAAAEGAAAQAAAAIAAAADQAAABEAAAAVAAAAHQAAACEAAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAALl+BgAAAAAACAAAAAQDAACHtAYAAAAAAAgAAAAEAwAAe7UGAAAAAAAIAAAABAMAAH+1BgAAAAAACAAAAAQDAABgtQYAAAAAABwAAAABBgAA2AAAAOgAAAD4AAAACAEAABgBAAAoAQAAOAEAAAgAAAAABAAAQb/XOrMAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAGAAAAHAAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvNTE1X1R1ZXNkYXkvCAAAAAQDAAAAwCRj7gAAAAgAAAAABAAAQbwTMNUAAAAkAAAAAQEAAERFMkJGRjE4LUE0NjctMzg0Ni05RjI4LTU5RDdBNkQzRTk4NhgAAAABAgAAAQEAAAEAAADvEwAAAQAAAAAAAAAAAAAAFAAAAAEBAAAvVm9sdW1lcy81MTVfVHVlc2RheQgAAAABCQAAZmlsZTovLy8NAAAAAQEAAExMX1Byb2R1Y3Rpb24AAAAIAAAABAMAAABwokd0AAAACAAAAAAEAABBvz48jQAAACQAAAABAQAARjhDRTE5QTUtNUY5MC0zQzk3LThGMDMtRTdFMEMwRUQzOEQyGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAABgAAAA/v///wDwAAAAAAAABwAAAAIgAADwAgAAAAAAAAUgAABcAgAAAAAAABAgAABsAgAAAAAAABEgAACkAgAAAAAAABIgAACEAgAAAAAAABMgAACUAgAAAAAAACAgAADQAgAAAAAAAAQAAAADAwAAAPAAAAQAAAADAwAAAAAAAAQAAAADAwAAAQAAACAAAAABBgAAZAMAAHADAAB8AwAAcAMAAHADAABwAwAAcAMAAHADAADMAAAA/v///wEAAAD8AgAAEAAAAAQQAAC0AAAAAAAAAAUQAABIAQAAAAAAABAQAAB8AQAAAAAAAEAQAABsAQAAAAAAAFQQAACkAQAAAAAAAFUQAACkAQAAAAAAAFYQAACcAQAAAAAAAAAgAACIAwAAAAAAAAIgAABAAgAAAAAAAAUgAACwAQAAAAAAABAgAAAgAAAAAAAAABEgAAD0AQAAAAAAABIgAADUAQAAAAAAABMgAADkAQAAAAAAACAgAAAgAgAAAAAAABDQAAAEAAAAAAAAAA=="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r6",
+                            "name": "20171205_004_MCB81_Sugar_GH4_001",
+                            "uid": "2F22F5A2FFF88218208B7F1FC75C1F18",
+                            "src": "file:///Volumes/515_Tuesday/Footage/20171205/20171205_004_MCB81_Sugar/GH4/20171205_004_MCB81_Sugar_GH4_001.MOV",
+                            "start": "1093203111/24000s",
+                            "duration": "183125943/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va6wEAAAAAAQQMAAAADv3Xnk/Dq08lFSMh++1X2Lqibx/U9LBfVQ1Ynnkwr68qAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwALAAAAAQEAADUxNV9UdWVzZGF5AAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjA1GAAAAAEBAAAyMDE3MTIwNV8wMDRfTUNCODFfU3VnYXIDAAAAAQEAAEdINAAkAAAAAQEAADIwMTcxMjA1XzAwNF9NQ0I4MV9TdWdhcl9HSDRfMDAxLk1PVhwAAAABBgAAEAAAACAAAAA0AAAARAAAAFQAAAB0AAAAgAAAAAgAAAAEAwAApmcGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAAC5fgYAAAAAAAgAAAAEAwAAh7QGAAAAAAAIAAAABAMAAHu1BgAAAAAACAAAAAQDAACAtQYAAAAAAAgAAAAEAwAA7bQGAAAAAAAcAAAAAQYAANAAAADgAAAA8AAAAAABAAAQAQAAIAEAADABAAAIAAAAAAQAAEG/1yFyAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAABwAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzUxNV9UdWVzZGF5LwgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG8EzDVAAAAJAAAAAEBAABERTJCRkYxOC1BNDY3LTM4NDYtOUYyOC01OUQ3QTZEM0U5ODYYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABQAAAABAQAAL1ZvbHVtZXMvNTE1X1R1ZXNkYXkIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA6AIAAAAAAAAFIAAAVAIAAAAAAAAQIAAAZAIAAAAAAAARIAAAnAIAAAAAAAASIAAAfAIAAAAAAAATIAAAjAIAAAAAAAAgIAAAyAIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAgAAAAAQYAAFwDAABoAwAAdAMAAGgDAABoAwAAaAMAAGgDAABoAwAAzAAAAP7///8BAAAA9AIAABAAAAAEEAAArAAAAAAAAAAFEAAAQAEAAAAAAAAQEAAAdAEAAAAAAABAEAAAZAEAAAAAAABUEAAAnAEAAAAAAABVEAAAnAEAAAAAAABWEAAAlAEAAAAAAAAAIAAAgAMAAAAAAAACIAAAOAIAAAAAAAAFIAAAqAEAAAAAAAAQIAAAIAAAAAAAAAARIAAA7AEAAAAAAAASIAAAzAEAAAAAAAATIAAA3AEAAAAAAAAgIAAAGAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    }
+                ],
+                "format": [
+                    {
+                        "_attr": {
+                            "id": "r2",
+                            "name": "FFVideoFormat1080p2398",
+                            "frameDuration": "1001/24000s",
+                            "width": "1920",
+                            "height": "1080"
+                        }
+                    }
+                ],
+                "media": [
+                    {
+                        "_attr": {
+                            "id": "r7",
+                            "name": "20171205_004_MCB81_Sugar_MC",
+                            "uid": "+NdRrvMUQluXs2ECFJxXlw",
+                            "modDate": "2017-12-05 16:36:36 -0500"
+                        },
+                        "multicam": [
+                            {
+                                "_attr": {
+                                    "format": "r2",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "1091591501/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "mc-angle": [
+                                    {
+                                        "_attr": {
+                                            "name": "C300a",
+                                            "angleID": "0000C300a"
+                                        },
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171205_004_MCB81_Sugar_C300a_001.mov",
+                                                    "offset": "0s",
+                                                    "ref": "r1",
+                                                    "duration": "170882712/24000s",
+                                                    "start": "1091591501/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "20171205_004_MCB81_Sugar_C300a_002.mov",
+                                                    "offset": "170882712/24000s",
+                                                    "ref": "r3",
+                                                    "duration": "14005992/24000s",
+                                                    "start": "1262474213/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "C300b",
+                                            "angleID": "0000C300b"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "1357356/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171205_004_MCB81_Sugar_C300b_001.mov",
+                                                    "offset": "1357356/24000s",
+                                                    "ref": "r4",
+                                                    "duration": "171195024/24000s",
+                                                    "start": "1092948857/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "20171205_004_MCB81_Sugar_C300b_002.mov",
+                                                    "offset": "172552380/24000s",
+                                                    "ref": "r5",
+                                                    "duration": "12288276/24000s",
+                                                    "start": "1264143881/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "GH4",
+                                            "angleID": "0000GH4"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "1611610/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171205_004_MCB81_Sugar_GH4_001.MOV",
+                                                    "offset": "1611610/24000s",
+                                                    "ref": "r6",
+                                                    "duration": "183125943/24000s",
+                                                    "start": "1093203111/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r8",
+                            "name": "20171205_004_MCB81_Sugar_MC_CC",
+                            "uid": "GGADqFVcTYaV5zTsNSSxdQ",
+                            "modDate": "2017-12-05 16:36:36 -0500"
+                        },
+                        "sequence": [
+                            {
+                                "_attr": {
+                                    "duration": "184888704/24000s",
+                                    "format": "r2",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "1091591501/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "spine": [
+                                    {
+                                        "mc-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171205_004_MCB81_Sugar_MC",
+                                                    "offset": "1091591501/24000s",
+                                                    "ref": "r7",
+                                                    "duration": "184888704/24000s",
+                                                    "start": "1091591501/24000s"
+                                                },
+                                                "mc-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "angleID": "0000C300a",
+                                                            "srcEnable": "all"
+                                                        },
+                                                        "filter-video": [
+                                                            {
+                                                                "_attr": {
+                                                                    "ref": "r9",
+                                                                    "name": "2.5_A"
+                                                                },
+                                                                "param": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/10619/1/100/101",
+                                                                            "value": "-19.3779 -232"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/10619/2/354/38573/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Line Spacing",
+                                                                            "key": "9999/32385/10619/2/354/38573/404",
+                                                                            "value": "-2"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/10619/2/369",
+                                                                            "value": "20171205_004_MCB81_Sugar"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20673/1/100/101",
+                                                                            "value": "-16.824 -180"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20673/2/354/38571/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20673/2/369",
+                                                                            "value": "MCB81: Sugar"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20837/1/100/101",
+                                                                            "value": "-443.584 -395"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20837/2/354/38575/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20837/2/369",
+                                                                            "value": "20171205:"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "mc-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171205_004_MCB81_Sugar_MC",
+                                                            "lane": "-2",
+                                                            "offset": "1091591501/24000s",
+                                                            "ref": "r7",
+                                                            "duration": "184888704/24000s",
+                                                            "start": "1091591501/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300b",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r10",
+                                                                            "name": "2.5_C"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171205_004_MCB81_Sugar_MC",
+                                                            "lane": "-1",
+                                                            "offset": "1091591501/24000s",
+                                                            "ref": "r7",
+                                                            "duration": "184888704/24000s",
+                                                            "start": "1091591501/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000GH4",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r11",
+                                                                            "name": "2.5_B"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "effect": [
+                    {
+                        "_attr": {
+                            "id": "r9",
+                            "name": "2.5_A",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r10",
+                            "name": "2.5_C",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_C/2.5_C.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_C/2.5_C.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r11",
+                            "name": "2.5_B",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef"
+                        }
+                    }
+                ]
+            }
+        ],
+        "library": [
+            {
+                "_attr": {
+                    "location": "file:///Volumes/515_Tuesday/FCP_Libs/20171205_MC_CC_Ex.fcpbundle/"
+                },
+                "event": [
+                    {
+                        "_attr": {
+                            "name": "20171205_004_MCB81_Sugar",
+                            "uid": "8468C8A2-B0A8-40FE-9B8E-67F2BCCB1148"
+                        },
+                        "asset-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171205_004_MCB81_Sugar_C300a_001",
+                                    "ref": "r1",
+                                    "duration": "170882712/24000s",
+                                    "start": "1091591501/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-05 15:55:45 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "1091591501/24000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.09159e+09s",
+                                            "duration": "170882712/24000s",
+                                            "value": "20171205_004_MCB81_Sugar, C300a"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171205_004_MCB81_Sugar_C300a_002",
+                                    "ref": "r3",
+                                    "duration": "14005992/24000s",
+                                    "start": "1262474213/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-05 15:55:45 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "1262474213/24000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.26247e+09s",
+                                            "duration": "14005992/24000s",
+                                            "value": "20171205_004_MCB81_Sugar, C300a"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171205_004_MCB81_Sugar_C300b_001",
+                                    "ref": "r4",
+                                    "duration": "171195024/24000s",
+                                    "start": "1092948857/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-05 15:55:45 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "1092948857/24000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.09295e+09s",
+                                            "duration": "171195024/24000s",
+                                            "value": "20171205_004_MCB81_Sugar, C300b"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171205_004_MCB81_Sugar_C300b_002",
+                                    "ref": "r5",
+                                    "duration": "12288276/24000s",
+                                    "start": "1264143881/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-05 15:55:46 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "1264143881/24000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.26414e+09s",
+                                            "duration": "12288276/24000s",
+                                            "value": "20171205_004_MCB81_Sugar, C300b"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171205_004_MCB81_Sugar_GH4_001",
+                                    "ref": "r6",
+                                    "duration": "183125943/24000s",
+                                    "start": "1093203111/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-05 15:55:46 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "364401037/8000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.0932e+09s",
+                                            "duration": "183125943/24000s",
+                                            "value": "20171205_004_MCB81_Sugar, GH4"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "mc-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171205_004_MCB81_Sugar_MC",
+                                    "ref": "r7",
+                                    "duration": "184888704/24000s",
+                                    "start": "1091591501/24000s",
+                                    "modDate": "2017-12-05 15:55:45 -0500"
+                                },
+                                "mc-source": [
+                                    {
+                                        "_attr": {
+                                            "angleID": "0000C300a",
+                                            "srcEnable": "all"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "ref-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171205_004_MCB81_Sugar_MC_CC",
+                                    "ref": "r8",
+                                    "duration": "184888704/24000s",
+                                    "start": "1091591501/24000s",
+                                    "modDate": "2017-12-05 15:55:45 -0500"
+                                }
+                            }
+                        ],
+                        "project": [
+                            {
+                                "_attr": {
+                                    "name": "20171205_004_MCB81_Sugar_MC_CC_Ex",
+                                    "uid": "4A6C497F-6B48-41D4-83FB-E051BC66BCE7",
+                                    "modDate": "2017-12-05 16:36:36 -0500"
+                                },
+                                "sequence": [
+                                    {
+                                        "_attr": {
+                                            "duration": "184888704/24000s",
+                                            "format": "r2",
+                                            "renderColorSpace": "Rec. 709",
+                                            "tcStart": "0s",
+                                            "tcFormat": "NDF",
+                                            "audioLayout": "stereo",
+                                            "audioRate": "48k"
+                                        },
+                                        "spine": [
+                                            {
+                                                "ref-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171205_004_MCB81_Sugar_MC_CC",
+                                                            "offset": "0s",
+                                                            "ref": "r8",
+                                                            "duration": "184888704/24000s",
+                                                            "start": "1091591501/24000s"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "keyword-collection": [
+                            {
+                                "_attr": {
+                                    "name": "20171205_004_MCB81_Sugar"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300a"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "first 24 frames"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300b"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "GH4"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

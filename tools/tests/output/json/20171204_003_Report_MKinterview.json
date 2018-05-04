@@ -1,0 +1,373 @@
+{
+    "fcpxml": {
+        "_attr": {
+            "version": "1.6"
+        },
+        "resources": [
+            {
+                "format": [
+                    {
+                        "_attr": {
+                            "id": "r1",
+                            "name": "FFVideoFormat1080p2398",
+                            "frameDuration": "3003/72000s",
+                            "width": "1920",
+                            "height": "1080"
+                        }
+                    }
+                ],
+                "asset": [
+                    {
+                        "_attr": {
+                            "id": "r2",
+                            "name": "20171204_003_Report_MKinterview_C100a_001",
+                            "uid": "941B5B1D5BE896CDD8AEA63AEC5BABAB",
+                            "src": "file:///Volumes/105_1TB/20171204/20171204_003_Report_MKinterview/C100a/20171204_003_Report_MKinterview_C100a_001.mov",
+                            "start": "2926471548/72000s",
+                            "duration": "111243132/72000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va5gEAAAAAAQQMAAAAJRBsRiWum9K1OUrYOjaJ9RDgxnhzCFKC/Use/T7rw4/lAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAHAAAAAQEAADEwNV8xVEIACAAAAAEBAAAyMDE3MTIwNB8AAAABAQAAMjAxNzEyMDRfMDAzX1JlcG9ydF9NS2ludGVydmlldwAFAAAAAQEAAEMxMDBhAAAALQAAAAEBAAAyMDE3MTIwNF8wMDNfUmVwb3J0X01LaW50ZXJ2aWV3X0MxMDBhXzAwMS5tb3YAAAAYAAAAAQYAABAAAAAgAAAAMAAAAEAAAABoAAAAeAAAAAgAAAAEAwAApmcGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAADn0QgAAAAAAAgAAAAEAwAA5NYIAAAAAAAIAAAABAMAAOXWCAAAAAAACAAAAAQDAAC51QgAAAAAABgAAAABBgAA0AAAAOAAAADwAAAAAAEAABABAAAgAQAACAAAAAAEAABBv9XpHgAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAEFAAAEAAAAAwMAAAYAAAAEAAAAAwMAAAUAAAAYAAAAAQkAAGZpbGU6Ly8vVm9sdW1lcy8xMDVfMVRCLwgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG9iDNtAAAAJAAAAAEBAAAxNjJDRTc0MC1GOEVFLTNEN0YtQjQyOC1FNDhEMTJFOUI4RjUYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABAAAAABAQAAL1ZvbHVtZXMvMTA1XzFUQggAAAABCQAAZmlsZTovLy8NAAAAAQEAAExMX1Byb2R1Y3Rpb24AAAAIAAAABAMAAABwokd0AAAACAAAAAAEAABBvz48jQAAACQAAAABAQAARjhDRTE5QTUtNUY5MC0zQzk3LThGMDMtRTdFMEMwRUQzOEQyGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAABgAAAA/v///wDwAAAAAAAABwAAAAIgAADYAgAAAAAAAAUgAABEAgAAAAAAABAgAABUAgAAAAAAABEgAACMAgAAAAAAABIgAABsAgAAAAAAABMgAAB8AgAAAAAAACAgAAC4AgAAAAAAAAQAAAADAwAAAPAAAAQAAAADAwAAAAAAAAQAAAADAwAAAQAAABwAAAABBgAATAMAAFgDAABkAwAAWAMAAFgDAABYAwAAWAMAAMwAAAD+////AQAAAOQCAAAQAAAABBAAALAAAAAAAAAABRAAADABAAAAAAAAEBAAAGABAAAAAAAAQBAAAFABAAAAAAAAVBAAAIgBAAAAAAAAVRAAAJQBAAAAAAAAVhAAAIABAAAAAAAAACAAAHADAAAAAAAAAiAAACwCAAAAAAAABSAAAKABAAAAAAAAECAAACAAAAAAAAAAESAAAOABAAAAAAAAEiAAAMABAAAAAAAAEyAAANABAAAAAAAAICAAAAwCAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    }
+                ],
+                "media": [
+                    {
+                        "_attr": {
+                            "id": "r3",
+                            "name": "20171204_003_Report_MKinterview_MC",
+                            "uid": "GkyFUV33TVW+9RJdNnB8+w",
+                            "modDate": "2017-12-05 11:08:21 -0500"
+                        },
+                        "multicam": [
+                            {
+                                "_attr": {
+                                    "format": "r1",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "2926471548/72000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "mc-angle": [
+                                    {
+                                        "_attr": {
+                                            "name": "C100a",
+                                            "angleID": "FwPwl+GgSwuOIFDS1/ng7g"
+                                        },
+                                        "clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171204_003_Report_MKinterview_C100a_001",
+                                                    "offset": "0s",
+                                                    "duration": "111243132/72000s",
+                                                    "start": "2926471548/72000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "_attr": {
+                                                            "offset": "2926471548/72000s",
+                                                            "ref": "r2",
+                                                            "duration": "111243132/72000s",
+                                                            "start": "2926471548/72000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "_attr": {
+                                                                    "lane": "-1",
+                                                                    "offset": "2926471548/72000s",
+                                                                    "ref": "r2",
+                                                                    "duration": "111243132/72000s",
+                                                                    "start": "2926471548/72000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "keyword": [
+                                                    {
+                                                        "_attr": {
+                                                            "start": "243872629/6000s",
+                                                            "duration": "111243132/72000s",
+                                                            "value": "20171204_003_Report_MKinterview, C100a"
+                                                        }
+                                                    }
+                                                ],
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r4",
+                            "name": "20171204_003_Report_MKinterview_MC_CC",
+                            "uid": "7VzIp+qoSkyYnCJDe8g6PQ",
+                            "modDate": "2017-12-05 11:08:32 -0500"
+                        },
+                        "sequence": [
+                            {
+                                "_attr": {
+                                    "duration": "111243132/72000s",
+                                    "format": "r1",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "975490516/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "spine": [
+                                    {
+                                        "mc-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171204_003_Report_MKinterview_MC",
+                                                    "offset": "2926471548/72000s",
+                                                    "ref": "r3",
+                                                    "duration": "111243132/72000s",
+                                                    "start": "2926471548/72000s"
+                                                },
+                                                "mc-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "angleID": "FwPwl+GgSwuOIFDS1/ng7g",
+                                                            "srcEnable": "all"
+                                                        },
+                                                        "filter-video": [
+                                                            {
+                                                                "_attr": {
+                                                                    "ref": "r5",
+                                                                    "name": "Single-cam-2018"
+                                                                },
+                                                                "param": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/10619/1/100/101",
+                                                                            "value": "700.341 473.047"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Line Spacing",
+                                                                            "key": "9999/32385/10619/2/354/10624/404",
+                                                                            "value": "-2"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Line Spacing",
+                                                                            "key": "9999/32385/10619/2/354/36028/404",
+                                                                            "value": "-2"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/10619/2/369",
+                                                                            "value": "Report_\nMKinterview"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20837/1/100/101",
+                                                                            "value": "246.942 -502.831"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20837/2/354/20838/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20837/2/369",
+                                                                            "value": "20171204:"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "effect": [
+                    {
+                        "_attr": {
+                            "id": "r5",
+                            "name": "Single-cam-2018",
+                            "uid": "~/Effects.localized/layouts-2018/Single-cam-2018/Single-cam-2018.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/layouts-2018/Single-cam-2018/Single-cam-2018.moef"
+                        }
+                    }
+                ]
+            }
+        ],
+        "library": [
+            {
+                "_attr": {
+                    "location": "file:///Volumes/105_1TB/20171204_MC_CC_Ex.fcpbundle/"
+                },
+                "event": [
+                    {
+                        "_attr": {
+                            "name": "20171204_003_Report_MKinterview",
+                            "uid": "655AFE85-EF3A-47F1-81A1-7F43A4BCCB3E"
+                        },
+                        "clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171204_003_Report_MKinterview_C100a_001",
+                                    "duration": "111243132/72000s",
+                                    "start": "2926471548/72000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-05 11:06:35 -0500"
+                                },
+                                "video": [
+                                    {
+                                        "_attr": {
+                                            "offset": "2926471548/72000s",
+                                            "ref": "r2",
+                                            "duration": "111243132/72000s",
+                                            "start": "2926471548/72000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "2926471548/72000s",
+                                                    "ref": "r2",
+                                                    "duration": "111243132/72000s",
+                                                    "start": "2926471548/72000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "243872629/6000s",
+                                            "duration": "111243132/72000s",
+                                            "value": "20171204_003_Report_MKinterview, C100a"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "mc-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171204_003_Report_MKinterview_MC",
+                                    "ref": "r3",
+                                    "duration": "111243132/72000s",
+                                    "start": "2926471548/72000s",
+                                    "modDate": "2017-12-05 11:08:21 -0500"
+                                },
+                                "mc-source": [
+                                    {
+                                        "_attr": {
+                                            "angleID": "FwPwl+GgSwuOIFDS1/ng7g",
+                                            "srcEnable": "all"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "ref-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171204_003_Report_MKinterview_MC_CC",
+                                    "ref": "r4",
+                                    "duration": "111243132/72000s",
+                                    "start": "975490516/24000s",
+                                    "useAudioSubroles": "1",
+                                    "modDate": "2017-12-05 11:08:32 -0500"
+                                }
+                            }
+                        ],
+                        "project": [
+                            {
+                                "_attr": {
+                                    "name": "20171204_003_Report_MKinterview_MC_CC_Ex",
+                                    "uid": "2416BCB5-1C5F-4DDD-9BF2-C88AF59359F6",
+                                    "modDate": "2017-12-05 11:09:15 -0500"
+                                },
+                                "sequence": [
+                                    {
+                                        "_attr": {
+                                            "duration": "37081044/24000s",
+                                            "format": "r1",
+                                            "renderColorSpace": "Rec. 709",
+                                            "tcStart": "0s",
+                                            "tcFormat": "NDF",
+                                            "audioLayout": "stereo",
+                                            "audioRate": "48k"
+                                        },
+                                        "spine": [
+                                            {
+                                                "ref-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171204_003_Report_MKinterview_MC_CC",
+                                                            "offset": "0s",
+                                                            "ref": "r4",
+                                                            "duration": "37081044/24000s",
+                                                            "start": "975490516/24000s",
+                                                            "useAudioSubroles": "1"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "keyword-collection": [
+                            {
+                                "_attr": {
+                                    "name": "C100a"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171204_003_Report_MKinterview"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,1146 @@
+{
+    "fcpxml": {
+        "_attr": {
+            "version": "1.6"
+        },
+        "resources": [
+            {
+                "format": [
+                    {
+                        "_attr": {
+                            "id": "r1",
+                            "name": "FFVideoFormat1080p2398",
+                            "frameDuration": "1001/24000s",
+                            "width": "1920",
+                            "height": "1080"
+                        }
+                    }
+                ],
+                "asset": [
+                    {
+                        "_attr": {
+                            "id": "r2",
+                            "name": "20171212_009_HUM11A_Laurie_C300a_001",
+                            "uid": "170463CC793B538B8AD0BD3B0813CDF6",
+                            "src": "file:///Volumes/RAID_0_021_18/2017_12/20171212_009_HUM11A_Laurie/C300a/20171212_009_HUM11A_Laurie_C300a_001.mov",
+                            "start": "1412517106/24000s",
+                            "duration": "28480452/24000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va6QEAAAAAAQQMAAAALxMNcwF2h1RC6bnAug7G/asVMC3yX3FixN5QY0Q28eOoAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwANAAAAAQEAAFJBSURfMF8wMjFfMTgAAAAHAAAAAQEAADIwMTdfMTIAGgAAAAEBAAAyMDE3MTIxMl8wMDlfSFVNMTFBX0xhdXJpZQAABQAAAAEBAABDMzAwYQAAACgAAAABAQAAMjAxNzEyMTJfMDA5X0hVTTExQV9MYXVyaWVfQzMwMGFfMDAxLm1vdhgAAAABBgAAEAAAACAAAAA4AAAASAAAAGwAAAB8AAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAAG1tAwAAAAAACAAAAAQDAACohwMAAAAAAAgAAAAEAwAAGIgDAAAAAAAIAAAABAMAABmIAwAAAAAAGAAAAAEGAADMAAAA3AAAAOwAAAD8AAAADAEAABwBAAAIAAAAAAQAAEG/4I+bAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAAAQAAAADAwAABQAAAB4AAAABCQAAZmlsZTovLy9Wb2x1bWVzL1JBSURfMF8wMjFfMTgvAAAIAAAABAMAAACAf4ZfEAAACAAAAAAEAABBvwRPxgAAACQAAAABAQAAQTNBRkJFNDMtNjBFNS0zOEJDLUFGMzctQTE5REQ4QzIzQkI2GAAAAAECAAABAAAAAQAAAO8TAAABAAAAAAAAAAAAAAAWAAAAAQEAAC9Wb2x1bWVzL1JBSURfMF8wMjFfMTgAAAgAAAABCQAAZmlsZTovLy8NAAAAAQEAAExMX1Byb2R1Y3Rpb24AAAAIAAAABAMAAABwokd0AAAACAAAAAAEAABBvz48jQAAACQAAAABAQAARjhDRTE5QTUtNUY5MC0zQzk3LThGMDMtRTdFMEMwRUQzOEQyGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAABgAAAA/v///wDwAAAAAAAABwAAAAIgAADkAgAAAAAAAAUgAABQAgAAAAAAABAgAABgAgAAAAAAABEgAACYAgAAAAAAABIgAAB4AgAAAAAAABMgAACIAgAAAAAAACAgAADEAgAAAAAAAAQAAAADAwAAAPAAAAQAAAADAwAAAAAAAAQAAAADAwAAAQAAABwAAAABBgAAWAMAAGQDAABwAwAAZAMAAGQDAABkAwAAZAMAAMwAAAD+////AQAAAPACAAAQAAAABBAAAKwAAAAAAAAABRAAACwBAAAAAAAAEBAAAFwBAAAAAAAAQBAAAEwBAAAAAAAAVBAAAIQBAAAAAAAAVRAAAJABAAAAAAAAVhAAAHwBAAAAAAAAACAAAHwDAAAAAAAAAiAAADACAAAAAAAABSAAAJwBAAAAAAAAECAAACAAAAAAAAAAESAAAOQBAAAAAAAAEiAAAMQBAAAAAAAAEyAAANQBAAAAAAAAICAAABACAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r3",
+                            "name": "20171212_009_HUM11A_Laurie_C300b_001",
+                            "uid": "8D50788D27B58D4173DA6D148EC17293",
+                            "src": "file:///Volumes/RAID_0_021_18/2017_12/20171212_009_HUM11A_Laurie/C300b/20171212_009_HUM11A_Laurie_C300b_001.mov",
+                            "start": "1412624213/24000s",
+                            "duration": "28396368/24000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va6QEAAAAAAQQMAAAAJ+NjzT3luD3MosVrf5IrG3PWZAVoUYgu8Rqm4OwQ1mjoAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwANAAAAAQEAAFJBSURfMF8wMjFfMTgAAAAHAAAAAQEAADIwMTdfMTIAGgAAAAEBAAAyMDE3MTIxMl8wMDlfSFVNMTFBX0xhdXJpZQAABQAAAAEBAABDMzAwYgAAACgAAAABAQAAMjAxNzEyMTJfMDA5X0hVTTExQV9MYXVyaWVfQzMwMGJfMDAxLm1vdhgAAAABBgAAEAAAACAAAAA4AAAASAAAAGwAAAB8AAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAAG1tAwAAAAAACAAAAAQDAACohwMAAAAAAAgAAAAEAwAAGogDAAAAAAAIAAAABAMAABuIAwAAAAAAGAAAAAEGAADMAAAA3AAAAOwAAAD8AAAADAEAABwBAAAIAAAAAAQAAEG/4I+kAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAAAQAAAADAwAABQAAAB4AAAABCQAAZmlsZTovLy9Wb2x1bWVzL1JBSURfMF8wMjFfMTgvAAAIAAAABAMAAACAf4ZfEAAACAAAAAAEAABBvwRPxgAAACQAAAABAQAAQTNBRkJFNDMtNjBFNS0zOEJDLUFGMzctQTE5REQ4QzIzQkI2GAAAAAECAAABAAAAAQAAAO8TAAABAAAAAAAAAAAAAAAWAAAAAQEAAC9Wb2x1bWVzL1JBSURfMF8wMjFfMTgAAAgAAAABCQAAZmlsZTovLy8NAAAAAQEAAExMX1Byb2R1Y3Rpb24AAAAIAAAABAMAAABwokd0AAAACAAAAAAEAABBvz48jQAAACQAAAABAQAARjhDRTE5QTUtNUY5MC0zQzk3LThGMDMtRTdFMEMwRUQzOEQyGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAABgAAAA/v///wDwAAAAAAAABwAAAAIgAADkAgAAAAAAAAUgAABQAgAAAAAAABAgAABgAgAAAAAAABEgAACYAgAAAAAAABIgAAB4AgAAAAAAABMgAACIAgAAAAAAACAgAADEAgAAAAAAAAQAAAADAwAAAPAAAAQAAAADAwAAAAAAAAQAAAADAwAAAQAAABwAAAABBgAAWAMAAGQDAABwAwAAZAMAAGQDAABkAwAAZAMAAMwAAAD+////AQAAAPACAAAQAAAABBAAAKwAAAAAAAAABRAAACwBAAAAAAAAEBAAAFwBAAAAAAAAQBAAAEwBAAAAAAAAVBAAAIQBAAAAAAAAVRAAAJABAAAAAAAAVhAAAHwBAAAAAAAAACAAAHwDAAAAAAAAAiAAADACAAAAAAAABSAAAJwBAAAAAAAAECAAACAAAAAAAAAAESAAAOQBAAAAAAAAEiAAAMQBAAAAAAAAEyAAANQBAAAAAAAAICAAABACAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r4",
+                            "name": "20171212_009_HUM11A_Laurie_C300c_001",
+                            "uid": "3B1F27A1734593E93D5935EC5F3BC5F2",
+                            "src": "file:///Volumes/RAID_0_021_18/2017_12/20171212_009_HUM11A_Laurie/C300c/20171212_009_HUM11A_Laurie_C300c_001.mov",
+                            "start": "1412425014/24000s",
+                            "duration": "28540512/24000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va6QEAAAAAAQQMAAAAAPqLXgbJC+0IIXCRT+WUr0yw6MTt+CQz8bFvLYdiZePoAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwANAAAAAQEAAFJBSURfMF8wMjFfMTgAAAAHAAAAAQEAADIwMTdfMTIAGgAAAAEBAAAyMDE3MTIxMl8wMDlfSFVNMTFBX0xhdXJpZQAABQAAAAEBAABDMzAwYwAAACgAAAABAQAAMjAxNzEyMTJfMDA5X0hVTTExQV9MYXVyaWVfQzMwMGNfMDAxLm1vdhgAAAABBgAAEAAAACAAAAA4AAAASAAAAGwAAAB8AAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAAG1tAwAAAAAACAAAAAQDAACohwMAAAAAAAgAAAAEAwAAHIgDAAAAAAAIAAAABAMAAB2IAwAAAAAAGAAAAAEGAADMAAAA3AAAAOwAAAD8AAAADAEAABwBAAAIAAAAAAQAAEG/4I/vAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAAAQAAAADAwAABQAAAB4AAAABCQAAZmlsZTovLy9Wb2x1bWVzL1JBSURfMF8wMjFfMTgvAAAIAAAABAMAAACAf4ZfEAAACAAAAAAEAABBvwRPxgAAACQAAAABAQAAQTNBRkJFNDMtNjBFNS0zOEJDLUFGMzctQTE5REQ4QzIzQkI2GAAAAAECAAABAAAAAQAAAO8TAAABAAAAAAAAAAAAAAAWAAAAAQEAAC9Wb2x1bWVzL1JBSURfMF8wMjFfMTgAAAgAAAABCQAAZmlsZTovLy8NAAAAAQEAAExMX1Byb2R1Y3Rpb24AAAAIAAAABAMAAABwokd0AAAACAAAAAAEAABBvz48jQAAACQAAAABAQAARjhDRTE5QTUtNUY5MC0zQzk3LThGMDMtRTdFMEMwRUQzOEQyGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAABgAAAA/v///wDwAAAAAAAABwAAAAIgAADkAgAAAAAAAAUgAABQAgAAAAAAABAgAABgAgAAAAAAABEgAACYAgAAAAAAABIgAAB4AgAAAAAAABMgAACIAgAAAAAAACAgAADEAgAAAAAAAAQAAAADAwAAAPAAAAQAAAADAwAAAAAAAAQAAAADAwAAAQAAABwAAAABBgAAWAMAAGQDAABwAwAAZAMAAGQDAABkAwAAZAMAAMwAAAD+////AQAAAPACAAAQAAAABBAAAKwAAAAAAAAABRAAACwBAAAAAAAAEBAAAFwBAAAAAAAAQBAAAEwBAAAAAAAAVBAAAIQBAAAAAAAAVRAAAJABAAAAAAAAVhAAAHwBAAAAAAAAACAAAHwDAAAAAAAAAiAAADACAAAAAAAABSAAAJwBAAAAAAAAECAAACAAAAAAAAAAESAAAOQBAAAAAAAAEiAAAMQBAAAAAAAAEyAAANQBAAAAAAAAICAAABACAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r5",
+                            "name": "20171212_009_HUM11A_Laurie_GH4_001",
+                            "uid": "1270A35ECDACB90B0E5B0C67099E8C07",
+                            "src": "file:///Volumes/RAID_0_021_18/2017_12/20171212_009_HUM11A_Laurie/GH4/20171212_009_HUM11A_Laurie_GH4_001.MOV",
+                            "start": "1412690279/24000s",
+                            "duration": "28405377/24000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va6AEAAAAAAQQMAAAABVECZqESg3EbH1Rd0D2mLWSxonWKFNbFfsEKzx1vbOLnAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwANAAAAAQEAAFJBSURfMF8wMjFfMTgAAAAHAAAAAQEAADIwMTdfMTIAGgAAAAEBAAAyMDE3MTIxMl8wMDlfSFVNMTFBX0xhdXJpZQAAAwAAAAEBAABHSDQAJgAAAAEBAAAyMDE3MTIxMl8wMDlfSFVNMTFBX0xhdXJpZV9HSDRfMDAxLk1PVgAAGAAAAAEGAAAQAAAAIAAAADgAAABIAAAAbAAAAHgAAAAIAAAABAMAAKZnBgAAAAAACAAAAAQDAAACAAAAAAAAAAgAAAAEAwAAbW0DAAAAAAAIAAAABAMAAKiHAwAAAAAACAAAAAQDAAAeiAMAAAAAAAgAAAAEAwAAH4gDAAAAAAAYAAAAAQYAAMgAAADYAAAA6AAAAPgAAAAIAQAAGAEAAAgAAAAABAAAQb/gkkgAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAABBQAABAAAAAMDAAAGAAAABAAAAAMDAAAFAAAAHgAAAAEJAABmaWxlOi8vL1ZvbHVtZXMvUkFJRF8wXzAyMV8xOC8AAAgAAAAEAwAAAIB/hl8QAAAIAAAAAAQAAEG/BE/GAAAAJAAAAAEBAABBM0FGQkU0My02MEU1LTM4QkMtQUYzNy1BMTlERDhDMjNCQjYYAAAAAQIAAAEAAAABAAAA7xMAAAEAAAAAAAAAAAAAABYAAAABAQAAL1ZvbHVtZXMvUkFJRF8wXzAyMV8xOAAACAAAAAEJAABmaWxlOi8vLw0AAAABAQAATExfUHJvZHVjdGlvbgAAAAgAAAAEAwAAAHCiR3QAAAAIAAAAAAQAAEG/PjyNAAAAJAAAAAEBAABGOENFMTlBNS01RjkwLTNDOTctOEYwMy1FN0UwQzBFRDM4RDIYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAOACAAAAAAAABSAAAEwCAAAAAAAAECAAAFwCAAAAAAAAESAAAJQCAAAAAAAAEiAAAHQCAAAAAAAAEyAAAIQCAAAAAAAAICAAAMACAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAHAAAAAEGAABUAwAAYAMAAGwDAABgAwAAYAMAAGADAABgAwAAzAAAAP7///8BAAAA7AIAABAAAAAEEAAAqAAAAAAAAAAFEAAAKAEAAAAAAAAQEAAAWAEAAAAAAABAEAAASAEAAAAAAABUEAAAgAEAAAAAAABVEAAAjAEAAAAAAABWEAAAeAEAAAAAAAAAIAAAeAMAAAAAAAACIAAALAIAAAAAAAAFIAAAmAEAAAAAAAAQIAAAIAAAAAAAAAARIAAA4AEAAAAAAAASIAAAwAEAAAAAAAATIAAA0AEAAAAAAAAgIAAADAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    }
+                ],
+                "media": [
+                    {
+                        "_attr": {
+                            "id": "r6",
+                            "name": "20171212_009_HUM11A_Laurie_MC",
+                            "uid": "QfjluiI7SUGsgj/HcKg6Mw",
+                            "modDate": "2017-12-13 16:29:07 -0500"
+                        },
+                        "multicam": [
+                            {
+                                "_attr": {
+                                    "format": "r1",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "1412425014/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "mc-angle": [
+                                    {
+                                        "_attr": {
+                                            "name": "C300a",
+                                            "angleID": "0000C300a"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "92092/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171212_009_HUM11A_Laurie_C300a_001.mov",
+                                                    "offset": "92092/24000s",
+                                                    "duration": "28480452/24000s",
+                                                    "start": "1412517106/24000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "_attr": {
+                                                            "offset": "1412517106/24000s",
+                                                            "ref": "r2",
+                                                            "duration": "28480452/24000s",
+                                                            "start": "1412517106/24000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "_attr": {
+                                                                    "lane": "-1",
+                                                                    "offset": "1412517106/24000s",
+                                                                    "ref": "r2",
+                                                                    "duration": "28480452/24000s",
+                                                                    "start": "1412517106/24000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "lane": "-1",
+                                                                    "offset": "42375513180/720000s",
+                                                                    "ref": "r2",
+                                                                    "duration": "854413560/720000s",
+                                                                    "start": "42375513180/720000s",
+                                                                    "role": "dialogue.dialogue-2",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "C300b",
+                                            "angleID": "0000C300b"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "199199/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171212_009_HUM11A_Laurie_C300b_001.mov",
+                                                    "offset": "199199/24000s",
+                                                    "duration": "28396368/24000s",
+                                                    "start": "1412624213/24000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "_attr": {
+                                                            "offset": "1412624213/24000s",
+                                                            "ref": "r3",
+                                                            "duration": "28396368/24000s",
+                                                            "start": "1412624213/24000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "_attr": {
+                                                                    "lane": "-1",
+                                                                    "offset": "1412624213/24000s",
+                                                                    "ref": "r3",
+                                                                    "duration": "28396368/24000s",
+                                                                    "start": "1412624213/24000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "lane": "-1",
+                                                                    "offset": "42378726390/720000s",
+                                                                    "ref": "r3",
+                                                                    "duration": "851891040/720000s",
+                                                                    "start": "42378726390/720000s",
+                                                                    "role": "dialogue.dialogue-2",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "C300c",
+                                            "angleID": "0000C300c"
+                                        },
+                                        "clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171212_009_HUM11A_Laurie_C300c_001.mov",
+                                                    "offset": "0s",
+                                                    "duration": "28540512/24000s",
+                                                    "start": "1412425014/24000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "_attr": {
+                                                            "offset": "1412425014/24000s",
+                                                            "ref": "r4",
+                                                            "duration": "28540512/24000s",
+                                                            "start": "1412425014/24000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "_attr": {
+                                                                    "lane": "-1",
+                                                                    "offset": "1412425014/24000s",
+                                                                    "ref": "r4",
+                                                                    "duration": "28540512/24000s",
+                                                                    "start": "1412425014/24000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "lane": "-1",
+                                                                    "offset": "42372750420/720000s",
+                                                                    "ref": "r4",
+                                                                    "duration": "856215360/720000s",
+                                                                    "start": "42372750420/720000s",
+                                                                    "role": "dialogue.dialogue-2",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "GH4",
+                                            "angleID": "0000GH4"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "265265/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171212_009_HUM11A_Laurie_GH4_001.MOV",
+                                                    "offset": "265265/24000s",
+                                                    "duration": "28405377/24000s",
+                                                    "start": "1412690279/24000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "_attr": {
+                                                            "offset": "1412690279/24000s",
+                                                            "ref": "r5",
+                                                            "duration": "28405377/24000s",
+                                                            "start": "1412690279/24000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "_attr": {
+                                                                    "lane": "-1",
+                                                                    "offset": "42380708370/720000s",
+                                                                    "ref": "r5",
+                                                                    "duration": "852161310/720000s",
+                                                                    "start": "42380708370/720000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "lane": "-1",
+                                                                    "offset": "1412690279/24000s",
+                                                                    "ref": "r5",
+                                                                    "duration": "28405377/24000s",
+                                                                    "start": "1412690279/24000s",
+                                                                    "role": "dialogue.dialogue-2",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r7",
+                            "name": "20171212_009_HUM11A_Laurie_MC_CC",
+                            "uid": "UC/l45LqRrWoVJsg1loAdQ",
+                            "modDate": "2017-12-13 16:35:02 -0500"
+                        },
+                        "sequence": [
+                            {
+                                "_attr": {
+                                    "duration": "28670642/24000s",
+                                    "format": "r1",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "1412425014/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "spine": [
+                                    {
+                                        "mc-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171212_009_HUM11A_Laurie_MC",
+                                                    "offset": "1412425014/24000s",
+                                                    "ref": "r6",
+                                                    "duration": "28670642/24000s",
+                                                    "start": "1412425014/24000s"
+                                                },
+                                                "mc-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "angleID": "0000C300a",
+                                                            "srcEnable": "all"
+                                                        },
+                                                        "filter-video": [
+                                                            {
+                                                                "_attr": {
+                                                                    "ref": "r8",
+                                                                    "name": "2.5_A"
+                                                                },
+                                                                "param": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/10619/1/100/101",
+                                                                            "value": "-19.3779 -232"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/10619/2/354/36631/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Line Spacing",
+                                                                            "key": "9999/32385/10619/2/354/36631/404",
+                                                                            "value": "-2"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/10619/2/369",
+                                                                            "value": "20171212_009_HUM11A_Laurie"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20673/1/100/101",
+                                                                            "value": "-16.824 -180"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20673/2/354/36629/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20673/2/369",
+                                                                            "value": "HUM11A: Laurie"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20837/1/100/101",
+                                                                            "value": "-443.584 -395"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20837/2/354/36633/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20837/2/369",
+                                                                            "value": "20171212:"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "mc-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171212_009_HUM11A_Laurie_MC",
+                                                            "lane": "-2",
+                                                            "offset": "1412425014/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "28670642/24000s",
+                                                            "start": "1412425014/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300b",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r9",
+                                                                            "name": "2.5_C"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171212_009_HUM11A_Laurie_MC",
+                                                            "lane": "-1",
+                                                            "offset": "1412425014/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "28670642/24000s",
+                                                            "start": "1412425014/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300c",
+                                                                    "srcEnable": "none"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r10",
+                                                                            "name": "2.5_B"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000GH4",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r11",
+                                                                            "name": "C300b-cam-2018-master"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171212_009_HUM11A_Laurie_MC",
+                                                            "lane": "1",
+                                                            "offset": "1412425014/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "28670642/24000s",
+                                                            "start": "1412425014/24000s"
+                                                        },
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r8",
+                                                                            "name": "2.5_A"
+                                                                        },
+                                                                        "param": [
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Position",
+                                                                                    "key": "9999/32385/10619/1/100/101",
+                                                                                    "value": "-19.3779 -232"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Alignment",
+                                                                                    "key": "9999/32385/10619/2/354/36631/401",
+                                                                                    "value": "2 (Right)"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Line Spacing",
+                                                                                    "key": "9999/32385/10619/2/354/36631/404",
+                                                                                    "value": "-2"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Text",
+                                                                                    "key": "9999/32385/10619/2/369",
+                                                                                    "value": "20171212_009_HUM11A_Laurie"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Position",
+                                                                                    "key": "9999/32385/20673/1/100/101",
+                                                                                    "value": "-16.824 -180"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Alignment",
+                                                                                    "key": "9999/32385/20673/2/354/36629/401",
+                                                                                    "value": "2 (Right)"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Text",
+                                                                                    "key": "9999/32385/20673/2/369",
+                                                                                    "value": "HUM11A: Laurie"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Position",
+                                                                                    "key": "9999/32385/20837/1/100/101",
+                                                                                    "value": "-443.584 -395"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Alignment",
+                                                                                    "key": "9999/32385/20837/2/354/36633/401",
+                                                                                    "value": "2 (Right)"
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "_attr": {
+                                                                                    "name": "Text",
+                                                                                    "key": "9999/32385/20837/2/369",
+                                                                                    "value": "20171212:"
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300c",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "adjust-transform": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "position": "4.9537 0.268519",
+                                                                            "scale": "0.94 0.94"
+                                                                        }
+                                                                    }
+                                                                ],
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r12",
+                                                                            "name": "C300c-cam-2018-master-BROKEN"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "effect": [
+                    {
+                        "_attr": {
+                            "id": "r8",
+                            "name": "2.5_A",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r9",
+                            "name": "2.5_C",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_C/2.5_C.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_C/2.5_C.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r10",
+                            "name": "2.5_B",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r11",
+                            "name": "C300b-cam-2018-master",
+                            "uid": "~/Effects.localized/layouts-2018/C300b-cam-2018-master/C300b-cam-2018-master.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/layouts-2018/C300b-cam-2018-master/C300b-cam-2018-master.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r12",
+                            "name": "C300c-cam-2018-master-BROKEN",
+                            "uid": "~/Effects.localized/layouts-2018/C300c-cam-2018-master/C300c-cam-2018-master-BROKEN.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/layouts-2018/C300c-cam-2018-master/C300c-cam-2018-master-BROKEN.moef"
+                        }
+                    }
+                ]
+            }
+        ],
+        "library": [
+            {
+                "_attr": {
+                    "location": "file:///Volumes/516_Wednesday/_libraries/1213.fcpbundle/"
+                },
+                "event": [
+                    {
+                        "_attr": {
+                            "name": "20171212_009_HUM11A_Laurie",
+                            "uid": "CDCF3FDA-19D1-459D-904F-A3A04C9B6429"
+                        },
+                        "clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171212_009_HUM11A_Laurie_C300a_001",
+                                    "duration": "28480452/24000s",
+                                    "start": "1412517106/24000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-13 09:53:12 -0500"
+                                },
+                                "video": [
+                                    {
+                                        "_attr": {
+                                            "offset": "1412517106/24000s",
+                                            "ref": "r2",
+                                            "duration": "28480452/24000s",
+                                            "start": "1412517106/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "1412517106/24000s",
+                                                    "ref": "r2",
+                                                    "duration": "28480452/24000s",
+                                                    "start": "1412517106/24000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "42375513180/720000s",
+                                                    "ref": "r2",
+                                                    "duration": "854413560/720000s",
+                                                    "start": "42375513180/720000s",
+                                                    "role": "dialogue.dialogue-2",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "706258553/12000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.41252e+09s",
+                                            "duration": "28480452/24000s",
+                                            "value": "20171212_009_HUM11A_Laurie, C300a"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171212_009_HUM11A_Laurie_C300b_001",
+                                    "duration": "28396368/24000s",
+                                    "start": "1412624213/24000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-13 09:53:12 -0500"
+                                },
+                                "video": [
+                                    {
+                                        "_attr": {
+                                            "offset": "1412624213/24000s",
+                                            "ref": "r3",
+                                            "duration": "28396368/24000s",
+                                            "start": "1412624213/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "42378726390/720000s",
+                                                    "ref": "r3",
+                                                    "duration": "851891040/720000s",
+                                                    "start": "42378726390/720000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "1412624213/24000s",
+                                                    "ref": "r3",
+                                                    "duration": "28396368/24000s",
+                                                    "start": "1412624213/24000s",
+                                                    "role": "dialogue.dialogue-2",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "1412624213/24000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.41262e+09s",
+                                            "duration": "28396368/24000s",
+                                            "value": "20171212_009_HUM11A_Laurie, C300b"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171212_009_HUM11A_Laurie_C300c_001",
+                                    "duration": "28540512/24000s",
+                                    "start": "1412425014/24000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-13 09:53:12 -0500"
+                                },
+                                "video": [
+                                    {
+                                        "_attr": {
+                                            "offset": "1412425014/24000s",
+                                            "ref": "r4",
+                                            "duration": "28540512/24000s",
+                                            "start": "1412425014/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "1412425014/24000s",
+                                                    "ref": "r4",
+                                                    "duration": "28540512/24000s",
+                                                    "start": "1412425014/24000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "42372750420/720000s",
+                                                    "ref": "r4",
+                                                    "duration": "856215360/720000s",
+                                                    "start": "42372750420/720000s",
+                                                    "role": "dialogue.dialogue-2",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "235404169/4000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.41243e+09s",
+                                            "duration": "28540512/24000s",
+                                            "value": "20171212_009_HUM11A_Laurie, C300c"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171212_009_HUM11A_Laurie_GH4_001",
+                                    "duration": "28405377/24000s",
+                                    "start": "1412690279/24000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-13 09:53:12 -0500"
+                                },
+                                "video": [
+                                    {
+                                        "_attr": {
+                                            "offset": "1412690279/24000s",
+                                            "ref": "r5",
+                                            "duration": "28405377/24000s",
+                                            "start": "1412690279/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "1412690279/24000s",
+                                                    "ref": "r5",
+                                                    "duration": "28405377/24000s",
+                                                    "start": "1412690279/24000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "42380708370/720000s",
+                                                    "ref": "r5",
+                                                    "duration": "852161310/720000s",
+                                                    "start": "42380708370/720000s",
+                                                    "role": "dialogue.dialogue-2",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "1412690279/24000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.41269e+09s",
+                                            "duration": "28405377/24000s",
+                                            "value": "20171212_009_HUM11A_Laurie, GH4"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "mc-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171212_009_HUM11A_Laurie_MC",
+                                    "ref": "r6",
+                                    "duration": "28670642/24000s",
+                                    "start": "1412425014/24000s",
+                                    "modDate": "2017-12-13 09:53:12 -0500"
+                                },
+                                "mc-source": [
+                                    {
+                                        "_attr": {
+                                            "angleID": "0000C300a",
+                                            "srcEnable": "all"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "ref-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171212_009_HUM11A_Laurie_MC_CC",
+                                    "ref": "r7",
+                                    "duration": "28670642/24000s",
+                                    "start": "1412425014/24000s",
+                                    "modDate": "2017-12-13 16:35:02 -0500"
+                                }
+                            }
+                        ],
+                        "project": [
+                            {
+                                "_attr": {
+                                    "name": "20171212_009_HUM11A_Laurie_MC_CC_Ex",
+                                    "uid": "61B2FC7C-8305-4218-81C5-40C7E98BE343",
+                                    "modDate": "2017-12-13 16:35:02 -0500"
+                                },
+                                "sequence": [
+                                    {
+                                        "_attr": {
+                                            "duration": "28670642/24000s",
+                                            "format": "r1",
+                                            "renderColorSpace": "Rec. 709",
+                                            "tcStart": "0s",
+                                            "tcFormat": "NDF",
+                                            "audioLayout": "stereo",
+                                            "audioRate": "48k"
+                                        },
+                                        "spine": [
+                                            {
+                                                "ref-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171212_009_HUM11A_Laurie_MC_CC",
+                                                            "offset": "0s",
+                                                            "ref": "r7",
+                                                            "duration": "28670642/24000s",
+                                                            "start": "1412425014/24000s"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "keyword-collection": [
+                            {
+                                "_attr": {
+                                    "name": "20171212_009_HUM11A_Laurie"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300a"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "first 24 frames"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300b"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300c"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "GH4"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

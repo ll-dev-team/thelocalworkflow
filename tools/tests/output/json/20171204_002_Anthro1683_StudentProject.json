@@ -1,0 +1,968 @@
+{
+    "fcpxml": {
+        "_attr": {
+            "version": "1.5"
+        },
+        "resources": [
+            {
+                "format": [
+                    {
+                        "_attr": {
+                            "id": "r1",
+                            "name": "FFVideoFormat1080p2398",
+                            "frameDuration": "1001/24000s",
+                            "width": "1920",
+                            "height": "1080"
+                        }
+                    }
+                ],
+                "asset": [
+                    {
+                        "_attr": {
+                            "id": "r2",
+                            "name": "20171204_002_Anthro1683_StudentProject_C300a_001",
+                            "uid": "9CB7264DBB6B42AB3FE6BA3ECBC57085",
+                            "src": "file:///Volumes/514_Monday/Footage/20171204/20171204_002_Anthro1683_StudentProject/C300a/20171204_002_Anthro1683_StudentProject_C300a_001.mov",
+                            "start": "877995118/24000s",
+                            "duration": "97405308/24000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va5QEAAAAAAQQMAAAAEuv0rIimnYrdkqd3aQZUVWb0zO4nMPr0I2KXTMJafbTtAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAKAAAAAQEAADUxNF9Nb25kYXkAAAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjA0JgAAAAEBAAAyMDE3MTIwNF8wMDJfQW50aHJvMTY4M19TdHVkZW50UHJvamVjdAAABQAAAAEBAABDMzAwYQAAADQAAAABAQAAMjAxNzEyMDRfMDAyX0FudGhybzE2ODNfU3R1ZGVudFByb2plY3RfQzMwMGFfMDAxLm1vdhwAAAABBgAAEAAAACAAAAA0AAAARAAAAFQAAACEAAAAlAAAAAgAAAAEAwAApmEGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAADQXQkAAAAAAAgAAAAEAwAA3Y0JAAAAAAAIAAAABAMAAKGOCQAAAAAACAAAAAQDAACojgkAAAAAAAgAAAAEAwAAxo0JAAAAAAAcAAAAAQYAAPQAAAAEAQAAFAEAACQBAAA0AQAARAEAAFQBAAAIAAAAAAQAAEG/1avsAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAbAAAAAQkAAGZpbGU6Ly8vVm9sdW1lcy81MTRfTW9uZGF5LwAIAAAABAMAAADAJGPuAAAACAAAAAAEAABBvFaJ0QAAACQAAAABAQAANUNBNzNEMzktQUU5Ny0zRjY3LTlFQzEtRUU3REI5Qzg0MEQwGAAAAAECAAABAQAAAQAAAO8TAAABAAAAAAAAAAAAAAATAAAAAQEAAC9Wb2x1bWVzLzUxNF9Nb25kYXkACAAAAAEJAABmaWxlOi8vLwsAAAABAQAATEwtMjAxNy0xMDkACAAAAAQDAAAAACIP1QIAAAgAAAAABAAAQb6yfGAAAAAkAAAAAQEAADcwREFBOTQ0LUZGOTEtMzAxMC05MzhGLTczNDY0NkI2RjdFMxgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA9AIAAAAAAAAFIAAAZAIAAAAAAAAQIAAAdAIAAAAAAAARIAAAqAIAAAAAAAASIAAAiAIAAAAAAAATIAAAmAIAAAAAAAAgIAAA1AIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAgAAAAAQYAAGgDAAB0AwAAgAMAAHQDAAB0AwAAdAMAAHQDAAB0AwAAqAAAAP7///8BAAAAAAMAAA0AAAAEEAAA0AAAAAAAAAAFEAAAZAEAAAAAAAAQEAAAmAEAAAAAAABAEAAAiAEAAAAAAAAAIAAAjAMAAAAAAAACIAAASAIAAAAAAAAFIAAAuAEAAAAAAAAQIAAAIAAAAAAAAAARIAAA/AEAAAAAAAASIAAA3AEAAAAAAAATIAAA7AEAAAAAAAAgIAAAKAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r3",
+                            "name": "20171204_002_Anthro1683_StudentProject_C300b_001",
+                            "uid": "20AF97ED697D49596658B5C159DC35C3",
+                            "src": "file:///Volumes/514_Monday/Footage/20171204/20171204_002_Anthro1683_StudentProject/C300b/20171204_002_Anthro1683_StudentProject_C300b_001.mov",
+                            "start": "878267390/24000s",
+                            "duration": "97177080/24000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va5QEAAAAAAQQMAAAACnsGpMJGu+XUBwexRrwjTN6UsVfolIcG2G77JTHQmX7tAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAKAAAAAQEAADUxNF9Nb25kYXkAAAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjA0JgAAAAEBAAAyMDE3MTIwNF8wMDJfQW50aHJvMTY4M19TdHVkZW50UHJvamVjdAAABQAAAAEBAABDMzAwYgAAADQAAAABAQAAMjAxNzEyMDRfMDAyX0FudGhybzE2ODNfU3R1ZGVudFByb2plY3RfQzMwMGJfMDAxLm1vdhwAAAABBgAAEAAAACAAAAA0AAAARAAAAFQAAACEAAAAlAAAAAgAAAAEAwAApmEGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAADQXQkAAAAAAAgAAAAEAwAA3Y0JAAAAAAAIAAAABAMAAKGOCQAAAAAACAAAAAQDAACpjgkAAAAAAAgAAAAEAwAAVI4JAAAAAAAcAAAAAQYAAPQAAAAEAQAAFAEAACQBAAA0AQAARAEAAFQBAAAIAAAAAAQAAEG/1av6AAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAbAAAAAQkAAGZpbGU6Ly8vVm9sdW1lcy81MTRfTW9uZGF5LwAIAAAABAMAAADAJGPuAAAACAAAAAAEAABBvFaJ0QAAACQAAAABAQAANUNBNzNEMzktQUU5Ny0zRjY3LTlFQzEtRUU3REI5Qzg0MEQwGAAAAAECAAABAQAAAQAAAO8TAAABAAAAAAAAAAAAAAATAAAAAQEAAC9Wb2x1bWVzLzUxNF9Nb25kYXkACAAAAAEJAABmaWxlOi8vLwsAAAABAQAATEwtMjAxNy0xMDkACAAAAAQDAAAAACIP1QIAAAgAAAAABAAAQb6yfGAAAAAkAAAAAQEAADcwREFBOTQ0LUZGOTEtMzAxMC05MzhGLTczNDY0NkI2RjdFMxgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA9AIAAAAAAAAFIAAAZAIAAAAAAAAQIAAAdAIAAAAAAAARIAAAqAIAAAAAAAASIAAAiAIAAAAAAAATIAAAmAIAAAAAAAAgIAAA1AIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAgAAAAAQYAAGgDAAB0AwAAgAMAAHQDAAB0AwAAdAMAAHQDAAB0AwAAqAAAAP7///8BAAAAAAMAAA0AAAAEEAAA0AAAAAAAAAAFEAAAZAEAAAAAAAAQEAAAmAEAAAAAAABAEAAAiAEAAAAAAAAAIAAAjAMAAAAAAAACIAAASAIAAAAAAAAFIAAAuAEAAAAAAAAQIAAAIAAAAAAAAAARIAAA/AEAAAAAAAASIAAA3AEAAAAAAAATIAAA7AEAAAAAAAAgIAAAKAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r4",
+                            "name": "20171204_002_Anthro1683_StudentProject_C300c_001",
+                            "uid": "89975B69BAEC715FEF645D4AB9DFB95E",
+                            "src": "file:///Volumes/514_Monday/Footage/20171204/20171204_002_Anthro1683_StudentProject/C300c/20171204_002_Anthro1683_StudentProject_C300c_001.mov",
+                            "start": "956012057/24000s",
+                            "duration": "19339320/24000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va5QEAAAAAAQQMAAAABvHCA2Xa6msPwHCuDwmmfRCK10M8t0jhhSBkzgUNeGVtAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAKAAAAAQEAADUxNF9Nb25kYXkAAAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjA0JgAAAAEBAAAyMDE3MTIwNF8wMDJfQW50aHJvMTY4M19TdHVkZW50UHJvamVjdAAABQAAAAEBAABDMzAwYwAAADQAAAABAQAAMjAxNzEyMDRfMDAyX0FudGhybzE2ODNfU3R1ZGVudFByb2plY3RfQzMwMGNfMDAxLm1vdhwAAAABBgAAEAAAACAAAAA0AAAARAAAAFQAAACEAAAAlAAAAAgAAAAEAwAApmEGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAADQXQkAAAAAAAgAAAAEAwAA3Y0JAAAAAAAIAAAABAMAAKGOCQAAAAAACAAAAAQDAACrjgkAAAAAAAgAAAAEAwAA1I0JAAAAAAAcAAAAAQYAAPQAAAAEAQAAFAEAACQBAAA0AQAARAEAAFQBAAAIAAAAAAQAAEG/1bj1AAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAbAAAAAQkAAGZpbGU6Ly8vVm9sdW1lcy81MTRfTW9uZGF5LwAIAAAABAMAAADAJGPuAAAACAAAAAAEAABBvFaJ0QAAACQAAAABAQAANUNBNzNEMzktQUU5Ny0zRjY3LTlFQzEtRUU3REI5Qzg0MEQwGAAAAAECAAABAQAAAQAAAO8TAAABAAAAAAAAAAAAAAATAAAAAQEAAC9Wb2x1bWVzLzUxNF9Nb25kYXkACAAAAAEJAABmaWxlOi8vLwsAAAABAQAATEwtMjAxNy0xMDkACAAAAAQDAAAAACIP1QIAAAgAAAAABAAAQb6yfGAAAAAkAAAAAQEAADcwREFBOTQ0LUZGOTEtMzAxMC05MzhGLTczNDY0NkI2RjdFMxgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA9AIAAAAAAAAFIAAAZAIAAAAAAAAQIAAAdAIAAAAAAAARIAAAqAIAAAAAAAASIAAAiAIAAAAAAAATIAAAmAIAAAAAAAAgIAAA1AIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAgAAAAAQYAAGgDAAB0AwAAgAMAAHQDAAB0AwAAdAMAAHQDAAB0AwAAqAAAAP7///8BAAAAAAMAAA0AAAAEEAAA0AAAAAAAAAAFEAAAZAEAAAAAAAAQEAAAmAEAAAAAAABAEAAAiAEAAAAAAAAAIAAAjAMAAAAAAAACIAAASAIAAAAAAAAFIAAAuAEAAAAAAAAQIAAAIAAAAAAAAAARIAAA/AEAAAAAAAASIAAA3AEAAAAAAAATIAAA7AEAAAAAAAAgIAAAKAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r5",
+                            "name": "20171204_002_Anthro1683_StudentProject_GH4_001",
+                            "uid": "966F47D35C2D84F73DCEFD8848F6E372",
+                            "src": "file:///Volumes/514_Monday/Footage/20171204/20171204_002_Anthro1683_StudentProject/GH4/20171204_002_Anthro1683_StudentProject_GH4_001.mov",
+                            "start": "919673755/24000s",
+                            "duration": "50783733/24000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va5AEAAAAAAQQMAAAANNaE19AG13y/RSZL6Wd3Zlylf6E9PcpoyOf3FpPVq8AsAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAKAAAAAQEAADUxNF9Nb25kYXkAAAcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjA0JgAAAAEBAAAyMDE3MTIwNF8wMDJfQW50aHJvMTY4M19TdHVkZW50UHJvamVjdAAAAwAAAAEBAABHSDQAMgAAAAEBAAAyMDE3MTIwNF8wMDJfQW50aHJvMTY4M19TdHVkZW50UHJvamVjdF9HSDRfMDAxLm1vdgAAHAAAAAEGAAAQAAAAIAAAADQAAABEAAAAVAAAAIQAAACQAAAACAAAAAQDAACmYQYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAANBdCQAAAAAACAAAAAQDAADdjQkAAAAAAAgAAAAEAwAAoY4JAAAAAAAIAAAABAMAAKyOCQAAAAAACAAAAAQDAABFjgkAAAAAABwAAAABBgAA8AAAAAABAAAQAQAAIAEAADABAABAAQAAUAEAAAgAAAAABAAAQb/W5UkAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAABsAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzUxNF9Nb25kYXkvAAgAAAAEAwAAAMAkY+4AAAAIAAAAAAQAAEG8VonRAAAAJAAAAAEBAAA1Q0E3M0QzOS1BRTk3LTNGNjctOUVDMS1FRTdEQjlDODQwRDAYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABMAAAABAQAAL1ZvbHVtZXMvNTE0X01vbmRheQAIAAAAAQkAAGZpbGU6Ly8vCwAAAAEBAABMTC0yMDE3LTEwOQAIAAAABAMAAAAAIg/VAgAACAAAAAAEAABBvrJ8YAAAACQAAAABAQAANzBEQUE5NDQtRkY5MS0zMDEwLTkzOEYtNzM0NjQ2QjZGN0UzGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAABgAAAA/v///wDwAAAAAAAABwAAAAIgAADwAgAAAAAAAAUgAABgAgAAAAAAABAgAABwAgAAAAAAABEgAACkAgAAAAAAABIgAACEAgAAAAAAABMgAACUAgAAAAAAACAgAADQAgAAAAAAAAQAAAADAwAAAPAAAAQAAAADAwAAAAAAAAQAAAADAwAAAQAAACAAAAABBgAAZAMAAHADAAB8AwAAcAMAAHADAABwAwAAcAMAAHADAACoAAAA/v///wEAAAD8AgAADQAAAAQQAADMAAAAAAAAAAUQAABgAQAAAAAAABAQAACUAQAAAAAAAEAQAACEAQAAAAAAAAAgAACIAwAAAAAAAAIgAABEAgAAAAAAAAUgAAC0AQAAAAAAABAgAAAgAAAAAAAAABEgAAD4AQAAAAAAABIgAADYAQAAAAAAABMgAADoAQAAAAAAACAgAAAkAgAAAAAAABDQAAAEAAAAAAAAAA=="
+                        ]
+                    }
+                ],
+                "media": [
+                    {
+                        "_attr": {
+                            "id": "r6",
+                            "name": "20171204_002_Anthro1683_StudentProject_MC",
+                            "uid": "h3Hft9QTRqucS6CKRQgRmw"
+                        },
+                        "multicam": [
+                            {
+                                "_attr": {
+                                    "format": "r1",
+                                    "tcStart": "877995118/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "mc-angle": [
+                                    {
+                                        "_attr": {
+                                            "name": "C300a",
+                                            "angleID": "0000C300a"
+                                        },
+                                        "clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171204_002_Anthro1683_StudentProject_C300a_001.mov",
+                                                    "offset": "0s",
+                                                    "duration": "97405308/24000s",
+                                                    "start": "877995118/24000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171204_002_Anthro1683_StudentProject_C300a_001 - v1",
+                                                            "offset": "877995118/24000s",
+                                                            "ref": "r2",
+                                                            "duration": "97405308/24000s",
+                                                            "start": "877995118/24000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "_attr": {
+                                                                    "name": "20171204_002_Anthro1683_StudentProject_C300a_001 - a1",
+                                                                    "lane": "-1",
+                                                                    "offset": "26339853540/720000s",
+                                                                    "ref": "r2",
+                                                                    "duration": "2922159240/720000s",
+                                                                    "start": "26339853540/720000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "audio-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "C300b",
+                                            "angleID": "0000C300b"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "272272/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171204_002_Anthro1683_StudentProject_C300b_001.mov",
+                                                    "offset": "272272/24000s",
+                                                    "duration": "97177080/24000s",
+                                                    "start": "878267390/24000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171204_002_Anthro1683_StudentProject_C300b_001 - v1",
+                                                            "offset": "878267390/24000s",
+                                                            "ref": "r3",
+                                                            "duration": "97177080/24000s",
+                                                            "start": "878267390/24000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "_attr": {
+                                                                    "name": "20171204_002_Anthro1683_StudentProject_C300b_001 - a1",
+                                                                    "lane": "-1",
+                                                                    "offset": "26348021700/720000s",
+                                                                    "ref": "r3",
+                                                                    "duration": "2915312400/720000s",
+                                                                    "start": "26348021700/720000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "audio-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "C300c",
+                                            "angleID": "0000C300c"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "78015938/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171204_002_Anthro1683_StudentProject_C300c_001.mov",
+                                                    "offset": "78015938/24000s",
+                                                    "duration": "19339320/24000s",
+                                                    "start": "956012057/24000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171204_002_Anthro1683_StudentProject_C300c_001 - v1",
+                                                            "offset": "956012057/24000s",
+                                                            "ref": "r4",
+                                                            "duration": "19339320/24000s",
+                                                            "start": "956012057/24000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "_attr": {
+                                                                    "name": "20171204_002_Anthro1683_StudentProject_C300c_001 - a1",
+                                                                    "lane": "-1",
+                                                                    "offset": "28680361710/720000s",
+                                                                    "ref": "r4",
+                                                                    "duration": "580179600/720000s",
+                                                                    "start": "28680361710/720000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "audio-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "GH4",
+                                            "angleID": "0000GH4"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "41678637/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171204_002_Anthro1683_StudentProject_GH4_001.mov",
+                                                    "offset": "41678637/24000s",
+                                                    "duration": "50783733/24000s",
+                                                    "start": "919673755/24000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171204_002_Anthro1683_StudentProject_GH4_001 - v1",
+                                                            "offset": "919673755/24000s",
+                                                            "ref": "r5",
+                                                            "duration": "50783733/24000s",
+                                                            "start": "919673755/24000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "_attr": {
+                                                                    "name": "20171204_002_Anthro1683_StudentProject_GH4_001 - a1",
+                                                                    "lane": "-1",
+                                                                    "offset": "27590212650/720000s",
+                                                                    "ref": "r5",
+                                                                    "duration": "1523511990/720000s",
+                                                                    "start": "27590212650/720000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "audio-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r7",
+                            "name": "20171204_002_Anthro1683_StudentProject_MC_CC",
+                            "uid": "m5WukjoRRAaQjPsYoqGKtw"
+                        },
+                        "sequence": [
+                            {
+                                "_attr": {
+                                    "duration": "97449352/24000s",
+                                    "format": "r1",
+                                    "tcStart": "877995118/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "spine": [
+                                    {
+                                        "mc-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171204_002_Anthro1683_StudentProject_MC",
+                                                    "offset": "877995118/24000s",
+                                                    "ref": "r6",
+                                                    "duration": "97449352/24000s",
+                                                    "start": "877995118/24000s"
+                                                },
+                                                "mc-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "angleID": "0000C300a",
+                                                            "srcEnable": "all"
+                                                        },
+                                                        "filter-video": [
+                                                            {
+                                                                "_attr": {
+                                                                    "ref": "r8",
+                                                                    "name": "2.5_A"
+                                                                },
+                                                                "param": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/10619/1/100/101",
+                                                                            "value": "-19.3779 -232"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/10619/2/354/1231140/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Line Spacing",
+                                                                            "key": "9999/32385/10619/2/354/1231140/404",
+                                                                            "value": "-2"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/10619/2/369",
+                                                                            "value": "20171204_002_Anthro1683_StudentProject"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20673/1/100/101",
+                                                                            "value": "-16.824 -180"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20673/2/354/1231138/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20673/2/369",
+                                                                            "value": "Anthro1683: StudentProject"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20837/1/100/101",
+                                                                            "value": "-443.584 -395"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20837/2/354/1231142/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20837/2/369",
+                                                                            "value": "20171204:"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "mc-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171204_002_Anthro1683_StudentProject_MC",
+                                                            "lane": "-3",
+                                                            "offset": "877995118/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "97449352/24000s",
+                                                            "start": "877995118/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300c",
+                                                                    "srcEnable": "none"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r9",
+                                                                            "name": "2.5_B"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000GH4",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r10",
+                                                                            "name": "GH4-cam-2018-master"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171204_002_Anthro1683_StudentProject_MC",
+                                                            "lane": "-2",
+                                                            "offset": "877995118/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "97449352/24000s",
+                                                            "start": "877995118/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300c",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r11",
+                                                                            "name": "cam_c_test"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171204_002_Anthro1683_StudentProject_MC",
+                                                            "lane": "-1",
+                                                            "offset": "877995118/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "97449352/24000s",
+                                                            "start": "877995118/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300b",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r12",
+                                                                            "name": "C300b-cam-2018-master"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "effect": [
+                    {
+                        "_attr": {
+                            "id": "r8",
+                            "name": "2.5_A",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r9",
+                            "name": "2.5_B",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r10",
+                            "name": "GH4-cam-2018-master",
+                            "uid": "~/Effects.localized/layouts-2018/GH4-cam-2018-master/GH4-cam-2018-master.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r11",
+                            "name": "cam_c_test",
+                            "uid": "~/Effects.localized/layouts-2018/layouts-2018/cam_c_test/cam_c_test.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r12",
+                            "name": "C300b-cam-2018-master",
+                            "uid": "~/Effects.localized/layouts-2018/C300b-cam-2018-master/C300b-cam-2018-master.moef"
+                        }
+                    }
+                ]
+            }
+        ],
+        "library": [
+            {
+                "_attr": {
+                    "location": "file:///Volumes/514_Monday/FCP%20Libs/20171204_MC_CC_Ex.fcpbundle/"
+                },
+                "event": [
+                    {
+                        "_attr": {
+                            "name": "20171204_002_Anthro1683_StudentProject",
+                            "uid": "94D3F119-A681-4F1C-A537-CEDE13AB9772"
+                        },
+                        "clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171204_002_Anthro1683_StudentProject_C300a_001",
+                                    "duration": "97405308/24000s",
+                                    "start": "877995118/24000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF"
+                                },
+                                "video": [
+                                    {
+                                        "_attr": {
+                                            "offset": "877995118/24000s",
+                                            "ref": "r2",
+                                            "duration": "97405308/24000s",
+                                            "start": "877995118/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "26339853540/720000s",
+                                                    "ref": "r2",
+                                                    "duration": "2922159240/720000s",
+                                                    "start": "26339853540/720000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "438997559/12000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "8.77995e+08s",
+                                            "duration": "97405308/24000s",
+                                            "value": "20171204_002_Anthro1683_StudentProject, C300a"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171204_002_Anthro1683_StudentProject_C300b_001",
+                                    "duration": "97177080/24000s",
+                                    "start": "878267390/24000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF"
+                                },
+                                "video": [
+                                    {
+                                        "_attr": {
+                                            "offset": "878267390/24000s",
+                                            "ref": "r3",
+                                            "duration": "97177080/24000s",
+                                            "start": "878267390/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "26348021700/720000s",
+                                                    "ref": "r3",
+                                                    "duration": "2915312400/720000s",
+                                                    "start": "26348021700/720000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "87826739/2400s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "8.78267e+08s",
+                                            "duration": "97177080/24000s",
+                                            "value": "20171204_002_Anthro1683_StudentProject, C300b"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171204_002_Anthro1683_StudentProject_C300c_001",
+                                    "duration": "19339320/24000s",
+                                    "start": "956012057/24000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF"
+                                },
+                                "video": [
+                                    {
+                                        "_attr": {
+                                            "offset": "956012057/24000s",
+                                            "ref": "r4",
+                                            "duration": "19339320/24000s",
+                                            "start": "956012057/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "28680361710/720000s",
+                                                    "ref": "r4",
+                                                    "duration": "580179600/720000s",
+                                                    "start": "28680361710/720000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "956012057/24000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "9.56012e+08s",
+                                            "duration": "19339320/24000s",
+                                            "value": "20171204_002_Anthro1683_StudentProject, C300c"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171204_002_Anthro1683_StudentProject_GH4_001",
+                                    "duration": "50783733/24000s",
+                                    "start": "919673755/24000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF"
+                                },
+                                "video": [
+                                    {
+                                        "_attr": {
+                                            "offset": "919673755/24000s",
+                                            "ref": "r5",
+                                            "duration": "50783733/24000s",
+                                            "start": "919673755/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "27590212650/720000s",
+                                                    "ref": "r5",
+                                                    "duration": "1523511990/720000s",
+                                                    "start": "27590212650/720000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "183934751/4800s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "9.19674e+08s",
+                                            "duration": "50783733/24000s",
+                                            "value": "20171204_002_Anthro1683_StudentProject, GH4"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "mc-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171204_002_Anthro1683_StudentProject_MC",
+                                    "ref": "r6",
+                                    "duration": "97449352/24000s",
+                                    "start": "877995118/24000s"
+                                },
+                                "mc-source": [
+                                    {
+                                        "_attr": {
+                                            "angleID": "0000C300a",
+                                            "srcEnable": "all"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "ref-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171204_002_Anthro1683_StudentProject_MC_CC",
+                                    "ref": "r7",
+                                    "duration": "97449352/24000s",
+                                    "start": "877995118/24000s"
+                                }
+                            }
+                        ],
+                        "project": [
+                            {
+                                "_attr": {
+                                    "name": "20171204_002_Anthro1683_StudentProject_MC_CC_Ex",
+                                    "uid": "03BCCC9D-0296-402B-BF98-69188CB20D58"
+                                },
+                                "sequence": [
+                                    {
+                                        "_attr": {
+                                            "duration": "97449352/24000s",
+                                            "format": "r1",
+                                            "tcStart": "0s",
+                                            "tcFormat": "NDF",
+                                            "audioLayout": "stereo",
+                                            "audioRate": "48k"
+                                        },
+                                        "spine": [
+                                            {
+                                                "ref-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171204_002_Anthro1683_StudentProject_MC_CC",
+                                                            "offset": "0s",
+                                                            "ref": "r7",
+                                                            "duration": "97449352/24000s",
+                                                            "start": "877995118/24000s"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "keyword-collection": [
+                            {
+                                "_attr": {
+                                    "name": "20171204_002_Anthro1683_StudentProject"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300a"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "first 24 frames"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300b"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300c"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "GH4"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

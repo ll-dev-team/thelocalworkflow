@@ -1,0 +1,1356 @@
+{
+    "fcpxml": {
+        "_attr": {
+            "version": "1.6"
+        },
+        "resources": [
+            {
+                "asset": [
+                    {
+                        "_attr": {
+                            "id": "r1",
+                            "name": "20171207_006_ANTH1683_Studentproject_C300a_001",
+                            "uid": "D4DCCA4B0164B822DACD481B9EBD5023",
+                            "src": "file:///Volumes/131_2050/20171207/20171207_006_ANTH1683_Studentproject/C300a/20171207_006_ANTH1683_Studentproject_C300a_001.mov",
+                            "start": "1042859818/24000s",
+                            "duration": "16837821/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va6gEAAAAAAQQMAAAADkAFaT+dJ3m46FIa2Kt7zY50m1Fix2e5jtQcg6Ngx1/pAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAIAAAAAQEAADEzMV8yMDUwCAAAAAEBAAAyMDE3MTIwNyQAAAABAQAAMjAxNzEyMDdfMDA2X0FOVEgxNjgzX1N0dWRlbnRwcm9qZWN0BQAAAAEBAABDMzAwYQAAADIAAAABAQAAMjAxNzEyMDdfMDA2X0FOVEgxNjgzX1N0dWRlbnRwcm9qZWN0X0MzMDBhXzAwMS5tb3YAABgAAAABBgAAEAAAACAAAAAwAAAAQAAAAGwAAAB8AAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAANOFAAAAAAAACAAAAAQDAADchQAAAAAAAAgAAAAEAwAAMIYAAAAAAAAIAAAABAMAALmFAAAAAAAAGAAAAAEGAADYAAAA6AAAAPgAAAAIAQAAGAEAACgBAAAIAAAAAAQAAEG/2bpsAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAAAQAAAADAwAABQAAABkAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzEzMV8yMDUwLwAAAAgAAAAEAwAAAEBgUd0BAAAIAAAAAAQAAEG++teUAAAAJAAAAAEBAABGQjdGNjk5NC05QTdGLTMxNzAtODI5Mi00Nzc3ODdFMDNDNkYYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABEAAAABAQAAL1ZvbHVtZXMvMTMxXzIwNTAAAAAIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA6AIAAAAAAAAFIAAAVAIAAAAAAAAQIAAAZAIAAAAAAAARIAAAnAIAAAAAAAASIAAAfAIAAAAAAAATIAAAjAIAAAAAAAAgIAAAyAIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAcAAAAAQYAAFwDAABoAwAAdAMAAGgDAABoAwAAaAMAAGgDAADMAAAA/v///wEAAAD0AgAAEAAAAAQQAAC4AAAAAAAAAAUQAAA4AQAAAAAAABAQAABoAQAAAAAAAEAQAABYAQAAAAAAAFQQAACQAQAAAAAAAFUQAACcAQAAAAAAAFYQAACIAQAAAAAAAAAgAACAAwAAAAAAAAIgAAA4AgAAAAAAAAUgAACoAQAAAAAAABAgAAAgAAAAAAAAABEgAADsAQAAAAAAABIgAADMAQAAAAAAABMgAADcAQAAAAAAACAgAAAYAgAAAAAAABDQAAAEAAAAAAAAAA=="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r3",
+                            "name": "20171207_006_ANTH1683_Studentproject_C300a_002",
+                            "uid": "ED338BE3EAAA9C4CDDDBB1228D8F539A",
+                            "src": "file:///Volumes/131_2050/20171207/20171207_006_ANTH1683_Studentproject/C300a/20171207_006_ANTH1683_Studentproject_C300a_002.mov",
+                            "start": "1096145050/24000s",
+                            "duration": "48984936/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va6gEAAAAAAQQMAAAAKcJR4+vIxOMWLRHSCmPt4FNtoug0WG4AuX8h2Dc3iEMpAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAIAAAAAQEAADEzMV8yMDUwCAAAAAEBAAAyMDE3MTIwNyQAAAABAQAAMjAxNzEyMDdfMDA2X0FOVEgxNjgzX1N0dWRlbnRwcm9qZWN0BQAAAAEBAABDMzAwYQAAADIAAAABAQAAMjAxNzEyMDdfMDA2X0FOVEgxNjgzX1N0dWRlbnRwcm9qZWN0X0MzMDBhXzAwMi5tb3YAABgAAAABBgAAEAAAACAAAAAwAAAAQAAAAGwAAAB8AAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAANOFAAAAAAAACAAAAAQDAADchQAAAAAAAAgAAAAEAwAAMIYAAAAAAAAIAAAABAMAAL+FAAAAAAAAGAAAAAEGAADYAAAA6AAAAPgAAAAIAQAAGAEAACgBAAAIAAAAAAQAAEG/2cMYAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAAAQAAAADAwAABQAAABkAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzEzMV8yMDUwLwAAAAgAAAAEAwAAAEBgUd0BAAAIAAAAAAQAAEG++teUAAAAJAAAAAEBAABGQjdGNjk5NC05QTdGLTMxNzAtODI5Mi00Nzc3ODdFMDNDNkYYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABEAAAABAQAAL1ZvbHVtZXMvMTMxXzIwNTAAAAAIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA6AIAAAAAAAAFIAAAVAIAAAAAAAAQIAAAZAIAAAAAAAARIAAAnAIAAAAAAAASIAAAfAIAAAAAAAATIAAAjAIAAAAAAAAgIAAAyAIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAcAAAAAQYAAFwDAABoAwAAdAMAAGgDAABoAwAAaAMAAGgDAADMAAAA/v///wEAAAD0AgAAEAAAAAQQAAC4AAAAAAAAAAUQAAA4AQAAAAAAABAQAABoAQAAAAAAAEAQAABYAQAAAAAAAFQQAACQAQAAAAAAAFUQAACcAQAAAAAAAFYQAACIAQAAAAAAAAAgAACAAwAAAAAAAAIgAAA4AgAAAAAAAAUgAACoAQAAAAAAABAgAAAgAAAAAAAAABEgAADsAQAAAAAAABIgAADMAQAAAAAAABMgAADcAQAAAAAAACAgAAAYAgAAAAAAABDQAAAEAAAAAAAAAA=="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r4",
+                            "name": "20171207_006_ANTH1683_Studentproject_C300a_003",
+                            "uid": "7B5A87D112BFDE3C2F25801EEB698FD8",
+                            "src": "file:///Volumes/131_2050/20171207/20171207_006_ANTH1683_Studentproject/C300a/20171207_006_ANTH1683_Studentproject_C300a_003.mov",
+                            "start": "1145129986/24000s",
+                            "duration": "18280262/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va6gEAAAAAAQQMAAAAJDyqAtoAWmRqV1QZZtHBCVgMFTm2wP6rsZJRBsvxOfNpAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAIAAAAAQEAADEzMV8yMDUwCAAAAAEBAAAyMDE3MTIwNyQAAAABAQAAMjAxNzEyMDdfMDA2X0FOVEgxNjgzX1N0dWRlbnRwcm9qZWN0BQAAAAEBAABDMzAwYQAAADIAAAABAQAAMjAxNzEyMDdfMDA2X0FOVEgxNjgzX1N0dWRlbnRwcm9qZWN0X0MzMDBhXzAwMy5tb3YAABgAAAABBgAAEAAAACAAAAAwAAAAQAAAAGwAAAB8AAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAANOFAAAAAAAACAAAAAQDAADchQAAAAAAAAgAAAAEAwAAMIYAAAAAAAAIAAAABAMAAMOFAAAAAAAAGAAAAAEGAADYAAAA6AAAAPgAAAAIAQAAGAEAACgBAAAIAAAAAAQAAEG/2csRAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAAAQAAAADAwAABQAAABkAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzEzMV8yMDUwLwAAAAgAAAAEAwAAAEBgUd0BAAAIAAAAAAQAAEG++teUAAAAJAAAAAEBAABGQjdGNjk5NC05QTdGLTMxNzAtODI5Mi00Nzc3ODdFMDNDNkYYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABEAAAABAQAAL1ZvbHVtZXMvMTMxXzIwNTAAAAAIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA6AIAAAAAAAAFIAAAVAIAAAAAAAAQIAAAZAIAAAAAAAARIAAAnAIAAAAAAAASIAAAfAIAAAAAAAATIAAAjAIAAAAAAAAgIAAAyAIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAcAAAAAQYAAFwDAABoAwAAdAMAAGgDAABoAwAAaAMAAGgDAADMAAAA/v///wEAAAD0AgAAEAAAAAQQAAC4AAAAAAAAAAUQAAA4AQAAAAAAABAQAABoAQAAAAAAAEAQAABYAQAAAAAAAFQQAACQAQAAAAAAAFUQAACcAQAAAAAAAFYQAACIAQAAAAAAAAAgAACAAwAAAAAAAAIgAAA4AgAAAAAAAAUgAACoAQAAAAAAABAgAAAgAAAAAAAAABEgAADsAQAAAAAAABIgAADMAQAAAAAAABMgAADcAQAAAAAAACAgAAAYAgAAAAAAABDQAAAEAAAAAAAAAA=="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r5",
+                            "name": "20171207_006_ANTH1683_Studentproject_C300b_001",
+                            "uid": "9D4E2E51D094E7825FF909B00AC9E6C1",
+                            "src": "file:///Volumes/131_2050/20171207/20171207_006_ANTH1683_Studentproject/C300b/20171207_006_ANTH1683_Studentproject_C300b_001.mov",
+                            "start": "1042922881/24000s",
+                            "duration": "17971954/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va6gEAAAAAAQQMAAAAPE7eGPK+9x6VQ71t48zEpGMOtFMhV9mUJN0oLjmSzL4pAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAIAAAAAQEAADEzMV8yMDUwCAAAAAEBAAAyMDE3MTIwNyQAAAABAQAAMjAxNzEyMDdfMDA2X0FOVEgxNjgzX1N0dWRlbnRwcm9qZWN0BQAAAAEBAABDMzAwYgAAADIAAAABAQAAMjAxNzEyMDdfMDA2X0FOVEgxNjgzX1N0dWRlbnRwcm9qZWN0X0MzMDBiXzAwMS5tb3YAABgAAAABBgAAEAAAACAAAAAwAAAAQAAAAGwAAAB8AAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAANOFAAAAAAAACAAAAAQDAADchQAAAAAAAAgAAAAEAwAAMoYAAAAAAAAIAAAABAMAAMyFAAAAAAAAGAAAAAEGAADYAAAA6AAAAPgAAAAIAQAAGAEAACgBAAAIAAAAAAQAAEG/2bpyAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAAAQAAAADAwAABQAAABkAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzEzMV8yMDUwLwAAAAgAAAAEAwAAAEBgUd0BAAAIAAAAAAQAAEG++teUAAAAJAAAAAEBAABGQjdGNjk5NC05QTdGLTMxNzAtODI5Mi00Nzc3ODdFMDNDNkYYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABEAAAABAQAAL1ZvbHVtZXMvMTMxXzIwNTAAAAAIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA6AIAAAAAAAAFIAAAVAIAAAAAAAAQIAAAZAIAAAAAAAARIAAAnAIAAAAAAAASIAAAfAIAAAAAAAATIAAAjAIAAAAAAAAgIAAAyAIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAcAAAAAQYAAFwDAABoAwAAdAMAAGgDAABoAwAAaAMAAGgDAADMAAAA/v///wEAAAD0AgAAEAAAAAQQAAC4AAAAAAAAAAUQAAA4AQAAAAAAABAQAABoAQAAAAAAAEAQAABYAQAAAAAAAFQQAACQAQAAAAAAAFUQAACcAQAAAAAAAFYQAACIAQAAAAAAAAAgAACAAwAAAAAAAAIgAAA4AgAAAAAAAAUgAACoAQAAAAAAABAgAAAgAAAAAAAAABEgAADsAQAAAAAAABIgAADMAQAAAAAAABMgAADcAQAAAAAAACAgAAAYAgAAAAAAABDQAAAEAAAAAAAAAA=="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r6",
+                            "name": "20171207_006_ANTH1683_Studentproject_C300b_002",
+                            "uid": "C56D5C4836202EB1663E508AE9458FCB",
+                            "src": "file:///Volumes/131_2050/20171207/20171207_006_ANTH1683_Studentproject/C300b/20171207_006_ANTH1683_Studentproject_C300b_002.mov",
+                            "start": "1096132037/24000s",
+                            "duration": "39579540/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va6gEAAAAAAQQMAAAAGo5yC5mwK/CfXkNoH8GyxoGrloSRY7BO3LbpKTkaMv8pAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAIAAAAAQEAADEzMV8yMDUwCAAAAAEBAAAyMDE3MTIwNyQAAAABAQAAMjAxNzEyMDdfMDA2X0FOVEgxNjgzX1N0dWRlbnRwcm9qZWN0BQAAAAEBAABDMzAwYgAAADIAAAABAQAAMjAxNzEyMDdfMDA2X0FOVEgxNjgzX1N0dWRlbnRwcm9qZWN0X0MzMDBiXzAwMi5tb3YAABgAAAABBgAAEAAAACAAAAAwAAAAQAAAAGwAAAB8AAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAANOFAAAAAAAACAAAAAQDAADchQAAAAAAAAgAAAAEAwAAMoYAAAAAAAAIAAAABAMAANCFAAAAAAAAGAAAAAEGAADYAAAA6AAAAPgAAAAIAQAAGAEAACgBAAAIAAAAAAQAAEG/2cMbAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAAAQAAAADAwAABQAAABkAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzEzMV8yMDUwLwAAAAgAAAAEAwAAAEBgUd0BAAAIAAAAAAQAAEG++teUAAAAJAAAAAEBAABGQjdGNjk5NC05QTdGLTMxNzAtODI5Mi00Nzc3ODdFMDNDNkYYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABEAAAABAQAAL1ZvbHVtZXMvMTMxXzIwNTAAAAAIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA6AIAAAAAAAAFIAAAVAIAAAAAAAAQIAAAZAIAAAAAAAARIAAAnAIAAAAAAAASIAAAfAIAAAAAAAATIAAAjAIAAAAAAAAgIAAAyAIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAcAAAAAQYAAFwDAABoAwAAdAMAAGgDAABoAwAAaAMAAGgDAADMAAAA/v///wEAAAD0AgAAEAAAAAQQAAC4AAAAAAAAAAUQAAA4AQAAAAAAABAQAABoAQAAAAAAAEAQAABYAQAAAAAAAFQQAACQAQAAAAAAAFUQAACcAQAAAAAAAFYQAACIAQAAAAAAAAAgAACAAwAAAAAAAAIgAAA4AgAAAAAAAAUgAACoAQAAAAAAABAgAAAgAAAAAAAAABEgAADsAQAAAAAAABIgAADMAQAAAAAAABMgAADcAQAAAAAAACAgAAAYAgAAAAAAABDQAAAEAAAAAAAAAA=="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r7",
+                            "name": "20171207_006_ANTH1683_Studentproject_C300b_003",
+                            "uid": "952F20E4CE4F1A5AC146E640CDF92CC0",
+                            "src": "file:///Volumes/131_2050/20171207/20171207_006_ANTH1683_Studentproject/C300b/20171207_006_ANTH1683_Studentproject_C300b_003.mov",
+                            "start": "1135711577/24000s",
+                            "duration": "28091063/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va6gEAAAAAAQQMAAAAObYGmUyu3Qzf53gddZNNs1ACZpO42MYWPcK7v7k2e4hpAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAIAAAAAQEAADEzMV8yMDUwCAAAAAEBAAAyMDE3MTIwNyQAAAABAQAAMjAxNzEyMDdfMDA2X0FOVEgxNjgzX1N0dWRlbnRwcm9qZWN0BQAAAAEBAABDMzAwYgAAADIAAAABAQAAMjAxNzEyMDdfMDA2X0FOVEgxNjgzX1N0dWRlbnRwcm9qZWN0X0MzMDBiXzAwMy5tb3YAABgAAAABBgAAEAAAACAAAAAwAAAAQAAAAGwAAAB8AAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAANOFAAAAAAAACAAAAAQDAADchQAAAAAAAAgAAAAEAwAAMoYAAAAAAAAIAAAABAMAAKWFAAAAAAAAGAAAAAEGAADYAAAA6AAAAPgAAAAIAQAAGAEAACgBAAAIAAAAAAQAAEG/2ckXAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAAAQAAAADAwAABQAAABkAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzEzMV8yMDUwLwAAAAgAAAAEAwAAAEBgUd0BAAAIAAAAAAQAAEG++teUAAAAJAAAAAEBAABGQjdGNjk5NC05QTdGLTMxNzAtODI5Mi00Nzc3ODdFMDNDNkYYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABEAAAABAQAAL1ZvbHVtZXMvMTMxXzIwNTAAAAAIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA6AIAAAAAAAAFIAAAVAIAAAAAAAAQIAAAZAIAAAAAAAARIAAAnAIAAAAAAAASIAAAfAIAAAAAAAATIAAAjAIAAAAAAAAgIAAAyAIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAcAAAAAQYAAFwDAABoAwAAdAMAAGgDAABoAwAAaAMAAGgDAADMAAAA/v///wEAAAD0AgAAEAAAAAQQAAC4AAAAAAAAAAUQAAA4AQAAAAAAABAQAABoAQAAAAAAAEAQAABYAQAAAAAAAFQQAACQAQAAAAAAAFUQAACcAQAAAAAAAFYQAACIAQAAAAAAAAAgAACAAwAAAAAAAAIgAAA4AgAAAAAAAAUgAACoAQAAAAAAABAgAAAgAAAAAAAAABEgAADsAQAAAAAAABIgAADMAQAAAAAAABMgAADcAQAAAAAAACAgAAAYAgAAAAAAABDQAAAEAAAAAAAAAA=="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r8",
+                            "name": "20171207_006_ANTH1683_Studentproject_C300c_001",
+                            "uid": "18F8B2940A2FA0D9456F23183F9F4E17",
+                            "src": "file:///Volumes/131_2050/20171207/20171207_006_ANTH1683_Studentproject/C300c/20171207_006_ANTH1683_Studentproject_C300c_001.mov",
+                            "start": "1042892851/24000s",
+                            "duration": "18930912/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va6gEAAAAAAQQMAAAAEDPluMX0jz+VBjSHaHWSovpza1ERZaQlplRr92i9/8WpAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAIAAAAAQEAADEzMV8yMDUwCAAAAAEBAAAyMDE3MTIwNyQAAAABAQAAMjAxNzEyMDdfMDA2X0FOVEgxNjgzX1N0dWRlbnRwcm9qZWN0BQAAAAEBAABDMzAwYwAAADIAAAABAQAAMjAxNzEyMDdfMDA2X0FOVEgxNjgzX1N0dWRlbnRwcm9qZWN0X0MzMDBjXzAwMS5tb3YAABgAAAABBgAAEAAAACAAAAAwAAAAQAAAAGwAAAB8AAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAANOFAAAAAAAACAAAAAQDAADchQAAAAAAAAgAAAAEAwAAM4YAAAAAAAAIAAAABAMAAJyFAAAAAAAAGAAAAAEGAADYAAAA6AAAAPgAAAAIAQAAGAEAACgBAAAIAAAAAAQAAEG/2brFAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAAAQAAAADAwAABQAAABkAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzEzMV8yMDUwLwAAAAgAAAAEAwAAAEBgUd0BAAAIAAAAAAQAAEG++teUAAAAJAAAAAEBAABGQjdGNjk5NC05QTdGLTMxNzAtODI5Mi00Nzc3ODdFMDNDNkYYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABEAAAABAQAAL1ZvbHVtZXMvMTMxXzIwNTAAAAAIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA6AIAAAAAAAAFIAAAVAIAAAAAAAAQIAAAZAIAAAAAAAARIAAAnAIAAAAAAAASIAAAfAIAAAAAAAATIAAAjAIAAAAAAAAgIAAAyAIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAcAAAAAQYAAFwDAABoAwAAdAMAAGgDAABoAwAAaAMAAGgDAADMAAAA/v///wEAAAD0AgAAEAAAAAQQAAC4AAAAAAAAAAUQAAA4AQAAAAAAABAQAABoAQAAAAAAAEAQAABYAQAAAAAAAFQQAACQAQAAAAAAAFUQAACcAQAAAAAAAFYQAACIAQAAAAAAAAAgAACAAwAAAAAAAAIgAAA4AgAAAAAAAAUgAACoAQAAAAAAABAgAAAgAAAAAAAAABEgAADsAQAAAAAAABIgAADMAQAAAAAAABMgAADcAQAAAAAAACAgAAAYAgAAAAAAABDQAAAEAAAAAAAAAA=="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r9",
+                            "name": "20171207_006_ANTH1683_Studentproject_C300c_002",
+                            "uid": "A661A6A859C3B41ADAFD90C8E52F4BBD",
+                            "src": "file:///Volumes/131_2050/20171207/20171207_006_ANTH1683_Studentproject/C300c/20171207_006_ANTH1683_Studentproject_C300c_002.mov",
+                            "start": "1096150055/24000s",
+                            "duration": "51699648/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va6gEAAAAAAQQMAAAALfRAKE9hihGqZKN0nxC6MosbSFTR5iBJFriJSIda3dOpAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAIAAAAAQEAADEzMV8yMDUwCAAAAAEBAAAyMDE3MTIwNyQAAAABAQAAMjAxNzEyMDdfMDA2X0FOVEgxNjgzX1N0dWRlbnRwcm9qZWN0BQAAAAEBAABDMzAwYwAAADIAAAABAQAAMjAxNzEyMDdfMDA2X0FOVEgxNjgzX1N0dWRlbnRwcm9qZWN0X0MzMDBjXzAwMi5tb3YAABgAAAABBgAAEAAAACAAAAAwAAAAQAAAAGwAAAB8AAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAANOFAAAAAAAACAAAAAQDAADchQAAAAAAAAgAAAAEAwAAM4YAAAAAAAAIAAAABAMAAKGFAAAAAAAAGAAAAAEGAADYAAAA6AAAAPgAAAAIAQAAGAEAACgBAAAIAAAAAAQAAEG/2cNwAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAAAQAAAADAwAABQAAABkAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzEzMV8yMDUwLwAAAAgAAAAEAwAAAEBgUd0BAAAIAAAAAAQAAEG++teUAAAAJAAAAAEBAABGQjdGNjk5NC05QTdGLTMxNzAtODI5Mi00Nzc3ODdFMDNDNkYYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABEAAAABAQAAL1ZvbHVtZXMvMTMxXzIwNTAAAAAIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA6AIAAAAAAAAFIAAAVAIAAAAAAAAQIAAAZAIAAAAAAAARIAAAnAIAAAAAAAASIAAAfAIAAAAAAAATIAAAjAIAAAAAAAAgIAAAyAIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAcAAAAAQYAAFwDAABoAwAAdAMAAGgDAABoAwAAaAMAAGgDAADMAAAA/v///wEAAAD0AgAAEAAAAAQQAAC4AAAAAAAAAAUQAAA4AQAAAAAAABAQAABoAQAAAAAAAEAQAABYAQAAAAAAAFQQAACQAQAAAAAAAFUQAACcAQAAAAAAAFYQAACIAQAAAAAAAAAgAACAAwAAAAAAAAIgAAA4AgAAAAAAAAUgAACoAQAAAAAAABAgAAAgAAAAAAAAABEgAADsAQAAAAAAABIgAADMAQAAAAAAABMgAADcAQAAAAAAACAgAAAYAgAAAAAAABDQAAAEAAAAAAAAAA=="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r10",
+                            "name": "20171207_006_ANTH1683_Studentproject_C300c_003",
+                            "uid": "C0A91AD961727B360DCBC9F2FE08351D",
+                            "src": "file:///Volumes/131_2050/20171207/20171207_006_ANTH1683_Studentproject/C300c/20171207_006_ANTH1683_Studentproject_C300c_003.mov",
+                            "start": "1147849703/24000s",
+                            "duration": "15707692/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va6gEAAAAAAQQMAAAALFmzf9PQFJo+HTybw2OdeTGD7YQ3QgfsBgWDL7k1eX5pAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAIAAAAAQEAADEzMV8yMDUwCAAAAAEBAAAyMDE3MTIwNyQAAAABAQAAMjAxNzEyMDdfMDA2X0FOVEgxNjgzX1N0dWRlbnRwcm9qZWN0BQAAAAEBAABDMzAwYwAAADIAAAABAQAAMjAxNzEyMDdfMDA2X0FOVEgxNjgzX1N0dWRlbnRwcm9qZWN0X0MzMDBjXzAwMy5tb3YAABgAAAABBgAAEAAAACAAAAAwAAAAQAAAAGwAAAB8AAAACAAAAAQDAACmZwYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAANOFAAAAAAAACAAAAAQDAADchQAAAAAAAAgAAAAEAwAAM4YAAAAAAAAIAAAABAMAAF2FAAAAAAAAGAAAAAEGAADYAAAA6AAAAPgAAAAIAQAAGAEAACgBAAAIAAAAAAQAAEG/2cZLAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAAAQAAAADAwAABQAAABkAAAABCQAAZmlsZTovLy9Wb2x1bWVzLzEzMV8yMDUwLwAAAAgAAAAEAwAAAEBgUd0BAAAIAAAAAAQAAEG++teUAAAAJAAAAAEBAABGQjdGNjk5NC05QTdGLTMxNzAtODI5Mi00Nzc3ODdFMDNDNkYYAAAAAQIAAAEBAAABAAAA7xMAAAEAAAAAAAAAAAAAABEAAAABAQAAL1ZvbHVtZXMvMTMxXzIwNTAAAAAIAAAAAQkAAGZpbGU6Ly8vDQAAAAEBAABMTF9Qcm9kdWN0aW9uAAAACAAAAAQDAAAAcKJHdAAAAAgAAAAABAAAQb8+PI0AAAAkAAAAAQEAAEY4Q0UxOUE1LTVGOTAtM0M5Ny04RjAzLUU3RTBDMEVEMzhEMhgAAAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAvAAAAYAAAAP7///8A8AAAAAAAAAcAAAACIAAA6AIAAAAAAAAFIAAAVAIAAAAAAAAQIAAAZAIAAAAAAAARIAAAnAIAAAAAAAASIAAAfAIAAAAAAAATIAAAjAIAAAAAAAAgIAAAyAIAAAAAAAAEAAAAAwMAAADwAAAEAAAAAwMAAAAAAAAEAAAAAwMAAAEAAAAcAAAAAQYAAFwDAABoAwAAdAMAAGgDAABoAwAAaAMAAGgDAADMAAAA/v///wEAAAD0AgAAEAAAAAQQAAC4AAAAAAAAAAUQAAA4AQAAAAAAABAQAABoAQAAAAAAAEAQAABYAQAAAAAAAFQQAACQAQAAAAAAAFUQAACcAQAAAAAAAFYQAACIAQAAAAAAAAAgAACAAwAAAAAAAAIgAAA4AgAAAAAAAAUgAACoAQAAAAAAABAgAAAgAAAAAAAAABEgAADsAQAAAAAAABIgAADMAQAAAAAAABMgAADcAQAAAAAAACAgAAAYAgAAAAAAABDQAAAEAAAAAAAAAA=="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r11",
+                            "name": "20171207_006_ANTH1683_Studentproject_GH4_001",
+                            "uid": "18B3A5400653ACCA6D5ACAFB84686331",
+                            "src": "file:///Volumes/131_2050/20171207/20171207_006_ANTH1683_Studentproject/GH4/20171207_006_ANTH1683_Studentproject_GH4_001.MOV",
+                            "start": "1042979938/24000s",
+                            "duration": "29196167/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va6AEAAAAAAQQMAAAAFpTFb+rbCZbSGKFAymGvOy0sB5/j7+oE62MTRj/O+FmnAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAIAAAAAQEAADEzMV8yMDUwCAAAAAEBAAAyMDE3MTIwNyQAAAABAQAAMjAxNzEyMDdfMDA2X0FOVEgxNjgzX1N0dWRlbnRwcm9qZWN0AwAAAAEBAABHSDQAMAAAAAEBAAAyMDE3MTIwN18wMDZfQU5USDE2ODNfU3R1ZGVudHByb2plY3RfR0g0XzAwMS5NT1YYAAAAAQYAABAAAAAgAAAAMAAAAEAAAABsAAAAeAAAAAgAAAAEAwAApmcGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAADThQAAAAAAAAgAAAAEAwAA3IUAAAAAAAAIAAAABAMAADSGAAAAAAAACAAAAAQDAAAshgAAAAAAABgAAAABBgAA0AAAAOAAAADwAAAAAAEAABABAAAgAQAACAAAAAAEAABBv9m9CAAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAEFAAAEAAAAAwMAAAYAAAAEAAAAAwMAAAUAAAAZAAAAAQkAAGZpbGU6Ly8vVm9sdW1lcy8xMzFfMjA1MC8AAAAIAAAABAMAAABAYFHdAQAACAAAAAAEAABBvvrXlAAAACQAAAABAQAARkI3RjY5OTQtOUE3Ri0zMTcwLTgyOTItNDc3Nzg3RTAzQzZGGAAAAAECAAABAQAAAQAAAO8TAAABAAAAAAAAAAAAAAARAAAAAQEAAC9Wb2x1bWVzLzEzMV8yMDUwAAAACAAAAAEJAABmaWxlOi8vLw0AAAABAQAATExfUHJvZHVjdGlvbgAAAAgAAAAEAwAAAHCiR3QAAAAIAAAAAAQAAEG/PjyNAAAAJAAAAAEBAABGOENFMTlBNS01RjkwLTNDOTctOEYwMy1FN0UwQzBFRDM4RDIYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAOACAAAAAAAABSAAAEwCAAAAAAAAECAAAFwCAAAAAAAAESAAAJQCAAAAAAAAEiAAAHQCAAAAAAAAEyAAAIQCAAAAAAAAICAAAMACAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAHAAAAAEGAABUAwAAYAMAAGwDAABgAwAAYAMAAGADAABgAwAAzAAAAP7///8BAAAA7AIAABAAAAAEEAAAsAAAAAAAAAAFEAAAMAEAAAAAAAAQEAAAYAEAAAAAAABAEAAAUAEAAAAAAABUEAAAiAEAAAAAAABVEAAAlAEAAAAAAABWEAAAgAEAAAAAAAAAIAAAeAMAAAAAAAACIAAAMAIAAAAAAAAFIAAAoAEAAAAAAAAQIAAAIAAAAAAAAAARIAAA5AEAAAAAAAASIAAAxAEAAAAAAAATIAAA1AEAAAAAAAAgIAAAEAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r12",
+                            "name": "20171207_006_ANTH1683_Studentproject_GH4_002",
+                            "uid": "59F28DBA066A07E986A600DD30F967D9",
+                            "src": "file:///Volumes/131_2050/20171207/20171207_006_ANTH1683_Studentproject/GH4/20171207_006_ANTH1683_Studentproject_GH4_002.MOV",
+                            "start": "1096224129/24000s",
+                            "duration": "71324253/24000s",
+                            "hasVideo": "1",
+                            "format": "r2",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va6AEAAAAAAQQMAAAAJQln6aeED7nLaUvRklplo9F6HpM1LGv02HapAQIFF7UnAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAIAAAAAQEAADEzMV8yMDUwCAAAAAEBAAAyMDE3MTIwNyQAAAABAQAAMjAxNzEyMDdfMDA2X0FOVEgxNjgzX1N0dWRlbnRwcm9qZWN0AwAAAAEBAABHSDQAMAAAAAEBAAAyMDE3MTIwN18wMDZfQU5USDE2ODNfU3R1ZGVudHByb2plY3RfR0g0XzAwMi5NT1YYAAAAAQYAABAAAAAgAAAAMAAAAEAAAABsAAAAeAAAAAgAAAAEAwAApmcGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAADThQAAAAAAAAgAAAAEAwAA3IUAAAAAAAAIAAAABAMAADSGAAAAAAAACAAAAAQDAAAvhgAAAAAAABgAAAABBgAA0AAAAOAAAADwAAAAAAEAABABAAAgAQAACAAAAAAEAABBv9nFsgAAABgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAEFAAAEAAAAAwMAAAYAAAAEAAAAAwMAAAUAAAAZAAAAAQkAAGZpbGU6Ly8vVm9sdW1lcy8xMzFfMjA1MC8AAAAIAAAABAMAAABAYFHdAQAACAAAAAAEAABBvvrXlAAAACQAAAABAQAARkI3RjY5OTQtOUE3Ri0zMTcwLTgyOTItNDc3Nzg3RTAzQzZGGAAAAAECAAABAQAAAQAAAO8TAAABAAAAAAAAAAAAAAARAAAAAQEAAC9Wb2x1bWVzLzEzMV8yMDUwAAAACAAAAAEJAABmaWxlOi8vLw0AAAABAQAATExfUHJvZHVjdGlvbgAAAAgAAAAEAwAAAHCiR3QAAAAIAAAAAAQAAEG/PjyNAAAAJAAAAAEBAABGOENFMTlBNS01RjkwLTNDOTctOEYwMy1FN0UwQzBFRDM4RDIYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAOACAAAAAAAABSAAAEwCAAAAAAAAECAAAFwCAAAAAAAAESAAAJQCAAAAAAAAEiAAAHQCAAAAAAAAEyAAAIQCAAAAAAAAICAAAMACAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAHAAAAAEGAABUAwAAYAMAAGwDAABgAwAAYAMAAGADAABgAwAAzAAAAP7///8BAAAA7AIAABAAAAAEEAAAsAAAAAAAAAAFEAAAMAEAAAAAAAAQEAAAYAEAAAAAAABAEAAAUAEAAAAAAABUEAAAiAEAAAAAAABVEAAAlAEAAAAAAABWEAAAgAEAAAAAAAAAIAAAeAMAAAAAAAACIAAAMAIAAAAAAAAFIAAAoAEAAAAAAAAQIAAAIAAAAAAAAAARIAAA5AEAAAAAAAASIAAAxAEAAAAAAAATIAAA1AEAAAAAAAAgIAAAEAIAAAAAAAAQ0AAABAAAAAAAAAA="
+                        ]
+                    }
+                ],
+                "format": [
+                    {
+                        "_attr": {
+                            "id": "r2",
+                            "name": "FFVideoFormat1080p2398",
+                            "frameDuration": "1001/24000s",
+                            "width": "1920",
+                            "height": "1080"
+                        }
+                    }
+                ],
+                "media": [
+                    {
+                        "_attr": {
+                            "id": "r13",
+                            "name": "20171207_006_ANTH1683_Studentproject_MC",
+                            "uid": "/+CKPK0GQ1iRP2LdSczaCg",
+                            "modDate": "2017-12-07 15:32:00 -0500"
+                        },
+                        "multicam": [
+                            {
+                                "_attr": {
+                                    "format": "r2",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "1042859818/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "mc-angle": [
+                                    {
+                                        "_attr": {
+                                            "name": "C300a",
+                                            "angleID": "0000C300a"
+                                        },
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171207_006_ANTH1683_Studentproject_C300a_001.mov",
+                                                    "offset": "0s",
+                                                    "ref": "r1",
+                                                    "duration": "16837821/24000s",
+                                                    "start": "1042859818/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "20171207_006_ANTH1683_Studentproject_C300a_002.mov",
+                                                    "offset": "53285232/24000s",
+                                                    "ref": "r3",
+                                                    "duration": "48984936/24000s",
+                                                    "start": "1096145050/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "20171207_006_ANTH1683_Studentproject_C300a_003.mov",
+                                                    "offset": "102270168/24000s",
+                                                    "ref": "r4",
+                                                    "duration": "18280262/24000s",
+                                                    "start": "1145129986/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "16837821/24000s",
+                                                    "duration": "36447411/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "C300b",
+                                            "angleID": "0000C300b"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "63063/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "18035017/24000s",
+                                                    "duration": "35237202/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171207_006_ANTH1683_Studentproject_C300b_001.mov",
+                                                    "offset": "63063/24000s",
+                                                    "ref": "r5",
+                                                    "duration": "17971954/24000s",
+                                                    "start": "1042922881/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "20171207_006_ANTH1683_Studentproject_C300b_002.mov",
+                                                    "offset": "53272219/24000s",
+                                                    "ref": "r6",
+                                                    "duration": "39579540/24000s",
+                                                    "start": "1096132037/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "20171207_006_ANTH1683_Studentproject_C300b_003.mov",
+                                                    "offset": "92851759/24000s",
+                                                    "ref": "r7",
+                                                    "duration": "28091063/24000s",
+                                                    "start": "1135711577/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "C300c",
+                                            "angleID": "0000C300c"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "33033/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "18963945/24000s",
+                                                    "duration": "34326292/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171207_006_ANTH1683_Studentproject_C300c_001.mov",
+                                                    "offset": "33033/24000s",
+                                                    "ref": "r8",
+                                                    "duration": "18930912/24000s",
+                                                    "start": "1042892851/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "20171207_006_ANTH1683_Studentproject_C300c_002.mov",
+                                                    "offset": "53290237/24000s",
+                                                    "ref": "r9",
+                                                    "duration": "51699648/24000s",
+                                                    "start": "1096150055/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "20171207_006_ANTH1683_Studentproject_C300c_003.mov",
+                                                    "offset": "104989885/24000s",
+                                                    "ref": "r10",
+                                                    "duration": "15707692/24000s",
+                                                    "start": "1147849703/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "GH4",
+                                            "angleID": "0000GH4"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "120120/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "29316287/24000s",
+                                                    "duration": "24048024/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "asset-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171207_006_ANTH1683_Studentproject_GH4_001.MOV",
+                                                    "offset": "120120/24000s",
+                                                    "ref": "r11",
+                                                    "duration": "29196167/24000s",
+                                                    "start": "1042979938/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "_attr": {
+                                                    "name": "20171207_006_ANTH1683_Studentproject_GH4_002.MOV",
+                                                    "offset": "53364311/24000s",
+                                                    "ref": "r12",
+                                                    "duration": "71324253/24000s",
+                                                    "start": "1096224129/24000s",
+                                                    "audioRole": "dialogue",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "audio-channel-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r14",
+                            "name": "20171207_006_ANTH1683_Studentproject_MC_CC",
+                            "uid": "Mi39PX5iT3++HBJx6Qpvcw",
+                            "modDate": "2017-12-07 15:37:56 -0500"
+                        },
+                        "sequence": [
+                            {
+                                "_attr": {
+                                    "duration": "124688564/24000s",
+                                    "format": "r2",
+                                    "renderColorSpace": "Rec. 709",
+                                    "tcStart": "1042859818/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "spine": [
+                                    {
+                                        "mc-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171207_006_ANTH1683_Studentproject_MC",
+                                                    "offset": "1042859818/24000s",
+                                                    "ref": "r13",
+                                                    "duration": "124688564/24000s",
+                                                    "start": "1042859818/24000s"
+                                                },
+                                                "mc-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "angleID": "0000C300a",
+                                                            "srcEnable": "all"
+                                                        },
+                                                        "filter-video": [
+                                                            {
+                                                                "_attr": {
+                                                                    "ref": "r15",
+                                                                    "name": "2.5_A"
+                                                                },
+                                                                "param": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/10619/1/100/101",
+                                                                            "value": "-19.3779 -232"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/10619/2/354/36934/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Line Spacing",
+                                                                            "key": "9999/32385/10619/2/354/36934/404",
+                                                                            "value": "-2"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/10619/2/369",
+                                                                            "value": "20171207_006_ANTH1683_Studentproject"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20673/1/100/101",
+                                                                            "value": "-16.824 -180"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20673/2/354/36932/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20673/2/369",
+                                                                            "value": "ANTH1683: Studentproject"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20837/1/100/101",
+                                                                            "value": "-443.584 -395"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20837/2/354/36936/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20837/2/369",
+                                                                            "value": "20171207:"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "mc-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171207_006_ANTH1683_Studentproject_MC",
+                                                            "lane": "-3",
+                                                            "offset": "1042859818/24000s",
+                                                            "ref": "r13",
+                                                            "duration": "124688564/24000s",
+                                                            "start": "1042859818/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300b",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r16",
+                                                                            "name": "C300b_New"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171207_006_ANTH1683_Studentproject_MC",
+                                                            "lane": "-2",
+                                                            "offset": "1042859818/24000s",
+                                                            "ref": "r13",
+                                                            "duration": "124688564/24000s",
+                                                            "start": "1042859818/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300c",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r17",
+                                                                            "name": "C300c_New"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171207_006_ANTH1683_Studentproject_MC",
+                                                            "lane": "-1",
+                                                            "offset": "1042859818/24000s",
+                                                            "ref": "r13",
+                                                            "duration": "124688564/24000s",
+                                                            "start": "1042859818/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300c",
+                                                                    "srcEnable": "none"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r18",
+                                                                            "name": "2.5_B"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000GH4",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r19",
+                                                                            "name": "GH4a_New"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "effect": [
+                    {
+                        "_attr": {
+                            "id": "r15",
+                            "name": "2.5_A",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r16",
+                            "name": "C300b_New",
+                            "uid": "~/Effects.localized/layouts-2018-NEW/layouts-2018/C300b_New/C300b_New.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/layouts-2018-NEW/layouts-2018/C300b_New/C300b_New.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r17",
+                            "name": "C300c_New",
+                            "uid": "~/Effects.localized/layouts-2018-NEW/layouts-2018/C300c_New/C300c_New.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/layouts-2018-NEW/layouts-2018/C300c_New/C300c_New.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r18",
+                            "name": "2.5_B",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/thelocalworkflow/2.5/2.5_B/2.5_B.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r19",
+                            "name": "GH4a_New",
+                            "uid": "~/Effects.localized/layouts-2018-NEW/layouts-2018/GH4a_New/GH4a_New.moef",
+                            "src": "file:///Users/ll-201-macpro/Movies/Motion%20Templates.localized/Effects.localized/layouts-2018-NEW/layouts-2018/GH4a_New/GH4a_New.moef"
+                        }
+                    }
+                ]
+            }
+        ],
+        "library": [
+            {
+                "_attr": {
+                    "location": "file:///Volumes/131_2050/20171207_MC_CC_Ex.fcpbundle/"
+                },
+                "event": [
+                    {
+                        "_attr": {
+                            "name": "20171207_006_ANTH1683_Studentproject",
+                            "uid": "38F12E61-1559-4282-9C71-68D7BA74F3A9"
+                        },
+                        "asset-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171207_006_ANTH1683_Studentproject_C300a_001",
+                                    "ref": "r1",
+                                    "duration": "16837821/24000s",
+                                    "start": "1042859818/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-07 15:30:37 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "521429909/12000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.04286e+09s",
+                                            "duration": "16837821/24000s",
+                                            "value": "20171207_006_ANTH1683_Studentproject, C300a"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171207_006_ANTH1683_Studentproject_C300a_002",
+                                    "ref": "r3",
+                                    "duration": "48984936/24000s",
+                                    "start": "1096145050/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-07 15:30:37 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "21922901/480s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.09615e+09s",
+                                            "duration": "48984936/24000s",
+                                            "value": "20171207_006_ANTH1683_Studentproject, C300a"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171207_006_ANTH1683_Studentproject_C300a_003",
+                                    "ref": "r4",
+                                    "duration": "18280262/24000s",
+                                    "start": "1145129986/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-07 15:30:37 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "572564993/12000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.14513e+09s",
+                                            "duration": "18280262/24000s",
+                                            "value": "20171207_006_ANTH1683_Studentproject, C300a"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171207_006_ANTH1683_Studentproject_C300b_001",
+                                    "ref": "r5",
+                                    "duration": "17971954/24000s",
+                                    "start": "1042922881/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-07 15:30:37 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "1042922881/24000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.04292e+09s",
+                                            "duration": "17971954/24000s",
+                                            "value": "20171207_006_ANTH1683_Studentproject, C300b"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171207_006_ANTH1683_Studentproject_C300b_002",
+                                    "ref": "r6",
+                                    "duration": "39579540/24000s",
+                                    "start": "1096132037/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-07 15:30:37 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "1096132037/24000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.09613e+09s",
+                                            "duration": "39579540/24000s",
+                                            "value": "20171207_006_ANTH1683_Studentproject, C300b"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171207_006_ANTH1683_Studentproject_C300b_003",
+                                    "ref": "r7",
+                                    "duration": "28091063/24000s",
+                                    "start": "1135711577/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-07 15:30:37 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "1135711577/24000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.13571e+09s",
+                                            "duration": "28091063/24000s",
+                                            "value": "20171207_006_ANTH1683_Studentproject, C300b"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171207_006_ANTH1683_Studentproject_C300c_001",
+                                    "ref": "r8",
+                                    "duration": "18930912/24000s",
+                                    "start": "1042892851/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-07 15:30:37 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "1042892851/24000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.04289e+09s",
+                                            "duration": "18930912/24000s",
+                                            "value": "20171207_006_ANTH1683_Studentproject, C300c"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171207_006_ANTH1683_Studentproject_C300c_002",
+                                    "ref": "r9",
+                                    "duration": "51699648/24000s",
+                                    "start": "1096150055/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-07 15:30:37 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "219230011/4800s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.09615e+09s",
+                                            "duration": "51699648/24000s",
+                                            "value": "20171207_006_ANTH1683_Studentproject, C300c"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171207_006_ANTH1683_Studentproject_C300c_003",
+                                    "ref": "r10",
+                                    "duration": "15707692/24000s",
+                                    "start": "1147849703/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-07 15:30:37 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "1147849703/24000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.14785e+09s",
+                                            "duration": "15707692/24000s",
+                                            "value": "20171207_006_ANTH1683_Studentproject, C300c"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171207_006_ANTH1683_Studentproject_GH4_001",
+                                    "ref": "r11",
+                                    "duration": "29196167/24000s",
+                                    "start": "1042979938/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-07 15:30:37 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "521489969/12000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.04298e+09s",
+                                            "duration": "29196167/24000s",
+                                            "value": "20171207_006_ANTH1683_Studentproject, GH4"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171207_006_ANTH1683_Studentproject_GH4_002",
+                                    "ref": "r12",
+                                    "duration": "71324253/24000s",
+                                    "start": "1096224129/24000s",
+                                    "audioRole": "dialogue",
+                                    "format": "r2",
+                                    "tcFormat": "NDF",
+                                    "modDate": "2017-12-07 15:30:37 -0500"
+                                },
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "365408043/8000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "1.09622e+09s",
+                                            "duration": "71324253/24000s",
+                                            "value": "20171207_006_ANTH1683_Studentproject, GH4"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "mc-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171207_006_ANTH1683_Studentproject_MC",
+                                    "ref": "r13",
+                                    "duration": "124688564/24000s",
+                                    "start": "1042859818/24000s",
+                                    "modDate": "2017-12-07 15:30:36 -0500"
+                                },
+                                "mc-source": [
+                                    {
+                                        "_attr": {
+                                            "angleID": "0000C300a",
+                                            "srcEnable": "all"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "ref-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171207_006_ANTH1683_Studentproject_MC_CC",
+                                    "ref": "r14",
+                                    "duration": "124688564/24000s",
+                                    "start": "1042859818/24000s",
+                                    "modDate": "2017-12-07 15:37:56 -0500"
+                                }
+                            }
+                        ],
+                        "project": [
+                            {
+                                "_attr": {
+                                    "name": "20171207_006_ANTH1683_Studentproject_MC_CC_Ex",
+                                    "uid": "8278195D-86DB-41EF-A773-9559FC12B313",
+                                    "modDate": "2017-12-07 15:38:54 -0500"
+                                },
+                                "sequence": [
+                                    {
+                                        "_attr": {
+                                            "duration": "87968881/24000s",
+                                            "format": "r2",
+                                            "renderColorSpace": "Rec. 709",
+                                            "tcStart": "0s",
+                                            "tcFormat": "NDF",
+                                            "audioLayout": "stereo",
+                                            "audioRate": "48k"
+                                        },
+                                        "spine": [
+                                            {
+                                                "ref-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171207_006_ANTH1683_Studentproject_MC_CC",
+                                                            "offset": "0s",
+                                                            "ref": "r14",
+                                                            "duration": "16413397/24000s",
+                                                            "start": "1042859818/24000s"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171207_006_ANTH1683_Studentproject_MC_CC",
+                                                            "offset": "16413397/24000s",
+                                                            "ref": "r14",
+                                                            "duration": "71555484/24000s",
+                                                            "start": "1095992898/24000s"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "keyword-collection": [
+                            {
+                                "_attr": {
+                                    "name": "20171207_006_ANTH1683_Studentproject"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300a"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "first 24 frames"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300b"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300c"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "GH4"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

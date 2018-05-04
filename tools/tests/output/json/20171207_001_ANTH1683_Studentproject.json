@@ -1,0 +1,947 @@
+{
+    "fcpxml": {
+        "_attr": {
+            "version": "1.5"
+        },
+        "resources": [
+            {
+                "format": [
+                    {
+                        "_attr": {
+                            "id": "r1",
+                            "name": "FFVideoFormat1080p2398",
+                            "frameDuration": "1001/24000s",
+                            "width": "1920",
+                            "height": "1080"
+                        }
+                    }
+                ],
+                "asset": [
+                    {
+                        "_attr": {
+                            "id": "r2",
+                            "name": "20171207_001_ANTH1683_Studentproject_C300a_001",
+                            "uid": "1EEAFDAE2BDAA2221E7DFA8F5A0E84B0",
+                            "src": "file:///Volumes/517_Thursday/Footage/20171207/20171207_001_ANTH1683_Studentproject/C300a/20171207_001_ANTH1683_Studentproject_C300a_001.mov",
+                            "start": "780209430/24000s",
+                            "duration": "62690628/24000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va5gEAAAAAAQQMAAAAB1t/vr9fC7c6OGS1hmuNDRvUiSbFzGkqpLtHtbLoz4uuAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAMAAAAAQEAADUxN19UaHVyc2RheQcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjA3JAAAAAEBAAAyMDE3MTIwN18wMDFfQU5USDE2ODNfU3R1ZGVudHByb2plY3QFAAAAAQEAAEMzMDBhAAAAMgAAAAEBAAAyMDE3MTIwN18wMDFfQU5USDE2ODNfU3R1ZGVudHByb2plY3RfQzMwMGFfMDAxLm1vdgAAHAAAAAEGAAAQAAAAIAAAADQAAABEAAAAVAAAAIAAAACQAAAACAAAAAQDAACmYQYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAACMqCAAAAAAACAAAAAQDAAAteQgAAAAAAAgAAAAEAwAALnkIAAAAAAAIAAAABAMAAGp5CAAAAAAACAAAAAQDAAD/eAgAAAAAABwAAAABBgAA8AAAAAABAAAQAQAAIAEAADABAABAAQAAUAEAAAgAAAAABAAAQb/Zj6wAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAB0AAAABCQAAZmlsZTovLy9Wb2x1bWVzLzUxN19UaHVyc2RheS8AAAAIAAAABAMAAADAJGPuAAAACAAAAAAEAABBvF/MygAAACQAAAABAQAANjFDQkI2NDMtRTNDMi0zRkNGLTg0MTktQzExOTNFQzk0MDBEGAAAAAECAAABAQAAAQAAAO8TAAABAAAAAAAAAAAAAAAVAAAAAQEAAC9Wb2x1bWVzLzUxN19UaHVyc2RheQAAAAgAAAABCQAAZmlsZTovLy8LAAAAAQEAAExMLTIwMTctMTA5AAgAAAAEAwAAAAAiD9UCAAAIAAAAAAQAAEG+snxgAAAAJAAAAAEBAAA3MERBQTk0NC1GRjkxLTMwMTAtOTM4Ri03MzQ2NDZCNkY3RTMYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAPgCAAAAAAAABSAAAGgCAAAAAAAAECAAAHgCAAAAAAAAESAAAKwCAAAAAAAAEiAAAIwCAAAAAAAAEyAAAJwCAAAAAAAAICAAANgCAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAIAAAAAEGAABsAwAAeAMAAIQDAAB4AwAAeAMAAHgDAAB4AwAAeAMAAKgAAAD+////AQAAAAQDAAANAAAABBAAAMwAAAAAAAAABRAAAGABAAAAAAAAEBAAAJQBAAAAAAAAQBAAAIQBAAAAAAAAACAAAJADAAAAAAAAAiAAAEgCAAAAAAAABSAAALQBAAAAAAAAECAAACAAAAAAAAAAESAAAPwBAAAAAAAAEiAAANwBAAAAAAAAEyAAAOwBAAAAAAAAICAAACgCAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r3",
+                            "name": "20171207_001_ANTH1683_Studentproject_C300b_001",
+                            "uid": "D27676163E56110262E4B3FE799F591B",
+                            "src": "file:///Volumes/517_Thursday/Footage/20171207/20171207_001_ANTH1683_Studentproject/C300b/20171207_001_ANTH1683_Studentproject_C300b_001.mov",
+                            "start": "780392613/24000s",
+                            "duration": "62534472/24000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va5gEAAAAAAQQMAAAAM4Dun2zTbgmHOSV4PnzpfMAgag6D0fyE7PZH54jLwmvuAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAMAAAAAQEAADUxN19UaHVyc2RheQcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjA3JAAAAAEBAAAyMDE3MTIwN18wMDFfQU5USDE2ODNfU3R1ZGVudHByb2plY3QFAAAAAQEAAEMzMDBiAAAAMgAAAAEBAAAyMDE3MTIwN18wMDFfQU5USDE2ODNfU3R1ZGVudHByb2plY3RfQzMwMGJfMDAxLm1vdgAAHAAAAAEGAAAQAAAAIAAAADQAAABEAAAAVAAAAIAAAACQAAAACAAAAAQDAACmYQYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAACMqCAAAAAAACAAAAAQDAAAteQgAAAAAAAgAAAAEAwAALnkIAAAAAAAIAAAABAMAAGt5CAAAAAAACAAAAAQDAAA3eQgAAAAAABwAAAABBgAA8AAAAAABAAAQAQAAIAEAADABAABAAQAAUAEAAAgAAAAABAAAQb/Zj7cAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAB0AAAABCQAAZmlsZTovLy9Wb2x1bWVzLzUxN19UaHVyc2RheS8AAAAIAAAABAMAAADAJGPuAAAACAAAAAAEAABBvF/MygAAACQAAAABAQAANjFDQkI2NDMtRTNDMi0zRkNGLTg0MTktQzExOTNFQzk0MDBEGAAAAAECAAABAQAAAQAAAO8TAAABAAAAAAAAAAAAAAAVAAAAAQEAAC9Wb2x1bWVzLzUxN19UaHVyc2RheQAAAAgAAAABCQAAZmlsZTovLy8LAAAAAQEAAExMLTIwMTctMTA5AAgAAAAEAwAAAAAiD9UCAAAIAAAAAAQAAEG+snxgAAAAJAAAAAEBAAA3MERBQTk0NC1GRjkxLTMwMTAtOTM4Ri03MzQ2NDZCNkY3RTMYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAPgCAAAAAAAABSAAAGgCAAAAAAAAECAAAHgCAAAAAAAAESAAAKwCAAAAAAAAEiAAAIwCAAAAAAAAEyAAAJwCAAAAAAAAICAAANgCAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAIAAAAAEGAABsAwAAeAMAAIQDAAB4AwAAeAMAAHgDAAB4AwAAeAMAAKgAAAD+////AQAAAAQDAAANAAAABBAAAMwAAAAAAAAABRAAAGABAAAAAAAAEBAAAJQBAAAAAAAAQBAAAIQBAAAAAAAAACAAAJADAAAAAAAAAiAAAEgCAAAAAAAABSAAALQBAAAAAAAAECAAACAAAAAAAAAAESAAAPwBAAAAAAAAEiAAANwBAAAAAAAAEyAAAOwBAAAAAAAAICAAACgCAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r4",
+                            "name": "20171207_001_ANTH1683_Studentproject_C300c_001",
+                            "uid": "46D2E49D71A41915F1DF595EDD5E23BD",
+                            "src": "file:///Volumes/517_Thursday/Footage/20171207/20171207_001_ANTH1683_Studentproject/C300c/20171207_001_ANTH1683_Studentproject_C300c_001.mov",
+                            "start": "780253474/24000s",
+                            "duration": "62618556/24000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va5gEAAAAAAQQMAAAAH8C8TV/DrhOCheWg4sqYtS8hH+wQc5kPcKzy30Tbo0YuAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAMAAAAAQEAADUxN19UaHVyc2RheQcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjA3JAAAAAEBAAAyMDE3MTIwN18wMDFfQU5USDE2ODNfU3R1ZGVudHByb2plY3QFAAAAAQEAAEMzMDBjAAAAMgAAAAEBAAAyMDE3MTIwN18wMDFfQU5USDE2ODNfU3R1ZGVudHByb2plY3RfQzMwMGNfMDAxLm1vdgAAHAAAAAEGAAAQAAAAIAAAADQAAABEAAAAVAAAAIAAAACQAAAACAAAAAQDAACmYQYAAAAAAAgAAAAEAwAAAgAAAAAAAAAIAAAABAMAACMqCAAAAAAACAAAAAQDAAAteQgAAAAAAAgAAAAEAwAALnkIAAAAAAAIAAAABAMAAGx5CAAAAAAACAAAAAQDAABLeQgAAAAAABwAAAABBgAA8AAAAAABAAAQAQAAIAEAADABAABAAQAAUAEAAAgAAAAABAAAQb/ZkAYAAAAYAAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAB0AAAABCQAAZmlsZTovLy9Wb2x1bWVzLzUxN19UaHVyc2RheS8AAAAIAAAABAMAAADAJGPuAAAACAAAAAAEAABBvF/MygAAACQAAAABAQAANjFDQkI2NDMtRTNDMi0zRkNGLTg0MTktQzExOTNFQzk0MDBEGAAAAAECAAABAQAAAQAAAO8TAAABAAAAAAAAAAAAAAAVAAAAAQEAAC9Wb2x1bWVzLzUxN19UaHVyc2RheQAAAAgAAAABCQAAZmlsZTovLy8LAAAAAQEAAExMLTIwMTctMTA5AAgAAAAEAwAAAAAiD9UCAAAIAAAAAAQAAEG+snxgAAAAJAAAAAEBAAA3MERBQTk0NC1GRjkxLTMwMTAtOTM4Ri03MzQ2NDZCNkY3RTMYAAAAAQIAAIEAAAABAAAA7xMAAAEAAAAAAAAAAAAAAAEAAAABAQAALwAAAGAAAAD+////APAAAAAAAAAHAAAAAiAAAPgCAAAAAAAABSAAAGgCAAAAAAAAECAAAHgCAAAAAAAAESAAAKwCAAAAAAAAEiAAAIwCAAAAAAAAEyAAAJwCAAAAAAAAICAAANgCAAAAAAAABAAAAAMDAAAA8AAABAAAAAMDAAAAAAAABAAAAAMDAAABAAAAIAAAAAEGAABsAwAAeAMAAIQDAAB4AwAAeAMAAHgDAAB4AwAAeAMAAKgAAAD+////AQAAAAQDAAANAAAABBAAAMwAAAAAAAAABRAAAGABAAAAAAAAEBAAAJQBAAAAAAAAQBAAAIQBAAAAAAAAACAAAJADAAAAAAAAAiAAAEgCAAAAAAAABSAAALQBAAAAAAAAECAAACAAAAAAAAAAESAAAPwBAAAAAAAAEiAAANwBAAAAAAAAEyAAAOwBAAAAAAAAICAAACgCAAAAAAAAENAAAAQAAAAAAAAA"
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r5",
+                            "name": "20171207_001_ANTH1683_Studentproject_GH4_001",
+                            "uid": "4E1ECC8DB92F66B5B4B59000ADC902B7",
+                            "src": "file:///Volumes/517_Thursday/Footage/20171207/20171207_001_ANTH1683_Studentproject/GH4/20171207_001_ANTH1683_Studentproject_GH4_001.mov",
+                            "start": "797830033/24000s",
+                            "duration": "28226198/24000s",
+                            "hasVideo": "1",
+                            "format": "r1",
+                            "hasAudio": "1",
+                            "audioSources": "1",
+                            "audioChannels": "2",
+                            "audioRate": "48000"
+                        },
+                        "bookmark": [
+                            "Ym9va5AEAAAAAAQQMAAAAAMhyNNl/XPRpRUSRN4PVMgn7tUuNo804gZnNwqA2Qv1sAMAAAQAAAADAwAAAAgAKAcAAAABAQAAVm9sdW1lcwAMAAAAAQEAADUxN19UaHVyc2RheQcAAAABAQAARm9vdGFnZQAIAAAAAQEAADIwMTcxMjA3JAAAAAEBAAAyMDE3MTIwN18wMDFfQU5USDE2ODNfU3R1ZGVudHByb2plY3QDAAAAAQEAAEdINAAwAAAAAQEAADIwMTcxMjA3XzAwMV9BTlRIMTY4M19TdHVkZW50cHJvamVjdF9HSDRfMDAxLm1vdhwAAAABBgAAEAAAACAAAAA0AAAARAAAAFQAAACAAAAAjAAAAAgAAAAEAwAApmEGAAAAAAAIAAAABAMAAAIAAAAAAAAACAAAAAQDAAAjKggAAAAAAAgAAAAEAwAALXkIAAAAAAAIAAAABAMAAC55CAAAAAAACAAAAAQDAAAxeQgAAAAAAAgAAAAEAwAAJnkIAAAAAAAcAAAAAQYAAOgAAAD4AAAACAEAABgBAAAoAQAAOAEAAEgBAAAIAAAAAAQAAEG/2ZWCAAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAdAAAAAQkAAGZpbGU6Ly8vVm9sdW1lcy81MTdfVGh1cnNkYXkvAAAACAAAAAQDAAAAwCRj7gAAAAgAAAAABAAAQbxfzMoAAAAkAAAAAQEAADYxQ0JCNjQzLUUzQzItM0ZDRi04NDE5LUMxMTkzRUM5NDAwRBgAAAABAgAAAQEAAAEAAADvEwAAAQAAAAAAAAAAAAAAFQAAAAEBAAAvVm9sdW1lcy81MTdfVGh1cnNkYXkAAAAIAAAAAQkAAGZpbGU6Ly8vCwAAAAEBAABMTC0yMDE3LTEwOQAIAAAABAMAAAAAIg/VAgAACAAAAAAEAABBvrJ8YAAAACQAAAABAQAANzBEQUE5NDQtRkY5MS0zMDEwLTkzOEYtNzM0NjQ2QjZGN0UzGAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAABgAAAA/v///wDwAAAAAAAABwAAAAIgAADwAgAAAAAAAAUgAABgAgAAAAAAABAgAABwAgAAAAAAABEgAACkAgAAAAAAABIgAACEAgAAAAAAABMgAACUAgAAAAAAACAgAADQAgAAAAAAAAQAAAADAwAAAPAAAAQAAAADAwAAAAAAAAQAAAADAwAAAQAAACAAAAABBgAAZAMAAHADAAB8AwAAcAMAAHADAABwAwAAcAMAAHADAACoAAAA/v///wEAAAD8AgAADQAAAAQQAADEAAAAAAAAAAUQAABYAQAAAAAAABAQAACMAQAAAAAAAEAQAAB8AQAAAAAAAAAgAACIAwAAAAAAAAIgAABAAgAAAAAAAAUgAACsAQAAAAAAABAgAAAgAAAAAAAAABEgAAD0AQAAAAAAABIgAADUAQAAAAAAABMgAADkAQAAAAAAACAgAAAgAgAAAAAAABDQAAAEAAAAAAAAAA=="
+                        ]
+                    }
+                ],
+                "media": [
+                    {
+                        "_attr": {
+                            "id": "r6",
+                            "name": "20171207_001_ANTH1683_Studentproject_MC",
+                            "uid": "rq7ywpr4QGaKdDD/v0dXag"
+                        },
+                        "multicam": [
+                            {
+                                "_attr": {
+                                    "format": "r1",
+                                    "tcStart": "780209430/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "mc-angle": [
+                                    {
+                                        "_attr": {
+                                            "name": "C300a",
+                                            "angleID": "0000C300a"
+                                        },
+                                        "clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171207_001_ANTH1683_Studentproject_C300a_001.mov",
+                                                    "offset": "0s",
+                                                    "duration": "62690628/24000s",
+                                                    "start": "780209430/24000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171207_001_ANTH1683_Studentproject_C300a_001 - v1",
+                                                            "offset": "780209430/24000s",
+                                                            "ref": "r2",
+                                                            "duration": "62690628/24000s",
+                                                            "start": "780209430/24000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "_attr": {
+                                                                    "name": "20171207_001_ANTH1683_Studentproject_C300a_001 - a1",
+                                                                    "lane": "-1",
+                                                                    "offset": "23406282900/720000s",
+                                                                    "ref": "r2",
+                                                                    "duration": "1880718840/720000s",
+                                                                    "start": "23406282900/720000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "audio-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "C300b",
+                                            "angleID": "0000C300b"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "183183/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171207_001_ANTH1683_Studentproject_C300b_001.mov",
+                                                    "offset": "183183/24000s",
+                                                    "duration": "62534472/24000s",
+                                                    "start": "780392613/24000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171207_001_ANTH1683_Studentproject_C300b_001 - v1",
+                                                            "offset": "780392613/24000s",
+                                                            "ref": "r3",
+                                                            "duration": "62534472/24000s",
+                                                            "start": "780392613/24000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "_attr": {
+                                                                    "name": "20171207_001_ANTH1683_Studentproject_C300b_001 - a1",
+                                                                    "lane": "-1",
+                                                                    "offset": "23411778390/720000s",
+                                                                    "ref": "r3",
+                                                                    "duration": "1876034160/720000s",
+                                                                    "start": "23411778390/720000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "audio-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "C300c",
+                                            "angleID": "0000C300c"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "44044/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171207_001_ANTH1683_Studentproject_C300c_001.mov",
+                                                    "offset": "44044/24000s",
+                                                    "duration": "62618556/24000s",
+                                                    "start": "780253474/24000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171207_001_ANTH1683_Studentproject_C300c_001 - v1",
+                                                            "offset": "780253474/24000s",
+                                                            "ref": "r4",
+                                                            "duration": "62618556/24000s",
+                                                            "start": "780253474/24000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "_attr": {
+                                                                    "name": "20171207_001_ANTH1683_Studentproject_C300c_001 - a1",
+                                                                    "lane": "-1",
+                                                                    "offset": "23407604220/720000s",
+                                                                    "ref": "r4",
+                                                                    "duration": "1878556680/720000s",
+                                                                    "start": "23407604220/720000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "audio-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_attr": {
+                                            "name": "GH4",
+                                            "angleID": "0000GH4"
+                                        },
+                                        "gap": [
+                                            {
+                                                "_attr": {
+                                                    "name": "Gap",
+                                                    "offset": "0s",
+                                                    "duration": "17620603/24000s",
+                                                    "start": "86400314/24000s"
+                                                }
+                                            }
+                                        ],
+                                        "clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171207_001_ANTH1683_Studentproject_GH4_001.mov",
+                                                    "offset": "17620603/24000s",
+                                                    "duration": "28226198/24000s",
+                                                    "start": "797830033/24000s",
+                                                    "tcFormat": "NDF"
+                                                },
+                                                "video": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171207_001_ANTH1683_Studentproject_GH4_001 - v1",
+                                                            "offset": "797830033/24000s",
+                                                            "ref": "r5",
+                                                            "duration": "28226198/24000s",
+                                                            "start": "797830033/24000s"
+                                                        },
+                                                        "audio": [
+                                                            {
+                                                                "_attr": {
+                                                                    "name": "20171207_001_ANTH1683_Studentproject_GH4_001 - a1",
+                                                                    "lane": "-1",
+                                                                    "offset": "23934900990/720000s",
+                                                                    "ref": "r5",
+                                                                    "duration": "846785940/720000s",
+                                                                    "start": "23934900990/720000s",
+                                                                    "role": "dialogue.dialogue-1",
+                                                                    "srcCh": "1, 2"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "audio-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-1",
+                                                            "srcCh": "1"
+                                                        }
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "role": "dialogue.dialogue-2",
+                                                            "srcCh": "2"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_attr": {
+                            "id": "r7",
+                            "name": "20171207_001_ANTH1683_Studentproject_MC_CC",
+                            "uid": "vSIK/4W7TVWMakg3A41JyA"
+                        },
+                        "sequence": [
+                            {
+                                "_attr": {
+                                    "duration": "62717655/24000s",
+                                    "format": "r1",
+                                    "tcStart": "780209430/24000s",
+                                    "tcFormat": "NDF"
+                                },
+                                "spine": [
+                                    {
+                                        "mc-clip": [
+                                            {
+                                                "_attr": {
+                                                    "name": "20171207_001_ANTH1683_Studentproject_MC",
+                                                    "offset": "780209430/24000s",
+                                                    "ref": "r6",
+                                                    "duration": "62717655/24000s",
+                                                    "start": "780209430/24000s"
+                                                },
+                                                "mc-source": [
+                                                    {
+                                                        "_attr": {
+                                                            "angleID": "0000C300a",
+                                                            "srcEnable": "all"
+                                                        },
+                                                        "filter-video": [
+                                                            {
+                                                                "_attr": {
+                                                                    "ref": "r8",
+                                                                    "name": "2.5_A"
+                                                                },
+                                                                "param": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/10619/1/100/101",
+                                                                            "value": "-19.3779 -232"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/10619/2/354/47907/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Line Spacing",
+                                                                            "key": "9999/32385/10619/2/354/47907/404",
+                                                                            "value": "-2"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/10619/2/369",
+                                                                            "value": "20171207_001_ANTH1683_Studentproject"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20673/1/100/101",
+                                                                            "value": "-16.824 -180"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20673/2/354/47905/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20673/2/369",
+                                                                            "value": "ANTH1683: Studentproject"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Position",
+                                                                            "key": "9999/32385/20837/1/100/101",
+                                                                            "value": "-443.584 -395"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Alignment",
+                                                                            "key": "9999/32385/20837/2/354/47909/401",
+                                                                            "value": "2 (Right)"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "_attr": {
+                                                                            "name": "Text",
+                                                                            "key": "9999/32385/20837/2/369",
+                                                                            "value": "20171207:"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "mc-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171207_001_ANTH1683_Studentproject_MC",
+                                                            "lane": "-3",
+                                                            "offset": "780209430/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "62717655/24000s",
+                                                            "start": "780209430/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300b",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r9",
+                                                                            "name": "GH4-cam-2018-master"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171207_001_ANTH1683_Studentproject_MC",
+                                                            "lane": "-2",
+                                                            "offset": "780209430/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "62717655/24000s",
+                                                            "start": "780209430/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300c",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r10",
+                                                                            "name": "cam_c_test"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171207_001_ANTH1683_Studentproject_MC",
+                                                            "lane": "-1",
+                                                            "offset": "780209430/24000s",
+                                                            "ref": "r6",
+                                                            "duration": "62717655/24000s",
+                                                            "start": "780209430/24000s"
+                                                        },
+                                                        "adjust-volume": [
+                                                            {
+                                                                "_attr": {
+                                                                    "amount": "-96dB"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "mc-source": [
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000C300a",
+                                                                    "srcEnable": "audio"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_attr": {
+                                                                    "angleID": "0000GH4",
+                                                                    "srcEnable": "video"
+                                                                },
+                                                                "filter-video": [
+                                                                    {
+                                                                        "_attr": {
+                                                                            "ref": "r11",
+                                                                            "name": "C300b-cam-2018-master"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "effect": [
+                    {
+                        "_attr": {
+                            "id": "r8",
+                            "name": "2.5_A",
+                            "uid": "~/Effects.localized/thelocalworkflow/2.5/2.5_A/2.5_A.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r9",
+                            "name": "GH4-cam-2018-master",
+                            "uid": "~/Effects.localized/layouts-2018/GH4-cam-2018-master/GH4-cam-2018-master.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r10",
+                            "name": "cam_c_test",
+                            "uid": "~/Effects.localized/layouts-2018/layouts-2018/cam_c_test/cam_c_test.moef"
+                        }
+                    },
+                    {
+                        "_attr": {
+                            "id": "r11",
+                            "name": "C300b-cam-2018-master",
+                            "uid": "~/Effects.localized/layouts-2018/C300b-cam-2018-master/C300b-cam-2018-master.moef"
+                        }
+                    }
+                ]
+            }
+        ],
+        "library": [
+            {
+                "_attr": {
+                    "location": "file:///Volumes/517_Thursday/FCPX_Libs/20171207_MC_CC_Ex.fcpbundle/"
+                },
+                "event": [
+                    {
+                        "_attr": {
+                            "name": "20171207_001_ANTH1683_Studentproject",
+                            "uid": "14D91A60-E12B-4C28-912C-945A56C56527"
+                        },
+                        "clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171207_001_ANTH1683_Studentproject_C300a_001",
+                                    "duration": "62690628/24000s",
+                                    "start": "780209430/24000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF"
+                                },
+                                "video": [
+                                    {
+                                        "_attr": {
+                                            "offset": "780209430/24000s",
+                                            "ref": "r2",
+                                            "duration": "62690628/24000s",
+                                            "start": "780209430/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "23406282900/720000s",
+                                                    "ref": "r2",
+                                                    "duration": "1880718840/720000s",
+                                                    "start": "23406282900/720000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "26006981/800s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "7.80209e+08s",
+                                            "duration": "62690628/24000s",
+                                            "value": "20171207_001_ANTH1683_Studentproject, C300a"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171207_001_ANTH1683_Studentproject_C300b_001",
+                                    "duration": "62534472/24000s",
+                                    "start": "780392613/24000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF"
+                                },
+                                "video": [
+                                    {
+                                        "_attr": {
+                                            "offset": "780392613/24000s",
+                                            "ref": "r3",
+                                            "duration": "62534472/24000s",
+                                            "start": "780392613/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "23411778390/720000s",
+                                                    "ref": "r3",
+                                                    "duration": "1876034160/720000s",
+                                                    "start": "23411778390/720000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "260130871/8000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "7.80393e+08s",
+                                            "duration": "62534472/24000s",
+                                            "value": "20171207_001_ANTH1683_Studentproject, C300b"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171207_001_ANTH1683_Studentproject_C300c_001",
+                                    "duration": "62618556/24000s",
+                                    "start": "780253474/24000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF"
+                                },
+                                "video": [
+                                    {
+                                        "_attr": {
+                                            "offset": "780253474/24000s",
+                                            "ref": "r4",
+                                            "duration": "62618556/24000s",
+                                            "start": "780253474/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "23407604220/720000s",
+                                                    "ref": "r4",
+                                                    "duration": "1878556680/720000s",
+                                                    "start": "23407604220/720000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "390126737/12000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "7.80253e+08s",
+                                            "duration": "62618556/24000s",
+                                            "value": "20171207_001_ANTH1683_Studentproject, C300c"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_attr": {
+                                    "name": "20171207_001_ANTH1683_Studentproject_GH4_001",
+                                    "duration": "28226198/24000s",
+                                    "start": "797830033/24000s",
+                                    "format": "r1",
+                                    "tcFormat": "NDF"
+                                },
+                                "video": [
+                                    {
+                                        "_attr": {
+                                            "offset": "797830033/24000s",
+                                            "ref": "r5",
+                                            "duration": "28226198/24000s",
+                                            "start": "797830033/24000s"
+                                        },
+                                        "audio": [
+                                            {
+                                                "_attr": {
+                                                    "lane": "-1",
+                                                    "offset": "23934900990/720000s",
+                                                    "ref": "r5",
+                                                    "duration": "846785940/720000s",
+                                                    "start": "23934900990/720000s",
+                                                    "role": "dialogue.dialogue-1",
+                                                    "srcCh": "1, 2"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "keyword": [
+                                    {
+                                        "_attr": {
+                                            "start": "797830033/24000s",
+                                            "duration": "24024/24000s",
+                                            "value": "first 24 frames"
+                                        }
+                                    },
+                                    {
+                                        "_attr": {
+                                            "start": "7.9783e+08s",
+                                            "duration": "28226198/24000s",
+                                            "value": "20171207_001_ANTH1683_Studentproject, GH4"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "mc-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171207_001_ANTH1683_Studentproject_MC",
+                                    "ref": "r6",
+                                    "duration": "62717655/24000s",
+                                    "start": "780209430/24000s"
+                                },
+                                "mc-source": [
+                                    {
+                                        "_attr": {
+                                            "angleID": "0000C300a",
+                                            "srcEnable": "all"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "ref-clip": [
+                            {
+                                "_attr": {
+                                    "name": "20171207_001_ANTH1683_Studentproject_MC_CC",
+                                    "ref": "r7",
+                                    "duration": "62717655/24000s",
+                                    "start": "780209430/24000s"
+                                }
+                            }
+                        ],
+                        "project": [
+                            {
+                                "_attr": {
+                                    "name": "20171207_001_ANTH1683_Studentproject_MC_CC_Ex",
+                                    "uid": "F7BF79B8-ABDD-4B88-BCBF-CCFF943BC9A4"
+                                },
+                                "sequence": [
+                                    {
+                                        "_attr": {
+                                            "duration": "62717655/24000s",
+                                            "format": "r1",
+                                            "tcStart": "0s",
+                                            "tcFormat": "NDF",
+                                            "audioLayout": "stereo",
+                                            "audioRate": "48k"
+                                        },
+                                        "spine": [
+                                            {
+                                                "ref-clip": [
+                                                    {
+                                                        "_attr": {
+                                                            "name": "20171207_001_ANTH1683_Studentproject_MC_CC",
+                                                            "offset": "0s",
+                                                            "ref": "r7",
+                                                            "duration": "62717655/24000s",
+                                                            "start": "780209430/24000s"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "keyword-collection": [
+                            {
+                                "_attr": {
+                                    "name": "20171207_001_ANTH1683_Studentproject"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300a"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "first 24 frames"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300b"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "C300c"
+                                }
+                            },
+                            {
+                                "_attr": {
+                                    "name": "GH4"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
