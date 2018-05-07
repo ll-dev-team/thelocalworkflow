@@ -257,9 +257,13 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
       console.log("done");
 
       data.fcpxml.library.push(theEventObject);
+      console.log(JSON.stringify(data, null, 4));
       var newXml = xml(data, true);
       var io2sInsertPath = path.join (jsonFolderPath, "io2sInsert_test.fcpxml")
       fs.writeFileSync(io2sInsertPath, newXml);
+      var newJsonPath = path.join (jsonFolderPath, "newJson.json")
+      fs.writeFileSync(newJsonPath, JSON.stringify(data, null, 4));
+
 
       //Writing makeIo2sXml function to call here
       // makeIo2sXml(theEventObject, data, io2sInsertPath);
