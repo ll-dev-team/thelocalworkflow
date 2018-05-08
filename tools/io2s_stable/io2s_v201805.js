@@ -179,29 +179,24 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
                                 duration:fcpxmlFormat(duration),
                                 start:fcpxmlFormat(inTcFcpxml)
                               },
-                            "mc-source":
-                                {_attr:{angleID: audioAngleID, srcEnable:"audio"}},
-                            "mc-source": {_attr:{angleID: camera, srcEnable:"video"}}
-                };
-            // var thisClipXML2 = {"mc-clip":
-            //     [
-            //       {_attr:
-            //         {name: thisFile, offset:fcpxmlFormat(offset), ref:theR, duration:fcpxmlFormat(duration), start:fcpxmlFormat(inTcFcpxml)}
-            //       },
-            //       {"mc-source":
-            //         {_attr:{angleID: audioAngleID, srcEnable:"audio"}}
-            //       },
-            //       {"mc-source": {_attr:{angleID: camera, srcEnable:"video"}}
-            //       }
-            //     ]
-            //   };
+                            "mc-source":[
+                                {_attr:{
+                                  angleID: audioAngleID,
+                                  srcEnable:"audio"}
+                                },
+                                {_attr:{
+                                  angleID: camera,
+                                  srcEnable:"video"}
+                                }
+                              ]
+                            };
 
         }
         else if (!shootIdRe.test(segment.shootId)) {
           var duration = 72072;
           console.log(index);
           console.log("tried negative test and this isn't a match " + segment.shootId);
-          var thisClipXML = {"gap":
+          var thisClipXML = {"gap": //do something here?
               [
                 {_attr:
                   {name: "Gap", offset:fcpxmlFormat(offset), duration:fcpxmlFormat(duration), start:"86400314/24000s"}
@@ -209,14 +204,7 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
 
               ]
             };
-          // var thisClipXML2 = {"gap":
-          //     [
-          //       {_attr:
-          //         {name: "Gap", offset:fcpxmlFormat(offset), duration:fcpxmlFormat(duration), start:"86400314/24000s"}
-          //       }
-          //
-          //     ]
-          //   };
+
         }
 
         theSegmentClips.push(thisClipXML);
@@ -243,7 +231,7 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
                                   ]
                                 };
 
-          var theXml = builder.buildObject(theEventObject);
+          var theXml = builder.buildObject(theEventObject); //need to change header on this object for building v. pushing
                 var newIoProject = new ioRequest({fcpxml: theXml, submissionTs: postTs});
                 newIoProject.save((err)=> {
                   // console.log("saved result:\n" + JSON.stringify(newIoProject, null, 5));
