@@ -1,11 +1,9 @@
-// const parseXml = require('xml2js').parseString;
 const fs = require('fs');
 const xml = require('xml');
 const xml2js = require('xml2js');
 const ioRequest = require('../../models/io2s');
 const Fcpxml = require('../../models/fcpxml');
 const path = require('path');
-// const parseXmlString = require('xml2js').parseString;
 const parser = new xml2js.Parser({attrkey: "_attr"});
 const builder = new xml2js.Builder({attrkey: "_attr"});
 var mongoose = require('mongoose');
@@ -23,7 +21,6 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
     var jsonFolderPath = path.dirname(pathForXml);
     var wholeJsonPath = path.join (jsonFolderPath, "wholeJsonRef.json")
     fs.writeFileSync(wholeJsonPath, (JSON.stringify(data, null, 4)))
-    // fs.writeFileSync(wholeJsonPath, (JSON.stringify(data.fcpxml, null, 4))) -- test file for checking out full json for fcpxml
     theMulticlips = [];
     // loop through all segments to find all MCs referened and push to theMulticlips
     segmentArray.forEach((segment)=>{
@@ -172,6 +169,7 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
           // console.log("camera is " + camera);
           var duration = (outTcFcpxml - inTcFcpxml)+1001;
           // console.log("duration is " + duration);
+          //reformatted clipXML objects for use with builder
           var thisClipXML = {_attr:{
                                 name: thisFile,
                                 offset:fcpxmlFormat(offset),
@@ -196,7 +194,7 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
           var duration = 72072;
           console.log(index);
           console.log("tried negative test and this isn't a match " + segment.shootId);
-          var thisClipXML = {"gap": //do something here?
+          var thisClipXML = {"gap": //do something here? not formatted properly for builder
               [
                 {_attr:
                   {name: "Gap", offset:fcpxmlFormat(offset), duration:fcpxmlFormat(duration), start:"86400314/24000s"}
@@ -215,6 +213,7 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
           var segmentDuration = tc_from_frames((offset/1001)).tc_string;
           console.log("the segment is " + segmentDuration + " long.");
           var postTs = new Date().getTime();
+          //ditto here: reformatted for use with builder
           var theEventObject = {_attr:
                                   {name: "Projects"},
                                 project:[
@@ -231,7 +230,19 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
                                   ]
                                 };
 
-          var theXml = builder.buildObject(theEventObject); //need to change header on this object for building v. pushing
+          //now pushing the theEventObject back into the original xml data and rebuilding the xml
+          data.fcpxml.library[0].event.push(theEventObject);
+          console.log(JSON.stringify(data, null, 4));
+          var newXml = builder.buildObject(data);
+          var io2sInsertPath = path.join (jsonFolderPath, "yourNewio2sXml.fcpxml") //use a better naming convention here
+          fs.writeFileSync(io2sInsertPath, newXml);
+          var newJsonPath = path.join (jsonFolderPath, "io2sXmlJson.json") //also here
+          fs.writeFileSync(newJsonPath, JSON.stringify(data, null, 4));
+
+          //build just the event xml because why not?
+          //note: builder requires that there be only one "event" key per library array in the json to build the xml (with each event as on object in the event arrary), so I'm now building theEventObject without event so I can push it into the respective event arrays
+          var eventXmlObject = {event:theEventObject};
+          var theXml = builder.buildObject(eventXmlObject);
                 var newIoProject = new ioRequest({fcpxml: theXml, submissionTs: postTs});
                 newIoProject.save((err)=> {
                   // console.log("saved result:\n" + JSON.stringify(newIoProject, null, 5));
@@ -241,13 +252,7 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
       fs.writeFileSync(pathForXml, theXml);
       console.log("done");
 
-      data.fcpxml.library[0].event.push(theEventObject);
-      console.log(JSON.stringify(data, null, 4));
-      var newXml = builder.buildObject(data, true);
-      var io2sInsertPath = path.join (jsonFolderPath, "io2sInsert_test.fcpxml")
-      fs.writeFileSync(io2sInsertPath, newXml);
-      var newJsonPath = path.join (jsonFolderPath, "newJson.json")
-      fs.writeFileSync(newJsonPath, JSON.stringify(data, null, 4));
+
 
 
   });
