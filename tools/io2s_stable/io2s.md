@@ -27,7 +27,9 @@ Note: Capitalization matters; column headers must be exactly this for the script
 
 Next, populate your new sheet with the timecode and angle info and the correct, complete Shoot ID. Even if all segments are from the same shoot, each row must include the shoot ID.
 
-Download your spreadsheet data as a csv file. In google sheets, File>Download As>csv. Open your csv file in a text editor and select all and copy and paste into this converter: [CSV to JSON](https://www.csvjson.com/csv2json) Run the converter; then copy and paste the resulting JSON into a new file in Atom. Save this file using the extension **.json**
+Download your spreadsheet data as a csv file. In google sheets, File>Download As>csv. Open your csv file in a text editor and select all and copy and paste into this converter: [CSV to JSON](https://www.csvjson.com/csv2json)
+
+Run the converter; then copy and paste the resulting JSON into a new file in Atom. Save this file using the extension **.json**
 
 Note: io2s will write the files it generates into the same directory where you save this .json file, so make sure you can find this again!
 
