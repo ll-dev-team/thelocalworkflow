@@ -22,7 +22,7 @@ The io2s script requires two inputs. First, is the json file with the timecode a
 
 ![io2s Headers](https://github.com/learninglab-dev/thelocalworkflow/blob/stable_io2s/images/io2s_sheet.png)
 
-Note: Capitalization matters; column headers must be exactly this for the script to work.
+**Note:** Capitalization matters; column headers must be exactly this for the script to work.
 
 Next, populate your new sheet with the timecode and angle info and the correct, complete Shoot ID. Even if all segments are from the same shoot, each row must include the shoot ID.
 
@@ -30,12 +30,12 @@ Download your spreadsheet data as a csv file. In google sheets, File>Download As
 
 Run the converter; then copy and paste the resulting JSON into a new file in Atom. Save this file using the extension **.json**
 
-Note: io2s will write the files it generates into the same directory where you save this .json file, so make sure you can find this again!
+**Note:** io2s will write the files it generates into the same directory where you save this .json file, so make sure you can find this again!
 
 ## Step 3: Export the XML
 
 ## Step 4: Run the script
-Alright, now that you have the inputs, let's run this thing! Open Terminal and navigate to whatever folder you have script saved in. Then enter this:
+Alright, now that you have the inputs, let's run this thing! Open Terminal and navigate to the directory containing thelocalworkflow. Then run this command:
 ```
 node thelocalworkflow --io2s --xml [path to your xml] --json [path to your json] --title [your title]
 ```
