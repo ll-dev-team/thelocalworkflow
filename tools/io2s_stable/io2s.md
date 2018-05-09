@@ -7,9 +7,11 @@ If you're working on one of our computers that's already running thelocalworkflo
   ```
   git checkout stable_io2s
   ```
+
     If you see, "Switched to branch 'stable_io2s'" you're good to go!
 
   If you're on a computer that isn't already running the localworkflow...
+  
     1. Open Terminal and navigate to the folder where you keep your scripts. (Possibly also using `cd development`.)
     2. Now, use the following command to install the **stable_io2s** branch of thelocalworkflow on your computer:
 ```
