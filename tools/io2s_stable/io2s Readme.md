@@ -32,7 +32,8 @@ Run the converter; then copy and paste the resulting JSON into a new file in Ato
 
 **Note:** io2s will write the files it generates into the same directory where you save this .json file, so make sure you can find this again!
 
-## Step 3: Export the XML
+## Step 3: Grab the XML
+This is an easy one! Find the relevant shoot XML and save a local copy of it (in the same folder where you saved the json makes it easy to find).
 
 ## Step 4: Run the script
 Alright, now that you have the inputs, let's run this thing! Open Terminal and navigate to the directory containing thelocalworkflow. Then run this command:
@@ -41,5 +42,5 @@ node thelocalworkflow --io2s --xml [path to your xml] --json [path to your json]
 ```
 For the paths, you can drag the files in from a Finder window. For the title, what you input here will appear as the project name in FCPX. Avoid spaces or special characters. You can always change this later in FCPX.
 
-## Step 5: Open your XML and Verify that it Relinks
-This should be the easy part. :) Open the new XML
+## Step 5: Open your XML and Relink Files
+Open the io2s generated XML and relink files as usual. [For now the file name is yourNewIo2sXml.fcpxml, but we'll come up with something better.] Export and enjoy your handiwork!

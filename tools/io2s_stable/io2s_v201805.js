@@ -13,8 +13,8 @@ var mongoose = require('mongoose');
 function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
   var offset = 0;
   console.log("\n\n\n\n\n\n\n++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n\n\n\n\n\n\n\n\nstarting the io2s function");
-  var theSegmentClips = [];
-  var theSpineArray = [{"mc-clip": theSegmentClips}];
+  var theIoClips = [];
+  var theSpineArray = [{"mc-clip": theIoClips}];
   var xmlData = fs.readFileSync(sourceFcpxmlPath, "utf-8");
   // console.log(xmlData);
   parser.parseString(xmlData, (err, data)=>{
@@ -205,7 +205,7 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
 
         }
 
-        theSegmentClips.push(thisClipXML);
+        theIoClips.push(thisClipXML);
 
         offset = offset + duration;
       });
@@ -234,12 +234,12 @@ function io2s(segmentArray, sourceFcpxmlPath, pathForXml, pathForJson, title){
           data.fcpxml.library[0].event.push(theEventObject);
           console.log(JSON.stringify(data, null, 4));
           var newXml = builder.buildObject(data);
-          var io2sInsertPath = path.join (jsonFolderPath, "yourNewio2sXml.fcpxml") //use a better naming convention here
+          var io2sInsertPath = path.join (jsonFolderPath, "yourNewIo2sXml.fcpxml") //use a better naming convention here
           fs.writeFileSync(io2sInsertPath, newXml);
           var newJsonPath = path.join (jsonFolderPath, "io2sXmlJson.json") //also here
           fs.writeFileSync(newJsonPath, JSON.stringify(data, null, 4));
 
-          //build just the event xml because why not?
+          //build just the event xml
           //note: builder requires that there be only one "event" key per library array in the json to build the xml (with each event as on object in the event arrary), so I'm now building theEventObject without event so I can push it into the respective event arrays
           var eventXmlObject = {event:theEventObject};
           var theXml = builder.buildObject(eventXmlObject);
