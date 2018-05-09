@@ -20,7 +20,7 @@ git clone -b stable_io2s https://github.com/learninglab-dev/thelocalworkflow.git
 ## Step 2: Make the JSON
 The io2s script requires two inputs. First, is the json file with the timecode and camera angle information for the segment. You'll have received a spreadsheet of some sort from the students with this information. In order to create properly formatted json from it, start a new sheet with a header row that looks like this:
 
-![image](https://drive.google.com/file/d/1TiuDVTXMMAJsTyRXughlSkdcDfywerkH/view?usp=sharing)
+![io2s Headers](https://github.com/learninglab-dev/thelocalworkflow/blob/stable_io2s/images/io2s_sheet.png)
 
 Note: Capitalization matters; column headers must be exactly this for the script to work.
 
