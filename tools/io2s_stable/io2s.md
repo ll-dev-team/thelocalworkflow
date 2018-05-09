@@ -8,8 +8,6 @@ If you're working on one of our computers that's already running thelocalworkflo
   git checkout stable_io2s
   ```
 
-If you see, "Switched to branch 'stable_io2s'" you're good to go!
-
 If you're on a computer that isn't already running the localworkflow...  
 1. Open Terminal and navigate to the folder where you keep your scripts. (Possibly also using `cd development`.)
 2. Now, use the following command to install the **stable_io2s** branch of thelocalworkflow on your computer:
@@ -18,8 +16,9 @@ git clone -b stable_io2s https://github.com/learninglab-dev/thelocalworkflow.git
 ```
 3. You'll also need to install dependencies: `npm install --save` if you didn't already have thelocalworkflow up and running.
 
+
 ## Step 2: Make the JSON
-The io2s script requires two inputs. First, is the json file with the timecode and camera angle information for the segments. You'll have received a spreadsheet of some sort from the students with this information. In order to create properly formatted json from it, start a new sheet with a header row that looks like this:
+The io2s script requires two inputs. First, is the json file with the timecode and camera angle information for the segment. You'll have received a spreadsheet of some sort from the students with this information. In order to create properly formatted json from it, start a new sheet with a header row that looks like this:
 
 ![image][io2s sheet]
 [io2s sheet]:
@@ -28,7 +27,9 @@ Note: Capitalization matters; column headers must be exactly this for the script
 
 Next, populate your new sheet with the timecode and angle info and the correct, complete Shoot ID. Even if all segments are from the same shoot, each row must include the shoot ID.
 
-Now download your spreadsheet data as a .csv file. In google sheets, File>Download As. Open your .csv file in a text editor and copy the all the text and paste it into this converter: [link](www.)
+Download your spreadsheet data as a csv file. In google sheets, File>Download As>csv. Open your csv file in a text editor and select all and copy and paste into this converter: [link](https://www.csvjson.com/csv2json.) Run the converter; then copy and paste the resulting JSON into a new file in Atom. Save this file using the extension **.json**
+
+Note: io2s will write the files it generates into the same directory where you save this .json file, so make sure you can find this again!
 
 ## Step 3: Export the XML
 
