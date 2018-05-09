@@ -1,14 +1,21 @@
 # Guide for io2s
 
 ## Step 1: Install the Script
-If thelaurenworkflow is already installed on your machine, skip to Step 2.
-If not, start by cloning this repo -- specifically thelaurenworkflow branch -- into the directory where you keep your scripts. Run the following command in Terminal:
-```
-git clone -b thelaurenworkflow https://github.com/learninglab-dev/thelocalworkflow.git
-```
-Next, in terminal, navigate to the folder where you just put that repo by
+If you're working on one of our computers that's already running thelocalworkflow...
+  1. Open Terminal and navigate to thelocalworkflow. (Usually the commands `cd development` then `cd thelocalworkflow` will get you there.)
+  2. Now, you'll want to see what branch of thelocalworkflow you're running using `git status`. Odds are you'll see "On branch master". If this is the case or if you're on any branch other than **stable_io2s**, you'll need to checkout the stable_io2s branch:
+  ```
+  git checkout stable_io2s
+  ```
+    If you see, "Switched to branch 'stable_io2s'" you're good to go!
 
-Then install your dependencies: `npm install --save`
+  If you're on a computer that isn't already running the localworkflow...
+    1. Open Terminal and navigate to the folder where you keep your scripts. (Possibly also using `cd development`.)
+    2. Now, use the following command to install the **stable_io2s** branch of thelocalworkflow on your computer:
+```
+git clone -b stable_io2s https://github.com/learninglab-dev/thelocalworkflow.git
+```
+    3. You'll also need to install dependencies: `npm install --save` if you didn't already have thelocalworkflow up and running.
 
 ## Step 2: Make the JSON
 The io2s script requires two inputs. First, is the json file with the timecode and camera angle information for the segments. You'll have received a spreadsheet of some sort from the students with this information. In order to create properly formatted json from it, start a new sheet with a header row that looks like this:
@@ -31,8 +38,5 @@ node thelocalworkflow --io2s --xml [path to your xml] --json [path to your json]
 ```
 For the paths, you can drag the files in from a Finder window. For the title, what you input here will appear as the project name in FCPX. Avoid spaces or special characters. You can always change this later in FCPX.
 
-## Step 5: Insert io2s Event in XML
-
-[I'm hoping this step will soon not be required... working on a script that constructs the xml for you.]
-
-Finally, in Atom open both the xml you exported in Step 3 and the new xml created by io2s. Copy the entire contents of the new xml -- It should begin with an **<event>** tag and end with a **</event>** tag. Paste this event into the xml export. It goes in toward the bottom, between the last **</event>** and the **</library>**. Save this xml, and then open with FCPX to verify that it relinks and export the video.
+## Step 5: Open your XML and Verify that it Relinks
+This should be the easy part. :) Open the new XML
