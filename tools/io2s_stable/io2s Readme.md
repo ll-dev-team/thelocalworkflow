@@ -43,4 +43,4 @@ node thelocalworkflow --io2s --xml [path to your xml] --json [path to your json]
 For the paths, you can drag the files in from a Finder window. For the title, what you input here will appear as the project name in FCPX. Avoid spaces or special characters. You can always change this later in FCPX.
 
 ## Step 5: Open your XML and Relink Files
-Open the io2s generated XML and relink files as usual. [For now the file name is yourNewIo2sXml.fcpxml, but we'll come up with something better.] Export and enjoy your handiwork!
+Open the io2s generated XML in a new library and relink files as usual. [For now the file name is yourNewIo2sXml.fcpxml, but we'll come up with something better.] Export and enjoy your handiwork!
