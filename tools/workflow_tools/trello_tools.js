@@ -19,7 +19,7 @@ function getLists(board){
 function getMembers(){
   var options = {
     method: 'GET',
-    url: 'https://api.trello.com/1/organizations/testteam44908619/members',
+    url: 'https://api.trello.com/1/organizations/' + process.env.TRELLO_TEAM_1 + '/members',
     qs: {key: process.env.TRELLO_API_KEY_1,
     token: process.env.TRELLO_TOKEN_1}
   };
@@ -40,7 +40,7 @@ function postTest(message){
     pos: 'top',
     due: '2018-07-07',
     idList: process.env.SLACK_TRELLO_LIST,
-    idMembers: '5b3d2a075c2659b84a66ce4b',
+    idMembers: process.env.TRELLO_MK_USER_ID,
     // idLabels: 'shouldBeLabels',
     urlSource: 'https://codelab.learninglab.xyz',
     keepFromSource: 'all' };
