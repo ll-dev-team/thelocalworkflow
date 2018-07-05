@@ -363,25 +363,15 @@ function threeCamCc(shootObject, ccR, theResMc){
       {"mc-source": [{_attr:{angleID: ("0000"+anglesToAdd[2]), srcEnable:"video"}}, {"filter-video": {_attr:{ref: shootObject.fcpxml.motionEffectC.effect._attr.id, name:"2.5-cam-C-2018"}}}]}
       ]});
     }
-  
 
-  // console.log("number of elements in theResMc.media = " + theResMc.media[1].multicam.length);
   for (var i = 0; i < theResMc.media[1].multicam.length; i++) {
     if (theResMc.media[1].multicam[i]["mc-angle"] === undefined) {
-      // console.log("step " + i);
-      // console.log("it was undefined");
     }
     else {
-
       // console.log(theResMc.media[1].multicam[i]["mc-angle"]);
     }
   }
 
-  // console.log("number of angles = " + shootObject.cameraArray.length);
-  // for (var i = 0; i < shootObject.cameraArray.length; i++) {
-  //   array[i]
-  // }
-  // console.log(xml(theResCcXml, true));
   return theResCcXml;
 };
 
@@ -403,36 +393,6 @@ function makeProject(shootObject, ccR){
     };
   return projectXml;
 }
-
-// function makeStillsProject(shootObject){
-//   // calculate stillsProjectDuration
-//   //
-//   var stillsProjectDuration = 0;
-//   var insertionPointStills = 0;
-//   var xmlAssetClipList = [];
-//   shootObject.clipArray.forEach(function(clip) {
-//     console.log(clip.newBasename);
-//   })
-//   // define the projectXml for <project> <sequence> <spine>
-//   var projectXml =
-//     {project:
-//       [
-//         {_attr:{name:(shootObject.shootId + "_Stills"), modDate:dateFormat(now, "yyyy-mm-dd HH:MM:ss o")}},
-//         {sequence:[
-//           // change duration to real duration
-//           {_attr:{duration: (stillsProjectDuration +"/24000s"), format:"r1", renderColorSpace: "Rec. 709", tcStart: "0s", tcFormat: "NDF", audioLayout:"stereo"}},
-//           // took out , audioRate:"48000" --- add back later?
-//           {spine:[
-//             {"asset-clip":
-//               {_attr:{name: (shootObject.shootId + "_MC_CC"), offset:"0s", ref:("r"), duration:(shootObject.mcDuration +"/24000s"), start:(shootObject.mcStartTs+"/24000s")}},
-//             }
-//           ]}
-//         ]}
-//       ]
-//     };
-//
-//   return projectXml;
-// }
 
 module.exports.makeFcpxml = makeFcpxml;
 module.exports.makeFormats = makeFormats;

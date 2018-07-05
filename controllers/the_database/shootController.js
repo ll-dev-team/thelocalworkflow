@@ -6,10 +6,22 @@ const parseXmlString = require('xml2js').parseString;
 
 exports.shoot_list = function(req, res, next) {
     Shoot.find({})
+      .select('shootId _id theResult.shootPath')
+      .sort('shootId')
+      .limit(10)
       .exec(function (err, list_shoots) {
         if (err) { return next(err); }
-        // console.log(JSON.stringify(list_shoots, null, 4));
-        res.render('database/shoot_list', { title: 'Shoot List', tabTitle: "Shoot List", shoot_list: list_shoots });
+        console.log(JSON.stringify(list_shoots, null, 4));
+        res.render('database/shoot_list', { title: 'Shoot List', tabTitle: "Shoot List",
+        shoot_list: list_shoots
+        // shoot_list: [
+        //     {
+        //       _id: "a",
+        //       shootId: "20180702_001_Test_Id"
+        //     },
+        //   ]
+        }
+      );
       });
 }
 
@@ -31,9 +43,14 @@ exports.shoot_detail = function(req, res, next) {
                 err.status = 404;
                 return next(err);
             }
-            res.render('database/shoot_detail', { title: 'Shoot Detail', tabTitle: 'Shoot Detail', theShoot: results.shoot, prettyFcpxml: (pd.xml(results.shoot.fcpxml))})
-            } );
-        }
+            if (results.shoot.fcpxml) {
+              res.render('database/shoot_detail', { title: 'Shoot Detail', tabTitle: 'Shoot Detail', theShoot: results.shoot, prettyFcpxml: (pd.xml(results.shoot.fcpxml))})
+            }
+            else {
+              res.render('database/shoot_detail', { title: 'Shoot Detail', tabTitle: 'Shoot Detail', theShoot: results.shoot, prettyFcpxml: "no .fcpxml file for this shoot.\nNeed to get the data structure sorted!"})
+            }
+        })
+    }
 
 exports.shoot_create_get = function(req, res) {
     res.render('database/shoot_create', { title: 'Create Shoot', tabTitle: "Create Shoot", errors: null});

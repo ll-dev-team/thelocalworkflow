@@ -1,7 +1,10 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
-var ShootSchema = new Schema({
+
+// TODO: needs to be written
+
+var VideoSchema = new Schema({
     shootId : String,
     shootIdRoot : String,
     fcpxmlAsObject : {},
@@ -10,8 +13,8 @@ var ShootSchema = new Schema({
     fcpxml : String,
 }, {strict: false});
 
-ShootSchema
-  .virtual('url')
+VideoSchema
+  .virtual('prettyName')
   .get(function () {
     return '/database/shoot/' + this._id;
 });

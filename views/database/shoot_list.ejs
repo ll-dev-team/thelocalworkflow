@@ -16,7 +16,12 @@
             <a href=
               <%= ("/database/shoot/" + shoot_list[i]._id) %>
               >
-              <%= shoot_list[i].shootId %>
+          <% if (shoot_list[i].shootId) {%>
+              link to <%= shoot_list[i].shootId %>
+
+            <% } else {%>
+              link to <%= shoot_list[i]._id %>
+            <% } %>
             </a>
           </li>
         <% } %>

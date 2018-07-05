@@ -2,7 +2,6 @@ var args = require('minimist')(process.argv.slice(2));
 const fs = require('fs');
 const shootprocessor = require("./tools/workflow_tools/shootprocessor");
 const fcpxml = require("./tools/workflow_tools/fcpxml");
-const compressor = require("./tools/workflow_tools/compressor");
 const m2s = require("./tools/workflow_tools/m2s").markersToStills;
 const m2sf = require("./tools/workflow_tools/m2s").fcpxmlFileToStills;
 const MongoClient = require("mongodb").MongoClient, assert = require('assert');
@@ -13,6 +12,7 @@ const gifMachine = require("./tools/workflow_tools/gif_machine");
 const io2s = require("./tools/scripts/io2s").io2s;
 const popFcpxml = require("./tools/scripts/populate_fcpxml");
 const ffprobetools = require("./tools/workflow_tools/ffprobetools");
+const trelloTools = require("./tools/workflow_tools/trello_tools");
 // var reHidden = /^\./;
 var theDate = new Date;
 require('dotenv').config();
@@ -35,14 +35,13 @@ function printHelp() {
   console.log("--rename          rename files in {FOLDER} and generate fcpxml");
   console.log("--simplerename    rename files in {FOLDER}");
   console.log("--transcode       transcode files in {FOLDER} with ffmpeg");
-  console.log("--compress        transcode files in {FOLDER} with compressor");
+  console.log("--trello          send {MESSAGE} to Trello");
 }
 
 if (args.help ||
     !(args.m2s
       || args.rename
       || args.simplerename
-      || args.compress
       || args.m2sf
       || args.shootdata
       || args.transcode
@@ -53,7 +52,8 @@ if (args.help ||
       || args.makeGifFromPngs
       || args.folderToGifs
       || args.io2gif
-      || args.test)
+      || args.test
+      || args.trello)
   ) {
         printHelp();
         process.exit(1);
@@ -63,6 +63,20 @@ if (args.test) {
   var options = ['-v', 'error', '-print_format', 'json', '-select_streams', 'v:0', '-show_entries', 'stream=width,height'];
   var output = JSON.parse(ffprobetools.ffprobeSyncSimple(args.test, options));
   console.log(output.streams[0].width + " is the width");
+}
+
+if (args.trello) {
+  console.log("trello tests underway.");
+  if (args.lists) {
+    trelloTools.getLists(process.env.TRELLO_SLACK_BOARD)
+  }
+  if (args.post) {
+    console.log("trying post test with message " + args.post);
+    trelloTools.postTest(args.post);
+  }
+  if (args.members) {
+    trelloTools.getMembers();
+  }
 }
 
 if (args.io2s) {
@@ -93,11 +107,6 @@ if (args.m2sf){
   var thePayload = 'payload={"channel": "#ll-tests", "username": "theworkflow-bot", "text": "<@marlon>: new stills have been exported: ' + theMessage + ' ", "icon_emoji": ":camera:"}'
   cp.spawnSync("curl", ['-X', 'POST', '--data-urlencode', thePayload, process.env.SLACK_WEBHOOK_URL]);
   console.log("done");
-}
-
-if (args.compress) {
-  console.log("\n\n\n\n\n\n\ntesting compressIt\n\n\n");
-  compressor.compressIt(args.compress);
 }
 
 if (args.rename) {
