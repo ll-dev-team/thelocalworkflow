@@ -13,6 +13,7 @@ const io2s = require("./tools/scripts/io2s").io2s;
 const popFcpxml = require("./tools/scripts/populate_fcpxml");
 const ffprobetools = require("./tools/workflow_tools/ffprobetools");
 const trelloTools = require("./tools/workflow_tools/trello_tools");
+const timecodeTools = require("./tools/workflow_tools/timecode_tools");
 // var reHidden = /^\./;
 var theDate = new Date;
 require('dotenv').config();
@@ -53,7 +54,8 @@ if (args.help ||
       || args.folderToGifs
       || args.io2gif
       || args.test
-      || args.trello)
+      || args.trello
+      || args.logtimecode)
   ) {
         printHelp();
         process.exit(1);
@@ -64,6 +66,12 @@ if (args.test) {
   var output = JSON.parse(ffprobetools.ffprobeSyncSimple(args.test, options));
   console.log(output.streams[0].width + " is the width");
 }
+
+if (args.logtimecode) {
+  console.log("starting timecode logger on " + args.logtimecode);
+  var result = timecodeTools.logTimecode(args.logtimecode);
+}
+
 
 if (args.trello) {
   console.log("trello tests underway.");
@@ -76,6 +84,11 @@ if (args.trello) {
   }
   if (args.members) {
     trelloTools.getMembers();
+  }
+  if (args.testcard) {
+    var options = {pos: "bottom", due:"2018-07-09"};
+    var element = new trelloTools.TrelloCard("Card constructor test", options);
+    console.log(JSON.stringify(element, null, 4));
   }
 }
 

@@ -1,5 +1,17 @@
 var request = require("request");
+var moment = require("moment");
 
+function TrelloCard(title, options){
+  // Define as many attributes as have been passed in.
+  // Default to placeholders or env variables.
+  this.name = title;
+  this.desc = options.desc ? options.desc : "no description";
+  this.pos = options.pos ? options.pos : "top";
+  this.due = options.due ? options.due : moment().endOf('day').fromNow().format("YYYY-MM-DD");
+  this.members = options.members ? options.members : process.env.TRELLO_DEFAULT_MEMBER;
+  this.key = options.key ? options.key : process.env.TRELLO_API_KEY_1;
+  this.token = options.token ? options.token : process.env.TRELLO_TOKEN_1;
+};
 
 function getLists(board){
   var options = { method: 'GET',
@@ -36,7 +48,7 @@ function postTest(message){
     key: process.env.TRELLO_API_KEY_1,
     token: process.env.TRELLO_TOKEN_1,
     name: 'A sample card',
-    desc: 'This card could have come from slack.  If I put a URL what happens? https://www.apple.com \nthat\'s a new line. \n' + message,
+    desc: 'sample description',
     pos: 'top',
     due: '2018-07-07',
     idList: process.env.SLACK_TRELLO_LIST,
@@ -61,6 +73,7 @@ function postToList(element, list){
 module.exports.postTest = postTest;
 module.exports.getLists = getLists;
 module.exports.getMembers = getMembers;
+module.exports.TrelloCard = TrelloCard;
 
 
 // TODO: use this ultimately
