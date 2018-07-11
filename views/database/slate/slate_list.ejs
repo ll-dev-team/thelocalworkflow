@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+  <html lang="en-US">
+  <head>
+    <% include ../../partials/head %>
+  </head>
+  <body>
+    <% include ../../partials/header.ejs %>
+    <div class="container">
+      <h1><%= title %></h1>
+      <p>
+        Welcome to <%= title %>
+      </p>
+      <p>
+        here are the slates currently in the database.
+      </p>
+      <ul>
+        <% for (i=0; i<slate_list.length; i++ ){ %>
+          <li>
+            <a href =
+              <%= ("/database/slate/" + slate_list[i]._id) %>
+            >
+              <%= (slate_list[i].clockTimeString) + " on the clock matches " + slate_list[i].cameraTcString + " on the camera." %>
+            </a>
+            <%= " (" + slate_list[i].description + ")" %>
+          </li>
+        <%  }  %>
+      </ul>
+    </div>
+    <% include ../../partials/foot %>

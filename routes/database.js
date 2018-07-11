@@ -7,6 +7,8 @@ var moment_controller = require('../controllers/the_database/momentController');
 var segment_controller = require('../controllers/the_database/segmentController');
 var database_controller = require('../controllers/the_database/databaseController');
 var Person = require('../models/person');
+var slate_controller = require('../controllers/the_database/slate_controller');
+
 
 router.get('/', database_controller.index);
 
@@ -83,5 +85,21 @@ router.post('/moment/:id/update', moment_controller.moment_update_post);
 router.get('/moment/:id', moment_controller.moment_detail);
 
 router.get('/moments', moment_controller.moment_list);
+
+router.get('/slate/create', slate_controller.slate_create_get);
+
+router.post('/slate/create', slate_controller.slate_create_post);
+
+router.get('/slate/:id/delete', slate_controller.slate_delete_get);
+
+router.post('/slate/:id/delete', slate_controller.slate_delete_post);
+
+router.get('/slate/:id/update', slate_controller.slate_update_get);
+
+router.post('/slate/:id/update', slate_controller.slate_update_post);
+
+router.get('/slate/:id', slate_controller.slate_detail);
+
+router.get('/slates', slate_controller.slate_list);
 
 module.exports = router;

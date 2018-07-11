@@ -6,26 +6,31 @@ var Schema = mongoose.Schema;
 
 var VideoSchema = new Schema({
     shootId : String,
-    shootIdRoot : String,
-    fcpxmlAsObject : {},
-    clips : [],
-    people: [],
-    fcpxml : String,
+    fileName: String,
+    paths: [String],
+    proxy: Boolean,
+    proxyLoc: String,
+    ffprobeOutput: String,
+    length: String,
+    inTc: String,
+    outTc: String,
+    inUnixTime: Number,
+    outUnixTime: Number,
 }, {strict: false});
 
 VideoSchema
-  .virtual('prettyName')
+  .virtual('url')
   .get(function () {
-    return '/database/shoot/' + this._id;
+    return '/database/video/' + this._id;
 });
 
 ShootSchema
   .virtual('deleteUrl')
   .get(function () {
-    return ('/database/shoot/' + this._id + '/delete');
+    return ('/database/video/' + this._id + '/delete');
 });
 
-module.exports = mongoose.model('shoot', ShootSchema );
+module.exports = mongoose.model('video', ShootSchema );
 
 
 // TODO: finalize the data structure for shoots.  Notes below

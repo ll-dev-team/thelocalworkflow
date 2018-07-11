@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+  <html lang="en-US">
+  <head>
+    <% include ../../partials/head.ejs %>
+  </head>
+  <body>
+    <% include ../../partials/header.ejs %>
+      <div class = "container">
+        <p>Welcome to <%= title %></p>
+        <p>
+          Let's update the slate then.
+        </p>
+        <form method="POST" action=
+          <%= (theSlate.url + '/update') %>
+          >
+            <div class="form-group">
+              <label> cameraTcUtc:
+              </label>
+              <input id="cameraTcUtc" class="form-control" type="text" name="cameraTcUtc" value=
+                <%- theSlate.cameraTcUtc %>
+               />
+              <label> cameraTime:
+              </label>
+              <input id="cameraTime" class="form-control" type="text" name="cameraTime" value=
+                <%- theSlate.cameraTime %>
+               />
+              <label> clockTime:
+              </label>
+              <input id="clockTime" class="form-control" type="text"  name="clockTime" value=
+                  <%- theSlate.clockTime %>
+               />
+              <label> clockTimeString:
+              </label>
+              <input id="clockTimeString" class="form-control" type="text" name="clockTimeString" value=
+                  <%- theSlate.clockTimeString %>
+               />
+               <label> cameraTcString:
+               </label>
+               <input id="cameraTcString" class="form-control" type="text" name="cameraTcString" value=
+                   <%- theSlate.cameraTcString %>
+                />
+                <label> description:
+                </label>
+                <input id="description" class="form-control" type="text" name="description" value=
+                    <%- theSlate.description %>
+                 />
+              <input type="hidden" name="dbId" value=<%- theSlate._id %>>
+              <button type="submit">Submit</button>
+            </div>
+          </form>
+      </div>
+      <% include ../../partials/errors.ejs  %>
+<% include ../../partials/foot.ejs %>

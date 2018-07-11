@@ -3,6 +3,7 @@ var Moment = require('../../models/moment');
 var Person = require('../../models/person');
 var Segment = require('../../models/segment');
 var Shoot = require('../../models/shoot');
+var Slate = require('../../models/slate');
 var async = require('async');
 
 
@@ -22,6 +23,9 @@ exports.index = function(req, res) {
        segment_count: function(callback) {
            Segment.count(callback);
        },
+       slate_count: function(callback) {
+           Slate.count(callback);
+       }
    }, function(err, results) {
         if (err) {
           console.log(err);

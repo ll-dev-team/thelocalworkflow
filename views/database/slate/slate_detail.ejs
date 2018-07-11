@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+  <html lang="en-US">
+  <head>
+    <% include ../../partials/head.ejs %>
+  </head>
+  <body>
+    <div class="container">
+      <% include ../../partials/header.ejs %>
+      <p>Welcome to <%= title %>. To delete, click <a href=<%- theSlate.url + '/delete' %>>here.</a> To update, click <a href=<%- (theSlate.url + '/update') %>>here.</a> To review the shoot details, look below.</p>
+      <h5>CLOCK TIME</h5>
+      <p>
+        <%= theSlate.clockTimeString %> or <%= theSlate.clockTime %>
+      </p>
+      <h5>CAMERA TIMECODE</h5>
+      <p>
+        <%= theSlate.cameraTcUtc %> or <%= theSlate.cameraTcString %>
+      </p>
+      <% if(theSlate.description){ %>
+        <h5>THE DESCRIPTION</h5>
+        <p>
+          <%= theSlate.description %>
+        </p>
+        <h5>OFFSET</h5>
+        <p>
+          Between <%= theSlate.cameraTcUtc %> and <%= theSlate.clockTime %> is <%= theSlate.offset %>, so the Slate is (XXX) long.
+        </p>
+      <% } %>
+    </div>
+<% include ../../partials/foot.ejs %>

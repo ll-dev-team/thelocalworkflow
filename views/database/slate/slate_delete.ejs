@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+  <html lang="en-US">
+  <head>
+    <% include ../../partials/head.ejs %>
+  </head>
+  <body>
+    <% include ../../partials/header.ejs %>
+    <div class="container">
+    <p>Welcome to <%= title %></p>
+    <p>
+    Be careful with this one.
+    </p>
+
+    <p class="json">
+      <%- JSON.stringify(theSlate, null, 4) %>
+    </p>
+    <p>
+      <%= theSlate._id %>
+    </p>
+    <p>
+      <%= theSlate.cameraTime %>
+    </p>
+    <p>
+      do you want to delete it?
+    </p>
+    <form method="POST" >
+      <form method="POST" action=
+      <%- ('/database/slate/' + theSlate._id + '/delete') %>
+
+      >
+      <div class="form-group">
+        <input type="hidden" name="dbId" value=<%- theSlate._id %>>
+        <button type="submit">yes</button>
+      </div>
+    </form>
+  </div>
+<% include ../../partials/foot.ejs %>

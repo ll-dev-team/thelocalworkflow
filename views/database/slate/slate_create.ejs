@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+  <html lang="en-US">
+  <head>
+    <% include ../../partials/head.ejs %>
+  </head>
+  <body>
+    <% include ../../partials/header.ejs %>
+    <div class="container">
+    <p>
+    Let's create a moment.
+    </p>
+    <h2><%= title %></h2>
+    <form method="POST" action="/database/slate/create">
+      <div class="form-group">
+        <label> Camera timecode (HH:MM:SS:FF):
+        </label>
+        <input id="cameraTcString" class="form-control" type="text" placeholder="HH:MM:SS:FF" name="cameraTcString" value="" />
+        <label> Clock time:
+        </label>
+        <input id="clockTimeString" class="form-control" type="text" placeholder="09:43:21" name="clockTimeString" value="" />
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+    <% include ../../partials/errors.ejs  %>
+    </div>
+<% include ../../partials/foot.ejs %>
