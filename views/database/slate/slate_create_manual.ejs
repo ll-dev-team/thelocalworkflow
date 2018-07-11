@@ -7,14 +7,17 @@
     <% include ../../partials/header.ejs %>
     <div class="container">
     <p>
-    Let's create a slate from a file.
+    Let's create a moment.
     </p>
     <h2><%= title %></h2>
-    <form method="POST" action="/database/slate/create">
+    <form method="POST" action="/database/slate/manual">
       <div class="form-group">
-        <label> Path:
+        <label> Camera timecode (HH:MM:SS:FF):
         </label>
-        <input id="filepath" class="form-control" type="text" placeholder="HH:MM:SS:FF" name="filepath" value="" />
+        <input id="cameraTcString" class="form-control" type="text" placeholder="HH:MM:SS:FF" name="cameraTcString" value="" />
+        <label> Clock time:
+        </label>
+        <input id="clockTimeString" class="form-control" type="text" placeholder="09:43:21" name="clockTimeString" value="" />
         <button type="submit">Submit</button>
       </div>
     </form>

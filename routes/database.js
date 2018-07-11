@@ -88,7 +88,11 @@ router.get('/moments', moment_controller.moment_list);
 
 router.get('/slate/create', slate_controller.slate_create_get);
 
+router.get('/slate/manual', slate_controller.slate_create_manual_get);
+
 router.post('/slate/create', slate_controller.slate_create_post);
+
+router.post('/slate/manual', slate_controller.slate_create_manual_post);
 
 router.get('/slate/:id/delete', slate_controller.slate_delete_get);
 

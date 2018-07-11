@@ -1,5 +1,6 @@
-var Slate = require('../../models/slate')
-var async = require('async')
+var Slate = require('../../models/slate');
+var async = require('async');
+const logTimecode = require('../../tools/workflow_tools/timecode_tools').logTimecode;
 
 exports.slate_list = function(req, res, next) {
   Slate.find()
@@ -16,6 +17,53 @@ exports.slate_create_get = function(req, res, next) {
 };
 
 exports.slate_create_post = function(req, res, next) {
+  console.log(JSON.stringify(req.body, null, 4));
+    req.checkBody('filepath', 'file path must be a valid path').notEmpty().isAscii();
+    req.sanitize('filepath').trim();
+    var errors = req.validationErrors();
+
+
+    // TODO: functions for handling file must go here.
+
+
+    // var slate = new Slate(
+    //   {
+    //     cameraTcUtc: 1234567,
+    //     cameraTime: 1234567,
+    //     clockTime: 1234567,
+    //     clockTimeString: req.body.clockTimeString,
+    //     cameraTcString: req.body.cameraTcString,
+    //     description: "temp---delete when in production"
+    //   });
+    // if (errors) {
+    //   // TODO: handle errors in view
+    //     res.render('database/slate/slate_create', { title: 'Create Slate',tabTitle: "Create Slate", errors: errors});
+    // return;
+    // }
+    // else {
+    // // Data from form is valid
+    //     slate.save(function (err) {
+    //         if (err) { return next(err); }
+    //            //successful - redirect to new author record.
+    //           //  res.redirect(slate.url);
+    //           res.redirect('/database/slates');
+    //         });
+    //
+    // }
+
+    logTimecode(req.body.filepath, (data)=>{
+      console.log(JSON.stringify(data, null, 4));
+      console.log("in slate controller; callback tested: " + data.result.text);
+      res.send("<h2>Got your data</h2><pre>"+data.result.text+"\n\n"+data.result.prettyFileCreationDate+"</pre><br/><br/><h2>and your full JSON</h2><pre>"+JSON.stringify(data, null, 4)+"</pre>")
+    })
+
+};
+
+exports.slate_create_manual_get = function(req, res, next) {
+    res.render('database/slate/slate_create_manual', { title: 'Create Slate Manually', tabTitle: "Create Slate Manually", errors: null});
+};
+
+exports.slate_create_manual_post = function(req, res, next) {
   console.log("made it into slateController and in the slate_create function");
   console.log(JSON.stringify(req.body, null, 4));
     req.checkBody('cameraTcString', 'Camera timecode must be entered').notEmpty(); //We won't force Alphanumeric, because people might have spaces.
@@ -40,7 +88,7 @@ exports.slate_create_post = function(req, res, next) {
       });
     if (errors) {
       // TODO: handle errors in view
-        res.render('database/slate/slate_create', { title: 'Create Slate',tabTitle: "Create Slate", errors: errors});
+        res.render('database/slate/slate_create_manual', { title: 'Create Slate Manually',tabTitle: "Create Slate Manually", errors: errors});
     return;
     }
     else {
