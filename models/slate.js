@@ -7,6 +7,7 @@ var SlateSchema = Schema(
     cameraTcUtc: {type: Number, required: true, max: 9531221617000},
     cameraTime: {type: Number, required: true, max: 9531221617000},
     clockTime: {type: Number, required: true, max: 9531221617000},
+    frames: Number,
     clockTimeString: {type: String, required: true, max: 40},
     cameraTcString: {type: String, required: true, max: 15},
     description: {type: String}
