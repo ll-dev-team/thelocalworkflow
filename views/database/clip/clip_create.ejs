@@ -1,23 +1,23 @@
 <!DOCTYPE html>
   <html lang="en-US">
   <head>
-    <% include ../../partials/head.ejs %>
+    <% include ../partials/head.ejs %>
   </head>
   <body>
-    <% include ../../partials/header.ejs %>
+    <% include ../partials/header.ejs %>
     <div class="container">
     <p>
-    Let's create a slate from a file.
+    Let's probe a file.
     </p>
     <h2><%= title %></h2>
-    <form method="POST" action="/database/slate/create">
+    <form method="POST" action="/tools/ffprobe">
       <div class="form-group">
-        <label> Path:
+        <label> Path to your file on the server:
         </label>
         <input id="filepath" class="form-control" type="text" placeholder="/path/to/your/videofile.mov" name="filepath" value="" />
         <button type="submit">Submit</button>
       </div>
     </form>
-    <% include ../../partials/errors.ejs  %>
+    <% include ../partials/errors.ejs  %>
     </div>
-<% include ../../partials/foot.ejs %>
+<% include ../partials/foot.ejs %>

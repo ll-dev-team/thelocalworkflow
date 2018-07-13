@@ -8,6 +8,7 @@ var segment_controller = require('../controllers/the_database/segmentController'
 var database_controller = require('../controllers/the_database/databaseController');
 var Person = require('../models/person');
 var slate_controller = require('../controllers/the_database/slate_controller');
+var clip_controller = require('../controllers/the_database/clip_controller');
 
 
 router.get('/', database_controller.index);
@@ -105,5 +106,25 @@ router.post('/slate/:id/update', slate_controller.slate_update_post);
 router.get('/slate/:id', slate_controller.slate_detail);
 
 router.get('/slates', slate_controller.slate_list);
+
+router.get('/clip/create', clip_controller.clip_create_get);
+
+router.get('/clip/manual', clip_controller.clip_create_manual_get);
+
+router.post('/clip/create', clip_controller.clip_create_post);
+
+router.post('/clip/manual', clip_controller.clip_create_manual_post);
+
+router.get('/clip/:id/delete', clip_controller.clip_delete_get);
+
+router.post('/clip/:id/delete', clip_controller.clip_delete_post);
+
+router.get('/clip/:id/update', clip_controller.clip_update_get);
+
+router.post('/clip/:id/update', clip_controller.clip_update_post);
+
+router.get('/clip/:ll_id', clip_controller.clip_detail_ll_id);
+
+router.get('/clips', clip_controller.clip_list);
 
 module.exports = router;

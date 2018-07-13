@@ -15,6 +15,7 @@ var database = require('./routes/database');
 var users = require('./routes/users');
 var slack = require('./routes/slack');
 var shoots = require('./routes/shoots');
+var tools = require('./routes/tools');
 var transcode = require('./routes/transcode');
 var theworkflow = require('./routes/theworkflow');
 var m2s = require('./routes/m2s');
@@ -53,6 +54,7 @@ app.use(expressValidator());
 
 app.use('/', index);
 app.use('/users', users);
+app.use('/tools', tools);
 app.use('/slack', slack);
 app.use('/theworkflow', theworkflow);
 app.use('/shoots', shoots);

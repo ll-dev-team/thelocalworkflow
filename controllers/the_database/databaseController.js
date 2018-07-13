@@ -4,12 +4,12 @@ var Person = require('../../models/person');
 var Segment = require('../../models/segment');
 var Shoot = require('../../models/shoot');
 var Slate = require('../../models/slate');
+var Clip = require('../../models/clip');
 var async = require('async');
 
 
 // Display list of all Authors
 exports.index = function(req, res) {
-  console.log("in the index route");
   async.parallel({
        moment_count: function(callback) {
            Moment.count(callback);
@@ -25,6 +25,9 @@ exports.index = function(req, res) {
        },
        slate_count: function(callback) {
            Slate.count(callback);
+       },
+       clip_count: function(callback) {
+           Clip.count(callback);
        }
    }, function(err, results) {
         if (err) {
@@ -33,8 +36,6 @@ exports.index = function(req, res) {
         JSON.stringify(results);
         res.render('database/overview', {title: "the Database", tabTitle: "theDatabase", data: results});
    });
-
-
 };
 
 
