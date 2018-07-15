@@ -40,21 +40,21 @@ exports.ffprobe_post = function(req, res, next) {
     var theLlId = path.basename(req.body.filepath, (path.extname(req.body.filepath)));
     console.log("the LL id is " + theLlId);
     getAllData(req.body.filepath)
-      .then(data=>{
-        console.log("\n\nabout to create new object\n\n");
-        replaceDots(data.ffprobeData);
-        var newClip = new Clip({
-          ll_id:theLlId,
-          filename:(path.basename(req.body.filepath)),
-          statData:data.statData,
-          ffprobeData:data.ffprobeData
-        });
-        newClip.save(function(err){if (err) {
-          console.log(err);
-        } else {console.log("saved ok");}});
-        return {filename:(path.basename(req.body.filepath)), statData:data.statData, ffprobeData:data.ffprobeData};
-      })
-      .then(data=>res.send("<pre>"+ JSON.stringify(data, null, 4)+"</pre>"))
+      // .then(data=>{
+      //   console.log("\n\nabout to create new object\n\n");
+      //   replaceDots(data.ffprobeData);
+      //   var newClip = new Clip({
+      //     ll_id:theLlId,
+      //     filename:(path.basename(req.body.filepath)),
+      //     statData:data.statData,
+      //     ffprobeData:data.ffprobeData
+      //   });
+      //   newClip.save(function(err){if (err) {
+      //     console.log(err);
+      //   } else {console.log("saved ok");}});
+      //   return {filename:(path.basename(req.body.filepath)), statData:data.statData, ffprobeData:data.ffprobeData};
+      // })
+      .then(data=>res.render("tools/results", {title: "results", tabTitle: "results", results: JSON.stringify(data, null, 4), errors: errors}))
       // .then(data=>{res.send("got it")})
       .catch(err=>{console.log("there was an error\n\n" + err + "\n\n")});
 };

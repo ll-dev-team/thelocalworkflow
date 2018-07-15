@@ -14,16 +14,9 @@ var Test = require('../../models/test');
 var reDot = /^\./
 var videoFileExtensions = /(\.mov|\.MOV|\.m4v|\.mp4)$/i;
 
-const asyncForEach = async (array, callback) => {
-  for (let index = 0; index < array.length; index++) {
-    await callback(array[index], index, array)
-  }
-}
-
 function replaceDots(obj){
   console.log("starting replace dots");
   for (var p in obj){
-    // console.log("testing " + p);
     if (!obj.hasOwnProperty(p)){
           console.log("not a property, really");
           continue
@@ -39,7 +32,6 @@ function replaceDots(obj){
     else {
     }
   }
-  // console.log(colors.magenta(JSON.stringify(obj)));
   return obj;
 }
 
@@ -49,6 +41,7 @@ async function getAllData(filepath){
   let allData = {};
   allData.filename = path.basename(filepath)
   allData.ll_id = path.basename(filepath, (path.extname(filepath)));
+  allData.shootId = allData.ll_id.split('_')[0] + "_" + allData.ll_id.split('_')[1];
   allData.statData = await statAsync(filepath);
   var tempFfprobeData = JSON.parse(ffprobeSync(filepath));
   allData.ffprobeData = replaceDots(tempFfprobeData);
@@ -60,23 +53,17 @@ async function getAllData(filepath){
 async function populateClips(folderPath){
   mongoose.Promise = global.Promise;
   var mongoDB = process.env.MONGODB_URL;
-  console.log("mongoDB url is " + mongoDB);
   mongoose.connect(mongoDB);
   var db = mongoose.connection;
-  console.log(colors.red("starting on outerloop with" + folderPath));
   await loopOuterFolder(folderPath);
-  console.log("done outer loop");
   db.close();
 }
 
 
 async function loopOuterFolder(folderPath) {
-  console.log("starting loopOuterFolder");
   var shootFolders = fs.readdirSync(folderPath);
-  console.log("shootFolders=" + shootFolders);
   for (let i = 0; i < shootFolders.length; i++) {
       await new Promise((resolve, reject) => {
-        console.log(i);
         var shootFolderPath = path.join(folderPath, shootFolders[i]);
         if (!reDot.test(shootFolders[i]) && fs.statSync(shootFolderPath).isDirectory()){
           var ts = moment().valueOf();
