@@ -11,19 +11,22 @@ const transcoder = require("./tools/workflow_tools/transcoder");
 const gifMachine = require("./tools/workflow_tools/gif_machine");
 const io2s = require("./tools/scripts/io2s").io2s;
 const popFcpxml = require("./tools/scripts/populate_fcpxml");
+const popClips = require("./tools/scripts/populate_clips").populateClips;
 const ffprobetools = require("./tools/workflow_tools/ffprobetools");
 const trelloTools = require("./tools/workflow_tools/trello_tools");
 const timecodeTools = require("./tools/workflow_tools/timecode_tools");
 // var reHidden = /^\./;
 var theDate = new Date;
 require('dotenv').config();
-var mongoDB = process.env.MONGODB_URL;
+
 const colors = require('colors/safe');
-// var mongoDB = process.env.MONGODB_URL_DEV;
+
+// const mongoose = require('mongoose');
+// var mongoDB = process.env.MONGODB_URL;
 // mongoose.connect(mongoDB);
 // var db = mongoose.connection;
-
-// Bind connection to error event (to get notification of connection errors)
+//
+// // Bind connection to error event (to get notification of connection errors)
 // db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 
 function printHelp() {
@@ -62,9 +65,21 @@ if (args.help ||
     }
 
 if (args.test) {
-  var options = ['-v', 'error', '-print_format', 'json', '-select_streams', 'v:0', '-show_entries', 'stream=width,height'];
-  var output = JSON.parse(ffprobetools.ffprobeSyncSimple(args.test, options));
-  console.log(output.streams[0].width + " is the width");
+  popClips(args.test);
+  // const waitFor = (ms) => new Promise(resolve => setTimeout(resolve, ms))
+  // const asyncForEach = async (array, callback) => {
+  //   for (let index = 0; index < array.length; index++) {
+  //     await callback(array[index], index, array)
+  //   }
+  // }
+  // const start = async () => {
+  //   await asyncForEach([1, 2, 3], async (num) => {
+  //     await waitFor(50)
+  //   console.log(num)
+  //   })
+  //   console.log('Done')
+  // }
+  // start()
 }
 
 if (args.logtimecode) {

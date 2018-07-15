@@ -5,10 +5,13 @@ var colors = require('colors/safe');
 
 exports.clip_list = function(req, res, next) {
   Clip.find()
-    .sort([['filename', 'ascending']])
+    .select('_id ll_id filename')
+    .sort([['filename', 'descending']])
+    .limit(10)
     .exec(function (err, list_clips) {
       if (err) { return next(err); }
       //Successful, so render
+      console.log(JSON.stringify(list_clips, null, 4));
       res.render('database/clip/clip_list', { title: 'Clip List',  tabTitle: 'Clip List', clip_list: list_clips});
     })
 };

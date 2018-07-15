@@ -8,7 +8,7 @@ exports.shoot_list = function(req, res, next) {
     Shoot.find({})
       .select('shootId _id theResult.shootPath')
       .sort('shootId')
-      .limit(10)
+      .limit(100)
       .exec(function (err, list_shoots) {
         if (err) { return next(err); }
         console.log(JSON.stringify(list_shoots, null, 4));

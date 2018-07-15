@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+  <html lang="en-US">
+  <head>
+    <% include ../../partials/head %>
+  </head>
+  <body>
+    <% include ../../partials/header.ejs %>
+    <div class="container">
+      <h1><%= title %></h1>
+      <p>
+        Welcome to <%= title %>
+      </p>
+      <p>
+        here are the clips currently in the database.
+      </p>
+      <ul>
+        <% for (i=0; i<clip_list.length; i++ ){ %>
+          <li>
+            <a href =
+              <%= ("/database/clip/" + clip_list[i].ll_id) %>
+            ><%= clip_list[i].filename %></a>
+          </li>
+        <%  }  %>
+      </ul>
+    </div>
+    <% include ../../partials/foot %>

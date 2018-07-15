@@ -109,11 +109,9 @@ router.get('/slates', slate_controller.slate_list);
 
 router.get('/clip/create', clip_controller.clip_create_get);
 
-router.get('/clip/manual', clip_controller.clip_create_manual_get);
-
 router.post('/clip/create', clip_controller.clip_create_post);
 
-router.post('/clip/manual', clip_controller.clip_create_manual_post);
+router.get('/clip/_id/:id', clip_controller.clip_detail_id);
 
 router.get('/clip/:id/delete', clip_controller.clip_delete_get);
 
