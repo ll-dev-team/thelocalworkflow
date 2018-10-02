@@ -25,7 +25,7 @@ function transcode(sourcePath, destinationPath, crfVal, outputWidth, outputHeigh
   }
 );
   console.log("done");
-  var thePayload = 'payload={"channel": "#ll-tests", "username": "theworkflow-bot", "text": "<@marlon>: just transcoded ' + path.basename(sourcePath) + ' and put it here: ' + destinationPath + ' .", "icon_emoji": ":desktop_computer:"}';
+  var thePayload = 'payload={"channel": "#ll-workflow-alerts", "username": "theworkflow-bot", "text": "<@marlon>: just transcoded ' + path.basename(sourcePath) + ' and put it here: ' + destinationPath + ' .", "icon_emoji": ":desktop_computer:"}';
   cp.spawnSync("curl", ['-X', 'POST', '--data-urlencode', thePayload, process.env.SLACK_WEBHOOK_URL]);
   console.log("\n\n");
   // TODO: insert if to copy audio entirely if we have weird channel number or other situation
